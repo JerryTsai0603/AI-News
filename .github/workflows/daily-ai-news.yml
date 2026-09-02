@@ -2,7 +2,7 @@ name: 每日 AI 新聞擷取
 
 on:
   schedule:
-    - cron: "0 22 * * *"
+    - cron: "0 22 * * *"      # UTC 22:00 = 台北時間隔日 06:00
   workflow_dispatch:
 
 permissions:
@@ -20,7 +20,11 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - run: python scraper.py
+      - name: 執行爬蟲與翻譯
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TARGET_LANGS: "zh-TW,en,ja"
+        run: python scraper.py
 
       - name: 提交結果
         run: |
