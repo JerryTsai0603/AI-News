@@ -1,0 +1,62 @@
+{
+ "fetchedAt": "2026-08-21T06:57:28.518027+08:00",
+ "edition": "2026-08-21",
+ "count": 4,
+ "byCamp": {},
+ "items": [
+  {
+   "title": "OpenAI 發表 GPT-5.5，推理延遲降低一半",
+   "source": "The Verge",
+   "url": "https://www.theverge.com/x",
+   "date": "2026-08-21 06:57",
+   "summary": "新版模型在長脈絡推理測試提升 18%。",
+   "models": [
+    "GPT-5"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ]
+  },
+  {
+   "title": "歐盟 AI 法案修正案要求揭露訓練資料來源",
+   "source": "Reuters",
+   "url": "https://reuters.com/y",
+   "date": "2026-08-21 06:57",
+   "summary": "新規預計 2027 年生效，違者最高罰全球營收 3%。",
+   "models": [],
+   "tag": "政策",
+   "camps": [
+    "other"
+   ]
+  },
+  {
+   "title": "Anthropic 推出 Claude 代理工具組",
+   "source": "Anthropic News",
+   "url": "https://anthropic.com/z",
+   "date": "2026-08-21 06:57",
+   "summary": "開放開發者串接多步驟工作流程。",
+   "models": [
+    "Claude"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ]
+  },
+  {
+   "title": "DeepSeek 論文提出新長文本評測基準",
+   "source": "Hacker News",
+   "url": "https://news.ycombinator.com/item?id=1",
+   "date": "2026-08-21 06:57",
+   "summary": "涵蓋 12 種語言、共 4 萬筆測試題。",
+   "models": [
+    "DeepSeek"
+   ],
+   "tag": "研究",
+   "camps": [
+    "cn"
+   ]
+  }
+ ]
+}
