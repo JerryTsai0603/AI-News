@@ -13,7 +13,8 @@
   body{
     margin:0; background:var(--paper); color:var(--ink);
     font-family:"Inter","Helvetica Neue",-apple-system,BlinkMacSystemFont,
-                "PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif;
+                "PingFang TC","Noto Sans TC","Hiragino Sans","Yu Gothic",
+                "Microsoft JhengHei",sans-serif;
     -webkit-font-smoothing:antialiased;
   }
   a{color:inherit;}
@@ -23,61 +24,90 @@
   header.bar{background:var(--ink);color:#fff;}
   .bar-in{display:flex;align-items:flex-end;justify-content:space-between;
           gap:16px;padding-top:22px;padding-bottom:20px;flex-wrap:wrap;}
-  h1{font-size:30px;font-weight:700;letter-spacing:-.02em;margin:6px 0 0;line-height:1.1;}
+  h1{font-size:30px;font-weight:700;letter-spacing:-.02em;margin:6px 0 0;line-height:1.15;}
   .eyebrow{font-size:10px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:#8D97A8;}
-  .eyebrow.dark{color:var(--mute);margin-bottom:10px;}
-  .clock{text-align:right;}
+  .bar-r{display:flex;flex-direction:column;align-items:flex-end;gap:10px;}
   .clock-l{display:block;font-size:10px;letter-spacing:.14em;color:#8D97A8;text-transform:uppercase;}
   .clock-v{font-family:ui-monospace,SFMono-Regular,"Roboto Mono",monospace;
            font-size:22px;font-variant-numeric:tabular-nums;letter-spacing:.04em;}
+  #uiLang{background:#1C2432;color:#fff;border:1px solid #33405480;}
 
   .strip{background:var(--panel);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5;}
   .strip-in{display:flex;align-items:center;justify-content:space-between;
             gap:12px;padding:10px 20px;flex-wrap:wrap;}
   .meta{font-family:ui-monospace,SFMono-Regular,monospace;font-size:12px;
         color:var(--mute);font-variant-numeric:tabular-nums;}
-  .strip-r{display:flex;gap:8px;align-items:center;}
-  select{font-size:12px;padding:7px 8px;border:1px solid var(--line);
+  .strip-r{display:flex;gap:8px;align-items:center;flex-wrap:wrap;}
+  .sortwrap{display:flex;align-items:center;gap:6px;}
+  .sortwrap label{font-size:11px;letter-spacing:.1em;text-transform:uppercase;
+                  color:var(--mute);font-weight:600;}
+  select{font:inherit;font-size:12.5px;padding:7px 9px;border:1px solid var(--line);
          background:#fff;border-radius:2px;color:var(--ink);}
   .btn{background:var(--signal);color:#fff;border:0;border-radius:2px;padding:9px 18px;
-       font-size:13px;font-weight:600;cursor:pointer;letter-spacing:.02em;}
+       font:inherit;font-size:13px;font-weight:600;cursor:pointer;letter-spacing:.02em;}
   .btn:hover:not(:disabled){background:#1F2BD8;}
-  .btn:disabled{background:#9AA3B5;cursor:progress;}
+  .btn:disabled{opacity:.5;cursor:progress;}
   .btn.ghost{background:none;color:var(--mute);border:1px solid var(--line);}
-  .btn.ghost:hover{color:var(--signal);border-color:var(--signal);background:none;}
+  .btn.ghost:hover:not(:disabled){color:var(--signal);border-color:var(--signal);background:none;}
 
   .wrap{padding-top:18px;}
   .msg{border-left:3px solid var(--signal);background:#fff;padding:12px 14px;
        font-size:13px;line-height:1.7;margin-bottom:16px;}
   .msg.bad{border-left-color:#B23A2E;}
 
-  .grid{display:grid;grid-template-columns:236px 1fr;gap:28px;padding-bottom:56px;}
-  .rail{position:sticky;top:60px;align-self:start;}
-  .tally{display:flex;align-items:center;gap:8px;width:100%;background:none;border:0;
-         border-bottom:1px solid var(--line);padding:9px 2px;cursor:pointer;
-         text-align:left;color:var(--ink);font:inherit;}
-  .tally:disabled{opacity:.35;cursor:default;}
-  .tally.on{color:var(--signal);}
-  .t-name{flex:1;font-size:12.5px;font-weight:500;}
-  .t-bar{display:flex;gap:1.5px;}
-  .t-bar i{width:2px;height:11px;background:var(--line);display:block;}
-  .t-bar i.lit{background:currentColor;}
-  .t-n{font-family:ui-monospace,SFMono-Regular,monospace;font-size:12px;
-       width:20px;text-align:right;font-variant-numeric:tabular-nums;}
-  .note{font-size:11.5px;line-height:1.7;color:var(--mute);margin-top:14px;}
+  .grid{display:grid;grid-template-columns:250px 1fr;gap:28px;padding-bottom:56px;}
+  .rail{position:sticky;top:60px;align-self:start;max-height:calc(100vh - 80px);overflow-y:auto;}
+
+  .fhead{display:flex;align-items:baseline;justify-content:space-between;
+         gap:8px;padding-bottom:10px;border-bottom:2px solid var(--ink);margin-bottom:2px;}
+  .clearall{background:none;border:0;padding:0;font:inherit;font-size:11.5px;
+            color:var(--signal);cursor:pointer;text-decoration:underline;}
+  .clearall[hidden]{display:none;}
+
+  details.fg{border-bottom:1px solid var(--line);}
+  details.fg > summary{
+    list-style:none;cursor:pointer;padding:11px 2px;display:flex;
+    align-items:center;gap:6px;font-size:11.5px;font-weight:600;
+    letter-spacing:.12em;text-transform:uppercase;color:var(--mute);}
+  details.fg > summary::-webkit-details-marker{display:none;}
+  details.fg > summary::after{content:"+";margin-left:auto;font-size:14px;
+    font-weight:400;letter-spacing:0;}
+  details.fg[open] > summary::after{content:"–";}
+  details.fg > summary .picked{
+    font-family:ui-monospace,SFMono-Regular,monospace;letter-spacing:0;
+    color:var(--signal);text-transform:none;font-size:11px;}
+  .opts{padding:0 0 10px;display:flex;flex-direction:column;gap:1px;}
+  .opts.scroll{max-height:210px;overflow-y:auto;}
+
+  .opt{display:flex;align-items:center;gap:9px;width:100%;background:none;border:0;
+       padding:6px 2px;cursor:pointer;text-align:left;color:var(--ink);font:inherit;}
+  .opt:disabled{opacity:.32;cursor:default;}
+  .box{width:13px;height:13px;border:1.5px solid var(--line);flex:none;
+       display:flex;align-items:center;justify-content:center;font-size:10px;
+       line-height:1;color:#fff;}
+  .opt[aria-pressed=true] .box{background:var(--signal);border-color:var(--signal);}
+  .opt[aria-pressed=true] .o-name{color:var(--signal);font-weight:600;}
+  .o-name{flex:1;font-size:12.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  .o-n{font-family:ui-monospace,SFMono-Regular,monospace;font-size:11.5px;
+       color:var(--mute);font-variant-numeric:tabular-nums;}
+  .note{font-size:11.5px;line-height:1.7;color:var(--mute);margin:14px 0 0;}
 
   .feed{display:flex;flex-direction:column;gap:12px;}
   .card{background:var(--panel);border:1px solid var(--line);border-radius:2px;padding:16px 18px;}
-  .card-top{display:flex;align-items:center;gap:10px;margin-bottom:8px;flex-wrap:wrap;}
+  .card-top{display:flex;align-items:center;gap:9px;margin-bottom:8px;flex-wrap:wrap;}
   .tag{font-size:10.5px;font-weight:600;border:1px solid;border-radius:2px;
        padding:2px 7px;letter-spacing:.04em;}
   .src{font-family:ui-monospace,SFMono-Regular,monospace;font-size:11.5px;color:var(--mute);}
+  .lang{font-size:10.5px;color:var(--mute);border:1px solid var(--line);
+        border-radius:2px;padding:2px 6px;}
   .card h2{font-size:17px;font-weight:600;line-height:1.5;margin:0;letter-spacing:-.01em;}
   .card h2 a{text-decoration:none;background-image:linear-gradient(currentColor,currentColor);
              background-size:0 1px;background-repeat:no-repeat;background-position:0 100%;
              transition:background-size .2s;}
   .card h2 a:hover{background-size:100% 1px;}
   .sum{font-size:13.5px;line-height:1.75;color:#3A4453;margin:8px 0 0;}
+  .orig{font-size:12px;line-height:1.6;color:var(--mute);margin:8px 0 0;}
+  .orig summary{cursor:pointer;font-size:11px;letter-spacing:.06em;text-transform:uppercase;}
   .card-btm{display:flex;align-items:center;justify-content:space-between;
             gap:10px;margin-top:12px;flex-wrap:wrap;}
   .models{display:flex;gap:5px;flex-wrap:wrap;}
@@ -88,11 +118,15 @@
   .empty p{margin:0;font-size:15px;font-weight:600;}
   .empty .sub{margin-top:6px;font-size:13px;font-weight:400;color:var(--mute);}
 
+  .ftoggle{display:none;}
   @media (max-width:760px){
-    .grid{grid-template-columns:1fr;gap:20px;}
-    .rail{position:static;}
+    .grid{grid-template-columns:1fr;gap:16px;}
+    .rail{position:static;max-height:none;overflow:visible;}
+    .ftoggle{display:block;width:100%;margin-bottom:10px;}
+    .rail.collapsed .fpanel{display:none;}
     h1{font-size:24px;}
     .clock-v{font-size:18px;}
+    .bar-r{align-items:flex-start;}
   }
   @media (prefers-reduced-motion:reduce){ *{transition:none !important;} }
 </style>
@@ -102,23 +136,28 @@
 <header class="bar">
   <div class="bar-in">
     <div>
-      <div class="eyebrow">每日 06:00 · AI 語言模型</div>
-      <h1>模型快訊監測台</h1>
+      <div class="eyebrow" id="tEyebrow"></div>
+      <h1 id="tTitle"></h1>
     </div>
-    <div class="clock">
-      <span class="clock-l">距下次自動更新</span>
-      <span class="clock-v" id="clock">--:--:--</span>
+    <div class="bar-r">
+      <select id="uiLang" aria-label="Display language"></select>
+      <div style="text-align:right">
+        <span class="clock-l" id="tNext"></span>
+        <span class="clock-v" id="clock">--:--:--</span>
+      </div>
     </div>
   </div>
 </header>
 
 <div class="strip">
   <div class="strip-in">
-    <span class="meta" id="status">載入中…</span>
+    <span class="meta" id="status"></span>
     <div class="strip-r">
-      <select id="editions" hidden></select>
-      <button class="btn ghost" id="rescrape" hidden>重新爬取</button>
-      <button class="btn" id="reload">立即更新</button>
+      <div class="sortwrap">
+        <label for="sort" id="tSort"></label>
+        <select id="sort"></select>
+      </div>
+      <button class="btn" id="reload"></button>
     </div>
   </div>
 </div>
@@ -126,185 +165,428 @@
 <div class="wrap"><div id="msg"></div></div>
 
 <main class="wrap grid">
-  <aside class="rail">
-    <div class="eyebrow dark">聲量刻度</div>
-    <div id="rail"></div>
-    <p class="note">
-      資料由 GitHub Actions 每日台北時間 06:00 自動擷取並提交。
-      「立即更新」重新讀取最新一期;「重新爬取」會即時觸發一次伺服器端擷取。
-    </p>
+  <aside class="rail collapsed" id="rail">
+    <button class="btn ghost ftoggle" id="ftoggle"></button>
+    <div class="fpanel">
+      <div class="fhead">
+        <span class="eyebrow" style="color:var(--ink)" id="tFilter"></span>
+        <button class="clearall" id="clearAll" hidden></button>
+      </div>
+      <div id="groups"></div>
+      <p class="note" id="tNote"></p>
+    </div>
   </aside>
   <section class="feed" id="feed"></section>
 </main>
 
 <script>
-const CAMPS = [
-  ["openai",    "OpenAI · GPT"],
-  ["anthropic", "Anthropic · Claude"],
-  ["google",    "Google · Gemini"],
-  ["meta",      "Meta · Llama"],
-  ["cn",        "中國模型"],
-  ["other",     "其他業者"],
-];
-const TAGS = {
+/* ================================================================== */
+/*  介面語言字典                                                       */
+/*  要加語言:在這裡多加一組,並在爬蟲的 TARGET_LANGS 加上同一個代碼。  */
+/* ================================================================== */
+
+const UI = {
+  "zh-TW": {
+    name: "繁體中文", htmlLang: "zh-Hant",
+    eyebrow: "每日 06:00 · AI 語言模型", title: "模型快訊監測台",
+    next: "距下次自動更新", sort: "排序", reload: "立即更新",
+    filter: "篩選", clearAll: "清除全部", filterBtn: "篩選條件", filterHide: "收起篩選",
+    sorts: { new: "時間 · 最新在前", old: "時間 · 最舊在前",
+             source: "來源名稱", tag: "主題分類", title: "標題" },
+    groups: { date: "日期", camp: "模型", lang: "原文語言",
+              tag: "主題", source: "資訊來源" },
+    picked: (n) => `已選 ${n}`,
+    status: (a, b, f, e) => `${a} / ${b} 則` +
+      (f ? ` · ${f} 個篩選條件` : "") + ` · 已載入 ${e} 期`,
+    tags: { "產品發表": "產品發表", "研究": "研究", "商業": "商業",
+            "政策": "政策", "安全": "安全" },
+    langs: { zh: "中文", en: "英文", ja: "日文", ko: "韓文" },
+    camps: { openai: "OpenAI · GPT", anthropic: "Anthropic · Claude",
+             google: "Google · Gemini", meta: "Meta · Llama",
+             cn: "中國模型", other: "其他業者" },
+    open: "開啟原文 ↗", showOriginal: "顯示原文", untranslated: "原文",
+    emptyTitle: "沒有符合這些條件的新聞。",
+    emptyHint: "試著取消幾個條件,或按「清除全部」。",
+    emptyNoData: "資料可能還沒擷取。",
+    note: "每一組都可以複選,同一組內是「或」,不同組之間是「且」。括號裡的數字會隨其他條件即時變動。",
+    loading: (d) => `正在載入 ${d} 期…`,
+    errLoad: (m) => `讀不到 data/news.json（${m}）。若這是第一次部署,先到 Actions 頁面手動跑一次擷取。`,
+    errArchive: (d, m) => `讀不到 ${d} 期的存檔（${m}）。`,
+    errRefresh: (m) => `更新失敗:${m}`,
+    reloading: "讀取中…",
+  },
+  "en": {
+    name: "English", htmlLang: "en",
+    eyebrow: "Daily 06:00 · AI language models", title: "Model Newswire",
+    next: "Next auto-update in", sort: "Sort", reload: "Refresh",
+    filter: "Filters", clearAll: "Clear all", filterBtn: "Filters", filterHide: "Hide filters",
+    sorts: { new: "Newest first", old: "Oldest first",
+             source: "Source name", tag: "Topic", title: "Headline" },
+    groups: { date: "Date", camp: "Model", lang: "Original language",
+              tag: "Topic", source: "Source" },
+    picked: (n) => `${n} selected`,
+    status: (a, b, f, e) => `${a} of ${b} stories` +
+      (f ? ` · ${f} filters` : "") + ` · ${e} ${e === 1 ? "edition" : "editions"} loaded`,
+    tags: { "產品發表": "Product", "研究": "Research", "商業": "Business",
+            "政策": "Policy", "安全": "Safety" },
+    langs: { zh: "Chinese", en: "English", ja: "Japanese", ko: "Korean" },
+    camps: { openai: "OpenAI · GPT", anthropic: "Anthropic · Claude",
+             google: "Google · Gemini", meta: "Meta · Llama",
+             cn: "Chinese models", other: "Others" },
+    open: "Read original ↗", showOriginal: "Show original", untranslated: "original",
+    emptyTitle: "No stories match these filters.",
+    emptyHint: "Try removing a filter, or clear them all.",
+    emptyNoData: "No data has been scraped yet.",
+    note: "Each group allows multiple choices. Within a group the options combine with OR; across groups with AND. Counts update as you filter.",
+    loading: (d) => `Loading edition ${d}…`,
+    errLoad: (m) => `Could not read data/news.json (${m}). On a fresh deploy, run the scrape workflow once from the Actions tab.`,
+    errArchive: (d, m) => `Could not read the archive for ${d} (${m}).`,
+    errRefresh: (m) => `Refresh failed: ${m}`,
+    reloading: "Loading…",
+  },
+  "ja": {
+    name: "日本語", htmlLang: "ja",
+    eyebrow: "毎日 06:00 · AI言語モデル", title: "モデル速報",
+    next: "次回の自動更新まで", sort: "並び順", reload: "更新",
+    filter: "絞り込み", clearAll: "すべて解除", filterBtn: "絞り込み", filterHide: "絞り込みを閉じる",
+    sorts: { new: "新しい順", old: "古い順",
+             source: "ソース名", tag: "トピック", title: "見出し" },
+    groups: { date: "日付", camp: "モデル", lang: "原文の言語",
+              tag: "トピック", source: "情報ソース" },
+    picked: (n) => `${n}件選択`,
+    status: (a, b, f, e) => `${b}件中 ${a}件` +
+      (f ? ` · 絞り込み${f}件` : "") + ` · ${e}版を読み込み`,
+    tags: { "產品發表": "製品発表", "研究": "研究", "商業": "ビジネス",
+            "政策": "政策", "安全": "安全" },
+    langs: { zh: "中国語", en: "英語", ja: "日本語", ko: "韓国語" },
+    camps: { openai: "OpenAI · GPT", anthropic: "Anthropic · Claude",
+             google: "Google · Gemini", meta: "Meta · Llama",
+             cn: "中国系モデル", other: "その他" },
+    open: "原文を開く ↗", showOriginal: "原文を表示", untranslated: "原文",
+    emptyTitle: "条件に合うニュースがありません。",
+    emptyHint: "条件を減らすか、すべて解除してください。",
+    emptyNoData: "まだデータが取得されていません。",
+    note: "各グループは複数選択できます。同じグループ内はOR、グループ間はANDで結合されます。件数は他の条件に応じて変わります。",
+    loading: (d) => `${d}版を読み込み中…`,
+    errLoad: (m) => `data/news.json を読み込めません（${m}）。初回デプロイ時は Actions タブから一度実行してください。`,
+    errArchive: (d, m) => `${d}版のアーカイブを読み込めません（${m}）。`,
+    errRefresh: (m) => `更新に失敗しました:${m}`,
+    reloading: "読み込み中…",
+  },
+};
+
+const CAMP_IDS = ["openai", "anthropic", "google", "meta", "cn", "other"];
+const TAG_KEYS = ["產品發表", "研究", "商業", "政策", "安全"];
+const TAG_COLORS = {
   "產品發表":"#2D3BFF", "研究":"#0F6E5C", "商業":"#8A5A00",
   "政策":"#6B3FA0", "安全":"#B23A2E",
 };
 
-// 選填：填入你的 repo（例如 "yourname/ai-news"）即可啟用「重新爬取」按鈕。
-// 需搭配一組有 actions:write 權限的 token，僅建議在私有部署使用。
-const REPO = "";
-const WORKFLOW = "daily-ai-news.yml";
-
-let data = { items: [] }, filter = "all";
 const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g,
+  (c) => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
 
-/* ---- 倒數到下一個 06:00 ---- */
+/* ================================================================== */
+/*  狀態                                                              */
+/* ================================================================== */
+
+let cur = "zh-TW";                 // 目前顯示語言
+let editions = [], items = [], sortBy = "new";
+const loaded = new Map();
+const F = { date:new Set(), camp:new Set(), lang:new Set(), tag:new Set(), source:new Set() };
+
+const T = () => UI[cur] || UI["zh-TW"];
+const say = (t, k = "") => { $("msg").innerHTML = t ? `<div class="msg ${k}">${t}</div>` : ""; };
+
+function savePref(v) { try { localStorage.setItem("uiLang", v); } catch {} }
+function loadPref() {
+  try { const v = localStorage.getItem("uiLang"); if (v && UI[v]) return v; } catch {}
+  const nav = (navigator.language || "").toLowerCase();
+  if (nav.startsWith("ja")) return "ja";
+  if (nav.startsWith("zh")) return "zh-TW";
+  if (nav.startsWith("en")) return "en";
+  return "zh-TW";
+}
+
+/* ================================================================== */
+/*  取字：優先用該語言的翻譯,沒有就退回原文                            */
+/* ================================================================== */
+
+function field(it, key) {
+  const t = it.i18n && it.i18n[cur];
+  if (t && t[key]) return t[key];
+  return it[key] || "";
+}
+const isTranslated = (it) =>
+  !!(it.i18n && it.i18n[cur] && it.i18n[cur].title);
+
+function langOf(it) {
+  if (it.lang) return it.lang;
+  const t = String(it.title || "");
+  if (/[\u3040-\u30ff]/.test(t)) return "ja";
+  if (/[\uac00-\ud7af]/.test(t)) return "ko";
+  const cjk = (t.match(/[\u4e00-\u9fff]/g) || []).length;
+  return cjk / (t.replace(/\s/g, "").length || 1) > 0.15 ? "zh" : "en";
+}
+
+const timeOf = (it) => {
+  const ms = Date.parse(String(it.publishedAt || it.date || "").replace(" ", "T"));
+  return Number.isNaN(ms) ? 0 : ms;
+};
+
+/* ================================================================== */
+/*  倒數                                                              */
+/* ================================================================== */
+
 function tick() {
-  const now = new Date();
-  const t = new Date(now);
+  const now = new Date(), t = new Date();
   t.setHours(6, 0, 0, 0);
   if (now >= t) t.setDate(t.getDate() + 1);
-  let s = Math.max(0, Math.floor((t - now) / 1000));
+  const s = Math.max(0, Math.floor((t - now) / 1000));
   const p = (n) => String(n).padStart(2, "0");
-  $("clock").textContent =
-    `${p(Math.floor(s/3600))}:${p(Math.floor(s%3600/60))}:${p(s%60)}`;
+  $("clock").textContent = `${p(s / 3600 | 0)}:${p(s % 3600 / 60 | 0)}:${p(s % 60)}`;
 }
 setInterval(tick, 1000); tick();
 
-function say(text, bad) {
-  $("msg").innerHTML = text ? `<div class="msg${bad ? " bad" : ""}">${text}</div>` : "";
+/* ================================================================== */
+/*  資料                                                              */
+/* ================================================================== */
+
+async function grab(path) {
+  const res = await fetch(`${path}?t=${Date.now()}`, { cache: "no-store" });
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  return res.json();
 }
 
-/* ---- 載入資料 ---- */
-async function load(path = "data/news.json") {
-  $("reload").disabled = true;
-  $("reload").textContent = "讀取中…";
-  try {
-    const res = await fetch(`${path}?t=${Date.now()}`, { cache: "no-store" });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    data = await res.json();
-    say("");
-    render();
-  } catch (err) {
-    say(`讀不到 ${path}。若是第一次部署，先到 Actions 頁面手動跑一次「每日 AI 新聞擷取」產生資料。（${err.message}）`, true);
-  } finally {
-    $("reload").disabled = false;
-    $("reload").textContent = "立即更新";
+async function loadEdition(edition) {
+  if (loaded.has(edition)) return;
+  const p = await grab(`data/archive/${edition}.json`);
+  loaded.set(edition, (p.items || []).map((it) => ({ ...it, edition })));
+  merge();
+}
+
+function merge() {
+  const seen = new Set(); items = [];
+  for (const list of loaded.values()) {
+    for (const it of list) {
+      const key = String(it.url || "").split("?")[0];
+      if (key && !seen.has(key)) { seen.add(key); items.push(it); }
+    }
   }
 }
 
-async function loadEditions() {
+async function boot() {
   try {
-    const res = await fetch(`data/index.json?t=${Date.now()}`, { cache: "no-store" });
-    const list = (await res.json()).editions || [];
-    if (list.length < 2) return;
-    const sel = $("editions");
-    sel.innerHTML = list.map((d) => `<option value="${d}">${d} 期</option>`).join("");
-    sel.hidden = false;
-    sel.onchange = () => { filter = "all"; load(`data/archive/${sel.value}.json`); };
-  } catch { /* 還沒有存檔就不顯示 */ }
+    const latest = await grab("data/news.json");
+    const c = latest.edition;
+    loaded.set(c, (latest.items || []).map((it) => ({ ...it, edition: c })));
+    F.date.add(c);
+    try { editions = ((await grab("data/index.json")).editions || []).slice(0, 30); }
+    catch { editions = []; }
+    if (!editions.includes(c)) editions.unshift(c);
+    merge(); say(""); renderAll();
+  } catch (err) {
+    say(esc(T().errLoad(err.message)), "bad");
+  }
 }
 
-/* ---- 觸發伺服器端重新爬取 ---- */
-if (REPO) {
-  $("rescrape").hidden = false;
-  $("rescrape").onclick = async () => {
-    let token = sessionStorage.getItem("gh_token");
-    if (!token) {
-      token = prompt("貼上具 actions:write 權限的 GitHub token（只存在本次瀏覽階段）：");
-      if (!token) return;
-      sessionStorage.setItem("gh_token", token);
-    }
-    $("rescrape").disabled = true;
-    try {
-      const res = await fetch(
-        `https://api.github.com/repos/${REPO}/actions/workflows/${WORKFLOW}/dispatches`,
-        {
-          method: "POST",
-          headers: {
-            Authorization: `Bearer ${token}`,
-            Accept: "application/vnd.github+json",
-          },
-          body: JSON.stringify({ ref: "main" }),
-        }
-      );
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      say("已送出爬取要求。約 1–2 分鐘後按「立即更新」取回新資料。");
-    } catch (err) {
-      sessionStorage.removeItem("gh_token");
-      say(`觸發失敗:${err.message}。確認 token 權限與 repo 名稱後再試。`, true);
-    } finally {
-      $("rescrape").disabled = false;
-    }
-  };
+/* ================================================================== */
+/*  篩選                                                              */
+/* ================================================================== */
+
+const TESTS = {
+  date:   (it, s) => s.has(it.edition),
+  camp:   (it, s) => (it.camps || ["other"]).some((c) => s.has(c)),
+  lang:   (it, s) => s.has(langOf(it)),
+  tag:    (it, s) => s.has(it.tag),
+  source: (it, s) => s.has(it.source),
+};
+
+function pass(it, skip) {
+  for (const k of Object.keys(F)) {
+    if (k === skip) continue;
+    if (F[k].size && !TESTS[k](it, F[k])) return false;
+  }
+  return true;
+}
+const countFor = (g, v) =>
+  items.filter((it) => pass(it, g) && TESTS[g](it, new Set([v]))).length;
+
+function results() {
+  const cmp = {
+    new:    (a, b) => timeOf(b) - timeOf(a),
+    old:    (a, b) => timeOf(a) - timeOf(b),
+    source: (a, b) => String(a.source).localeCompare(String(b.source), cur) || timeOf(b) - timeOf(a),
+    tag:    (a, b) => String(T().tags[a.tag] || a.tag)
+                        .localeCompare(String(T().tags[b.tag] || b.tag), cur) || timeOf(b) - timeOf(a),
+    title:  (a, b) => field(a, "title").localeCompare(field(b, "title"), cur),
+  }[sortBy];
+  return items.filter((it) => pass(it, null)).sort(cmp);
+}
+const activeCount = () => Object.values(F).reduce((n, s) => n + s.size, 0);
+
+/* ================================================================== */
+/*  介面                                                              */
+/* ================================================================== */
+
+function renderChrome() {
+  const t = T();
+  document.documentElement.lang = t.htmlLang;
+  document.title = t.title;
+  $("tEyebrow").textContent = t.eyebrow;
+  $("tTitle").textContent = t.title;
+  $("tNext").textContent = t.next;
+  $("tSort").textContent = t.sort;
+  $("tFilter").textContent = t.filter;
+  $("tNote").textContent = t.note;
+  $("clearAll").textContent = t.clearAll;
+  $("reload").textContent = t.reload;
+  $("ftoggle").textContent = $("rail").classList.contains("collapsed")
+    ? t.filterBtn : t.filterHide;
+
+  $("uiLang").innerHTML = Object.entries(UI)
+    .map(([code, u]) => `<option value="${code}" ${code === cur ? "selected" : ""}>${u.name}</option>`)
+    .join("");
+  $("sort").innerHTML = Object.entries(t.sorts)
+    .map(([k, label]) => `<option value="${k}" ${k === sortBy ? "selected" : ""}>${esc(label)}</option>`)
+    .join("");
 }
 
-/* ---- 畫面 ---- */
-function render() {
-  const items = data.items || [];
-  const stamp = data.fetchedAt ? data.fetchedAt.slice(0, 16).replace("T", " ") : "—";
-  $("status").textContent = `${data.edition || "—"} 期 · 最後擷取 ${stamp} · ${items.length} 則`;
+function groupDefs() {
+  const t = T();
+  const sources = [...new Set(items.map((i) => i.source).filter(Boolean))]
+    .sort((a, b) => String(a).localeCompare(String(b), cur));
+  return [
+    { key: "date",   open: true,  opts: editions.map((d) => [d, d]) },
+    { key: "camp",   open: true,  opts: CAMP_IDS.map((c) => [c, t.camps[c]]) },
+    { key: "lang",   open: true,  opts: ["zh", "en", "ja", "ko"].map((l) => [l, t.langs[l]]) },
+    { key: "tag",    open: false, opts: TAG_KEYS.map((k) => [k, t.tags[k]]) },
+    { key: "source", open: false, scroll: true, opts: sources.map((s) => [s, s]) },
+  ];
+}
 
-  const counts = CAMPS.map(([id, label]) => ({
-    id, label, n: items.filter((i) => (i.camps || []).includes(id)).length,
-  }));
-  const peak = Math.max(1, ...counts.map((c) => c.n));
+function renderGroups() {
+  const t = T();
+  const openNow = new Set(
+    [...document.querySelectorAll("details.fg[open]")].map((d) => d.dataset.g));
+  const first = !$("groups").children.length;
 
-  $("rail").innerHTML =
-    `<button class="tally ${filter === "all" ? "on" : ""}" data-c="all">
-       <span class="t-name">全部</span><span class="t-n">${items.length}</span>
-     </button>` +
-    counts.map((c) => `
-      <button class="tally ${filter === c.id ? "on" : ""}" data-c="${c.id}" ${c.n ? "" : "disabled"}>
-        <span class="t-name">${c.label}</span>
-        <span class="t-bar" aria-hidden="true">${
-          Array.from({ length: 12 }, (_, i) =>
-            `<i class="${i < Math.round(c.n / peak * 12) ? "lit" : ""}"></i>`).join("")
-        }</span>
-        <span class="t-n">${c.n}</span>
-      </button>`).join("");
+  $("groups").innerHTML = groupDefs().map((g) => {
+    const picked = F[g.key].size;
+    const open = first ? g.open : openNow.has(g.key);
+    return `<details class="fg" data-g="${g.key}" ${open ? "open" : ""}>
+      <summary>${esc(t.groups[g.key])}${picked ? `<span class="picked">${esc(t.picked(picked))}</span>` : ""}</summary>
+      <div class="opts${g.scroll ? " scroll" : ""}">
+        ${g.opts.map(([val, name]) => {
+          const on = F[g.key].has(val);
+          const n = countFor(g.key, val);
+          const dim = !on && n === 0 && g.key !== "date";
+          return `<button class="opt" aria-pressed="${on}" ${dim ? "disabled" : ""}
+                    data-g="${g.key}" data-v="${esc(val)}" title="${esc(name)}">
+            <span class="box" aria-hidden="true">${on ? "✓" : ""}</span>
+            <span class="o-name">${esc(name)}</span>
+            <span class="o-n">${n}</span>
+          </button>`;
+        }).join("")}
+      </div>
+    </details>`;
+  }).join("");
 
-  $("rail").querySelectorAll(".tally").forEach((b) => {
-    b.onclick = () => {
-      const c = b.dataset.c;
-      filter = (c === filter || c === "all") ? "all" : c;
-      render();
-    };
+  $("groups").querySelectorAll(".opt").forEach((b) => {
+    b.onclick = () => toggle(b.dataset.g, b.dataset.v);
   });
+  $("clearAll").hidden = activeCount() === 0;
+}
 
-  const shown = filter === "all"
-    ? items
-    : items.filter((i) => (i.camps || []).includes(filter));
+async function toggle(group, value) {
+  const set = F[group], on = !set.has(value);
+  on ? set.add(value) : set.delete(value);
+  if (group === "date" && on && !loaded.has(value)) {
+    say(esc(T().loading(value)));
+    try { await loadEdition(value); say(""); }
+    catch (err) { set.delete(value); say(esc(T().errArchive(value, err.message)), "bad"); }
+  }
+  renderAll();
+}
 
-  $("feed").innerHTML = shown.length ? shown.map((i) => {
-    const color = TAGS[i.tag] || "#6A7484";
+function renderFeed() {
+  const t = T(), shown = results(), n = activeCount();
+  $("status").textContent = t.status(shown.length, items.length, n, loaded.size);
+
+  if (!shown.length) {
+    $("feed").innerHTML = `<div class="empty">
+      <p>${esc(t.emptyTitle)}</p>
+      <p class="sub">${esc(n ? t.emptyHint : t.emptyNoData)}</p></div>`;
+    return;
+  }
+
+  $("feed").innerHTML = shown.map((i) => {
+    const color = TAG_COLORS[i.tag] || "#6A7484";
+    const when = String(i.date || "").slice(0, 16).replace("T", " ");
+    const srcLang = t.langs[langOf(i)] || langOf(i);
+    const done = isTranslated(i);
+    const title = field(i, "title"), summary = field(i, "summary");
     return `<article class="card">
       <div class="card-top">
-        <span class="tag" style="color:${color};border-color:${color}">${i.tag || ""}</span>
-        <span class="src">${esc(i.source)} · ${esc(i.date)}</span>
+        <span class="tag" style="color:${color};border-color:${color}">${esc(t.tags[i.tag] || i.tag || "")}</span>
+        <span class="src">${esc(i.source)} · ${esc(when)}</span>
+        <span class="lang">${esc(srcLang)}${done ? "" : " · " + esc(t.untranslated)}</span>
       </div>
-      <h2><a href="${esc(i.url)}" target="_blank" rel="noopener noreferrer">${esc(i.title)}</a></h2>
-      ${i.summary ? `<p class="sum">${esc(i.summary)}</p>` : ""}
+      <h2><a href="${esc(i.url)}" target="_blank" rel="noopener noreferrer">${esc(title)}</a></h2>
+      ${summary ? `<p class="sum">${esc(summary)}</p>` : ""}
+      ${done && i.title !== title ? `<details class="orig">
+        <summary>${esc(t.showOriginal)}</summary>
+        <div style="margin-top:6px">${esc(i.title)}${i.summary ? "<br>" + esc(i.summary) : ""}</div>
+      </details>` : ""}
       <div class="card-btm">
         <div class="models">${(i.models || []).map((m) => `<span class="m">${esc(m)}</span>`).join("")}</div>
-        <a class="go" href="${esc(i.url)}" target="_blank" rel="noopener noreferrer">開啟原文 ↗</a>
+        <a class="go" href="${esc(i.url)}" target="_blank" rel="noopener noreferrer">${esc(t.open)}</a>
       </div>
     </article>`;
-  }).join("") : `<div class="empty">
-      <p>這個篩選條件下沒有新聞。</p>
-      <p class="sub">點左側「全部」看完整清單。</p>
-    </div>`;
+  }).join("");
 }
 
-function esc(s) {
-  return String(s ?? "").replace(/[&<>"']/g,
-    (c) => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
-}
+function renderAll() { renderChrome(); renderGroups(); renderFeed(); }
 
-$("reload").onclick = () => load();
-loadEditions();
-load();
+/* ================================================================== */
+/*  事件                                                              */
+/* ================================================================== */
+
+$("uiLang").onchange = () => { cur = $("uiLang").value; savePref(cur); renderAll(); };
+$("sort").onchange = () => { sortBy = $("sort").value; renderFeed(); };
+$("clearAll").onclick = () => { Object.values(F).forEach((s) => s.clear()); renderAll(); };
+$("ftoggle").onclick = () => {
+  $("rail").classList.toggle("collapsed");
+  $("ftoggle").textContent = $("rail").classList.contains("collapsed")
+    ? T().filterBtn : T().filterHide;
+};
+$("reload").onclick = async () => {
+  const t = T();
+  $("reload").disabled = true; $("reload").textContent = t.reloading;
+  const keep = new Set(F.date);
+  loaded.clear(); F.date.clear();
+  try {
+    const latest = await grab("data/news.json");
+    const c = latest.edition;
+    loaded.set(c, (latest.items || []).map((it) => ({ ...it, edition: c })));
+    for (const d of keep) {
+      if (d === c) continue;
+      try { await loadEdition(d); F.date.add(d); } catch {}
+    }
+    F.date.add(c);
+    if (!editions.includes(c)) editions.unshift(c);
+    merge(); say(""); renderAll();
+  } catch (err) {
+    say(esc(t.errRefresh(err.message)), "bad");
+  } finally {
+    $("reload").disabled = false; $("reload").textContent = T().reload;
+  }
+};
+
+cur = loadPref();
+if (window.innerWidth > 760) $("rail").classList.remove("collapsed");
+renderChrome();
+boot();
 </script>
 </body>
 </html>
