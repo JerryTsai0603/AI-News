@@ -84,6 +84,16 @@ TAG_RULES = [
     ("產品發表", []),  # 預設
 ]
 
+# 要產生翻譯的語言。改這一行就能增減。
+TARGET_LANGS = [x.strip() for x in
+                os.environ.get("TARGET_LANGS", "zh-TW,en,ja").split(",") if x.strip()]
+
+LANG_NAMES = {
+    "zh-TW": "繁體中文", "zh-CN": "简体中文", "en": "English",
+    "ja": "日本語", "ko": "한국어", "es": "Español", "fr": "Français",
+    "de": "Deutsch", "vi": "Tiếng Việt", "th": "ไทย",
+}
+
 MODEL_NAMES = [
     "GPT-5", "GPT-4", "ChatGPT", "Sora", "Claude", "Gemini", "Llama", "Qwen",
     "DeepSeek", "Mistral", "Grok", "Copilot", "Kimi", "Phi", "Command R",
@@ -300,6 +310,17 @@ def is_relevant(item: dict) -> bool:
     return bool(KEEP_PATTERN.search(f"{item['title']} {item.get('summary','')}"))
 
 
+def detect_lang(text: str) -> str:
+    """粗略判斷原文語言：有假名視為日文，中日文字佔比高視為中文，其餘英文。"""
+    if re.search(r"[\u3040-\u30ff]", text):
+        return "ja"
+    if re.search(r"[\uac00-\ud7af]", text):
+        return "ko"
+    cjk = len(re.findall(r"[\u4e00-\u9fff]", text))
+    dense = len(re.sub(r"\s", "", text)) or 1
+    return "zh" if cjk / dense > 0.15 else "en"
+
+
 def classify(item: dict) -> dict:
     hay = f"{item['title']} {item.get('summary','')}".lower()
 
@@ -312,6 +333,7 @@ def classify(item: dict) -> dict:
             break
 
     item["models"] = [m for m in MODEL_NAMES if m.lower() in hay][:4]
+    item["lang"] = detect_lang(item["title"])
     return item
 
 
@@ -373,6 +395,84 @@ def add_summaries(items: list[dict]) -> None:
             log(f"  ✗ 摘要失敗：{exc}")
 
 
+# ---------------------------------------------------------------- 翻譯
+
+def call_claude(prompt: str, key: str, max_tokens: int = 4000) -> str:
+    r = requests.post(
+        "https://api.anthropic.com/v1/messages",
+        headers={
+            "x-api-key": key,
+            "anthropic-version": "2023-06-01",
+            "content-type": "application/json",
+        },
+        json={
+            "model": "claude-haiku-4-5-20251001",
+            "max_tokens": max_tokens,
+            "messages": [{"role": "user", "content": prompt}],
+        },
+        timeout=120,
+    )
+    r.raise_for_status()
+    return "".join(b.get("text", "") for b in r.json().get("content", []))
+
+
+def add_translations(items: list[dict]) -> None:
+    """為每一則新聞產生各語言版本，存進 item['i18n']。沒有金鑰就整段跳過。"""
+    key = os.environ.get("ANTHROPIC_API_KEY")
+    for it in items:
+        it.setdefault("i18n", {})
+
+    if not key:
+        log("未設定 ANTHROPIC_API_KEY，略過翻譯（網頁會顯示原文）")
+        return
+
+    for lang in TARGET_LANGS:
+        name = LANG_NAMES.get(lang, lang)
+        base = lang.split("-")[0]
+
+        # 原文已是該語言就直接沿用，不浪費 token
+        todo = []
+        for idx, it in enumerate(items):
+            if it.get("lang") == base:
+                it["i18n"][lang] = {"title": it["title"], "summary": it.get("summary", "")}
+            else:
+                todo.append(idx)
+
+        if not todo:
+            log(f"  {name}：全部為原文，免翻譯")
+            continue
+
+        done = 0
+        for start in range(0, len(todo), 15):
+            batch = todo[start:start + 15]
+            payload = [{"i": i, "t": items[i]["title"],
+                        "s": (items[i].get("summary") or "")[:200]} for i in batch]
+            prompt = (
+                f"把下列新聞標題與摘要翻譯成{name}。\n"
+                "要求：\n"
+                "- 產品名、公司名、模型代號（GPT-5、Claude、Gemini 等）保留原文不譯。\n"
+                "- 標題譯得像新聞標題，簡潔有力，不要加標點以外的裝飾。\n"
+                "- 摘要控制在 60 字以內；原本沒有摘要就回傳空字串。\n"
+                "- 只輸出 JSON 陣列，格式 [{\"i\":0,\"t\":\"標題\",\"s\":\"摘要\"}]，"
+                "不要任何說明文字或 markdown 標記。\n\n"
+                + json.dumps(payload, ensure_ascii=False)
+            )
+            try:
+                text = call_claude(prompt, key)
+                text = text[text.find("["): text.rfind("]") + 1]
+                for row in json.loads(text):
+                    i = row.get("i")
+                    if isinstance(i, int) and 0 <= i < len(items) and row.get("t"):
+                        items[i]["i18n"][lang] = {
+                            "title": row["t"], "summary": row.get("s", "")}
+                        done += 1
+            except Exception as exc:
+                log(f"  ✗ {name} 第 {start // 15 + 1} 批失敗：{exc}")
+            time.sleep(0.5)
+
+        log(f"  ✓ {name}：翻譯 {done}/{len(todo)} 則")
+
+
 # ---------------------------------------------------------------- 主流程
 
 def main() -> int:
@@ -397,11 +497,13 @@ def main() -> int:
     for it in items:
         classify(it)
     add_summaries(items)
+    add_translations(items)
 
     payload = {
         "fetchedAt": started.isoformat(),
         "edition": started.strftime("%Y-%m-%d"),
         "count": len(items),
+        "languages": TARGET_LANGS,
         "byCamp": {
             cid: sum(1 for i in items if cid in i["camps"]) for cid, _l, _k in CAMPS
         },
@@ -415,6 +517,8 @@ def main() -> int:
             "models": i.get("models", []),
             "tag": i.get("tag", "產品發表"),
             "camps": i["camps"],
+            "lang": i.get("lang", "en"),
+            "i18n": i.get("i18n", {}),
         } for i in items],
     }
 
