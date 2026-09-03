@@ -165,6 +165,25 @@ SPARK_FEEDS = [
     ("Engadget", "https://www.engadget.com/rss.xml"),
 ]
 
+# 這些是各品牌的新聞室與產品頁。抓不到的會在日誌標明並跳過，
+# 想換網址直接改這裡即可（有些站是 JS 動態產生，靜態抓取會拿不到內容）。
+SPARK_PRESS_FEEDS = [
+    ("NVIDIA Newsroom", "https://nvidianews.nvidia.com/releases.xml"),
+    ("Microsoft News", "https://news.microsoft.com/feed/"),
+    ("Lenovo StoryHub", "https://news.lenovo.com/feed/"),
+    ("Acer Newsroom", "https://news.acer.com/feed"),
+]
+
+SPARK_PRESS_PAGES = [
+    ("ASUS Press", "https://press.asus.com/news/press-releases/"),
+    ("HP Press", "https://press.hp.com/us/en/press-releases.html"),
+    ("Dell Newsroom", "https://www.dell.com/en-us/dt/corporate/newsroom/index.htm"),
+    ("MSI News", "https://www.msi.com/news"),
+    ("GIGABYTE Press", "https://www.gigabyte.com/Press/News"),
+    ("NVIDIA DGX Spark", "https://www.nvidia.com/en-us/products/workstations/dgx-spark/"),
+    ("NVIDIA Newsroom Web", "https://nvidianews.nvidia.com/news"),
+]
+
 # 產品線。RTX Spark 與 DGX Spark 是兩條完全不同的產品線，可複選（比較文會同時命中）。
 SPARK_LINES = [
     ("rtx", [r"rtx\s*spark", r"\bn1x\b", "spark superchip",
@@ -242,6 +261,7 @@ CHANNELS = {
         "queries": SPARK_QUERIES, "feeds": SPARK_FEEDS,
         # 硬體新聞量少，時間窗放寬到四天
         "reddit": SPARK_REDDIT, "window": 96,
+        "press_feeds": SPARK_PRESS_FEEDS, "press_pages": SPARK_PRESS_PAGES,
         "groups": SPARK_GROUPS, "fallback": SPARK_FALLBACK, "lines": SPARK_LINES,
         "tags": SPARK_TAGS, "keep": SPARK_KEEP, "products": SPARK_PRODUCTS,
     },
@@ -347,8 +367,12 @@ def parse_feed(xml_text: str, fallback_source: str) -> list[dict]:
         src_node = e.find("source")
         source = (src_node.text or "").strip() if src_node is not None and src_node.text else ""
 
-        summary = strip_html(text_of("description", "atom:summary", "content"))
-        if summary.lower().startswith("<a href") or "news.google.com" in summary:
+        raw_summary = text_of("description", "atom:summary", "content")
+        summary = strip_html(raw_summary)
+        # Google 新聞的 description 只是一段指向原文的連結，文字等於標題，沒有資訊量
+        low = raw_summary.lower()
+        if ("<a href" in low or "news.google.com" in low
+                or norm_title(summary)[:24] == norm_title(title)[:24]):
             summary = ""
 
         out.append({
@@ -409,6 +433,90 @@ def collect_hn(query: str) -> list[dict]:
         "published": parse_date(h.get("created_at")),
         "summary": f"HN 討論串 {h.get('points', 0)} 分、{h.get('num_comments', 0)} 則留言。",
     } for h in hits]
+
+
+# ---------------------------------------------------------------- 品牌新聞室 / 產品頁
+
+ANCHOR_RE = re.compile(r'<a\b[^>]*href=["\']([^"\']+)["\'][^>]*>(.*?)</a>',
+                       re.I | re.S)
+
+
+def load_seen(out: Path) -> dict:
+    """記錄每個連結第一次被看到的時間。新聞室頁面沒有日期，靠這個判斷新舊。"""
+    f = out / "seen.json"
+    if not f.exists():
+        return {}
+    try:
+        return json.loads(f.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+
+def save_seen(out: Path, seen: dict) -> None:
+    keep_after = (datetime.now(TZ) - timedelta(days=60)).isoformat()
+    trimmed = {k: v for k, v in seen.items() if v >= keep_after}
+    out.mkdir(parents=True, exist_ok=True)
+    (out / "seen.json").write_text(
+        json.dumps(trimmed, ensure_ascii=False, indent=1), encoding="utf-8")
+
+
+def collect_press(cfg: dict) -> list[dict]:
+    feeds = cfg.get("press_feeds") or []
+    pages = cfg.get("press_pages") or []
+    if not feeds and not pages:
+        return []
+
+    out_dir = cfg["out"]
+    seen = load_seen(out_dir)
+    now_iso = datetime.now(TZ).isoformat()
+    items = []
+
+    # 有 RSS 的新聞室：日期取自 feed 本身
+    for name, url in feeds:
+        log(f"  新聞室 RSS：{name}")
+        xml_text = fetch(url)
+        if xml_text:
+            items += parse_feed(xml_text, name)
+        time.sleep(0.5)
+
+    # 沒有 RSS 的：抓網頁上的連結文字
+    for name, url in pages:
+        log(f"  新聞室網頁：{name}")
+        page = fetch(url)
+        if not page:
+            continue
+
+        found = 0
+        for href, inner in ANCHOR_RE.findall(page):
+            text = strip_html(inner)
+            if not (18 <= len(text) <= 220):
+                continue
+            if not cfg["keep"].search(text):
+                continue
+
+            link = clean_url(urllib.parse.urljoin(url, href))
+            if not link.startswith("http"):
+                continue
+
+            first = seen.get(link)
+            if not first:
+                seen[link] = first = now_iso
+
+            items.append({
+                "title": text,
+                "url": link,
+                "source": name,
+                "published": parse_date(first),
+                "summary": "",
+                "press": True,
+            })
+            found += 1
+
+        log(f"    命中 {found} 則")
+        time.sleep(0.5)
+
+    save_seen(out_dir, seen)
+    return items
 
 
 # ---------------------------------------------------------------- Reddit
@@ -528,6 +636,9 @@ def classify(item: dict, cfg: dict) -> dict:
     if not hits:
         hits = [gid for gid, pats in cfg["fallback"] if matches(pats, hay)]
     item["camps"] = hits or ["other"]
+
+    if item.get("press") and not item.get("force_tag"):
+        item["force_tag"] = "官方發布"
 
     if item.get("force_tag"):
         item["tag"] = item["force_tag"]
@@ -744,9 +855,10 @@ def run_channel(name: str) -> int:
     hn_query = ("LLM OR GPT OR Claude OR Gemini OR Llama" if name == "models"
                 else "DGX Spark OR GB10")
     reddit = collect_reddit(cfg)
+    press = collect_press(cfg)
     raw = (collect_google(cfg["queries"]) + collect_rss(cfg["feeds"])
-           + collect_hn(hn_query) + reddit)
-    log(f"原始擷取 {len(raw)} 則（其中 Reddit {len(reddit)} 則）")
+           + collect_hn(hn_query) + reddit + press)
+    log(f"原始擷取 {len(raw)} 則（Reddit {len(reddit)}、新聞室 {len(press)}）")
 
     window = cfg.get("window", WINDOW_HOURS)
     cutoff = started - timedelta(hours=window)
@@ -792,6 +904,7 @@ def run_channel(name: str) -> int:
             "models": i.get("models", []),
             "tag": i.get("tag", "產品發表"),
             "camps": i["camps"],
+            "press": bool(i.get("press")),
             "lines": i.get("lines", []),
             "score": i.get("score"),
             "lang": i.get("lang", "en"),
