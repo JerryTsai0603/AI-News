@@ -204,7 +204,8 @@ const UI = {
     filter: "篩選", clearAll: "清除全部", filterBtn: "篩選條件", filterHide: "收起篩選",
     sorts: { new: "時間 · 最新在前", old: "時間 · 最舊在前",
              source: "來源名稱", tag: "主題分類", title: "標題" },
-    groups: { date: "日期", camp: "模型", brand: "品牌",
+    groups: { date: "日期", line: "產品線",
+              camp: "模型", brand: "品牌",
               lang: "原文語言",
               tag: "主題", source: "資訊來源" },
     picked: (n) => `已選 ${n}`,
@@ -212,7 +213,8 @@ const UI = {
       (f ? ` · ${f} 個篩選條件` : "") + ` · 已載入 ${e} 期`,
     tags: { "產品發表": "產品發表", "研究": "研究", "商業": "商業",
             "政策": "政策", "安全": "安全",
-            "開箱評測": "開箱評測", "規格效能": "規格效能", "價格上市": "價格上市", "應用案例": "應用案例" },
+            "開箱評測": "開箱評測", "規格效能": "規格效能", "價格上市": "價格上市", "應用案例": "應用案例",
+            "社群討論": "社群討論" },
     langs: { zh: "中文", en: "英文", ja: "日文", ko: "韓文" },
     camps: { openai: "OpenAI · GPT", anthropic: "Anthropic · Claude",
              google: "Google · Gemini", meta: "Meta · Llama",
@@ -237,7 +239,8 @@ const UI = {
     filter: "Filters", clearAll: "Clear all", filterBtn: "Filters", filterHide: "Hide filters",
     sorts: { new: "Newest first", old: "Oldest first",
              source: "Source name", tag: "Topic", title: "Headline" },
-    groups: { date: "Date", camp: "Model", brand: "Brand",
+    groups: { date: "Date", line: "Product line",
+              camp: "Model", brand: "Brand",
               lang: "Original language",
               tag: "Topic", source: "Source" },
     picked: (n) => `${n} selected`,
@@ -245,7 +248,8 @@ const UI = {
       (f ? ` · ${f} filters` : "") + ` · ${e} ${e === 1 ? "edition" : "editions"} loaded`,
     tags: { "產品發表": "Product", "研究": "Research", "商業": "Business",
             "政策": "Policy", "安全": "Safety",
-            "開箱評測": "Review", "規格效能": "Specs", "價格上市": "Price & availability", "應用案例": "Use case" },
+            "開箱評測": "Review", "規格效能": "Specs", "價格上市": "Price & availability", "應用案例": "Use case",
+            "社群討論": "Community" },
     langs: { zh: "Chinese", en: "English", ja: "Japanese", ko: "Korean" },
     camps: { openai: "OpenAI · GPT", anthropic: "Anthropic · Claude",
              google: "Google · Gemini", meta: "Meta · Llama",
@@ -270,7 +274,8 @@ const UI = {
     filter: "絞り込み", clearAll: "すべて解除", filterBtn: "絞り込み", filterHide: "絞り込みを閉じる",
     sorts: { new: "新しい順", old: "古い順",
              source: "ソース名", tag: "トピック", title: "見出し" },
-    groups: { date: "日付", camp: "モデル", brand: "メーカー",
+    groups: { date: "日付", line: "製品ライン",
+              camp: "モデル", brand: "メーカー",
               lang: "原文の言語",
               tag: "トピック", source: "情報ソース" },
     picked: (n) => `${n}件選択`,
@@ -278,7 +283,8 @@ const UI = {
       (f ? ` · 絞り込み${f}件` : "") + ` · ${e}版を読み込み`,
     tags: { "產品發表": "製品発表", "研究": "研究", "商業": "ビジネス",
             "政策": "政策", "安全": "安全",
-            "開箱評測": "レビュー", "規格效能": "仕様・性能", "價格上市": "価格・発売", "應用案例": "活用事例" },
+            "開箱評測": "レビュー", "規格效能": "仕様・性能", "價格上市": "価格・発売", "應用案例": "活用事例",
+            "社群討論": "コミュニティ" },
     langs: { zh: "中国語", en: "英語", ja: "日本語", ko: "韓国語" },
     camps: { openai: "OpenAI · GPT", anthropic: "Anthropic · Claude",
              google: "Google · Gemini", meta: "Meta · Llama",
@@ -303,7 +309,8 @@ const UI = {
     filter: "筛选", clearAll: "清除全部", filterBtn: "筛选条件", filterHide: "收起筛选",
     sorts: { new: "时间 · 最新在前", old: "时间 · 最旧在前",
              source: "来源名称", tag: "主题分类", title: "标题" },
-    groups: { date: "日期", camp: "模型", brand: "品牌",
+    groups: { date: "日期", line: "产品线",
+              camp: "模型", brand: "品牌",
               lang: "原文语言",
               tag: "主题", source: "信息来源" },
     picked: (n) => `已选 ${n}`,
@@ -311,7 +318,8 @@ const UI = {
       (f ? ` · ${f} 个筛选条件` : "") + ` · 已加载 ${e} 期`,
     tags: { "產品發表": "产品发布", "研究": "研究", "商業": "商业",
             "政策": "政策", "安全": "安全",
-            "開箱評測": "开箱评测", "規格效能": "规格效能", "價格上市": "价格上市", "應用案例": "应用案例" },
+            "開箱評測": "开箱评测", "規格效能": "规格效能", "價格上市": "价格上市", "應用案例": "应用案例",
+            "社群討論": "社区讨论" },
     langs: { zh: "中文", en: "英文", ja: "日文", ko: "韩文" },
     camps: { openai: "OpenAI · GPT", anthropic: "Anthropic · Claude",
              google: "Google · Gemini", meta: "Meta · Llama",
@@ -336,7 +344,8 @@ const UI = {
     filter: "필터", clearAll: "전체 해제", filterBtn: "필터", filterHide: "필터 접기",
     sorts: { new: "최신순", old: "오래된순",
              source: "출처 이름", tag: "주제", title: "제목" },
-    groups: { date: "날짜", camp: "모델", brand: "브랜드",
+    groups: { date: "날짜", line: "제품군",
+              camp: "모델", brand: "브랜드",
               lang: "원문 언어",
               tag: "주제", source: "정보 출처" },
     picked: (n) => `${n}개 선택`,
@@ -344,7 +353,8 @@ const UI = {
       (f ? ` · 필터 ${f}개` : "") + ` · ${e}개 판 불러옴`,
     tags: { "產品發表": "제품 발표", "研究": "연구", "商業": "비즈니스",
             "政策": "정책", "安全": "안전",
-            "開箱評測": "리뷰", "規格效能": "사양·성능", "價格上市": "가격·출시", "應用案例": "활용 사례" },
+            "開箱評測": "리뷰", "規格效能": "사양·성능", "價格上市": "가격·출시", "應用案例": "활용 사례",
+            "社群討論": "커뮤니티" },
     langs: { zh: "중국어", en: "영어", ja: "일본어", ko: "한국어" },
     camps: { openai: "OpenAI · GPT", anthropic: "Anthropic · Claude",
              google: "Google · Gemini", meta: "Meta · Llama",
@@ -370,7 +380,8 @@ const UI = {
     filterBtn: "Filter", filterHide: "Filter ausblenden",
     sorts: { new: "Neueste zuerst", old: "Älteste zuerst",
              source: "Quellenname", tag: "Thema", title: "Schlagzeile" },
-    groups: { date: "Datum", camp: "Modell", brand: "Marke",
+    groups: { date: "Datum", line: "Produktlinie",
+              camp: "Modell", brand: "Marke",
               lang: "Originalsprache",
               tag: "Thema", source: "Quelle" },
     picked: (n) => `${n} ausgewählt`,
@@ -379,7 +390,8 @@ const UI = {
       ` · ${e} ${e === 1 ? "Ausgabe" : "Ausgaben"} geladen`,
     tags: { "產品發表": "Produkt", "研究": "Forschung", "商業": "Wirtschaft",
             "政策": "Politik", "安全": "Sicherheit",
-            "開箱評測": "Test", "規格效能": "Technik", "價格上市": "Preis & Verfügbarkeit", "應用案例": "Anwendung" },
+            "開箱評測": "Test", "規格效能": "Technik", "價格上市": "Preis & Verfügbarkeit", "應用案例": "Anwendung",
+            "社群討論": "Community" },
     langs: { zh: "Chinesisch", en: "Englisch", ja: "Japanisch", ko: "Koreanisch" },
     camps: { openai: "OpenAI · GPT", anthropic: "Anthropic · Claude",
              google: "Google · Gemini", meta: "Meta · Llama",
@@ -405,7 +417,8 @@ const UI = {
     filterBtn: "Filtros", filterHide: "Ocultar filtros",
     sorts: { new: "Más recientes primero", old: "Más antiguas primero",
              source: "Nombre de la fuente", tag: "Tema", title: "Titular" },
-    groups: { date: "Fecha", camp: "Modelo", brand: "Marca",
+    groups: { date: "Fecha", line: "Línea de producto",
+              camp: "Modelo", brand: "Marca",
               lang: "Idioma original",
               tag: "Tema", source: "Fuente" },
     picked: (n) => `${n} seleccionados`,
@@ -414,7 +427,8 @@ const UI = {
       ` · ${e} ${e === 1 ? "edición" : "ediciones"} cargadas`,
     tags: { "產品發表": "Producto", "研究": "Investigación", "商業": "Negocios",
             "政策": "Política", "安全": "Seguridad",
-            "開箱評測": "Análisis", "規格效能": "Especificaciones", "價格上市": "Precio y disponibilidad", "應用案例": "Caso de uso" },
+            "開箱評測": "Análisis", "規格效能": "Especificaciones", "價格上市": "Precio y disponibilidad", "應用案例": "Caso de uso",
+            "社群討論": "Comunidad" },
     langs: { zh: "Chino", en: "Inglés", ja: "Japonés", ko: "Coreano" },
     camps: { openai: "OpenAI · GPT", anthropic: "Anthropic · Claude",
              google: "Google · Gemini", meta: "Meta · Llama",
@@ -440,7 +454,8 @@ const UI = {
     filterBtn: "Filtres", filterHide: "Masquer les filtres",
     sorts: { new: "Plus récentes d'abord", old: "Plus anciennes d'abord",
              source: "Nom de la source", tag: "Thème", title: "Titre" },
-    groups: { date: "Date", camp: "Modèle", brand: "Marque",
+    groups: { date: "Date", line: "Gamme",
+              camp: "Modèle", brand: "Marque",
               lang: "Langue d'origine",
               tag: "Thème", source: "Source" },
     picked: (n) => `${n} sélectionnés`,
@@ -449,7 +464,8 @@ const UI = {
       ` · ${e} ${e === 1 ? "édition" : "éditions"} chargées`,
     tags: { "產品發表": "Produit", "研究": "Recherche", "商業": "Affaires",
             "政策": "Politique", "安全": "Sécurité",
-            "開箱評測": "Test", "規格效能": "Caractéristiques", "價格上市": "Prix et disponibilité", "應用案例": "Cas d'usage" },
+            "開箱評測": "Test", "規格效能": "Caractéristiques", "價格上市": "Prix et disponibilité", "應用案例": "Cas d'usage",
+            "社群討論": "Communauté" },
     langs: { zh: "Chinois", en: "Anglais", ja: "Japonais", ko: "Coréen" },
     camps: { openai: "OpenAI · GPT", anthropic: "Anthropic · Claude",
              google: "Google · Gemini", meta: "Meta · Llama",
@@ -475,7 +491,8 @@ const UI = {
     filterBtn: "Filtri", filterHide: "Nascondi filtri",
     sorts: { new: "Più recenti prima", old: "Più vecchie prima",
              source: "Nome della fonte", tag: "Tema", title: "Titolo" },
-    groups: { date: "Data", camp: "Modello", brand: "Marca",
+    groups: { date: "Data", line: "Linea di prodotto",
+              camp: "Modello", brand: "Marca",
               lang: "Lingua originale",
               tag: "Tema", source: "Fonte" },
     picked: (n) => `${n} selezionati`,
@@ -484,7 +501,8 @@ const UI = {
       ` · ${e} ${e === 1 ? "edizione" : "edizioni"} caricate`,
     tags: { "產品發表": "Prodotto", "研究": "Ricerca", "商業": "Business",
             "政策": "Politica", "安全": "Sicurezza",
-            "開箱評測": "Recensione", "規格效能": "Specifiche", "價格上市": "Prezzo e disponibilità", "應用案例": "Caso d'uso" },
+            "開箱評測": "Recensione", "規格效能": "Specifiche", "價格上市": "Prezzo e disponibilità", "應用案例": "Caso d'uso",
+            "社群討論": "Community" },
     langs: { zh: "Cinese", en: "Inglese", ja: "Giapponese", ko: "Coreano" },
     camps: { openai: "OpenAI · GPT", anthropic: "Anthropic · Claude",
              google: "Google · Gemini", meta: "Meta · Llama",
@@ -507,27 +525,33 @@ const CHANNELS = {
   models: {
     base: "data",
     ids: ["openai", "anthropic", "google", "meta", "cn", "other"],
-    tagKeys: ["產品發表", "研究", "商業", "政策", "安全"],
+    tagKeys: ["產品發表", "研究", "商業", "政策", "安全", "社群討論"],
     groupLabel: "camp",
   },
   spark: {
     base: "data/spark",
-    ids: ["asus", "acer", "dell", "hp", "lenovo", "msi", "gigabyte", "nvidia", "other"],
-    tagKeys: ["產品發表", "開箱評測", "規格效能", "價格上市", "應用案例"],
+    ids: ["asus", "acer", "dell", "hp", "lenovo", "msi", "gigabyte",
+          "microsoft", "nvidia", "other"],
+    tagKeys: ["產品發表", "開箱評測", "規格效能", "價格上市", "應用案例", "社群討論"],
     groupLabel: "brand",
+    lineIds: ["rtx", "dgx", "other"],
   },
 };
 
 // 品牌是專有名詞，各語言都一樣，不進字典
 const BRAND_FIXED = {
   asus: "ASUS", acer: "Acer", dell: "Dell", hp: "HP",
-  lenovo: "Lenovo", msi: "MSI", gigabyte: "GIGABYTE",
+  lenovo: "Lenovo", msi: "MSI", gigabyte: "GIGABYTE", microsoft: "Microsoft",
 };
+
+// 產品線也是專有名詞
+const LINE_FIXED = { rtx: "RTX Spark", dgx: "DGX Spark" };
 
 const TAG_COLORS = {
   "產品發表":"#2D3BFF", "研究":"#0F6E5C", "商業":"#8A5A00",
   "政策":"#6B3FA0", "安全":"#B23A2E",
   "開箱評測":"#0F6E5C", "規格效能":"#6B3FA0", "價格上市":"#8A5A00", "應用案例":"#B23A2E",
+  "社群討論":"#0E6E8A",
 };
 
 const $ = (id) => document.getElementById(id);
@@ -545,7 +569,8 @@ let sortBy = "new";
 // 每個分頁各自一份狀態，切回來時篩選條件還在
 const blank = () => ({
   editions: [], items: [], loaded: new Map(), booted: false,
-  F: { date:new Set(), camp:new Set(), lang:new Set(), tag:new Set(), source:new Set() },
+  F: { date:new Set(), line:new Set(), camp:new Set(),
+       lang:new Set(), tag:new Set(), source:new Set() },
 });
 const S = { models: blank(), spark: blank() };
 
@@ -577,10 +602,54 @@ function loadPref() {
 function field(it, key) {
   const t = it.i18n && it.i18n[cur];
   if (t && t[key]) return t[key];
+  const m = mtCache.get(`${it.url}|${cur}`);
+  if (m && m[key]) return m[key];
   return it[key] || "";
 }
 const isTranslated = (it) =>
-  !!(it.i18n && it.i18n[cur] && it.i18n[cur].title);
+  !!((it.i18n && it.i18n[cur] && it.i18n[cur].title)
+     || (mtCache.get(`${it.url}|${cur}`) || {}).title);
+
+/* --- 備援：瀏覽器內建翻譯（Chrome 138+）。沒有 API 金鑰時仍能看到譯文。 --- */
+const MT_LANG = { "zh-TW": "zh-Hant", "zh-CN": "zh-Hans" };
+const mtCache = new Map();    // `${url}|${lang}` → { title, summary }
+const mtPool = new Map();
+let mtOff = false;
+
+async function mtGet(src, tgt) {
+  const key = `${src}|${tgt}`;
+  if (mtPool.has(key)) return mtPool.get(key);
+  const a = await Translator.availability({ sourceLanguage: src, targetLanguage: tgt });
+  const tr = a === "unavailable"
+    ? null
+    : await Translator.create({ sourceLanguage: src, targetLanguage: tgt });
+  mtPool.set(key, tr);
+  return tr;
+}
+
+async function machineTranslate(list) {
+  if (mtOff || typeof Translator === "undefined") return;
+  const tgt = MT_LANG[cur] || cur;
+  const todo = list.filter((i) => !isTranslated(i)).slice(0, 25);
+  if (!todo.length) return;
+  try {
+    let n = 0;
+    for (const it of todo) {
+      const src = langOf(it);
+      if (src === cur.split("-")[0]) continue;
+      const tr = await mtGet(src, tgt);
+      if (!tr) continue;
+      mtCache.set(`${it.url}|${cur}`, {
+        title: await tr.translate(it.title),
+        summary: it.summary ? await tr.translate(it.summary) : "",
+      });
+      n++;
+    }
+    if (n) renderFeed();
+  } catch {
+    mtOff = true;      // 瀏覽器不支援就永久關掉，不影響其他功能
+  }
+}
 
 function langOf(it) {
   if (it.lang) return it.lang;
@@ -670,6 +739,7 @@ async function switchTab(next) {
 
 const TESTS = {
   date:   (it, s) => s.has(it.edition),
+  line:   (it, s) => (it.lines || ["other"]).some((l) => s.has(l)),
   camp:   (it, s) => (it.camps || ["other"]).some((c) => s.has(c)),
   lang:   (it, s) => s.has(langOf(it)),
   tag:    (it, s) => s.has(it.tag),
@@ -737,7 +807,7 @@ function groupDefs() {
   const t = T();
   const sources = [...new Set(items.map((i) => i.source).filter(Boolean))]
     .sort((a, b) => String(a).localeCompare(String(b), cur));
-  return [
+  const groups = [
     { key: "date",   open: true,  opts: editions.map((d) => [d, d]) },
     { key: "camp",   open: true,
       opts: CH().ids.map((c) => [c, BRAND_FIXED[c] || t.camps[c] || c]) },
@@ -745,6 +815,15 @@ function groupDefs() {
     { key: "tag",    open: false, opts: CH().tagKeys.map((k) => [k, t.tags[k] || k]) },
     { key: "source", open: false, scroll: true, opts: sources.map((s) => [s, s]) },
   ];
+
+  // 產品線只有 DGX / RTX Spark 分頁才有
+  if (CH().lineIds) {
+    groups.splice(1, 0, {
+      key: "line", open: true,
+      opts: CH().lineIds.map((l) => [l, LINE_FIXED[l] || t.camps.other]),
+    });
+  }
+  return groups;
 }
 
 function renderGroups() {
@@ -802,6 +881,8 @@ function renderFeed() {
     return;
   }
 
+  machineTranslate(shown);
+
   $("feed").innerHTML = shown.map((i) => {
     const color = TAG_COLORS[i.tag] || "#6A7484";
     const when = String(i.date || "").slice(0, 16).replace("T", " ");
@@ -813,6 +894,7 @@ function renderFeed() {
         <span class="tag" style="color:${color};border-color:${color}">${esc(t.tags[i.tag] || i.tag || "")}</span>
         <span class="src">${esc(i.source)} · ${esc(when)}</span>
         <span class="lang">${esc(srcLang)}${done ? "" : " · " + esc(t.untranslated)}</span>
+        ${i.score ? `<span class="src">▲ ${i.score}</span>` : ""}
       </div>
       <h2><a href="${esc(i.url)}" target="_blank" rel="noopener noreferrer">${esc(title)}</a></h2>
       ${summary ? `<p class="sum">${esc(summary)}</p>` : ""}
