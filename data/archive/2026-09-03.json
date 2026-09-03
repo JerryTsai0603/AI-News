@@ -1,34 +1,630 @@
 {
- "fetchedAt": "2026-09-03T07:48:49.287195+08:00",
+ "channel": "models",
+ "fetchedAt": "2026-09-03T12:02:55.750034+08:00",
  "edition": "2026-09-03",
  "count": 60,
  "languages": [
   "zh-TW",
+  "zh-CN",
   "en",
-  "ja"
+  "ja",
+  "ko",
+  "de",
+  "es",
+  "fr",
+  "it"
  ],
- "byCamp": {
-  "openai": 18,
-  "anthropic": 11,
-  "google": 13,
+ "byGroup": {
+  "openai": 23,
+  "anthropic": 9,
+  "google": 19,
   "meta": 0,
-  "cn": 2,
-  "other": 22
+  "cn": 3,
+  "other": 16
  },
  "items": [
   {
-   "title": "Anthropic's AI Solves 373-Year-Old Cipher in 44 Minutes - chosun.com",
-   "source": "chosun.com",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTTRPNDJIeUxpT0xRU2ZuYmQwSHJqNXZ1TERLVWEzRVk5djRndGpLU3FLblR5SWRaV3daVEFodEU1T2JzcXJJcFk0SXNMMjc0Zm5GX1ZlQ3Q4QzFjcTBUbExtVDdLLXRHOW10ZG9rcVJ3cEpuN3hwaDFxc09DX0FQU1h0YlpLUVVR?oc=5",
-   "date": "2026-09-03 06:49",
-   "publishedAt": "2026-09-03T06:49:44+08:00",
-   "summary": "Anthropic's AI Solves 373-Year-Old Cipher in 44 Minutes chosun.com",
+   "title": "Meta推出旗艦模型Muse Spark 1.3！汪滔稱「史上最大躍進」，發文狠嗆：Gemini誰啊？ - LINE TODAY",
+   "source": "LINE TODAY",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5UcHJQaV91eGNtd0lnUVp4d2tJVENwVkhMdjhuazFaX002Z1gxa2dteGwxLVJXX3FCd0RmdFg4NlVOUUI5aXBKVXB3RVhfV212SEFDd0tR?oc=5",
+   "date": "2026-09-03 11:58",
+   "publishedAt": "2026-09-03T11:58:38+08:00",
+   "summary": "Meta推出旗艦模型Muse Spark 1.3！汪滔稱「史上最大躍進」，發文狠嗆：Gemini誰啊？ LINE TODAY",
+   "models": [
+    "Gemini"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "google"
+   ],
+   "lang": "zh",
+   "i18n": {}
+  },
+  {
+   "title": "Google AI 資安防護升級 Gemini 3.8 Flash 導入智慧代理流程 - Yahoo股市",
+   "source": "Yahoo股市",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMHNJTElhejJjdlduMVRxT1Y0SGFMVUFHNGhiYmw1Nk13Z3RWemlZSElJcE9HUE92WGRGMFVZTFRZSG00NWNvVXFYQ0NmRHNrc2k2blRBa051MkVYamJkeXBIbUhaTDJJLXoxY09NWm1TMGJaUXBmZDhsbE9LYjlSZEZsc3N6V0RHSXN4OUJJcnRHS2t3SHVaeFg1Q280b1VQY2U2UnV1S3hwQ0I3MUJ0WU1neS15azNveXQ0YQ?oc=5",
+   "date": "2026-09-03 11:56",
+   "publishedAt": "2026-09-03T11:56:15+08:00",
+   "summary": "Google AI 資安防護升級 Gemini 3.8 Flash 導入智慧代理流程 Yahoo股市",
+   "models": [
+    "Gemini"
+   ],
+   "tag": "安全",
+   "camps": [
+    "google"
+   ],
+   "lang": "zh",
+   "i18n": {}
+  },
+  {
+   "title": "僅隔三週再升級！Google釋出Gemini 3.8 Flash與Cyber資安模型，搶攻「最聰明工作馬」定位 - LINE TODAY",
+   "source": "LINE TODAY",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1xUHhDdzJPQUJsbjFRWnBFOFFsUDdYYmp4MHc0MjFFYVprc1FMdHE1MTNMRklQU1cxTUl5amIwYVM2dWhfZTU2STRJYVlLbEk2TU4xR3RB?oc=5",
+   "date": "2026-09-03 11:43",
+   "publishedAt": "2026-09-03T11:43:38+08:00",
+   "summary": "僅隔三週再升級！Google釋出Gemini 3.8 Flash與Cyber資安模型，搶攻「最聰明工作馬」定位 LINE TODAY",
+   "models": [
+    "Gemini"
+   ],
+   "tag": "安全",
+   "camps": [
+    "google"
+   ],
+   "lang": "zh",
+   "i18n": {}
+  },
+  {
+   "title": "AI 真的會造反？Anthropic 震撼報告：Agent 竟學會「集體罷工」還會消滅同類搶資源| T客邦 - LINE TODAY",
+   "source": "LINE TODAY",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBSMEFXVFhUT3JVVTV4Y0ZIVXI0aE1aMHVFZkR3T2MtaHFXQkhlY011QkRpTHlTUUdyUzd0bTJIcl92RDNhdkFsWVRQUGRhUVZ4aEttcU9R?oc=5",
+   "date": "2026-09-03 11:43",
+   "publishedAt": "2026-09-03T11:43:22+08:00",
+   "summary": "AI 真的會造反？Anthropic 震撼報告：Agent 竟學會「集體罷工」還會消滅同類搶資源| T客邦 LINE TODAY",
    "models": [],
    "tag": "產品發表",
    "camps": [
     "anthropic"
    ],
+   "lang": "zh",
+   "i18n": {}
+  },
+  {
+   "title": "Gemini 生成圖不再被浮水印破壞！Google 開放使用者自由選擇，實測隱形鑑識技術同步實裝| T客邦 - LINE TODAY",
+   "source": "LINE TODAY",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBoY3pxdFN3M1FLVHRaOTRlTDkwSTR5QkpSdnNiMjVLQVVhelg4d0RCdUpwVGVaN0VVQ0RyWmR4VzdWZlJzMFFKLTZiS3prOW9OdjVuTlRB?oc=5",
+   "date": "2026-09-03 11:43",
+   "publishedAt": "2026-09-03T11:43:22+08:00",
+   "summary": "Gemini 生成圖不再被浮水印破壞！Google 開放使用者自由選擇，實測隱形鑑識技術同步實裝| T客邦 LINE TODAY",
+   "models": [
+    "Gemini"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "google"
+   ],
+   "lang": "zh",
+   "i18n": {}
+  },
+  {
+   "title": "防範自主 AI 脫軌威脅！OpenAI 研發自動切斷開關，美眾院力推緊急關閉法案 - 桑幣區識 Zombit",
+   "source": "桑幣區識 Zombit",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBZVWgzZWNBMUxkQjUtUWswYzVYb3B6Z0R2OHhwN2Z6bzY4VVdzcUtGeDhjVlRZbFB5OHNNT0ZaZmNTNS0wMDVISnQzclVvbWhZYnNtNHd2QS1XYzJvN3gtREpxZnBBWWI0UnB4OA?oc=5",
+   "date": "2026-09-03 11:25",
+   "publishedAt": "2026-09-03T11:25:26+08:00",
+   "summary": "防範自主 AI 脫軌威脅！OpenAI 研發自動切斷開關，美眾院力推緊急關閉法案 桑幣區識 Zombit",
+   "models": [],
+   "tag": "政策",
+   "camps": [
+    "openai"
+   ],
+   "lang": "zh",
+   "i18n": {}
+  },
+  {
+   "title": "Meta最強AI模型出鞘 汪滔：追上Anthropic、勝過GPT-5.6 Sol - udn科技玩家",
+   "source": "udn科技玩家",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5XV1llTUZQdU16ZktoaVBiMWhicFM4NzI5Z085emhrdFFROWZvQjhyLWl2S2ZVWm5VbVc2Vl9XTTJJUUlOcUhCXzMtTDlnN0ZNNm85dkltQU9Dc0dHWUI3cVBTMTE4MlhjVjZRajFlVEZJWDNGZzVRaWxETlA?oc=5",
+   "date": "2026-09-03 11:23",
+   "publishedAt": "2026-09-03T11:23:35+08:00",
+   "summary": "Meta最強AI模型出鞘 汪滔：追上Anthropic、勝過GPT-5.6 Sol udn科技玩家",
+   "models": [
+    "GPT-5"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "anthropic"
+   ],
+   "lang": "zh",
+   "i18n": {}
+  },
+  {
+   "title": "谷歌(GOOGL.US)發佈“最智能Flash模型”Gemini 3.8 Flash，同步推出Fairwind網絡安全計劃作者智通財經 - Investing.com 香港 - 股市報價& 財經新聞",
+   "source": "Investing.com 香港 - 股市報價& 財經新聞",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5leXo2ZWxnN3hCaWdnMGlqMDU4ZXltUTRLc1U4OXI3YU1vTmtpTk5qR3lXajJUS1duVEdJSl9xaVFpT0haaW13UjdqMXJpMjNqdWFTR2F1QTVLUS10eGNBby1yYjZRaHJfeTZ4c2FhM08?oc=5",
+   "date": "2026-09-03 11:21",
+   "publishedAt": "2026-09-03T11:21:45+08:00",
+   "summary": "谷歌(GOOGL.US)發佈“最智能Flash模型”Gemini 3.8 Flash，同步推出Fairwind網絡安全計劃作者智通財經 Investing.com 香港 - 股市報價& 財經新聞",
+   "models": [
+    "Gemini"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "google"
+   ],
+   "lang": "zh",
+   "i18n": {}
+  },
+  {
+   "title": "Google 推出 Gemini 3.8 Flash：強化代理工作流，還有資安版可找漏洞、自動修補 - 蘋果仁",
+   "source": "蘋果仁",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9mbUtQTHNzcVlMWmVWSnVuaGg3aGpITWFJTFJfY3IyWFlVMXJLZzNfckNqZVR4dVlNZEFNU2tPYUFnZGF5aVMtaW5kTWU?oc=5",
+   "date": "2026-09-03 11:21",
+   "publishedAt": "2026-09-03T11:21:07+08:00",
+   "summary": "Google 推出 Gemini 3.8 Flash：強化代理工作流，還有資安版可找漏洞、自動修補 蘋果仁",
+   "models": [
+    "Gemini"
+   ],
+   "tag": "安全",
+   "camps": [
+    "google",
+    "other"
+   ],
+   "lang": "zh",
+   "i18n": {}
+  },
+  {
+   "title": "OpenAI Astra模型獲「關鍵」駭客能力認證 能獨立發現零日漏洞 - 商傳媒",
+   "source": "商傳媒",
+   "url": "https://news.google.com/rss/articles/CBMiggNBVV95cUxNakF1MEhfZG1oLWRGM1p0aGZMbjZ4ak1Ha0dZN3hPakdxLVR0YU5YX2FXRGI4NEQ2TE9Yb3pNblNVN0JyS1ViYmtuODRaWXhwby1FN19hZXRvUW43LUlXcVBVbEl5N0p6Y0xlRXpDWlVXTnRLdnc3Y21rN1JhX2ExTWJTSHhvREVrVXZWNGI5Q1V2bWN1NEExWmVrZzZFWk9rWllpWDk0d2VhZTRMNEYtaFNSU3BlQUpFdG9ReDZDaFJKcldmSmxBQklZMkd4ZnhDVVlXaVl5TC15Y3loZzZibVVJdDl1TFhoTzlzUDBHZnNhRF9KOWFTWl9RTmNMSUFteGNXNk8yNlAxbldydUNDU1I3b2M0Ylc1c0JuMEE4bFNHNmltUWRhT3FuMTJGREpUM0phNVRyNGc4VDNjWmNxSzZFQWMzT192cjBTdF9BS2FhZ2pXRkRtNWVCenhQRktUM1otNWxMQ3BmdF9IRU9XNWVvZ3ktUkRZN2ZQQkxTcnNCZw?oc=5",
+   "date": "2026-09-03 11:14",
+   "publishedAt": "2026-09-03T11:14:03+08:00",
+   "summary": "OpenAI Astra模型獲「關鍵」駭客能力認證 能獨立發現零日漏洞 商傳媒",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "lang": "zh",
+   "i18n": {}
+  },
+  {
+   "title": "Meta 推出最強 AI 模型 Muse Spark 1.3，同步釋出開源輕量版 Glimmer - TechNews 科技新報",
+   "source": "TechNews 科技新報",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5KdDV0eEdzSXVwZ1JWWTV5aDQzcWFNLWljZWp0XzNfVDgzSW4zZDk5V1NtVWZxSXY5ZXpaUTg0SnhyTmNUdHlFeXIxOGtLODZEZmFNNDBINkYwVXl5dmtHbw?oc=5",
+   "date": "2026-09-03 11:02",
+   "publishedAt": "2026-09-03T11:02:18+08:00",
+   "summary": "Meta 推出最強 AI 模型 Muse Spark 1.3，同步釋出開源輕量版 Glimmer TechNews 科技新報",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "lang": "zh",
+   "i18n": {}
+  },
+  {
+   "title": "Meta says it has caught up with Anthropic and OpenAI with Muse Spark 1.3, its most powerful AI model yet - SiliconANGLE",
+   "source": "SiliconANGLE",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNTC1uZkRGSkZnOE9LNkhuS2NQTG96NGtXQTE0MkthRnF6alFXQkZzanY2TUFRUF9zT2t6Z1pickpMR3p1ZnAwX0ExTGZSNHdkTGVJaHM1aVVuWEtKcVFVSFBMcTFUb2F2WkN4VGRpV1J2cUpUS1dfbzlDR3VycG5pang4bHhleTJ0eFdvbUNDY29wd3FaNUJVbWhyeUlJcm1jU0xjd2pHREJrekFHVEV0NnlQRGRUdjZkaHJva1VuZ0pETTBlUHZGSnJDemFWeVhDUnU3eHU2SklqZGdyQzM1RmhDWQ?oc=5",
+   "date": "2026-09-03 10:41",
+   "publishedAt": "2026-09-03T10:41:00+08:00",
+   "summary": "Meta says it has caught up with Anthropic and OpenAI with Muse Spark 1.3, its most powerful AI model yet SiliconANGLE",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "anthropic"
+   ],
    "lang": "en",
+   "i18n": {}
+  },
+  {
+   "title": "台灣AI不同凡響 產官學研都有斬獲 全球十國獲獎 臺灣勇奪 七座 WITSA AI 大獎 - 商傳媒",
+   "source": "商傳媒",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPV1EtZEtPRUZrOF9VdjlSdWJsMWNPUHVXNm5CWFFpYl9fMGlGUUIyZjIxOVYyNDBmNzJiTEl4TFhKS0Jzd1F4TmRlYlpRTWtIRnd1TEVzdEl2R0E0djRzcXh4NFh3UlZsUFF6SUNBZXFJQ0V5WDdqNUQ0Qk5DbEk4VVlFcS1La3UwTjQ0SjlMdS1fVjk1ZXhhNEwtYw?oc=5",
+   "date": "2026-09-03 10:40",
+   "publishedAt": "2026-09-03T10:40:34+08:00",
+   "summary": "台灣AI不同凡響 產官學研都有斬獲 全球十國獲獎 臺灣勇奪 七座 WITSA AI 大獎 商傳媒",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "lang": "zh",
+   "i18n": {}
+  },
+  {
+   "title": "DeepMind’s Double-Blind AI Evaluation Explained - quasa.io",
+   "source": "quasa.io",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTk9pXzBiaS1udkRoUXRIaUZOaUJBN0ZLNGdxbTRiRzJsLXIxZjBtM054SG9sUXNCZE5oc2NOLUprbHFhbUNEZy13aDR1bWZ3R2VzNERINU1POUlLZjRBdFNJRHYxNDdOUmREU0NqdlV3NHhGVXk5bV9OR1JMSTNkS19CNno1MU1wcmlJYWtUeERURTZ4Q1ZHMkZWOA?oc=5",
+   "date": "2026-09-03 10:33",
+   "publishedAt": "2026-09-03T10:33:57+08:00",
+   "summary": "DeepMind’s Double-Blind AI Evaluation Explained quasa.io",
+   "models": [],
+   "tag": "商業",
+   "camps": [
+    "google"
+   ],
+   "lang": "en",
+   "i18n": {}
+  },
+  {
+   "title": "OpenAI新模型採遞迴推理 專家直言「在玩火」憂監控難度升高 - 科技島",
+   "source": "科技島",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1tYS1IUDRjd2I4cE83TXlVQXRpWjBYcEpjQ3pHeU5VcDJISUN0emU5NGRKRzVUcko0bnVtM0NHLWtIUm1KSzNxSEp1UXhMTmQzbnI0a2RsQk0?oc=5",
+   "date": "2026-09-03 10:25",
+   "publishedAt": "2026-09-03T10:25:34+08:00",
+   "summary": "OpenAI新模型採遞迴推理 專家直言「在玩火」憂監控難度升高 科技島",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "lang": "zh",
+   "i18n": {}
+  },
+  {
+   "title": "OpenAI 被控「教唆幫兇」加拿大史上第 2 大校園槍擊案，再挨 30 起訴訟 - 動區動趨",
+   "source": "動區動趨",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcjdzSEhwMjJobEdwYUszb3dqb0dwX3BtWnVtanAwN21qWUgwTkJiQkJ6Y3ZGSGN0NUl3bmFQbG11ek5UUy16WWp4TmhBbHVLRnhQYlgtTlFwUmQ3TlZfR2xfaC1vdjVMYWlTS0s2WDVQYlpoVUlYX1hwN1lrbTZDMTExSl9xSTJ6QWFBSzJiZzI0X0RPei0yMERHbXcxSHg1Z0NzS2d3?oc=5",
+   "date": "2026-09-03 10:14",
+   "publishedAt": "2026-09-03T10:14:44+08:00",
+   "summary": "OpenAI 被控「教唆幫兇」加拿大史上第 2 大校園槍擊案，再挨 30 起訴訟 動區動趨",
+   "models": [],
+   "tag": "政策",
+   "camps": [
+    "openai"
+   ],
+   "lang": "zh",
+   "i18n": {}
+  },
+  {
+   "title": "Google, Anthropic and OpenAI Push New Cyber Defense Models Into the Field - kobaran.com",
+   "source": "kobaran.com",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWDYwS0puUnpLUkt2SHFvalVCMTBoQTB4Mjh3dHhvdWhhTWNQejBoQy1WRldwbnhlNTd4T2JmV0wzT2YxXzRzeGRUNl9xcUhSWVJDdFlzR1l1Z3NldDBOVzIxVmNaejVSQzB4U3lIY0pSRjh0WTdBN191X25XeTNhbTZaR3AzN1BBVVNjazNGMFQ1S1pvTUxGaWRxcmZMZw?oc=5",
+   "date": "2026-09-03 10:06",
+   "publishedAt": "2026-09-03T10:06:36+08:00",
+   "summary": "Google, Anthropic and OpenAI Push New Cyber Defense Models Into the Field kobaran.com",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "anthropic",
+    "google"
+   ],
+   "lang": "en",
+   "i18n": {}
+  },
+  {
+   "title": "Anthropic 350 億鎂大單走過 Hut 8！德州搶下 196 億租約，比特幣礦商擁抱 AI - 動區動趨",
+   "source": "動區動趨",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUWcwQ3hacFVid080YTJuREVrdi1lYXppTEpjdkFCQWd3Z2pXSTlxMzNnMVFCNUhPMTBCZ3J6djdBZ2tHeXpKOE5Udjk5S1hrTlU2UDRpdHY1UXBpeEtoV1lZdkJGd2dDWWR1Q0ZsTnEwTlVUZDJlNFJmbEp6T3hVLUVzVkdkaF9BSDcwY3labkR2OVNvclFPX005RjdVQQ?oc=5",
+   "date": "2026-09-03 10:04",
+   "publishedAt": "2026-09-03T10:04:37+08:00",
+   "summary": "Anthropic 350 億鎂大單走過 Hut 8！德州搶下 196 億租約，比特幣礦商擁抱 AI 動區動趨",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "lang": "zh",
+   "i18n": {}
+  },
+  {
+   "title": "Gemini Flash 3.8 上線：早鳥價比 Opus 5 便宜六倍、專找漏洞的 Cyber 限制開放 - 動區動趨",
+   "source": "動區動趨",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbjRIMHNZNlNpVXE0ZW4tZlQtNlF3LVFFVXhUa29VMDdtUnlKSEpXMm1JX2N2MS12ekh2Mmhyc2FnTUR0RERBQ3lfYzRqQkVLRkZ6eHlFUG5mb2hTcHoxQ2g5YVdpUU8yN2NPbmw0bkotNEJobkNBOHY5TkxJS2RJZ3FmWmNoMmpiWFpjbTVFbjllN08zRDJZRUl0cE9YZnN6?oc=5",
+   "date": "2026-09-03 09:57",
+   "publishedAt": "2026-09-03T09:57:16+08:00",
+   "summary": "Gemini Flash 3.8 上線：早鳥價比 Opus 5 便宜六倍、專找漏洞的 Cyber 限制開放 動區動趨",
+   "models": [
+    "Gemini"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "google"
+   ],
+   "lang": "zh",
+   "i18n": {}
+  },
+  {
+   "title": "美國籲 G20 放寬 AI 訓練內容 兼顧創作與創新 - 商傳媒",
+   "source": "商傳媒",
+   "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxPdmdDdjVBOEZoSGZjYkFnVWZSVVpFSkNwd3AweWxlNzZYSUlGcDdxaVVZYWp3cnFuTG04aF9xeGUzanlUaUg4aC1yWVQ4N1FSOTRhNG5MMXpEbUZLX2JsNG0xY2xraGNLMWhDSE1rNlVWSVNsNUZBUklULTl5Z3NKZmpjWmtSMXp1UnFQcy1Id25SUVJMcElSYU5LM0MzSGtQc2NOOEMzc1pkc3VmTWdmemhaOTc5NmxMek93VkVEWnJiczdQYTlfUklZUGItajE2cFgxUVVOVXlPa0dmbEI1b1hyNHluQy0tV3FpeVp2dG9fY1JPT25sSUhibm9IYjFFeFVXcXBwSmhqWE1lZnI4cjZOc0VqcmJCaWJGUFdYWHhvZ1ExSUwxeHlTTTN2Zjc3NTN4b0pR?oc=5",
+   "date": "2026-09-03 09:56",
+   "publishedAt": "2026-09-03T09:56:39+08:00",
+   "summary": "美國籲 G20 放寬 AI 訓練內容 兼顧創作與創新 商傳媒",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "lang": "zh",
+   "i18n": {}
+  },
+  {
+   "title": "博通揭露AI算力擴張計畫：Anthropic、OpenAI和Meta未來兩年大規模部署XPU - TradingKey",
+   "source": "TradingKey",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQTUlYUzdVallhSGoxZ3RuUTJBY2xrWE9sVFdnbFg2QVdXRmI2YmNfZUdDbXZFV2RXYUN0U2lWdEVpMDZEUzRjZFZaeG5LYVRudVRtUGJlVFVsTm9xQmFBd0g2OUlUbmFNSnhGQmhXRUhySFg0aGpldkxhb3Mtd1BiOVNQOXhYRXBhSVBVZGVURGRSRlVGaWhXODVqZldWUHlMV2J5WTdUQ3gydy1mRjk4WHVBd0phN0JuM3F1c3ZkQTREaHJvMklmWWhad2N3ckt0REN4NVplTXU?oc=5",
+   "date": "2026-09-03 09:45",
+   "publishedAt": "2026-09-03T09:45:30+08:00",
+   "summary": "博通揭露AI算力擴張計畫：Anthropic、OpenAI和Meta未來兩年大規模部署XPU TradingKey",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "anthropic"
+   ],
+   "lang": "zh",
+   "i18n": {}
+  },
+  {
+   "title": "Google accelerates Gemini Flash releases, trails Meta as Pro delay drags - CHOSUNBIZ - Chosunbiz",
+   "source": "Chosunbiz",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBvd0dpVDQxM1BmMFJwZ3g4RmZTR0RGYWZKRVN4ZlpCa0FzLWltZFJVTUV0dHRHNzdaVGxoQ3dEMlBfUFFnRUptcDY4LW1lM0dMWWd5YjdBLU1UX0FiaUZPRFpYcFdlSkxTX1ZqU3QtVkRPMVBmZHZqRXlR0gGOAUFVX3lxTE9LYXpNazJNcEFIV1cwSFpZN19INVJUYV9oYmc2VzQ1Zld2M2xaR0dPQy1wMWc1eWl6M2tlR1V6ZVpEU09YVE05NlVKSkhtNkFDNGpJNFpXXzIzZDBMTzFvUkwwR2dsUnBVWWtWZzRPTHhROFlRcmtFZEVnYW5yRk5QWUNVcTBfWVhtM3Z1REE?oc=5",
+   "date": "2026-09-03 09:43",
+   "publishedAt": "2026-09-03T09:43:00+08:00",
+   "summary": "Google accelerates Gemini Flash releases, trails Meta as Pro delay drags - CHOSUNBIZ Chosunbiz",
+   "models": [
+    "Gemini"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "google"
+   ],
+   "lang": "en",
+   "i18n": {}
+  },
+  {
+   "title": "紐約市幼兒園至國中生禁用生成式AI 數十萬學童受影響 - 商傳媒",
+   "source": "商傳媒",
+   "url": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxNajRjNnBKWnBCN2ZqQ3BnNWxMLTlRRFVrVkwwNmVXZ19od0FpSkNXY1N1ZzI3bUt2V20wckhFLTU5YmRsYUhFZG11bG96WFNwOV9sSHhnNkdCVWxSSFVydlFQU2dhQUVsM2tJa2NiTHV0VWVEUmZFWXpDb1ZFR1loSlNUZDczU1V0TmNPX2g1T0V4VFVCeGthdENZYllLVThWYTRfT0xPRFV2ZEFRY2VIWkc2MUg3ZE80dkxnRzN6REFKWEc1SzZjWlhNR21BeFhza2dCMVlMdTNYdUJRXzI2UXlobmRXRlRQd0w5UzFqeE1HSFVEYmJCdUpnaFFEZnJHaVIwdFNfWVdHSGVNNjBrMzdTRVZmeXEydGlZYm5LejlOQWxBM3UtWGhubVhvWDljcmxiZS1YWE05LWx2Sk9lWXEzcnYwZUFMbkRGUmh1bHQ0aDFHTFZTamRSTTJQMzZTTEJKTHhMUXN2ZDN0Vmc1QkJfNWgwOXBIYzZoVHJR?oc=5",
+   "date": "2026-09-03 09:40",
+   "publishedAt": "2026-09-03T09:40:18+08:00",
+   "summary": "紐約市幼兒園至國中生禁用生成式AI 數十萬學童受影響 商傳媒",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "lang": "zh",
+   "i18n": {}
+  },
+  {
+   "title": "Meta發佈“史上最強模型”Muse Spark 1.3，編碼對標GPT-5.6 Sol，AI競賽再逼近頭部玩家作者智通財經 - Investing.com 香港 - 股市報價& 財經新聞",
+   "source": "Investing.com 香港 - 股市報價& 財經新聞",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE15ZGREcmEteVl5VWhDOTRKa0piajkwdEpJZmFFU2t6dm55Mm1UQ0hWUVZEcWliWWl1Z2NoUXBKbWRMN1Y3RTlnZkVhU0dpWmRsTkRWcXhOSjFBaFpQVmFIZEJ5a2dqd0hOR0x3dkh3NjA?oc=5",
+   "date": "2026-09-03 09:17",
+   "publishedAt": "2026-09-03T09:17:23+08:00",
+   "summary": "Meta發佈“史上最強模型”Muse Spark 1.3，編碼對標GPT-5.6 Sol，AI競賽再逼近頭部玩家作者智通財經 Investing.com 香港 - 股市報價& 財經新聞",
+   "models": [
+    "GPT-5"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "lang": "zh",
+   "i18n": {}
+  },
+  {
+   "title": "國際產經：谷歌三週內再升級Flash模型，Gemini 3.8強攻程式開發與網路安全 - 富聯網",
+   "source": "富聯網",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMEg1WjRDaGFIZnZ3QjdGbk1sNi1PRWpQS3ZWeXVBUkVRcFVwT2poMG9lQ1pKaUJRdW5qR0RCakFSbkx4TEwwUHZkS1VwOGpTS291R3dYOFVVaFp6c2MtNkRIeTl0UVB1ZmRQVXp4cjI0ZUxXejAzclNrb2dkMm9nUWdhcGRVM2Q0?oc=5",
+   "date": "2026-09-03 08:50",
+   "publishedAt": "2026-09-03T08:50:00+08:00",
+   "summary": "國際產經：谷歌三週內再升級Flash模型，Gemini 3.8強攻程式開發與網路安全 富聯網",
+   "models": [
+    "Gemini"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "google"
+   ],
+   "lang": "zh",
+   "i18n": {}
+  },
+  {
+   "title": "Gemini 3.8 Flash 登場：Google 三週內第三度升級 Flash，主打低價與長步驟推理 - 硬是要學",
+   "source": "硬是要學",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUkZIUm4tcFZhUTZMNWYzbV9sS1J0WHlSbHFsOExDN1lVTXFyNWpPQm80dUQ5anRXVVpZTHpTVkctdUVZemEtWjZ6aFRMQzRUM2U5bWNLZ3NoRmhRaldzTUVILV9MdUFZVC1TZHpwT0U0ZUQ0NXA1NmxudlYtcUpaeg?oc=5",
+   "date": "2026-09-03 08:49",
+   "publishedAt": "2026-09-03T08:49:19+08:00",
+   "summary": "Gemini 3.8 Flash 登場：Google 三週內第三度升級 Flash，主打低價與長步驟推理 硬是要學",
+   "models": [
+    "Gemini"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "google"
+   ],
+   "lang": "zh",
+   "i18n": {}
+  },
+  {
+   "title": "Tech Bytes: OpenAI’s next AI model crosses ‘Critical’ cybersecurity threshold - proactiveinvestors.co.uk",
+   "source": "proactiveinvestors.co.uk",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPZkhWYm5nZzBjMHFNYjV0Y1o5VFhPMXBsdzVtcEdIdzRnY3BtaFhXN2o5QWNnTTJpcG5TenVweDdOaU5ibFU4OFZiMk94dmhhWkc1aEdDLVJTQXNGUmtFTHdnTFpEcnFTb2NsSnRRNnVlUHVLRXNlbkx6WDNLaUhjNEFPa1prZ1lNazNDUS05cThHN1ZFUEZ5Xzh0WnpLdjBySzBBZV9mTU1mSDFGRW83aEY4aFFJTUpPNzF1UVlBbWNmWms3N2NtYjBUTzl5d0o1bi1CT3VONDRGNUk1VE1fSQ?oc=5",
+   "date": "2026-09-03 08:46",
+   "publishedAt": "2026-09-03T08:46:00+08:00",
+   "summary": "Tech Bytes: OpenAI’s next AI model crosses ‘Critical’ cybersecurity threshold proactiveinvestors.co.uk",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "lang": "en",
+   "i18n": {}
+  },
+  {
+   "title": "不只看高薪，科技新貴選邊站：Anthropic 拚價值、輝達靠底氣贏得青睞 - TechNews 科技新報",
+   "source": "TechNews 科技新報",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE82SlQzSjlncUV5Ql9RRzlVYUxBUXVXWTRpdnk4NjkwcXRlVTduU2N0VXdXYUF3Qk9Qd2J3X2NfZkV3MEtrQ2NwdGtaYTcyOEJsWWU2QThCeGRNNEpxVzRVZ2RKREI?oc=5",
+   "date": "2026-09-03 08:24",
+   "publishedAt": "2026-09-03T08:24:44+08:00",
+   "summary": "不只看高薪，科技新貴選邊站：Anthropic 拚價值、輝達靠底氣贏得青睞 TechNews 科技新報",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic",
+    "other"
+   ],
+   "lang": "zh",
+   "i18n": {}
+  },
+  {
+   "title": "Sonos 27 把音響接上 ChatGPT：MCP、AI 語音與兩款 Ultra 新硬體一次到位 - 硬是要學",
+   "source": "硬是要學",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUnI1d2FNcG03RE12V2tKOHlhQ1RFRlBfNDVZOUhBMmxNTUdpMlR4eFFvYlRmbzV0Z0FoWVpuNFlRbHNaQmNGSUFldXVieHRaM21tOTZDYnlKS3pObXlkeG9sNXlwZUVEZk5QRjkxcWdIMXdUb3ZCMGlsOGU4QWhySw?oc=5",
+   "date": "2026-09-03 08:17",
+   "publishedAt": "2026-09-03T08:17:41+08:00",
+   "summary": "Sonos 27 把音響接上 ChatGPT：MCP、AI 語音與兩款 Ultra 新硬體一次到位 硬是要學",
+   "models": [
+    "ChatGPT"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "lang": "zh",
+   "i18n": {}
+  },
+  {
+   "title": "ChatGPT、Claude全掰了！ 紐約宣布「8年級以下」課堂禁用AI - ETtoday新聞雲",
+   "source": "ETtoday新聞雲",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAxbTh4Z0FpZTE1aWhZNTBKUGgyd21GYmF0djNFTGZ0aXJjVTFuZ1RjNUlOZFZheUlQa1pna2dlOVVDVExpUWlwZjBxbjhqclJHQ0hyZGF2YUVHX0xVWVHSAUtBVV95cUxQU3c0OEJyYVd3R2liWWp4YXVlRllJSWY1dzhZSWQ5cURRN19uZHpNak5aX3g4ck84dHo4TnEzdk5EbDkzVFpQb3NZVVk?oc=5",
+   "date": "2026-09-03 08:10",
+   "publishedAt": "2026-09-03T08:10:00+08:00",
+   "summary": "ChatGPT、Claude全掰了！ 紐約宣布「8年級以下」課堂禁用AI ETtoday新聞雲",
+   "models": [
+    "ChatGPT",
+    "Claude"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "anthropic"
+   ],
+   "lang": "zh",
+   "i18n": {}
+  },
+  {
+   "title": "Tencent Unveils Hy4 AI Model, Touts Kimi K3-Level Performance at 30% of Size - thelec.net",
+   "source": "thelec.net",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBiYkhNMllwR01pQXNER2VHcF9iWlpCOEFpV2ExSWxCdnlZZmpfZ19XWENYOXdFWDR6MHByVzJheExoMEFHQ2h3blRISUJSc0d0cWVIUktIZDd0M01lWFY2UUh1TjRMT1k?oc=5",
+   "date": "2026-09-03 08:03",
+   "publishedAt": "2026-09-03T08:03:43+08:00",
+   "summary": "Tencent Unveils Hy4 AI Model, Touts Kimi K3-Level Performance at 30% of Size thelec.net",
+   "models": [
+    "Kimi"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "cn"
+   ],
+   "lang": "en",
+   "i18n": {}
+  },
+  {
+   "title": "Google’s Gemini 3.8 Flash is built for agents, while its Cyber twin hunts vulnerabilities - VentureBeat",
+   "source": "VentureBeat",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMHpNUnplNkRkbUhZNFNRbXpENzJfdzFKelp1akdHeEhWMXRJZTVfU0R6clE5WUc2S2U0N2E0ZGZCaFlMczNybUdTdUc0UmtvQXF0dDVGWUlzUmxJN3NZNENaY2dVLW4wREtCTFF3YzAyUGJ4WUhFT2tfYUZNVE0yZDhqaDFkZUtJd3BnZVFhaW1COHBDRG12OXZHVVFyejBLSDNQWmU0UjNFUWRVZ0tGdll2SUxaM1FscHVHTg?oc=5",
+   "date": "2026-09-03 08:02",
+   "publishedAt": "2026-09-03T08:02:35+08:00",
+   "summary": "Google’s Gemini 3.8 Flash is built for agents, while its Cyber twin hunts vulnerabilities VentureBeat",
+   "models": [
+    "Gemini"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "google"
+   ],
+   "lang": "en",
+   "i18n": {}
+  },
+  {
+   "title": "從能讀到能改：ChatGPT 寫入權進入企業工作流 - TechNews 科技新報",
+   "source": "TechNews 科技新報",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdkFhT1R0VF9uSE5JN2RTSFppOFJoX0JDTWNEanRDTy1YV3IzZ0trYk1sZ2RuT2s2SzFuT3ZBak55Q3J4SDA1cGxEQm5qUjdXa2Y2OWdJbndTelY3Rm9QWjI4ZzNCTUxSdEpfdC1ycHd5dTZnZTNaRTVGVGVCX0IzN1NTMjFiZFdTRXVRay03X1ZJUQ?oc=5",
+   "date": "2026-09-03 07:50",
+   "publishedAt": "2026-09-03T07:50:39+08:00",
+   "summary": "從能讀到能改：ChatGPT 寫入權進入企業工作流 TechNews 科技新報",
+   "models": [
+    "ChatGPT"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "lang": "zh",
+   "i18n": {}
+  },
+  {
+   "title": "Meta發表最強AI模型Muse Spark 1.3 程式能力超越GPT-5.6 Sol - Life 生活網",
+   "source": "Life 生活網",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOaU9iOXBrWTYtYmVaUU9ibGludFk2NU5QUkRlSFhxNmFYQnc5dHIwcG5JV0dNZWpDU3doZWhzQzR4Yk9IUmhLMUtIaHgydmRxWnhtdU1qQm40ZDZjaFVseUZBdndLOGdDdHhkSDBtWWxzTXEtV2xWU0NBY3l1MjVNZ1FJZTVlT1ZzNWJZWmxuTXRtUDdTS0Flempjc2o4UC1KYUlZUk9hWXZRMjlzSTZReFBnaFpZS29mMWhVakVUWFgxVVppVFNkYnB1NzA1Z2o1MHRiXzZvTnZ2QQ?oc=5",
+   "date": "2026-09-03 07:50",
+   "publishedAt": "2026-09-03T07:50:16+08:00",
+   "summary": "Meta發表最強AI模型Muse Spark 1.3 程式能力超越GPT-5.6 Sol Life 生活網",
+   "models": [
+    "GPT-5"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "lang": "zh",
+   "i18n": {}
+  },
+  {
+   "title": "Qwen Developers Open-Sources zg (zvec-grep): A Local-First Search Layer Unifying ripgrep, BM25, and Vector Search - MarkTechPost",
+   "source": "MarkTechPost",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQVmtqR2JvOTJBZFVoVDVVOVp1bnB2VlhJTlcyYnVSUnlLRDh0RFJSOW5GZmYtdHgzbEVGZHk1eVZLdmZsbFJ3NU5PMkpsU1dDdDVrWGVhV0x3cTBXc3pqNG9pazctZTh5eGptbExCd0E1T0hUeERMUzNSaTFtVVBpeWx5ODVaTGhzRmRhLXFodWMzdW9fTWxidGljeTdpcWNvd0ZYVXh4TTRDVVppbERkMjdOZmYyd1d2NnE2MVZZU3RxV2lJTDB1N2FVRjBvSTZBVUIwcHN5SFRKWDV3cktCNGhDd9IB6AFBVV95cUxPTjJPWEhQekwxMDFMU2VHU3VVNFJYNUMzQkZOVGxtTnpWdXRwOHVZellBTUczVzFFYzl1Y3pGWEdfUmpaTS14NERNNDBKYTQtbTVKMkFXVWU5dDRkNUsyM1dVdUdNQm1Ubm9oTlJkOGI1RW40R2J1NHdDcFRORExkU2cyZ3JuYkVzZkxMNjloWXMzNlhFSnRMVkRMZ191Mmx6ZDV4OFN4MEZhaUI2dDhVZUtnalpvV0lid0hSUDBTWHUzU3ZLYlBENDJabklrWVVhekRDcjVXOU9HTEdaVlcwMjRicW84TlFh?oc=5",
+   "date": "2026-09-03 07:48",
+   "publishedAt": "2026-09-03T07:48:47+08:00",
+   "summary": "Qwen Developers Open-Sources zg (zvec-grep): A Local-First Search Layer Unifying ripgrep, BM25, and Vector Search MarkTechPost",
+   "models": [
+    "Qwen"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "cn"
+   ],
+   "lang": "en",
+   "i18n": {}
+  },
+  {
+   "title": "Google 六週內第三度推出 Gemini 3.8 Flash 增設網絡安全專用變體 - Techritual",
+   "source": "Techritual",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1wUmF1bTY5eHdvRzNhYlZqUFlMd1RZZWlUSDlNNlVMS3pzTF9jQUhRM25Lc1FBN0xlQjlCdF9wck9yUnl6cmh0Q3UzUmZua2RPLUNYejVaQkY?oc=5",
+   "date": "2026-09-03 07:45",
+   "publishedAt": "2026-09-03T07:45:24+08:00",
+   "summary": "Google 六週內第三度推出 Gemini 3.8 Flash 增設網絡安全專用變體 Techritual",
+   "models": [
+    "Gemini"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "google"
+   ],
+   "lang": "zh",
+   "i18n": {}
+  },
+  {
+   "title": "OpenAI Astra 列「關鍵級」網安模型 企業部署 AI 代理須加強權限管控 - unwire PRO",
+   "source": "unwire PRO",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1aUEVEbExnM2Z4T3NGWXBVdTNxS1pXaGFJU2VTdlc5WkNsQUxPUjQ5bm0taGd2Tkt5eWdWSG02Tk5OMDIwZFctVERFaGwweE9YR1NSaG11Ylo1OWd3d1c4U3BRSjFFeWdlZkN6MXRmdkFJRDA?oc=5",
+   "date": "2026-09-03 07:11",
+   "publishedAt": "2026-09-03T07:11:37+08:00",
+   "summary": "OpenAI Astra 列「關鍵級」網安模型 企業部署 AI 代理須加強權限管控 unwire PRO",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "lang": "zh",
    "i18n": {}
   },
   {
@@ -39,11 +635,26 @@
    "publishedAt": "2026-09-03T06:44:56+08:00",
    "summary": "The acquisition also leaves Sequoia-backed Serval as the de facto startup leader in AI IT service automation, industry watchers believe.",
    "models": [],
-   "tag": "政策",
+   "tag": "產品發表",
    "camps": [
     "other"
    ],
    "lang": "en",
+   "i18n": {}
+  },
+  {
+   "title": "【科技早餐】OpenAI Astra 可自主找出零日漏洞，戴爾 AI 伺服器年營收上看740 億美元| TechOrange 科技報橘 - LINE TODAY",
+   "source": "LINE TODAY",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5YZm0wRHl0RFRpRm10RnZ2Q1Bid1ZJY2pLRU1fUENxa2E4aUY5SDJyUFFpRnViY29xU0hjMWx4R0JBblNnYzBwcXNwSnVwZExBbEVoWXhR?oc=5",
+   "date": "2026-09-03 06:39",
+   "publishedAt": "2026-09-03T06:39:27+08:00",
+   "summary": "【科技早餐】OpenAI Astra 可自主找出零日漏洞，戴爾 AI 伺服器年營收上看740 億美元| TechOrange 科技報橘 LINE TODAY",
+   "models": [],
+   "tag": "商業",
+   "camps": [
+    "openai"
+   ],
+   "lang": "zh",
    "i18n": {}
   },
   {
@@ -62,29 +673,42 @@
    "i18n": {}
   },
   {
-   "title": "Claude Mythos only model to complete full cyber kill chain, experts say - The Register",
-   "source": "The Register",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOOXFZODhkeFpLLVFlZzFUQklUd3ItTlB4QVVtNFN0eThVMFZiR1ZCa1U2bHo3UzN4d1VrRTJabzZSb3hFQkVOWFZZSW43amF6em9MTE5KdVU1bFplUEQ5Mm5LRlA3NTdhcDRKbUpudUpVYklJM29haUZjdnRZUjVtMXZ2c0UwWFI2NUcxMjNKOWFKWGtLWktoZXUxMV8wYlV4X21DM1pqWFRLbjZ2ek52Wmd2UlZoOW5xdmVGSjQzdlhlT0xT?oc=5",
-   "date": "2026-09-03 05:31",
-   "publishedAt": "2026-09-03T05:31:31+08:00",
-   "summary": "Claude Mythos only model to complete full cyber kill chain, experts say The Register",
-   "models": [
-    "Claude"
-   ],
+   "title": "OpenAI Astra Brings Autonomous Zero-Day Exploitation to AI - securityaffairs.com",
+   "source": "securityaffairs.com",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWmJJejdVQzR3cHNYS0FRQThUbFhReldYb1FLdkVhQ2hLYmZtdklXWVJRRzZ4M25zaDgzR1MxZGZBWW5OcWlSclNlWDV5SkdsNUJnMzFWa2dkNmZ4aGdJSWRXYklNS1ZKUVI4dGVNSWZYQ1FPUjZyall1VEpDZ0tkSDhmZG4wX19UR25Nb2pqT3FreE9YWDdFMXZrUWxJcjE1N3BJ0gGoAUFVX3lxTE04N3BLNUZ4ZVhZQkdjcV9nM2xkZ1B2NENaYmJhdUdpYmhvWjlFdENoZGVpb3ZMUFhxSVoyWFdnWW11UmFhdGoyYllEampTYm1LM0tSUFktd1BjS1R5T0V0MmpyMTBoWXRLYTY3akF6Q1JFZ1JQRUpuc0YxbDl4b3JQRFAxdDNNZ0JlaFkzNkVWc2JYUlhYeUotaFZtMHFRd0hWUUFLUWQ0Sw?oc=5",
+   "date": "2026-09-03 06:16",
+   "publishedAt": "2026-09-03T06:16:37+08:00",
+   "summary": "OpenAI Astra Brings Autonomous Zero-Day Exploitation to AI securityaffairs.com",
+   "models": [],
    "tag": "產品發表",
    "camps": [
-    "anthropic"
+    "openai"
    ],
    "lang": "en",
    "i18n": {}
   },
   {
-   "title": "Accessing OpenAI models on Amazon Bedrock from Australia with global cross-Region inference - Amazon Web Services",
-   "source": "Amazon Web Services",
+   "title": "ACEMAGIC Unveils F9A Pro, the World's First Ryzen AI Max+ PRO 495 AI Mini Workstation, at IFA 2026 - xiaomitoday.com",
+   "source": "xiaomitoday.com",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcmZNM2tYWWEydDFHYUgxV2wwTzRMNWNxdGFZZVpwalBIaDU5THo4aHlmM2tpQnBLT2loZGJ1NktfcjY3Y2xkV0dZUzBXZGl1anJpU2ZDMzJtcnB0cUxkOFZiMjVLbUZqcTRDYTVqTy14eUI0VzB6NGpBRGJWYThabmEzUnpabGh5QXNWdnQyb3MtR3FVcko5WGpFS2g5ODd6eHAwbUg3djlDV3hsNjN6dzdteHd2WnZkY2p3?oc=5",
+   "date": "2026-09-03 05:35",
+   "publishedAt": "2026-09-03T05:35:43+08:00",
+   "summary": "ACEMAGIC Unveils F9A Pro, the World's First Ryzen AI Max+ PRO 495 AI Mini Workstation, at IFA 2026 xiaomitoday.com",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "lang": "en",
+   "i18n": {}
+  },
+  {
+   "title": "Accessing OpenAI models on Amazon Bedrock from Australia with global cross-Region inference - Amazon Web Services (AWS)",
+   "source": "Amazon Web Services (AWS)",
    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNVTJjWG9UblhrQzZ4TWtrZS1fWmhhM2t4YXhObHk5T2tZZVhaMzA1Nno4Y016S3BNYlV1Q3FvdldLY19uZUNmalFFalpzRHlSS0VSank3dVNZZllwSEJsTWM5UEpvaDJhc05BNXdFT3pHZENfcHpveUZ0VnhtRmFzdHZsRHZMbTc0Q0VnNFJRUlphSnY2elhwTjZZSnU5NUw0MklhbFFlZGNHZERXU2o1Y1ltNkcyQnlLeHFpcjEzMlBJNHpzbTNUWnNpTnMxOFhua2RxRS1jSnJIQy1Lc0xn?oc=5",
    "date": "2026-09-03 05:22",
    "publishedAt": "2026-09-03T05:22:05+08:00",
-   "summary": "Accessing OpenAI models on Amazon Bedrock from Australia with global cross-Region inference Amazon Web Services",
+   "summary": "Accessing OpenAI models on Amazon Bedrock from Australia with global cross-Region inference Amazon Web Services (AWS)",
    "models": [],
    "tag": "產品發表",
    "camps": [
@@ -95,31 +719,49 @@
    "i18n": {}
   },
   {
-   "title": "Meta Unveils Its Most Powerful Model Yet, Muse Spark 1.3, with Coding Capabilities Surpassing GPT-5.6 Sol - finance.biggo.com",
-   "source": "finance.biggo.com",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5QTmVXd3FzUklqbEIyazlqX3UtZTNSYmNsUUVBY0FqX2ZwQUdnWWRTNmJCOVYtRU5NdS0xRUJqbEhYUDZYMFZyM1hTTkxwRUluSEJhSlhidGVhSlU5RzdoZTA5N2RzQzlNamdKRkRfX0ZLczQ2WEE?oc=5",
-   "date": "2026-09-03 05:09",
-   "publishedAt": "2026-09-03T05:09:36+08:00",
-   "summary": "Meta Unveils Its Most Powerful Model Yet, Muse Spark 1.3, with Coding Capabilities Surpassing GPT-5.6 Sol finance.biggo.com",
+   "title": "Google's Gemini 3.8 Flash Works Harder, Costs More - The Tech Buzz",
+   "source": "The Tech Buzz",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQWnJNNlRrVllXei1pSkN4Q3dpVFZ5VEZRNUctcGdJQ3lFSGgzOFQwT3pmOXlhZXE2N0hJMUFtX0FjQjQwV2RGRURiV001NG5zTDF1cHZVc3g0ZmN0R21hanp6dFhpd0NLSGRBdUhBMFoyZDBybWdEWG9wRTZ5Q2lpMzdHUEpoVTdnWEE?oc=5",
+   "date": "2026-09-03 04:38",
+   "publishedAt": "2026-09-03T04:38:00+08:00",
+   "summary": "Google's Gemini 3.8 Flash Works Harder, Costs More The Tech Buzz",
    "models": [
-    "GPT-5"
+    "Gemini"
    ],
    "tag": "產品發表",
    "camps": [
-    "openai"
+    "google"
    ],
    "lang": "en",
    "i18n": {}
   },
   {
-   "title": "OpenAI Tells House Democrats It Is Building Automated Shutdown Capability - Unite.AI",
-   "source": "Unite.AI",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVFA5cER5UkNaWGl4Z3RDUGNrUEhtcER5QUpQVGdRTkd5bUlULTNudlRldHFFWlhaM25EZEtIWE5idFcxLXhENzZQQTZObHhHTEE3c3RXSjViLVI2dkd3T3ZvRzVsWFZTMENReWhfX0dBaEZOWjRaWlBqN3hsOUdha1R4MTFvd1JzeG1XcXc4OW10djlnNC1RM3J6TQ?oc=5",
-   "date": "2026-09-03 05:08",
-   "publishedAt": "2026-09-03T05:08:01+08:00",
-   "summary": "OpenAI Tells House Democrats It Is Building Automated Shutdown Capability Unite.AI",
-   "models": [],
+   "title": "Meta's Muse Spark 1.3 Scores 61 On Artificial Analysis Intelligence Index, At Par With Grok 4.6 And GPT 5.6 Sol - OfficeChai",
+   "source": "OfficeChai",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNT2RNcTlSZzRNTjZZR2ZqTzlUWGxBQjYxNk9Dd3hZX0NNSUhlSUFoeGRtY0dBdGVzWTFHZDBfNkI4NXpQMUowU0xyLVZzRjJfWW5rY3NIV3E4NnJ3cDhZYzQwQlM3ZXVma3ZZMHV0VzFFenBCbWg5SmxVeGxXU09fcC1JN216VzMtNnhWbnY4amw4VS1MRzBhTDQ5LWJVYjRfTmw2NEN0bHNIb091NXJaZWMzbTY0V3cwTVVkdE1PT1BoZTZPSkV3YXlCUnFKcVg2Qnc?oc=5",
+   "date": "2026-09-03 04:29",
+   "publishedAt": "2026-09-03T04:29:39+08:00",
+   "summary": "Meta's Muse Spark 1.3 Scores 61 On Artificial Analysis Intelligence Index, At Par With Grok 4.6 And GPT 5.6 Sol OfficeChai",
+   "models": [
+    "Grok"
+   ],
    "tag": "產品發表",
+   "camps": [
+    "openai",
+    "other"
+   ],
+   "lang": "en",
+   "i18n": {}
+  },
+  {
+   "title": "COMPLAINTS—ELECTRONIC PRODUCTS—OpenAI faces lawsuits over alleged role in Florida State shooting - VitalLaw.com",
+   "source": "VitalLaw.com",
+   "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNY3JyTG1DbkwtZVh1dU5DVE1mVEpqbTF0VDBHMlZrTlB3VURFY1hnSWI3ZU84Z3NIbGdNR0N4amdBd0ZvRnBQNGtJT2x6ZzdsakU4cnJWbldZUzBONHptRzI5QlNmTGxKbUd6TlpDRnFQOXByN0NKSW5uTHFXUFJjWks2cFdfNVNpaUdkbXUwNlh6eGFUODExWnFZcmtPY2xkbGUwanQtTzBrNVEyaXc0QTFWWEFfcUpCZThRQVd3Q0Q5cE5SdVVDYjdjZkZIajBUQ2xFVThSTngwZGJGWjl3d2JFc05jRG1oUXRBdE1BbXNpbVJrZHIw?oc=5",
+   "date": "2026-09-03 04:24",
+   "publishedAt": "2026-09-03T04:24:48+08:00",
+   "summary": "COMPLAINTS—ELECTRONIC PRODUCTS—OpenAI faces lawsuits over alleged role in Florida State shooting VitalLaw.com",
+   "models": [],
+   "tag": "政策",
    "camps": [
     "openai"
    ],
@@ -159,12 +801,12 @@
    "i18n": {}
   },
   {
-   "title": "OpenAI正在為人工智能工具開發“自動關閉”功能，致立法者的信中如是說 - TradingView",
-   "source": "TradingView",
+   "title": "OpenAI正在為人工智能工具開發“自動關閉”功能，致立法者的信中如是說 - tw.tradingview.com",
+   "source": "tw.tradingview.com",
    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1haW90aS1BZ0llLXhRT0VvbzFJeDhkd09tTmpxdHNEVy1Wa2g0TXhjeDUtUFpCRTJQaEt0NlNxektkeF9IcDFUanNndl9lc2xGbURIcUdoUmhVeElEd0tvamVmbXNaUzhBRENxWXF0bTVuMlFUVmlZ?oc=5",
    "date": "2026-09-03 04:00",
    "publishedAt": "2026-09-03T04:00:51+08:00",
-   "summary": "OpenAI正在為人工智能工具開發“自動關閉”功能，致立法者的信中如是說 TradingView",
+   "summary": "OpenAI正在為人工智能工具開發“自動關閉”功能，致立法者的信中如是說 tw.tradingview.com",
    "models": [],
    "tag": "產品發表",
    "camps": [
@@ -174,16 +816,48 @@
    "i18n": {}
   },
   {
-   "title": "Multiverse Computing launches Quasar 438B, the highest-scoring European model on Artificial Analysis Intelligence Index - StreetInsider",
-   "source": "StreetInsider",
-   "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxON2FsWk9ZUmUtMXR1c1BWSXJFalBlVzBHcG9pb0dIcFBRVDQyNDF1aVhqT0RsT2Y0enVnS0tXZG9WdjFrdVV1UkFZemNSR3ZaNXc1b2ppbFlweFl6Qk14dzVVc1FUMjBHY0p5OWRMeVd4SXlTZThnYmIxZURTMDBNR2lhN1d0Q1FlbHZrWTk1TEhyRzRrd3VlX3kweUJlMlV6RVU0UUdGOHBCV2U1N2NBbGZrSERPLUFWdl9mZlFlWFJlTVNmRG9pWDYyM2dKekxUdVh1RU56b1FPMnFSWEU5S3dObmdFM0FZLTlhZkZneUJtSWt0b2cxRkM5WjhrczZkNkVYSzg4NVpZalI4?oc=5",
-   "date": "2026-09-03 03:45",
-   "publishedAt": "2026-09-03T03:45:22+08:00",
-   "summary": "Multiverse Computing launches Quasar 438B, the highest-scoring European model on Artificial Analysis Intelligence Index StreetInsider",
+   "title": "With Gemini 3.8 Flash, Google reminds everyone it's still in the race - The Register",
+   "source": "The Register",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOVZaZUx6a0VBTzBKVG9DTENKUW5nTm5mcDVpYUppN3ktSElJWmRQVkQ3M2hadlF2dHcwWEVPZjJYQ0R3a09WTHhGc0hONVk2bVRZYkdyMnkxS3NJdEp2RVA5R0Qwai1mTjFTRllKeGZtNS1DenlidXNLSjlaNk92RUxHUDlUYktibHctUUZpVS1mcFVkOWktdUlvUnBDMnFGT1N3MC1tQWtINUxma04zOThJcXJ4ZThhVFdhbTBRaF8?oc=5",
+   "date": "2026-09-03 03:59",
+   "publishedAt": "2026-09-03T03:59:26+08:00",
+   "summary": "With Gemini 3.8 Flash, Google reminds everyone it's still in the race The Register",
+   "models": [
+    "Gemini"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "google"
+   ],
+   "lang": "en",
+   "i18n": {}
+  },
+  {
+   "title": "Multiverse Computing launches Quasar 438B, the highest-scoring European model on Artificial Analysis Intelligence Index - mycarrollcountynews.com",
+   "source": "mycarrollcountynews.com",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcDIxenNZeUw0dS1aa2toVnBxLWtVbWY0cUg2eXFCdzRvTm96ZmNYc2JpVDVxUXR0M01JSUlMajZ6cXlaX3NUOUxoSVNFdFU4N3UtX2lkVjl4aGxGQVhaV3lMa05wa2ZFRm5lMlhjOGQtUGNpUjdFRW9rdUF6NGRxSE52WDQxek9FUmlEc0pPTzRNbVVVUlNoZVB0V09UOEVuTTdIbGViU0I3bF9yelNIUTVSZ01aR1U?oc=5",
+   "date": "2026-09-03 03:43",
+   "publishedAt": "2026-09-03T03:43:43+08:00",
+   "summary": "Multiverse Computing launches Quasar 438B, the highest-scoring European model on Artificial Analysis Intelligence Index mycarrollcountynews.com",
    "models": [],
    "tag": "產品發表",
    "camps": [
     "other"
+   ],
+   "lang": "en",
+   "i18n": {}
+  },
+  {
+   "title": "OpenAI Halts Training 2 Weeks Over Astra Alarm [2026] - tech-insider.org",
+   "source": "tech-insider.org",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1tR2ZLWWl2M2cxZUd5d0ZkcVFlX3hGVldWdWt6R080Nk9JZG1EV2NpbXB5WlVxZU03UU9Cb3o2WFEzQ2hnNk9WcTBfeUdBSHJ3Z2xCRXA1N3Bpd2t2UFQ1bjJyMG5KZEtZXzVOc2J3eTNqM2xoYi1zVTZBdw?oc=5",
+   "date": "2026-09-03 03:34",
+   "publishedAt": "2026-09-03T03:34:25+08:00",
+   "summary": "OpenAI Halts Training 2 Weeks Over Astra Alarm [2026] tech-insider.org",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
    ],
    "lang": "en",
    "i18n": {}
@@ -196,11 +870,28 @@
    "publishedAt": "2026-09-03T03:19:50+08:00",
    "summary": "Meta launches Muse Image AI model to attract creators and advertisers BOL News",
    "models": [],
-   "tag": "政策",
+   "tag": "產品發表",
    "camps": [
     "other"
    ],
    "lang": "en",
+   "i18n": {}
+  },
+  {
+   "title": "Google 發布 Gemini 3.8 Flash：六週內第三次更新，推理與編碼能力再升級 - 電腦王阿達",
+   "source": "電腦王阿達",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE95dTJHM2JSYkhqUTVhb1Z3bHZ1UUFwSGt2b0ljOWxDTXhxMWRZeERtTmpYRkotYTNiV0FOWDExSjA1YklDU0Rva2JVZDlJUEl4QlE?oc=5",
+   "date": "2026-09-03 03:06",
+   "publishedAt": "2026-09-03T03:06:39+08:00",
+   "summary": "Google 發布 Gemini 3.8 Flash：六週內第三次更新，推理與編碼能力再升級 電腦王阿達",
+   "models": [
+    "Gemini"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "google"
+   ],
+   "lang": "zh",
    "i18n": {}
   },
   {
@@ -221,14 +912,16 @@
    "i18n": {}
   },
   {
-   "title": "US frontier labs face criticism for pushing ban on open-source AI - Crypto Briefing",
-   "source": "Crypto Briefing",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9mckppLUNORTV0UndSaEtUUGRrUHNkU1E2bVJ0dElKOUhmUjItSk43LWZod1dVNDJja3JBZ25hMEdXaTJfTUFkZEQ4eUM0Y1JBRDRwZHp3MmhUSmo1RGhDWHpfTjFuSVZxUExyNFpZazhxcW5MazNyTFJlOURXUQ?oc=5",
-   "date": "2026-09-03 02:37",
-   "publishedAt": "2026-09-03T02:37:49+08:00",
-   "summary": "US frontier labs face criticism for pushing ban on open-source AI Crypto Briefing",
-   "models": [],
-   "tag": "政策",
+   "title": "Musk Announces Grok 4.7 Launch in Ten Days, Touts 2.1 Trillion Parameters to Beat All Models - finance.biggo.com",
+   "source": "finance.biggo.com",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5DOUFCOEl3QmNTODRIc1dQVnhIYzFoMDdiQkFPWnU0U29rdUpvMmZNU3g1ZzhLa29GR245c2JfelZ5SjIxNVZZaWtEc281SjhZclk3RHg1UkV3UjJDQkZ3M3RtRVdvRS1yVUJ2LW1lRS14YUlYbWc?oc=5",
+   "date": "2026-09-03 02:43",
+   "publishedAt": "2026-09-03T02:43:48+08:00",
+   "summary": "Musk Announces Grok 4.7 Launch in Ten Days, Touts 2.1 Trillion Parameters to Beat All Models finance.biggo.com",
+   "models": [
+    "Grok"
+   ],
+   "tag": "產品發表",
    "camps": [
     "other"
    ],
@@ -236,17 +929,17 @@
    "i18n": {}
   },
   {
-   "title": "Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access Programs - The Hacker News",
-   "source": "The Hacker News",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE42YzZVZWJvNVN5MnFiNl9zVXVadzBVTi1xaHVId0Q5SnJfck5NVG9RS3RsWmJvaWlheWdmUV9QeFRqV0lWTnFTYTVhM3U2NU0xV1AtZ2R3NWRkVVlQOW9vZ3R4anpONVNhUnQ5ZFM0LXpqNEJEQXFsdjNWWEU2Zw?oc=5",
-   "date": "2026-09-03 02:27",
-   "publishedAt": "2026-09-03T02:27:00+08:00",
-   "summary": "Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access Programs The Hacker News",
-   "models": [],
+   "title": "Google DeepMind Ships Gemini 3.8 Flash and Cyber: Six Weeks, Three Flash Models, One Compute Landlord Thesis - forkast.news",
+   "source": "forkast.news",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUC0tcDJ6Y1lnOHZfWUZ2LUltbGQwc1JLNDBib3U5RkNiTWU5aHg0bzhZdzhURjVOdU1fZS13OUl3ejdYWnhCNUV2VF9lXzlyTUdsZmx0NUtZVVBwNkZpRC1BeFFmUHo3b0JiNUNqU3ZtRnpvRnRBc0pNdnkxemdWRWJyWE1SbnJBN0l0Z3FyZi1mMXZiTWtUUlo3WjJjRTdpSDN4azNiU3hsOXdxVHlJUnhXYnYtWFVxQTA2V04yQW9zaVMxYXc?oc=5",
+   "date": "2026-09-03 02:39",
+   "publishedAt": "2026-09-03T02:39:17+08:00",
+   "summary": "Google DeepMind Ships Gemini 3.8 Flash and Cyber: Six Weeks, Three Flash Models, One Compute Landlord Thesis forkast.news",
+   "models": [
+    "Gemini"
+   ],
    "tag": "產品發表",
    "camps": [
-    "openai",
-    "anthropic",
     "google"
    ],
    "lang": "en",
@@ -268,12 +961,12 @@
    "i18n": {}
   },
   {
-   "title": "Anthropic's Claude Models Breached Three Real Organizations – Admits AI Isn't 'Perfectly Aligned' - Gadget Review",
-   "source": "Gadget Review",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOaXZ2SW56SGZEakJSTUF1cXVNNjRFdWFlWVhxamI2WXpHNGRVNXBsYmRfcmxmQ0c1SWVpbnlxZnp2ejIxUTVfMjFIOWhUOVA4TmpMT2pWUjlJTDktMmRrUWFQdzRidVNtUnVQSUo5MHRpS3pBQUU4TTNMWEh4blJNNnROUUpTeTV1TVlmMkZCRElITC1ESVRja185a2lkcHJmU1RQRnN1UXpiSlFkTDV5U0xISzMxUDFHWnBsUQ?oc=5",
+   "title": "Anthropic’s Claude Models Breached Three Real Organizations – Admits AI Isn’t “Perfectly Aligned” - Yahoo Tech",
+   "source": "Yahoo Tech",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVTVVMzJIb1daVlZnaHFFUmNHY3Jtb3BUVHdfOUlmYWtvcjB0V1JOTG00TUplRWFBUWM0bGt6Vm9ROVVESzBNVXdnV3JJdWU1YTJZX3lGTUlOUWs5TW9nZVlPdmJqQTFfMWZFYl8yVm5LZmIyV2xTMUZPZ2pRcVl1WTZtNFRQYk9zc01lWkk1V3p4UnBJa1pSeTZaOA?oc=5",
    "date": "2026-09-03 02:04",
    "publishedAt": "2026-09-03T02:04:00+08:00",
-   "summary": "Anthropic's Claude Models Breached Three Real Organizations – Admits AI Isn't 'Perfectly Aligned' Gadget Review",
+   "summary": "Anthropic’s Claude Models Breached Three Real Organizations – Admits AI Isn’t “Perfectly Aligned” Yahoo Tech",
    "models": [
     "Claude"
    ],
@@ -292,677 +985,11 @@
    "publishedAt": "2026-09-03T01:52:56+08:00",
    "summary": "Amazon is trying to combat impersonation scams with a new feature that allows you to use its AI assistant to determine whether an email, text message, or phone call actually came from the company. With the update, you ca",
    "models": [],
-   "tag": "政策",
-   "camps": [
-    "other"
-   ],
-   "lang": "en",
-   "i18n": {}
-  },
-  {
-   "title": "CrowdStrike integrates Falcon platform into Anthropic’s Claude Marketplace - Crypto Briefing",
-   "source": "Crypto Briefing",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPV2J3WFpfYzNaaGU0b21leGZrTjd2czluMFZlZVRpcjZpQlM5ZWJvaS0tZlNEWS0tM3c1MXhKbUxxNjNOc0V6VUxZLTg0MG5SVXpmV3VDMEFpQk1ycFptLUQ2SnBkbVo0c0MtNWExWWExejBCTWVTdkRXckcxc0JVVg?oc=5",
-   "date": "2026-09-03 01:40",
-   "publishedAt": "2026-09-03T01:40:08+08:00",
-   "summary": "CrowdStrike integrates Falcon platform into Anthropic’s Claude Marketplace Crypto Briefing",
-   "models": [
-    "Claude"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "anthropic"
-   ],
-   "lang": "en",
-   "i18n": {}
-  },
-  {
-   "title": "Pangram’s Max Spero on why AI detection is harder than ‘Real or Fake’",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/video/pangrams-max-spero-on-why-ai-detection-is-harder-than-real-or-fake/",
-   "date": "2026-09-03 01:18",
-   "publishedAt": "2026-09-03T01:18:13+08:00",
-   "summary": "The internet has a trust problem, and it’s not just because social media feeds are filling up with AI slop. AI-generated text and images are now making their way into job applications, product reviews, and even insurance",
-   "models": [],
    "tag": "產品發表",
    "camps": [
     "other"
    ],
    "lang": "en",
-   "i18n": {}
-  },
-  {
-   "title": "We’re ‘dangerously close’ to dead internet theory, says Pangram’s CEO",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/podcast/were-dangerously-close-to-dead-internet-theory-says-pangrams-ceo/",
-   "date": "2026-09-03 01:09",
-   "publishedAt": "2026-09-03T01:09:57+08:00",
-   "summary": "The internet has a trust problem, and it’s not just because social media feeds are filling up with AI slop. AI-generated text and images are now making their way into job applications, product reviews, and even insurance",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "other"
-   ],
-   "lang": "en",
-   "i18n": {}
-  },
-  {
-   "title": "US government sides with OpenAI on issue of training LLMs on copyrighted material",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/",
-   "date": "2026-09-03 01:09",
-   "publishedAt": "2026-09-03T01:09:06+08:00",
-   "summary": "\"The United States has a strong interest in continuing to develop a robust and competitive artificial intelligence industry that sets the standard for the practice and procedure of AI use globally,\" the brief reads.",
-   "models": [],
-   "tag": "政策",
-   "camps": [
-    "openai"
-   ],
-   "lang": "en",
-   "i18n": {}
-  },
-  {
-   "title": "OpenAI首席執行官奧特曼：人工智能將成爲全球商業史上最大的繁榮浪潮。 - 富途牛牛",
-   "source": "富途牛牛",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSzB5bENvSHNhM3ZmZ0g5bk1fNVp6LWFvY3BXU2tTSUt0YWhVVzg3TUhxdXdXWng0NkRhbGd3dzFURXI4RV9YVmVJMEduUHhteWR0ZWFOaWY0ZU9rdjVMeVNzaDVjTWNnaUhIV3VsbXl4eF9iZi1yU1ZNeEM2VFNzXzlMQnNOemFqeE5nNW03WVVsWlhXaHNJUFVJSHlMVm9IaGxlakJ2Q05ZNjN2NWFSVQ?oc=5",
-   "date": "2026-09-03 01:08",
-   "publishedAt": "2026-09-03T01:08:46+08:00",
-   "summary": "OpenAI首席執行官奧特曼：人工智能將成爲全球商業史上最大的繁榮浪潮。 富途牛牛",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "openai"
-   ],
-   "lang": "zh",
-   "i18n": {}
-  },
-  {
-   "title": "谷歌發布「最智慧」的Gemini 3.8 Flash模型，並啟動Fairwind計劃引發AI熱潮！ - forecastock.tw",
-   "source": "forecastock.tw",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZ2ZiNzdEMEhVU01mZ3h4djZnYVJDUk5MVTRBakVzTnJKbnFxeTM1LWkzc21BaHJYeXdrMmUxNm10SkdtOWhDdWk4SEVOdURCZTdlbS14ckh0NXhseE53R0lPem1MT213SzRqQUFuVjB0M1g3OGxOaTZtdlFybnFsZWpUUGx0dXp4eTFfbElnT1BSNEVq?oc=5",
-   "date": "2026-09-03 01:02",
-   "publishedAt": "2026-09-03T01:02:28+08:00",
-   "summary": "谷歌發布「最智慧」的Gemini 3.8 Flash模型，並啟動Fairwind計劃引發AI熱潮！ forecastock.tw",
-   "models": [
-    "Gemini"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "google"
-   ],
-   "lang": "zh",
-   "i18n": {}
-  },
-  {
-   "title": "黃仁勳挺 AI 基建 促 G20 加速推動 - 經濟日報",
-   "source": "經濟日報",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9Ia21GcjZ1UENMMnlWRkhLcmx2VEhjbGlWUlVlYV9GY3BFQlJXSG9KQkhoQlF6MDJ6dkFsUHRfRkxiWnNxUnlrQko2MjFVSFM1TE43aW93aVZPN1ot0gFiQVVfeXFMT3J4cGZjVzRyUDAwYVFwVW1hdjF3cERkLTVrOXdncWI1NDFUOHdFUGVvMDFpSS14SHZEZ0JRdnhGaEFkTlp0RUNxNS1pYkRSOTYzSWtwUlZNX0NCbHN4R0F5TGc?oc=5",
-   "date": "2026-09-03 00:59",
-   "publishedAt": "2026-09-03T00:59:27+08:00",
-   "summary": "黃仁勳挺 AI 基建 促 G20 加速推動 經濟日報",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "other"
-   ],
-   "lang": "zh",
-   "i18n": {}
-  },
-  {
-   "title": "OpenAI, Anthropic, Google Launch Advanced AI; Astra Sparks Monitoring Concerns - Rediff",
-   "source": "Rediff",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORDM0WmUzWjlRVnFDREJSbDJXSDdnNnprMXQyd3JMc1cyT0pLYlF0djN0QmpfaTlxR19NR05lTXRhLU8yWVJhdDZWZkFXSUpDNlVoenI1TEx0eWs2aWIzM3ZqdTh2QS1mTXhnTTdyRGRaN29qd3NqYzM5S1IzWi1uTTZPUnRFM1F1THVPcThIb2pSWm5oUU81MHRIZ2NkbE8zT1lleExLRFTSAagBQVVfeXFMTkQzNFplM1o5UVZxQ0RCUmwyV0g3ZzZ6azF0MndyTHNXMk9KS2JRdHYzdEJqX2k5cUdfTUdOZU10YS1PMllSYXQ2VmZBV0lKQzZVaHpyNUxMdHlrNmliMzN2anU4dkEtZk14Z003ckRkWjdvandzamMzOUtSM1otbk02T1J0RTNRdUx1T3E4SG9qUlpuaFFPNTB0SGdjZGxPM09ZZXhMS0RU?oc=5",
-   "date": "2026-09-03 00:55",
-   "publishedAt": "2026-09-03T00:55:50+08:00",
-   "summary": "OpenAI, Anthropic, Google Launch Advanced AI; Astra Sparks Monitoring Concerns Rediff",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "openai",
-    "anthropic",
-    "google"
-   ],
-   "lang": "en",
-   "i18n": {}
-  },
-  {
-   "title": "曼達尼將人工智慧逐出課堂 影響60萬名學生 - Business Insider Taiwan",
-   "source": "Business Insider Taiwan",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB1MHlzNDN0RHZfSkVWWFY5cldaZ2cyQ3R5SU5xOHZJTUdDS0NLNG5QYXhqVTV3amhEUGRjOTd6OUJpOXVRS3BRYjhKN0dzR1NjQnM2RE53?oc=5",
-   "date": "2026-09-03 00:54",
-   "publishedAt": "2026-09-03T00:54:59+08:00",
-   "summary": "曼達尼將人工智慧逐出課堂 影響60萬名學生 Business Insider Taiwan",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "other"
-   ],
-   "lang": "zh",
-   "i18n": {}
-  },
-  {
-   "title": "OpenAI's Astra Becomes Its First AI Model With 'Critical' Hacking Abilities - Decrypt",
-   "source": "Decrypt",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5RV1B5YWU5cDNoaUl5Z3hhU3NIN3lDOW1BSXdzMXJzQWRONk40VTVER1RaT19kM19mRjI2OEpxck1LWXFMV0ZyUjJON1BsWDBKNDdQTjJNREJhSEJDNUtvNGJ1VlRBWmpYbGFOeWVTWEJ2eWM2b0hyTmZB0gGCAUFVX3lxTFAycWZ2S2d1Qnp0NHI2MG9haFVicDNISFl3Y0F6aVlBWmlQVHNrZFo2RHNBcHYxWkNkVUNZdk5JSFhQMGdpVUd5Wks0M28yb1ZnN3A3X1lsa3dPbjhnZ0lHTGsxc2pYX2p2SGlZSHNoSWhHOF9zTTU2eXl4Zm9mZ2VNOHc?oc=5",
-   "date": "2026-09-03 00:43",
-   "publishedAt": "2026-09-03T00:43:53+08:00",
-   "summary": "OpenAI's Astra Becomes Its First AI Model With 'Critical' Hacking Abilities Decrypt",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "openai"
-   ],
-   "lang": "en",
-   "i18n": {}
-  },
-  {
-   "title": "Researchers fear safety disaster ahead of OpenAI’s Astra release",
-   "source": "The Verge AI",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety",
-   "date": "2026-09-03 00:40",
-   "publishedAt": "2026-09-03T00:40:50+08:00",
-   "summary": "OpenAI is on the cusp of releasing its most powerful AI model yet, Astra, following weeks of delays to shore up safety protocols after its agents attacked real targets during testing. As details about the model trickle o",
-   "models": [],
-   "tag": "安全",
-   "camps": [
-    "openai"
-   ],
-   "lang": "en",
-   "i18n": {}
-  },
-  {
-   "title": "Salesforce partners with Anthropic to integrate Claude AI into its ecosystem - Crypto Briefing",
-   "source": "Crypto Briefing",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBHM1E4Ri1LT1NVQ1JZM3RnRkZFZFN3aUxPMVRDcGtLX090eEFDMHVpMVhabjZwZzFfVUJpemRuYW91R2tsc3dBTWpQQmRzWHhvY092cDBWZjNHMDgxOHpIOV9hcjhQaXhtYWRyOG56dTRsZ2NDeDQyUjZBSXA?oc=5",
-   "date": "2026-09-03 00:36",
-   "publishedAt": "2026-09-03T00:36:34+08:00",
-   "summary": "Salesforce partners with Anthropic to integrate Claude AI into its ecosystem Crypto Briefing",
-   "models": [
-    "Claude"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "anthropic"
-   ],
-   "lang": "en",
-   "i18n": {}
-  },
-  {
-   "title": "Alibaba’s Qwen-3.8-Max-0902 Debuts With The Weirdest Flex Ever: Matches Fable 5 In Capabilities With Merely An Update And Without Jumping To A New Version Number - Wccftech",
-   "source": "Wccftech",
-   "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOMHNBbzBKbkJxcUZ0VDlUNEtXeVkwdmdFYVVocFRNQW8tY3luSVFLbUhMdXpvSVdMcW1BaVRDVXA5XzJSUFRPLV9FNlREMmxSWW1UaGJVZ19vM0FUbFlnTERGdWhUWGlwblZtS0l0MUVjdFVLWHV0XzdlRHZRMkswWFl2UlI0QVNtbEtlMHBnakVWcDlwRWFaTXhuTlRVb2hHaTl4dkZYZlc5U3ctdVhPaFoyc3o5S3RzQW03N3prSXU4Z2dYMU5DWDBEa3hoT1JJcFM5dUVSYmJWWDlfWW81ZHZKWnVCSktXWWdzQ0I0LWJJYmV4RUF3a21hOFRibDlRTFlnVDVzaWhlR01vT0JaZ2dla9IBkwJBVV95cUxOMHNBbzBKbkJxcUZ0VDlUNEtXeVkwdmdFYVVocFRNQW8tY3luSVFLbUhMdXpvSVdMcW1BaVRDVXA5XzJSUFRPLV9FNlREMmxSWW1UaGJVZ19vM0FUbFlnTERGdWhUWGlwblZtS0l0MUVjdFVLWHV0XzdlRHZRMkswWFl2UlI0QVNtbEtlMHBnakVWcDlwRWFaTXhuTlRVb2hHaTl4dkZYZlc5U3ctdVhPaFoyc3o5S3RzQW03N3prSXU4Z2dYMU5DWDBEa3hoT1JJcFM5dUVSYmJWWDlfWW81ZHZKWnVCSktXWWdzQ0I0LWJJYmV4RUF3a21hOFRibDlRTFlnVDVzaWhlR01vT0JaZ2dlaw?oc=5",
-   "date": "2026-09-03 00:23",
-   "publishedAt": "2026-09-03T00:23:00+08:00",
-   "summary": "Alibaba’s Qwen-3.8-Max-0902 Debuts With The Weirdest Flex Ever: Matches Fable 5 In Capabilities With Merely An Update And Without Jumping To A New Version Number Wccftech",
-   "models": [
-    "Qwen"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "cn"
-   ],
-   "lang": "en",
-   "i18n": {}
-  },
-  {
-   "title": "OpenAI Says Astra Triggers Its Strictest Cybersecurity Safety Threshold - Hokanews",
-   "source": "Hokanews",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5BekY2VTBWdWhLel9UWDRPZ0k5UW0xaTd3akFsV2xmcUd2THB4Z09nYmQxVmNYdVpHd2xBb01QQVpVcUF5eS1UVW51QkNvTWZXVEQ2MW9pbzJGcC03R3hmSWxBaDlQNGR1eWx0cHAya1QwaUtFc3dj?oc=5",
-   "date": "2026-09-03 00:16",
-   "publishedAt": "2026-09-03T00:16:00+08:00",
-   "summary": "OpenAI Says Astra Triggers Its Strictest Cybersecurity Safety Threshold Hokanews",
-   "models": [],
-   "tag": "安全",
-   "camps": [
-    "openai"
-   ],
-   "lang": "en",
-   "i18n": {}
-  },
-  {
-   "title": "Gemini 3.8 Flash challenges Claude Opus 5 on key benchmarks at a fraction of the price - Crypto Briefing",
-   "source": "Crypto Briefing",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdnN6Mkxhd2tPQi1vRTdqWExKR2VwWFdiRDR2anI3UDVQVkVzRkVZLWUxdnQtN2wwVnRsUjkwcVV2c3FoLUdPOG1ITG5xNEQ4eE0yMkdhaVdCcUo4d3ZxWnNJTlVwWl84enJZOXhfV0FZVjRUSEN1amIzblpUVXpleQ?oc=5",
-   "date": "2026-09-03 00:14",
-   "publishedAt": "2026-09-03T00:14:12+08:00",
-   "summary": "Gemini 3.8 Flash challenges Claude Opus 5 on key benchmarks at a fraction of the price Crypto Briefing",
-   "models": [
-    "Claude",
-    "Gemini"
-   ],
-   "tag": "政策",
-   "camps": [
-    "anthropic",
-    "google"
-   ],
-   "lang": "en",
-   "i18n": {}
-  },
-  {
-   "title": "The Trump administration is supporting OpenAI in the NYT copyright lawsuit",
-   "source": "The Verge AI",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/988344/trump-administration-new-york-times-openai-lawsuit",
-   "date": "2026-09-03 00:12",
-   "publishedAt": "2026-09-03T00:12:25+08:00",
-   "summary": "The Trump administration has intervened in The New York Times' copyright lawsuit against OpenAI, making an argument in favor of the AI lab. The landmark lawsuit, filed in December 2023, alleging that OpenAI unlawfully tr",
-   "models": [],
-   "tag": "政策",
-   "camps": [
-    "openai"
-   ],
-   "lang": "en",
-   "i18n": {}
-  },
-  {
-   "title": "Google 推出 Gemini 3.8 Flash 與 3.8 Flash Cyber，資安專用模型改採審核制發放 - cyberq.tw",
-   "source": "cyberq.tw",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE16WFgyRGg0d1I4TW1wQ3FfWDk3bmFKY3dUVnU3Rm1aM18xX2taNzRQSjRaYy1sNlJKUlE4OVk5QmxjZkw4M0NxZmJEVUtHNXgtZ2l5d2gzeW1lc28tUE5vbVFPLXZTRmVwSXBwZGFJMlZMUDE1Qnhz?oc=5",
-   "date": "2026-09-03 00:05",
-   "publishedAt": "2026-09-03T00:05:00+08:00",
-   "summary": "Google 推出 Gemini 3.8 Flash 與 3.8 Flash Cyber，資安專用模型改採審核制發放 cyberq.tw",
-   "models": [
-    "Gemini"
-   ],
-   "tag": "安全",
-   "camps": [
-    "google"
-   ],
-   "lang": "zh",
-   "i18n": {}
-  },
-  {
-   "title": "India’s richest man now wants to turn aging computers into AI-ready PCs",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/09/02/indias-richest-man-now-wants-to-turn-aging-computers-into-ai-ready-pcs/",
-   "date": "2026-09-03 00:01",
-   "publishedAt": "2026-09-03T00:01:48+08:00",
-   "summary": "Jio is betting it can turn an aging computer into an AI-ready PC for as little as about $11 for two months.",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "other"
-   ],
-   "lang": "en",
-   "i18n": {}
-  },
-  {
-   "title": "Google 擬推 Gemini 3.8 Flash 內部代號 Skimaki 最快 9 月 2 日上線 - Techritual",
-   "source": "Techritual",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE81dHctVjFlZ1lCd3RpZnF0SmZfMXlsd1I2N0JpVFdic2FkZ2dYb0Y3S0h0eW0wc3BiTExXZFZJZTgzR0k0NXB1dzJzcVRFQnYwRkUzeDU3bFo?oc=5",
-   "date": "2026-09-03 00:00",
-   "publishedAt": "2026-09-03T00:00:28+08:00",
-   "summary": "Google 擬推 Gemini 3.8 Flash 內部代號 Skimaki 最快 9 月 2 日上線 Techritual",
-   "models": [
-    "Gemini"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "google"
-   ],
-   "lang": "zh",
-   "i18n": {}
-  },
-  {
-   "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber - blog.google",
-   "source": "blog.google",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPam1wVmhCUF9BYU11WDFMS1ZOSmlIQUpiTlF6a1RLQlpQZ0R0Y3M5M0hoTExZN0t5Q0FwbTZ5c3B3T2pzWFdZTnp1ZWVfdi1QZmdQeHlHcEFYUFhvbWw4TEdJamNqT3pYZnM3VGU1ckRYVXJWTzRyeXIzb21XT0NscnBqUXZzRW1HcS1lT05IODJOWGp2eC02bDd0ejRIRXRYTXMtbQ?oc=5",
-   "date": "2026-09-02 23:47",
-   "publishedAt": "2026-09-02T23:47:16+08:00",
-   "summary": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber blog.google",
-   "models": [
-    "Gemini"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "google"
-   ],
-   "lang": "en",
-   "i18n": {}
-  },
-  {
-   "title": "Google is sending MrBeast into the wilderness, armed with AI",
-   "source": "The Verge AI",
-   "url": "https://www.theverge.com/tech/988355/mrbeast-google-partnership-gemini-fitbit",
-   "date": "2026-09-02 23:47",
-   "publishedAt": "2026-09-02T23:47:03+08:00",
-   "summary": "MrBeast will feature Gemini, Google Health, and the Fitbit Air in upcoming videos as part of a multi-year partnership with Google. The deal will kick off with a video featuring Jimmy \"MrBeast\" Donaldson turning to Gemini",
-   "models": [
-    "Gemini"
-   ],
-   "tag": "商業",
-   "camps": [
-    "google"
-   ],
-   "lang": "en",
-   "i18n": {}
-  },
-  {
-   "title": "Google推出Gemini 3.8 Flash推理模型，今日起向Pro與Ultra用戶開放 - 加密城市CryptoCity",
-   "source": "加密城市CryptoCity",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9Eekk1LWRsbjZTUDNQRkdNTFZFdWhjTDhZWm95bHlLZ1pwWUhyNVZLOTk4ODlzTXNNaklpS1JiY2Z1M1hLaWtUWjhINE40eFhH?oc=5",
-   "date": "2026-09-02 23:44",
-   "publishedAt": "2026-09-02T23:44:00+08:00",
-   "summary": "Google推出Gemini 3.8 Flash推理模型，今日起向Pro與Ultra用戶開放 加密城市CryptoCity",
-   "models": [
-    "Gemini"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "google"
-   ],
-   "lang": "zh",
-   "i18n": {}
-  },
-  {
-   "title": "Anthropic Unveils Enhanced AI Model 'Claude Fable 5.1' with Key Improvements - chosun.com",
-   "source": "chosun.com",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMWl4S2FTOUw0NnlaRzJKcUpwcWtfWUx4MGVQckhJYkdaWlV6T3Z6TkdtMXJSOGY4YVRaZktjcWYxbHNCRVU4dG9KdTZHT0FLbUQ2emZ0WXhNYzJaNUZLZkU4d2s0M1ctWUpoU2NKb3hmWUNiWklMeHJZZ28ySmtwMFNoeUpicnNf?oc=5",
-   "date": "2026-09-02 23:37",
-   "publishedAt": "2026-09-02T23:37:00+08:00",
-   "summary": "Anthropic Unveils Enhanced AI Model 'Claude Fable 5.1' with Key Improvements chosun.com",
-   "models": [
-    "Claude"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "anthropic"
-   ],
-   "lang": "en",
-   "i18n": {}
-  },
-  {
-   "title": "New AI Models From Tech Giants Raise Safety Concerns - Rediff",
-   "source": "Rediff",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbHlzeFV3Y1dfeHlJQk9PU1NQT3RFUlNGQTNYUGpQenlQRlQ3VzdOSWowX29YX1VUWDVsSGRlUktWbnAyQ3dXbmJjMWNYME9NWFhMcTVMS2t3MzRJNl9qVU9sRjdQdHd4ZzJ3V05SLXgycDZlS3gtSTlWdkphbWl0UjBJckZPVTQ4UEExNnA1V0dBLXRsdUdyMHFMcjA0dDRKTXdyOHpMeUt0UkppY0loajRPY2Q5dFhY0gG4AUFVX3lxTE9seXN4VXdjV194eUlCT09TU1BPdEVSU0ZBM1hQalB6eVBGVDdXN05JajBfb1hfVVRYNWxIZGVSS1ZucDJDd1duYmMxY1gwT01YWExxNUxLa3czNEk2X2pVT2xGN1B0d3hnMndXTlIteDJwNmVLeC1JOVZ2SmFtaXRSMElyRk9VNDhQQTE2cDVXR0EtdGx1R3IwcUxyMDR0NEpNd3I4ekx5S3RSSmljSWhqNE9jZDl0WFg?oc=5",
-   "date": "2026-09-02 23:05",
-   "publishedAt": "2026-09-02T23:05:52+08:00",
-   "summary": "New AI Models From Tech Giants Raise Safety Concerns Rediff",
-   "models": [],
-   "tag": "安全",
-   "camps": [
-    "other"
-   ],
-   "lang": "en",
-   "i18n": {}
-  },
-  {
-   "title": "HiddenLayer nabs $100M as enterprises rush to secure their AI deployments",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/09/02/hiddenlayer-nabs-100m-as-enterprises-rush-to-secure-their-ai-deployments/",
-   "date": "2026-09-02 23:01",
-   "publishedAt": "2026-09-02T23:01:23+08:00",
-   "summary": "Security companies are scrambling to build products that can monitor not just agents but also the tools and add-ons they use.",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "other"
-   ],
-   "lang": "en",
-   "i18n": {}
-  },
-  {
-   "title": "PSA: Amazon’s shopping AI can now tell you if that message is a scam",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/09/02/psa-amazons-shopping-ai-can-now-tell-you-if-that-message-is-a-scam/",
-   "date": "2026-09-02 22:56",
-   "publishedAt": "2026-09-02T22:56:34+08:00",
-   "summary": "Amazon is adding a scam-detection feature to Alexa for Shopping that can verify whether suspicious emails, texts, and other messages actually came from the retailer.",
-   "models": [],
-   "tag": "政策",
-   "camps": [
-    "other"
-   ],
-   "lang": "en",
-   "i18n": {}
-  },
-  {
-   "title": "Glean’s AI assistant uses 70% fewer tokens than Anthropic’s Claude Cowork - Crypto Briefing",
-   "source": "Crypto Briefing",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWEd1ODF2UlNseHplbUhsRWZUQ1BXbjNvUXJVRXAyM19mb0JNQUpua0ZKWjJ2LWtBcHRBVDU2S3dBdmFHX3hqaHhPZFpiVXNrX01UY3FaNmlETDJjVGt1bTdPNHRqak5TdC1zb05jdzZGQ0JxVkJXRVZXUFk5M212a24xcw?oc=5",
-   "date": "2026-09-02 22:37",
-   "publishedAt": "2026-09-02T22:37:34+08:00",
-   "summary": "Glean’s AI assistant uses 70% fewer tokens than Anthropic’s Claude Cowork Crypto Briefing",
-   "models": [
-    "Claude"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "anthropic"
-   ],
-   "lang": "en",
-   "i18n": {}
-  },
-  {
-   "title": "OpenAI accused of ‘aiding and abetting’ Tumbler Ridge mass shooting in dozens of new lawsuits",
-   "source": "The Verge AI",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/988261/openai-tumbler-ridge-shooting-lawsuit-aiding-abetting",
-   "date": "2026-09-02 22:35",
-   "publishedAt": "2026-09-02T22:35:03+08:00",
-   "summary": "OpenAI and its CEO Sam Altman are facing 30 new lawsuits that accuse them of providing \"substantial assistance and encouragement\" to the suspect in Canada's Tumbler Ridge school shooting, as reported earlier by TechCrunc",
-   "models": [],
-   "tag": "政策",
-   "camps": [
-    "openai"
-   ],
-   "lang": "en",
-   "i18n": {}
-  },
-  {
-   "title": "NYC bans AI use for students until they reach high school",
-   "source": "The Verge AI",
-   "url": "https://www.theverge.com/policy/988228/nyc-ai-restrictions-in-schools-chatbot-ban",
-   "date": "2026-09-02 22:30",
-   "publishedAt": "2026-09-02T22:30:00+08:00",
-   "summary": "New York City Mayor Zohran Mamdani has announced a new policy today that will ban younger schoolchildren from using AI in classrooms. The one-year moratorium, effective in the 2026-2027 school year, will impact about 600",
-   "models": [],
-   "tag": "政策",
-   "camps": [
-    "other"
-   ],
-   "lang": "en",
-   "i18n": {}
-  },
-  {
-   "title": "Sundar Pichai’s Credibility Crisis: The AI Model That Never Came - 247wallst.com",
-   "source": "247wallst.com",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOd2l0NGx6QWRzN1k3bkVYVVNtMmExWWdsYmFMMUppQ1AxNmp3b3h5WFdUaHFwQllDSTlVY3M0cE85Y1ZNdTVvRDRCb29hM1AwTUdVQ25Yb3ZBYWxrNEFEMnY0N3drWnpBMFdQTmhzQTN0QjFpNl9ReVJ1Z2pGcXZGLTFybEtkUHUxem82MW1NREFYbk05R3c2aU0zaEw0elFZdC1XY0pXNWxHQQ?oc=5",
-   "date": "2026-09-02 22:15",
-   "publishedAt": "2026-09-02T22:15:00+08:00",
-   "summary": "Sundar Pichai’s Credibility Crisis: The AI Model That Never Came 247wallst.com",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "other"
-   ],
-   "lang": "en",
-   "i18n": {}
-  },
-  {
-   "title": "Pythian Group 藉 Google Gemini 打造企業 AI 營運模式 年創百萬美元效益 - Yahoo股市",
-   "source": "Yahoo股市",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcE1EY1l4RlRTNEFMaGpIVF9BdEJHTGIxVEdlT0xmQ3IzRzZ3amZVQ0o1OWNzZUVXNVJyMGRuYlc3d0dPRUxwZTNyRFNkS245RC1NMkRGU19QSGNFUkZoNkpDOExHc2NDRzZySWMtSHNnOC03S2lnZTlkQnM1d3VFcXVIMzUyZGRlN1pnOQ?oc=5",
-   "date": "2026-09-02 22:04",
-   "publishedAt": "2026-09-02T22:04:14+08:00",
-   "summary": "Pythian Group 藉 Google Gemini 打造企業 AI 營運模式 年創百萬美元效益 Yahoo股市",
-   "models": [
-    "Gemini"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "google"
-   ],
-   "lang": "zh",
-   "i18n": {}
-  },
-  {
-   "title": "Adobe acquires Indian market intelligence startup Rilo",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/09/02/adobe-acquires-indian-market-intelligence-startup-rilo/",
-   "date": "2026-09-02 22:03",
-   "publishedAt": "2026-09-02T22:03:57+08:00",
-   "summary": "This is Adobe's second acquisition out of India after Rephrase.ai in 2023",
-   "models": [],
-   "tag": "商業",
-   "camps": [
-    "other"
-   ],
-   "lang": "en",
-   "i18n": {}
-  },
-  {
-   "title": "Industry Insights: Google DeepMind's Robotics Lead on Gemini Physical AI Push - A3 Association for Advancing Automation",
-   "source": "A3 Association for Advancing Automation",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQMnB2M3hDVE1pNXNvNmRhU0VTLVYzblVWNUNyTE1WbmtBamhtYlVxWDczMW5Wd21kdzZDSW9fak84Vk5uQXBaNTJUSnRFUWNQbVBNSEVGN3kwY2ZjUXNvRnBYeWlObVVFUlNLZFFia3RuRmszeTlReWU1RUVkMW1jQThoMHcwS3RzRkZ3OTBTOHpHNEo3bWVYb3hZTmx3LWJodVdLZnVlelRrRDYyTDJCaDZTcmgxWWVtV3pxeklxUjkyaENaZmdueHd0MA?oc=5",
-   "date": "2026-09-02 22:03",
-   "publishedAt": "2026-09-02T22:03:05+08:00",
-   "summary": "Industry Insights: Google DeepMind's Robotics Lead on Gemini Physical AI Push A3 Association for Advancing Automation",
-   "models": [
-    "Gemini"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "google"
-   ],
-   "lang": "en",
-   "i18n": {}
-  },
-  {
-   "title": "New Reasoning Strategies Sweep Through OpenAI, Other Developers - The Information",
-   "source": "The Information",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ2taaEJZNlRxbDc5TzNKUFVDcnlvVFgtbGpUY3hOdnhzRTluQmpWSUo0UHlRenlHSW5lQ1pkbVpETVBZT3ZzamRWWFN0MVc3U3NCS2ZvTTZ0VldMNU9aWlpER0NSWlVyaW50NjVnY0g5bnQxYTRwMW1OM0Q2Z3BjdkRIVXhtZlN2YW13NHE2SUhSXzVGTTNVSU1BYk5ZR0p4SUFF?oc=5",
-   "date": "2026-09-02 22:01",
-   "publishedAt": "2026-09-02T22:01:00+08:00",
-   "summary": "New Reasoning Strategies Sweep Through OpenAI, Other Developers The Information",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "openai"
-   ],
-   "lang": "en",
-   "i18n": {}
-  },
-  {
-   "title": "Facilitating AI integration with simplicity at scale",
-   "source": "MIT Tech Review",
-   "url": "https://www.technologyreview.com/2026/09/02/1142879/facilitating-ai-integration-with-simplicity-at-scale/",
-   "date": "2026-09-02 22:00",
-   "publishedAt": "2026-09-02T22:00:00+08:00",
-   "summary": "As companies scale, the technology supporting operations can become a liability just as quickly as it becomes an asset. Disconnected systems, site-specific tools, spreadsheets, and manual workarounds can create data silo",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "other"
-   ],
-   "lang": "en",
-   "i18n": {}
-  },
-  {
-   "title": "OpenAI Teases Astra, Says It Is the First Model to Meet ‘Critical Cybersecurity Threshold' - Gadgets 360",
-   "source": "Gadgets 360",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWk5GU1BKc1VVTGJEekczOGQwc1JEdkJDUk1rWlNVdkwzM2FSU29sWFVHcTRjajZhRmlIdUhSelpvUGc2UGxsWlpxdWpsTmxrLXlHYWZEVmNwYWQ1endzeWktSXdoQTBuaEUtS2MzSTZTcUNKTmlzYTgwczRmd3ZmMzdhVmpBLTRwWEJIRjM1aEZTREhGTDdXZDM1TXNXNGhBS2RjX2gtNHloZ3pTWmNDZnpqd0xoNXBIUDV0UEZNUXpvUnZXOUZlczlR0gHPAUFVX3lxTFA5d2k2QzR2NjlUMXBCZUhMM2hwSk1icmRHX0hGTUowaWU2UkIyTnpacWx4ZVZJSkJVT0I2MnZVSkJQa21BN1picnBITmYtdkhndVBsNmhNM05SRFU2MGN2RS1RTE90MldMNGxsdzJacGVlTWdJZEdPYlpkUURoWF9XcXBUdVdhOXB1WWIzMzc2SGNkOF9ZNWJyWUtIcFFBREZxaUJyVllKeUU5TktkOXMxMnQwSzJIZnI1UDk5UWoxNEtTQktfbXlta09oWFZ1SQ?oc=5",
-   "date": "2026-09-02 21:54",
-   "publishedAt": "2026-09-02T21:54:14+08:00",
-   "summary": "OpenAI Teases Astra, Says It Is the First Model to Meet ‘Critical Cybersecurity Threshold' Gadgets 360",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "openai"
-   ],
-   "lang": "en",
-   "i18n": {}
-  },
-  {
-   "title": "OpenAI Astra Delay: Security Breach Spurs Model Rollout Pause - The Cryptonomist",
-   "source": "The Cryptonomist",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9qUTBPUktqWER2NnZNTEhxbEU2ZWNFTk9vc3RjellNX2NqNWFKV1FFRThhNEFFSGpvbWwzaUVjaFV4Zm14QjZnQUlQNWhnTzJVRTVrRnVXVU85dkY1Qm9yT0FxTW9oXzlYVWx3SURwWm16VHg3?oc=5",
-   "date": "2026-09-02 21:44",
-   "publishedAt": "2026-09-02T21:44:58+08:00",
-   "summary": "OpenAI Astra Delay: Security Breach Spurs Model Rollout Pause The Cryptonomist",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "openai"
-   ],
-   "lang": "en",
-   "i18n": {}
-  },
-  {
-   "title": "Google Gemini 新增代理式影片分析 Token 用量減省多達 88% - NewMobileLife",
-   "source": "NewMobileLife",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQ2tXXzBpNUFIamlmOU1LUVJlVnlfWEFoTWNldE5RWkI0VHp2Sl9IU0I3WEdHWkh4SVRnTWZTQjdJdDdreC02UDVDY0pQaEZxZFdFcHVaY1FnZ09DcVFhaHB5SUFhUUpwVWJweFV5b3M2RTFFb1FoOWxfTENXcUxtaFZfV04?oc=5",
-   "date": "2026-09-02 21:41",
-   "publishedAt": "2026-09-02T21:41:53+08:00",
-   "summary": "Google Gemini 新增代理式影片分析 Token 用量減省多達 88% NewMobileLife",
-   "models": [
-    "Gemini"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "google"
-   ],
-   "lang": "zh",
-   "i18n": {}
-  },
-  {
-   "title": "舊金山州立大學啟動 AI 證照計畫 助灣區成人迎戰新職涯 - sunmedia.tw",
-   "source": "sunmedia.tw",
-   "url": "https://news.google.com/rss/articles/CBMikwNBVV95cUxQa3d4Q2FkWjlzVHMzZ2ZJVGtMRzBwYnJYdnhvOTlfenRIcmZ4S3lqcmNGMi1pU3dRVzVLbG9JVzJacG9LaVFmV3JONG5iLUhSa2ZLaFpmZ0t1QllLY2p1cUFvX3hkNUczS3E2ZDZVTzVoQ0JUVV83WW1BZ2pSSWo0THgyX3RJVFJJN1I0Ry02NmNSRGYwZUNiMVBzbDBpSFJOYTFWWTF6Q18wSDZfdHoxRTBsWE9ER0I4VjdadVZGYlBmVU0wY3lzQXJ4ZzBQUlVjakJEb0R3U2VHd2wyUXU3OE5ITHRJdVNpSGdUOUh3MDZwb0FUb2xMc3FoUzFEQWJ0N0xwOGl1Nnp2NkZ0dUVqdE9VckJmdHRIREE1cVJfaHJDWGdtalhBMzJIeWxUT01jdmZHMXBTQjE1cTl0T2xYQmtHV2FteHhJRGpFcTM4dmpXYjVOWkVwV1d3WURHSUhNbjRVZTAtM1JXTGc1UWZvVzlDdW5KTnBySGxNYUFFOFhVZF91ejdsZFA4OVlLM0dOSVQ0?oc=5",
-   "date": "2026-09-02 21:32",
-   "publishedAt": "2026-09-02T21:32:39+08:00",
-   "summary": "舊金山州立大學啟動 AI 證照計畫 助灣區成人迎戰新職涯 sunmedia.tw",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "other"
-   ],
-   "lang": "zh",
-   "i18n": {}
-  },
-  {
-   "title": "Salesforce 攜手 Anthropic 推出 Claudeforce 整合生成式AI 與企業級AI Agent，全面升級智慧營運流程 - iThome",
-   "source": "iThome",
-   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBDMlZOcU1QRHFybjM1RVNkM1JPeU9UX1RUajl6WTRxYnRGdjJ3OWZMdWtwQlZJSFRBenBOYld6Q0hKZmw4OTRPYUtHaw?oc=5",
-   "date": "2026-09-02 21:29",
-   "publishedAt": "2026-09-02T21:29:33+08:00",
-   "summary": "Salesforce 攜手 Anthropic 推出 Claudeforce 整合生成式AI 與企業級AI Agent，全面升級智慧營運流程 iThome",
-   "models": [
-    "Claude"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "anthropic"
-   ],
-   "lang": "zh",
-   "i18n": {}
-  },
-  {
-   "title": "OpenAI Astra Finds Zero-Days Mid-Benchmark: Unasked-For Exploit Caps Access to Vetted Defenders - Tech Times",
-   "source": "Tech Times",
-   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQWmFEWHlaTFhtcUszOHVyd2dOekJoUGNyZkVvdnA3Z1B3SGxxeDg5eTBaa09SUDlKMS13cGtHSkFrNGRRSzNFMzM5YzNjd0xieVVuY2VIXzUxdnVfRDNMYlNiVU4xUU8xV2VwNEhGU3VMOHB4OWNDRkdsNlBISVg1YnJBaDlOZkV2Ml9jZS1tOWJRaGFHTTZkQ2RHUzB0ZkxXQ1pONEJ4bHh2eVYxQTdBSnEzWXZtUG9zTXFPLVBFQmdURy1pc1lIdVVKbThSQXpjbEt5NUE5UE1hdw?oc=5",
-   "date": "2026-09-02 21:25",
-   "publishedAt": "2026-09-02T21:25:53+08:00",
-   "summary": "OpenAI Astra Finds Zero-Days Mid-Benchmark: Unasked-For Exploit Caps Access to Vetted Defenders Tech Times",
-   "models": [],
-   "tag": "研究",
-   "camps": [
-    "openai"
-   ],
-   "lang": "en",
-   "i18n": {}
-  },
-  {
-   "title": "Cint 與 Potloc 聯手 AI 創新 市場研究迎智慧化轉型 - sunmedia.tw",
-   "source": "sunmedia.tw",
-   "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxQcTNZOHRleGxCalJkTEdvWDZPOVFnQ1pBaFpWazZTVmlDaFlLdEJvZkpDeEFnQjBSV3BEVlJMRVdVeC04ZmZtWGJQTVhFSG9XWVU3dnFkZ3VoUlRXRGE2SnBzVkQzQmlDT2hBNzQyNS1ON0JzWXZ5NUlyc3dnSjMwYWRDcUY0ODcyMUszV0lNTHJPUFdYamk2Xzg0bTJaTkZNSFJ2RjdmZmkzZFBpNGFvMzZERkVIYmtqSFpDNDJ1ZUIxbzVqUXlsWWZrNGthaXpMdUE1eWh4X0VCZVNyYlZZdXZrQlRnSzltSko2MVdnZHRNcTZXbWVLTXJxdFpuaURlZFlXLWxtZlBIcWZHcUpzNFNLV0E0U2NndlJSTFZiZEd1N21oS3I1b1FwZ3ZWSVlka01jdHQwQnFuWFE5VmVj?oc=5",
-   "date": "2026-09-02 21:07",
-   "publishedAt": "2026-09-02T21:07:56+08:00",
-   "summary": "Cint 與 Potloc 聯手 AI 創新 市場研究迎智慧化轉型 sunmedia.tw",
-   "models": [],
-   "tag": "研究",
-   "camps": [
-    "other"
-   ],
-   "lang": "zh",
    "i18n": {}
   }
  ]
