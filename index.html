@@ -118,6 +118,14 @@
   .empty p{margin:0;font-size:15px;font-weight:600;}
   .empty .sub{margin-top:6px;font-size:13px;font-weight:400;color:var(--mute);}
 
+  nav.tabs{background:var(--ink);border-top:1px solid rgba(255,255,255,.10);}
+  .tabs-in{max-width:1080px;margin:0 auto;padding:0 20px;display:flex;overflow-x:auto;}
+  .tab{background:none;border:0;border-bottom:2px solid transparent;color:#8D97A8;
+       font:inherit;font-size:13px;font-weight:600;padding:12px 16px;cursor:pointer;
+       letter-spacing:.02em;white-space:nowrap;}
+  .tab:hover{color:#fff;}
+  .tab[aria-selected=true]{color:#fff;border-bottom-color:#6C7CFF;}
+
   .ftoggle{display:none;}
   @media (max-width:760px){
     .grid{grid-template-columns:1fr;gap:16px;}
@@ -148,6 +156,8 @@
     </div>
   </div>
 </header>
+
+<nav class="tabs"><div class="tabs-in" id="tabs" role="tablist"></div></nav>
 
 <div class="strip">
   <div class="strip-in">
@@ -188,22 +198,26 @@
 const UI = {
   "zh-TW": {
     name: "繁體中文", htmlLang: "zh-Hant",
+    tabs: { models: "AI 語言模型", spark: "DGX Spark 機種" },
     eyebrow: "每日 06:00 · AI 語言模型", title: "模型快訊監測台",
     next: "距下次自動更新", sort: "排序", reload: "立即更新",
     filter: "篩選", clearAll: "清除全部", filterBtn: "篩選條件", filterHide: "收起篩選",
     sorts: { new: "時間 · 最新在前", old: "時間 · 最舊在前",
              source: "來源名稱", tag: "主題分類", title: "標題" },
-    groups: { date: "日期", camp: "模型", lang: "原文語言",
+    groups: { date: "日期", camp: "模型", brand: "品牌",
+              lang: "原文語言",
               tag: "主題", source: "資訊來源" },
     picked: (n) => `已選 ${n}`,
     status: (a, b, f, e) => `${a} / ${b} 則` +
       (f ? ` · ${f} 個篩選條件` : "") + ` · 已載入 ${e} 期`,
     tags: { "產品發表": "產品發表", "研究": "研究", "商業": "商業",
-            "政策": "政策", "安全": "安全" },
+            "政策": "政策", "安全": "安全",
+            "開箱評測": "開箱評測", "規格效能": "規格效能", "價格上市": "價格上市", "應用案例": "應用案例" },
     langs: { zh: "中文", en: "英文", ja: "日文", ko: "韓文" },
     camps: { openai: "OpenAI · GPT", anthropic: "Anthropic · Claude",
              google: "Google · Gemini", meta: "Meta · Llama",
-             cn: "中國模型", other: "其他業者" },
+             cn: "中國模型", other: "其他業者",
+             nvidia: "NVIDIA 原廠" },
     open: "開啟原文 ↗", showOriginal: "顯示原文", untranslated: "原文",
     emptyTitle: "沒有符合這些條件的新聞。",
     emptyHint: "試著取消幾個條件,或按「清除全部」。",
@@ -217,22 +231,26 @@ const UI = {
   },
   "en": {
     name: "English", htmlLang: "en",
+    tabs: { models: "AI models", spark: "DGX Spark systems" },
     eyebrow: "Daily 06:00 · AI language models", title: "Model Newswire",
     next: "Next auto-update in", sort: "Sort", reload: "Refresh",
     filter: "Filters", clearAll: "Clear all", filterBtn: "Filters", filterHide: "Hide filters",
     sorts: { new: "Newest first", old: "Oldest first",
              source: "Source name", tag: "Topic", title: "Headline" },
-    groups: { date: "Date", camp: "Model", lang: "Original language",
+    groups: { date: "Date", camp: "Model", brand: "Brand",
+              lang: "Original language",
               tag: "Topic", source: "Source" },
     picked: (n) => `${n} selected`,
     status: (a, b, f, e) => `${a} of ${b} stories` +
       (f ? ` · ${f} filters` : "") + ` · ${e} ${e === 1 ? "edition" : "editions"} loaded`,
     tags: { "產品發表": "Product", "研究": "Research", "商業": "Business",
-            "政策": "Policy", "安全": "Safety" },
+            "政策": "Policy", "安全": "Safety",
+            "開箱評測": "Review", "規格效能": "Specs", "價格上市": "Price & availability", "應用案例": "Use case" },
     langs: { zh: "Chinese", en: "English", ja: "Japanese", ko: "Korean" },
     camps: { openai: "OpenAI · GPT", anthropic: "Anthropic · Claude",
              google: "Google · Gemini", meta: "Meta · Llama",
-             cn: "Chinese models", other: "Others" },
+             cn: "Chinese models", other: "Others",
+             nvidia: "NVIDIA first-party" },
     open: "Read original ↗", showOriginal: "Show original", untranslated: "original",
     emptyTitle: "No stories match these filters.",
     emptyHint: "Try removing a filter, or clear them all.",
@@ -246,22 +264,26 @@ const UI = {
   },
   "ja": {
     name: "日本語", htmlLang: "ja",
+    tabs: { models: "AI言語モデル", spark: "DGX Spark 製品" },
     eyebrow: "毎日 06:00 · AI言語モデル", title: "モデル速報",
     next: "次回の自動更新まで", sort: "並び順", reload: "更新",
     filter: "絞り込み", clearAll: "すべて解除", filterBtn: "絞り込み", filterHide: "絞り込みを閉じる",
     sorts: { new: "新しい順", old: "古い順",
              source: "ソース名", tag: "トピック", title: "見出し" },
-    groups: { date: "日付", camp: "モデル", lang: "原文の言語",
+    groups: { date: "日付", camp: "モデル", brand: "メーカー",
+              lang: "原文の言語",
               tag: "トピック", source: "情報ソース" },
     picked: (n) => `${n}件選択`,
     status: (a, b, f, e) => `${b}件中 ${a}件` +
       (f ? ` · 絞り込み${f}件` : "") + ` · ${e}版を読み込み`,
     tags: { "產品發表": "製品発表", "研究": "研究", "商業": "ビジネス",
-            "政策": "政策", "安全": "安全" },
+            "政策": "政策", "安全": "安全",
+            "開箱評測": "レビュー", "規格效能": "仕様・性能", "價格上市": "価格・発売", "應用案例": "活用事例" },
     langs: { zh: "中国語", en: "英語", ja: "日本語", ko: "韓国語" },
     camps: { openai: "OpenAI · GPT", anthropic: "Anthropic · Claude",
              google: "Google · Gemini", meta: "Meta · Llama",
-             cn: "中国系モデル", other: "その他" },
+             cn: "中国系モデル", other: "その他",
+             nvidia: "NVIDIA 純正" },
     open: "原文を開く ↗", showOriginal: "原文を表示", untranslated: "原文",
     emptyTitle: "条件に合うニュースがありません。",
     emptyHint: "条件を減らすか、すべて解除してください。",
@@ -273,13 +295,239 @@ const UI = {
     errRefresh: (m) => `更新に失敗しました:${m}`,
     reloading: "読み込み中…",
   },
+  "zh-CN": {
+    name: "简体中文", htmlLang: "zh-Hans",
+    tabs: { models: "AI 语言模型", spark: "DGX Spark 机型" },
+    eyebrow: "每日 06:00 · AI 语言模型", title: "模型快讯监测台",
+    next: "距下次自动更新", sort: "排序", reload: "立即更新",
+    filter: "筛选", clearAll: "清除全部", filterBtn: "筛选条件", filterHide: "收起筛选",
+    sorts: { new: "时间 · 最新在前", old: "时间 · 最旧在前",
+             source: "来源名称", tag: "主题分类", title: "标题" },
+    groups: { date: "日期", camp: "模型", brand: "品牌",
+              lang: "原文语言",
+              tag: "主题", source: "信息来源" },
+    picked: (n) => `已选 ${n}`,
+    status: (a, b, f, e) => `${a} / ${b} 条` +
+      (f ? ` · ${f} 个筛选条件` : "") + ` · 已加载 ${e} 期`,
+    tags: { "產品發表": "产品发布", "研究": "研究", "商業": "商业",
+            "政策": "政策", "安全": "安全",
+            "開箱評測": "开箱评测", "規格效能": "规格效能", "價格上市": "价格上市", "應用案例": "应用案例" },
+    langs: { zh: "中文", en: "英文", ja: "日文", ko: "韩文" },
+    camps: { openai: "OpenAI · GPT", anthropic: "Anthropic · Claude",
+             google: "Google · Gemini", meta: "Meta · Llama",
+             cn: "中国模型", other: "其他厂商",
+             nvidia: "NVIDIA 原厂" },
+    open: "打开原文 ↗", showOriginal: "显示原文", untranslated: "原文",
+    emptyTitle: "没有符合这些条件的新闻。",
+    emptyHint: "试着取消几个条件,或按「清除全部」。",
+    emptyNoData: "数据可能还没抓取。",
+    note: "每一组都可以多选,同一组内是「或」,不同组之间是「且」。括号里的数字会随其他条件实时变动。",
+    loading: (d) => `正在加载 ${d} 期…`,
+    errLoad: (m) => `读不到 data/news.json(${m})。若这是第一次部署,先到 Actions 页面手动跑一次抓取。`,
+    errArchive: (d, m) => `读不到 ${d} 期的存档(${m})。`,
+    errRefresh: (m) => `更新失败:${m}`,
+    reloading: "读取中…",
+  },
+  "ko": {
+    name: "한국어", htmlLang: "ko",
+    tabs: { models: "AI 언어 모델", spark: "DGX Spark 제품" },
+    eyebrow: "매일 06:00 · AI 언어 모델", title: "모델 뉴스와이어",
+    next: "다음 자동 업데이트까지", sort: "정렬", reload: "새로고침",
+    filter: "필터", clearAll: "전체 해제", filterBtn: "필터", filterHide: "필터 접기",
+    sorts: { new: "최신순", old: "오래된순",
+             source: "출처 이름", tag: "주제", title: "제목" },
+    groups: { date: "날짜", camp: "모델", brand: "브랜드",
+              lang: "원문 언어",
+              tag: "주제", source: "정보 출처" },
+    picked: (n) => `${n}개 선택`,
+    status: (a, b, f, e) => `${b}건 중 ${a}건` +
+      (f ? ` · 필터 ${f}개` : "") + ` · ${e}개 판 불러옴`,
+    tags: { "產品發表": "제품 발표", "研究": "연구", "商業": "비즈니스",
+            "政策": "정책", "安全": "안전",
+            "開箱評測": "리뷰", "規格效能": "사양·성능", "價格上市": "가격·출시", "應用案例": "활용 사례" },
+    langs: { zh: "중국어", en: "영어", ja: "일본어", ko: "한국어" },
+    camps: { openai: "OpenAI · GPT", anthropic: "Anthropic · Claude",
+             google: "Google · Gemini", meta: "Meta · Llama",
+             cn: "중국 모델", other: "기타 업체",
+             nvidia: "NVIDIA 정품" },
+    open: "원문 열기 ↗", showOriginal: "원문 보기", untranslated: "원문",
+    emptyTitle: "조건에 맞는 뉴스가 없습니다.",
+    emptyHint: "조건을 줄이거나 전체 해제를 눌러 보세요.",
+    emptyNoData: "아직 데이터를 수집하지 않았습니다.",
+    note: "각 그룹은 여러 개를 선택할 수 있습니다. 같은 그룹 안에서는 OR, 그룹 사이에서는 AND로 결합됩니다. 괄호 안 숫자는 다른 조건에 따라 바뀝니다.",
+    loading: (d) => `${d}판을 불러오는 중…`,
+    errLoad: (m) => `data/news.json을 읽을 수 없습니다 (${m}). 처음 배포한 경우 Actions 탭에서 한 번 실행하세요.`,
+    errArchive: (d, m) => `${d}판 보관 파일을 읽을 수 없습니다 (${m}).`,
+    errRefresh: (m) => `새로고침 실패: ${m}`,
+    reloading: "불러오는 중…",
+  },
+  "de": {
+    name: "Deutsch", htmlLang: "de",
+    tabs: { models: "KI-Modelle", spark: "DGX-Spark-Systeme" },
+    eyebrow: "Täglich 06:00 · KI-Sprachmodelle", title: "Modell-Nachrichtenticker",
+    next: "Nächste Aktualisierung in", sort: "Sortierung", reload: "Aktualisieren",
+    filter: "Filter", clearAll: "Alle zurücksetzen",
+    filterBtn: "Filter", filterHide: "Filter ausblenden",
+    sorts: { new: "Neueste zuerst", old: "Älteste zuerst",
+             source: "Quellenname", tag: "Thema", title: "Schlagzeile" },
+    groups: { date: "Datum", camp: "Modell", brand: "Marke",
+              lang: "Originalsprache",
+              tag: "Thema", source: "Quelle" },
+    picked: (n) => `${n} ausgewählt`,
+    status: (a, b, f, e) => `${a} von ${b} Meldungen` +
+      (f ? ` · ${f} Filter` : "") +
+      ` · ${e} ${e === 1 ? "Ausgabe" : "Ausgaben"} geladen`,
+    tags: { "產品發表": "Produkt", "研究": "Forschung", "商業": "Wirtschaft",
+            "政策": "Politik", "安全": "Sicherheit",
+            "開箱評測": "Test", "規格效能": "Technik", "價格上市": "Preis & Verfügbarkeit", "應用案例": "Anwendung" },
+    langs: { zh: "Chinesisch", en: "Englisch", ja: "Japanisch", ko: "Koreanisch" },
+    camps: { openai: "OpenAI · GPT", anthropic: "Anthropic · Claude",
+             google: "Google · Gemini", meta: "Meta · Llama",
+             cn: "Chinesische Modelle", other: "Andere",
+             nvidia: "NVIDIA (Original)" },
+    open: "Original lesen ↗", showOriginal: "Original anzeigen", untranslated: "Original",
+    emptyTitle: "Keine Meldungen für diese Filter.",
+    emptyHint: "Entfernen Sie einen Filter oder setzen Sie alle zurück.",
+    emptyNoData: "Es wurden noch keine Daten erfasst.",
+    note: "Jede Gruppe erlaubt Mehrfachauswahl. Innerhalb einer Gruppe gilt ODER, zwischen Gruppen UND. Die Zahlen ändern sich mit den übrigen Filtern.",
+    loading: (d) => `Ausgabe ${d} wird geladen…`,
+    errLoad: (m) => `data/news.json konnte nicht gelesen werden (${m}). Führen Sie bei einer neuen Installation den Workflow einmal über den Reiter Actions aus.`,
+    errArchive: (d, m) => `Archiv für ${d} konnte nicht gelesen werden (${m}).`,
+    errRefresh: (m) => `Aktualisierung fehlgeschlagen: ${m}`,
+    reloading: "Wird geladen…",
+  },
+  "es": {
+    name: "Español", htmlLang: "es",
+    tabs: { models: "Modelos de IA", spark: "Sistemas DGX Spark" },
+    eyebrow: "Cada día 06:00 · Modelos de lenguaje", title: "Boletín de modelos",
+    next: "Próxima actualización en", sort: "Orden", reload: "Actualizar",
+    filter: "Filtros", clearAll: "Borrar todo",
+    filterBtn: "Filtros", filterHide: "Ocultar filtros",
+    sorts: { new: "Más recientes primero", old: "Más antiguas primero",
+             source: "Nombre de la fuente", tag: "Tema", title: "Titular" },
+    groups: { date: "Fecha", camp: "Modelo", brand: "Marca",
+              lang: "Idioma original",
+              tag: "Tema", source: "Fuente" },
+    picked: (n) => `${n} seleccionados`,
+    status: (a, b, f, e) => `${a} de ${b} noticias` +
+      (f ? ` · ${f} filtros` : "") +
+      ` · ${e} ${e === 1 ? "edición" : "ediciones"} cargadas`,
+    tags: { "產品發表": "Producto", "研究": "Investigación", "商業": "Negocios",
+            "政策": "Política", "安全": "Seguridad",
+            "開箱評測": "Análisis", "規格效能": "Especificaciones", "價格上市": "Precio y disponibilidad", "應用案例": "Caso de uso" },
+    langs: { zh: "Chino", en: "Inglés", ja: "Japonés", ko: "Coreano" },
+    camps: { openai: "OpenAI · GPT", anthropic: "Anthropic · Claude",
+             google: "Google · Gemini", meta: "Meta · Llama",
+             cn: "Modelos chinos", other: "Otros",
+             nvidia: "NVIDIA original" },
+    open: "Leer original ↗", showOriginal: "Ver original", untranslated: "original",
+    emptyTitle: "No hay noticias con estos filtros.",
+    emptyHint: "Prueba a quitar un filtro o bórralos todos.",
+    emptyNoData: "Todavía no se han recopilado datos.",
+    note: "Cada grupo permite varias opciones. Dentro de un grupo se combinan con O; entre grupos, con Y. Los números cambian según los demás filtros.",
+    loading: (d) => `Cargando la edición ${d}…`,
+    errLoad: (m) => `No se pudo leer data/news.json (${m}). En una instalación nueva, ejecuta el flujo una vez desde la pestaña Actions.`,
+    errArchive: (d, m) => `No se pudo leer el archivo de ${d} (${m}).`,
+    errRefresh: (m) => `Error al actualizar: ${m}`,
+    reloading: "Cargando…",
+  },
+  "fr": {
+    name: "Français", htmlLang: "fr",
+    tabs: { models: "Modèles d'IA", spark: "Systèmes DGX Spark" },
+    eyebrow: "Chaque jour 06:00 · Modèles de langage", title: "Fil des modèles",
+    next: "Prochaine mise à jour dans", sort: "Tri", reload: "Actualiser",
+    filter: "Filtres", clearAll: "Tout effacer",
+    filterBtn: "Filtres", filterHide: "Masquer les filtres",
+    sorts: { new: "Plus récentes d'abord", old: "Plus anciennes d'abord",
+             source: "Nom de la source", tag: "Thème", title: "Titre" },
+    groups: { date: "Date", camp: "Modèle", brand: "Marque",
+              lang: "Langue d'origine",
+              tag: "Thème", source: "Source" },
+    picked: (n) => `${n} sélectionnés`,
+    status: (a, b, f, e) => `${a} sur ${b} articles` +
+      (f ? ` · ${f} filtres` : "") +
+      ` · ${e} ${e === 1 ? "édition" : "éditions"} chargées`,
+    tags: { "產品發表": "Produit", "研究": "Recherche", "商業": "Affaires",
+            "政策": "Politique", "安全": "Sécurité",
+            "開箱評測": "Test", "規格效能": "Caractéristiques", "價格上市": "Prix et disponibilité", "應用案例": "Cas d'usage" },
+    langs: { zh: "Chinois", en: "Anglais", ja: "Japonais", ko: "Coréen" },
+    camps: { openai: "OpenAI · GPT", anthropic: "Anthropic · Claude",
+             google: "Google · Gemini", meta: "Meta · Llama",
+             cn: "Modèles chinois", other: "Autres",
+             nvidia: "NVIDIA d'origine" },
+    open: "Lire l'original ↗", showOriginal: "Afficher l'original", untranslated: "original",
+    emptyTitle: "Aucun article ne correspond à ces filtres.",
+    emptyHint: "Essayez de retirer un filtre ou effacez-les tous.",
+    emptyNoData: "Aucune donnée n'a encore été collectée.",
+    note: "Chaque groupe accepte plusieurs choix. À l'intérieur d'un groupe, les options se combinent avec OU ; entre les groupes, avec ET. Les nombres évoluent selon les autres filtres.",
+    loading: (d) => `Chargement de l'édition ${d}…`,
+    errLoad: (m) => `Impossible de lire data/news.json (${m}). Pour un premier déploiement, lancez le workflow une fois depuis l'onglet Actions.`,
+    errArchive: (d, m) => `Impossible de lire l'archive du ${d} (${m}).`,
+    errRefresh: (m) => `Échec de la mise à jour : ${m}`,
+    reloading: "Chargement…",
+  },
+  "it": {
+    name: "Italiano", htmlLang: "it",
+    tabs: { models: "Modelli IA", spark: "Sistemi DGX Spark" },
+    eyebrow: "Ogni giorno 06:00 · Modelli linguistici", title: "Notiziario dei modelli",
+    next: "Prossimo aggiornamento tra", sort: "Ordina", reload: "Aggiorna",
+    filter: "Filtri", clearAll: "Cancella tutto",
+    filterBtn: "Filtri", filterHide: "Nascondi filtri",
+    sorts: { new: "Più recenti prima", old: "Più vecchie prima",
+             source: "Nome della fonte", tag: "Tema", title: "Titolo" },
+    groups: { date: "Data", camp: "Modello", brand: "Marca",
+              lang: "Lingua originale",
+              tag: "Tema", source: "Fonte" },
+    picked: (n) => `${n} selezionati`,
+    status: (a, b, f, e) => `${a} di ${b} notizie` +
+      (f ? ` · ${f} filtri` : "") +
+      ` · ${e} ${e === 1 ? "edizione" : "edizioni"} caricate`,
+    tags: { "產品發表": "Prodotto", "研究": "Ricerca", "商業": "Business",
+            "政策": "Politica", "安全": "Sicurezza",
+            "開箱評測": "Recensione", "規格效能": "Specifiche", "價格上市": "Prezzo e disponibilità", "應用案例": "Caso d'uso" },
+    langs: { zh: "Cinese", en: "Inglese", ja: "Giapponese", ko: "Coreano" },
+    camps: { openai: "OpenAI · GPT", anthropic: "Anthropic · Claude",
+             google: "Google · Gemini", meta: "Meta · Llama",
+             cn: "Modelli cinesi", other: "Altri",
+             nvidia: "NVIDIA originale" },
+    open: "Leggi l'originale ↗", showOriginal: "Mostra l'originale", untranslated: "originale",
+    emptyTitle: "Nessuna notizia corrisponde a questi filtri.",
+    emptyHint: "Prova a rimuovere un filtro o cancellali tutti.",
+    emptyNoData: "Non sono ancora stati raccolti dati.",
+    note: "Ogni gruppo permette scelte multiple. All'interno di un gruppo le opzioni si combinano con O; tra i gruppi con E. I numeri cambiano in base agli altri filtri.",
+    loading: (d) => `Caricamento dell'edizione ${d}…`,
+    errLoad: (m) => `Impossibile leggere data/news.json (${m}). Al primo deploy, esegui il workflow una volta dalla scheda Actions.`,
+    errArchive: (d, m) => `Impossibile leggere l'archivio del ${d} (${m}).`,
+    errRefresh: (m) => `Aggiornamento non riuscito: ${m}`,
+    reloading: "Caricamento…",
+  },
 };
 
-const CAMP_IDS = ["openai", "anthropic", "google", "meta", "cn", "other"];
-const TAG_KEYS = ["產品發表", "研究", "商業", "政策", "安全"];
+const CHANNELS = {
+  models: {
+    base: "data",
+    ids: ["openai", "anthropic", "google", "meta", "cn", "other"],
+    tagKeys: ["產品發表", "研究", "商業", "政策", "安全"],
+    groupLabel: "camp",
+  },
+  spark: {
+    base: "data/spark",
+    ids: ["asus", "acer", "dell", "hp", "lenovo", "msi", "gigabyte", "nvidia", "other"],
+    tagKeys: ["產品發表", "開箱評測", "規格效能", "價格上市", "應用案例"],
+    groupLabel: "brand",
+  },
+};
+
+// 品牌是專有名詞，各語言都一樣，不進字典
+const BRAND_FIXED = {
+  asus: "ASUS", acer: "Acer", dell: "Dell", hp: "HP",
+  lenovo: "Lenovo", msi: "MSI", gigabyte: "GIGABYTE",
+};
+
 const TAG_COLORS = {
   "產品發表":"#2D3BFF", "研究":"#0F6E5C", "商業":"#8A5A00",
   "政策":"#6B3FA0", "安全":"#B23A2E",
+  "開箱評測":"#0F6E5C", "規格效能":"#6B3FA0", "價格上市":"#8A5A00", "應用案例":"#B23A2E",
 };
 
 const $ = (id) => document.getElementById(id);
@@ -291,20 +539,34 @@ const esc = (s) => String(s ?? "").replace(/[&<>"']/g,
 /* ================================================================== */
 
 let cur = "zh-TW";                 // 目前顯示語言
-let editions = [], items = [], sortBy = "new";
-const loaded = new Map();
-const F = { date:new Set(), camp:new Set(), lang:new Set(), tag:new Set(), source:new Set() };
+let ch = "models";                 // 目前分頁
+let sortBy = "new";
+
+// 每個分頁各自一份狀態，切回來時篩選條件還在
+const blank = () => ({
+  editions: [], items: [], loaded: new Map(), booted: false,
+  F: { date:new Set(), camp:new Set(), lang:new Set(), tag:new Set(), source:new Set() },
+});
+const S = { models: blank(), spark: blank() };
+
+let { editions, items, loaded, booted, F } = S.models;
+
+function saveState() { S[ch] = { editions, items, loaded, booted, F }; }
+function restoreState() { ({ editions, items, loaded, booted, F } = S[ch]); }
 
 const T = () => UI[cur] || UI["zh-TW"];
+const CH = () => CHANNELS[ch];
 const say = (t, k = "") => { $("msg").innerHTML = t ? `<div class="msg ${k}">${t}</div>` : ""; };
 
 function savePref(v) { try { localStorage.setItem("uiLang", v); } catch {} }
 function loadPref() {
   try { const v = localStorage.getItem("uiLang"); if (v && UI[v]) return v; } catch {}
   const nav = (navigator.language || "").toLowerCase();
-  if (nav.startsWith("ja")) return "ja";
+  if (/^zh\b.*(cn|hans|sg)/.test(nav)) return "zh-CN";
   if (nav.startsWith("zh")) return "zh-TW";
-  if (nav.startsWith("en")) return "en";
+  for (const code of ["ja", "ko", "de", "es", "fr", "it", "en"]) {
+    if (nav.startsWith(code)) return code;
+  }
   return "zh-TW";
 }
 
@@ -360,7 +622,7 @@ async function grab(path) {
 
 async function loadEdition(edition) {
   if (loaded.has(edition)) return;
-  const p = await grab(`data/archive/${edition}.json`);
+  const p = await grab(`${CH().base}/archive/${edition}.json`);
   loaded.set(edition, (p.items || []).map((it) => ({ ...it, edition })));
   merge();
 }
@@ -376,18 +638,30 @@ function merge() {
 }
 
 async function boot() {
+  booted = true;
+  const base = CH().base;
   try {
-    const latest = await grab("data/news.json");
+    const latest = await grab(`${base}/news.json`);
     const c = latest.edition;
     loaded.set(c, (latest.items || []).map((it) => ({ ...it, edition: c })));
     F.date.add(c);
-    try { editions = ((await grab("data/index.json")).editions || []).slice(0, 30); }
+    try { editions = ((await grab(`${base}/index.json`)).editions || []).slice(0, 30); }
     catch { editions = []; }
     if (!editions.includes(c)) editions.unshift(c);
     merge(); say(""); renderAll();
   } catch (err) {
+    items = []; renderAll();
     say(esc(T().errLoad(err.message)), "bad");
   }
+}
+
+async function switchTab(next) {
+  if (next === ch || !CHANNELS[next]) return;
+  saveState();
+  ch = next;
+  restoreState();
+  renderAll();
+  if (!booted) await boot();
 }
 
 /* ================================================================== */
@@ -444,6 +718,13 @@ function renderChrome() {
   $("ftoggle").textContent = $("rail").classList.contains("collapsed")
     ? t.filterBtn : t.filterHide;
 
+  $("tabs").innerHTML = Object.keys(CHANNELS).map((k) =>
+    `<button class="tab" role="tab" data-ch="${k}"
+       aria-selected="${k === ch}">${esc(t.tabs[k])}</button>`).join("");
+  $("tabs").querySelectorAll(".tab").forEach((b) => {
+    b.onclick = () => switchTab(b.dataset.ch);
+  });
+
   $("uiLang").innerHTML = Object.entries(UI)
     .map(([code, u]) => `<option value="${code}" ${code === cur ? "selected" : ""}>${u.name}</option>`)
     .join("");
@@ -458,9 +739,10 @@ function groupDefs() {
     .sort((a, b) => String(a).localeCompare(String(b), cur));
   return [
     { key: "date",   open: true,  opts: editions.map((d) => [d, d]) },
-    { key: "camp",   open: true,  opts: CAMP_IDS.map((c) => [c, t.camps[c]]) },
+    { key: "camp",   open: true,
+      opts: CH().ids.map((c) => [c, BRAND_FIXED[c] || t.camps[c] || c]) },
     { key: "lang",   open: true,  opts: ["zh", "en", "ja", "ko"].map((l) => [l, t.langs[l]]) },
-    { key: "tag",    open: false, opts: TAG_KEYS.map((k) => [k, t.tags[k]]) },
+    { key: "tag",    open: false, opts: CH().tagKeys.map((k) => [k, t.tags[k] || k]) },
     { key: "source", open: false, scroll: true, opts: sources.map((s) => [s, s]) },
   ];
 }
@@ -475,7 +757,7 @@ function renderGroups() {
     const picked = F[g.key].size;
     const open = first ? g.open : openNow.has(g.key);
     return `<details class="fg" data-g="${g.key}" ${open ? "open" : ""}>
-      <summary>${esc(t.groups[g.key])}${picked ? `<span class="picked">${esc(t.picked(picked))}</span>` : ""}</summary>
+      <summary>${esc(g.key === "camp" ? t.groups[CH().groupLabel] : t.groups[g.key])}${picked ? `<span class="picked">${esc(t.picked(picked))}</span>` : ""}</summary>
       <div class="opts${g.scroll ? " scroll" : ""}">
         ${g.opts.map(([val, name]) => {
           const on = F[g.key].has(val);
@@ -566,7 +848,7 @@ $("reload").onclick = async () => {
   const keep = new Set(F.date);
   loaded.clear(); F.date.clear();
   try {
-    const latest = await grab("data/news.json");
+    const latest = await grab(`${CH().base}/news.json`);
     const c = latest.edition;
     loaded.set(c, (latest.items || []).map((it) => ({ ...it, edition: c })));
     for (const d of keep) {

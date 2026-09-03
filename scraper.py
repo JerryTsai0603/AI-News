@@ -1,14 +1,19 @@
 #!/usr/bin/env python3
 """
-AI 語言模型新聞爬蟲
-每日擷取各家 AI 模型相關新聞，彙整後輸出 JSON 供前端頁面讀取。
+雙頻道新聞爬蟲
 
-輸出：
-  data/news.json                 最新一期
-  data/archive/YYYY-MM-DD.json   當日存檔
-  data/index.json                所有期別清單
+  python scraper.py models    AI 語言模型新聞  → data/
+  python scraper.py spark     DGX Spark 機種新聞 → data/spark/
+  python scraper.py all       兩個都跑
 
-依賴：requests（其餘全部使用標準函式庫）
+每個頻道各自輸出：
+  <out>/news.json                最新一期
+  <out>/archive/YYYY-MM-DD.json  當日存檔
+  <out>/index.json               期別清單
+
+環境變數：
+  ANTHROPIC_API_KEY   選用。設了才會產生各語言翻譯。
+  TARGET_LANGS        選用。預設 zh-TW,zh-CN,en,ja,ko,de,es,fr,it
 """
 
 from __future__ import annotations
@@ -27,20 +32,32 @@ from xml.etree import ElementTree as ET
 
 import requests
 
-# ---------------------------------------------------------------- 設定
+# ---------------------------------------------------------------- 通用設定
 
-TZ = timezone(timedelta(hours=8))          # 台北時間
-WINDOW_HOURS = 48                          # 只收最近 48 小時的新聞
-MAX_ITEMS = 60                             # 單期上限
+TZ = timezone(timedelta(hours=8))
+WINDOW_HOURS = 48
+MAX_ITEMS = 60
 TIMEOUT = 20
-UA = "Mozilla/5.0 (compatible; ai-news-monitor/1.0; +https://github.com/)"
-
+UA = "Mozilla/5.0 (compatible; ai-news-monitor/2.0; +https://github.com/)"
 ROOT = Path(__file__).resolve().parent
-DATA = ROOT / "data"
-ARCHIVE = DATA / "archive"
 
-# Google 新聞搜尋（中英雙軌，回傳結果帶原始媒體名稱與連結）
-GOOGLE_QUERIES = [
+TARGET_LANGS = [x.strip() for x in
+                os.environ.get("TARGET_LANGS",
+                               "zh-TW,zh-CN,en,ja,ko,de,es,fr,it").split(",") if x.strip()]
+
+LANG_NAMES = {
+    "zh-TW": "繁體中文（台灣用語）", "zh-CN": "简体中文", "en": "English",
+    "ja": "日本語", "ko": "한국어", "de": "Deutsch", "es": "Español",
+    "fr": "Français", "it": "Italiano", "pt": "Português",
+}
+
+# 原文即為該語言時可直接沿用、免翻譯。
+# zh-CN 刻意不列入：來源多為繁體，仍需轉成簡體。
+REUSE_ORIGINAL = {"zh-TW": "zh", "en": "en", "ja": "ja", "ko": "ko"}
+
+# ================================================================ 頻道一：AI 語言模型
+
+MODELS_QUERIES = [
     ("OpenAI OR GPT OR ChatGPT", "zh-TW"),
     ("Anthropic OR Claude AI", "zh-TW"),
     ("Google Gemini 模型", "zh-TW"),
@@ -53,72 +70,136 @@ GOOGLE_QUERIES = [
     ("large language model benchmark", "en-US"),
 ]
 
-# 直接訂閱的科技媒體 RSS
-RSS_FEEDS = [
+MODELS_FEEDS = [
     ("TechCrunch AI", "https://techcrunch.com/category/artificial-intelligence/feed/"),
     ("VentureBeat AI", "https://venturebeat.com/category/ai/feed/"),
     ("The Verge AI", "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"),
     ("Ars Technica", "https://feeds.arstechnica.com/arstechnica/technology-lab"),
     ("MIT Tech Review", "https://www.technologyreview.com/topic/artificial-intelligence/feed"),
-    ("Google Research", "https://blog.google/technology/ai/rss/"),
+    ("Google AI Blog", "https://blog.google/technology/ai/rss/"),
     ("OpenAI Blog", "https://openai.com/blog/rss.xml"),
     ("Anthropic News", "https://www.anthropic.com/rss.xml"),
 ]
 
-# 陣營分類（與前端頁面一致）
-CAMPS = [
-    ("openai", "OpenAI · GPT", ["openai", "gpt", "chatgpt", "sora", "altman", "奧特曼", "阿特曼"]),
-    ("anthropic", "Anthropic · Claude", ["anthropic", "claude"]),
-    ("google", "Google · Gemini", ["gemini", "deepmind", "google", "谷歌"]),
-    ("meta", "Meta · Llama", ["llama", "meta ai", "臉書", "facebook"]),
-    ("cn", "中國模型", ["deepseek", "qwen", "kimi", "glm", "智譜", "阿里", "通義", "字節", "豆包", "百度", "文心", "月之暗面"]),
-    ("other", "其他業者", ["mistral", "xai", "grok", "cohere", "nvidia", "microsoft", "copilot", "amazon", "apple", "微軟", "輝達", "蘋果"]),
+MODELS_GROUPS = [
+    ("openai", ["openai", "gpt", "chatgpt", "sora", "altman", "奧特曼"]),
+    ("anthropic", ["anthropic", "claude"]),
+    ("google", ["gemini", "deepmind", "google", "谷歌"]),
+    ("meta", ["llama", "meta ai", "臉書", "facebook"]),
+    ("cn", ["deepseek", "qwen", "kimi", "glm", "智譜", "阿里", "通義",
+            "字節", "豆包", "百度", "文心", "月之暗面"]),
+    ("other", ["mistral", "xai", "grok", "cohere", "nvidia", "microsoft",
+               "copilot", "amazon", "apple", "微軟", "輝達", "蘋果"]),
 ]
 
-# 主題標籤（依關鍵字判斷，順序即優先序）
-TAG_RULES = [
-    ("安全", ["jailbreak", "safety", "misuse", "越獄", "資安", "外洩", "濫用", "有害", "紅隊", "red team"]),
-    ("政策", ["regulation", "lawsuit", "court", "ban", "act", "監管", "法案", "訴訟", "法院", "禁令", "歐盟", "白宮"]),
+MODELS_TAGS = [
+    ("安全", ["jailbreak", "safety", "misuse", "越獄", "資安", "外洩", "濫用", "有害", "red team"]),
+    ("政策", ["regulation", "lawsuit", "court", "ban", "監管", "法案", "訴訟", "法院", "禁令", "歐盟", "白宮"]),
     ("研究", ["paper", "benchmark", "research", "arxiv", "study", "論文", "研究", "評測", "基準"]),
-    ("商業", ["funding", "valuation", "revenue", "deal", "acquire", "ipo", "融資", "估值", "營收", "併購", "合作", "投資"]),
-    ("產品發表", []),  # 預設
+    ("商業", ["funding", "valuation", "revenue", "deal", "acquire", "ipo",
+              "融資", "估值", "營收", "併購", "合作", "投資"]),
+    ("產品發表", []),
 ]
 
-# 要產生翻譯的語言。改這一行就能增減。
-TARGET_LANGS = [x.strip() for x in
-                os.environ.get("TARGET_LANGS", "zh-TW,en,ja").split(",") if x.strip()]
+MODELS_KEEP = re.compile(
+    r"\b(ai|llm|gpt|chatgpt|openai|anthropic|claude|gemini|deepmind|llama|qwen|"
+    r"deepseek|mistral|grok|copilot|kimi|transformer|model|agent)\b"
+    r"|語言模型|大模型|生成式|人工智慧|人工智能|模型|智能體",
+    re.I,
+)
 
-LANG_NAMES = {
-    "zh-TW": "繁體中文", "zh-CN": "简体中文", "en": "English",
-    "ja": "日本語", "ko": "한국어", "es": "Español", "fr": "Français",
-    "de": "Deutsch", "vi": "Tiếng Việt", "th": "ไทย",
-}
-
-MODEL_NAMES = [
+MODELS_PRODUCTS = [
     "GPT-5", "GPT-4", "ChatGPT", "Sora", "Claude", "Gemini", "Llama", "Qwen",
-    "DeepSeek", "Mistral", "Grok", "Copilot", "Kimi", "Phi", "Command R",
+    "DeepSeek", "Mistral", "Grok", "Copilot", "Kimi", "Command R",
 ]
 
+# ================================================================ 頻道二：DGX Spark 機種
 
-def load_overrides() -> None:
-    """若存在 data/sources.json（由 Supabase 拉下來），改用其中的來源清單。"""
-    path = DATA / "sources.json"
-    if not path.exists():
-        log("使用 scraper.py 內建來源清單")
-        return
-    try:
-        cfg = json.loads(path.read_text(encoding="utf-8"))
-    except Exception as exc:
-        log(f"sources.json 解析失敗，改用內建清單：{exc}")
-        return
+SPARK_QUERIES = [
+    ("NVIDIA DGX Spark", "zh-TW"),
+    ("DGX Spark 評測 OR 開箱 OR 售價", "zh-TW"),
+    ("GB10 Grace Blackwell 迷你 AI 電腦", "zh-TW"),
+    ("NVIDIA DGX Spark review", "en-US"),
+    ("GB10 Grace Blackwell Superchip", "en-US"),
+    ("ASUS Ascent GX10", "en-US"),
+    ("Acer Veriton GN100", "en-US"),
+    ("HP ZGX Nano AI Station", "en-US"),
+    ("MSI EdgeXpert", "en-US"),
+    ("Dell Pro Max GB10", "en-US"),
+    ("Lenovo ThinkStation PGX", "en-US"),
+    ("GIGABYTE AI TOP ATOM", "en-US"),
+]
 
-    queries = [(r["value"], r.get("lang", "zh-TW")) for r in cfg.get("google_query", [])]
-    feeds = [(r["label"], r["value"]) for r in cfg.get("rss", [])]
-    if queries:
-        GOOGLE_QUERIES[:] = queries
-    if feeds:
-        RSS_FEEDS[:] = feeds
-    log(f"來源改用 sources.json：{len(GOOGLE_QUERIES)} 組查詢、{len(RSS_FEEDS)} 個 RSS")
+SPARK_FEEDS = [
+    ("Tom's Hardware", "https://www.tomshardware.com/feeds/all"),
+    ("ServeTheHome", "https://www.servethehome.com/feed/"),
+    ("The Register", "https://www.theregister.com/headlines.atom"),
+    ("VideoCardz", "https://videocardz.com/feed"),
+    ("StorageReview", "https://www.storagereview.com/feed"),
+    ("NVIDIA Blog", "https://blogs.nvidia.com/feed/"),
+    ("TechRadar Pro", "https://www.techradar.com/rss/news/computing"),
+    ("iThome", "https://www.ithome.com.tw/rss"),
+    ("科技新報", "https://technews.tw/feed/"),
+]
+
+# 品牌歸屬。OEM 優先，都沒中才歸給 NVIDIA 原廠。
+SPARK_GROUPS = [
+    ("asus",     [r"\basus\b", r"ascent\s*gx10", "華碩"]),
+    ("acer",     [r"\bacer\b", r"veriton\s*gn100", "宏碁"]),
+    ("hp",       [r"\bhp\b", r"\bzgx\b", "hewlett", "惠普"]),
+    ("msi",      [r"\bmsi\b", "edgexpert", "微星"]),
+    ("dell",     [r"\bdell\b", r"pro\s*max\s*(with\s*)?gb10", "戴爾"]),
+    ("lenovo",   [r"\blenovo\b", r"thinkstation\s*pgx", "聯想"]),
+    ("gigabyte", [r"\bgigabyte\b", r"ai\s*top\s*atom", "技嘉"]),
+]
+SPARK_FALLBACK = [
+    ("nvidia", [r"\bnvidia\b", r"dgx\s*spark", "founders edition",
+                r"\bgb10\b", "grace blackwell", "輝達"]),
+]
+
+SPARK_TAGS = [
+    ("開箱評測", ["review", "hands-on", "benchmark", "tested", "we tried",
+                  "評測", "開箱", "實測", "跑分", "體驗"]),
+    ("價格上市", ["price", "pricing", "availability", "ships", "shipping", "order",
+                  "restock", "discount", "價格", "售價", "上市", "開賣", "出貨", "缺貨", "降價"]),
+    ("規格效能", ["spec", "tflops", "bandwidth", "thermal", "cooling", "firmware",
+                  "teardown", "規格", "效能", "散熱", "頻寬", "韌體", "拆解"]),
+    ("應用案例", ["deploy", "use case", "workflow", "developer", "fine-tun",
+                  "inference", "cluster", "案例", "部署", "應用", "推論", "微調", "串接"]),
+    ("產品發表", []),
+]
+
+SPARK_KEEP = re.compile(
+    r"dgx\s*spark|\bgb10\b|grace\s*blackwell|ascent\s*gx10|veriton\s*gn100|"
+    r"\bzgx\b|edgexpert|thinkstation\s*pgx|ai\s*top\s*atom|"
+    r"pro\s*max\s*(with\s*)?gb10|project\s*digits|dgx\s*station",
+    re.I,
+)
+
+SPARK_PRODUCTS = [
+    "DGX Spark", "GB10", "Ascent GX10", "Veriton GN100", "ZGX Nano",
+    "EdgeXpert", "ThinkStation PGX", "AI TOP ATOM", "Pro Max with GB10",
+    "DGX Station", "GB300", "Grace Blackwell",
+]
+
+# ================================================================ 頻道表
+
+CHANNELS = {
+    "models": {
+        "label": "AI 語言模型",
+        "out": ROOT / "data",
+        "queries": MODELS_QUERIES, "feeds": MODELS_FEEDS,
+        "groups": MODELS_GROUPS, "fallback": [],
+        "tags": MODELS_TAGS, "keep": MODELS_KEEP, "products": MODELS_PRODUCTS,
+    },
+    "spark": {
+        "label": "DGX Spark 機種",
+        "out": ROOT / "data" / "spark",
+        "queries": SPARK_QUERIES, "feeds": SPARK_FEEDS,
+        "groups": SPARK_GROUPS, "fallback": SPARK_FALLBACK,
+        "tags": SPARK_TAGS, "keep": SPARK_KEEP, "products": SPARK_PRODUCTS,
+    },
+}
 
 
 # ---------------------------------------------------------------- 工具
@@ -130,9 +211,7 @@ def log(msg: str) -> None:
 def strip_html(raw: str) -> str:
     if not raw:
         return ""
-    text = re.sub(r"<[^>]+>", " ", raw)
-    text = html.unescape(text)
-    return re.sub(r"\s+", " ", text).strip()
+    return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", raw))).strip()
 
 
 def parse_date(value: str | None) -> datetime | None:
@@ -140,10 +219,10 @@ def parse_date(value: str | None) -> datetime | None:
         return None
     value = value.strip()
     try:
-        dt = parsedate_to_datetime(value)          # RFC 822（多數 RSS）
+        dt = parsedate_to_datetime(value)
     except Exception:
         try:
-            dt = datetime.fromisoformat(value.replace("Z", "+00:00"))  # ISO（Atom）
+            dt = datetime.fromisoformat(value.replace("Z", "+00:00"))
         except Exception:
             return None
     if dt.tzinfo is None:
@@ -152,23 +231,18 @@ def parse_date(value: str | None) -> datetime | None:
 
 
 def norm_title(title: str) -> str:
-    """去掉媒體後綴與標點，用於比對重複。"""
     t = re.sub(r"\s+[-–—|]\s+[^-–—|]{2,40}$", "", title)
-    t = re.sub(r"[^\w\u4e00-\u9fff]+", "", t.lower())
-    return t
+    return re.sub(r"[^\w\u4e00-\u9fff]+", "", t.lower())
 
 
 def clean_url(url: str) -> str:
     if not url:
         return ""
-    parts = urllib.parse.urlsplit(url)
-    keep = [
-        (k, v) for k, v in urllib.parse.parse_qsl(parts.query)
-        if not k.lower().startswith(("utm_", "fbclid", "gclid", "ref"))
-    ]
+    p = urllib.parse.urlsplit(url)
+    keep = [(k, v) for k, v in urllib.parse.parse_qsl(p.query)
+            if not k.lower().startswith(("utm_", "fbclid", "gclid", "ref"))]
     return urllib.parse.urlunsplit(
-        (parts.scheme, parts.netloc, parts.path, urllib.parse.urlencode(keep), "")
-    )
+        (p.scheme, p.netloc, p.path, urllib.parse.urlencode(keep), ""))
 
 
 def fetch(url: str) -> str | None:
@@ -181,10 +255,19 @@ def fetch(url: str) -> str | None:
         return None
 
 
+def detect_lang(text: str) -> str:
+    if re.search(r"[\u3040-\u30ff]", text):
+        return "ja"
+    if re.search(r"[\uac00-\ud7af]", text):
+        return "ko"
+    cjk = len(re.findall(r"[\u4e00-\u9fff]", text))
+    dense = len(re.sub(r"\s", "", text)) or 1
+    return "zh" if cjk / dense > 0.15 else "en"
+
+
 # ---------------------------------------------------------------- 解析
 
 def parse_feed(xml_text: str, fallback_source: str) -> list[dict]:
-    """同時支援 RSS 2.0 與 Atom。"""
     try:
         root = ET.fromstring(xml_text.encode("utf-8", "ignore"))
     except ET.ParseError as exc:
@@ -198,7 +281,7 @@ def parse_feed(xml_text: str, fallback_source: str) -> list[dict]:
     for e in entries:
         def text_of(*tags):
             for tag in tags:
-                node = e.find(tag) if not tag.startswith("atom:") else e.find(tag, ns)
+                node = e.find(tag, ns) if tag.startswith("atom:") else e.find(tag)
                 if node is not None and (node.text or "").strip():
                     return node.text.strip()
             return ""
@@ -215,15 +298,8 @@ def parse_feed(xml_text: str, fallback_source: str) -> list[dict]:
         if not link.startswith("http"):
             continue
 
-        published = parse_date(
-            text_of("pubDate", "published", "updated", "atom:published", "atom:updated")
-        )
-
-        # Google 新聞會在 <source> 標明原始媒體
         src_node = e.find("source")
         source = (src_node.text or "").strip() if src_node is not None and src_node.text else ""
-        if not source:
-            source = fallback_source
 
         summary = strip_html(text_of("description", "atom:summary", "content"))
         if summary.lower().startswith("<a href") or "news.google.com" in summary:
@@ -232,22 +308,21 @@ def parse_feed(xml_text: str, fallback_source: str) -> list[dict]:
         out.append({
             "title": title,
             "url": clean_url(link),
-            "source": source,
-            "published": published,
+            "source": source or fallback_source,
+            "published": parse_date(text_of("pubDate", "published", "updated",
+                                            "atom:published", "atom:updated")),
             "summary": summary[:220],
         })
     return out
 
 
-def collect_google() -> list[dict]:
+def collect_google(queries) -> list[dict]:
     items = []
-    for query, lang in GOOGLE_QUERIES:
+    for query, lang in queries:
         gl, ceid = ("TW", "TW:zh-Hant") if lang == "zh-TW" else ("US", "US:en")
-        url = (
-            "https://news.google.com/rss/search?q="
-            + urllib.parse.quote(f"{query} when:2d")
-            + f"&hl={lang}&gl={gl}&ceid={ceid}"
-        )
+        url = ("https://news.google.com/rss/search?q="
+               + urllib.parse.quote(f"{query} when:2d")
+               + f"&hl={lang}&gl={gl}&ceid={ceid}")
         log(f"  Google 新聞：{query}")
         xml_text = fetch(url)
         if xml_text:
@@ -256,9 +331,9 @@ def collect_google() -> list[dict]:
     return items
 
 
-def collect_rss() -> list[dict]:
+def collect_rss(feeds) -> list[dict]:
     items = []
-    for name, url in RSS_FEEDS:
+    for name, url in feeds:
         log(f"  RSS：{name}")
         xml_text = fetch(url)
         if xml_text:
@@ -267,14 +342,11 @@ def collect_rss() -> list[dict]:
     return items
 
 
-def collect_hn() -> list[dict]:
-    """Hacker News 上被討論的模型相關連結。"""
+def collect_hn(query: str) -> list[dict]:
     cutoff = int((datetime.now(tz=timezone.utc) - timedelta(hours=WINDOW_HOURS)).timestamp())
-    url = (
-        "https://hn.algolia.com/api/v1/search_by_date"
-        "?tags=story&hitsPerPage=40&numericFilters=points%3E40,created_at_i%3E" + str(cutoff)
-        + "&query=" + urllib.parse.quote("LLM OR GPT OR Claude OR Gemini OR Llama")
-    )
+    url = ("https://hn.algolia.com/api/v1/search_by_date"
+           "?tags=story&hitsPerPage=40&numericFilters=points%3E20,created_at_i%3E"
+           + str(cutoff) + "&query=" + urllib.parse.quote(query))
     log("  Hacker News")
     raw = fetch(url)
     if not raw:
@@ -283,56 +355,36 @@ def collect_hn() -> list[dict]:
         hits = json.loads(raw).get("hits", [])
     except Exception:
         return []
-    out = []
-    for h in hits:
-        link = h.get("url") or f"https://news.ycombinator.com/item?id={h.get('objectID')}"
-        out.append({
-            "title": h.get("title", ""),
-            "url": clean_url(link),
-            "source": "Hacker News",
-            "published": parse_date(h.get("created_at")),
-            "summary": f"HN 討論串 {h.get('points', 0)} 分、{h.get('num_comments', 0)} 則留言。",
-        })
-    return out
+    return [{
+        "title": h.get("title", ""),
+        "url": clean_url(h.get("url") or
+                         f"https://news.ycombinator.com/item?id={h.get('objectID')}"),
+        "source": "Hacker News",
+        "published": parse_date(h.get("created_at")),
+        "summary": f"HN 討論串 {h.get('points', 0)} 分、{h.get('num_comments', 0)} 則留言。",
+    } for h in hits]
 
 
-# ---------------------------------------------------------------- 篩選與分類
+# ---------------------------------------------------------------- 分類
 
-KEEP_PATTERN = re.compile(
-    r"\b(ai|llm|gpt|chatgpt|openai|anthropic|claude|gemini|deepmind|llama|qwen|"
-    r"deepseek|mistral|grok|copilot|kimi|transformer|model|agent)\b"
-    r"|語言模型|大模型|生成式|人工智慧|人工智能|模型|智能體",
-    re.I,
-)
+def matches(patterns, hay: str) -> bool:
+    return any(re.search(p, hay, re.I) for p in patterns)
 
 
-def is_relevant(item: dict) -> bool:
-    return bool(KEEP_PATTERN.search(f"{item['title']} {item.get('summary','')}"))
+def classify(item: dict, cfg: dict) -> dict:
+    hay = f"{item['title']} {item.get('summary', '')}"
 
+    hits = [gid for gid, pats in cfg["groups"] if matches(pats, hay)]
+    if not hits:
+        hits = [gid for gid, pats in cfg["fallback"] if matches(pats, hay)]
+    item["camps"] = hits or ["other"]
 
-def detect_lang(text: str) -> str:
-    """粗略判斷原文語言：有假名視為日文，中日文字佔比高視為中文，其餘英文。"""
-    if re.search(r"[\u3040-\u30ff]", text):
-        return "ja"
-    if re.search(r"[\uac00-\ud7af]", text):
-        return "ko"
-    cjk = len(re.findall(r"[\u4e00-\u9fff]", text))
-    dense = len(re.sub(r"\s", "", text)) or 1
-    return "zh" if cjk / dense > 0.15 else "en"
-
-
-def classify(item: dict) -> dict:
-    hay = f"{item['title']} {item.get('summary','')}".lower()
-
-    camps = [cid for cid, _label, kws in CAMPS if any(k in hay for k in kws)]
-    item["camps"] = camps or ["other"]
-
-    for tag, kws in TAG_RULES:
-        if not kws or any(k in hay for k in kws):
+    for tag, kws in cfg["tags"]:
+        if not kws or matches([re.escape(k) for k in kws], hay):
             item["tag"] = tag
             break
 
-    item["models"] = [m for m in MODEL_NAMES if m.lower() in hay][:4]
+    item["models"] = [p for p in cfg["products"] if p.lower() in hay.lower()][:4]
     item["lang"] = detect_lang(item["title"])
     return item
 
@@ -350,90 +402,60 @@ def dedupe(items: list[dict]) -> list[dict]:
     return out
 
 
-# ---------------------------------------------------------------- 選用：AI 摘要
-
-def add_summaries(items: list[dict]) -> None:
-    """若設有 ANTHROPIC_API_KEY，補上繁體中文一句話摘要。沒有就跳過。"""
-    key = os.environ.get("ANTHROPIC_API_KEY")
-    if not key:
-        log("未設定 ANTHROPIC_API_KEY，略過 AI 摘要")
-        return
-
-    batch = [{"i": i, "t": it["title"], "s": it.get("summary", "")[:150]}
-             for i, it in enumerate(items)]
-    for chunk_start in range(0, len(batch), 20):
-        chunk = batch[chunk_start:chunk_start + 20]
-        prompt = (
-            "以下是 AI 新聞標題清單（JSON）。請為每一則寫一句 45 字以內的繁體中文摘要，"
-            "點出具體事實。只輸出 JSON 陣列，格式 [{\"i\":0,\"s\":\"摘要\"}]，不要其他文字。\n\n"
-            + json.dumps(chunk, ensure_ascii=False)
-        )
-        try:
-            r = requests.post(
-                "https://api.anthropic.com/v1/messages",
-                headers={
-                    "x-api-key": key,
-                    "anthropic-version": "2023-06-01",
-                    "content-type": "application/json",
-                },
-                json={
-                    "model": "claude-sonnet-4-6",
-                    "max_tokens": 2000,
-                    "messages": [{"role": "user", "content": prompt}],
-                },
-                timeout=90,
-            )
-            r.raise_for_status()
-            text = "".join(b.get("text", "") for b in r.json().get("content", []))
-            text = text[text.find("["): text.rfind("]") + 1]
-            for row in json.loads(text):
-                idx = row.get("i")
-                if isinstance(idx, int) and 0 <= idx < len(items) and row.get("s"):
-                    items[idx]["summary"] = row["s"]
-            log(f"  ✓ 已摘要 {len(chunk)} 則")
-        except Exception as exc:
-            log(f"  ✗ 摘要失敗：{exc}")
-
-
-# ---------------------------------------------------------------- 翻譯
+# ---------------------------------------------------------------- 摘要與翻譯
 
 def call_claude(prompt: str, key: str, max_tokens: int = 4000) -> str:
     r = requests.post(
         "https://api.anthropic.com/v1/messages",
-        headers={
-            "x-api-key": key,
-            "anthropic-version": "2023-06-01",
-            "content-type": "application/json",
-        },
-        json={
-            "model": "claude-haiku-4-5-20251001",
-            "max_tokens": max_tokens,
-            "messages": [{"role": "user", "content": prompt}],
-        },
+        headers={"x-api-key": key, "anthropic-version": "2023-06-01",
+                 "content-type": "application/json"},
+        json={"model": "claude-haiku-4-5-20251001", "max_tokens": max_tokens,
+              "messages": [{"role": "user", "content": prompt}]},
         timeout=120,
     )
     r.raise_for_status()
     return "".join(b.get("text", "") for b in r.json().get("content", []))
 
 
+def extract_json(text: str):
+    return json.loads(text[text.find("["): text.rfind("]") + 1])
+
+
+def add_summaries(items: list[dict]) -> None:
+    key = os.environ.get("ANTHROPIC_API_KEY")
+    if not key:
+        log("未設定 ANTHROPIC_API_KEY，略過摘要與翻譯")
+        return
+    for start in range(0, len(items), 20):
+        chunk = [{"i": i, "t": items[i]["title"], "s": items[i].get("summary", "")[:150]}
+                 for i in range(start, min(start + 20, len(items)))]
+        prompt = ("以下是新聞標題清單（JSON）。請為每一則寫一句 45 字以內的繁體中文摘要，"
+                  "點出具體事實。只輸出 JSON 陣列，格式 [{\"i\":0,\"s\":\"摘要\"}]，"
+                  "不要其他文字。\n\n" + json.dumps(chunk, ensure_ascii=False))
+        try:
+            for row in extract_json(call_claude(prompt, key, 2000)):
+                i = row.get("i")
+                if isinstance(i, int) and 0 <= i < len(items) and row.get("s"):
+                    items[i]["summary"] = row["s"]
+            log(f"  ✓ 已摘要 {len(chunk)} 則")
+        except Exception as exc:
+            log(f"  ✗ 摘要失敗：{exc}")
+
+
 def add_translations(items: list[dict]) -> None:
-    """為每一則新聞產生各語言版本，存進 item['i18n']。沒有金鑰就整段跳過。"""
     key = os.environ.get("ANTHROPIC_API_KEY")
     for it in items:
         it.setdefault("i18n", {})
-
     if not key:
-        log("未設定 ANTHROPIC_API_KEY，略過翻譯（網頁會顯示原文）")
         return
 
     for lang in TARGET_LANGS:
         name = LANG_NAMES.get(lang, lang)
-        base = lang.split("-")[0]
+        reuse = REUSE_ORIGINAL.get(lang)
 
-        # 原文已是該語言就直接沿用，不浪費 token
         todo = []
         for idx, it in enumerate(items):
-            if it.get("lang") == base:
+            if reuse and it.get("lang") == reuse:
                 it["i18n"][lang] = {"title": it["title"], "summary": it.get("summary", "")}
             else:
                 todo.append(idx)
@@ -450,41 +472,41 @@ def add_translations(items: list[dict]) -> None:
             prompt = (
                 f"把下列新聞標題與摘要翻譯成{name}。\n"
                 "要求：\n"
-                "- 產品名、公司名、模型代號（GPT-5、Claude、Gemini 等）保留原文不譯。\n"
-                "- 標題譯得像新聞標題，簡潔有力，不要加標點以外的裝飾。\n"
+                "- 公司名、產品型號（DGX Spark、GB10、Ascent GX10、GPT-5、Claude 等）保留原文不譯。\n"
+                "- 標題譯得像新聞標題，簡潔有力。\n"
                 "- 摘要控制在 60 字以內；原本沒有摘要就回傳空字串。\n"
                 "- 只輸出 JSON 陣列，格式 [{\"i\":0,\"t\":\"標題\",\"s\":\"摘要\"}]，"
                 "不要任何說明文字或 markdown 標記。\n\n"
                 + json.dumps(payload, ensure_ascii=False)
             )
             try:
-                text = call_claude(prompt, key)
-                text = text[text.find("["): text.rfind("]") + 1]
-                for row in json.loads(text):
+                for row in extract_json(call_claude(prompt, key)):
                     i = row.get("i")
                     if isinstance(i, int) and 0 <= i < len(items) and row.get("t"):
-                        items[i]["i18n"][lang] = {
-                            "title": row["t"], "summary": row.get("s", "")}
+                        items[i]["i18n"][lang] = {"title": row["t"], "summary": row.get("s", "")}
                         done += 1
             except Exception as exc:
                 log(f"  ✗ {name} 第 {start // 15 + 1} 批失敗：{exc}")
             time.sleep(0.5)
-
         log(f"  ✓ {name}：翻譯 {done}/{len(todo)} 則")
 
 
-# ---------------------------------------------------------------- 主流程
+# ---------------------------------------------------------------- 單一頻道
 
-def main() -> int:
+def run_channel(name: str) -> int:
+    cfg = CHANNELS[name]
     started = datetime.now(TZ)
-    log("開始擷取")
-    load_overrides()
+    log(f"===== 頻道「{cfg['label']}」開始 =====")
 
-    raw = collect_google() + collect_rss() + collect_hn()
+    hn_query = ("LLM OR GPT OR Claude OR Gemini OR Llama" if name == "models"
+                else "DGX Spark OR GB10")
+    raw = collect_google(cfg["queries"]) + collect_rss(cfg["feeds"]) + collect_hn(hn_query)
     log(f"原始擷取 {len(raw)} 則")
 
     cutoff = started - timedelta(hours=WINDOW_HOURS)
-    fresh = [i for i in raw if i["published"] and i["published"] >= cutoff and is_relevant(i)]
+    fresh = [i for i in raw
+             if i["published"] and i["published"] >= cutoff
+             and cfg["keep"].search(f"{i['title']} {i.get('summary', '')}")]
     log(f"時間與主題過濾後 {len(fresh)} 則")
 
     items = dedupe(sorted(fresh, key=lambda x: x["published"], reverse=True))[:MAX_ITEMS]
@@ -495,18 +517,22 @@ def main() -> int:
         return 1
 
     for it in items:
-        classify(it)
+        classify(it, cfg)
     add_summaries(items)
     add_translations(items)
 
+    out = cfg["out"]
+    archive = out / "archive"
+    archive.mkdir(parents=True, exist_ok=True)
+
     payload = {
+        "channel": name,
         "fetchedAt": started.isoformat(),
         "edition": started.strftime("%Y-%m-%d"),
         "count": len(items),
         "languages": TARGET_LANGS,
-        "byCamp": {
-            cid: sum(1 for i in items if cid in i["camps"]) for cid, _l, _k in CAMPS
-        },
+        "byGroup": {gid: sum(1 for i in items if gid in i["camps"])
+                    for gid, _ in cfg["groups"] + cfg["fallback"]},
         "items": [{
             "title": i["title"],
             "source": i["source"],
@@ -522,18 +548,26 @@ def main() -> int:
         } for i in items],
     }
 
-    ARCHIVE.mkdir(parents=True, exist_ok=True)
-    (DATA / "news.json").write_text(
-        json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
-    (ARCHIVE / f"{payload['edition']}.json").write_text(
-        json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
+    dump = lambda obj: json.dumps(obj, ensure_ascii=False, indent=1)
+    (out / "news.json").write_text(dump(payload), encoding="utf-8")
+    (archive / f"{payload['edition']}.json").write_text(dump(payload), encoding="utf-8")
 
-    editions = sorted((p.stem for p in ARCHIVE.glob("*.json")), reverse=True)[:30]
-    (DATA / "index.json").write_text(
-        json.dumps({"editions": editions}, ensure_ascii=False, indent=1), encoding="utf-8")
+    editions = sorted((p.stem for p in archive.glob("*.json")), reverse=True)[:30]
+    (out / "index.json").write_text(dump({"editions": editions}), encoding="utf-8")
 
-    log(f"完成：{len(items)} 則 → data/news.json")
+    log(f"完成：{len(items)} 則 → {out.relative_to(ROOT)}/news.json")
     return 0
+
+
+def main() -> int:
+    arg = (sys.argv[1] if len(sys.argv) > 1 else "all").lower()
+    names = list(CHANNELS) if arg == "all" else [arg]
+    for n in names:
+        if n not in CHANNELS:
+            print(__doc__)
+            return 2
+    codes = [run_channel(n) for n in names]
+    return 0 if any(c == 0 for c in codes) else 1
 
 
 if __name__ == "__main__":
