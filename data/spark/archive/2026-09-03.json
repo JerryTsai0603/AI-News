@@ -1,8 +1,8 @@
 {
  "channel": "spark",
- "fetchedAt": "2026-09-03T16:51:25.501233+08:00",
+ "fetchedAt": "2026-09-03T17:36:23.387845+08:00",
  "edition": "2026-09-03",
- "count": 18,
+ "count": 25,
  "languages": [
   "zh-TW",
   "zh-CN",
@@ -16,39 +16,107 @@
  ],
  "byGroup": {
   "asus": 10,
-  "acer": 6,
+  "acer": 9,
   "hp": 0,
   "msi": 2,
   "dell": 0,
   "lenovo": 0,
   "gigabyte": 0,
   "microsoft": 0,
-  "nvidia": 2
+  "nvidia": 5
  },
  "byLine": {
-  "rtx": 18,
-  "dgx": 0
+  "rtx": 22,
+  "dgx": 3
  },
  "items": [
   {
-   "title": "華碩 IFA 2026 揭曉全新 ProArt PC 搭載 NVIDIA RTX Spark 釋放創作效能 - TechSpace 鐵客空間",
-   "source": "TechSpace 鐵客空間",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBoRVE4LTFNWENuZHB1ZFF5eGgzb1RfTHhyTVJxd3hlVnduYXJPNzB5UWduUG9RRFhrM0JETkdSdVRKYThuRHlVUnlqOGlZQ3BXZUVWME0xRGgtLWxRRHNuRmlUTTRqZlNON1FzdVdvSUZZOFZtelZV?oc=5",
-   "date": "2026-09-03 11:11",
-   "publishedAt": "2026-09-03T11:11:50+08:00",
-   "summary": "華碩 IFA 2026 揭曉全新 ProArt PC 搭載 NVIDIA RTX Spark 釋放創作效能 TechSpace 鐵客空間",
+   "title": "DGX Spark A Grace Blackwell AI Supercomputer on your desk",
+   "source": "NVIDIA DGX Spark",
+   "url": "https://www.nvidia.com/en-us/products/workstations/dgx-spark/",
+   "date": "2026-09-03 17:36",
+   "publishedAt": "2026-09-03T17:36:23.454120+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark",
+    "Grace Blackwell"
+   ],
+   "tag": "官方發布",
+   "camps": [
+    "nvidia"
+   ],
+   "press": true,
+   "lines": [
+    "dgx"
+   ],
+   "score": null,
+   "lang": "en",
+   "i18n": {}
+  },
+  {
+   "title": "DGX Station Desktop AI supercomputer for scalable model training and development",
+   "source": "NVIDIA DGX Spark",
+   "url": "https://www.nvidia.com/en-us/products/workstations/dgx-station/",
+   "date": "2026-09-03 17:36",
+   "publishedAt": "2026-09-03T17:36:23.454120+08:00",
+   "summary": "",
+   "models": [
+    "DGX Station"
+   ],
+   "tag": "官方發布",
+   "camps": [
+    "other"
+   ],
+   "press": true,
+   "lines": [
+    "dgx"
+   ],
+   "score": null,
+   "lang": "en",
+   "i18n": {}
+  },
+  {
+   "title": "Browse DGX Spark Playbooks",
+   "source": "NVIDIA DGX Spark",
+   "url": "http://build.nvidia.com/spark",
+   "date": "2026-09-03 17:36",
+   "publishedAt": "2026-09-03T17:36:23.454120+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "官方發布",
+   "camps": [
+    "nvidia"
+   ],
+   "press": true,
+   "lines": [
+    "dgx"
+   ],
+   "score": null,
+   "lang": "en",
+   "i18n": {}
+  },
+  {
+   "title": "Leading Publishers Bring Blockbuster PC Games and Technology to NVIDIA RTX Spark",
+   "source": "NVIDIA Newsroom Web",
+   "url": "https://blogs.nvidia.com/blog/gamescom-rtx-spark-pc-games-technology/",
+   "date": "2026-09-03 17:36",
+   "publishedAt": "2026-09-03T17:36:23.454120+08:00",
+   "summary": "",
    "models": [
     "RTX Spark"
    ],
-   "tag": "規格效能",
+   "tag": "官方發布",
    "camps": [
-    "asus"
+    "nvidia"
    ],
+   "press": true,
    "lines": [
     "rtx"
    ],
    "score": null,
-   "lang": "zh",
+   "lang": "en",
    "i18n": {}
   },
   {
@@ -57,7 +125,7 @@
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxON2RwWUZ3UzNDa25OWVhPOUJGS1JpeFMwcUI0SnFLMjlVWjZjLUFMZDJpVklnT0xxUkVRWHNsQVM2bkdmSExKY1ItNy1hSVpMd0hiZkpXanVMdXRwVElIUmp3MG5NMXBNLWh1RmR4dG4tVTJHQXhKcXhtRl9qZlN1Z2ZRRHJjeF96dklJZkVQN2c5RVlDMmJMdTdBcjlPanVXOWdkX2lhcjdHWWZmT1HSAa4BQVVfeXFMTjdkcFlGd1MzQ2tuTllYTzlCRktSaXhTMHFCNEpxSzI5VVo2Yy1BTGQyaVZJZ09McVJFUVhzbEFTNm5HZkhMSmNSLTctYUlaTHdIYmZKV2p1THV0cFRJSFJqdzBuTTFwTS1odUZkeHRuLVUyR0F4SnF4bUZfamZTdWdmUURyY3hfenZJSWZFUDdnOUVZQzJiTHU3QXI5T2p1VzlnZF9pYXI3R1lmZk9R?oc=5",
    "date": "2026-09-03 08:25",
    "publishedAt": "2026-09-03T08:25:07+08:00",
-   "summary": "Acer SFF RTX Spark and Veriton RI110 Bring Agentic AI to Compact Desktops Tech My Money",
+   "summary": "",
    "models": [
     "RTX Spark"
    ],
@@ -65,6 +133,7 @@
    "camps": [
     "acer"
    ],
+   "press": false,
    "lines": [
     "rtx"
    ],
@@ -78,7 +147,7 @@
    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB1VXNXU3lDeXkxNGE1NE9NbnJsZXNtWklJWnN0eThOWkNJOGNyZVBWSV94bHVCLTZIMm1OelA5OUotMFVBaGVOcGdNa1d5OElWamhFTDNCbGttN3VBakdYVXNvdE1WZw?oc=5",
    "date": "2026-09-03 07:22",
    "publishedAt": "2026-09-03T07:22:11+08:00",
-   "summary": "IFA 2026：華碩推出ProArt GR1X，1.1公升PC，配備RTX Spark顯示卡和10GbE乙太網路界面 XFastest News",
+   "summary": "",
    "models": [
     "RTX Spark"
    ],
@@ -86,6 +155,7 @@
    "camps": [
     "asus"
    ],
+   "press": false,
    "lines": [
     "rtx"
    ],
@@ -99,7 +169,7 @@
    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNN0ZZZ00wT3Z3VHgxZEdpMGRUVUhJNUJjMUhkYjFRUm9iLW4tWkNqd3UzOWRtMi1raGxiRDYzdzZDb3ZFNHFKMjVCMFcxbWtvTDdmcEhERDNUV2hGd2kwa1hVbWMzeERheDRBWDFWNF93UlJjd0t0RlU2MXczWTRBai1MUk10QWFOUTJIWE9TNGtQRm4zNlRvWlI0blTSAaIBQVVfeXFMTUZCMjBZZndnMHhDeERLUXdwTTc4NFp1QmRWWktZX0dIZ3M3WlEzY2JVeklpQWktMldXaUhXM3FnSExLNmFKOWVsZmJORFgxbGlpS3luZV9jelNwUmIwYUsyQXFCVVNLWmFZNEZUc0EwVE9CR1B0S2FEdDA1MXoyc0xYMTQ4WjhSRXlwRDJBd2lPZVNLNDhabzhiMUNGRlJYbXRB?oc=5",
    "date": "2026-09-03 02:02",
    "publishedAt": "2026-09-03T02:02:55+08:00",
-   "summary": "Acer Showcases Design Powered by NVIDIA RTX Spark at IFA 2026 TechPowerUp",
+   "summary": "",
    "models": [
     "RTX Spark"
    ],
@@ -107,6 +177,7 @@
    "camps": [
     "acer"
    ],
+   "press": false,
    "lines": [
     "rtx"
    ],
@@ -115,12 +186,34 @@
    "i18n": {}
   },
   {
+   "title": "宏碁於IFA 2026展示搭載NVIDIA RTX Spark™的創新設計",
+   "source": "Acer Newsroom",
+   "url": "https://news.acer.com/hong-qi-yuifa-2026zhan-shi-da-zainvidia-rtx-sparkde-chuang-xin-she-ji",
+   "date": "2026-09-03 01:30",
+   "publishedAt": "2026-09-03T01:30:00+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "acer"
+   ],
+   "press": false,
+   "lines": [
+    "rtx"
+   ],
+   "score": null,
+   "lang": "zh",
+   "i18n": {}
+  },
+  {
    "title": "RTX Spark 入市蠢蠢欲動 華碩推出 ProArt 筆電與迷你電腦 - Business Insider Taiwan",
    "source": "Business Insider Taiwan",
    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBYdk01OV9jVVhFdmFXVFF0RjBJT3BDQlRDcmFIZjhaT2pIeUxLR29SOUJwTGhOaVdGSm10aVVvdzlhVEl3N0R1V1JCZlViQzlmNkhLc3dR?oc=5",
    "date": "2026-09-03 00:17",
    "publishedAt": "2026-09-03T00:17:00+08:00",
-   "summary": "RTX Spark 入市蠢蠢欲動 華碩推出 ProArt 筆電與迷你電腦 Business Insider Taiwan",
+   "summary": "",
    "models": [
     "RTX Spark"
    ],
@@ -128,6 +221,29 @@
    "camps": [
     "asus"
    ],
+   "press": false,
+   "lines": [
+    "rtx"
+   ],
+   "score": null,
+   "lang": "zh",
+   "i18n": {}
+  },
+  {
+   "title": "Acer SFF RTX Spark 亮相！搭載 NVIDIA RTX Spark、1 PFLOPS AI 效能與 128GB 統一記憶體 - T客邦",
+   "source": "T客邦",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPdkRhQWtVMmFqSm1RVkJFVE9zRlBBcTdUS2djZWpnb3NBbVZKdlZfXzU4U3NVMThTTW83TWVXVzd1cjF1aUlzck9wZDZyVDRQTFJVc1hHMlVodG1zeDVqV1pNdVFHOVpWbHFNZ3VGWGpWS0YwbDM4MS1aOXlXMGJYamd0YjE5cFAxdzh2dw?oc=5",
+   "date": "2026-09-02 20:01",
+   "publishedAt": "2026-09-02T20:01:00+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "規格效能",
+   "camps": [
+    "acer"
+   ],
+   "press": false,
    "lines": [
     "rtx"
    ],
@@ -141,7 +257,7 @@
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBjZXpTS3JEaGtSclNFbFA1OS1jY2FYekp1Y1dpS3Y3T3E2Y0k0bnJhWTA4d2tNTEZwQkRta2V1VVhnajZmczhDZ3RNb0Z2eFZrMWUtME5wLUdUanVPTkNMeE9BWlBoc3VDX0Y4SDZyOGhzYnJBNHc?oc=5",
    "date": "2026-09-02 19:05",
    "publishedAt": "2026-09-02T19:05:27+08:00",
-   "summary": "ASUS brings RTX Spark to ProArt Laptops and Reveals a Compact AI Desktop at IFA iPhone in Canada",
+   "summary": "",
    "models": [
     "RTX Spark"
    ],
@@ -149,6 +265,7 @@
    "camps": [
     "asus"
    ],
+   "press": false,
    "lines": [
     "rtx"
    ],
@@ -157,12 +274,34 @@
    "i18n": {}
   },
   {
-   "title": "宏碁攻 AI 商機 IFA 發表會秀自家輝達 RTX Spark 筆電 | 產業熱點 | 產業 - 經濟日報",
-   "source": "經濟日報",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5QVGtTQlZkWUJ3N29GNUVRTkg2TWkydG1jR09jd01LTDF6OENoTDFzWDJRVTQ5NXFpWnNEQWZJN2ZSNlZzOGNlMUU5aVVBX0VtR0d5bXlIdndBZGJmOVc3b2ttelVfTkRMRHBnM1MzczRnTkpJVUJxRkdhdVJWZw?oc=5",
-   "date": "2026-09-02 17:45",
-   "publishedAt": "2026-09-02T17:45:59+08:00",
-   "summary": "宏碁攻 AI 商機 IFA 發表會秀自家輝達 RTX Spark 筆電 | 產業熱點 | 產業 經濟日報",
+   "title": "搭載 NVIDIA RTX Spark 釋放創作效能，ASUS 在 IFA 2026 揭曉全新 ProArt PC - BenchLife.info",
+   "source": "BenchLife.info",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBib2FyM2ZsUFpfLVoxUVdyTWFuX3padlV5dEtFX09LZWdObTU4WnpOdjNTQS1FUXNIZWlFN3dXMkJmXzBCelJQNEF5azJBUFFNYkE4TDlBdGI?oc=5",
+   "date": "2026-09-02 18:04",
+   "publishedAt": "2026-09-02T18:04:58+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "規格效能",
+   "camps": [
+    "asus"
+   ],
+   "press": false,
+   "lines": [
+    "rtx"
+   ],
+   "score": null,
+   "lang": "zh",
+   "i18n": {}
+  },
+  {
+   "title": "宏碁 IFA 2026 展出兩款 AI 桌面電腦 搭載 NVIDIA RTX Spark 與 Intel 平台 - Techritual",
+   "source": "Techritual",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE03SHRNQzdZeUlFeWF2Z1pQV1lvMlRWR0Q4NmtrMHFybktYYVJrX2g3cnpRMndRcDZfWXhVbk1BMjJzMkFkeWxDX18xU2JVcjAwODRkdFpyRHg?oc=5",
+   "date": "2026-09-02 18:00",
+   "publishedAt": "2026-09-02T18:00:35+08:00",
+   "summary": "",
    "models": [
     "RTX Spark"
    ],
@@ -170,6 +309,29 @@
    "camps": [
     "acer"
    ],
+   "press": false,
+   "lines": [
+    "rtx"
+   ],
+   "score": null,
+   "lang": "zh",
+   "i18n": {}
+  },
+  {
+   "title": "宏碁攻 AI 商機 IFA 發表會秀自家輝達 RTX Spark 筆電 | 產業熱點 | 產業 - 經濟日報",
+   "source": "經濟日報",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5QVGtTQlZkWUJ3N29GNUVRTkg2TWkydG1jR09jd01LTDF6OENoTDFzWDJRVTQ5NXFpWnNEQWZJN2ZSNlZzOGNlMUU5aVVBX0VtR0d5bXlIdndBZGJmOVc3b2ttelVfTkRMRHBnM1MzczRnTkpJVUJxRkdhdVJWZw?oc=5",
+   "date": "2026-09-02 17:45",
+   "publishedAt": "2026-09-02T17:45:59+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "acer"
+   ],
+   "press": false,
    "lines": [
     "rtx"
    ],
@@ -183,7 +345,7 @@
    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE00UGhMaFZSbEhYYkpKZHF6WXdRSnkxZ2JvWnNoNEx0WFRHcF90alZwMjNWZU5uNWpyUFlqbTJSY1M0VFpZSkFxbzg5ei1tMHRl0gFWQVVfeXFMUEN3d2JpTGxUNzlHcktJYlg5WnVPck83ZmNVYkhSdWFGMWRBczVMVkRXOTRZV09ITFNpcHpqdzdwbFdHZHduTVZkRUhkT0s1VjVpb1ZVZ3c?oc=5",
    "date": "2026-09-02 17:45",
    "publishedAt": "2026-09-02T17:45:56+08:00",
-   "summary": "宏碁攻AI商機 IFA發表會秀自家輝達RTX Spark筆電 UDN",
+   "summary": "",
    "models": [
     "RTX Spark"
    ],
@@ -191,6 +353,7 @@
    "camps": [
     "acer"
    ],
+   "press": false,
    "lines": [
     "rtx"
    ],
@@ -204,7 +367,7 @@
    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVlN2S2hCZDNUbzlWdHhiSnZfQWlhaW5wbTBod1hreWlsM1NLZEdkc281OGlyTmJBRElhRTkyWjFncnNwR0lsSUs1Qzg5N0Y5eWxKaWVVX2JfeEdZcGFkQmxxYl9WZlhsRy1xX3drRzExOV9pbFplN3lfTTFzb254bjczRkV0cU5EWDBOOHB2MllPaVZLM1FSLVh2OVFoWnRqc1U2UFFzQUFPS1FmMWhabndPUmZjN0VtSDViLV81SUhkbENC?oc=5",
    "date": "2026-09-02 17:42",
    "publishedAt": "2026-09-02T17:42:00+08:00",
-   "summary": "Acer launches new compact desktop PC globally with 128 GB RAM and Nvidia RTX Spark Notebookcheck",
+   "summary": "",
    "models": [
     "RTX Spark"
    ],
@@ -212,6 +375,7 @@
    "camps": [
     "acer"
    ],
+   "press": false,
    "lines": [
     "rtx"
    ],
@@ -225,7 +389,7 @@
    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9RWjgyZkYxNmxYT2FHclgwbE9tVTIySE9DUmgta2JSU2xpQ3ZMSjZ0OGZrckk4R0FVYlJySF9SeGJ5UVpGSzJUY0EyVkVfdw?oc=5",
    "date": "2026-09-02 17:19",
    "publishedAt": "2026-09-02T17:19:00+08:00",
-   "summary": "華碩於IFA 2026公布搭載NVIDIA RTX Spark的 ProArt P16 、ProArt P14筆電與ProArt GR1X迷你電腦#代理式AI (251589) Cool3c",
+   "summary": "",
    "models": [
     "RTX Spark"
    ],
@@ -233,6 +397,7 @@
    "camps": [
     "asus"
    ],
+   "press": false,
    "lines": [
     "rtx"
    ],
@@ -246,7 +411,7 @@
    "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNOGFjcFoxU1lkS19Bbnp6ckZBR0JjTGhqRWdRaldOTHJEY0pQV0gwam41RFg4dTdkczNIdHJLa2JkWlNBU25qZDhSTzZkWjR0Y1BINC16bWppMjlzUlViRjhnWk9VSjhHWVh5RUI0RF9YYzNxN1V3QjJNYU10RGx2NVdYY1k5UlV0cEhranFyUnh0SUM4LWVpcnVQcVBWMVdMbkFvUXYtUjBDYnh2Vk1VZTluWk5jMU01Vm90YXpCaG5TYkQ0Um9mbXJvQUxlS1Q4aGl2NEx2WnNBbmEwUjMzZVlHZFFvcW9YUldDNUxISVF0N3NGTHVpZFV6a0xvMGlONEVrM2NONnlQNUdhYmd2TFh0Vl8?oc=5",
    "date": "2026-09-02 17:00",
    "publishedAt": "2026-09-02T17:00:09+08:00",
-   "summary": "宏碁也跟進RTX Spark平台佈局！全新迷你桌機憑藉128GB統一記憶體強攻代理式AI戰場 Mashdigi",
+   "summary": "",
    "models": [
     "RTX Spark"
    ],
@@ -254,6 +419,7 @@
    "camps": [
     "acer"
    ],
+   "press": false,
    "lines": [
     "rtx"
    ],
@@ -262,12 +428,12 @@
    "i18n": {}
   },
   {
-   "title": "RTX Spark買氣旺！微星、華碩剛開放預購就秒殺 - Yahoo新聞",
-   "source": "Yahoo新聞",
-   "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNUTRXc1NvSFAtMUQ5NnJqUlJXUzRvczNfYmxnanNzdEY4czZ6U1Q0b1pTRjVseWlnZGhrd1BtRzJjd212RUxvd25QbmFDSUZjenBoVzY5UTZMOXl4S2hJNnIwSjd1M1dHV1ZRQXphbkVvSXB4VnExNzVqZ0d6Q0lHYmo0U1VzekZueGMzTS1EbTZyOUY3U2lQNGE0VmtNaTFxZkRaZHVzSjQtajNJclN4ejhvbFBFM0JJZkN3ejlSajFpc0J6dEZPWU9nMlJ3T0RlODZXT3ZzYVVjdVpfaUpDZDdjeFZsTVN1N0hITmpySXl0Mk5vUDl6Z1ZLSkFLNGVZdllsVE5UbzJFSEtJUFhsdlFjOXBpdw?oc=5",
-   "date": "2026-09-02 16:56",
-   "publishedAt": "2026-09-02T16:56:00+08:00",
-   "summary": "RTX Spark買氣旺！微星、華碩剛開放預購就秒殺 Yahoo新聞",
+   "title": "RTX Spark買氣旺！微星、華碩剛開放預購就秒殺 - 三立新聞網SETN.com",
+   "source": "三立新聞網SETN.com",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE15cGZDZ0NoOE5ER1dzZGFXdDVWd0E0YVlidXpiN29nRW5melo0Q3ZQRmhja3RTOU9PSm5nMHp2T0stejdKaFM5clFPdw?oc=5",
+   "date": "2026-09-02 16:58",
+   "publishedAt": "2026-09-02T16:58:37+08:00",
+   "summary": "",
    "models": [
     "RTX Spark"
    ],
@@ -276,6 +442,7 @@
     "asus",
     "msi"
    ],
+   "press": false,
    "lines": [
     "rtx"
    ],
@@ -284,12 +451,12 @@
    "i18n": {}
   },
   {
-   "title": "ASUS ProArt P16, P14 & GR1X RTX Spark at IFA 2026 - press.asus.com",
-   "source": "press.asus.com",
+   "title": "ASUS ProArt P16, P14 & GR1X RTX Spark at IFA 2026 - ASUS Pressroom",
+   "source": "ASUS Pressroom",
    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOb21OVFlnTElNbEotWDhZeTBHeGwyd2ZjcFpUR0NKTmV5VlZwanhPQWtBREh3RXA3aXlyak1EV29iMmVGVUtIY0pKYW5yZl9BdjNvV3RnOFp5M2NocVR6R2hVVDcwTElWSVBnV2hyU0d2bFdSWXhqYlVtN0lTRWk0STN0Z0RnTWtnd3JhOTZuYzE?oc=5",
    "date": "2026-09-02 15:49",
    "publishedAt": "2026-09-02T15:49:40+08:00",
-   "summary": "ASUS ProArt P16, P14 & GR1X RTX Spark at IFA 2026 press.asus.com",
+   "summary": "",
    "models": [
     "RTX Spark"
    ],
@@ -297,6 +464,7 @@
    "camps": [
     "asus"
    ],
+   "press": false,
    "lines": [
     "rtx"
    ],
@@ -310,7 +478,7 @@
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMzNTTUNLMFh2OG5zbG9jeTkxWXlNTVNuUE5fUldad1l6VHRDb0ZNbG80WTRnT20xWEM0NWMxLUh1ZmliUXltMUxtWldjUWxaQXl6UzVzcl9zMjlpS2lnRFpDazlIMGdlaXJfcU8zTUFSX1hqeHJSbEg1MG9QMTlxaHNjSVV5cUpEUC1ieTdaZjhDOGNBT005LTAtbXpfNDNiVm9sTVNOZWc0Z3lhbllrbVVpRFFtQQ?oc=5",
    "date": "2026-09-02 15:37",
    "publishedAt": "2026-09-02T15:37:14+08:00",
-   "summary": "ASUS Unleashes Agentic Creativity with ProArt RTX Spark PCs at IFA 2026 themalaysianreserve.com",
+   "summary": "",
    "models": [
     "RTX Spark"
    ],
@@ -318,6 +486,7 @@
    "camps": [
     "asus"
    ],
+   "press": false,
    "lines": [
     "rtx"
    ],
@@ -331,7 +500,7 @@
    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQREFiOHdfMkc4RHZSdk1ET0gtYnFEU1RFMGE1dGVRNHQwZmRnSjJ6VjJvOEd0WGF0V3Bvb0VQSnpSVzQ0WFZQR2xJRTg1ZkpzcDk1cndaclFxZzBtU2dKdDZJMFlJSHloOU83STRKVUExaW9BZUh4T3RyaFpZRVdqRTNvbjhzNEdHbms5YkZsQjl4TDJUa3dqVnJlbVM3ZlBKY3l4TGFJVkdzWkJ6SXJzQ0N3?oc=5",
    "date": "2026-09-02 15:00",
    "publishedAt": "2026-09-02T15:00:00+08:00",
-   "summary": "ASUS Unleashes Agentic Creativity with ProArt RTX Spark PCs at IFA 2026 | 主頁 - 新聞 etnet 經濟通",
+   "summary": "",
    "models": [
     "RTX Spark"
    ],
@@ -339,6 +508,7 @@
    "camps": [
     "asus"
    ],
+   "press": false,
    "lines": [
     "rtx"
    ],
@@ -352,7 +522,7 @@
    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9QRThBYU5fTUVvWVFYbUtSZ1FYRkt0WlYycUc4b3ZucUx6VHJBOE9Hd3J3SnYxV21VUnViUGJvdklId09OcFVFbW1qQ0hhZ2VoVW14Ql9WeElnS1l6N19hNmpNYktaVXhhWHVEeQ?oc=5",
    "date": "2026-09-02 13:09",
    "publishedAt": "2026-09-02T13:09:35+08:00",
-   "summary": "剛發布即售完！華碩、微星首波 AI 筆電 RTX RTX Spark，遭大客戶預購一空 XFastest",
+   "summary": "",
    "models": [
     "RTX Spark"
    ],
@@ -361,6 +531,7 @@
     "asus",
     "msi"
    ],
+   "press": false,
    "lines": [
     "rtx"
    ],
@@ -374,7 +545,7 @@
    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMnFxdkFIN2VkUkwweE94OGN0RFNFRzdBRGFZeTlfbUFLbDEtR2dFeWVIYU1TdFpYWHA5S0FsZ19oY0E4OUNuTXFmZllaX3BUTW9ZME1Pb3JvUmk0bGdrS2dpbWp6SnpSazBtWVVBRDhtQ2NhTVNFbDJuN182eWQ5S2lORzZSMjgtZDl6dUJSaGtsUmlycjVHSjk5WFdtdEdCRWZPS195eEtJVjA3Vno4Mi1zWjNnY2h3MUdXWXFTY9IBxAFBVV95cUxPZUZHTXlUUlN4bzY4MU5NN1BlUG9wZEJKQ09Oa3FZZGZfYnB3SlZYTldJQjcyQjdaYWpHM01xNWhzaHd5RDB4SHJKbmlYRkFheVE3QU1sa1VCbDlVc2dweHhDWnVia2lqMjFjU0pQTGQ3bGhCUDUzWlNXOC1oNzk3MzFrdXBSQ0xnYXFFMWhnNF92d04xOFZ6WmJiOUxFQ3RqMFJrV3kxNUY1S2dHdVNHN0NsZEFuc19lZkRnd3FkaFF4bnpT?oc=5",
    "date": "2026-09-02 03:25",
    "publishedAt": "2026-09-02T03:25:23+08:00",
-   "summary": "Taiwanese Hardware Manufacturers Sell Out NVIDIA RTX Spark Laptop Stock Ahead of Launch TechPowerUp",
+   "summary": "",
    "models": [
     "RTX Spark"
    ],
@@ -382,6 +553,7 @@
    "camps": [
     "nvidia"
    ],
+   "press": false,
    "lines": [
     "rtx"
    ],
@@ -395,7 +567,7 @@
    "url": "https://www.storagereview.com/news/nvidia-mediatek-partnership-deepens-with-3-5-billion-investment-nvlink-fusion-xpus-and-rtx-spark-pcs",
    "date": "2026-09-01 04:58",
    "publishedAt": "2026-09-01T04:58:16+08:00",
-   "summary": "NVIDIA and MediaTek announced a significant expansion of their strategic collaboration, covering enterprise AI infrastructure, edge computing, client PCs, and automotive platforms. Backing the initiative, NVIDIA has inve",
+   "summary": "",
    "models": [
     "RTX Spark",
     "MediaTek"
@@ -404,6 +576,7 @@
    "camps": [
     "nvidia"
    ],
+   "press": false,
    "lines": [
     "rtx"
    ],
