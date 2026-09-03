@@ -20,11 +20,12 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: 執行爬蟲與翻譯
+      - name: 擷取與翻譯（兩個分頁）
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          TARGET_LANGS: "zh-TW,en,ja"
-        run: python scraper.py
+          # 九種語言。想省費用就刪掉不需要的，網頁會自動改顯示原文。
+          TARGET_LANGS: "zh-TW,zh-CN,en,ja,ko,de,es,fr,it"
+        run: python scraper.py all
 
       - name: 提交結果
         run: |
