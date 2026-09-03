@@ -12,7 +12,14 @@
   <out>/index.json               期別清單
 
 環境變數：
-  ANTHROPIC_API_KEY   選用。設了才會產生各語言翻譯。
+  翻譯用的 API 金鑰（擇一即可，沒設就只顯示原文）：
+    ANTHROPIC_API_KEY / OPENAI_API_KEY / GEMINI_API_KEY /
+    DEEPSEEK_API_KEY / GROQ_API_KEY / MISTRAL_API_KEY
+  LLM_PROVIDER        選用。指定用哪一家，如 gemini。
+  LLM_MODEL           選用。換模型，如 gpt-4.1-mini。
+  LLM_BASE_URL        選用。接任何 OpenAI 相容端點（OpenRouter、本地 Ollama 等）。
+  REDDIT_CLIENT_ID    選用。設了才走 Reddit 官方 API（雲端 IP 建議設）。
+  REDDIT_CLIENT_SECRET
   TARGET_LANGS        選用。預設 zh-TW,zh-CN,en,ja,ko,de,es,fr,it
 """
 
@@ -92,6 +99,12 @@ MODELS_GROUPS = [
                "copilot", "amazon", "apple", "微軟", "輝達", "蘋果"]),
 ]
 
+MODELS_REDDIT = {
+    "subs": ["LocalLLaMA"],
+    "query": "GPT OR Claude OR Gemini OR Llama OR Qwen OR DeepSeek OR Mistral",
+    "min_score": 25,
+}
+
 MODELS_TAGS = [
     ("安全", ["jailbreak", "safety", "misuse", "越獄", "資安", "外洩", "濫用", "有害", "red team"]),
     ("政策", ["regulation", "lawsuit", "court", "ban", "監管", "法案", "訴訟", "法院", "禁令", "歐盟", "白宮"]),
@@ -116,6 +129,14 @@ MODELS_PRODUCTS = [
 # ================================================================ 頻道二：DGX Spark 機種
 
 SPARK_QUERIES = [
+    # --- RTX Spark（N1X，Windows on Arm 筆電與小型桌機）---
+    ("NVIDIA RTX Spark", "zh-TW"),
+    ("RTX Spark 筆電 OR 桌機 OR 售價", "zh-TW"),
+    ("NVIDIA RTX Spark laptop", "en-US"),
+    ("RTX Spark N1X Windows on Arm", "en-US"),
+    ("RTX Spark ASUS OR Dell OR HP OR Lenovo OR MSI", "en-US"),
+    ("Surface RTX Spark Microsoft", "en-US"),
+    # --- DGX Spark（GB10，迷你 AI 工作站）---
     ("NVIDIA DGX Spark", "zh-TW"),
     ("DGX Spark 評測 OR 開箱 OR 售價", "zh-TW"),
     ("GB10 Grace Blackwell 迷你 AI 電腦", "zh-TW"),
@@ -140,6 +161,18 @@ SPARK_FEEDS = [
     ("TechRadar Pro", "https://www.techradar.com/rss/news/computing"),
     ("iThome", "https://www.ithome.com.tw/rss"),
     ("科技新報", "https://technews.tw/feed/"),
+    ("Windows Central", "https://www.windowscentral.com/feeds/all"),
+    ("Engadget", "https://www.engadget.com/rss.xml"),
+]
+
+# 產品線。RTX Spark 與 DGX Spark 是兩條完全不同的產品線，可複選（比較文會同時命中）。
+SPARK_LINES = [
+    ("rtx", [r"rtx\s*spark", r"\bn1x\b", "spark superchip",
+             "surface laptop ultra", "windows on arm", "mediatek", "聯發科"]),
+    ("dgx", [r"dgx\s*spark", r"\bgb10\b", "grace blackwell superchip",
+             r"ascent\s*gx10", r"veriton\s*gn100", r"zgx\s*nano", "edgexpert",
+             r"thinkstation\s*pgx", r"ai\s*top\s*atom",
+             r"pro\s*max\s*(with\s*)?gb10", r"project\s*digits", r"dgx\s*station"]),
 ]
 
 # 品牌歸屬。OEM 優先，都沒中才歸給 NVIDIA 原廠。
@@ -151,11 +184,19 @@ SPARK_GROUPS = [
     ("dell",     [r"\bdell\b", r"pro\s*max\s*(with\s*)?gb10", "戴爾"]),
     ("lenovo",   [r"\blenovo\b", r"thinkstation\s*pgx", "聯想"]),
     ("gigabyte", [r"\bgigabyte\b", r"ai\s*top\s*atom", "技嘉"]),
+    ("microsoft", [r"\bmicrosoft\b", r"\bsurface\b", "微軟"]),
 ]
 SPARK_FALLBACK = [
     ("nvidia", [r"\bnvidia\b", r"dgx\s*spark", "founders edition",
                 r"\bgb10\b", "grace blackwell", "輝達"]),
 ]
+
+SPARK_REDDIT = {
+    "subs": ["LocalLLaMA"],
+    "query": ('"RTX Spark" OR N1X OR "DGX Spark" OR GB10 OR "Ascent GX10" '
+              'OR EdgeXpert OR "ZGX Nano" OR "ThinkStation PGX"'),
+    "min_score": 5,
+}
 
 SPARK_TAGS = [
     ("開箱評測", ["review", "hands-on", "benchmark", "tested", "we tried",
@@ -170,6 +211,7 @@ SPARK_TAGS = [
 ]
 
 SPARK_KEEP = re.compile(
+    r"rtx\s*spark|\bn1x\b|spark\s*superchip|"
     r"dgx\s*spark|\bgb10\b|grace\s*blackwell|ascent\s*gx10|veriton\s*gn100|"
     r"\bzgx\b|edgexpert|thinkstation\s*pgx|ai\s*top\s*atom|"
     r"pro\s*max\s*(with\s*)?gb10|project\s*digits|dgx\s*station",
@@ -177,6 +219,7 @@ SPARK_KEEP = re.compile(
 )
 
 SPARK_PRODUCTS = [
+    "RTX Spark", "N1X", "Surface Laptop Ultra", "Grace CPU", "MediaTek",
     "DGX Spark", "GB10", "Ascent GX10", "Veriton GN100", "ZGX Nano",
     "EdgeXpert", "ThinkStation PGX", "AI TOP ATOM", "Pro Max with GB10",
     "DGX Station", "GB300", "Grace Blackwell",
@@ -189,14 +232,17 @@ CHANNELS = {
         "label": "AI 語言模型",
         "out": ROOT / "data",
         "queries": MODELS_QUERIES, "feeds": MODELS_FEEDS,
-        "groups": MODELS_GROUPS, "fallback": [],
+        "reddit": MODELS_REDDIT, "window": 48,
+        "groups": MODELS_GROUPS, "fallback": [], "lines": [],
         "tags": MODELS_TAGS, "keep": MODELS_KEEP, "products": MODELS_PRODUCTS,
     },
     "spark": {
         "label": "DGX Spark 機種",
         "out": ROOT / "data" / "spark",
         "queries": SPARK_QUERIES, "feeds": SPARK_FEEDS,
-        "groups": SPARK_GROUPS, "fallback": SPARK_FALLBACK,
+        # 硬體新聞量少，時間窗放寬到四天
+        "reddit": SPARK_REDDIT, "window": 96,
+        "groups": SPARK_GROUPS, "fallback": SPARK_FALLBACK, "lines": SPARK_LINES,
         "tags": SPARK_TAGS, "keep": SPARK_KEEP, "products": SPARK_PRODUCTS,
     },
 }
@@ -365,12 +411,116 @@ def collect_hn(query: str) -> list[dict]:
     } for h in hits]
 
 
+# ---------------------------------------------------------------- Reddit
+
+_reddit_token: dict = {"value": None, "expires": 0}
+
+
+def reddit_token() -> str | None:
+    """有設 REDDIT_CLIENT_ID / REDDIT_CLIENT_SECRET 才走官方 OAuth。"""
+    cid = os.environ.get("REDDIT_CLIENT_ID")
+    secret = os.environ.get("REDDIT_CLIENT_SECRET")
+    if not cid or not secret:
+        return None
+    if _reddit_token["value"] and time.time() < _reddit_token["expires"]:
+        return _reddit_token["value"]
+    try:
+        r = requests.post(
+            "https://www.reddit.com/api/v1/access_token",
+            auth=(cid, secret),
+            data={"grant_type": "client_credentials"},
+            headers={"User-Agent": UA},
+            timeout=TIMEOUT,
+        )
+        r.raise_for_status()
+        body = r.json()
+        _reddit_token["value"] = body["access_token"]
+        _reddit_token["expires"] = time.time() + int(body.get("expires_in", 3600)) - 60
+        log("  Reddit：已取得 OAuth token")
+        return _reddit_token["value"]
+    except Exception as exc:
+        log(f"  ✗ Reddit OAuth 失敗，改用公開介面：{exc}")
+        return None
+
+
+def collect_reddit(cfg: dict) -> list[dict]:
+    conf = cfg.get("reddit")
+    if not conf:
+        return []
+
+    token = reddit_token()
+    out = []
+
+    for sub in conf["subs"]:
+        params = {
+            "q": conf["query"], "restrict_sr": "on",
+            "sort": "new", "t": "week", "limit": "50",
+        }
+        if token:
+            url = f"https://oauth.reddit.com/r/{sub}/search"
+            headers = {"Authorization": f"Bearer {token}", "User-Agent": UA}
+        else:
+            url = f"https://www.reddit.com/r/{sub}/search.json"
+            headers = {"User-Agent": UA}
+
+        log(f"  Reddit：r/{sub}")
+        try:
+            r = requests.get(url, params=params, headers=headers, timeout=TIMEOUT)
+            if r.status_code == 403:
+                log("  ✗ Reddit 回應 403（雲端 IP 常被擋）。"
+                    "設定 REDDIT_CLIENT_ID / REDDIT_CLIENT_SECRET 可解決。")
+                continue
+            r.raise_for_status()
+            children = r.json().get("data", {}).get("children", [])
+        except Exception as exc:
+            log(f"  ✗ Reddit 擷取失敗：{exc}")
+            continue
+
+        for c in children:
+            d = c.get("data", {})
+            score = d.get("score", 0)
+            if score < conf["min_score"] or d.get("over_18"):
+                continue
+
+            title = strip_html(d.get("title", ""))
+            permalink = "https://www.reddit.com" + d.get("permalink", "")
+            if not title or not d.get("permalink"):
+                continue
+
+            body = strip_html(d.get("selftext", ""))[:180]
+            link = (d.get("url_overridden_by_dest") or "").strip()
+            extra = ""
+            if link and "reddit.com" not in link:
+                try:
+                    extra = f"（外連 {urllib.parse.urlsplit(link).netloc.replace('www.', '')}）"
+                except Exception:
+                    extra = ""
+            summary = body or f"討論串 {score} 分、{d.get('num_comments', 0)} 則留言{extra}"
+
+            out.append({
+                "title": title,
+                "url": permalink,
+                "source": f"r/{sub}",
+                "published": datetime.fromtimestamp(
+                    d.get("created_utc", 0), tz=timezone.utc).astimezone(TZ),
+                "summary": summary,
+                "score": score,
+                # 搜尋條件已經限定主題，不再套用關鍵字過濾
+                "skip_keep": True,
+                "force_tag": "社群討論",
+            })
+        time.sleep(1)
+
+    return out
+
+
 # ---------------------------------------------------------------- 分類
 
 def matches(patterns, hay: str) -> bool:
     return any(re.search(p, hay, re.I) for p in patterns)
 
 
+# 「社群討論」不列入關鍵字規則，只由 Reddit 來源以 force_tag 指定。
 def classify(item: dict, cfg: dict) -> dict:
     hay = f"{item['title']} {item.get('summary', '')}"
 
@@ -379,10 +529,17 @@ def classify(item: dict, cfg: dict) -> dict:
         hits = [gid for gid, pats in cfg["fallback"] if matches(pats, hay)]
     item["camps"] = hits or ["other"]
 
-    for tag, kws in cfg["tags"]:
-        if not kws or matches([re.escape(k) for k in kws], hay):
-            item["tag"] = tag
-            break
+    if item.get("force_tag"):
+        item["tag"] = item["force_tag"]
+    else:
+        for tag, kws in cfg["tags"]:
+            if not kws or matches([re.escape(k) for k in kws], hay):
+                item["tag"] = tag
+                break
+
+    if cfg.get("lines"):
+        hit = [lid for lid, pats in cfg["lines"] if matches(pats, hay)]
+        item["lines"] = hit or ["other"]
 
     item["models"] = [p for p in cfg["products"] if p.lower() in hay.lower()][:4]
     item["lang"] = detect_lang(item["title"])
@@ -404,17 +561,104 @@ def dedupe(items: list[dict]) -> list[dict]:
 
 # ---------------------------------------------------------------- 摘要與翻譯
 
-def call_claude(prompt: str, key: str, max_tokens: int = 4000) -> str:
+# 支援多家供應商。偵測到哪一組金鑰就用哪一家，順序如下。
+# 也可用 LLM_PROVIDER 指定、LLM_MODEL 換模型、LLM_BASE_URL 接任何 OpenAI 相容端點。
+PROVIDERS = [
+    # id            金鑰環境變數          預設模型                         型態
+    ("anthropic",  "ANTHROPIC_API_KEY",  "claude-haiku-4-5-20251001",     "anthropic",
+     "https://api.anthropic.com/v1/messages"),
+    ("openai",     "OPENAI_API_KEY",     "gpt-4o-mini",                   "openai",
+     "https://api.openai.com/v1/chat/completions"),
+    ("gemini",     "GEMINI_API_KEY",     "gemini-2.0-flash",              "gemini",
+     "https://generativelanguage.googleapis.com/v1beta/models"),
+    ("deepseek",   "DEEPSEEK_API_KEY",   "deepseek-chat",                 "openai",
+     "https://api.deepseek.com/chat/completions"),
+    ("groq",       "GROQ_API_KEY",       "llama-3.3-70b-versatile",       "openai",
+     "https://api.groq.com/openai/v1/chat/completions"),
+    ("mistral",    "MISTRAL_API_KEY",    "mistral-small-latest",          "openai",
+     "https://api.mistral.ai/v1/chat/completions"),
+    # 中國區帳號請把 LLM_BASE_URL 設為
+    # https://api.minimaxi.com/v1/chat/completions
+    ("minimax",    "MINIMAX_API_KEY",    "MiniMax-M3",                    "openai",
+     "https://api.minimax.io/v1/chat/completions"),
+]
+
+_llm: dict | None = None
+
+
+def get_llm() -> dict | None:
+    """找出可用的供應商。找不到就回傳 None，翻譯與摘要會整段跳過。"""
+    global _llm
+    if _llm is not None:
+        return _llm or None
+
+    forced = os.environ.get("LLM_PROVIDER", "").strip().lower()
+    for pid, env, model, shape, url in PROVIDERS:
+        if forced and pid != forced:
+            continue
+        key = os.environ.get(env)
+        if not key:
+            continue
+        _llm = {
+            "id": pid, "key": key, "shape": shape,
+            "model": os.environ.get("LLM_MODEL") or model,
+            "url": os.environ.get("LLM_BASE_URL") or url,
+        }
+        log(f"翻譯供應商：{pid} · 模型 {_llm['model']}")
+        return _llm
+
+    _llm = {}
+    return None
+
+
+def call_llm(prompt: str, max_tokens: int = 4000) -> str:
+    cfg = get_llm()
+    if not cfg:
+        raise RuntimeError("沒有可用的 API 金鑰")
+
+    shape, model, url, key = cfg["shape"], cfg["model"], cfg["url"], cfg["key"]
+
+    if shape == "anthropic":
+        r = requests.post(
+            url,
+            headers={"x-api-key": key, "anthropic-version": "2023-06-01",
+                     "content-type": "application/json"},
+            json={"model": model, "max_tokens": max_tokens,
+                  "messages": [{"role": "user", "content": prompt}]},
+            timeout=120,
+        )
+        if r.status_code >= 400:
+            raise RuntimeError(f"{r.status_code} {r.text[:200]}")
+        return "".join(b.get("text", "") for b in r.json().get("content", []))
+
+    if shape == "gemini":
+        r = requests.post(
+            f"{url}/{model}:generateContent",
+            headers={"content-type": "application/json", "x-goog-api-key": key},
+            json={"contents": [{"parts": [{"text": prompt}]}],
+                  "generationConfig": {"maxOutputTokens": max_tokens}},
+            timeout=120,
+        )
+        if r.status_code >= 400:
+            raise RuntimeError(f"{r.status_code} {r.text[:200]}")
+        cands = r.json().get("candidates", [])
+        if not cands:
+            return ""
+        return "".join(pt.get("text", "")
+                       for pt in cands[0].get("content", {}).get("parts", []))
+
+    # OpenAI 相容（OpenAI / DeepSeek / Groq / Mistral / OpenRouter / 本地 Ollama）
     r = requests.post(
-        "https://api.anthropic.com/v1/messages",
-        headers={"x-api-key": key, "anthropic-version": "2023-06-01",
-                 "content-type": "application/json"},
-        json={"model": "claude-haiku-4-5-20251001", "max_tokens": max_tokens,
+        url,
+        headers={"Authorization": f"Bearer {key}", "content-type": "application/json"},
+        json={"model": model, "max_tokens": max_tokens,
               "messages": [{"role": "user", "content": prompt}]},
         timeout=120,
     )
-    r.raise_for_status()
-    return "".join(b.get("text", "") for b in r.json().get("content", []))
+    if r.status_code >= 400:
+        raise RuntimeError(f"{r.status_code} {r.text[:200]}")
+    choices = r.json().get("choices", [])
+    return choices[0].get("message", {}).get("content", "") if choices else ""
 
 
 def extract_json(text: str):
@@ -422,9 +666,9 @@ def extract_json(text: str):
 
 
 def add_summaries(items: list[dict]) -> None:
-    key = os.environ.get("ANTHROPIC_API_KEY")
-    if not key:
-        log("未設定 ANTHROPIC_API_KEY，略過摘要與翻譯")
+    if not get_llm():
+        log("找不到任何 API 金鑰，略過摘要與翻譯（網頁會顯示原文）")
+        log("  可用的環境變數：" + "、".join(e for _, e, _, _, _ in PROVIDERS))
         return
     for start in range(0, len(items), 20):
         chunk = [{"i": i, "t": items[i]["title"], "s": items[i].get("summary", "")[:150]}
@@ -433,7 +677,7 @@ def add_summaries(items: list[dict]) -> None:
                   "點出具體事實。只輸出 JSON 陣列，格式 [{\"i\":0,\"s\":\"摘要\"}]，"
                   "不要其他文字。\n\n" + json.dumps(chunk, ensure_ascii=False))
         try:
-            for row in extract_json(call_claude(prompt, key, 2000)):
+            for row in extract_json(call_llm(prompt, 2000)):
                 i = row.get("i")
                 if isinstance(i, int) and 0 <= i < len(items) and row.get("s"):
                     items[i]["summary"] = row["s"]
@@ -443,10 +687,9 @@ def add_summaries(items: list[dict]) -> None:
 
 
 def add_translations(items: list[dict]) -> None:
-    key = os.environ.get("ANTHROPIC_API_KEY")
     for it in items:
         it.setdefault("i18n", {})
-    if not key:
+    if not get_llm():
         return
 
     for lang in TARGET_LANGS:
@@ -480,7 +723,7 @@ def add_translations(items: list[dict]) -> None:
                 + json.dumps(payload, ensure_ascii=False)
             )
             try:
-                for row in extract_json(call_claude(prompt, key)):
+                for row in extract_json(call_llm(prompt)):
                     i = row.get("i")
                     if isinstance(i, int) and 0 <= i < len(items) and row.get("t"):
                         items[i]["i18n"][lang] = {"title": row["t"], "summary": row.get("s", "")}
@@ -500,14 +743,18 @@ def run_channel(name: str) -> int:
 
     hn_query = ("LLM OR GPT OR Claude OR Gemini OR Llama" if name == "models"
                 else "DGX Spark OR GB10")
-    raw = collect_google(cfg["queries"]) + collect_rss(cfg["feeds"]) + collect_hn(hn_query)
-    log(f"原始擷取 {len(raw)} 則")
+    reddit = collect_reddit(cfg)
+    raw = (collect_google(cfg["queries"]) + collect_rss(cfg["feeds"])
+           + collect_hn(hn_query) + reddit)
+    log(f"原始擷取 {len(raw)} 則（其中 Reddit {len(reddit)} 則）")
 
-    cutoff = started - timedelta(hours=WINDOW_HOURS)
+    window = cfg.get("window", WINDOW_HOURS)
+    cutoff = started - timedelta(hours=window)
     fresh = [i for i in raw
              if i["published"] and i["published"] >= cutoff
-             and cfg["keep"].search(f"{i['title']} {i.get('summary', '')}")]
-    log(f"時間與主題過濾後 {len(fresh)} 則")
+             and (i.get("skip_keep")
+                  or cfg["keep"].search(f"{i['title']} {i.get('summary', '')}"))]
+    log(f"時間（{window} 小時）與主題過濾後 {len(fresh)} 則")
 
     items = dedupe(sorted(fresh, key=lambda x: x["published"], reverse=True))[:MAX_ITEMS]
     log(f"去重後 {len(items)} 則")
@@ -533,6 +780,8 @@ def run_channel(name: str) -> int:
         "languages": TARGET_LANGS,
         "byGroup": {gid: sum(1 for i in items if gid in i["camps"])
                     for gid, _ in cfg["groups"] + cfg["fallback"]},
+        "byLine": {lid: sum(1 for i in items if lid in i.get("lines", []))
+                   for lid, _ in cfg.get("lines", [])},
         "items": [{
             "title": i["title"],
             "source": i["source"],
@@ -543,6 +792,8 @@ def run_channel(name: str) -> int:
             "models": i.get("models", []),
             "tag": i.get("tag", "產品發表"),
             "camps": i["camps"],
+            "lines": i.get("lines", []),
+            "score": i.get("score"),
             "lang": i.get("lang", "en"),
             "i18n": i.get("i18n", {}),
         } for i in items],
