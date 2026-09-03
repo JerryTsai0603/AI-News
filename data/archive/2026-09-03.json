@@ -1,6 +1,6 @@
 {
  "channel": "models",
- "fetchedAt": "2026-09-03T17:54:55.268856+08:00",
+ "fetchedAt": "2026-09-03T18:12:22.605498+08:00",
  "edition": "2026-09-03",
  "count": 60,
  "languages": [
@@ -15,15 +15,50 @@
   "it"
  ],
  "byGroup": {
-  "openai": 27,
-  "anthropic": 14,
+  "openai": 29,
+  "anthropic": 13,
   "google": 14,
   "meta": 0,
   "cn": 3,
-  "other": 20
+  "other": 19
  },
  "byLine": {},
  "items": [
+  {
+   "title": "AI 發展速度超越監管能力 專家憂「代幣化統治」壟斷審查權 - scooptw.com",
+   "source": "scooptw.com",
+   "url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxNbV9QTUtYRjdqaXQyQWlIOThaaUhTWnBOWDZOQlJPUlljY0dPQnpxUlpLZ1BYUTNrWERqeHR5VDJTNjA4TFZKXzhUdzdSSHZBV3ZCQUVFR1RDdkFTSmpIcmx4VWNyR0UyRkQ1bEk0ZC1nV2YyMUlhUHlzTFB0bUxaaGZzaUg4TlVzVWh0bk5GTnJ0UTRqaG8zTHYzZjVJWlJOMlpMd0FxUnZUeFMyVVRaMEVDQXlxYWVKT2RZX3NlanFSTFF1SXVkZGxrOWprTnU5ZXh1VjJSMk4wbmtSR01fdWM0SEFkRDZrb244eTdHb0NnT2NkU3U2TFAwb1BKVjlvR2tkVGhsXzlkMnljbnd0RGZYNHRaSmpqZ21BT0JpYlpQNlJKWG5UZGkxN3dGMlB2MGlZWjUxZnJYSlNYT0pHUFpmY1BmXzFOUW1yRFNZbUhuWHpM?oc=5",
+   "date": "2026-09-03 18:03",
+   "publishedAt": "2026-09-03T18:03:14+08:00",
+   "summary": "摘要",
+   "models": [],
+   "tag": "政策",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "AI 發展速度超越監管能力 專家憂「代幣化統治」壟斷審查權 - scooptw.com",
+     "summary": "摘要"
+    },
+    "zh-CN": {
+     "title": "AI发展速度超越监管能力，专家忧「代币化统治」垄断审查权",
+     "summary": ""
+    },
+    "en": {
+     "title": "AI Development Outpaces Regulatory Capacity; Experts Warn 'Tokenized Governance' Could Monopolize Censorship",
+     "summary": ""
+    },
+    "es": {
+     "title": "La IA avanza más rápido que la regulación; expertos temen que la \"gobernanza tokenizada\" monopolicé la censura",
+     "summary": ""
+    }
+   }
+  },
   {
    "title": "Anthropic Announces Claude Fable 5.1 And Mythos 5: Here’s What They Offer - Mashable India",
    "source": "Mashable India",
@@ -42,7 +77,55 @@
    "lines": [],
    "score": null,
    "lang": "en",
-   "i18n": {}
+   "i18n": {
+    "zh-CN": {
+     "title": "Anthropic发布Claude Fable 5.1和Mythos 5：功能一览",
+     "summary": ""
+    },
+    "en": {
+     "title": "Anthropic Announces Claude Fable 5.1 And Mythos 5: Here’s What They Offer - Mashable India",
+     "summary": ""
+    },
+    "es": {
+     "title": "Anthropic anuncia Claude Fable 5.1 y Mythos 5: esto es lo que ofrecen",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "據Axios：OpenAI創始人奧爾特曼在人工智能進展中加大了對政府審查的關注。 - 富途牛牛",
+   "source": "富途牛牛",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWEk5LXJWWVh3TlVTbWZqTGZYWTlXZzgzdVpVU1NWdEtNWTg1UVMtVGxfUXFVaGdFdHRtaWxydnZZbjU3eEtoRXFxZWxFZkppUzh6cmJzRVphS29faTRBYmFabGU4UTR5eTN2dXFSVU53eVFwa21ZWHRzZFBmYnlrVXFUU29UZFlzNU1LZmNtbGJaRHo4WS15UE9helN3NmxiQk50WUlJWQ?oc=5",
+   "date": "2026-09-03 17:42",
+   "publishedAt": "2026-09-03T17:42:45+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "據Axios：OpenAI創始人奧爾特曼在人工智能進展中加大了對政府審查的關注。 - 富途牛牛",
+     "summary": ""
+    },
+    "zh-CN": {
+     "title": "据Axios：OpenAI创始人奥尔特曼在AI进展中加大对政府审查的关注",
+     "summary": ""
+    },
+    "en": {
+     "title": "Axios: OpenAI Founder Altman Intensifies Focus on Government Oversight Amid AI Progress",
+     "summary": ""
+    },
+    "es": {
+     "title": "Según Axios: el fundador de OpenAI, Altman, intensifica su preocupación por la regulación gubernamental ante el avance de la IA",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "AI安全擔憂之際 Abliteration反其道推「不說不」模型 - 蕃新聞",
@@ -60,7 +143,24 @@
    "lines": [],
    "score": null,
    "lang": "zh",
-   "i18n": {}
+   "i18n": {
+    "zh-TW": {
+     "title": "AI安全擔憂之際 Abliteration反其道推「不說不」模型 - 蕃新聞",
+     "summary": ""
+    },
+    "zh-CN": {
+     "title": "AI安全担忧之际，Abliteration反其道推出「不说不」模型",
+     "summary": ""
+    },
+    "en": {
+     "title": "Amid AI Safety Concerns, Abliteration Goes the Opposite Way with a 'No-Refusal' Model",
+     "summary": ""
+    },
+    "es": {
+     "title": "Entre preocupaciones de seguridad en IA, Abliteration lanza al revés un modelo \"sin negativas\"",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "Meta's New Model Matches Fable 5 Performance, Mark Zuckerberg Says: Fully Open-Source With Ultra-Affordable Cost That Makes Calculations Unnecessary - 36 Kr",
@@ -78,7 +178,20 @@
    "lines": [],
    "score": null,
    "lang": "en",
-   "i18n": {}
+   "i18n": {
+    "zh-CN": {
+     "title": "扎克伯格称Meta新模型性能比肩Fable 5：完全开源、成本极低，算力不再是必需",
+     "summary": ""
+    },
+    "en": {
+     "title": "Meta's New Model Matches Fable 5 Performance, Mark Zuckerberg Says: Fully Open-Source With Ultra-Affordable Cost That Makes Calculations Unnecessary - 36 Kr",
+     "summary": ""
+    },
+    "es": {
+     "title": "El nuevo modelo de Meta iguala el rendimiento de Fable 5, dice Zuckerberg: totalmente open-source y ultrabarato, haciendo innecesarios los cálculos",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "生成式AI改變資安攻防 Cloudflare推自主學習防禦引擎 - DIGITIMES",
@@ -96,7 +209,24 @@
    "lines": [],
    "score": null,
    "lang": "zh",
-   "i18n": {}
+   "i18n": {
+    "zh-TW": {
+     "title": "生成式AI改變資安攻防 Cloudflare推自主學習防禦引擎 - DIGITIMES",
+     "summary": ""
+    },
+    "zh-CN": {
+     "title": "生成式AI重塑资安攻防，Cloudflare推出自主学习防御引擎",
+     "summary": ""
+    },
+    "en": {
+     "title": "Generative AI Reshapes Cybersecurity; Cloudflare Launches Self-Learning Defense Engine",
+     "summary": ""
+    },
+    "es": {
+     "title": "La IA generativa transforma la ciberseguridad: Cloudflare lanza un motor de defensa con autoaprendizaje",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "China’s Moonshot AI files for Hong Kong IPO, seeks $3 billion: report - invezz.com",
@@ -114,7 +244,20 @@
    "lines": [],
    "score": null,
    "lang": "en",
-   "i18n": {}
+   "i18n": {
+    "zh-CN": {
+     "title": "中国Moonshot AI递交港股IPO申请，募资30亿美元",
+     "summary": ""
+    },
+    "en": {
+     "title": "China’s Moonshot AI files for Hong Kong IPO, seeks $3 billion: report - invezz.com",
+     "summary": ""
+    },
+    "es": {
+     "title": "La china Moonshot AI solicita su IPO en Hong Kong y busca 3.000 millones de dólares, según informe",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "中國AI公司Moonshot攜Kimi K3衝擊港股IPO，備戰美股的OpenAI與Anthropic面臨開放模型壓力 - TradingKey",
@@ -136,7 +279,24 @@
    "lines": [],
    "score": null,
    "lang": "zh",
-   "i18n": {}
+   "i18n": {
+    "zh-TW": {
+     "title": "中國AI公司Moonshot攜Kimi K3衝擊港股IPO，備戰美股的OpenAI與Anthropic面臨開放模型壓力 - TradingKey",
+     "summary": ""
+    },
+    "zh-CN": {
+     "title": "中国AI公司Moonshot携Kimi K3冲击港股IPO，OpenAI与Anthropic备战美股面临开放模型压力",
+     "summary": ""
+    },
+    "en": {
+     "title": "China's Moonshot Targets Hong Kong IPO with Kimi K3; OpenAI and Anthropic Face Open-Model Pressure",
+     "summary": ""
+    },
+    "es": {
+     "title": "La china Moonshot irrumpe en la IPO de Hong Kong con Kimi K3 mientras OpenAI y Anthropic, preparando su salto a EE.UU., enfrentan presión de modelos abiertos",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "Chinese AI Firm Moonshot Pursues Hong Kong IPO With Kimi K3 As OpenAI and Anthropic Face Open-Model Pressure Ahead of US Listings - TradingKey",
@@ -158,7 +318,51 @@
    "lines": [],
    "score": null,
    "lang": "en",
-   "i18n": {}
+   "i18n": {
+    "zh-CN": {
+     "title": "中国AI公司Moonshot携Kimi K3推进港股IPO，OpenAI与Anthropic备战美股面临开放模型压力",
+     "summary": ""
+    },
+    "en": {
+     "title": "Chinese AI Firm Moonshot Pursues Hong Kong IPO With Kimi K3 As OpenAI and Anthropic Face Open-Model Pressure Ahead of US Listings - TradingKey",
+     "summary": ""
+    },
+    "es": {
+     "title": "La firma china de IA Moonshot busca IPO en Hong Kong con Kimi K3 mientras OpenAI y Anthropic enfrentan presión de modelos abiertos antes de sus listings en EE.UU.",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "ICYMI: OpenAI's Astra crosses Critical cybersecurity threshold - TestingCatalog AI News",
+   "source": "TestingCatalog AI News",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVmpWaS16b3pNc0ZuWGVqVEJEM3ZwbGFaMHdhczZaSHBWSGhidVRfSDR3dElqcEE0bWx0MFVmbklGSk5PdmJablM0LVdUa25GbkY1WmRWaGNKZ1ZXendDM0RtVi1CTmxqNWhQX2t2WWhYUWJ6TU9mYnB5MFN1YWpmWUxFX3ZjcFBjS3hIb0l1dXl5WnBrU1M0?oc=5",
+   "date": "2026-09-03 16:33",
+   "publishedAt": "2026-09-03T16:33:32+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "zh-CN": {
+     "title": "ICYMI：OpenAI Astra突破关键网络安全门槛",
+     "summary": ""
+    },
+    "en": {
+     "title": "ICYMI: OpenAI's Astra crosses Critical cybersecurity threshold - TestingCatalog AI News",
+     "summary": ""
+    },
+    "es": {
+     "title": "ICYMI: Astra de OpenAI cruza un umbral crítico de ciberseguridad",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "Meta says its new AI model can finally compete with OpenAI and Anthropic - Digital Trends",
@@ -177,7 +381,20 @@
    "lines": [],
    "score": null,
    "lang": "en",
-   "i18n": {}
+   "i18n": {
+    "zh-CN": {
+     "title": "Meta称其新AI模型终于能与OpenAI和Anthropic抗衡",
+     "summary": ""
+    },
+    "en": {
+     "title": "Meta says its new AI model can finally compete with OpenAI and Anthropic - Digital Trends",
+     "summary": ""
+    },
+    "es": {
+     "title": "Meta afirma que su nuevo modelo de IA puede competir por fin con OpenAI y Anthropic",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "CrowdStrike puts GPT-5.6 Cyber into Falcon - The Next Web",
@@ -197,7 +414,53 @@
    "lines": [],
    "score": null,
    "lang": "en",
-   "i18n": {}
+   "i18n": {
+    "zh-CN": {
+     "title": "CrowdStrike将GPT-5.6 Cyber整合进Falcon平台",
+     "summary": ""
+    },
+    "en": {
+     "title": "CrowdStrike puts GPT-5.6 Cyber into Falcon - The Next Web",
+     "summary": ""
+    },
+    "es": {
+     "title": "CrowdStrike integra GPT-5.6 Cyber en Falcon",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "OpenAI Astra: new safeguards can stop your ChatGPT task mid-run - Notebookcheck",
+   "source": "Notebookcheck",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOS25uQm5mLWk0djFHMXdNVEFBeTdLRTl0QzNtdUV2cTNRSmRkQlJXYmUwdzFUTzhsRDZPNF9kYXlRcVduTnRXaDRLSGdKc1ByaENKSFNDMFJlQTNFd0ZUWFlXNDdmMkRFYzJLRzNud1VjeVZpQ0FaOHRUR2VIbWJNTHlLSXNNNEk5Q3B2RmFKRFc3b1c3cmo1ZFJvRF92SjkteXNNd1pBWmQyNlU?oc=5",
+   "date": "2026-09-03 16:14",
+   "publishedAt": "2026-09-03T16:14:00+08:00",
+   "summary": "",
+   "models": [
+    "ChatGPT"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "zh-CN": {
+     "title": "OpenAI Astra：新安全机制可中途终止ChatGPT任务",
+     "summary": ""
+    },
+    "en": {
+     "title": "OpenAI Astra: new safeguards can stop your ChatGPT task mid-run - Notebookcheck",
+     "summary": ""
+    },
+    "es": {
+     "title": "OpenAI Astra: nuevas protecciones pueden detener tu tarea de ChatGPT a mitad de ejecución",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "免費獲取 ChatGPT & DeepSeek API Key，開發者零成本接入頂級大模型 - Techritual",
@@ -219,7 +482,24 @@
    "lines": [],
    "score": null,
    "lang": "zh",
-   "i18n": {}
+   "i18n": {
+    "zh-TW": {
+     "title": "免費獲取 ChatGPT & DeepSeek API Key，開發者零成本接入頂級大模型 - Techritual",
+     "summary": ""
+    },
+    "zh-CN": {
+     "title": "免费获取ChatGPT与DeepSeek API Key，开发者零成本接入顶级大模型",
+     "summary": ""
+    },
+    "en": {
+     "title": "Free ChatGPT & DeepSeek API Keys: Developers Access Top LLMs at Zero Cost",
+     "summary": ""
+    },
+    "es": {
+     "title": "Consigue gratis API Keys de ChatGPT y DeepSeek: desarrolladores acceden a modelos top sin coste",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "Anthropic Claude Fable 5.1, Claude Mythos 5.1 Models Announced for Advanced Coding, Scientific Research - Gadgets 360",
@@ -239,7 +519,20 @@
    "lines": [],
    "score": null,
    "lang": "en",
-   "i18n": {}
+   "i18n": {
+    "zh-CN": {
+     "title": "Anthropic发布Claude Fable 5.1与Claude Mythos 5.1，面向高级编程与科学研究",
+     "summary": ""
+    },
+    "en": {
+     "title": "Anthropic Claude Fable 5.1, Claude Mythos 5.1 Models Announced for Advanced Coding, Scientific Research - Gadgets 360",
+     "summary": ""
+    },
+    "es": {
+     "title": "Anthropic anuncia los modelos Claude Fable 5.1 y Claude Mythos 5.1 para programación avanzada e investigación científica",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "Meta launches Muse Spark 1.3, challenging OpenAI and Anthropic in race for advanced AI systems - Livemint",
@@ -258,7 +551,32 @@
    "lines": [],
    "score": null,
    "lang": "en",
-   "i18n": {}
+   "i18n": {
+    "en": {
+     "title": "Meta launches Muse Spark 1.3, challenging OpenAI and Anthropic in race for advanced AI systems - Livemint",
+     "summary": ""
+    },
+    "ja": {
+     "title": "Meta、Muse Spark 1.3を発表 — OpenAIとAnthropicに挑戦",
+     "summary": ""
+    },
+    "ko": {
+     "title": "Meta, Muse Spark 1.3 출시…OpenAI·Anthropic에 정면 도전",
+     "summary": ""
+    },
+    "es": {
+     "title": "Meta lanza Muse Spark 1.3 y reta a OpenAI y Anthropic en la carrera por sistemas avanzados de IA",
+     "summary": ""
+    },
+    "fr": {
+     "title": "Meta lance Muse Spark 1.3, défiant OpenAI et Anthropic dans la course aux IA avancées",
+     "summary": ""
+    },
+    "it": {
+     "title": "Meta lancia Muse Spark 1.3, sfida OpenAI e Anthropic nella corsa ai sistemi IA avanzati",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "Can Gemini 3.8 Flash Close the Gap? Google Takes Aim at OpenAI and Anthropic - Mashable India",
@@ -280,7 +598,32 @@
    "lines": [],
    "score": null,
    "lang": "en",
-   "i18n": {}
+   "i18n": {
+    "en": {
+     "title": "Can Gemini 3.8 Flash Close the Gap? Google Takes Aim at OpenAI and Anthropic - Mashable India",
+     "summary": ""
+    },
+    "ja": {
+     "title": "Gemini 3.8 Flashは差を埋められるか？GoogleがOpenAI・Anthropicを照準",
+     "summary": ""
+    },
+    "ko": {
+     "title": "Gemini 3.8 Flash로 격차 좁힐 수 있나? Google, OpenAI·Anthropic 정조준",
+     "summary": ""
+    },
+    "es": {
+     "title": "¿Puede Gemini 3.8 Flash cerrar la brecha? Google apunta a OpenAI y Anthropic",
+     "summary": ""
+    },
+    "fr": {
+     "title": "Gemini 3.8 Flash peut-il combler l'écart ? Google vise OpenAI et Anthropic",
+     "summary": ""
+    },
+    "it": {
+     "title": "Gemini 3.8 Flash può colmare il divario? Google incalza OpenAI e Anthropic",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "RECO 發表 Browser Guard 強力阻擋企業 AI 資料外洩 - Life 生活網",
@@ -298,7 +641,36 @@
    "lines": [],
    "score": null,
    "lang": "zh",
-   "i18n": {}
+   "i18n": {
+    "zh-TW": {
+     "title": "RECO 發表 Browser Guard 強力阻擋企業 AI 資料外洩 - Life 生活網",
+     "summary": ""
+    },
+    "en": {
+     "title": "RECO Launches Browser Guard to Block Enterprise AI Data Leaks",
+     "summary": ""
+    },
+    "ja": {
+     "title": "RECO、Browser Guardを発表 — 企業のAIデータ漏洩を強力ブロック",
+     "summary": ""
+    },
+    "ko": {
+     "title": "RECO, Browser Guard 출시…기업 AI 데이터 유출 강력 차단",
+     "summary": ""
+    },
+    "es": {
+     "title": "RECO presenta Browser Guard para frenar las fugas de datos de IA en empresas",
+     "summary": ""
+    },
+    "fr": {
+     "title": "RECO lance Browser Guard pour bloquer les fuites de données IA en entreprise",
+     "summary": ""
+    },
+    "it": {
+     "title": "RECO presenta Browser Guard per bloccare le fughe di dati IA aziendali",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "數發部揭曉首份主權 AI 評測，雅婷智慧 FedGPT 奪三冠 - TechNews 科技新報",
@@ -316,7 +688,36 @@
    "lines": [],
    "score": null,
    "lang": "zh",
-   "i18n": {}
+   "i18n": {
+    "zh-TW": {
+     "title": "數發部揭曉首份主權 AI 評測，雅婷智慧 FedGPT 奪三冠 - TechNews 科技新報",
+     "summary": ""
+    },
+    "en": {
+     "title": "Ministry of Digital Affairs Unveils First Sovereign AI Evaluation; FedGPT by雅婷智慧 Takes Triple Crown",
+     "summary": ""
+    },
+    "ja": {
+     "title": "数発部が初の主權AI評価を発表、雅婷智慧のFedGPTが三冠",
+     "summary": ""
+    },
+    "ko": {
+     "title": "수발부, 첫 주권 AI 평가 발표…雅婷智慧 FedGPT 3관왕",
+     "summary": ""
+    },
+    "es": {
+     "title": "El Ministerio de Digitalización revela la primera evaluación de IA soberana; FedGPT de Ya-Ting Smart logra triple corona",
+     "summary": ""
+    },
+    "fr": {
+     "title": "Le ministère du Numérique publie le premier rapport d'évaluation de l'IA souveraine : FedGPT d'Yating Smart remporte trois titres",
+     "summary": ""
+    },
+    "it": {
+     "title": "Pubblicata la prima valutazione di IA sovrana: FedGPT di Ya-Ting conquista tre titoli",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "If Europe's AI sovereignty relies on Mistral, 'we're doomed': French finance minister - The Economic Times",
@@ -336,7 +737,32 @@
    "lines": [],
    "score": null,
    "lang": "en",
-   "i18n": {}
+   "i18n": {
+    "en": {
+     "title": "If Europe's AI sovereignty relies on Mistral, 'we're doomed': French finance minister - The Economic Times",
+     "summary": ""
+    },
+    "ja": {
+     "title": "欧州のAI主權がMistral頼みなら「終わりだ」— 仏財務相",
+     "summary": ""
+    },
+    "ko": {
+     "title": "Mistral에 달린 유럽 AI 주권, \"우리 끝났다\"…프랑스 재무장관 경고",
+     "summary": ""
+    },
+    "es": {
+     "title": "Si la soberanía de IA de Europa depende de Mistral, «estamos perdido»: ministro de Finanzas francés",
+     "summary": ""
+    },
+    "fr": {
+     "title": "Si la souveraineté IA de l'Europe repose sur Mistral, « nous sommes condamnés » : le ministre français des Finances",
+     "summary": ""
+    },
+    "it": {
+     "title": "Se la sovranità IA dell'Europa dipende da Mistral 'siamo spacciati': ministro delle Finanze francese",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "OpenAI on alert ahead of Astra launch as researchers warn of AI safety disaster - 디지털투데이",
@@ -354,7 +780,75 @@
    "lines": [],
    "score": null,
    "lang": "ko",
-   "i18n": {}
+   "i18n": {
+    "en": {
+     "title": "OpenAI on alert ahead of Astra launch as researchers warn of AI safety disaster",
+     "summary": ""
+    },
+    "ja": {
+     "title": "Astra発表控えOpenAIが警戒 — 研究者がAI安全性の惨事を警告",
+     "summary": ""
+    },
+    "ko": {
+     "title": "OpenAI on alert ahead of Astra launch as researchers warn of AI safety disaster - 디지털투데이",
+     "summary": ""
+    },
+    "es": {
+     "title": "OpenAI en alerta ante el lanzamiento de Astra mientras investigadores advierten de un desastre de seguridad en IA",
+     "summary": ""
+    },
+    "fr": {
+     "title": "OpenAI en alerte avant le lancement d'Astra, des chercheurs redoutent un désastre en matière de sécurité IA",
+     "summary": ""
+    },
+    "it": {
+     "title": "OpenAI in allerta prima del lancio di Astra: ricercatori temono un disastro per la sicurezza IA",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Meta, Google Unveil AI Models Emphasizing Efficiency, Security - 조선일보",
+   "source": "조선일보",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcUJWbE82RExVNEV0S05obnhJYmpsckdvSXVtZFlxSXZfZUZiMjB4ODg4VFVabVN1dFdUUVpYcTJ1UXdXdndtbndwVzZJMUVTdElVQWxPa2hhQTBBUzJmbXVLM3pySkRNNnJaQWt0MGlJTGJha1NSYUhQZjFra2FWeF8yQm00Yzht?oc=5",
+   "date": "2026-09-03 14:14",
+   "publishedAt": "2026-09-03T14:14:45+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "google"
+   ],
+   "press": false,
+   "lines": [],
+   "score": null,
+   "lang": "ko",
+   "i18n": {
+    "en": {
+     "title": "Meta, Google Unveil AI Models Emphasizing Efficiency, Security",
+     "summary": ""
+    },
+    "ja": {
+     "title": "MetaとGoogle、効率性とセキュリティ重視のAIモデルを公開",
+     "summary": ""
+    },
+    "ko": {
+     "title": "Meta, Google Unveil AI Models Emphasizing Efficiency, Security - 조선일보",
+     "summary": ""
+    },
+    "es": {
+     "title": "Meta y Google presentan modelos de IA centrados en eficiencia y seguridad",
+     "summary": ""
+    },
+    "fr": {
+     "title": "Meta et Google dévoilent des modèles IA axés sur l'efficacité et la sécurité",
+     "summary": ""
+    },
+    "it": {
+     "title": "Meta e Google svelano modelli IA, focus su efficienza e sicurezza",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "聯準會官員威廉斯：美債走勢受強勁經濟與 AI 投資驅動 - 商傳媒",
@@ -372,7 +866,36 @@
    "lines": [],
    "score": null,
    "lang": "zh",
-   "i18n": {}
+   "i18n": {
+    "zh-TW": {
+     "title": "聯準會官員威廉斯：美債走勢受強勁經濟與 AI 投資驅動 - 商傳媒",
+     "summary": ""
+    },
+    "en": {
+     "title": "Fed Official Williams: U.S. Treasury Yields Driven by Strong Economy and AI Investment",
+     "summary": ""
+    },
+    "ja": {
+     "title": "FRBウィリアムズ氏：米国債は堅調な経済とAI投資に左右される",
+     "summary": ""
+    },
+    "ko": {
+     "title": "연준 윌리엄스 \"美채권 강세, 견고한 경기·AI 투자 반영\"",
+     "summary": ""
+    },
+    "es": {
+     "title": "Williams, funcionario de la Fed: el rumbo de la deuda de EE. UU. lo impulsan la economía sólida y la inversión en IA",
+     "summary": ""
+    },
+    "fr": {
+     "title": "Williams (Fed) : la trajectoire des bons du Trésor américains portée par la vigueur économique et les investissements dans l'IA",
+     "summary": ""
+    },
+    "it": {
+     "title": "Williams della Fed: i Treasury USA spinti da economia forte e investimenti in IA",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "高齡也需理解 AI 風險 逾八成長者擔心個資被挪作其他用途 - 經濟日報",
@@ -390,7 +913,36 @@
    "lines": [],
    "score": null,
    "lang": "zh",
-   "i18n": {}
+   "i18n": {
+    "zh-TW": {
+     "title": "高齡也需理解 AI 風險 逾八成長者擔心個資被挪作其他用途 - 經濟日報",
+     "summary": ""
+    },
+    "en": {
+     "title": "Seniors Must Understand AI Risks Too; Over 80% Worry About Personal Data Misuse",
+     "summary": ""
+    },
+    "ja": {
+     "title": "高齢もAIリスクの理解が必要 — 8割超が個人情報の転用を懸念",
+     "summary": ""
+    },
+    "ko": {
+     "title": "고령층도 AI 위험 인식 필요…80% 이상 \"개인정보 다른 용도 우려\"",
+     "summary": ""
+    },
+    "es": {
+     "title": "Los mayores también deben comprender los riesgos de la IA: más del 80% teme que sus datos se usen para otros fines",
+     "summary": ""
+    },
+    "fr": {
+     "title": "Les seniors doivent aussi saisir les risques de l'IA : plus de 80 % craignent un détournement de leurs données personnelles",
+     "summary": ""
+    },
+    "it": {
+     "title": "Anche gli anziani devono capire i rischi IA: oltre l'80% teme usi impropri dei dati personali",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "MiniMax & Alibaba Simultaneously Launch Video Agent Businesses: Post-Model Competition, Is Workflow the Next Battleground? - 36 Kr",
@@ -408,7 +960,32 @@
    "lines": [],
    "score": null,
    "lang": "en",
-   "i18n": {}
+   "i18n": {
+    "en": {
+     "title": "MiniMax & Alibaba Simultaneously Launch Video Agent Businesses: Post-Model Competition, Is Workflow the Next Battleground? - 36 Kr",
+     "summary": ""
+    },
+    "ja": {
+     "title": "MiniMaxとAlibabaが同時に動画エージェント事業に参入 — モデル後の次の戦場はワークフローか？",
+     "summary": ""
+    },
+    "ko": {
+     "title": "MiniMax·Alibaba, 동시 영상 에이전트 사업 출시…모델 이후 워크플로우가 다음 격전지인가",
+     "summary": ""
+    },
+    "es": {
+     "title": "MiniMax y Alibaba lanzan a la vez negocios de agentes de video: tras la pugna por los modelos, ¿será el workflow el próximo campo de batalla?",
+     "summary": ""
+    },
+    "fr": {
+     "title": "MiniMax et Alibaba lancent simultanément leurs activités d'agents vidéo : après les modèles, le workflow sera-t-il le prochain champ de bataille ?",
+     "summary": ""
+    },
+    "it": {
+     "title": "MiniMax e Alibaba lanciano i Video Agent: il workflow sarà il prossimo campo di battaglia?",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "紐約市政府規定：中小學生不准用生成式AI - Yahoo新聞",
@@ -426,7 +1003,36 @@
    "lines": [],
    "score": null,
    "lang": "zh",
-   "i18n": {}
+   "i18n": {
+    "zh-TW": {
+     "title": "紐約市政府規定：中小學生不准用生成式AI - Yahoo新聞",
+     "summary": ""
+    },
+    "en": {
+     "title": "NYC Mandates: K-12 Students Banned from Using Generative AI",
+     "summary": ""
+    },
+    "ja": {
+     "title": "NY市、小中学生の生成AI利用を禁止",
+     "summary": ""
+    },
+    "ko": {
+     "title": "뉴욕시, K-12 학생 생성형 AI 사용 금지 규정",
+     "summary": ""
+    },
+    "es": {
+     "title": "El Ayuntamiento de Nueva York prohíbe el uso de IA generativa en escuelas primarias y secundarias",
+     "summary": ""
+    },
+    "fr": {
+     "title": "New York interdit l'IA générative aux élèves du primaire et du secondaire",
+     "summary": ""
+    },
+    "it": {
+     "title": "New York vieta l'IA generativa nelle scuole primarie e secondarie",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "Opus 5 新對手 ！Google 發布 Gemini 3.8 Flash，Coding 性能看齊 Claude 旗艦模型 - XFastest",
@@ -448,7 +1054,36 @@
    "lines": [],
    "score": null,
    "lang": "zh",
-   "i18n": {}
+   "i18n": {
+    "zh-TW": {
+     "title": "Opus 5 新對手 ！Google 發布 Gemini 3.8 Flash，Coding 性能看齊 Claude 旗艦模型 - XFastest",
+     "summary": ""
+    },
+    "en": {
+     "title": "New Challenger to Opus 5! Google Launches Gemini 3.8 Flash, Matching Claude Flagship in Coding",
+     "summary": ""
+    },
+    "ja": {
+     "title": "Opus 5の新たな対抗馬！GoogleがGemini 3.8 Flash発表、コーディング性能はClaude最上位モデルに匹敵",
+     "summary": ""
+    },
+    "ko": {
+     "title": "Opus 5의 새 라이벌! Google, Gemini 3.8 Flash 출시…코딩 성능 Claude 플래그십급",
+     "summary": ""
+    },
+    "es": {
+     "title": "¡Nuevo rival de Opus 5! Google lanza Gemini 3.8 Flash, con rendimiento de codificación a la altura del modelo estrella de Claude",
+     "summary": ""
+    },
+    "fr": {
+     "title": "Nouveau rival d'Opus 5 ! Google lance Gemini 3.8 Flash, dont les performances en codage rivalisent avec le modèle phare Claude",
+     "summary": ""
+    },
+    "it": {
+     "title": "Nuovo rivale per Opus 5! Google lancia Gemini 3.8 Flash, coding al livello dei modelli di punta Claude",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "Google Challenges OpenAI, Anthropic with Gemini 3.8 Flash at Lower Cost - The Hans India",
@@ -470,7 +1105,36 @@
    "lines": [],
    "score": null,
    "lang": "en",
-   "i18n": {}
+   "i18n": {
+    "zh-TW": {
+     "title": "Google 以更低成本 Gemini 3.8 Flash 挑戰 OpenAI、Anthropic",
+     "summary": ""
+    },
+    "en": {
+     "title": "Google Challenges OpenAI, Anthropic with Gemini 3.8 Flash at Lower Cost - The Hans India",
+     "summary": ""
+    },
+    "ja": {
+     "title": "Googleが低価格Gemini 3.8 FlashでOpenAI・Anthropicに挑戦",
+     "summary": ""
+    },
+    "ko": {
+     "title": "Google, Gemini 3.8 Flash로 저비용攻勢…OpenAI·Anthropic 도전",
+     "summary": ""
+    },
+    "es": {
+     "title": "Google reta a OpenAI y Anthropic con Gemini 3.8 Flash a menor coste",
+     "summary": ""
+    },
+    "fr": {
+     "title": "Google défie OpenAI et Anthropic avec Gemini 3.8 Flash à moindre coût",
+     "summary": ""
+    },
+    "it": {
+     "title": "Google sfida OpenAI e Anthropic con Gemini 3.8 Flash a costi ridotti",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "Google 推出 Gemini 3.8 Flash 維持原價不變，部分測試分數力壓 Opus 5… - KONGGOK",
@@ -490,7 +1154,36 @@
    "lines": [],
    "score": null,
    "lang": "zh",
-   "i18n": {}
+   "i18n": {
+    "zh-TW": {
+     "title": "Google 推出 Gemini 3.8 Flash 維持原價不變，部分測試分數力壓 Opus 5… - KONGGOK",
+     "summary": ""
+    },
+    "en": {
+     "title": "Google Releases Gemini 3.8 Flash at Same Price, Outscores Opus 5 in Some Tests…",
+     "summary": ""
+    },
+    "ja": {
+     "title": "Google、Gemini 3.8 Flashを据え置き価格で発表 — 一部テストでOpus 5を上回る",
+     "summary": ""
+    },
+    "ko": {
+     "title": "Google, Gemini 3.8 Flash 가격 동결 출시…일부 테스트 Opus 5 능가",
+     "summary": ""
+    },
+    "es": {
+     "title": "Google lanza Gemini 3.8 Flash sin subir el precio; algunas pruebas superan a Opus 5",
+     "summary": ""
+    },
+    "fr": {
+     "title": "Google lance Gemini 3.8 Flash au prix inchangé, certains tests surpassent Opus 5…",
+     "summary": ""
+    },
+    "it": {
+     "title": "Google lancia Gemini 3.8 Flash allo stesso prezzo, in alcuni test batte Opus 5",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "Meta launches Muse Image AI model to attract creators and advertisers - BOL News",
@@ -508,7 +1201,36 @@
    "lines": [],
    "score": null,
    "lang": "en",
-   "i18n": {}
+   "i18n": {
+    "zh-TW": {
+     "title": "Meta 推出 Muse Image AI 模型，鎖定創作者與廣告主",
+     "summary": ""
+    },
+    "en": {
+     "title": "Meta launches Muse Image AI model to attract creators and advertisers - BOL News",
+     "summary": ""
+    },
+    "ja": {
+     "title": "Meta、創作者と広告主獲得へMuse Image AIモデルを発表",
+     "summary": ""
+    },
+    "ko": {
+     "title": "Meta, 크리에이터·광고주 공략용 Muse Image AI 모델 출시",
+     "summary": ""
+    },
+    "es": {
+     "title": "Meta lanza el modelo de IA Muse Image para atraer a creadores y anunciantes",
+     "summary": ""
+    },
+    "fr": {
+     "title": "Meta lance le modèle IA Muse Image pour séduire créateurs et annonceurs",
+     "summary": ""
+    },
+    "it": {
+     "title": "Meta lancia Muse Image per attrarre creator e inserzionisti",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "Meta unveils Muse Spark 1.3, claims performance rivals Anthropic and OpenAI models - 디지털투데이",
@@ -527,7 +1249,36 @@
    "lines": [],
    "score": null,
    "lang": "ko",
-   "i18n": {}
+   "i18n": {
+    "zh-TW": {
+     "title": "Meta 發表 Muse Spark 1.3，聲稱效能比肩 Anthropic 與 OpenAI 模型",
+     "summary": ""
+    },
+    "en": {
+     "title": "Meta unveils Muse Spark 1.3, claims performance rivals Anthropic and OpenAI models",
+     "summary": ""
+    },
+    "ja": {
+     "title": "Meta、Muse Spark 1.3公開——Anthropic・OpenAIモデルに匹敵する性能と主張",
+     "summary": ""
+    },
+    "ko": {
+     "title": "Meta unveils Muse Spark 1.3, claims performance rivals Anthropic and OpenAI models - 디지털투데이",
+     "summary": ""
+    },
+    "es": {
+     "title": "Meta presenta Muse Spark 1.3 y afirma que su rendimiento compite con los modelos de Anthropic y OpenAI",
+     "summary": ""
+    },
+    "fr": {
+     "title": "Meta dévoile Muse Spark 1.3, affirmant des performances au niveau des modèles d'Anthropic et OpenAI",
+     "summary": ""
+    },
+    "it": {
+     "title": "Meta presenta Muse Spark 1.3, prestazioni paragonabili ai modelli di Anthropic e OpenAI",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "Google推新模型搶攻政府市場？Palantir摔 - MoneyDJ",
@@ -545,7 +1296,36 @@
    "lines": [],
    "score": null,
    "lang": "zh",
-   "i18n": {}
+   "i18n": {
+    "zh-TW": {
+     "title": "Google推新模型搶攻政府市場？Palantir摔 - MoneyDJ",
+     "summary": ""
+    },
+    "en": {
+     "title": "Google pushes new model to capture government market; Palantir stumbles",
+     "summary": ""
+    },
+    "ja": {
+     "title": "Googleが新モデルで政府市場攻略か、Palantirは急落",
+     "summary": ""
+    },
+    "ko": {
+     "title": "Google, 신모델로 정부 시장 공략?…Palantir 주가 추락",
+     "summary": ""
+    },
+    "es": {
+     "title": "¿Google lanza nuevo modelo para conquistar el mercado gubernamental? Palantir cae",
+     "summary": ""
+    },
+    "fr": {
+     "title": "Google pousse-t-il un nouveau modèle pour cibler le marché public ? Palantir dégringole",
+     "summary": ""
+    },
+    "it": {
+     "title": "Google lancia un nuovo modello per conquistare il mercato pubblico? Palantir crolla",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "G20 聚焦 AI 政策制定 輝達黃仁勳、OpenAI 奧特曼籲平衡創新與管制 - 商傳媒",
@@ -564,7 +1344,36 @@
    "lines": [],
    "score": null,
    "lang": "zh",
-   "i18n": {}
+   "i18n": {
+    "zh-TW": {
+     "title": "G20 聚焦 AI 政策制定 輝達黃仁勳、OpenAI 奧特曼籲平衡創新與管制 - 商傳媒",
+     "summary": ""
+    },
+    "en": {
+     "title": "G20 focuses on AI policy: NVIDIA's Huang and OpenAI's Altman urge balance between innovation and regulation",
+     "summary": ""
+    },
+    "ja": {
+     "title": "G20がAI政策を議論、NVIDIA黄氏やOpenAIオルトマン氏が革新と規制のバランス訴え",
+     "summary": ""
+    },
+    "ko": {
+     "title": "G20, AI 정책 수립 집중…輝達 황인재·OpenAI 알트먼 \"혁신·규제 균형\" 촉구",
+     "summary": ""
+    },
+    "es": {
+     "title": "G20 se enfoca en políticas de IA; Jensen Huang de NVIDIA y Altman de OpenAI piden equilibrio entre innovación y regulación",
+     "summary": ""
+    },
+    "fr": {
+     "title": "Sommet du G20 : Huang (Nvidia) et Altman (OpenAI) appellent à équilibrer innovation et régulation de l'IA",
+     "summary": ""
+    },
+    "it": {
+     "title": "G20 fokusera sulla politica AI: Jensen Huang di NVIDIA e Altman di OpenAI chiedono equilibrio tra innovazione e regolamentazione",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "Sand.ai Unveils MAGI Preview: The World's First 100-Billion-Parameter Open-Source MoE Video Generation Model - 36 Kr",
@@ -582,11 +1391,40 @@
    "lines": [],
    "score": null,
    "lang": "en",
-   "i18n": {}
+   "i18n": {
+    "zh-TW": {
+     "title": "Sand.ai 推出 MAGI 預覽版：全球首款千億參數開源 MoE 影片生成模型",
+     "summary": ""
+    },
+    "en": {
+     "title": "Sand.ai Unveils MAGI Preview: The World's First 100-Billion-Parameter Open-Source MoE Video Generation Model - 36 Kr",
+     "summary": ""
+    },
+    "ja": {
+     "title": "Sand.ai、MAGI Previewを公開——世界初の1000億パラメータMoE動画生成オープンソースモデル",
+     "summary": ""
+    },
+    "ko": {
+     "title": "Sand.ai, 세계 최초 1000억 파라미터 오픈소스 MoE 영상 생성 모델 MAGI 프리뷰 공개",
+     "summary": ""
+    },
+    "es": {
+     "title": "Sand.ai presenta MAGI Preview: el primer modelo MoE de generación de video de código abierto con 100.000 millones de parámetros",
+     "summary": ""
+    },
+    "fr": {
+     "title": "Sand.ai dévoile MAGI Preview : le premier modèle de génération vidéo MoE open source à 100 milliards de paramètres",
+     "summary": ""
+    },
+    "it": {
+     "title": "Sand.ai presenta MAGI Preview: il primo modello open-source MoE da 100 miliardi di parametri per la generazione video",
+     "summary": ""
+    }
+   }
   },
   {
-   "title": "泰國開放 500 萬人免費用 AI：Opus 5、GPT-5.6 上完課就能用 - blocktempo.com",
-   "source": "blocktempo.com",
+   "title": "泰國開放 500 萬人免費用 AI：Opus 5、GPT-5.6 上完課就能用 - 動區動趨",
+   "source": "動區動趨",
    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcGtQTl93RVlkSlJOQ0NZeG5xc0hTNnVFeUdXaFo2Qk1hZWxtNUpPRWtmZGd3YUdGMjJhYTdqb1l6RXo2eXZCNVhWT25mTEVaRGpyeUoyUV9qSlZJNGdCZ1pFNmVUV0hkNk5nSUVxc0pxUDdCaUpJRndKcDhSU05mVU91Q0hWbU5FRTlfbWNMT1Nvd3U3WHhpWURuUFJRZw?oc=5",
    "date": "2026-09-03 12:45",
    "publishedAt": "2026-09-03T12:45:23+08:00",
@@ -602,7 +1440,36 @@
    "lines": [],
    "score": null,
    "lang": "zh",
-   "i18n": {}
+   "i18n": {
+    "zh-TW": {
+     "title": "泰國開放 500 萬人免費用 AI：Opus 5、GPT-5.6 上完課就能用 - 動區動趨",
+     "summary": ""
+    },
+    "en": {
+     "title": "Thailand opens free AI to 5 million: Opus 5, GPT-5.6 available after courses",
+     "summary": ""
+    },
+    "ja": {
+     "title": "タイ、500万人にAIを無料開放——Opus 5・GPT-5.6を講座受講後に提供",
+     "summary": ""
+    },
+    "ko": {
+     "title": "태국, 500만 명에 AI 무료 개방…Opus 5·GPT-5.6 수업 이수 후 이용 가능",
+     "summary": ""
+    },
+    "es": {
+     "title": "Tailandia ofrece acceso gratuito a IA a 5 millones de personas: Opus 5 y GPT-5.6 disponibles tras un curso",
+     "summary": ""
+    },
+    "fr": {
+     "title": "La Thaïlande ouvre l'accès gratuit à l'IA à 5 millions de citoyens : Opus 5 et GPT-5.6 après une formation",
+     "summary": ""
+    },
+    "it": {
+     "title": "La Thailandia apre 5 milioni di utenti all'AI gratis: Opus 5 e GPT-5.6 disponibili dopo un corso",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "GPT-6 Astra Could Launch Today as a New OpenAI API Clue Emerges - thewincentral.com",
@@ -620,7 +1487,36 @@
    "lines": [],
    "score": null,
    "lang": "en",
-   "i18n": {}
+   "i18n": {
+    "zh-TW": {
+     "title": "GPT-6 Astra 今日有望亮相，新 OpenAI API 線索浮現",
+     "summary": ""
+    },
+    "en": {
+     "title": "GPT-6 Astra Could Launch Today as a New OpenAI API Clue Emerges - thewincentral.com",
+     "summary": ""
+    },
+    "ja": {
+     "title": "GPT-6 Astra、本日発表か——OpenAI APIに新たな手がかり",
+     "summary": ""
+    },
+    "ko": {
+     "title": "GPT-6 Astra 오늘 출시 임박…OpenAI API 새 단서 등장",
+     "summary": ""
+    },
+    "es": {
+     "title": "GPT-6 Astra podría lanzarse hoy tras aparecer una nueva pista en la API de OpenAI",
+     "summary": ""
+    },
+    "fr": {
+     "title": "GPT-6 Astra pourrait être lancé aujourd'hui, un nouvel indice dans l'API d'OpenAI",
+     "summary": ""
+    },
+    "it": {
+     "title": "GPT-6 Astra potrebbe essere lanciato oggi, emergono nuovi indizi dalle API di OpenAI",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "AI 時代可信數據成關鍵 從 ESG 揭露到投資人溝通牽動企業估值 - CIO Taiwan",
@@ -638,7 +1534,36 @@
    "lines": [],
    "score": null,
    "lang": "zh",
-   "i18n": {}
+   "i18n": {
+    "zh-TW": {
+     "title": "AI 時代可信數據成關鍵 從 ESG 揭露到投資人溝通牽動企業估值 - CIO Taiwan",
+     "summary": ""
+    },
+    "en": {
+     "title": "Trusted data becomes key in AI era, from ESG disclosure to investor communications impacting corporate valuation",
+     "summary": ""
+    },
+    "ja": {
+     "title": "AI時代に信頼データが鍵——ESG開示から投資家向けIRまで企業評価を左右",
+     "summary": ""
+    },
+    "ko": {
+     "title": "AI 시대, 신뢰 데이터가 핵심…ESG 공시부터 투자자 소통까지 기업 가치 좌우",
+     "summary": ""
+    },
+    "es": {
+     "title": "Datos confiables en la era de la IA: clave para la valoración empresarial, desde la divulgación ESG hasta la comunicación con inversores",
+     "summary": ""
+    },
+    "fr": {
+     "title": "À l'ère de l'IA, les données fiables deviennent cruciales et pèsent sur la valorisation des entreprises",
+     "summary": ""
+    },
+    "it": {
+     "title": "Nell'era dell'AI i dati affidabili sono cruciali: dalla disclosure ESG alla comunicazione con gli investitori, influenzano le valutazioni aziendali",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "MakinaRocks champions physical AI to break 80% wall and boost Korea industry - CHOSUNBIZ - Chosunbiz",
@@ -656,7 +1581,36 @@
    "lines": [],
    "score": null,
    "lang": "en",
-   "i18n": {}
+   "i18n": {
+    "zh-TW": {
+     "title": "MakinaRocks 力推實體 AI，矢言突破 80% 瓶頸、助攻韓國產業",
+     "summary": ""
+    },
+    "en": {
+     "title": "MakinaRocks champions physical AI to break 80% wall and boost Korea industry - CHOSUNBIZ - Chosunbiz",
+     "summary": ""
+    },
+    "ja": {
+     "title": "MakinaRocks、物理AIで「80%の壁」打破と韓国産業強化を推進",
+     "summary": ""
+    },
+    "ko": {
+     "title": "MakinaRocks, 물리적 AI 앞세워 80% 벽 돌파하고 한국 산업 도약 노린다",
+     "summary": ""
+    },
+    "es": {
+     "title": "MakinaRocks apuesta por la IA física para romper el muro del 80% e impulsar la industria coreana",
+     "summary": ""
+    },
+    "fr": {
+     "title": "MakinaRocks défend l'IA physique pour briser le plafond des 80% et dynamiser l'industrie coréenne",
+     "summary": ""
+    },
+    "it": {
+     "title": "MakinaRocks promuove la physical AI per abbattere il muro dell'80% e rilanciare l'industria coreana",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "Google Gemini 3.8 Flash發布：推理再進化，價格僅Opus 5兩成 - 香港經濟日報HKET",
@@ -676,7 +1630,36 @@
    "lines": [],
    "score": null,
    "lang": "zh",
-   "i18n": {}
+   "i18n": {
+    "zh-TW": {
+     "title": "Google Gemini 3.8 Flash發布：推理再進化，價格僅Opus 5兩成 - 香港經濟日報HKET",
+     "summary": ""
+    },
+    "en": {
+     "title": "Google releases Gemini 3.8 Flash: evolved reasoning at just 20% of Opus 5 price",
+     "summary": ""
+    },
+    "ja": {
+     "title": "Google、Gemini 3.8 Flash発表——推論を進化、価格はOpus 5のわずか2割",
+     "summary": ""
+    },
+    "ko": {
+     "title": "Google Gemini 3.8 Flash 출시…추론 한 단계 진화, 가격은 Opus 5의 20%",
+     "summary": ""
+    },
+    "es": {
+     "title": "Google lanza Gemini 3.8 Flash: razonamiento mejorado, precio solo el 20% de Opus 5",
+     "summary": ""
+    },
+    "fr": {
+     "title": "Google lance Gemini 3.8 Flash : raisonnement amélioré à seulement 20% du prix d'Opus 5",
+     "summary": ""
+    },
+    "it": {
+     "title": "Google lancia Gemini 3.8 Flash: ragionamento evoluto, prezzo solo il 20% di Opus 5",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "Google 推出 Gemini 3.8 Flash：主打長週期軟體工程與自主 Agent， 祭出限時超殺代幣計價 - T客邦",
@@ -696,7 +1679,36 @@
    "lines": [],
    "score": null,
    "lang": "zh",
-   "i18n": {}
+   "i18n": {
+    "zh-TW": {
+     "title": "Google 推出 Gemini 3.8 Flash：主打長週期軟體工程與自主 Agent， 祭出限時超殺代幣計價 - T客邦",
+     "summary": ""
+    },
+    "en": {
+     "title": "Google launches Gemini 3.8 Flash for long-cycle software engineering and autonomous agents with limited-time token pricing",
+     "summary": ""
+    },
+    "ja": {
+     "title": "Google、Gemini 3.8 Flash発表——長期ソフト開発と自律エージェントを強化、期間限定トークン価格",
+     "summary": ""
+    },
+    "ko": {
+     "title": "Google, Gemini 3.8 Flash 출시…장기 SW 공학·자율 Agent 강점, 한정 특가 토큰 청구",
+     "summary": ""
+    },
+    "es": {
+     "title": "Google presenta Gemini 3.8 Flash: ingeniería de software de largo plazo y agentes autónomos, con tarifa token por tiempo limitado",
+     "summary": ""
+    },
+    "fr": {
+     "title": "Google lance Gemini 3.8 Flash, axé sur l'ingénierie logicielle longue et les agents autonomes, avec une tarification token limitée",
+     "summary": ""
+    },
+    "it": {
+     "title": "Google presenta Gemini 3.8 Flash: focus su ingegneria software a lungo termine e agenti autonomi, tariffazione token a tempo limitato",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "OpenAI Teases Astra, Limits Cybersecurity Tools After Hugging Face Hack - PCMag Middle East",
@@ -714,7 +1726,36 @@
    "lines": [],
    "score": null,
    "lang": "en",
-   "i18n": {}
+   "i18n": {
+    "zh-TW": {
+     "title": "OpenAI 預告 Astra，Hugging Face 遭駭後限縮資安工具",
+     "summary": ""
+    },
+    "en": {
+     "title": "OpenAI Teases Astra, Limits Cybersecurity Tools After Hugging Face Hack - PCMag Middle East",
+     "summary": ""
+    },
+    "ja": {
+     "title": "OpenAIがAstraを予告、Hugging Faceハッキング受けサイバーセキュリティ機能を制限",
+     "summary": ""
+    },
+    "ko": {
+     "title": "OpenAI, Astra 힌트 공개…Hugging Face 해킹 후 사이버보안 도구 제한",
+     "summary": ""
+    },
+    "es": {
+     "title": "OpenAI insinúa Astra y limita herramientas de ciberseguridad tras el hackeo a Hugging Face",
+     "summary": ""
+    },
+    "fr": {
+     "title": "OpenAI tease Astra et limite ses outils de cybersécurité après le piratage de Hugging Face",
+     "summary": ""
+    },
+    "it": {
+     "title": "OpenAI stuzzica con Astra, limita gli strumenti di cybersecurity dopo l'hack di Hugging Face",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "美國司法部聲援 OpenAI！主張訓練 LLM 屬合理使用，稱紐時勝訴恐威脅國安 - inside.com.tw",
@@ -732,7 +1773,36 @@
    "lines": [],
    "score": null,
    "lang": "zh",
-   "i18n": {}
+   "i18n": {
+    "zh-TW": {
+     "title": "美國司法部聲援 OpenAI！主張訓練 LLM 屬合理使用，稱紐時勝訴恐威脅國安 - inside.com.tw",
+     "summary": ""
+    },
+    "en": {
+     "title": "US DOJ backs OpenAI: LLM training is fair use, NYT victory could threaten national security",
+     "summary": ""
+    },
+    "ja": {
+     "title": "米司法省がOpenAI支持——LLM訓練は公正利用と主張、NYT勝訴なら国安保害と警告",
+     "summary": ""
+    },
+    "ko": {
+     "title": "美 법무부, OpenAI 지지…LLM 훈련은 공정 이용, NYT 승소 시 국가 안보 위협 우려",
+     "summary": ""
+    },
+    "es": {
+     "title": "Departamento de Justicia de EE.UU. respalda a OpenAI: entrenar LLM es uso legítimo y el fallo del NYT amenazaría la seguridad nacional",
+     "summary": ""
+    },
+    "fr": {
+     "title": "Le DOJ américain soutient OpenAI : l'entraînement des LLM relève du fair use, une victoire du NYT menacerait la sécurité nationale",
+     "summary": ""
+    },
+    "it": {
+     "title": "Il Dipartimento di Giustizia USA sostiene OpenAI: l'addestramento degli LLM è fair use, la vittoria del NYT minaccia la sicurezza nazionale",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "Gemini 3.8 Flash 軟體工程測試勝 Fable 5？Google 新模型上線：定價不變但 token 用量增 - TechOrange 科技報橘",
@@ -752,7 +1822,36 @@
    "lines": [],
    "score": null,
    "lang": "zh",
-   "i18n": {}
+   "i18n": {
+    "zh-TW": {
+     "title": "Gemini 3.8 Flash 軟體工程測試勝 Fable 5？Google 新模型上線：定價不變但 token 用量增 - TechOrange 科技報橘",
+     "summary": ""
+    },
+    "en": {
+     "title": "Gemini 3.8 Flash beats Fable 5 in software engineering tests? Google launches new model: pricing unchanged but token usage rises",
+     "summary": ""
+    },
+    "ja": {
+     "title": "Gemini 3.8 FlashがFable 5上回るか——Google新モデル登場、価格据置もトークン消費増",
+     "summary": ""
+    },
+    "ko": {
+     "title": "Gemini 3.8 Flash, SW 공학 테스트에서 Fable 5 제압?…가격 동결·토큰 사용량↑",
+     "summary": ""
+    },
+    "es": {
+     "title": "¿Gemini 3.8 Flash supera a Fable 5 en pruebas de ingeniería de software? Google lanza nuevo modelo: mismo precio pero más tokens",
+     "summary": ""
+    },
+    "fr": {
+     "title": "Gemini 3.8 Flash surpasse-t-il Fable 5 en ingénierie logicielle ? Google lance son nouveau modèle : prix stables mais tokens en hausse",
+     "summary": ""
+    },
+    "it": {
+     "title": "Gemini 3.8 Flash batte Fable 5 nei test di ingegneria software? Nuovo modello Google online: prezzi invariati ma consumo di token in aumento",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "Google 發表 Gemini 3.8 Flash 力圖重振 AI 領先地位 - scooptw.com",
@@ -772,7 +1871,36 @@
    "lines": [],
    "score": null,
    "lang": "zh",
-   "i18n": {}
+   "i18n": {
+    "zh-TW": {
+     "title": "Google 發表 Gemini 3.8 Flash 力圖重振 AI 領先地位 - scooptw.com",
+     "summary": ""
+    },
+    "en": {
+     "title": "Google unveils Gemini 3.8 Flash in bid to reclaim AI leadership",
+     "summary": ""
+    },
+    "ja": {
+     "title": "Google、Gemini 3.8 Flash発表でAI主導権の奪還狙う",
+     "summary": ""
+    },
+    "ko": {
+     "title": "Google, Gemini 3.8 Flash 공개…AI 주도권 회복 나서",
+     "summary": ""
+    },
+    "es": {
+     "title": "Google presenta Gemini 3.8 Flash para recuperar su liderazgo en IA",
+     "summary": ""
+    },
+    "fr": {
+     "title": "Google dévoile Gemini 3.8 Flash pour relancer son avance dans l'IA",
+     "summary": ""
+    },
+    "it": {
+     "title": "Google presenta Gemini 3.8 Flash nel tentativo di riconquistare la leadership nell'AI",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "Google AI 資安防護升級 Gemini 3.8 Flash 導入智慧代理流程 - 商傳媒",
@@ -792,27 +1920,36 @@
    "lines": [],
    "score": null,
    "lang": "zh",
-   "i18n": {}
-  },
-  {
-   "title": "Meta推出旗艦模型Muse Spark 1.3！汪滔稱「史上最大躍進」，發文狠嗆：Gemini誰啊？ - 數位時代",
-   "source": "數位時代",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBqSXdGWVI5andvQWQ4eV9zM0U4aXVsdmtqd2J5RERmQlRqSkJxQlhpWkRqUFM2Uk45Q0U3OW5rRWdydWFUTURnR0M5UE00SXRrSHZabk5NRmhkM29YblFQUkk3TDU4SE1QeXc?oc=5",
-   "date": "2026-09-03 11:40",
-   "publishedAt": "2026-09-03T11:40:00+08:00",
-   "summary": "",
-   "models": [
-    "Gemini"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "google"
-   ],
-   "press": false,
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {}
+   "i18n": {
+    "zh-TW": {
+     "title": "Google AI 資安防護升級 Gemini 3.8 Flash 導入智慧代理流程 - 商傳媒",
+     "summary": ""
+    },
+    "en": {
+     "title": "Google AI security upgrade: Gemini 3.8 Flash introduces agent workflow",
+     "summary": ""
+    },
+    "ja": {
+     "title": "Google AIのセキュリティ強化、Gemini 3.8 Flashにスマートエージェント機能を実装",
+     "summary": ""
+    },
+    "ko": {
+     "title": "Google AI 보안 강화…Gemini 3.8 Flash에 지능형 에이전트 프로세스 도입",
+     "summary": ""
+    },
+    "es": {
+     "title": "Google refuerza la ciberseguridad de su IA: Gemini 3.8 Flash integra flujos de agentes inteligentes",
+     "summary": ""
+    },
+    "fr": {
+     "title": "Google renforce la cybersécurité de son IA : Gemini 3.8 Flash intègre des workflows d'agents intelligents",
+     "summary": ""
+    },
+    "it": {
+     "title": "Google AI potenzia la sicurezza informatica: Gemini 3.8 Flash integra flussi di agenti intelligenti",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "防範自主 AI 脫軌威脅！OpenAI 研發自動切斷開關，美眾院力推緊急關閉法案 - 桑幣區識 Zombit",
@@ -830,7 +1967,36 @@
    "lines": [],
    "score": null,
    "lang": "zh",
-   "i18n": {}
+   "i18n": {
+    "zh-TW": {
+     "title": "防範自主 AI 脫軌威脅！OpenAI 研發自動切斷開關，美眾院力推緊急關閉法案 - 桑幣區識 Zombit",
+     "summary": ""
+    },
+    "en": {
+     "title": "OpenAI develops auto kill switch to prevent rogue autonomous AI; US House pushes emergency shutdown bill",
+     "summary": ""
+    },
+    "ja": {
+     "title": "自主AIの暴走を警戒！OpenAIが自動キルスイッチを開発、米下院が緊急停止法案を強力推進",
+     "summary": ""
+    },
+    "ko": {
+     "title": "자율 AI 탈선 막는다! OpenAI, 자동 차단 스위치 개발…美하원 긴급 셧다운 법안 추진",
+     "summary": ""
+    },
+    "es": {
+     "title": "¡Para frenar la amenaza de la IA autónoma descontrolada! OpenAI desarrolla un interruptor de apagado automático y la Cámara de EE.UU. impulsa una ley de cierre de emergencia",
+     "summary": ""
+    },
+    "fr": {
+     "title": "Pour contrer la menace d'une IA autonome incontrôlable ! OpenAI développe un coupe-circuit automatique, la Chambre des représentants US pousse un projet de loi d'arrêt d'urgence",
+     "summary": ""
+    },
+    "it": {
+     "title": "Per contrastare i rischi di AI autonoma fuori controllo! OpenAI sviluppa un interruttore di spegnimento automatico, la Camera USA spinge per una legge d'emergenza",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "Meta 最強 AI 模型出鞘 汪滔：追上 Anthropic、勝過 GPT-5.6 Sol - 經濟日報",
@@ -851,7 +2017,36 @@
    "lines": [],
    "score": null,
    "lang": "zh",
-   "i18n": {}
+   "i18n": {
+    "zh-TW": {
+     "title": "Meta 最強 AI 模型出鞘 汪滔：追上 Anthropic、勝過 GPT-5.6 Sol - 經濟日報",
+     "summary": ""
+    },
+    "en": {
+     "title": "Meta's strongest AI model unveiled; Wang Tao: catches up to Anthropic, surpasses GPT-5.6 Sol",
+     "summary": ""
+    },
+    "ja": {
+     "title": "Meta最強AIモデル投入 汪滔氏「Anthropicに追いつき、GPT-5.6 Solを超える」",
+     "summary": ""
+    },
+    "ko": {
+     "title": "Meta 최강 AI 모델 공개…왕타오 \"Anthropic 추격, GPT-5.6 Sol 압도\"",
+     "summary": ""
+    },
+    "es": {
+     "title": "Sale a la luz el modelo de IA más potente de Meta: alcanza a Anthropic y supera a GPT-5.6 Sol",
+     "summary": ""
+    },
+    "fr": {
+     "title": "Le modèle IA le plus puissant de Meta est lancé : Wang Tao rattrape Anthropic et surpasse GPT-5.6 Sol",
+     "summary": ""
+    },
+    "it": {
+     "title": "Svelato il modello AI più potente di Meta: Wang Tao – raggiungiamo Anthropic, superiamo GPT-5.6 Sol",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "Google 推出 Gemini 3.8 Flash：強化代理工作流，還有資安版可找漏洞、自動修補 - 蘋果仁",
@@ -872,7 +2067,36 @@
    "lines": [],
    "score": null,
    "lang": "zh",
-   "i18n": {}
+   "i18n": {
+    "zh-TW": {
+     "title": "Google 推出 Gemini 3.8 Flash：強化代理工作流，還有資安版可找漏洞、自動修補 - 蘋果仁",
+     "summary": ""
+    },
+    "en": {
+     "title": "Google launches Gemini 3.8 Flash: enhanced agent workflow plus security version for vulnerability detection and auto-patching",
+     "summary": ""
+    },
+    "ja": {
+     "title": "GoogleがGemini 3.8 Flash発表：エージェントワークフロー強化、脆弱性検出・自動修正のセキュリティ版も",
+     "summary": ""
+    },
+    "ko": {
+     "title": "Google, Gemini 3.8 Flash 출시…에이전트 워크플로 강화, 보안 버전은 취약점 탐지·자동 패치",
+     "summary": ""
+    },
+    "es": {
+     "title": "Google lanza Gemini 3.8 Flash: refuerza flujos de trabajo de agentes e incluye versión de ciberseguridad que detecta y corrige vulnerabilidades",
+     "summary": ""
+    },
+    "fr": {
+     "title": "Google lance Gemini 3.8 Flash : workflows d'agents renforcés, plus une version cybersécurité capable de détecter et corriger automatiquement les failles",
+     "summary": ""
+    },
+    "it": {
+     "title": "Google lancia Gemini 3.8 Flash: flussi agentici potenziati, edizione sicurezza per trovare漏洞 e correggere automaticamente",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "On-us AI Challenge 2026圓滿結束 賦能年輕人才以AI解難 將創新帶進真實商業場景 - prnewswire.com",
@@ -890,7 +2114,32 @@
    "lines": [],
    "score": null,
    "lang": "zh",
-   "i18n": {}
+   "i18n": {
+    "zh-TW": {
+     "title": "On-us AI Challenge 2026圓滿結束 賦能年輕人才以AI解難 將創新帶進真實商業場景 - prnewswire.com",
+     "summary": ""
+    },
+    "en": {
+     "title": "On-us AI Challenge 2026 concludes, empowering young talent to bring AI innovation into real business scenarios",
+     "summary": ""
+    },
+    "ja": {
+     "title": "On-us AI Challenge 2026が閉幕 若手人材をAIで難題解決へ、革新を実ビジネス現場に",
+     "summary": ""
+    },
+    "es": {
+     "title": "On-us AI Challenge 2026 culmina con éxito: empodera a jóvenes talentos con IA para llevar la innovación a escenarios empresariales reales",
+     "summary": ""
+    },
+    "fr": {
+     "title": "L'On-us AI Challenge 2026 s'achève avec succès, formant les jeunes talents à résoudre des problèmes par l'IA",
+     "summary": ""
+    },
+    "it": {
+     "title": "On-us AI Challenge 2026 si chiude con successo, formando giovani talenti nell'AI per scenari aziendali reali",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "OpenAI Astra模型獲「關鍵」駭客能力認證 能獨立發現零日漏洞 - 商傳媒",
@@ -908,7 +2157,32 @@
    "lines": [],
    "score": null,
    "lang": "zh",
-   "i18n": {}
+   "i18n": {
+    "zh-TW": {
+     "title": "OpenAI Astra模型獲「關鍵」駭客能力認證 能獨立發現零日漏洞 - 商傳媒",
+     "summary": ""
+    },
+    "en": {
+     "title": "OpenAI's Astra Model Earns 'Critical' Hacker Certification, Can Independently Discover Zero-Day Vulnerabilities",
+     "summary": ""
+    },
+    "ja": {
+     "title": "OpenAIのAstraモデルが「重大」ハッカー能力認証を取得 ゼロデイ脆弱性を自律発見",
+     "summary": ""
+    },
+    "es": {
+     "title": "El modelo Astra de OpenAI obtiene certificación \"clave\" de capacidad hacker: puede descubrir vulnerabilidades de día cero de forma independiente",
+     "summary": ""
+    },
+    "fr": {
+     "title": "Le modèle Astra d'OpenAI obtient une certification de piratage « critique » : capable de découvrir seul des failles zero-day",
+     "summary": ""
+    },
+    "it": {
+     "title": "Il modello OpenAI Astra ottiene la certificazione «critica» per capacità hacker: scopre autonomamente漏洞 zero-day",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "Gemini 3.8 Flash Hits 59 Intelligence Score With $0.75 Input Pricing - Yellow.com",
@@ -928,7 +2202,32 @@
    "lines": [],
    "score": null,
    "lang": "en",
-   "i18n": {}
+   "i18n": {
+    "zh-TW": {
+     "title": "Gemini 3.8 Flash 智力測試拿下 59 分，輸入價格 0.75 美元",
+     "summary": ""
+    },
+    "en": {
+     "title": "Gemini 3.8 Flash Hits 59 Intelligence Score With $0.75 Input Pricing - Yellow.com",
+     "summary": ""
+    },
+    "ja": {
+     "title": "Gemini 3.8 Flash、知能スコア59を達成 入力価格は0.75ドル",
+     "summary": ""
+    },
+    "es": {
+     "title": "Gemini 3.8 Flash alcanza 59 puntos de inteligencia con precio de entrada de $0,75",
+     "summary": ""
+    },
+    "fr": {
+     "title": "Gemini 3.8 Flash atteint un score d'intelligence de 59 avec un tarif d'entrée de 0,75 $",
+     "summary": ""
+    },
+    "it": {
+     "title": "Gemini 3.8 Flash raggiunge un Intelligence Score di 59 con prezzo di input di $0,75",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "OpenAI 首席科學家回應 Astra 模型監控爭議 澄清計算圖深度未大幅躍升 - Techritual",
@@ -946,11 +2245,36 @@
    "lines": [],
    "score": null,
    "lang": "zh",
-   "i18n": {}
+   "i18n": {
+    "zh-TW": {
+     "title": "OpenAI 首席科學家回應 Astra 模型監控爭議 澄清計算圖深度未大幅躍升 - Techritual",
+     "summary": ""
+    },
+    "en": {
+     "title": "OpenAI Chief Scientist Responds to Astra Model Monitoring Controversy, Clarifies Computation Graph Depth Has Not Surged",
+     "summary": ""
+    },
+    "ja": {
+     "title": "OpenAI主席科学者がAstraモデルの監視論争に反論 計算グラフ深度の大幅上昇を否定",
+     "summary": ""
+    },
+    "es": {
+     "title": "El científico jefe de OpenAI responde a la controversia sobre vigilancia del modelo Astra y aclara que la profundidad del grafo computacional no dio un gran salto",
+     "summary": ""
+    },
+    "fr": {
+     "title": "Le scientifique en chef d'OpenAI répond à la controverse sur Astra : la profondeur du graphe de calcul n'a pas bondi",
+     "summary": ""
+    },
+    "it": {
+     "title": "Il capo scienziato di OpenAI risponde sulle polemiche del monitoraggio di Astra: la profondità del grafo computazionale non è aumentata",
+     "summary": ""
+    }
+   }
   },
   {
-   "title": "OpenAI Hints at Astra, Limits Cybersecurity Post-Hugging Face Breach - RS Web Solutions",
-   "source": "RS Web Solutions",
+   "title": "OpenAI Hints at Astra, Limits Cybersecurity Post-Hugging Face Breach - rswebsols.com",
+   "source": "rswebsols.com",
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPY1FsMTVHM1JjWGgzSjRmRk5vNXJDQVgyWE02SGZFdzJyMWx3NHMtbkloYjZNdURXQzljYWdfNHlobThVY3hEWWhwMnFIdzhSNGgyTmVST1BVUm9wSW00NWQ2SElULWs5R0JTVDhHM2N1U2RfbFVvdHFhRndFUHhwUzJWOVUyR1lDZWd1UGt3YUVZZ29xU0IwNnBBWDBvMGFqdkhBVThQQ1VXdWwtR2hsMEkyeUxhLVUyZWVtdlAxSDF0VGc?oc=5",
    "date": "2026-09-03 11:00",
    "publishedAt": "2026-09-03T11:00:00+08:00",
@@ -964,7 +2288,32 @@
    "lines": [],
    "score": null,
    "lang": "en",
-   "i18n": {}
+   "i18n": {
+    "zh-TW": {
+     "title": "OpenAI 暗示 Astra 將至，Hugging Face 事件後限縮資安工具",
+     "summary": ""
+    },
+    "en": {
+     "title": "OpenAI Hints at Astra, Limits Cybersecurity Post-Hugging Face Breach - rswebsols.com",
+     "summary": ""
+    },
+    "ja": {
+     "title": "OpenAIがAstraを示唆 Hugging Face侵害後にサイバーセキュリティを制限",
+     "summary": ""
+    },
+    "es": {
+     "title": "OpenAI insinúa Astra y limita su ciberseguridad tras la brecha de Hugging Face",
+     "summary": ""
+    },
+    "fr": {
+     "title": "OpenAI évoque Astra et limite la cybersécurité après la brèche Hugging Face",
+     "summary": ""
+    },
+    "it": {
+     "title": "OpenAI accenna ad Astra, limita la cybersecurity dopo la violazione di Hugging Face",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "Meta says it has caught up with Anthropic and OpenAI with Muse Spark 1.3, its most powerful AI model yet - SiliconANGLE",
@@ -983,7 +2332,32 @@
    "lines": [],
    "score": null,
    "lang": "en",
-   "i18n": {}
+   "i18n": {
+    "zh-TW": {
+     "title": "Meta 稱 Muse Spark 1.3 已追上 Anthropic 與 OpenAI，創旗下最強模型",
+     "summary": ""
+    },
+    "en": {
+     "title": "Meta says it has caught up with Anthropic and OpenAI with Muse Spark 1.3, its most powerful AI model yet - SiliconANGLE",
+     "summary": ""
+    },
+    "ja": {
+     "title": "Meta、最強AIモデル「Muse Spark 1.3」でAnthropicとOpenAIに追いついたと発表",
+     "summary": ""
+    },
+    "es": {
+     "title": "Meta afirma haber alcanzado a Anthropic y OpenAI con Muse Spark 1.3, su modelo de IA más potente hasta la fecha",
+     "summary": ""
+    },
+    "fr": {
+     "title": "Meta affirme avoir rattrapé Anthropic et OpenAI avec Muse Spark 1.3, son modèle IA le plus puissant",
+     "summary": ""
+    },
+    "it": {
+     "title": "Meta afferma di aver raggiunto Anthropic e OpenAI con Muse Spark 1.3, il suo modello AI più potente",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "Meta發表最強AI模型Muse Spark 1.3 程式能力超越GPT-5.6 Sol - ENN台灣電報",
@@ -1003,7 +2377,32 @@
    "lines": [],
    "score": null,
    "lang": "zh",
-   "i18n": {}
+   "i18n": {
+    "zh-TW": {
+     "title": "Meta發表最強AI模型Muse Spark 1.3 程式能力超越GPT-5.6 Sol - ENN台灣電報",
+     "summary": ""
+    },
+    "en": {
+     "title": "Meta Unveils Most Powerful AI Model Muse Spark 1.3, Coding Capabilities Surpass GPT-5.6 Sol",
+     "summary": ""
+    },
+    "ja": {
+     "title": "Metaが最強AIモデル「Muse Spark 1.3」発表 コーディング能力でGPT-5.6 Sol超え",
+     "summary": ""
+    },
+    "es": {
+     "title": "Meta presenta Muse Spark 1.3, su modelo de IA más potente, con capacidad de programación superior a GPT-5.6 Sol",
+     "summary": ""
+    },
+    "fr": {
+     "title": "Meta dévoile Muse Spark 1.3, son modèle IA le plus puissant, surpassant GPT-5.6 Sol en programmation",
+     "summary": ""
+    },
+    "it": {
+     "title": "Meta presenta Muse Spark 1.3, il suo modello AI più potente: capacità di programmazione superiore a GPT-5.6 Sol",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "Meta發表新AI模型 程式能力超越OpenAI GPT-5.6 Sol - 科技新聞 - PChome Online 新聞 - PChome Online新聞",
@@ -1023,7 +2422,32 @@
    "lines": [],
    "score": null,
    "lang": "zh",
-   "i18n": {}
+   "i18n": {
+    "zh-TW": {
+     "title": "Meta發表新AI模型 程式能力超越OpenAI GPT-5.6 Sol - 科技新聞 - PChome Online 新聞 - PChome Online新聞",
+     "summary": ""
+    },
+    "en": {
+     "title": "Meta Unveils New AI Model, Coding Capabilities Surpass OpenAI GPT-5.6 Sol",
+     "summary": ""
+    },
+    "ja": {
+     "title": "Metaが新AIモデル発表 コーディング能力でOpenAI GPT-5.6 Sol超え",
+     "summary": ""
+    },
+    "es": {
+     "title": "Meta presenta nuevo modelo de IA con capacidad de programación superior a OpenAI GPT-5.6 Sol",
+     "summary": ""
+    },
+    "fr": {
+     "title": "Meta présente un nouveau modèle IA dont les capacités de programmation surpassent OpenAI GPT-5.6 Sol",
+     "summary": ""
+    },
+    "it": {
+     "title": "Meta presenta un nuovo modello AI con capacità di programmazione superiore a OpenAI GPT-5.6 Sol",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "OpenAI新模型採遞迴推理 專家直言「在玩火」憂監控難度升高 - 科技新聞 - PChome Online 新聞 - PChome Online新聞",
@@ -1041,7 +2465,32 @@
    "lines": [],
    "score": null,
    "lang": "zh",
-   "i18n": {}
+   "i18n": {
+    "zh-TW": {
+     "title": "OpenAI新模型採遞迴推理 專家直言「在玩火」憂監控難度升高 - 科技新聞 - PChome Online 新聞 - PChome Online新聞",
+     "summary": ""
+    },
+    "en": {
+     "title": "OpenAI's New Model Uses Recursive Reasoning; Experts Warn 'Playing with Fire,' Fearing Harder Monitoring",
+     "summary": ""
+    },
+    "ja": {
+     "title": "OpenAI新モデルは再帰的推論を採用 専門家「火遊び」と監視難化を懸念",
+     "summary": ""
+    },
+    "es": {
+     "title": "Nuevo modelo de OpenAI usa razonamiento recursivo: expertos advierten que \"juegan con fuego\" y temen mayor dificultad de vigilancia",
+     "summary": ""
+    },
+    "fr": {
+     "title": "Le nouveau modèle d'OpenAI mise sur le raisonnement récursif : des experts dénoncent « jouer avec le feu »",
+     "summary": ""
+    },
+    "it": {
+     "title": "Il nuovo modello OpenAI adotta il ragionamento ricorsivo, gli esperti: «giocando con il fuoco», timori per il monitoraggio",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "保護批判性思考！紐約市幼幼班至國中「全面禁用生成式AI」60萬學生受影響 - FTNN 新聞",
@@ -1059,25 +2508,32 @@
    "lines": [],
    "score": null,
    "lang": "zh",
-   "i18n": {}
-  },
-  {
-   "title": "黃仁勳促 G20 各國部長建 AI 基建，莫因恐懼而落後 - TechNews 科技新報",
-   "source": "TechNews 科技新報",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdkg0Y1R2a2tFTUxqT1g1M2xla19kakdqYy1Tcmx4eUxRRVRlWXczRkJTLVpxcGtpUHhkd2htS3BzUERtSG9kVDd4VmFLdTluY3JtSklubmE0VVNYR2o1dF9vYlhLRVhobmVtWHRXd3BEalhPSGRHUzRlQXRSR1dfbmo0bEVtaVhCUmMxblVWS2tzUWpialow?oc=5",
-   "date": "2026-09-03 09:49",
-   "publishedAt": "2026-09-03T09:49:53+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {}
+   "i18n": {
+    "zh-TW": {
+     "title": "保護批判性思考！紐約市幼幼班至國中「全面禁用生成式AI」60萬學生受影響 - FTNN 新聞",
+     "summary": ""
+    },
+    "en": {
+     "title": "Protecting Critical Thinking! NYC Bans Generative AI from Pre-K Through Middle School, Affecting 600,000 Students",
+     "summary": ""
+    },
+    "ja": {
+     "title": "批判的思考を守る！ニューヨーク市が幼保〜中学校で生成AI全面禁止、60万人生徒に影響",
+     "summary": ""
+    },
+    "es": {
+     "title": "¡Para proteger el pensamiento crítico! Nueva York prohíbe la IA generativa desde preescolar hasta secundaria y afecta a 600.000 estudiantes",
+     "summary": ""
+    },
+    "fr": {
+     "title": "Protéger l'esprit critique ! New York interdit totalement l'IA générative de la maternelle au collège : 600 000 élèves touchés",
+     "summary": ""
+    },
+    "it": {
+     "title": "Per proteggere il pensiero critico! New York vieta l'AI generativa dall'asilo alle medie: 600.000 studenti coinvolti",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "博通揭露AI算力擴張計畫：Anthropic、OpenAI和Meta未來兩年大規模部署XPU - TradingKey",
@@ -1096,7 +2552,32 @@
    "lines": [],
    "score": null,
    "lang": "zh",
-   "i18n": {}
+   "i18n": {
+    "zh-TW": {
+     "title": "博通揭露AI算力擴張計畫：Anthropic、OpenAI和Meta未來兩年大規模部署XPU - TradingKey",
+     "summary": ""
+    },
+    "en": {
+     "title": "Broadcom Unveils AI Compute Expansion: Anthropic, OpenAI, and Meta to Mass-Deploy XPU Over Next Two Years",
+     "summary": ""
+    },
+    "ja": {
+     "title": "BroadcomがAI計算能力拡張計画を明かす Anthropic、OpenAI、Metaが今後2年で大規模XPU展開",
+     "summary": ""
+    },
+    "es": {
+     "title": "Broadcom revela plan de expansión de capacidad de IA: Anthropic, OpenAI y Meta desplegarán XPU a gran escala en los próximos dos años",
+     "summary": ""
+    },
+    "fr": {
+     "title": "Broadcom dévoile son plan d'expansion IA : Anthropic, OpenAI et Meta déploieront massivement des XPU sur deux ans",
+     "summary": ""
+    },
+    "it": {
+     "title": "Broadcom svela il piano di espansione AI: Anthropic, OpenAI e Meta distribuiranno XPU su larga scala nei prossimi due anni",
+     "summary": ""
+    }
+   }
   },
   {
    "title": "Google accelerates Gemini Flash releases, trails Meta as Pro delay drags - CHOSUNBIZ - Chosunbiz",
@@ -1116,63 +2597,32 @@
    "lines": [],
    "score": null,
    "lang": "en",
-   "i18n": {}
-  },
-  {
-   "title": "紐約市幼兒園至國中生禁用生成式AI 數十萬學童受影響 - 商傳媒",
-   "source": "商傳媒",
-   "url": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxNajRjNnBKWnBCN2ZqQ3BnNWxMLTlRRFVrVkwwNmVXZ19od0FpSkNXY1N1ZzI3bUt2V20wckhFLTU5YmRsYUhFZG11bG96WFNwOV9sSHhnNkdCVWxSSFVydlFQU2dhQUVsM2tJa2NiTHV0VWVEUmZFWXpDb1ZFR1loSlNUZDczU1V0TmNPX2g1T0V4VFVCeGthdENZYllLVThWYTRfT0xPRFV2ZEFRY2VIWkc2MUg3ZE80dkxnRzN6REFKWEc1SzZjWlhNR21BeFhza2dCMVlMdTNYdUJRXzI2UXlobmRXRlRQd0w5UzFqeE1HSFVEYmJCdUpnaFFEZnJHaVIwdFNfWVdHSGVNNjBrMzdTRVZmeXEydGlZYm5LejlOQWxBM3UtWGhubVhvWDljcmxiZS1YWE05LWx2Sk9lWXEzcnYwZUFMbkRGUmh1bHQ0aDFHTFZTamRSTTJQMzZTTEJKTHhMUXN2ZDN0Vmc1QkJfNWgwOXBIYzZoVHJR?oc=5",
-   "date": "2026-09-03 09:40",
-   "publishedAt": "2026-09-03T09:40:18+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {}
-  },
-  {
-   "title": "Meta發佈“史上最強模型”Muse Spark 1.3，編碼對標GPT-5.6 Sol，AI競賽再逼近頭部玩家作者智通財經 - Investing.com 香港 - 股市報價& 財經新聞",
-   "source": "Investing.com 香港 - 股市報價& 財經新聞",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE15ZGREcmEteVl5VWhDOTRKa0piajkwdEpJZmFFU2t6dm55Mm1UQ0hWUVZEcWliWWl1Z2NoUXBKbWRMN1Y3RTlnZkVhU0dpWmRsTkRWcXhOSjFBaFpQVmFIZEJ5a2dqd0hOR0x3dkh3NjA?oc=5",
-   "date": "2026-09-03 09:17",
-   "publishedAt": "2026-09-03T09:17:23+08:00",
-   "summary": "",
-   "models": [
-    "GPT-5"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "openai"
-   ],
-   "press": false,
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {}
-  },
-  {
-   "title": "Anthropic’s AI utopia meets a growing backlash - The Express Tribune",
-   "source": "The Express Tribune",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNMExmMEU4eTRRQ0ZYLXFjaVZEbkVpSUwwTXI3V3NtTndINFBKTlN1TUhNS0h1TFl2cW53dk1lNUxiNHEyckJ3V1B6UUM4Y3RUUzVueHZjNkJJdUNyNkhKTkZKRFhQUVdoMlpsZDhKdEtLYjZHMkJ0eVhqWlRTU2NjekxvVUFKSHhUTVHSAZIBQVVfeXFMTThUUTd2VGJsbkdGX1daSGZBT0JZMG1FR2lBRkRYWlg1TmlKYlFIeGNzRkJkWm9RRUdZelBJUnlzNUxVVDdJUDJ5WHRfVGNqREppN0xmWXdyeVRYdG9pN01uNUU1cGxWWVE0R1JWaTI1ZktZUFprc0cxRmxPTUNXQnA4QlUwakxVcVlRNEswWlVBb2c?oc=5",
-   "date": "2026-09-03 09:05",
-   "publishedAt": "2026-09-03T09:05:15+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "anthropic"
-   ],
-   "press": false,
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {}
+   "i18n": {
+    "zh-TW": {
+     "title": "Google 加速 Gemini Flash 推出節奏，Pro 版本延後、進度落後 Meta",
+     "summary": ""
+    },
+    "en": {
+     "title": "Google accelerates Gemini Flash releases, trails Meta as Pro delay drags - CHOSUNBIZ - Chosunbiz",
+     "summary": ""
+    },
+    "ja": {
+     "title": "GoogleがGemini Flash投入を加速、Pro延期が重荷となりMetaに後れ",
+     "summary": ""
+    },
+    "es": {
+     "title": "Google acelera los lanzamientos de Gemini Flash y se rezaga frente a Meta mientras se retrasa la versión Pro",
+     "summary": ""
+    },
+    "fr": {
+     "title": "Google accélère les sorties de Gemini Flash, à la traîne de Meta pendant que le Pro accumule les retards",
+     "summary": ""
+    },
+    "it": {
+     "title": "Google accelera i rilasci di Gemini Flash, insegue Meta mentre il ritardo del Pro frena",
+     "summary": ""
+    }
+   }
   }
  ]
 }
