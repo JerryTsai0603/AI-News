@@ -13,8 +13,6 @@
 
 環境變數：
   ANTHROPIC_API_KEY   選用。設了才會產生各語言翻譯。
-  REDDIT_CLIENT_ID    選用。設了才走 Reddit 官方 API（雲端 IP 建議設）。
-  REDDIT_CLIENT_SECRET
   TARGET_LANGS        選用。預設 zh-TW,zh-CN,en,ja,ko,de,es,fr,it
 """
 
@@ -94,12 +92,6 @@ MODELS_GROUPS = [
                "copilot", "amazon", "apple", "微軟", "輝達", "蘋果"]),
 ]
 
-MODELS_REDDIT = {
-    "subs": ["LocalLLaMA"],
-    "query": "GPT OR Claude OR Gemini OR Llama OR Qwen OR DeepSeek OR Mistral",
-    "min_score": 25,
-}
-
 MODELS_TAGS = [
     ("安全", ["jailbreak", "safety", "misuse", "越獄", "資安", "外洩", "濫用", "有害", "red team"]),
     ("政策", ["regulation", "lawsuit", "court", "ban", "監管", "法案", "訴訟", "法院", "禁令", "歐盟", "白宮"]),
@@ -124,14 +116,6 @@ MODELS_PRODUCTS = [
 # ================================================================ 頻道二：DGX Spark 機種
 
 SPARK_QUERIES = [
-    # --- RTX Spark（N1X，Windows on Arm 筆電與小型桌機）---
-    ("NVIDIA RTX Spark", "zh-TW"),
-    ("RTX Spark 筆電 OR 桌機 OR 售價", "zh-TW"),
-    ("NVIDIA RTX Spark laptop", "en-US"),
-    ("RTX Spark N1X Windows on Arm", "en-US"),
-    ("RTX Spark ASUS OR Dell OR HP OR Lenovo OR MSI", "en-US"),
-    ("Surface RTX Spark Microsoft", "en-US"),
-    # --- DGX Spark（GB10，迷你 AI 工作站）---
     ("NVIDIA DGX Spark", "zh-TW"),
     ("DGX Spark 評測 OR 開箱 OR 售價", "zh-TW"),
     ("GB10 Grace Blackwell 迷你 AI 電腦", "zh-TW"),
@@ -156,18 +140,6 @@ SPARK_FEEDS = [
     ("TechRadar Pro", "https://www.techradar.com/rss/news/computing"),
     ("iThome", "https://www.ithome.com.tw/rss"),
     ("科技新報", "https://technews.tw/feed/"),
-    ("Windows Central", "https://www.windowscentral.com/feeds/all"),
-    ("Engadget", "https://www.engadget.com/rss.xml"),
-]
-
-# 產品線。RTX Spark 與 DGX Spark 是兩條完全不同的產品線，可複選（比較文會同時命中）。
-SPARK_LINES = [
-    ("rtx", [r"rtx\s*spark", r"\bn1x\b", "spark superchip",
-             "surface laptop ultra", "windows on arm", "mediatek", "聯發科"]),
-    ("dgx", [r"dgx\s*spark", r"\bgb10\b", "grace blackwell superchip",
-             r"ascent\s*gx10", r"veriton\s*gn100", r"zgx\s*nano", "edgexpert",
-             r"thinkstation\s*pgx", r"ai\s*top\s*atom",
-             r"pro\s*max\s*(with\s*)?gb10", r"project\s*digits", r"dgx\s*station"]),
 ]
 
 # 品牌歸屬。OEM 優先，都沒中才歸給 NVIDIA 原廠。
@@ -179,19 +151,11 @@ SPARK_GROUPS = [
     ("dell",     [r"\bdell\b", r"pro\s*max\s*(with\s*)?gb10", "戴爾"]),
     ("lenovo",   [r"\blenovo\b", r"thinkstation\s*pgx", "聯想"]),
     ("gigabyte", [r"\bgigabyte\b", r"ai\s*top\s*atom", "技嘉"]),
-    ("microsoft", [r"\bmicrosoft\b", r"\bsurface\b", "微軟"]),
 ]
 SPARK_FALLBACK = [
     ("nvidia", [r"\bnvidia\b", r"dgx\s*spark", "founders edition",
                 r"\bgb10\b", "grace blackwell", "輝達"]),
 ]
-
-SPARK_REDDIT = {
-    "subs": ["LocalLLaMA"],
-    "query": ('"RTX Spark" OR N1X OR "DGX Spark" OR GB10 OR "Ascent GX10" '
-              'OR EdgeXpert OR "ZGX Nano" OR "ThinkStation PGX"'),
-    "min_score": 5,
-}
 
 SPARK_TAGS = [
     ("開箱評測", ["review", "hands-on", "benchmark", "tested", "we tried",
@@ -206,7 +170,6 @@ SPARK_TAGS = [
 ]
 
 SPARK_KEEP = re.compile(
-    r"rtx\s*spark|\bn1x\b|spark\s*superchip|"
     r"dgx\s*spark|\bgb10\b|grace\s*blackwell|ascent\s*gx10|veriton\s*gn100|"
     r"\bzgx\b|edgexpert|thinkstation\s*pgx|ai\s*top\s*atom|"
     r"pro\s*max\s*(with\s*)?gb10|project\s*digits|dgx\s*station",
@@ -214,7 +177,6 @@ SPARK_KEEP = re.compile(
 )
 
 SPARK_PRODUCTS = [
-    "RTX Spark", "N1X", "Surface Laptop Ultra", "Grace CPU", "MediaTek",
     "DGX Spark", "GB10", "Ascent GX10", "Veriton GN100", "ZGX Nano",
     "EdgeXpert", "ThinkStation PGX", "AI TOP ATOM", "Pro Max with GB10",
     "DGX Station", "GB300", "Grace Blackwell",
@@ -227,17 +189,14 @@ CHANNELS = {
         "label": "AI 語言模型",
         "out": ROOT / "data",
         "queries": MODELS_QUERIES, "feeds": MODELS_FEEDS,
-        "reddit": MODELS_REDDIT, "window": 48,
-        "groups": MODELS_GROUPS, "fallback": [], "lines": [],
+        "groups": MODELS_GROUPS, "fallback": [],
         "tags": MODELS_TAGS, "keep": MODELS_KEEP, "products": MODELS_PRODUCTS,
     },
     "spark": {
         "label": "DGX Spark 機種",
         "out": ROOT / "data" / "spark",
         "queries": SPARK_QUERIES, "feeds": SPARK_FEEDS,
-        # 硬體新聞量少，時間窗放寬到四天
-        "reddit": SPARK_REDDIT, "window": 96,
-        "groups": SPARK_GROUPS, "fallback": SPARK_FALLBACK, "lines": SPARK_LINES,
+        "groups": SPARK_GROUPS, "fallback": SPARK_FALLBACK,
         "tags": SPARK_TAGS, "keep": SPARK_KEEP, "products": SPARK_PRODUCTS,
     },
 }
@@ -406,116 +365,12 @@ def collect_hn(query: str) -> list[dict]:
     } for h in hits]
 
 
-# ---------------------------------------------------------------- Reddit
-
-_reddit_token: dict = {"value": None, "expires": 0}
-
-
-def reddit_token() -> str | None:
-    """有設 REDDIT_CLIENT_ID / REDDIT_CLIENT_SECRET 才走官方 OAuth。"""
-    cid = os.environ.get("REDDIT_CLIENT_ID")
-    secret = os.environ.get("REDDIT_CLIENT_SECRET")
-    if not cid or not secret:
-        return None
-    if _reddit_token["value"] and time.time() < _reddit_token["expires"]:
-        return _reddit_token["value"]
-    try:
-        r = requests.post(
-            "https://www.reddit.com/api/v1/access_token",
-            auth=(cid, secret),
-            data={"grant_type": "client_credentials"},
-            headers={"User-Agent": UA},
-            timeout=TIMEOUT,
-        )
-        r.raise_for_status()
-        body = r.json()
-        _reddit_token["value"] = body["access_token"]
-        _reddit_token["expires"] = time.time() + int(body.get("expires_in", 3600)) - 60
-        log("  Reddit：已取得 OAuth token")
-        return _reddit_token["value"]
-    except Exception as exc:
-        log(f"  ✗ Reddit OAuth 失敗，改用公開介面：{exc}")
-        return None
-
-
-def collect_reddit(cfg: dict) -> list[dict]:
-    conf = cfg.get("reddit")
-    if not conf:
-        return []
-
-    token = reddit_token()
-    out = []
-
-    for sub in conf["subs"]:
-        params = {
-            "q": conf["query"], "restrict_sr": "on",
-            "sort": "new", "t": "week", "limit": "50",
-        }
-        if token:
-            url = f"https://oauth.reddit.com/r/{sub}/search"
-            headers = {"Authorization": f"Bearer {token}", "User-Agent": UA}
-        else:
-            url = f"https://www.reddit.com/r/{sub}/search.json"
-            headers = {"User-Agent": UA}
-
-        log(f"  Reddit：r/{sub}")
-        try:
-            r = requests.get(url, params=params, headers=headers, timeout=TIMEOUT)
-            if r.status_code == 403:
-                log("  ✗ Reddit 回應 403（雲端 IP 常被擋）。"
-                    "設定 REDDIT_CLIENT_ID / REDDIT_CLIENT_SECRET 可解決。")
-                continue
-            r.raise_for_status()
-            children = r.json().get("data", {}).get("children", [])
-        except Exception as exc:
-            log(f"  ✗ Reddit 擷取失敗：{exc}")
-            continue
-
-        for c in children:
-            d = c.get("data", {})
-            score = d.get("score", 0)
-            if score < conf["min_score"] or d.get("over_18"):
-                continue
-
-            title = strip_html(d.get("title", ""))
-            permalink = "https://www.reddit.com" + d.get("permalink", "")
-            if not title or not d.get("permalink"):
-                continue
-
-            body = strip_html(d.get("selftext", ""))[:180]
-            link = (d.get("url_overridden_by_dest") or "").strip()
-            extra = ""
-            if link and "reddit.com" not in link:
-                try:
-                    extra = f"（外連 {urllib.parse.urlsplit(link).netloc.replace('www.', '')}）"
-                except Exception:
-                    extra = ""
-            summary = body or f"討論串 {score} 分、{d.get('num_comments', 0)} 則留言{extra}"
-
-            out.append({
-                "title": title,
-                "url": permalink,
-                "source": f"r/{sub}",
-                "published": datetime.fromtimestamp(
-                    d.get("created_utc", 0), tz=timezone.utc).astimezone(TZ),
-                "summary": summary,
-                "score": score,
-                # 搜尋條件已經限定主題，不再套用關鍵字過濾
-                "skip_keep": True,
-                "force_tag": "社群討論",
-            })
-        time.sleep(1)
-
-    return out
-
-
 # ---------------------------------------------------------------- 分類
 
 def matches(patterns, hay: str) -> bool:
     return any(re.search(p, hay, re.I) for p in patterns)
 
 
-# 「社群討論」不列入關鍵字規則，只由 Reddit 來源以 force_tag 指定。
 def classify(item: dict, cfg: dict) -> dict:
     hay = f"{item['title']} {item.get('summary', '')}"
 
@@ -524,17 +379,10 @@ def classify(item: dict, cfg: dict) -> dict:
         hits = [gid for gid, pats in cfg["fallback"] if matches(pats, hay)]
     item["camps"] = hits or ["other"]
 
-    if item.get("force_tag"):
-        item["tag"] = item["force_tag"]
-    else:
-        for tag, kws in cfg["tags"]:
-            if not kws or matches([re.escape(k) for k in kws], hay):
-                item["tag"] = tag
-                break
-
-    if cfg.get("lines"):
-        hit = [lid for lid, pats in cfg["lines"] if matches(pats, hay)]
-        item["lines"] = hit or ["other"]
+    for tag, kws in cfg["tags"]:
+        if not kws or matches([re.escape(k) for k in kws], hay):
+            item["tag"] = tag
+            break
 
     item["models"] = [p for p in cfg["products"] if p.lower() in hay.lower()][:4]
     item["lang"] = detect_lang(item["title"])
@@ -652,18 +500,14 @@ def run_channel(name: str) -> int:
 
     hn_query = ("LLM OR GPT OR Claude OR Gemini OR Llama" if name == "models"
                 else "DGX Spark OR GB10")
-    reddit = collect_reddit(cfg)
-    raw = (collect_google(cfg["queries"]) + collect_rss(cfg["feeds"])
-           + collect_hn(hn_query) + reddit)
-    log(f"原始擷取 {len(raw)} 則（其中 Reddit {len(reddit)} 則）")
+    raw = collect_google(cfg["queries"]) + collect_rss(cfg["feeds"]) + collect_hn(hn_query)
+    log(f"原始擷取 {len(raw)} 則")
 
-    window = cfg.get("window", WINDOW_HOURS)
-    cutoff = started - timedelta(hours=window)
+    cutoff = started - timedelta(hours=WINDOW_HOURS)
     fresh = [i for i in raw
              if i["published"] and i["published"] >= cutoff
-             and (i.get("skip_keep")
-                  or cfg["keep"].search(f"{i['title']} {i.get('summary', '')}"))]
-    log(f"時間（{window} 小時）與主題過濾後 {len(fresh)} 則")
+             and cfg["keep"].search(f"{i['title']} {i.get('summary', '')}")]
+    log(f"時間與主題過濾後 {len(fresh)} 則")
 
     items = dedupe(sorted(fresh, key=lambda x: x["published"], reverse=True))[:MAX_ITEMS]
     log(f"去重後 {len(items)} 則")
@@ -689,8 +533,6 @@ def run_channel(name: str) -> int:
         "languages": TARGET_LANGS,
         "byGroup": {gid: sum(1 for i in items if gid in i["camps"])
                     for gid, _ in cfg["groups"] + cfg["fallback"]},
-        "byLine": {lid: sum(1 for i in items if lid in i.get("lines", []))
-                   for lid, _ in cfg.get("lines", [])},
         "items": [{
             "title": i["title"],
             "source": i["source"],
@@ -701,8 +543,6 @@ def run_channel(name: str) -> int:
             "models": i.get("models", []),
             "tag": i.get("tag", "產品發表"),
             "camps": i["camps"],
-            "lines": i.get("lines", []),
-            "score": i.get("score"),
             "lang": i.get("lang", "en"),
             "i18n": i.get("i18n", {}),
         } for i in items],
