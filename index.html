@@ -200,6 +200,7 @@
       </div>
       <div id="groups"></div>
       <p class="note" id="tNote"></p>
+      <p class="note" id="ver" style="opacity:.7"></p>
     </div>
   </aside>
   <section class="feed" id="feed"></section>
@@ -619,6 +620,7 @@ const esc = (s) => String(s ?? "").replace(/[&<>"']/g,
 /*  狀態                                                              */
 /* ================================================================== */
 
+let dataVer = "—";                 // 資料檔裡的爬蟲版本
 let cur = "zh-TW";                 // 目前顯示語言
 let ch = "models";                 // 目前分頁
 let sortBy = "heat";
@@ -814,6 +816,7 @@ async function boot() {
   const base = CH().base;
   try {
     const latest = await grab(`${base}/news.json`);
+    dataVer = latest.version || "舊版（無版本標記）";
     const c = latest.edition;
     loaded.set(c, (latest.items || []).map((it) => ({ ...it, edition: c })));
     F.date.add(c);
@@ -889,6 +892,7 @@ function renderChrome() {
   $("tSort").textContent = t.sort;
   $("tFilter").textContent = t.filter;
   $("tNote").textContent = t.note;
+  $("ver").textContent = `頁面 v7 · 資料 ${dataVer}`;
   $("clearAll").textContent = t.clearAll;
   $("reload").textContent = t.reload;
   $("ftoggle").textContent = $("rail").classList.contains("collapsed")

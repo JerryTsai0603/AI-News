@@ -45,6 +45,8 @@ import requests
 
 # ---------------------------------------------------------------- 通用設定
 
+SCRAPER_VERSION = "v7"          # 網頁左下角會顯示，用來確認部署的是哪一版
+
 TZ = timezone(timedelta(hours=8))
 WINDOW_HOURS = 48
 MAX_ITEMS = 60
@@ -1070,6 +1072,20 @@ def call_llm(prompt: str, max_tokens: int = 8000) -> str:
     return content
 
 
+# 模型偶爾會把 prompt 範例裡的佔位文字當成答案抄回來，一律擋掉
+PLACEHOLDERS = {
+    "標題", "摘要", "標題文字", "摘要文字", "title", "summary",
+    "translated title", "translated summary", "标题", "摘要文本",
+}
+
+
+def is_placeholder(v) -> bool:
+    if not isinstance(v, str):
+        return True
+    t = v.strip().strip("<>「」\"'").lower()
+    return (not t) or t in PLACEHOLDERS or t.endswith("_here")
+
+
 def parse_rows(text: str) -> list[dict]:
     """盡量從回應裡撈出物件。整批解析失敗就逐個搶救，不讓一顆壞蘋果毀掉整批。"""
     if not text:
@@ -1131,14 +1147,16 @@ def add_summaries(items: list[dict]) -> None:
             "為下列每一則新聞寫一句 45 字以內的繁體中文摘要，點出具體事實。\n"
             f"輸出格式：每行一個 JSON 物件，共 {len(chunk)} 行，"
             "不要陣列括號、不要 markdown、不要任何說明文字。\n"
-            '每行長這樣：{"i": 0, "s": "摘要文字"}\n\n'
+            '格式範例（SUMMARY_HERE 要換成真正的摘要）：'
+            '{"i": 0, "s": "SUMMARY_HERE"}\n\n'
             "待處理：\n"
             + "\n".join(json.dumps(c, ensure_ascii=False) for c in chunk)
         )
         try:
             for row in llm_rows(prompt, 3000):
                 i = row.get("i")
-                if isinstance(i, int) and 0 <= i < len(items) and row.get("s"):
+                if (isinstance(i, int) and 0 <= i < len(items)
+                        and not is_placeholder(row.get("s"))):
                     items[i]["summary"] = row["s"]
                     done += 1
         except Exception as exc:
@@ -1173,23 +1191,34 @@ def add_translations(items: list[dict]) -> None:
             payload = [{"i": i, "t": items[i]["title"],
                         "s": (items[i].get("summary") or "")[:200]} for i in batch]
             prompt = (
-                f"把下列新聞的標題與摘要翻譯成{name}。\n"
-                "規則：\n"
-                "- 公司名與產品型號（DGX Spark、RTX Spark、GB10、GPT-5、Claude 等）保留原文不譯。\n"
-                "- 標題譯得像新聞標題，簡潔有力。\n"
+                f"把下列新聞的標題與摘要翻譯成{name}。\n\n"
+                "【最重要的規則】公司名、品牌名、產品名與型號一律保留英文原樣，"
+                "絕對不可意譯。例如：\n"
+                "  Anthropic → Anthropic（不是「人性」）\n"
+                "  Claude Fable 5.1 → Claude Fable 5.1（不是「克勞德寓言」）\n"
+                "  Claude Mythos → Claude Mythos（不是「神話」）\n"
+                "  DGX Spark / RTX Spark / GB10 / GPT-5 / Gemini / Grok → 原樣保留\n\n"
+                "其他規則：\n"
+                "- 標題譯得像新聞標題，簡潔有力；不要保留來源媒體名的尾綴。\n"
                 "- 摘要 60 字以內；原本沒有摘要就給空字串。\n"
+                "- 只翻譯我給的內容，不要自己編造，也不要輸出下方格式範例裡的佔位符。\n\n"
                 f"輸出格式：每行一個 JSON 物件，共 {len(payload)} 行，"
                 "不要陣列括號、不要 markdown、不要任何說明文字。\n"
-                '每行長這樣：{"i": 0, "t": "標題", "s": "摘要"}\n\n'
+                '格式範例（TITLE_HERE 要換成真正的譯文）：'
+                '{"i": 0, "t": "TITLE_HERE", "s": "SUMMARY_HERE"}\n\n'
                 "待處理：\n"
                 + "\n".join(json.dumps(c, ensure_ascii=False) for c in payload)
             )
             try:
                 for row in llm_rows(prompt, 4000):
                     i = row.get("i")
-                    if isinstance(i, int) and 0 <= i < len(items) and row.get("t"):
-                        items[i]["i18n"][lang] = {"title": row["t"],
-                                                  "summary": row.get("s", "")}
+                    if (isinstance(i, int) and 0 <= i < len(items)
+                            and not is_placeholder(row.get("t"))):
+                        sm = row.get("s", "")
+                        items[i]["i18n"][lang] = {
+                            "title": row["t"],
+                            "summary": "" if is_placeholder(sm) else sm,
+                        }
                         done += 1
             except Exception as exc:
                 log(f"  ✗ {name} 第 {start // 8 + 1} 批失敗：{exc}")
@@ -1203,7 +1232,7 @@ def add_translations(items: list[dict]) -> None:
 def run_channel(name: str) -> int:
     cfg = CHANNELS[name]
     started = datetime.now(TZ)
-    log(f"===== 頻道「{cfg['label']}」開始 =====")
+    log(f"===== 頻道「{cfg['label']}」開始（爬蟲 {SCRAPER_VERSION}）=====")
 
     hn_query = ("LLM OR GPT OR Claude OR Gemini OR Llama" if name == "models"
                 else "DGX Spark OR GB10")
@@ -1227,6 +1256,15 @@ def run_channel(name: str) -> int:
     items = dedupe(sorted(fresh, key=lambda x: x["published"], reverse=True))[:MAX_ITEMS]
     log(f"去重後 {len(items)} 則")
 
+    # 讓各平台的貢獻一眼可見，方便判斷是哪個來源沒進來
+    def count(pref):
+        return sum(1 for i in items if str(i.get("source", "")).startswith(pref))
+    log(f"平台分布：YouTube {count('YouTube')}、Reddit {count('r/')}、"
+        f"X {count('X ·')}、Hacker News {count('Hacker News')}、"
+        f"其他媒體與新聞室 {len(items) - count('YouTube') - count('r/') - count('X ·') - count('Hacker News')}")
+    with_img = sum(1 for i in items if i.get("image"))
+    log(f"有縮圖 {with_img}/{len(items)} 則")
+
     if not items:
         log("沒有取得任何新聞，保留上一期資料不覆寫")
         return 1
@@ -1246,6 +1284,7 @@ def run_channel(name: str) -> int:
 
     payload = {
         "channel": name,
+        "version": SCRAPER_VERSION,
         "fetchedAt": started.isoformat(),
         "edition": started.strftime("%Y-%m-%d"),
         "count": len(items),
