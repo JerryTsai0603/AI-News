@@ -20,10 +20,31 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: 擷取與翻譯（兩個分頁）
+      - name: 擷取與翻譯
         env:
+          # ---- 翻譯金鑰：設其中一組就會生效。全部沒設就只會有原文 ----
           MINIMAX_API_KEY:   ${{ secrets.MINIMAX_API_KEY }}
-          # 九種語言。想省費用就刪掉不需要的，網頁會自動改顯示原文。
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY:    ${{ secrets.OPENAI_API_KEY }}
+          GEMINI_API_KEY:    ${{ secrets.GEMINI_API_KEY }}
+          DEEPSEEK_API_KEY:  ${{ secrets.DEEPSEEK_API_KEY }}
+          GROQ_API_KEY:      ${{ secrets.GROQ_API_KEY }}
+          MISTRAL_API_KEY:   ${{ secrets.MISTRAL_API_KEY }}
+          LLM_PROVIDER:      ${{ vars.LLM_PROVIDER }}
+          LLM_MODEL:         ${{ vars.LLM_MODEL }}
+          LLM_BASE_URL:      ${{ vars.LLM_BASE_URL }}
+
+          # ---- Reddit：雲端 IP 常被擋 403，建議設 ----
+          REDDIT_CLIENT_ID:     ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+
+          # ---- YouTube：不設也有頻道 feed，設了才能關鍵字搜尋 ----
+          YOUTUBE_API_KEY:   ${{ secrets.YOUTUBE_API_KEY }}
+          YT_CHANNELS:       ${{ vars.YT_CHANNELS }}
+
+          # ---- X：搜尋需付費方案，沒有就自動跳過 ----
+          X_BEARER_TOKEN:    ${{ secrets.X_BEARER_TOKEN }}
+
           TARGET_LANGS: "zh-TW,zh-CN,en,ja,ko,de,es,fr,it"
         run: python scraper.py all
 
