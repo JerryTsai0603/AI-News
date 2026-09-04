@@ -46,7 +46,7 @@ import requests
 
 # ---------------------------------------------------------------- 通用設定
 
-SCRAPER_VERSION = "v9"          # 網頁左下角會顯示，用來確認部署的是哪一版
+SCRAPER_VERSION = "v10"          # 網頁左下角會顯示，用來確認部署的是哪一版
 
 TZ = timezone(timedelta(hours=8))
 WINDOW_HOURS = 48
@@ -55,14 +55,27 @@ TIMEOUT = 20
 UA = "Mozilla/5.0 (compatible; ai-news-monitor/2.0; +https://github.com/)"
 ROOT = Path(__file__).resolve().parent
 
+def env_str(name: str, default: str = "") -> str:
+    """GitHub Actions 會把未設定的 Variables 傳成空字串，不能只靠 get 的預設值。"""
+    v = os.environ.get(name)
+    return v.strip() if v and v.strip() else default
+
+
+def env_int(name: str, default: int) -> int:
+    try:
+        return int(env_str(name, str(default)))
+    except ValueError:
+        return default
+
+
 # 翻譯的時間上限（分鐘，每個頻道各自計算）。時間到就停手，已翻好的照樣保留。
-TRANSLATE_BUDGET_MIN = int(os.environ.get("TRANSLATE_BUDGET_MIN", "12"))
+TRANSLATE_BUDGET_MIN = env_int("TRANSLATE_BUDGET_MIN", 12)
 # 同時打幾個 API 請求。太高會被限流。
-LLM_WORKERS = int(os.environ.get("LLM_WORKERS", "6"))
+LLM_WORKERS = env_int("LLM_WORKERS", 6)
 
 TARGET_LANGS = [x.strip() for x in
-                os.environ.get("TARGET_LANGS",
-                               "zh-TW,zh-CN,en,ja,ko,de,es,fr,it").split(",") if x.strip()]
+                env_str("TARGET_LANGS",
+                        "zh-TW,zh-CN,en,ja,ko,de,es,fr,it").split(",") if x.strip()]
 
 LANG_NAMES = {
     "zh-TW": "繁體中文（台灣用語）", "zh-CN": "简体中文", "en": "English",
@@ -594,7 +607,7 @@ YOUTUBE_CHANNELS = [
 
 
 def yt_channels() -> list[str]:
-    env = os.environ.get("YT_CHANNELS", "").strip()
+    env = env_str("YT_CHANNELS")
     return [c.strip() for c in env.split(",") if c.strip()] if env else YOUTUBE_CHANNELS
 
 
@@ -661,7 +674,7 @@ def collect_youtube(cfg: dict) -> list[dict]:
         time.sleep(0.4)
 
     # 2) 有金鑰時再做關鍵字搜尋，覆蓋面大得多
-    key = os.environ.get("YOUTUBE_API_KEY")
+    key = env_str("YOUTUBE_API_KEY") or None
     if not key:
         log("  未設定 YOUTUBE_API_KEY，只用頻道 feed（覆蓋面較小）")
         return items
@@ -715,7 +728,7 @@ def collect_youtube(cfg: dict) -> list[dict]:
 
 def collect_x(cfg: dict) -> list[dict]:
     """X 的搜尋 API 需要付費方案，沒有 token 就整段跳過。"""
-    tok = os.environ.get("X_BEARER_TOKEN")
+    tok = env_str("X_BEARER_TOKEN") or None
     if not tok:
         log("  未設定 X_BEARER_TOKEN，略過 X（免費方案無搜尋權限）")
         return []
@@ -768,8 +781,8 @@ _reddit_token: dict = {"value": None, "expires": 0}
 
 def reddit_token() -> str | None:
     """有設 REDDIT_CLIENT_ID / REDDIT_CLIENT_SECRET 才走官方 OAuth。"""
-    cid = os.environ.get("REDDIT_CLIENT_ID")
-    secret = os.environ.get("REDDIT_CLIENT_SECRET")
+    cid = env_str("REDDIT_CLIENT_ID") or None
+    secret = env_str("REDDIT_CLIENT_SECRET") or None
     if not cid or not secret:
         return None
     if _reddit_token["value"] and time.time() < _reddit_token["expires"]:
@@ -1000,7 +1013,7 @@ def get_llm() -> dict | None:
     if _llm is not None:
         return _llm or None
 
-    forced = os.environ.get("LLM_PROVIDER", "").strip().lower()
+    forced = env_str("LLM_PROVIDER").lower()
     for pid, env, model, shape, url in PROVIDERS:
         if forced and pid != forced:
             continue
@@ -1009,8 +1022,8 @@ def get_llm() -> dict | None:
             continue
         _llm = {
             "id": pid, "key": key, "shape": shape,
-            "model": os.environ.get("LLM_MODEL") or model,
-            "url": os.environ.get("LLM_BASE_URL") or url,
+            "model": env_str("LLM_MODEL", model),
+            "url": env_str("LLM_BASE_URL", url),
         }
         log(f"翻譯供應商：{pid} · 模型 {_llm['model']}")
         return _llm
