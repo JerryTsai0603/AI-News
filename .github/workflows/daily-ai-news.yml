@@ -11,6 +11,7 @@ permissions:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    timeout-minutes: 45        # 超時就中斷，不再讓它跑一小時以上
     steps:
       - uses: actions/checkout@v4
 
@@ -22,17 +23,16 @@ jobs:
 
       - name: 擷取與翻譯
         env:
-          # ---- 翻譯金鑰：設其中一組就會生效。全部沒設就只會有原文 ----
-          MINIMAX_API_KEY:   ${{ secrets.MINIMAX_API_KEY }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          OPENAI_API_KEY:    ${{ secrets.OPENAI_API_KEY }}
-          GEMINI_API_KEY:    ${{ secrets.GEMINI_API_KEY }}
-          DEEPSEEK_API_KEY:  ${{ secrets.DEEPSEEK_API_KEY }}
+          # ---- 翻譯金鑰：設其中一組就會生效 ----
           GROQ_API_KEY:      ${{ secrets.GROQ_API_KEY }}
           MISTRAL_API_KEY:   ${{ secrets.MISTRAL_API_KEY }}
           LLM_PROVIDER:      ${{ vars.LLM_PROVIDER }}
           LLM_MODEL:         ${{ vars.LLM_MODEL }}
           LLM_BASE_URL:      ${{ vars.LLM_BASE_URL }}
+
+          # 翻譯的時間上限（分鐘／每個分頁）與並行數，可在 Variables 調整
+          TRANSLATE_BUDGET_MIN: ${{ vars.TRANSLATE_BUDGET_MIN }}
+          LLM_WORKERS:          ${{ vars.LLM_WORKERS }}
 
           # ---- Reddit：雲端 IP 常被擋 403，建議設 ----
           REDDIT_CLIENT_ID:     ${{ secrets.REDDIT_CLIENT_ID }}
@@ -49,6 +49,7 @@ jobs:
         run: python scraper.py all
 
       - name: 提交結果
+        if: always()           # 即使前一步中途失敗，也把已抓到的資料存下來
         run: |
           git config user.name  "ai-news-bot"
           git config user.email "actions@github.com"
