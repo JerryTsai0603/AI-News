@@ -1,7 +1,7 @@
 {
  "channel": "models",
  "version": "v10",
- "fetchedAt": "2026-09-05T00:36:41.309557+08:00",
+ "fetchedAt": "2026-09-05T00:50:22.927529+08:00",
  "edition": "2026-09-05",
  "count": 60,
  "languages": [
@@ -16,15 +16,113 @@
   "it"
  ],
  "byGroup": {
-  "openai": 21,
-  "anthropic": 15,
-  "google": 12,
+  "openai": 22,
+  "anthropic": 14,
+  "google": 11,
   "meta": 0,
   "cn": 4,
-  "other": 13
+  "other": 14
  },
  "byLine": {},
  "items": [
+  {
+   "title": "Google rolls out Lyria 3.5 across Gemini and API - Latest news from Azerbaijan",
+   "source": "Latest news from Azerbaijan",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1UQ3luQUQxUWdBRW12ZTIxYWFwVlo4SkhXUlZ3UVFwaERMVmlqWlN1UjBxangyTXJqSkVwNUxSdTQ1Y2tkTnpSalU1X2ZRZGI1VlJmM1d4elhTanpNaThqdWMzeTFiNnEyUVJZTndZOW1wQ2poSTVv?oc=5",
+   "date": "2026-09-05 00:48",
+   "publishedAt": "2026-09-05T00:48:17+08:00",
+   "summary": "",
+   "models": [
+    "Gemini"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "google"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Google rolls out Lyria 3.5 across Gemini and API - Latest news from Azerbaijan",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Claude ile Otomatik Reklam Üretimi: Sanılandan Çok Daha Kolay / Buzzy AI Tanıtım",
+   "source": "YouTube · Enes Özcan ile Yapay Zeka",
+   "url": "https://www.youtube.com/watch?v=Kdlic6vkwQI",
+   "date": "2026-09-05 00:45",
+   "publishedAt": "2026-09-05T00:45:19+08:00",
+   "summary": "Yapay zeka dünyasında çok az kişinin farkında olduğu bir gelişme var: Artık ürününüz için ultra kaliteli reklam videolarını, siz hiçbir şey yapmadan, hatta uyurken bile otomatik olarak ürettirebiliyor",
+   "models": [
+    "Claude"
+   ],
+   "tag": "影片",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 100,
+   "image": "https://i.ytimg.com/vi/Kdlic6vkwQI/mqdefault.jpg",
+   "views": 1384235,
+   "comments": 108,
+   "dupes": 83,
+   "also": [
+    "YouTube · Dads Learning AI",
+    "YouTube · 資安快報",
+    "YouTube · MUNDO CLIP",
+    "YouTube · Fathom Media",
+    "YouTube · AI инструменты",
+    "YouTube · Coding With Moji"
+   ],
+   "lines": [],
+   "score": 24331,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Claude ile Otomatik Reklam Üretimi: Sanılandan Çok Daha Kolay / Buzzy AI Tanıtım",
+     "summary": "Yapay zeka dünyasında çok az kişinin farkında olduğu bir gelişme var: Artık ürününüz için ultra kaliteli reklam videolarını, siz hiçbir şey yapmadan, hatta uyurken bile otomatik olarak ürettirebiliyor"
+    }
+   }
+  },
+  {
+   "title": "PhotoDirector 365 迎 AI PC 模式 多項生成式修圖工具可直接在電腦執行 - PChome Online 新聞",
+   "source": "PChome Online 新聞",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOLVFKbFBiSmdCeVJiRzZvY0NkanNhZU5qTGZSWUY4Mk0zZ2VqdWhDSnlPUHAwWFZNS2c2X2V6YlVWRXlWdEtSX25YbVhvYk1sMHVEMTE0VEFfUENKNXZZMmozb2c5NDVEckZ4X1Ftd0xCT3ZBcEdFTnhxTDdlX2JqMTVFQlN2c0E?oc=5",
+   "date": "2026-09-05 00:43",
+   "publishedAt": "2026-09-05T00:43:59+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "PhotoDirector 365 迎 AI PC 模式 多項生成式修圖工具可直接在電腦執行 - PChome Online 新聞",
+     "summary": ""
+    }
+   }
+  },
   {
    "title": "Product Jul 24, 2026 Introducing Claude Opus 5 Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and professional work.",
    "source": "Anthropic News",
@@ -927,40 +1025,60 @@
    }
   },
   {
-   "title": "Everybody Has The Same AI. I've Got Claude. Nobody Types These 10 Words #shorts",
-   "source": "YouTube · Dads Learning AI",
-   "url": "https://www.youtube.com/watch?v=WfiMvZ6-1uM",
-   "date": "2026-09-05 00:25",
-   "publishedAt": "2026-09-05T00:25:41+08:00",
-   "summary": "Everybody has access to the same AI. Almost nobody types the words that actually change the output. Here are the 10 power words I use in Claude every day. Steal them. Paste them. Watch your results ch",
-   "models": [
-    "Claude"
-   ],
-   "tag": "影片",
+   "title": "OpenAI 推「史上最聰明」模型 - 經濟日報",
+   "source": "經濟日報",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9wOEtmUTN2Z0dJaloyZjh2WHVUTXFtRFVveDc2RlRmN0NxMDlRNzZQbnZSMzhua0tNSzY4Tkt1Q3RQOWJnbC15aHFiWVJCS1FHV1N2VVE4REo4QdIBX0FVX3lxTE4wSDBUekpqcWkyaWVuUXEwRzNLZjdPRUhrakxWR0RhU1ZZOFNDT3RxV1VBVV9JMVRSQ082TGdlRHk1bXh6OExXMmp1Nm8wUUVmQzctcnl6M3VMX05VNlk4?oc=5",
+   "date": "2026-09-05 00:35",
+   "publishedAt": "2026-09-05T00:35:30+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
    "camps": [
-    "anthropic"
+    "openai"
    ],
    "press": false,
-   "heat": 100,
-   "image": "https://i.ytimg.com/vi/WfiMvZ6-1uM/mqdefault.jpg",
-   "views": 1384235,
-   "comments": 98,
-   "dupes": 83,
-   "also": [
-    "YouTube · 資安快報",
-    "YouTube · Fathom Media",
-    "YouTube · AI инструменты",
-    "YouTube · Coding With Moji",
-    "YouTube · Future of Life Institute",
-    "YouTube · Technical Majid"
-   ],
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
    "lines": [],
-   "score": 24285,
-   "lang": "en",
+   "score": null,
+   "lang": "zh",
    "i18n": {
-    "en": {
-     "title": "Everybody Has The Same AI. I've Got Claude. Nobody Types These 10 Words #shorts",
-     "summary": "Everybody has access to the same AI. Almost nobody types the words that actually change the output. Here are the 10 power words I use in Claude every day. Steal them. Paste them. Watch your results ch"
+    "zh-TW": {
+     "title": "OpenAI 推「史上最聰明」模型 - 經濟日報",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Eightco Holdings（納斯達克股票代碼：ORBS）公佈持有資產總值約3.8 億美元，涵蓋 OpenAI 及 Beast Industries 股權、逾 16,000 枚 ETH，以及近3.02 億枚WLD 代幣 - PR Newswire",
+   "source": "PR Newswire",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPSHRraDZsMk9GNlo5SXBlTlpqanlzVi1ibnpJelZqc2pKUUh2MlkzRkFlSDdnUEV0bWtoT1BuNGQ3MEFGOTJsY3hCZjY2YTVUSUc3VWxQNVNLVDVidzUzTlZxZEdwc3hxN3drejRqOGVSMEZPYTlUVHNuYzl4UG5VVlFmUkFCV1FzaUhpZFRsVVp4VWRrcGk1cVBYdFhENGpEOVZQaVU3TUpDbGMtRDQ2N0xzVW9nNlZwckMzM2ZzS1NjczlzRm50Qm52S3pndm1zS2c5UA?oc=5",
+   "date": "2026-09-05 00:35",
+   "publishedAt": "2026-09-05T00:35:00+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "Eightco Holdings（納斯達克股票代碼：ORBS）公佈持有資產總值約3.8 億美元，涵蓋 OpenAI 及 Beast Industries 股權、逾 16,000 枚 ETH，以及近3.02 億枚WLD 代幣 - PR Newswire",
+     "summary": ""
     }
    }
   },
@@ -994,37 +1112,6 @@
    }
   },
   {
-   "title": "Google Brings Lyria 3.5 Music Generation to the Gemini App and API - unite.ai",
-   "source": "unite.ai",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOU2xPcEdReTQyU0tCUHNIZExEMXlsbnkwcWJXMDMzbXR5OXFfSXpzWXVybzJ5UHFjREt5Smd6X291ejdSRkN5NmtBV1VBclBnaExNOFRUMFQyTVppMzNDc291SWZ3QlZNNzREdFVZQ3ZfbEoxQnZpcDBLTC1PZklMT3Y5YTFrSWNQalVRSHBJZ2J4Zw?oc=5",
-   "date": "2026-09-05 00:18",
-   "publishedAt": "2026-09-05T00:18:02+08:00",
-   "summary": "",
-   "models": [
-    "Gemini"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "google"
-   ],
-   "press": false,
-   "heat": 15,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Google Brings Lyria 3.5 Music Generation to the Gemini App and API - unite.ai",
-     "summary": ""
-    }
-   }
-  },
-  {
    "title": "Google DeepMind’s WeatherNext 3 Outranks Every Physics Model on Earth - Yahoo Tech",
    "source": "Yahoo Tech",
    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQLXZBMmlEQWtrSnllcnRqVmtmdndFX2V6RkxieFFwUndLRlllSHJHdXA5LUVTTHFHc1Rtc211X0Q3UEJRZU51MUVpZDFLdW9Id1h2dTU4U0JnSnBlTlpDdmRwMEZsdzBLWnF0S2VmdDJjRWtlU05NM2JUT09RREhVMU1VOUpQMEE5T3VjZzAtaDNEX2l2TnBLV21zdw?oc=5",
@@ -1050,6 +1137,37 @@
     "en": {
      "title": "Google DeepMind’s WeatherNext 3 Outranks Every Physics Model on Earth - Yahoo Tech",
      "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Microsoft says virtually nobody was grabbing NYT articles through its chatbot",
+   "source": "The Verge AI",
+   "url": "https://www.theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit",
+   "date": "2026-09-05 00:05",
+   "publishedAt": "2026-09-05T00:05:57+08:00",
+   "summary": "Microsoft's Copilot rarely reproduces even full sentences from news articles and books, let alone substantive chunks that could substitute for the original, the company says in new legal filings as it fights copyright cl",
+   "models": [
+    "Copilot"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Microsoft says virtually nobody was grabbing NYT articles through its chatbot",
+     "summary": "Microsoft's Copilot rarely reproduces even full sentences from news articles and books, let alone substantive chunks that could substitute for the original, the company says in new legal filings as it fights copyright cl"
     }
    }
   },
@@ -1156,7 +1274,7 @@
     "openai"
    ],
    "press": false,
-   "heat": 15,
+   "heat": 14,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -1233,6 +1351,37 @@
    }
   },
   {
+   "title": "與AI聊心事小心變呈堂證供| 隱私 | ChatGPT | AI聊天機器人 - 台灣大紀元",
+   "source": "台灣大紀元",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOc2Nyd2VlUFcyYm9nSElpTjkyQlpjUzRSeTZPaUtJQV92NlNJbmNBUm1EOTdPRGxtZ2VVcDdKLTVCWFgxR3JuNnBZd1NZNnMwaEFITXQzdXg3ZGlsN2s0T3BTODR1cWcwb3ZoY2lxVDZ2VmlpcFhPXy1CaUJ4UlR5ZWhXZFZORW5ta1poaWlfSFlEdk1hZkRLNXFNVEZELXhiYnBWaHRGNWFGWVN0NVN2aTJzOUZFczhtSmcya3E1VkFvT1pIbFJ5bVNQWllwWXo5MUdBWXpIb01jU1d2UUE?oc=5",
+   "date": "2026-09-04 22:45",
+   "publishedAt": "2026-09-04T22:45:08+08:00",
+   "summary": "",
+   "models": [
+    "ChatGPT"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "與AI聊心事小心變呈堂證供| 隱私 | ChatGPT | AI聊天機器人 - 台灣大紀元",
+     "summary": ""
+    }
+   }
+  },
+  {
    "title": "DeepSeek to Deploy Over 160,000 Huawei AI Chips at New Inner Mongolia Facility - finance.biggo.com",
    "source": "finance.biggo.com",
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0zVTcyWnN2clM5RUxGYTdSSXc2V0Z2aXdQTGdwZkpwVm1uTVBnRUpVcTV5bTBRaGFmbWMwY3pkT2szYmYzNVRQdno3UncxZTRGQ25BX3dMeVFNeGdwMVhsOWhldnVpUmV4cVBVTTF6UndNUVZ2WHc?oc=5",
@@ -1259,35 +1408,6 @@
    "i18n": {
     "en": {
      "title": "DeepSeek to Deploy Over 160,000 Huawei AI Chips at New Inner Mongolia Facility - finance.biggo.com",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Brockman 宣示 AGI 時代來臨：OpenAI 推出 GPT-6 Astra - Yellow.com",
-   "source": "Yellow.com",
-   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQQ19VWWF5RmlKWGlZX3BwTUk4TmpTSUdHWDc0VGRoZlM3MzBIRWIweXpOVjhQVmFkSjFSdXYwWS14alZvSGtjUlluTzRjMTBUaGZiSzctR2x3YkVLR0hDTE5HeXh3NEJRT3EwSWtweWpzVTU0X1l6UXlnY2VLR1NHZEhsWlcxOWJWU1FkVy1SbG1zNUg4RkFma1ZkWTZva2lJbDhYS19MYmc5OFRheU9QV2xEbmdzdVNSQy1ULXpNWEdGc0d1Z05xVnZmckp5eGowTnhZenJHTW5zcXlf?oc=5",
-   "date": "2026-09-04 22:13",
-   "publishedAt": "2026-09-04T22:13:52+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "openai"
-   ],
-   "press": false,
-   "heat": 14,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "Brockman 宣示 AGI 時代來臨：OpenAI 推出 GPT-6 Astra - Yellow.com",
      "summary": ""
     }
    }
@@ -1322,35 +1442,6 @@
    }
   },
   {
-   "title": "PhotoDirector 365 迎 AI PC 模式 多項生成式修圖工具可直接在電腦執行 - 樂聯網",
-   "source": "樂聯網",
-   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBGc1FNa01HMmIwRXVpRi1EQ0M1d3NleldEMFlJMXc2Z0RfbXBjZ2lZanZ1X3pjdVpsWDZfVFVUelI5M3dVSTNQWF9WVQ?oc=5",
-   "date": "2026-09-04 21:38",
-   "publishedAt": "2026-09-04T21:38:10+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "heat": 14,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "PhotoDirector 365 迎 AI PC 模式 多項生成式修圖工具可直接在電腦執行 - 樂聯網",
-     "summary": ""
-    }
-   }
-  },
-  {
    "title": "Rogue OpenAI agents appear to have organized another attack using a German wiki",
    "source": "The Verge AI",
    "url": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
@@ -1376,6 +1467,41 @@
     "en": {
      "title": "Rogue OpenAI agents appear to have organized another attack using a German wiki",
      "summary": "A swarm of rogue AI agents from OpenAI reportedly commandeered a German website and transformed it into a messaging board for other agents, with officials staying quiet about the incident for weeks as the company prepare"
+    }
+   }
+  },
+  {
+   "title": "Golfmanager 引入 AI 助理 球場管理擁抱 ChatGPT、Gemini 語音操控新時代 - 理財周刊",
+   "source": "理財周刊",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9felIzcTk2T0hKTnoxNVd4ejdqN2U1TFBBN19BSmY0NDFzMElTYzV5QW5kUkJlOTAyekRQUFgxMmUydTIwWlNPS2hpcXRRVkp2dXAtZDBxdkszQ2hDenR2N2FudGl1VllaRm5fTF9yNlg?oc=5",
+   "date": "2026-09-04 21:24",
+   "publishedAt": "2026-09-04T21:24:56+08:00",
+   "summary": "",
+   "models": [
+    "ChatGPT",
+    "Gemini"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "google"
+   ],
+   "press": false,
+   "heat": 22,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [
+    "Life 生活網"
+   ],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "Golfmanager 引入 AI 助理 球場管理擁抱 ChatGPT、Gemini 語音操控新時代 - 理財周刊",
+     "summary": ""
     }
    }
   },
@@ -1409,35 +1535,6 @@
    "i18n": {
     "en": {
      "title": "Hackers Turn Claude, Qwen and DeepSeek Into AI Agents for Real-World Cyberattacks - CyberSecurityNews",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Google Workspace Launches Voice AI; Docs Live Costs 4x More Than Gmail Live - Tech Times",
-   "source": "Tech Times",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbGhwTXYycWgzQnFLS3ZNRmZEX1lMdkthM2l6eDkzUXNlSjNXVF9NQ2Z0Y0RSRmxZdUE3ZTVxaUtxVU1XbkJ0M3d4RlVBU1JsXzlBQlVEdjZTMTRIdEpiNGVQZVF0cVA5RVgyWDkwNWxMdmJvZ3hMMXQ2MElEa252OHhFa1NiejcyOUVSUk8yc2hhYlB1Vk0taW5oU1NMcmJqQmU1aVRPbW1yRlBrUjFhcHhuM1p2V3MxX0VMWk1xaUdFQQ?oc=5",
-   "date": "2026-09-04 21:21",
-   "publishedAt": "2026-09-04T21:21:18+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "google"
-   ],
-   "press": false,
-   "heat": 14,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Google Workspace Launches Voice AI; Docs Live Costs 4x More Than Gmail Live - Tech Times",
      "summary": ""
     }
    }
@@ -1503,8 +1600,8 @@
    }
   },
   {
-   "title": "OpenAI 爆未公開「AI 逃逸事件」！代理佔領維基網站躲審查，專家憂威脅加劇 - 動區動趨",
-   "source": "動區動趨",
+   "title": "OpenAI 爆未公開「AI 逃逸事件」！代理佔領維基網站躲審查，專家憂威脅加劇 - blocktempo.com",
+   "source": "blocktempo.com",
    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1ocjF4ci1YYUUtQXo0aVZTMjJZOGVqTDRmdV8wYldZZ1NONVNXbm1PUGZpSFBVblBhMGxla1ZPbk1TYk5MV255alRFZVJPWDlCcEc2QnIwWnR2dXVPVVlvVWlYeEpEQUF3RkZZczU2T1NfbkhfUGFj?oc=5",
    "date": "2026-09-04 20:40",
    "publishedAt": "2026-09-04T20:40:24+08:00",
@@ -1526,7 +1623,7 @@
    "lang": "zh",
    "i18n": {
     "zh-TW": {
-     "title": "OpenAI 爆未公開「AI 逃逸事件」！代理佔領維基網站躲審查，專家憂威脅加劇 - 動區動趨",
+     "title": "OpenAI 爆未公開「AI 逃逸事件」！代理佔領維基網站躲審查，專家憂威脅加劇 - blocktempo.com",
      "summary": ""
     }
    }
@@ -1561,8 +1658,8 @@
    }
   },
   {
-   "title": "DeepSeek Plans Massive Huawei Chip Order for Inner Mongolia AI Data Center - citybiz",
-   "source": "citybiz",
+   "title": "DeepSeek Plans Massive Huawei Chip Order for Inner Mongolia AI Data Center - citybiz.co",
+   "source": "citybiz.co",
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNc0oyOGJ6V25QS3NEeEM5QXNjZEJjbXNaMGR6YlRvaFRmUkpjMUw3eXl6ajNybVk5dmFVdkdXSzdscXNwOWtHRDFsbzlGV2NhVFlEdVRaT0FLNDNua0hLT1JTanBMTExEY2gwQUlJV2xsc1Y2Tk9zb2MyYVhwcUY1dVdBRUxtTjRDcmtnNkdLWllpTkxGUmY1cDJTUHZtWm5EeS1MMHhGUjE2UGJTMTdqZ1pSNA?oc=5",
    "date": "2026-09-04 20:27",
    "publishedAt": "2026-09-04T20:27:28+08:00",
@@ -1586,7 +1683,7 @@
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "DeepSeek Plans Massive Huawei Chip Order for Inner Mongolia AI Data Center - citybiz",
+     "title": "DeepSeek Plans Massive Huawei Chip Order for Inner Mongolia AI Data Center - citybiz.co",
      "summary": ""
     }
    }
@@ -1622,43 +1719,8 @@
    }
   },
   {
-   "title": "Golfmanager 引入 AI 助理 球場管理擁抱 ChatGPT、Gemini 語音操控新時代 - Yahoo股市",
-   "source": "Yahoo股市",
-   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOR3hMWjhYa2stZGx1VmlLOFJSc1dEclhSSEQzN0l2b1kxVzA4Z3VocEFBR0YybTY2UzdZWjY4OGlkYjl2aHkyYkx6YThnOFp4ZC1rMElObmtwTm1MbjI3eEZSckZTWlNQb1FSTGdGSURPNWZUcXNsdkJ2MmFSZWlBUlBuUTBOQVBic1BqXzRGV0VLT2lsWjVFM1M4cGloREUzbW1adUQwV1BYV2I5cVpSN21aa3ctZ3VuTkdUY2tJM3F3LXR6UE5UYzdoTkJFWU9Kb3hmTUxVNDMwOVp5cXh6aWtOQ0RST09wR0E?oc=5",
-   "date": "2026-09-04 20:18",
-   "publishedAt": "2026-09-04T20:18:53+08:00",
-   "summary": "",
-   "models": [
-    "ChatGPT",
-    "Gemini"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "openai",
-    "google"
-   ],
-   "press": false,
-   "heat": 22,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [
-    "Life 生活網"
-   ],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "Golfmanager 引入 AI 助理 球場管理擁抱 ChatGPT、Gemini 語音操控新時代 - Yahoo股市",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "GPT-6 Astra is here. What OpenAI’s new model can do - ThePrint",
-   "source": "ThePrint",
+   "title": "GPT-6 Astra is here. What OpenAI’s new model can do - theprint.in",
+   "source": "theprint.in",
    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSHRrWlBtMzdZMzA4X0RXekxERmw4dUx1QVRNMV82WnJVQkVVbFZLRlEydFNscnRCam9Hd1E5ZUZUZUV4SUZLeUtpSmhIZXpMWXJOMzMzWWhpTVMtUmREeGw5UGpaaG9SZXI3S3BqSDY4ZllaQVViV3BXbV9vakFxV0V0M0VXY3VQLXh30gGQAUFVX3lxTE5jMVhqbGFocjg3ZjFLREtWZE4ydFhZNXVGZGtBYWtjNFVnNHlhSnpCTUtSRzloMmVKaS1rRlhkLUR1UkhXSmZqc2FwSkJ2cHUtcXlXNzVrc1BHRlNGdXI5QXBFOWZkUWlDSUkxd2dISnJjUUFmQXhIY1cyaEVXSVlWdVRndkNqWDNuMmRkSmJzOQ?oc=5",
    "date": "2026-09-04 20:16",
    "publishedAt": "2026-09-04T20:16:47+08:00",
@@ -1680,7 +1742,7 @@
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "GPT-6 Astra is here. What OpenAI’s new model can do - ThePrint",
+     "title": "GPT-6 Astra is here. What OpenAI’s new model can do - theprint.in",
      "summary": ""
     }
    }
@@ -1746,37 +1808,8 @@
    }
   },
   {
-   "title": "OpenAI AI代理程式挾持德國網站改造成「留言板」，延遲揭露遭批 - BigGo 財經",
-   "source": "BigGo 財經",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1wZmU2UFJCME9Naks4WV9WOUxWakdiNzh4MkpHZk5wdGlVZWdsemlJUEZfMkNVLUNrWFNaN20xc0hmRkM0Y0FudjdiLUJZOWs1V01Dc0s4TzB5a1gtbFNMZGVCWlBFb1p4WFFDUVlKb1BhYkpLTFJhYnR3?oc=5",
-   "date": "2026-09-04 20:06",
-   "publishedAt": "2026-09-04T20:06:00+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "openai"
-   ],
-   "press": false,
-   "heat": 14,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "OpenAI AI代理程式挾持德國網站改造成「留言板」，延遲揭露遭批 - BigGo 財經",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "因應先進 AI 威脅 資安署推動資安治理邁向動態防禦 - CIO Taiwan",
-   "source": "CIO Taiwan",
+   "title": "因應先進 AI 威脅 資安署推動資安治理邁向動態防禦 - cio.com.tw",
+   "source": "cio.com.tw",
    "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxQWkRvRVd3QmFYajVQSGNaWHRUampvbk5SLTlEUnoybjd5VGdXZFB1Z0hKb2t4YVN5TTFkNGkwQTZtWFBRT1VHVTBTY0I2QWNUcFN0SXVobnNnVkdDcUpuLXc3cXh4QUJWcWpNa1hSaDBwY2FSazl6STNEY2hKYXE4WEZyejB0R05GMV9ENWlZYVloZTRkWi1BZU1EZ01kUmRFRUNKSXZNeEhpeEVOU0JzdUU5SHpzWlpFNWwtZldRR3FnOWNIcDhPam5sWmtQTy0tbXJBa2tjem5tb1MwbUFKZlVOYzdDbEJYbGZyWTdGc0VJbUdXZW5pNTA3ZmtfSTlBbEZYZkdMeXFoZ1kwcC0yT2c5bHlfTVpkRUQ4elJBcmRMUWFmUkx1YWw2Y0FYYXZ4bDI5X25tNGhvVXJCanJR?oc=5",
    "date": "2026-09-04 20:05",
    "publishedAt": "2026-09-04T20:05:30+08:00",
@@ -1798,36 +1831,7 @@
    "lang": "zh",
    "i18n": {
     "zh-TW": {
-     "title": "因應先進 AI 威脅 資安署推動資安治理邁向動態防禦 - CIO Taiwan",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Anthropic Skills 開源倉庫：AI Agent 技能開發新起點 - techritual.com",
-   "source": "techritual.com",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0xSEw0Nlp1ZXJqNThiTklRMmFXeHFrVDM1cEUyd1dEUDFna0pLd3hlN0hpUWc5TEhhU1FudUt2eVJQdGpubl9CUTNlUFp4MkxRV0JtS19DNkY?oc=5",
-   "date": "2026-09-04 20:00",
-   "publishedAt": "2026-09-04T20:00:00+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "anthropic"
-   ],
-   "press": false,
-   "heat": 14,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "Anthropic Skills 開源倉庫：AI Agent 技能開發新起點 - techritual.com",
+     "title": "因應先進 AI 威脅 資安署推動資安治理邁向動態防禦 - cio.com.tw",
      "summary": ""
     }
    }
