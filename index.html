@@ -183,6 +183,7 @@
         <label for="sort" id="tSort"></label>
         <select id="sort"></select>
       </div>
+      <button class="btn ghost" id="rescrape" hidden></button>
       <button class="btn" id="reload"></button>
     </div>
   </div>
@@ -250,6 +251,12 @@ const UI = {
     errArchive: (d, m) => `讀不到 ${d} 期的存檔（${m}）。`,
     errRefresh: (m) => `更新失敗:${m}`,
     reloading: "讀取中…",
+    rescrape: '重新爬取',
+    rescrapeAsk: '貼上具 actions:write 權限的 GitHub token（只存在本次瀏覽階段，不會寫進網頁）：',
+    rescrapeSent: '已送出爬取要求。約 5–8 分鐘後按「立即更新」取回新資料。',
+    rescrapeFail: (m) => `觸發失敗：${m}`,
+    reloadSame: (t) => `資料尚未變動 · 最後擷取 ${t}`,
+    reloadFresh: (t) => `已更新 · 最後擷取 ${t}`,
   },
   "en": {
     name: "English", htmlLang: "en",
@@ -288,6 +295,12 @@ const UI = {
     errArchive: (d, m) => `Could not read the archive for ${d} (${m}).`,
     errRefresh: (m) => `Refresh failed: ${m}`,
     reloading: "Loading…",
+    rescrape: 'Re-scrape',
+    rescrapeAsk: 'Paste a GitHub token with actions:write scope (kept for this session only, never written into the page):',
+    rescrapeSent: 'Scrape requested. Press Refresh in 5–8 minutes to pull the new data.',
+    rescrapeFail: (m) => `Trigger failed: ${m}`,
+    reloadSame: (t) => `No change yet · last scraped ${t}`,
+    reloadFresh: (t) => `Updated · last scraped ${t}`,
   },
   "ja": {
     name: "日本語", htmlLang: "ja",
@@ -326,6 +339,12 @@ const UI = {
     errArchive: (d, m) => `${d}版のアーカイブを読み込めません（${m}）。`,
     errRefresh: (m) => `更新に失敗しました:${m}`,
     reloading: "読み込み中…",
+    rescrape: '再取得',
+    rescrapeAsk: 'actions:write 権限のある GitHub トークンを貼り付けてください（このセッションのみ保持、ページには書き込まれません）：',
+    rescrapeSent: '取得を要求しました。5〜8分後に「更新」を押してください。',
+    rescrapeFail: (m) => `実行に失敗しました：${m}`,
+    reloadSame: (t) => `まだ変更はありません · 最終取得 ${t}`,
+    reloadFresh: (t) => `更新しました · 最終取得 ${t}`,
   },
   "zh-CN": {
     name: "简体中文", htmlLang: "zh-Hans",
@@ -364,6 +383,12 @@ const UI = {
     errArchive: (d, m) => `读不到 ${d} 期的存档(${m})。`,
     errRefresh: (m) => `更新失败:${m}`,
     reloading: "读取中…",
+    rescrape: '重新抓取',
+    rescrapeAsk: '粘贴具 actions:write 权限的 GitHub token（仅存在本次浏览会话，不会写入网页）：',
+    rescrapeSent: '已发送抓取请求。约 5–8 分钟后按「立即更新」取回新数据。',
+    rescrapeFail: (m) => `触发失败：${m}`,
+    reloadSame: (t) => `数据尚未变动 · 最后抓取 ${t}`,
+    reloadFresh: (t) => `已更新 · 最后抓取 ${t}`,
   },
   "ko": {
     name: "한국어", htmlLang: "ko",
@@ -402,6 +427,12 @@ const UI = {
     errArchive: (d, m) => `${d}판 보관 파일을 읽을 수 없습니다 (${m}).`,
     errRefresh: (m) => `새로고침 실패: ${m}`,
     reloading: "불러오는 중…",
+    rescrape: '다시 수집',
+    rescrapeAsk: 'actions:write 권한이 있는 GitHub 토큰을 붙여넣으세요(이 세션에만 보관되며 페이지에 저장되지 않습니다):',
+    rescrapeSent: '수집을 요청했습니다. 5~8분 후 새로고침을 눌러 주세요.',
+    rescrapeFail: (m) => `실행 실패: ${m}`,
+    reloadSame: (t) => `아직 변경 없음 · 마지막 수집 ${t}`,
+    reloadFresh: (t) => `업데이트됨 · 마지막 수집 ${t}`,
   },
   "de": {
     name: "Deutsch", htmlLang: "de",
@@ -442,6 +473,12 @@ const UI = {
     errArchive: (d, m) => `Archiv für ${d} konnte nicht gelesen werden (${m}).`,
     errRefresh: (m) => `Aktualisierung fehlgeschlagen: ${m}`,
     reloading: "Wird geladen…",
+    rescrape: 'Neu abrufen',
+    rescrapeAsk: 'GitHub-Token mit actions:write einfügen (nur für diese Sitzung, wird nicht in die Seite geschrieben):',
+    rescrapeSent: 'Abruf angefordert. In 5–8 Minuten auf Aktualisieren drücken.',
+    rescrapeFail: (m) => `Auslösen fehlgeschlagen: ${m}`,
+    reloadSame: (t) => `Noch keine Änderung · zuletzt ${t}`,
+    reloadFresh: (t) => `Aktualisiert · zuletzt ${t}`,
   },
   "es": {
     name: "Español", htmlLang: "es",
@@ -482,6 +519,12 @@ const UI = {
     errArchive: (d, m) => `No se pudo leer el archivo de ${d} (${m}).`,
     errRefresh: (m) => `Error al actualizar: ${m}`,
     reloading: "Cargando…",
+    rescrape: 'Volver a recopilar',
+    rescrapeAsk: 'Pega un token de GitHub con permiso actions:write (solo en esta sesión, nunca se guarda en la página):',
+    rescrapeSent: 'Recopilación solicitada. Pulsa Actualizar en 5–8 minutos.',
+    rescrapeFail: (m) => `Error al activar: ${m}`,
+    reloadSame: (t) => `Sin cambios aún · última vez ${t}`,
+    reloadFresh: (t) => `Actualizado · última vez ${t}`,
   },
   "fr": {
     name: "Français", htmlLang: "fr",
@@ -522,6 +565,12 @@ const UI = {
     errArchive: (d, m) => `Impossible de lire l'archive du ${d} (${m}).`,
     errRefresh: (m) => `Échec de la mise à jour : ${m}`,
     reloading: "Chargement…",
+    rescrape: 'Relancer la collecte',
+    rescrapeAsk: 'Collez un jeton GitHub avec la portée actions:write (conservé pour cette session uniquement, jamais écrit dans la page) :',
+    rescrapeSent: 'Collecte demandée. Appuyez sur Actualiser dans 5 à 8 minutes.',
+    rescrapeFail: (m) => `Échec du déclenchement : ${m}`,
+    reloadSame: (t) => `Aucun changement · dernière collecte ${t}`,
+    reloadFresh: (t) => `Mis à jour · dernière collecte ${t}`,
   },
   "it": {
     name: "Italiano", htmlLang: "it",
@@ -562,6 +611,12 @@ const UI = {
     errArchive: (d, m) => `Impossibile leggere l'archivio del ${d} (${m}).`,
     errRefresh: (m) => `Aggiornamento non riuscito: ${m}`,
     reloading: "Caricamento…",
+    rescrape: 'Ripeti la raccolta',
+    rescrapeAsk: 'Incolla un token GitHub con ambito actions:write (conservato solo per questa sessione, mai scritto nella pagina):',
+    rescrapeSent: 'Raccolta richiesta. Premi Aggiorna tra 5–8 minuti.',
+    rescrapeFail: (m) => `Attivazione non riuscita: ${m}`,
+    reloadSame: (t) => `Nessuna variazione · ultima raccolta ${t}`,
+    reloadFresh: (t) => `Aggiornato · ultima raccolta ${t}`,
   },
 };
 
@@ -596,6 +651,11 @@ const CHANNELS = {
 // 分頁標題：產品線是專有名詞，不需翻譯
 const TAB_FIXED = { rtx: "RTX Spark", dgx: "DGX Spark" };
 
+// 填入 "帳號/repo" 才會出現「重新爬取」按鈕。留空則隱藏。
+// token 由使用者按下按鈕時輸入，只存在 sessionStorage，不會寫進這個檔案。
+const GITHUB_REPO = "JerryTsai0603/AI-News";
+const GITHUB_WORKFLOW = "daily-ai-news.yml";
+
 // 品牌是專有名詞，各語言都一樣，不進字典
 const BRAND_FIXED = {
   asus: "ASUS", acer: "Acer", dell: "Dell", hp: "HP",
@@ -621,6 +681,7 @@ const esc = (s) => String(s ?? "").replace(/[&<>"']/g,
 /* ================================================================== */
 
 let dataVer = "—";                 // 資料檔裡的爬蟲版本
+let dataTime = "";                 // 資料檔的擷取時間，用來判斷有沒有真的更新
 let cur = "zh-TW";                 // 目前顯示語言
 let ch = "models";                 // 目前分頁
 let sortBy = "heat";
@@ -817,6 +878,7 @@ async function boot() {
   try {
     const latest = await grab(`${base}/news.json`);
     dataVer = latest.version || "舊版（無版本標記）";
+    dataTime = latest.fetchedAt || "";
     const c = latest.edition;
     loaded.set(c, (latest.items || []).map((it) => ({ ...it, edition: c })));
     F.date.add(c);
@@ -892,9 +954,10 @@ function renderChrome() {
   $("tSort").textContent = t.sort;
   $("tFilter").textContent = t.filter;
   $("tNote").textContent = t.note;
-  $("ver").textContent = `頁面 v7 · 資料 ${dataVer}`;
+  $("ver").textContent = `頁面 v9 · 資料 ${dataVer}`;
   $("clearAll").textContent = t.clearAll;
   $("reload").textContent = t.reload;
+  $("rescrape").textContent = t.rescrape;
   $("ftoggle").textContent = $("rail").classList.contains("collapsed")
     ? t.filterBtn : t.filterHide;
 
@@ -1065,6 +1128,45 @@ function renderAll() { renderChrome(); renderGroups(); renderFeed(); }
 $("uiLang").onchange = () => { cur = $("uiLang").value; savePref(cur); renderAll(); };
 $("sort").onchange = () => { sortBy = $("sort").value; renderFeed(); };
 $("clearAll").onclick = () => { Object.values(F).forEach((s) => s.clear()); renderAll(); };
+if (GITHUB_REPO) {
+  $("rescrape").hidden = false;
+  $("rescrape").onclick = async () => {
+    const t = T();
+    let token = "";
+    try { token = sessionStorage.getItem("ghToken") || ""; } catch {}
+    if (!token) {
+      token = (prompt(t.rescrapeAsk) || "").trim();
+      if (!token) return;
+      try { sessionStorage.setItem("ghToken", token); } catch {}
+    }
+    $("rescrape").disabled = true;
+    try {
+      const res = await fetch(
+        `https://api.github.com/repos/${GITHUB_REPO}/actions/workflows/${GITHUB_WORKFLOW}/dispatches`,
+        {
+          method: "POST",
+          headers: {
+            Authorization: `Bearer ${token}`,
+            Accept: "application/vnd.github+json",
+            "X-GitHub-Api-Version": "2022-11-28",
+          },
+          body: JSON.stringify({ ref: "main" }),
+        });
+      if (res.status === 204) {
+        say(esc(t.rescrapeSent), "good");
+      } else {
+        try { sessionStorage.removeItem("ghToken"); } catch {}
+        const body = await res.text();
+        say(esc(t.rescrapeFail(`${res.status} ${body.slice(0, 120)}`)), "bad");
+      }
+    } catch (err) {
+      say(esc(t.rescrapeFail(err.message)), "bad");
+    } finally {
+      $("rescrape").disabled = false;
+    }
+  };
+}
+
 $("ftoggle").onclick = () => {
   $("rail").classList.toggle("collapsed");
   $("ftoggle").textContent = $("rail").classList.contains("collapsed")
@@ -1072,11 +1174,14 @@ $("ftoggle").onclick = () => {
 };
 $("reload").onclick = async () => {
   const t = T();
+  const before = dataTime;
   $("reload").disabled = true; $("reload").textContent = t.reloading;
   const keep = new Set(F.date);
   loaded.clear(); F.date.clear();
   try {
     const latest = await grab(`${CH().base}/news.json`);
+    dataVer = latest.version || "舊版（無版本標記）";
+    dataTime = latest.fetchedAt || "";
     const c = latest.edition;
     loaded.set(c, (latest.items || []).map((it) => ({ ...it, edition: c })));
     for (const d of keep) {
@@ -1085,7 +1190,11 @@ $("reload").onclick = async () => {
     }
     F.date.add(c);
     if (!editions.includes(c)) editions.unshift(c);
-    merge(); say(""); renderAll();
+    merge(); renderAll();
+    const stamp = dataTime.slice(0, 16).replace("T", " ");
+    say(esc(dataTime && dataTime === before
+      ? t.reloadSame(stamp) : t.reloadFresh(stamp)),
+      dataTime === before ? "" : "good");
   } catch (err) {
     say(esc(t.errRefresh(err.message)), "bad");
   } finally {

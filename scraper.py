@@ -28,6 +28,7 @@
 
 from __future__ import annotations
 
+import concurrent.futures as cf
 import html
 import json
 import math
@@ -45,7 +46,7 @@ import requests
 
 # ---------------------------------------------------------------- 通用設定
 
-SCRAPER_VERSION = "v7"          # 網頁左下角會顯示，用來確認部署的是哪一版
+SCRAPER_VERSION = "v9"          # 網頁左下角會顯示，用來確認部署的是哪一版
 
 TZ = timezone(timedelta(hours=8))
 WINDOW_HOURS = 48
@@ -53,6 +54,11 @@ MAX_ITEMS = 60
 TIMEOUT = 20
 UA = "Mozilla/5.0 (compatible; ai-news-monitor/2.0; +https://github.com/)"
 ROOT = Path(__file__).resolve().parent
+
+# 翻譯的時間上限（分鐘，每個頻道各自計算）。時間到就停手，已翻好的照樣保留。
+TRANSLATE_BUDGET_MIN = int(os.environ.get("TRANSLATE_BUDGET_MIN", "12"))
+# 同時打幾個 API 請求。太高會被限流。
+LLM_WORKERS = int(os.environ.get("LLM_WORKERS", "6"))
 
 TARGET_LANGS = [x.strip() for x in
                 os.environ.get("TARGET_LANGS",
@@ -1086,6 +1092,36 @@ def is_placeholder(v) -> bool:
     return (not t) or t in PLACEHOLDERS or t.endswith("_here")
 
 
+I18N_CACHE_PATH = ROOT / "data" / "i18n-cache.json"
+_cache: dict = {}
+
+
+def load_cache() -> None:
+    global _cache
+    if not I18N_CACHE_PATH.exists():
+        _cache = {}
+        return
+    try:
+        _cache = json.loads(I18N_CACHE_PATH.read_text(encoding="utf-8"))
+        log(f"譯文快取載入 {len(_cache)} 筆")
+    except Exception:
+        _cache = {}
+
+
+def save_cache() -> None:
+    """只留最近 30 天，避免檔案無限膨脹。"""
+    cutoff = (datetime.now(TZ) - timedelta(days=30)).strftime("%Y-%m-%d")
+    trimmed = {k: v for k, v in _cache.items() if v.get("d", "") >= cutoff}
+    I18N_CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
+    I18N_CACHE_PATH.write_text(json.dumps(trimmed, ensure_ascii=False),
+                               encoding="utf-8")
+    log(f"譯文快取存檔 {len(trimmed)} 筆")
+
+
+def cache_key(url: str, lang: str) -> str:
+    return f"{url.split('?')[0]}|{lang}"
+
+
 def parse_rows(text: str) -> list[dict]:
     """盡量從回應裡撈出物件。整批解析失敗就逐個搶救，不讓一顆壞蘋果毀掉整批。"""
     if not text:
@@ -1139,10 +1175,12 @@ def add_summaries(items: list[dict]) -> None:
         log("找不到任何 API 金鑰，略過摘要與翻譯（網頁會顯示原文）")
         log("  可用的環境變數：" + "、".join(e for _, e, _, _, _ in PROVIDERS))
         return
-    done = 0
-    for start in range(0, len(items), 10):
-        chunk = [{"i": i, "t": items[i]["title"], "s": items[i].get("summary", "")[:150]}
-                 for i in range(start, min(start + 10, len(items)))]
+    chunks = [list(range(i, min(i + 10, len(items))))
+              for i in range(0, len(items), 10)]
+
+    def one(idxs):
+        chunk = [{"i": i, "t": items[i]["title"],
+                  "s": items[i].get("summary", "")[:150]} for i in idxs]
         prompt = (
             "為下列每一則新聞寫一句 45 字以內的繁體中文摘要，點出具體事實。\n"
             f"輸出格式：每行一個 JSON 物件，共 {len(chunk)} 行，"
@@ -1153,15 +1191,21 @@ def add_summaries(items: list[dict]) -> None:
             + "\n".join(json.dumps(c, ensure_ascii=False) for c in chunk)
         )
         try:
-            for row in llm_rows(prompt, 3000):
+            return llm_rows(prompt, 3000)
+        except Exception as exc:
+            log(f"  ✗ 摘要一批失敗：{exc}")
+            return []
+
+    filled = set()
+    with cf.ThreadPoolExecutor(max_workers=LLM_WORKERS) as pool:
+        for rows in pool.map(one, chunks):
+            for row in rows:
                 i = row.get("i")
                 if (isinstance(i, int) and 0 <= i < len(items)
-                        and not is_placeholder(row.get("s"))):
+                        and i not in filled and not is_placeholder(row.get("s"))):
                     items[i]["summary"] = row["s"]
-                    done += 1
-        except Exception as exc:
-            log(f"  ✗ 摘要第 {start // 10 + 1} 批失敗：{exc}")
-    log(f"  ✓ 已摘要 {done}/{len(items)} 則")
+                    filled.add(i)
+    log(f"  ✓ 已摘要 {len(filled)}/{len(items)} 則")
 
 
 def add_translations(items: list[dict]) -> None:
@@ -1170,38 +1214,53 @@ def add_translations(items: list[dict]) -> None:
     if not get_llm():
         return
 
+    deadline = time.time() + TRANSLATE_BUDGET_MIN * 60
+
     for lang in TARGET_LANGS:
         name = LANG_NAMES.get(lang, lang)
         reuse = REUSE_ORIGINAL.get(lang)
 
-        todo = []
+        todo, reused, cached = [], 0, 0
         for idx, it in enumerate(items):
             if reuse and it.get("lang") == reuse:
-                it["i18n"][lang] = {"title": it["title"], "summary": it.get("summary", "")}
-            else:
-                todo.append(idx)
+                it["i18n"][lang] = {"title": it["title"],
+                                    "summary": it.get("summary", "")}
+                reused += 1
+                continue
+            hit = _cache.get(cache_key(it["url"], lang))
+            if hit and hit.get("t"):
+                it["i18n"][lang] = {"title": hit["t"], "summary": hit.get("s", "")}
+                cached += 1
+                continue
+            todo.append(idx)
 
         if not todo:
-            log(f"  {name}：全部為原文，免翻譯")
+            log(f"  {name}：原文 {reused} 則、快取 {cached} 則，免翻譯")
             continue
 
-        done = 0
-        for start in range(0, len(todo), 8):
-            batch = todo[start:start + 8]
+        if time.time() > deadline:
+            log(f"  ⏱ {name}：已用完 {TRANSLATE_BUDGET_MIN:g} 分鐘的翻譯預算，"
+                f"剩下 {len(todo)} 則顯示原文")
+            continue
+
+        batches = [todo[i:i + 8] for i in range(0, len(todo), 8)]
+
+        def one(batch, _name=name):
+            if time.time() > deadline:
+                return []
             payload = [{"i": i, "t": items[i]["title"],
                         "s": (items[i].get("summary") or "")[:200]} for i in batch]
             prompt = (
-                f"把下列新聞的標題與摘要翻譯成{name}。\n\n"
+                f"把下列新聞的標題與摘要翻譯成{_name}。\n\n"
                 "【最重要的規則】公司名、品牌名、產品名與型號一律保留英文原樣，"
                 "絕對不可意譯。例如：\n"
                 "  Anthropic → Anthropic（不是「人性」）\n"
                 "  Claude Fable 5.1 → Claude Fable 5.1（不是「克勞德寓言」）\n"
-                "  Claude Mythos → Claude Mythos（不是「神話」）\n"
                 "  DGX Spark / RTX Spark / GB10 / GPT-5 / Gemini / Grok → 原樣保留\n\n"
                 "其他規則：\n"
                 "- 標題譯得像新聞標題，簡潔有力；不要保留來源媒體名的尾綴。\n"
                 "- 摘要 60 字以內；原本沒有摘要就給空字串。\n"
-                "- 只翻譯我給的內容，不要自己編造，也不要輸出下方格式範例裡的佔位符。\n\n"
+                "- 只翻譯我給的內容，不要編造，也不要輸出格式範例裡的佔位符。\n\n"
                 f"輸出格式：每行一個 JSON 物件，共 {len(payload)} 行，"
                 "不要陣列括號、不要 markdown、不要任何說明文字。\n"
                 '格式範例（TITLE_HERE 要換成真正的譯文）：'
@@ -1210,21 +1269,41 @@ def add_translations(items: list[dict]) -> None:
                 + "\n".join(json.dumps(c, ensure_ascii=False) for c in payload)
             )
             try:
-                for row in llm_rows(prompt, 4000):
-                    i = row.get("i")
-                    if (isinstance(i, int) and 0 <= i < len(items)
-                            and not is_placeholder(row.get("t"))):
-                        sm = row.get("s", "")
-                        items[i]["i18n"][lang] = {
-                            "title": row["t"],
-                            "summary": "" if is_placeholder(sm) else sm,
-                        }
-                        done += 1
+                return llm_rows(prompt, 4000)
             except Exception as exc:
-                log(f"  ✗ {name} 第 {start // 8 + 1} 批失敗：{exc}")
-            time.sleep(0.4)
-        log(f"  ✓ {name}：翻譯 {done}/{len(todo)} 則"
-            + ("" if done == len(todo) else "（其餘顯示原文）"))
+                log(f"  ✗ {_name} 一批失敗：{exc}")
+                return []
+
+        filled = set()
+        wanted = set(todo)
+        today = datetime.now(TZ).strftime("%Y-%m-%d")
+        with cf.ThreadPoolExecutor(max_workers=LLM_WORKERS) as pool:
+            for rows in pool.map(one, batches):
+                for row in rows:
+                    i = row.get("i")
+                    # 只接受這一輪真的要翻的索引，且每則只算一次
+                    if not (isinstance(i, int) and i in wanted and i not in filled):
+                        continue
+                    if is_placeholder(row.get("t")):
+                        continue
+                    sm = row.get("s", "")
+                    sm = "" if is_placeholder(sm) else sm
+                    items[i]["i18n"][lang] = {"title": row["t"], "summary": sm}
+                    _cache[cache_key(items[i]["url"], lang)] = {
+                        "t": row["t"], "s": sm, "d": today}
+                    filled.add(i)
+        done = len(filled)
+
+        note = []
+        if reused:
+            note.append(f"原文 {reused}")
+        if cached:
+            note.append(f"快取 {cached}")
+        left = len(todo) - done
+        if left > 0:
+            note.append(f"未譯 {left}")
+        log(f"  ✓ {name}：新譯 {done}/{len(todo)} 則"
+            + (f"（{', '.join(note)}）" if note else ""))
 
 
 # ---------------------------------------------------------------- 單一頻道
@@ -1276,7 +1355,9 @@ def run_channel(name: str) -> int:
         f"{i['heat']}({i.get('dupes', 0) + 1}家)"
         for i in sorted(items, key=lambda x: -x["heat"])[:5]))
     add_summaries(items)
+    load_cache()
     add_translations(items)
+    save_cache()
 
     out = cfg["out"]
     archive = out / "archive"
