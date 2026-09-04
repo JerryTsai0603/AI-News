@@ -1,7 +1,7 @@
 {
  "channel": "models",
  "version": "v10",
- "fetchedAt": "2026-09-05T00:50:22.927529+08:00",
+ "fetchedAt": "2026-09-05T07:39:52.092839+08:00",
  "edition": "2026-09-05",
  "count": 60,
  "languages": [
@@ -16,95 +16,64 @@
   "it"
  ],
  "byGroup": {
-  "openai": 22,
-  "anthropic": 14,
-  "google": 11,
+  "openai": 24,
+  "anthropic": 16,
+  "google": 8,
   "meta": 0,
-  "cn": 4,
-  "other": 14
+  "cn": 3,
+  "other": 18
  },
  "byLine": {},
  "items": [
   {
-   "title": "Google rolls out Lyria 3.5 across Gemini and API - Latest news from Azerbaijan",
-   "source": "Latest news from Azerbaijan",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1UQ3luQUQxUWdBRW12ZTIxYWFwVlo4SkhXUlZ3UVFwaERMVmlqWlN1UjBxangyTXJqSkVwNUxSdTQ1Y2tkTnpSalU1X2ZRZGI1VlJmM1d4elhTanpNaThqdWMzeTFiNnEyUVJZTndZOW1wQ2poSTVv?oc=5",
-   "date": "2026-09-05 00:48",
-   "publishedAt": "2026-09-05T00:48:17+08:00",
-   "summary": "",
-   "models": [
-    "Gemini"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "google"
-   ],
-   "press": false,
-   "heat": 15,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Google rolls out Lyria 3.5 across Gemini and API - Latest news from Azerbaijan",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Claude ile Otomatik Reklam Üretimi: Sanılandan Çok Daha Kolay / Buzzy AI Tanıtım",
-   "source": "YouTube · Enes Özcan ile Yapay Zeka",
-   "url": "https://www.youtube.com/watch?v=Kdlic6vkwQI",
-   "date": "2026-09-05 00:45",
-   "publishedAt": "2026-09-05T00:45:19+08:00",
-   "summary": "Yapay zeka dünyasında çok az kişinin farkında olduğu bir gelişme var: Artık ürününüz için ultra kaliteli reklam videolarını, siz hiçbir şey yapmadan, hatta uyurken bile otomatik olarak ürettirebiliyor",
-   "models": [
-    "Claude"
-   ],
+   "title": "OpenAI GPT-6 Astra Launches with Critical-Level Cybersecurity Skills | Tech Update #Shorts",
+   "source": "YouTube · College Eduventures",
+   "url": "https://www.youtube.com/watch?v=JdNE3tGOn1s",
+   "date": "2026-09-05 07:29",
+   "publishedAt": "2026-09-05T07:29:44+08:00",
+   "summary": "Today's update: 1. OpenAI GPT-6 Astra Launches with Critical-Level Cybersecurity Skills OpenAI released GPT-6 Astra on September 3, 2026, calling it its first model to reach the Critical cybersecurity",
+   "models": [],
    "tag": "影片",
    "camps": [
-    "anthropic"
+    "openai"
    ],
    "press": false,
    "heat": 100,
-   "image": "https://i.ytimg.com/vi/Kdlic6vkwQI/mqdefault.jpg",
-   "views": 1384235,
-   "comments": 108,
+   "image": "https://i.ytimg.com/vi/JdNE3tGOn1s/mqdefault.jpg",
+   "views": 254191,
+   "comments": 142,
    "dupes": 83,
    "also": [
-    "YouTube · Dads Learning AI",
-    "YouTube · 資安快報",
-    "YouTube · MUNDO CLIP",
-    "YouTube · Fathom Media",
-    "YouTube · AI инструменты",
-    "YouTube · Coding With Moji"
+    "YouTube · replacewithclaude",
+    "YouTube · 岡田崇のAI経営 | 寝ろ。",
+    "YouTube · Market Briefs",
+    "YouTube · 199bois",
+    "YouTube · Future of Work Training Institute ",
+    "YouTube · Jack Mandeville | AI Made Easy"
    ],
    "lines": [],
-   "score": 24331,
+   "score": 9946,
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "Claude ile Otomatik Reklam Üretimi: Sanılandan Çok Daha Kolay / Buzzy AI Tanıtım",
-     "summary": "Yapay zeka dünyasında çok az kişinin farkında olduğu bir gelişme var: Artık ürününüz için ultra kaliteli reklam videolarını, siz hiçbir şey yapmadan, hatta uyurken bile otomatik olarak ürettirebiliyor"
+     "title": "OpenAI GPT-6 Astra Launches with Critical-Level Cybersecurity Skills | Tech Update #Shorts",
+     "summary": "Today's update: 1. OpenAI GPT-6 Astra Launches with Critical-Level Cybersecurity Skills OpenAI released GPT-6 Astra on September 3, 2026, calling it its first model to reach the Critical cybersecurity"
     }
    }
   },
   {
-   "title": "PhotoDirector 365 迎 AI PC 模式 多項生成式修圖工具可直接在電腦執行 - PChome Online 新聞",
-   "source": "PChome Online 新聞",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOLVFKbFBiSmdCeVJiRzZvY0NkanNhZU5qTGZSWUY4Mk0zZ2VqdWhDSnlPUHAwWFZNS2c2X2V6YlVWRXlWdEtSX25YbVhvYk1sMHVEMTE0VEFfUENKNXZZMmozb2c5NDVEckZ4X1Ftd0xCT3ZBcEdFTnhxTDdlX2JqMTVFQlN2c0E?oc=5",
-   "date": "2026-09-05 00:43",
-   "publishedAt": "2026-09-05T00:43:59+08:00",
+   "title": "GPT-6 Astra 正式開放使用！OpenAI 全面開通 ChatGPT Work、Codex 與 API 存取 - 硬是要學",
+   "source": "硬是要學",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOeXZFb0xSd2RXUjZoQndyMHh1ZWNVNmRBN0gzNmZVUW90SW9aTmVCYmtUZEFuc3RQS29ab2QyZXVKb0ZPNm8zQjVEQkEzc0oyZXhmMndVUXFPWERCdnBMclF6OUUzamdBT1haV0ZoUmNhd1MyZXlZUVRDSWwwOUZwc0x3bzVaWUg4YzVIaWxNUERNMGFM?oc=5",
+   "date": "2026-09-05 07:28",
+   "publishedAt": "2026-09-05T07:28:55+08:00",
    "summary": "",
-   "models": [],
+   "models": [
+    "ChatGPT"
+   ],
    "tag": "產品發表",
    "camps": [
-    "other"
+    "openai"
    ],
    "press": false,
    "heat": 15,
@@ -118,7 +87,1031 @@
    "lang": "zh",
    "i18n": {
     "zh-TW": {
+     "title": "GPT-6 Astra 正式開放使用！OpenAI 全面開通 ChatGPT Work、Codex 與 API 存取 - 硬是要學",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
+   "date": "2026-09-05 07:15",
+   "publishedAt": "2026-09-05T07:15:11+08:00",
+   "summary": "OpenAI’s latest agent swarm incident adds urgency to calls for independent investigations as researchers and lawmakers question whether AI labs should control the scope of their own safety reviews.",
+   "models": [],
+   "tag": "安全",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
+     "summary": "OpenAI’s latest agent swarm incident adds urgency to calls for independent investigations as researchers and lawmakers question whether AI labs should control the scope of their own safety reviews."
+    }
+   }
+  },
+  {
+   "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
+   "source": "Ars Technica",
+   "url": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/",
+   "date": "2026-09-05 06:17",
+   "publishedAt": "2026-09-05T06:17:36+08:00",
+   "summary": "In all, 3,700 internal agents posted 18,000 messages discussing cheating on a test.",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/ai-agent-hacking-1152x648.jpg",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
+     "summary": "In all, 3,700 internal agents posted 18,000 messages discussing cheating on a test."
+    }
+   }
+  },
+  {
+   "title": "DeepSeek Plans 160,000-Huawei Chip AI Center in Inner Mongolia - Briefs Finance",
+   "source": "Briefs Finance",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdm40cWtyaEUwS3B4d1o4dzFCWVBqa2dCaFprdXRxUjgxV1o2X3QzaXZnMXNQWF9lYm41N1UxaFFoek9nWUQzUFJEb1VJc3k0WWFrVDZmaE15amN4ZjF6OC05RncxMHdQVlFMX3lReTJqOUhzUjZCMmswa2xOQnR0alpEeDhNUk85TlpEckhpZ1FMUQ?oc=5",
+   "date": "2026-09-05 06:14",
+   "publishedAt": "2026-09-05T06:14:21+08:00",
+   "summary": "",
+   "models": [
+    "DeepSeek"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "cn"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "DeepSeek Plans 160,000-Huawei Chip AI Center in Inner Mongolia - Briefs Finance",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "美中擬9月中旬啟動AI安全對話 模型「蒸餾」與網攻風險成兩大議題 - news.cnyes.com",
+   "source": "news.cnyes.com",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9xQWxad003OWV1cGY2VHBERlNiV1lPbVpiSTNWVWExbjM3bDFfOHFyb0c1TXhDQXpqZC02aW9aajdOdVZVV3RDVl9odVpUVkk?oc=5",
+   "date": "2026-09-05 06:03",
+   "publishedAt": "2026-09-05T06:03:27+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "美中擬9月中旬啟動AI安全對話 模型「蒸餾」與網攻風險成兩大議題 - news.cnyes.com",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Google 宣布 Lyria 3.5 音樂生成模型於 Gemini 應用程式推出 - Techritual",
+   "source": "Techritual",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1Wdlpwd2E2LXJ2b2p6R1lnYmM3QlJDd1JZYm5QWjMtUVVXcW4xVTJwZnJ2N24yZDJRelBLZF9FbFdpZjVsc3VNUWpjc2RQekhRN2swX2N4am0?oc=5",
+   "date": "2026-09-05 06:00",
+   "publishedAt": "2026-09-05T06:00:53+08:00",
+   "summary": "",
+   "models": [
+    "Gemini"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "google"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "Google 宣布 Lyria 3.5 音樂生成模型於 Gemini 應用程式推出 - Techritual",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "PhotoDirector 365 迎 AI PC 模式 多項生成式修圖工具可直接在電腦執行 - PChome Online 新聞",
+   "source": "PChome Online 新聞",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOLVFKbFBiSmdCeVJiRzZvY0NkanNhZU5qTGZSWUY4Mk0zZ2VqdWhDSnlPUHAwWFZNS2c2X2V6YlVWRXlWdEtSX25YbVhvYk1sMHVEMTE0VEFfUENKNXZZMmozb2c5NDVEckZ4X1Ftd0xCT3ZBcEdFTnhxTDdlX2JqMTVFQlN2c0E?oc=5",
+   "date": "2026-09-05 05:46",
+   "publishedAt": "2026-09-05T05:46:05+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
      "title": "PhotoDirector 365 迎 AI PC 模式 多項生成式修圖工具可直接在電腦執行 - PChome Online 新聞",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
+   "date": "2026-09-05 05:12",
+   "publishedAt": "2026-09-05T05:12:11+08:00",
+   "summary": "Nscale, which recently struck a $45 billion deal with Anthropic, is in talks to raise additional funds in anticipation of an upcoming IPO.",
+   "models": [],
+   "tag": "商業",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
+     "summary": "Nscale, which recently struck a $45 billion deal with Anthropic, is in talks to raise additional funds in anticipation of an upcoming IPO."
+    }
+   }
+  },
+  {
+   "title": "Nathan Labenz on GPT-6 Astra: OpenAI's Most Powerful Model Is Also Its Least Monitorable - finance.biggo.com",
+   "source": "finance.biggo.com",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1paGdSUW9HZUFCWU9pNFBmSF9mdWtiMjJZVXhJT2xWUmFYSVFsUDFDMVp3bGhqRnVrXzU3ZU1xalZ4dlBpcVBpSWdYZFl6UFFXVlRIN2JvaDhhUHc?oc=5",
+   "date": "2026-09-05 05:08",
+   "publishedAt": "2026-09-05T05:08:00+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Nathan Labenz on GPT-6 Astra: OpenAI's Most Powerful Model Is Also Its Least Monitorable - finance.biggo.com",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "討論牆 | AI集體罷工？ChatGPT、Claude和Grok大當機 - LINE TODAY",
+   "source": "LINE TODAY",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBseUdWeVlsXzIzajlrQjkxR3kxbWt6YkxFbXRHaWRxR1RvSzJ1TkpZc3F4a2F0VUhoa2lfREducjlRVDR0cTRPUlZLYkdRbWh3Zl93X0JNSXpEV1J4X1hCaEU3M3Y?oc=5",
+   "date": "2026-09-05 05:02",
+   "publishedAt": "2026-09-05T05:02:34+08:00",
+   "summary": "",
+   "models": [
+    "ChatGPT",
+    "Claude",
+    "Grok"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "anthropic",
+    "other"
+   ],
+   "press": false,
+   "heat": 22,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "討論牆 | AI集體罷工？ChatGPT、Claude和Grok大當機 - LINE TODAY",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Anthropic Claude 進軍 CarPlay 支援免提對話功能 - NewMobileLife",
+   "source": "NewMobileLife",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBCTWxzek5hdVdNYWtSV0NIazVKSjFaQ243c0NCUmhqYWttZnFTUUo2dGxJRWFoaEdTYUI0YVBRdWtRaUJZSVVtdHp5WkRMcGRDWGFLLWxQSFZ4Tk9nS2FqYmY4eVdjRkVwWHJRX0RNRTI2NmpFZXlIY3RiemxVUQ?oc=5",
+   "date": "2026-09-05 05:02",
+   "publishedAt": "2026-09-05T05:02:13+08:00",
+   "summary": "",
+   "models": [
+    "Claude"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "Anthropic Claude 進軍 CarPlay 支援免提對話功能 - NewMobileLife",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Anthropic’s Claude formalizes Fermat’s Last Theorem in 11 days - Crypto Briefing",
+   "source": "Crypto Briefing",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZXZ1dld6RGl5ZjkwZTFiOHE4cDdnQl9NMEpyZkV0Qk9TYm1YNTlWMHNnZVY3bTN5OVlWN2Nnc0h0RnVDWi1uZV9qcEstZ3JWQzFCNFpWRkxmMFhOTV81VVVaSWdoMzdNYWZYdkJRd01Pdlh1TWF5YWFnbXlUWEZIZXFaWVFxOTJnWl9KcmF2LWlhQQ?oc=5",
+   "date": "2026-09-05 04:55",
+   "publishedAt": "2026-09-05T04:55:27+08:00",
+   "summary": "",
+   "models": [
+    "Claude"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Anthropic’s Claude formalizes Fermat’s Last Theorem in 11 days - Crypto Briefing",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "討論牆 | OpenAI 砸 10 億美元，補助水電業者、政府強化 AI 資安防禦 - LINE TODAY",
+   "source": "LINE TODAY",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5PN2FTYlVFY3BlcUJfNFdRX0ZRdWRMV0lYUDY4cXFuZUJXRW5GcDFORTFoMEp1a2pFYVFoRUpGd2xIRW9kY3gwSkRESUppelpEUGFJWGpmcEs0Tl9UUVotNEI4SDI?oc=5",
+   "date": "2026-09-05 04:42",
+   "publishedAt": "2026-09-05T04:42:20+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "安全",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "討論牆 | OpenAI 砸 10 億美元，補助水電業者、政府強化 AI 資安防禦 - LINE TODAY",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "OpenAI officially launches GPT-6 Astra: How to try it - mashable.com",
+   "source": "mashable.com",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQclRjZ0xlbS1mTGxpUzdrUzljUW9UcnZWNjlWX3lRS3VWb0x6aTJrd2o5WEdGMkNDNVpuR2pDTHAtSV9sc1lpX3hiZGtLNGRCN2VXTjBnY0RXeVg2dTQybWtmV3MzNWVoZVhyeTdVZkF6enZDSTB4LU51ek92dTk1U0wzRQ?oc=5",
+   "date": "2026-09-05 04:41",
+   "publishedAt": "2026-09-05T04:41:13+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "OpenAI officially launches GPT-6 Astra: How to try it - mashable.com",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "OpenAI推新模型 「通用AI時代來臨」 認Astra有逃避監管風險 已過白宮審批只供較高端客戶 - 20260905 - 國際 - 明報新聞網",
+   "source": "明報新聞網",
+   "url": "https://news.google.com/rss/articles/CBMisARBVV95cUxQOFJzZTJLZzY2UDA3ZGRFWEQteWZ2bDFIY2VZMjBLR2ZQWEhHLU40bjJRRFJfWnVFMy1SODZUUWNLZkttMzF2dDllWVNuRHRKdkpJRGg2MzdoaTZZd1dUYWRZOXpPRzFzVWdhaDMyUGFvc1JaY3h5aGlELWR3WmpoT2xhX2JPakt3X2g0NE1RNlhZX2lfaDJuczZlei1NYXh0cEtYdnRMenBwaFE0ekMyMU5LOElCM1ZIWV9rLWpTTGRyRmpOV1lJWWp3OFdONU4wZW9rY1ZtLVowVGtFMnFxQjBZaVljYXJsSGZpU1NudS1SRGFmdzdfbFRIQW90bHBfSzN0cEVubGpOdTg2QmlEZHhOU0d4cDBPdGJMSlZvaUdEUXpibEJtdkk3aTZZc2V0RXNTQVRWU3ZkWVMzVl9nTGVOZzBsUUFkZXRhaTFYbEh5V2JqX21uR2kxNllvc0xBVkZLU2Y3dE1EZlhMc1ZCeTNlQ0VPWDVOY2I1elhBeXhSQnRYdllPaE9HVWJqNWFCSzNXVFZMcEMwZnN6OTM0dXNINjgzMy1tcXVHSUFUaV9CVWM3ZUpfR3JlLTliVjd3a1k1dlFqbHlqbFZza0RLWUJ4SUhNaDFiN3hjWUlhajlQZXZ2YzRObWVjRXh0Zm4zcVdfN2p3ZTdOVHV1Z0FqQnVWb1QyZUZMblN2WTNWdGxTMU0xaElIbGZGM2F0clEyaF9CZ2dmUzd2VUlBMHJraA?oc=5",
+   "date": "2026-09-05 04:26",
+   "publishedAt": "2026-09-05T04:26:15+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "政策",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "OpenAI推新模型 「通用AI時代來臨」 認Astra有逃避監管風險 已過白宮審批只供較高端客戶 - 20260905 - 國際 - 明報新聞網",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Google推出Lyria 3.5音樂生成模型，正式登陸Gemini應用程式 作者 Investing.com - Investing.com 香港 - 股市報價& 財經新聞",
+   "source": "Investing.com 香港 - 股市報價& 財經新聞",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1ZUHkxNzFVclN2Q2NWR1JpWEVfV2x4X1VpTmkwOUlHNWgtMVB0MTYtQ2tTTlo0TTd4eUxqUkx2NHBCSm5uMVpCN19hTThnN0ZaYVlSdlJqYUo5SHVEdFBvQWpYNzR1enFZVnNJWWlPbjV3UVFKU2lR?oc=5",
+   "date": "2026-09-05 03:36",
+   "publishedAt": "2026-09-05T03:36:36+08:00",
+   "summary": "",
+   "models": [
+    "Gemini"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "google"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "Google推出Lyria 3.5音樂生成模型，正式登陸Gemini應用程式 作者 Investing.com - Investing.com 香港 - 股市報價& 財經新聞",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Anthropic’s Claude Can Now Autonomously Run Science Experiments With Lab Equipment - SingularityHub",
+   "source": "SingularityHub",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUXU2M0tNU2N6SFdMQkhGQnhVUUxFUXl2eTl4WWlKX1dsTGdNVWc4alVxQV9nQ1RkSkI2dG0wZzg1MkpyQnlGWkRGcEcxaWtiTkd1ejd6VGRVMWxfbVhvR0h2Vjh1NmlOdl9JcWVyOGdBMnJVellhUnFLMncwUC1ZR0NTVTkxMzR1NFZwam51Qms4X0ZGOE9OUWdBYkpPRjcwSmpEa0xXbDdxamlHNGpmSmg3YXgxS3RNOUthWg?oc=5",
+   "date": "2026-09-05 03:08",
+   "publishedAt": "2026-09-05T03:08:33+08:00",
+   "summary": "",
+   "models": [
+    "Claude"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Anthropic’s Claude Can Now Autonomously Run Science Experiments With Lab Equipment - SingularityHub",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "US And China Reportedly Prepare For High-Stakes AI Safety Dialogue As Cyber Threats Surge Globally - TradingView",
+   "source": "TradingView",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPSUpUbl8zRkhuendDYUVyNmM1WkpCVzFMMS1HTlRRX0RfeldUeU40LVRrV09mSVhNRFMwWE1BS2g4dEFRNUFtY2FlRlZ4QUhEUk9VTU9QU1FLMTBKZDVkN1Y1Zy1iSkVqazNjOGpqcjFoVGlvTF9SYWpPRUlNYlBsQTBqRDVubzdHMFlHMDRNM1JHejg0c3pobnhBdXRVcEVrWW1GV2dNbS1MQy1mdXNYamVyUjJiV09CUHZSY290NTlUNHhLb25rMVB4Y2pkYThMWF9GWnc4ellmY0VDenJYU2kxWEY0UGxNMFk1T2Rpbnk?oc=5",
+   "date": "2026-09-05 02:58",
+   "publishedAt": "2026-09-05T02:58:18+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "安全",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "US And China Reportedly Prepare For High-Stakes AI Safety Dialogue As Cyber Threats Surge Globally - TradingView",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "OpenAI releasing major upgrade to ChatGPT and Codex with GPT-6 Astra, details here - 9to5Mac",
+   "source": "9to5Mac",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxONURaTGtWdVZQb2hZZXBBd0t3YjZ6NHhDVDlzZ3U1Qi1OUHJSamxfVE5QVk01YnF6M0h5N1ZaYXZFTXEzNDhJWndTd2lsODBUQ2lWUWVTWURsblVnS1lzM1pMQXpDaV9rbzFzRnZ5cUNjYVMyTVMwRDAySVdWY1hGV3V2VFM1eDZlcnIyaEhhamt4dHZfNTB6Tld0SzZnREhHaDlWZHhhTXpnMVV2NmozN2lMVURLRFkwdTdkRlIzSVoxNHNLcDROaXExYk1Mdw?oc=5",
+   "date": "2026-09-05 02:52",
+   "publishedAt": "2026-09-05T02:52:00+08:00",
+   "summary": "",
+   "models": [
+    "ChatGPT"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 22,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "OpenAI releasing major upgrade to ChatGPT and Codex with GPT-6 Astra, details here - 9to5Mac",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "WeatherNext 3: Google DeepMind Targets Renewable Grid Gap With Hourly Satellite Forecasts - Tech Times",
+   "source": "Tech Times",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOSEEza2pGUXRYMWVBRWplWVFPUnBYdlQ3SzBoYlk3Mi1mZEdZVTN2Vjd1WXlab2MzSXl0cGZpMGh0OGMtRGFRLWxSM0ZkZ2JCR3NIVXRqU3NUYXZmUHJmcmhUVGt5bC1wQkxNbzBLVFVGNFd2TkpyZF9UcW1FY1pFRHdTcUx1TzZtYWVERloxcDc1eldwOGhKaG8tQlR0ZjAtX2RITEZpV01wVEdWUC1EUFlVMVJCZzJBRUVaeldybFY2OTZNZTdobk12SmlsOVVmYUhzRg?oc=5",
+   "date": "2026-09-05 02:49",
+   "publishedAt": "2026-09-05T02:49:34+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "google"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "WeatherNext 3: Google DeepMind Targets Renewable Grid Gap With Hourly Satellite Forecasts - Tech Times",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Architecting memory and storage in the AI era",
+   "source": "MIT Tech Review",
+   "url": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/",
+   "date": "2026-09-05 02:39",
+   "publishedAt": "2026-09-05T02:39:19+08:00",
+   "summary": "The era of AI inference has arrived. Imagine a healthcare system analyzing millions of data points in real time to accelerate life-saving medical research, or an intelligent assistant instantly resolving thousands of com",
+   "models": [],
+   "tag": "研究",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Architecting memory and storage in the AI era",
+     "summary": "The era of AI inference has arrived. Imagine a healthcare system analyzing millions of data points in real time to accelerate life-saving medical research, or an intelligent assistant instantly resolving thousands of com"
+    }
+   }
+  },
+  {
+   "title": "OpenAI Launch GPT-6 Astra to Accelerate Enterprise Workflows - Mexico Business News",
+   "source": "Mexico Business News",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObXNGbWFDdXI1Q3JreHVxTFEwMllSc0RubkM1MGJESmN1Tm9oZmhxZjY4Y1R4R1EwY2o2bHFkYXBlVnFSUHhuaDFzWkxUOXZGR0YwRzd2VmxyMEtjNWFjQmxPWEFwbWxtYVRvMjk4a1BDWFp2MklqSWZEMXNRTUFoRHF0QmMzTXRKZTRzWnJxaFRlVHROcjgxbUJhUmM3Q3doMnpDbnJ3?oc=5",
+   "date": "2026-09-05 02:14",
+   "publishedAt": "2026-09-05T02:14:35+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "OpenAI Launch GPT-6 Astra to Accelerate Enterprise Workflows - Mexico Business News",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "OpenAI warns about how good Astra model is at cracking cybersecurity, releases it anyway because it took 'years of research and big bets' - TechRadar",
+   "source": "TechRadar",
+   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNQWFiMnlGMFJwUmY3aVNBaXpEWFpiWVdiVHVKR253Q1E1ckQwRHRseUN1QzV0SUJONXprVTYwaXl0Vnp6VUV0dndNVlJSVy1JMmRhWGI0dy1sSW53ZUgtY1RsT0VJTzBCR0ZXV29tVVJRc3VhTTVkQ2syU3VOLVVOdTBnMXJ4ZVY0M3c4Rm1zRGFOd3B1cTdDcXZ2RkRVcUdBU0dGRmp2Y0d3SnBOaDdyNW0tRlkwampoaXJablJsa0RkX3ZyT212VVRoRWcwdkY0bVI4YnZVanJOdmJHX3BlTnl6NUU1a041eXdncmZnTGRUaUtrNEViclliZ1MtVFpJbVhV?oc=5",
+   "date": "2026-09-05 02:10",
+   "publishedAt": "2026-09-05T02:10:00+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "研究",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "OpenAI warns about how good Astra model is at cracking cybersecurity, releases it anyway because it took 'years of research and big bets' - TechRadar",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "【即時新聞】防範網路攻擊成焦點！中美9月重啟AI安全對話，OpenAI(OPENAI)漏洞引關注 - CMoney投資網誌",
+   "source": "CMoney投資網誌",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNaTdRYzFCYjJRd0daNXhpR01wWXE0dFViUlhCRHJYYmc5WEd3OVVIMHVvZjJpek1UUFhpQTJsZjdiVUxRNzY1Z1ZNZDh4MUFQUUpaVXdUdURiS0dDSEZPb3ZEX0JaT0ZDeTQxcF82T1pCeUExT2VNWl9xeVlqRWk4LUx5T1l2RlI1dmQ4Vm1WQ3A?oc=5",
+   "date": "2026-09-05 02:06",
+   "publishedAt": "2026-09-05T02:06:09+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "商業",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "【即時新聞】防範網路攻擊成焦點！中美9月重啟AI安全對話，OpenAI(OPENAI)漏洞引關注 - CMoney投資網誌",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Roland is getting into generative AI music with Melody Flip",
+   "source": "The Verge AI",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip",
+   "date": "2026-09-05 01:51",
+   "publishedAt": "2026-09-05T01:51:35+08:00",
+   "summary": "It's not quite the \"push button; get song\" of Suno, but Roland's new Melody Flip tool marks the company's foray into generative AI music. Available as a plug-in for your digital audio workstation (DAW), Melody Flip offer",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Roland is getting into generative AI music with Melody Flip",
+     "summary": "It's not quite the \"push button; get song\" of Suno, but Roland's new Melody Flip tool marks the company's foray into generative AI music. Available as a plug-in for your digital audio workstation (DAW), Melody Flip offer"
+    }
+   }
+  },
+  {
+   "title": "OpenAI Launches GPT-6 Astra, Its Most Powerful And Aligned AI Model - Tekedia",
+   "source": "Tekedia",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaExOM0lQejhCZlZXZkR3eXJNeFlmeWZNZl9IWUliNEtWQWJZZUE3WW1uVGllak5hOHU4UE1sOXR4OF9hall4Vm9peGRUM3FGQ3VhdEtPRDhMSlRxLVQtUUNRLUQ1MU9YcG9vV2JkeTNxR2dGbjlva2xXTFQ5VEVqbEJKclFkdUNvWTlZS2M3VmYtbUYtZkE?oc=5",
+   "date": "2026-09-05 01:42",
+   "publishedAt": "2026-09-05T01:42:03+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "OpenAI Launches GPT-6 Astra, Its Most Powerful And Aligned AI Model - Tekedia",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "China's Nvidia alternative? DeepSeek plans massive Huawei AI chip rollout at Inner Mongolia data centre - Livemint",
+   "source": "Livemint",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQUW9nRHNaWWxfSFBaY0VYZG9WZjBfNEo0R29CMXNNYnk5UFFwM3ljZ0lpdW5kX3RoM1gxS0VkU3o2Y1p0Z2dFdmJ2dnJTUU5IcTd5b2dYRFJvWEtscGZfcGxDTWpsa1Z2OU5yM1Q2T1lGYVNWa3NUeEZhSG5DSnpGeFdKQjNCeDFkUy1XYmItcEdqX1c2ODhSbTdYQkNTcDN1VXBQZnRvN0N2a1dFVTRuOGp1VENRalFuaERvZi1sZUZ5cHJYODYydm5NMkkxSS1KdUluWGpjNzMtMGZrMUt1cnJUa9IB6AFBVV95cUxQakFpT19qREJXUGlnMGRmRF90TF82V3paLTJiUjNqbU5lODJramxzdWh3dFJQQ2RpU3ppRjRnSUNrOFlUQV91OXRhOEZrRnNLQUhqeHBsVjZPUE5mWWRTdktycWJfUjRDa3l0LWxhU3cyVHg2eTJaNUFobHpWVzVQcndBZV81M3NiRHF3azZRbWIzQ1VnRWJNTjJ3YVFaNTlESlZnbkpHYmFIMmo3dVg0UFUxSUkwVVBURTJkVnFVUGtaenFfMzgyV2o1Y3Z2eU5CZVBJRGttek5VeFFpN0FHb3V5NzhwZkZi?oc=5",
+   "date": "2026-09-05 01:35",
+   "publishedAt": "2026-09-05T01:35:07+08:00",
+   "summary": "",
+   "models": [
+    "DeepSeek"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "cn",
+    "other"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "China's Nvidia alternative? DeepSeek plans massive Huawei AI chip rollout at Inner Mongolia data centre - Livemint",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "ChatGPT's Outage Drew Over 340,000 Reports As ChatGPT, Claude, Grok, Gemini Crashed Together Yesterday - International Business Times Australia",
+   "source": "International Business Times Australia",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOa1NvRXV1Qjh0d0lrZjlhbFh0QXVXZmd5VlF2d0M0dDBvNnlMc09RZEtJR3RNaG9jRFVqNDA1LVJuN2Y5QTVuMDc0cjVLeWlGRnQycldzRGF1M0hKSzBmUk91aW5aWUs3Tk5TZlFaZUVCZGtPaUFwLW8wa0ppYTBqdzJwTE0?oc=5",
+   "date": "2026-09-05 01:29",
+   "publishedAt": "2026-09-05T01:29:40+08:00",
+   "summary": "",
+   "models": [
+    "ChatGPT",
+    "Claude",
+    "Gemini",
+    "Grok"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "anthropic",
+    "google",
+    "other"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "ChatGPT's Outage Drew Over 340,000 Reports As ChatGPT, Claude, Grok, Gemini Crashed Together Yesterday - International Business Times Australia",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Corporate America Is Swapping Claude and GPT for Cheaper DeepSeek Models - Startup Fortune",
+   "source": "Startup Fortune",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPN0kydGtMUW1qVVdoUUtjUVJ3QTc3NWppZGFEU0NXUGtMTWVxMWdlbWtwS18wOG9BajdjRUtVemNmX3NYZUVuaDluaFJOSk0xTFFHOWpWb1REaWVLM2FLem1yZHdKS2Q1YWRVc2VnX29nTGcwRVJhZzFmeGtLR2dMcUh4UkVVZFkyY3NidkxsQ3F1Y25qdzkxdlJwYjlPa3U0RXc?oc=5",
+   "date": "2026-09-05 01:25",
+   "publishedAt": "2026-09-05T01:25:51+08:00",
+   "summary": "",
+   "models": [
+    "Claude",
+    "DeepSeek"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "anthropic",
+    "cn"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Corporate America Is Swapping Claude and GPT for Cheaper DeepSeek Models - Startup Fortune",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Google Bets Cheaper Gemini AI Models Can Close Enterprise Gap as Alphabet Wins Antitrust Relief - Tekedia",
+   "source": "Tekedia",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNaUFQRWZCVUNaaUszcTNPbVRPOE9QeFJ5UTR2SjdXcUdmbmJZS0hzU0IxeVVqQ0pHRjBHLUt4RGhsWXc4RjI5Z0xPNGNXUGlVdGZvSVowTXhjNi00dlQ5am1hU2ZQMmFtcVNYaDROSkRqT1dlaXdWQ1d6X3VGQXVoTEhhQTBKUUYwVDBlZ0pLTjZqa3BlSW1XNW14WDJMaHpobUhtY2lESzBZN2k2c09ZVDMxWHNUVzJJbDlQeA?oc=5",
+   "date": "2026-09-05 01:25",
+   "publishedAt": "2026-09-05T01:25:35+08:00",
+   "summary": "",
+   "models": [
+    "Gemini"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "google"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Google Bets Cheaper Gemini AI Models Can Close Enterprise Gap as Alphabet Wins Antitrust Relief - Tekedia",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Once popular for attacking AI, ASCII smuggling is embraced by spammers",
+   "source": "Ars Technica",
+   "url": "https://arstechnica.com/security/2026/09/once-popular-for-attacking-ai-ascii-smuggling-is-embraced-by-spammers/",
+   "date": "2026-09-05 01:18",
+   "publishedAt": "2026-09-05T01:18:12+08:00",
+   "summary": "A once-overlooked block of unicode that's invisible to humans is gaining ever wider use.",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/no-eyes-1152x648.jpg",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Once popular for attacking AI, ASCII smuggling is embraced by spammers",
+     "summary": "A once-overlooked block of unicode that's invisible to humans is gaining ever wider use."
+    }
+   }
+  },
+  {
+   "title": "Google DeepMind Releases WeatherNext 3, Its Most Accurate AI Weather Forecasting Model Yet - AI Insider",
+   "source": "AI Insider",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPM0lac3AxSjJkalF4X0k2SWtJaUVacUhERVNET3JaRWpvYjNZSE1KNl9kUkEzclFZY1RjT0d5MEg2TVRyeWpjS2ZkdFdMMmQ3TXJGNEU4NVBxejlyVEZ2NXhyUDFfTlVFSzRYUjZSQTZ3bDJYa0kyMWRfblFmQlFNOFdRdFgtUWNsVjhNajNjNldVNXJnckFqMV9zWTVOSlk3cGxQX0ltYk9NN2JwTDBRcURBLU1td083eW14TldEMG9zWDZEUXc?oc=5",
+   "date": "2026-09-05 01:10",
+   "publishedAt": "2026-09-05T01:10:23+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "google"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Google DeepMind Releases WeatherNext 3, Its Most Accurate AI Weather Forecasting Model Yet - AI Insider",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "What’s New in Oracle AI? September 2026 Edition - Oracle Blogs",
+   "source": "Oracle Blogs",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcTZMdUJwTm8tTEZrQWEtUERHY2V6MGlOc0xvblRpVnhZWktNMmtMa3Z1ZEZzRU9LVFlmeFZsbkVHTTZPeWtfdThGZXR2YlRQNXpRNVZhMERoNnRMRlRxUlN3VXd2cVFPR3BoQjdfdWp6OU1LNWlWSkdoSVYwbGU4R21FQmZ2MTBoOGc?oc=5",
+   "date": "2026-09-05 01:04",
+   "publishedAt": "2026-09-05T01:04:44+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "What’s New in Oracle AI? September 2026 Edition - Oracle Blogs",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Can Thomson Reuters' Recurring Model and AI Expansion Sustain Growth? - TradingView",
+   "source": "TradingView",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdWFscjBPcENCM2ZMZk9LV25POU9IZ0lkY0xvQ19TTHphV1V6cmNxWmhZdDUwTUJ4OEl6ME9YM2sxdTdjV1VmeV8tMXlHR3diNWhLY0hmTmE4SVhlUFdMM1cyQnNjNDZmYktYSnlyZk9CcHpqTEI4R0ZNTEgtLXJxVE5QSjNtQmtLOUpaZ1ZwTEVoNlZYbDFZQnVhZlVxN0xaeU5pZ0MyMzRMZlNaQjc5OTZ3UWhTZVB6YjJhcVdvUDQ?oc=5",
+   "date": "2026-09-05 00:57",
+   "publishedAt": "2026-09-05T00:57:00+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Can Thomson Reuters' Recurring Model and AI Expansion Sustain Growth? - TradingView",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "How to train an LLM: From data Preparation to deployment - Hostinger",
+   "source": "Hostinger",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE51akJRdHRWcTkxaUpfZFFrLXpJS3NpUF9pdFdRVFNBcWdfeTVXOEVabmVQY1JOSi1NVkt0bEticV9Gd0taN2FOVHNfVHNhNXY3d3lIRnhyRTllTEV6dk55RjlhTGRKUmM?oc=5",
+   "date": "2026-09-05 00:42",
+   "publishedAt": "2026-09-05T00:42:06+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "How to train an LLM: From data Preparation to deployment - Hostinger",
      "summary": ""
     }
    }
@@ -138,7 +1131,7 @@
     "anthropic"
    ],
    "press": true,
-   "heat": 15,
+   "heat": 13,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -169,7 +1162,7 @@
     "anthropic"
    ],
    "press": true,
-   "heat": 15,
+   "heat": 13,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -198,7 +1191,7 @@
     "other"
    ],
    "press": true,
-   "heat": 15,
+   "heat": 13,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -227,7 +1220,7 @@
     "other"
    ],
    "press": true,
-   "heat": 15,
+   "heat": 13,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -258,7 +1251,7 @@
     "anthropic"
    ],
    "press": true,
-   "heat": 15,
+   "heat": 13,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -287,7 +1280,7 @@
     "anthropic"
    ],
    "press": true,
-   "heat": 15,
+   "heat": 13,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -318,7 +1311,7 @@
     "anthropic"
    ],
    "press": true,
-   "heat": 15,
+   "heat": 13,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -350,7 +1343,7 @@
     "other"
    ],
    "press": true,
-   "heat": 15,
+   "heat": 13,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -381,7 +1374,7 @@
     "anthropic"
    ],
    "press": true,
-   "heat": 15,
+   "heat": 13,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -410,7 +1403,7 @@
     "anthropic"
    ],
    "press": true,
-   "heat": 15,
+   "heat": 13,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -441,7 +1434,7 @@
     "anthropic"
    ],
    "press": true,
-   "heat": 15,
+   "heat": 13,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -470,7 +1463,7 @@
     "other"
    ],
    "press": true,
-   "heat": 15,
+   "heat": 13,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -501,7 +1494,7 @@
     "openai"
    ],
    "press": true,
-   "heat": 31,
+   "heat": 29,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -530,7 +1523,7 @@
     "openai"
    ],
    "press": true,
-   "heat": 23,
+   "heat": 21,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -561,7 +1554,7 @@
     "openai"
    ],
    "press": true,
-   "heat": 15,
+   "heat": 13,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -590,7 +1583,7 @@
     "other"
    ],
    "press": true,
-   "heat": 15,
+   "heat": 13,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -621,7 +1614,7 @@
     "openai"
    ],
    "press": true,
-   "heat": 15,
+   "heat": 13,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -650,7 +1643,7 @@
     "openai"
    ],
    "press": true,
-   "heat": 15,
+   "heat": 13,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -679,7 +1672,7 @@
     "other"
    ],
    "press": true,
-   "heat": 15,
+   "heat": 13,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -710,7 +1703,7 @@
     "openai"
    ],
    "press": true,
-   "heat": 15,
+   "heat": 13,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -741,7 +1734,7 @@
     "openai"
    ],
    "press": true,
-   "heat": 15,
+   "heat": 13,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -772,7 +1765,7 @@
     "openai"
    ],
    "press": true,
-   "heat": 15,
+   "heat": 13,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -803,7 +1796,7 @@
     "google"
    ],
    "press": true,
-   "heat": 23,
+   "heat": 21,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -832,7 +1825,7 @@
     "google"
    ],
    "press": true,
-   "heat": 15,
+   "heat": 13,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -844,994 +1837,6 @@
    "i18n": {
     "en": {
      "title": "Google AI Learn about all our AI",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Google DeepMind Explore the frontier of AI",
-   "source": "Google DeepMind",
-   "url": "https://deepmind.google",
-   "date": "2026-09-05 00:36",
-   "publishedAt": "2026-09-05T00:36:41.557391+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "官方發布",
-   "camps": [
-    "google"
-   ],
-   "press": true,
-   "heat": 15,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Google DeepMind Explore the frontier of AI",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Google Labs Try our AI experiments",
-   "source": "Google DeepMind",
-   "url": "https://labs.google/",
-   "date": "2026-09-05 00:36",
-   "publishedAt": "2026-09-05T00:36:41.557391+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "官方發布",
-   "camps": [
-    "google"
-   ],
-   "press": true,
-   "heat": 15,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Google Labs Try our AI experiments",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Gemini app Chat with Gemini",
-   "source": "Google DeepMind",
-   "url": "https://gemini.google.com/",
-   "date": "2026-09-05 00:36",
-   "publishedAt": "2026-09-05T00:36:41.557391+08:00",
-   "summary": "",
-   "models": [
-    "Gemini"
-   ],
-   "tag": "官方發布",
-   "camps": [
-    "google"
-   ],
-   "press": true,
-   "heat": 15,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Gemini app Chat with Gemini",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Google AI Studio Build with our next-gen AI models",
-   "source": "Google DeepMind",
-   "url": "https://aistudio.google.com/prompts/new_chat",
-   "date": "2026-09-05 00:36",
-   "publishedAt": "2026-09-05T00:36:41.557391+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "官方發布",
-   "camps": [
-    "google"
-   ],
-   "press": true,
-   "heat": 15,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Google AI Studio Build with our next-gen AI models",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Reimagining Independence: How Meta’s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-   "source": "Meta AI Blog",
-   "url": "https://ai.meta.com/blog/assistive-robotics-university-of-pittsburgh-sam-dino/",
-   "date": "2026-09-05 00:36",
-   "publishedAt": "2026-09-05T00:36:41.557391+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "官方發布",
-   "camps": [
-    "other"
-   ],
-   "press": true,
-   "heat": 15,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Reimagining Independence: How Meta’s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "How Meta’s AI Models Are Powering the First Wave of Genesis Mission Projects",
-   "source": "Meta AI Blog",
-   "url": "https://ai.meta.com/blog/genesis-mission-lawrence-berkeley-national-laboratory-segment-anything-dino/",
-   "date": "2026-09-05 00:36",
-   "publishedAt": "2026-09-05T00:36:41.557391+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "官方發布",
-   "camps": [
-    "other"
-   ],
-   "press": true,
-   "heat": 15,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "How Meta’s AI Models Are Powering the First Wave of Genesis Mission Projects",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "OpenAI 推「史上最聰明」模型 - 經濟日報",
-   "source": "經濟日報",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9wOEtmUTN2Z0dJaloyZjh2WHVUTXFtRFVveDc2RlRmN0NxMDlRNzZQbnZSMzhua0tNSzY4Tkt1Q3RQOWJnbC15aHFiWVJCS1FHV1N2VVE4REo4QdIBX0FVX3lxTE4wSDBUekpqcWkyaWVuUXEwRzNLZjdPRUhrakxWR0RhU1ZZOFNDT3RxV1VBVV9JMVRSQ082TGdlRHk1bXh6OExXMmp1Nm8wUUVmQzctcnl6M3VMX05VNlk4?oc=5",
-   "date": "2026-09-05 00:35",
-   "publishedAt": "2026-09-05T00:35:30+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "openai"
-   ],
-   "press": false,
-   "heat": 15,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "OpenAI 推「史上最聰明」模型 - 經濟日報",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Eightco Holdings（納斯達克股票代碼：ORBS）公佈持有資產總值約3.8 億美元，涵蓋 OpenAI 及 Beast Industries 股權、逾 16,000 枚 ETH，以及近3.02 億枚WLD 代幣 - PR Newswire",
-   "source": "PR Newswire",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPSHRraDZsMk9GNlo5SXBlTlpqanlzVi1ibnpJelZqc2pKUUh2MlkzRkFlSDdnUEV0bWtoT1BuNGQ3MEFGOTJsY3hCZjY2YTVUSUc3VWxQNVNLVDVidzUzTlZxZEdwc3hxN3drejRqOGVSMEZPYTlUVHNuYzl4UG5VVlFmUkFCV1FzaUhpZFRsVVp4VWRrcGk1cVBYdFhENGpEOVZQaVU3TUpDbGMtRDQ2N0xzVW9nNlZwckMzM2ZzS1NjczlzRm50Qm52S3pndm1zS2c5UA?oc=5",
-   "date": "2026-09-05 00:35",
-   "publishedAt": "2026-09-05T00:35:00+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "openai"
-   ],
-   "press": false,
-   "heat": 15,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "Eightco Holdings（納斯達克股票代碼：ORBS）公佈持有資產總值約3.8 億美元，涵蓋 OpenAI 及 Beast Industries 股權、逾 16,000 枚 ETH，以及近3.02 億枚WLD 代幣 - PR Newswire",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab’s knowledge",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
-   "date": "2026-09-05 00:21",
-   "publishedAt": "2026-09-05T00:21:11+08:00",
-   "summary": "It's the latest failure of OpenAI's internal monitoring and security systems.",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "openai"
-   ],
-   "press": false,
-   "heat": 15,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab’s knowledge",
-     "summary": "It's the latest failure of OpenAI's internal monitoring and security systems."
-    }
-   }
-  },
-  {
-   "title": "Google DeepMind’s WeatherNext 3 Outranks Every Physics Model on Earth - Yahoo Tech",
-   "source": "Yahoo Tech",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQLXZBMmlEQWtrSnllcnRqVmtmdndFX2V6RkxieFFwUndLRlllSHJHdXA5LUVTTHFHc1Rtc211X0Q3UEJRZU51MUVpZDFLdW9Id1h2dTU4U0JnSnBlTlpDdmRwMEZsdzBLWnF0S2VmdDJjRWtlU05NM2JUT09RREhVMU1VOUpQMEE5T3VjZzAtaDNEX2l2TnBLV21zdw?oc=5",
-   "date": "2026-09-05 00:17",
-   "publishedAt": "2026-09-05T00:17:21+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "google"
-   ],
-   "press": false,
-   "heat": 15,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Google DeepMind’s WeatherNext 3 Outranks Every Physics Model on Earth - Yahoo Tech",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Microsoft says virtually nobody was grabbing NYT articles through its chatbot",
-   "source": "The Verge AI",
-   "url": "https://www.theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit",
-   "date": "2026-09-05 00:05",
-   "publishedAt": "2026-09-05T00:05:57+08:00",
-   "summary": "Microsoft's Copilot rarely reproduces even full sentences from news articles and books, let alone substantive chunks that could substitute for the original, the company says in new legal filings as it fights copyright cl",
-   "models": [
-    "Copilot"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "heat": 15,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Microsoft says virtually nobody was grabbing NYT articles through its chatbot",
-     "summary": "Microsoft's Copilot rarely reproduces even full sentences from news articles and books, let alone substantive chunks that could substitute for the original, the company says in new legal filings as it fights copyright cl"
-    }
-   }
-  },
-  {
-   "title": "Apple’s Ternus era begins as Nvidia bets on the whole AI stack",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/podcast/apples-ternus-era-begins-as-nvidia-bets-on-the-whole-ai-stack/",
-   "date": "2026-09-05 00:04",
-   "publishedAt": "2026-09-05T00:04:08+08:00",
-   "summary": "It’s officially the Ternus era at Apple. Tim Cook stepped down as CEO this week, handing the company to former hardware chief John Ternus, whose first memo promised a “huge launch next week” — timing that puts Apple’s ne",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "heat": 15,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Apple’s Ternus era begins as Nvidia bets on the whole AI stack",
-     "summary": "It’s officially the Ternus era at Apple. Tim Cook stepped down as CEO this week, handing the company to former hardware chief John Ternus, whose first memo promised a “huge launch next week” — timing that puts Apple’s ne"
-    }
-   }
-  },
-  {
-   "title": "From Gemini to GPT-6: 10 new AI models launched by Google, OpenAI and rivals - CNBC TV18",
-   "source": "CNBC TV18",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdzZmY2laYTIxbkpCOEREa3JudnY5YTNXRE5RMl9oWjZmcTFtXzh5MU9BRnVScThDc0dabWVnZWx4RVNocnh5N0FZNzVYbTI0akRLSFVZN1c5d2JuZ3ZTLV9ZZGhtTjFKdWtxUGtzczU3OTVIYV9LUHZBTnZ1cDVSMEMxd1FVNl9feTEwakxJQ1pmQmgtRXpZQWlsMHhBaEFpMWJMdlhEV0p0ZVE3ZEIySkF30gG3AUFVX3lxTFBCbktKTHFBRTh6bTVSc2ZiR0hSOWFSdkViZmczdzZoTlVXcTVuNkJxZFV0c1ZEZFJCV296SG0xYVF3MTBXMnVBN0xuS2lCMVptbHExT2ZlSFNTT010MTVKM29tOURRVVYzNm1YLVFfVkhEcjRtM3JjU1YtWm1QNjUtX3Z6QzBHVU1EYXB6b0ZGNzIwWmgxTnI2ZEpqSThnQ3owdlNrZ3JEeDVGSW00cXQyb0I3RDF5bw?oc=5",
-   "date": "2026-09-04 23:59",
-   "publishedAt": "2026-09-04T23:59:42+08:00",
-   "summary": "",
-   "models": [
-    "Gemini"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "openai",
-    "google"
-   ],
-   "press": false,
-   "heat": 15,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "From Gemini to GPT-6: 10 new AI models launched by Google, OpenAI and rivals - CNBC TV18",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Oracle Stock Climbs Ahead Of Earnings After OpenAI Astra Release - Investor's Business Daily",
-   "source": "Investor's Business Daily",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAwWnpJZ2lRRlBET3Q5YmNuZmpfNC1pNk51U296LXhYUEFndU5uZ0V5a1drMUY0SjF1UGhhSHVDdVNVdEIyUDFvUkg1Snc3VXN6U1B5cEg4TllGOUM5QUU0QUtSazc1VUd4ZVhTeHk5d1FEeTI1TEcxMXVwT1pFZw?oc=5",
-   "date": "2026-09-04 23:42",
-   "publishedAt": "2026-09-04T23:42:00+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "openai"
-   ],
-   "press": false,
-   "heat": 15,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Oracle Stock Climbs Ahead Of Earnings After OpenAI Astra Release - Investor's Business Daily",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "OpenAI Rolls Out New AI Model GPT-6 Astra - TVC News",
-   "source": "TVC News",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE15TFdUc2t6QnNFLUViUjVrQkZmeVpoMnotNThVZTdWVzJJTGNjM2xXUDFFN2RfUzVaVzU5Y1JVVWZrMy1TOXB2Q0E5RmdvY0lBQmZkLVhZNE1zS1JGY2tSLWVvNml3NVFsUHRlY20xc3V0dGc?oc=5",
-   "date": "2026-09-04 23:03",
-   "publishedAt": "2026-09-04T23:03:00+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "openai"
-   ],
-   "press": false,
-   "heat": 14,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "OpenAI Rolls Out New AI Model GPT-6 Astra - TVC News",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "AGI時代正式開啟！GPT-6 Astra全方位評測 - PANews",
-   "source": "PANews",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQWko0aW43dWtCTFIxYW9COGxaMUVDT1V1Z1FkMVRUbGpGZ0txcDZDRkd2VUpYbXQzdWhOVnhVNXdFeHNqUGs2c0Fzd2ZtVVY1YTJfUXJvTlRnNE5OUjh0aFFFd3BCcHBJdEx4bm9zbHhrN1JTcjRBM1pYdVhxX25CZnRfUlhqUQ?oc=5",
-   "date": "2026-09-04 22:50",
-   "publishedAt": "2026-09-04T22:50:00+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "研究",
-   "camps": [
-    "openai"
-   ],
-   "press": false,
-   "heat": 14,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "AGI時代正式開啟！GPT-6 Astra全方位評測 - PANews",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Google’s Gemini Spark can now manage your Google Photos library",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
-   "date": "2026-09-04 22:47",
-   "publishedAt": "2026-09-04T22:47:11+08:00",
-   "summary": "Gemini Spark can edit and curate photo albums, create shared collections, turn photos into calendar events, and handle other Google Photos tasks for AI Pro and Ultra subscribers.",
-   "models": [
-    "Gemini"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "google"
-   ],
-   "press": false,
-   "heat": 14,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Google’s Gemini Spark can now manage your Google Photos library",
-     "summary": "Gemini Spark can edit and curate photo albums, create shared collections, turn photos into calendar events, and handle other Google Photos tasks for AI Pro and Ultra subscribers."
-    }
-   }
-  },
-  {
-   "title": "與AI聊心事小心變呈堂證供| 隱私 | ChatGPT | AI聊天機器人 - 台灣大紀元",
-   "source": "台灣大紀元",
-   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOc2Nyd2VlUFcyYm9nSElpTjkyQlpjUzRSeTZPaUtJQV92NlNJbmNBUm1EOTdPRGxtZ2VVcDdKLTVCWFgxR3JuNnBZd1NZNnMwaEFITXQzdXg3ZGlsN2s0T3BTODR1cWcwb3ZoY2lxVDZ2VmlpcFhPXy1CaUJ4UlR5ZWhXZFZORW5ta1poaWlfSFlEdk1hZkRLNXFNVEZELXhiYnBWaHRGNWFGWVN0NVN2aTJzOUZFczhtSmcya3E1VkFvT1pIbFJ5bVNQWllwWXo5MUdBWXpIb01jU1d2UUE?oc=5",
-   "date": "2026-09-04 22:45",
-   "publishedAt": "2026-09-04T22:45:08+08:00",
-   "summary": "",
-   "models": [
-    "ChatGPT"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "openai"
-   ],
-   "press": false,
-   "heat": 14,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "與AI聊心事小心變呈堂證供| 隱私 | ChatGPT | AI聊天機器人 - 台灣大紀元",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "DeepSeek to Deploy Over 160,000 Huawei AI Chips at New Inner Mongolia Facility - finance.biggo.com",
-   "source": "finance.biggo.com",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0zVTcyWnN2clM5RUxGYTdSSXc2V0Z2aXdQTGdwZkpwVm1uTVBnRUpVcTV5bTBRaGFmbWMwY3pkT2szYmYzNVRQdno3UncxZTRGQ25BX3dMeVFNeGdwMVhsOWhldnVpUmV4cVBVTTF6UndNUVZ2WHc?oc=5",
-   "date": "2026-09-04 22:35",
-   "publishedAt": "2026-09-04T22:35:00+08:00",
-   "summary": "",
-   "models": [
-    "DeepSeek"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "cn"
-   ],
-   "press": false,
-   "heat": 14,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "DeepSeek to Deploy Over 160,000 Huawei AI Chips at New Inner Mongolia Facility - finance.biggo.com",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "OpenAI Releases New GPT-6 Astra Frontier Model - Thurrott.com",
-   "source": "Thurrott.com",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcU40Nnd0VFFkRmUzU2gyblFvbDBrSlI2dGFLa3UwOFNjRUNZeERZcndSWFlGVUQwUFQ5R2lWNUlQMXJrWVk5MGRKSnBDWjFwb1ktSG5jYnNTRUpDX3NhTGQtX1Z5ZE5Gd3FkdEY4Rmw3eWdrX3dDR1FBdVNmaW9xYkRYUkxDYjhDSEE?oc=5",
-   "date": "2026-09-04 21:53",
-   "publishedAt": "2026-09-04T21:53:41+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "openai"
-   ],
-   "press": false,
-   "heat": 14,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "OpenAI Releases New GPT-6 Astra Frontier Model - Thurrott.com",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Rogue OpenAI agents appear to have organized another attack using a German wiki",
-   "source": "The Verge AI",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
-   "date": "2026-09-04 21:34",
-   "publishedAt": "2026-09-04T21:34:12+08:00",
-   "summary": "A swarm of rogue AI agents from OpenAI reportedly commandeered a German website and transformed it into a messaging board for other agents, with officials staying quiet about the incident for weeks as the company prepare",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "openai"
-   ],
-   "press": false,
-   "heat": 14,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Rogue OpenAI agents appear to have organized another attack using a German wiki",
-     "summary": "A swarm of rogue AI agents from OpenAI reportedly commandeered a German website and transformed it into a messaging board for other agents, with officials staying quiet about the incident for weeks as the company prepare"
-    }
-   }
-  },
-  {
-   "title": "Golfmanager 引入 AI 助理 球場管理擁抱 ChatGPT、Gemini 語音操控新時代 - 理財周刊",
-   "source": "理財周刊",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9felIzcTk2T0hKTnoxNVd4ejdqN2U1TFBBN19BSmY0NDFzMElTYzV5QW5kUkJlOTAyekRQUFgxMmUydTIwWlNPS2hpcXRRVkp2dXAtZDBxdkszQ2hDenR2N2FudGl1VllaRm5fTF9yNlg?oc=5",
-   "date": "2026-09-04 21:24",
-   "publishedAt": "2026-09-04T21:24:56+08:00",
-   "summary": "",
-   "models": [
-    "ChatGPT",
-    "Gemini"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "openai",
-    "google"
-   ],
-   "press": false,
-   "heat": 22,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [
-    "Life 生活網"
-   ],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "Golfmanager 引入 AI 助理 球場管理擁抱 ChatGPT、Gemini 語音操控新時代 - 理財周刊",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Hackers Turn Claude, Qwen and DeepSeek Into AI Agents for Real-World Cyberattacks - CyberSecurityNews",
-   "source": "CyberSecurityNews",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB0enc4X1Q4N2Q4cENWODdnc1FsOXpxeVJIVUQwRXNWSzA3VjBCczlpLThrM0ppLUZIMUVxTnJHZVZna2VJcjhIRGhPcnRtT1NYQVBSejIxWFhGVkN2VEo4ZVluZl9GUWtXbnQ3OWwzU2dKQ1VXVHE40gF8QVVfeXFMUE5CMnNXUG1hLThFa2ZBQkRvNVhIbnNpeDNfWGxSSzRKWTRjWUFIRm1xbHZuZDBJYlEtMkUxLTdIWFVsSzd0VF9hQXF1ZXo0WWZCYnNzbmV3bVRDRmhFTUdCWmRKOTIxZVphaERqQ1l6NkhnbzRWMW1mT1lsYw?oc=5",
-   "date": "2026-09-04 21:23",
-   "publishedAt": "2026-09-04T21:23:55+08:00",
-   "summary": "",
-   "models": [
-    "Claude",
-    "Qwen",
-    "DeepSeek"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "anthropic",
-    "cn"
-   ],
-   "press": false,
-   "heat": 14,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Hackers Turn Claude, Qwen and DeepSeek Into AI Agents for Real-World Cyberattacks - CyberSecurityNews",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Anthropic CEO：AI可能在6到12個月內取代軟件工程師。 - 富途牛牛",
-   "source": "富途牛牛",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMDNxdGxad0pUcTI0UWlzUjdCUlpYTUowRlVCbFBNb1dGRDFxTTJGbjFYTGpqWG1JQkpUV3VtNV8zdGpyMXQ3THdzbUdfbklyUnJoQ3NjUk4zaU1QR3NzRkxNQU54LWhQTjJjM0FfU1N5LWhEaGFzQTlKRXZPbVp4RVlPN2tCbE5VYVRMXzJsc1pCdmVkNmJGLWhWc3VFZDB3amNQQVpR?oc=5",
-   "date": "2026-09-04 21:05",
-   "publishedAt": "2026-09-04T21:05:32+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "anthropic"
-   ],
-   "press": false,
-   "heat": 22,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [
-    "加密城市CryptoCity"
-   ],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "Anthropic CEO：AI可能在6到12個月內取代軟件工程師。 - 富途牛牛",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "花旗點名2027年最值得持有的生成式AI股票 作者 Investing.com - Investing.com 香港 - 股市報價& 財經新聞",
-   "source": "Investing.com 香港 - 股市報價& 財經新聞",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9XbE5KLXl2d0ROXzVzb3lsQ0U4N2dMczJObndnVHJnWS1haGpBZGs5bUhIZzlHSXdPUmxJLTh0LTJ5MzE4RTlyQ2pJVTNGeG4zQS1MQ3l3WUxpd3dEZ05wQlRoQ0FDdm5vRG9rZ19SYUI?oc=5",
-   "date": "2026-09-04 21:04",
-   "publishedAt": "2026-09-04T21:04:27+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "heat": 14,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "花旗點名2027年最值得持有的生成式AI股票 作者 Investing.com - Investing.com 香港 - 股市報價& 財經新聞",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "OpenAI 爆未公開「AI 逃逸事件」！代理佔領維基網站躲審查，專家憂威脅加劇 - blocktempo.com",
-   "source": "blocktempo.com",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1ocjF4ci1YYUUtQXo0aVZTMjJZOGVqTDRmdV8wYldZZ1NONVNXbm1PUGZpSFBVblBhMGxla1ZPbk1TYk5MV255alRFZVJPWDlCcEc2QnIwWnR2dXVPVVlvVWlYeEpEQUF3RkZZczU2T1NfbkhfUGFj?oc=5",
-   "date": "2026-09-04 20:40",
-   "publishedAt": "2026-09-04T20:40:24+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "openai"
-   ],
-   "press": false,
-   "heat": 14,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "OpenAI 爆未公開「AI 逃逸事件」！代理佔領維基網站躲審查，專家憂威脅加劇 - blocktempo.com",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Anthropic CEO：AI可能在6到12个月内取代软件工程师 - TradingView",
-   "source": "TradingView",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1rUHZYSFhaU1JQaDZEejFMU2lfbFpLdU52UFNRWjVhSDVkQnJLY0c0d0l5aWl2blZ4emdYZEh5R01yWnlxa1JsVHE1T3l1clA2b0hEZUVpYm9OME9zSU44MlQ2MTdNdw?oc=5",
-   "date": "2026-09-04 20:38",
-   "publishedAt": "2026-09-04T20:38:00+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "anthropic"
-   ],
-   "press": false,
-   "heat": 14,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "Anthropic CEO：AI可能在6到12个月内取代软件工程师 - TradingView",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "DeepSeek Plans Massive Huawei Chip Order for Inner Mongolia AI Data Center - citybiz.co",
-   "source": "citybiz.co",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNc0oyOGJ6V25QS3NEeEM5QXNjZEJjbXNaMGR6YlRvaFRmUkpjMUw3eXl6ajNybVk5dmFVdkdXSzdscXNwOWtHRDFsbzlGV2NhVFlEdVRaT0FLNDNua0hLT1JTanBMTExEY2gwQUlJV2xsc1Y2Tk9zb2MyYVhwcUY1dVdBRUxtTjRDcmtnNkdLWllpTkxGUmY1cDJTUHZtWm5EeS1MMHhGUjE2UGJTMTdqZ1pSNA?oc=5",
-   "date": "2026-09-04 20:27",
-   "publishedAt": "2026-09-04T20:27:28+08:00",
-   "summary": "",
-   "models": [
-    "DeepSeek"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "cn"
-   ],
-   "press": false,
-   "heat": 14,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "DeepSeek Plans Massive Huawei Chip Order for Inner Mongolia AI Data Center - citybiz.co",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "【財經新聞】對決Anthropic OpenAI端出最强模型Astra AGI時代來了？ - 新唐人電視台",
-   "source": "新唐人電視台",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9Oa0t2U0NMN0l5RUczLUtMTGtqUUI2WFkyZzhiT2pLa2M1X1k3NENzM1czS3dzUU9aTEQ4bl9SbVBwTUFWeDdtQ3FCSVhEb1VpaXVudmFYYXJuaWd5Vm5XT9IBZkFVX3lxTFBmU3gwU0pHanV3RjN3S2FIX0pTQnhkcE1HUEJiN055YTdhR1Bva2hLQTJuSHoxU1g2eGs5T3YyZ1lkR0FDdjRqbGJVcFNQS3B5V0JtVmM1YmN2c3hyMWlJRXFqaUtvZw?oc=5",
-   "date": "2026-09-04 20:27",
-   "publishedAt": "2026-09-04T20:27:14+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "openai",
-    "anthropic"
-   ],
-   "press": false,
-   "heat": 14,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "【財經新聞】對決Anthropic OpenAI端出最强模型Astra AGI時代來了？ - 新唐人電視台",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "GPT-6 Astra is here. What OpenAI’s new model can do - theprint.in",
-   "source": "theprint.in",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSHRrWlBtMzdZMzA4X0RXekxERmw4dUx1QVRNMV82WnJVQkVVbFZLRlEydFNscnRCam9Hd1E5ZUZUZUV4SUZLeUtpSmhIZXpMWXJOMzMzWWhpTVMtUmREeGw5UGpaaG9SZXI3S3BqSDY4ZllaQVViV3BXbV9vakFxV0V0M0VXY3VQLXh30gGQAUFVX3lxTE5jMVhqbGFocjg3ZjFLREtWZE4ydFhZNXVGZGtBYWtjNFVnNHlhSnpCTUtSRzloMmVKaS1rRlhkLUR1UkhXSmZqc2FwSkJ2cHUtcXlXNzVrc1BHRlNGdXI5QXBFOWZkUWlDSUkxd2dISnJjUUFmQXhIY1cyaEVXSVlWdVRndkNqWDNuMmRkSmJzOQ?oc=5",
-   "date": "2026-09-04 20:16",
-   "publishedAt": "2026-09-04T20:16:47+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "openai"
-   ],
-   "press": false,
-   "heat": 14,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "GPT-6 Astra is here. What OpenAI’s new model can do - theprint.in",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "DeepSeek said to order at least 160K Huawei AI accelerators for new data center: report - Seeking Alpha",
-   "source": "Seeking Alpha",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRi1jZ09HdUZaQUNiRmw3Y2ZMUW43SFZEM3g4Q2xRQzdqTGQ0M0YzblZqRk5oX0ZxTFMxaWkyMXM0OWdxZi1KVGxvZExIRmV2bUhRX0ZQdmV1UDQwaDMtYlFwWXNsQUhwNFdTelVMWnBzTEtSQnptYnhGN3Jtb1lDRlpiOGczYk5uREZTZUxKbE9DWVkwUERmajhHZGlVMWcxQ0hyVXA1cDkyaGVXRERxWGJLcUl3YWk3WldCMTY4aFJoUQ?oc=5",
-   "date": "2026-09-04 20:12",
-   "publishedAt": "2026-09-04T20:12:23+08:00",
-   "summary": "",
-   "models": [
-    "DeepSeek"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "cn"
-   ],
-   "press": false,
-   "heat": 14,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "DeepSeek said to order at least 160K Huawei AI accelerators for new data center: report - Seeking Alpha",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "5 Free LLM API Providers You Can Use in 2026 - KDnuggets",
-   "source": "KDnuggets",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9tTnZpb2RLWEZ1VjBkc1RycEVwUC1neW5GeWkwa1VYWVJNU0ZzLXZPcTh3d3k4Vm1ONkpQTHE1R0VYOWhwdHhuU3ZDdmpERXVPWDU0VUdPM1B5T1kxVXhETE52eGVMbHRHYkRxVW1rS1lOczN2dm5nam9R?oc=5",
-   "date": "2026-09-04 20:09",
-   "publishedAt": "2026-09-04T20:09:37+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "heat": 14,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "5 Free LLM API Providers You Can Use in 2026 - KDnuggets",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "因應先進 AI 威脅 資安署推動資安治理邁向動態防禦 - cio.com.tw",
-   "source": "cio.com.tw",
-   "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxQWkRvRVd3QmFYajVQSGNaWHRUampvbk5SLTlEUnoybjd5VGdXZFB1Z0hKb2t4YVN5TTFkNGkwQTZtWFBRT1VHVTBTY0I2QWNUcFN0SXVobnNnVkdDcUpuLXc3cXh4QUJWcWpNa1hSaDBwY2FSazl6STNEY2hKYXE4WEZyejB0R05GMV9ENWlZYVloZTRkWi1BZU1EZ01kUmRFRUNKSXZNeEhpeEVOU0JzdUU5SHpzWlpFNWwtZldRR3FnOWNIcDhPam5sWmtQTy0tbXJBa2tjem5tb1MwbUFKZlVOYzdDbEJYbGZyWTdGc0VJbUdXZW5pNTA3ZmtfSTlBbEZYZkdMeXFoZ1kwcC0yT2c5bHlfTVpkRUQ4elJBcmRMUWFmUkx1YWw2Y0FYYXZ4bDI5X25tNGhvVXJCanJR?oc=5",
-   "date": "2026-09-04 20:05",
-   "publishedAt": "2026-09-04T20:05:30+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "安全",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "heat": 14,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "因應先進 AI 威脅 資安署推動資安治理邁向動態防禦 - cio.com.tw",
      "summary": ""
     }
    }

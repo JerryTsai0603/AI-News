@@ -1,7 +1,7 @@
 {
  "channel": "spark",
  "version": "v10",
- "fetchedAt": "2026-09-05T00:51:59.492183+08:00",
+ "fetchedAt": "2026-09-05T07:41:28.472942+08:00",
  "edition": "2026-09-05",
  "count": 60,
  "languages": [
@@ -16,15 +16,15 @@
   "it"
  ],
  "byGroup": {
-  "asus": 9,
-  "acer": 18,
-  "hp": 0,
+  "asus": 8,
+  "acer": 13,
+  "hp": 4,
   "msi": 1,
   "dell": 0,
-  "lenovo": 23,
+  "lenovo": 19,
   "gigabyte": 0,
   "microsoft": 0,
-  "nvidia": 22
+  "nvidia": 23
  },
  "byLine": {
   "rtx": 59,
@@ -32,18 +32,18 @@
  },
  "items": [
   {
-   "title": "ASUS Shows RTX Spark Mini PCs and Laptop Designs at IFA 2026 - techpowerup.com",
-   "source": "techpowerup.com",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUk9HemhXT1lfRWFzR3lnWm5SQUlUT1BiN1JJV1hMcWp6UnI5VjloSXRHUkp5YTNrWU8wejVVSkJaLVdwU3NrTGdFWmY3T2JIcTYyb2haOWp5dlU1bWpYNU9xc2lVN2NwZzBOMFRMMEo4Vjk1aTlzTjZRTm5XQ2paRE8tY3dhQmxGdkxDMTlCYzFoa2YzMDdWQ2FKRdIBoAFBVV95cUxQUmJFYXJrMFdvWmRUd2tSb0c0RFlTZHRQN19wYjlpTmJXb1N6dHA2Q2h3b3E2ZWlYYkR3MkEyZUtYdnRzNkxsbkNva2oxbUxQMmxSb09LSEd2cm9ER01HYmU1SWxWTWw2Z2xOSjYtMUZReVJlbGVwVHoxQUxTRG4wdEgzWlg2U2lBVFFMS0tzQXdndEEyR1JnNGhWWTY0cWRV?oc=5",
-   "date": "2026-09-05 00:41",
-   "publishedAt": "2026-09-05T00:41:15+08:00",
+   "title": "Nvidia's RTX Spark: The Reality of Next-Gen PCs! - How-To Geek",
+   "source": "How-To Geek",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9adE5SUnpVVnNMU1UzQnJMdUtYQXNVQmdHdXFlYjQwOExGTmVxZmZoZmxVU1VFU3VidkVmTzdSVFFpdnBYS1M4cWxiM3Q1VVhzSDhYb1c1RlJHekFMMjVrM2VEUk4tSmhtYWJmQnc3S2s1TlU?oc=5",
+   "date": "2026-09-05 06:36",
+   "publishedAt": "2026-09-05T06:36:05+08:00",
    "summary": "",
    "models": [
     "RTX Spark"
    ],
    "tag": "產品發表",
    "camps": [
-    "asus"
+    "nvidia"
    ],
    "press": false,
    "heat": 23,
@@ -59,7 +59,238 @@
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "ASUS Shows RTX Spark Mini PCs and Laptop Designs at IFA 2026 - techpowerup.com",
+     "title": "Nvidia's RTX Spark: The Reality of Next-Gen PCs! - How-To Geek",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "ASUS Shows RTX Spark Mini PCs and Laptop Designs at IFA 2026 - TechPowerUp",
+   "source": "TechPowerUp",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUk9HemhXT1lfRWFzR3lnWm5SQUlUT1BiN1JJV1hMcWp6UnI5VjloSXRHUkp5YTNrWU8wejVVSkJaLVdwU3NrTGdFWmY3T2JIcTYyb2haOWp5dlU1bWpYNU9xc2lVN2NwZzBOMFRMMEo4Vjk1aTlzTjZRTm5XQ2paRE8tY3dhQmxGdkxDMTlCYzFoa2YzMDdWQ2FKRdIBoAFBVV95cUxQUmJFYXJrMFdvWmRUd2tSb0c0RFlTZHRQN19wYjlpTmJXb1N6dHA2Q2h3b3E2ZWlYYkR3MkEyZUtYdnRzNkxsbkNva2oxbUxQMmxSb09LSEd2cm9ER01HYmU1SWxWTWw2Z2xOSjYtMUZReVJlbGVwVHoxQUxTRG4wdEgzWlg2U2lBVFFMS0tzQXdndEEyR1JnNGhWWTY0cWRV?oc=5",
+   "date": "2026-09-05 05:33",
+   "publishedAt": "2026-09-05T05:33:45+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "asus"
+   ],
+   "press": false,
+   "heat": 47,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 4,
+   "also": [],
+   "lines": [
+    "rtx"
+   ],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "ASUS Shows RTX Spark Mini PCs and Laptop Designs at IFA 2026 - TechPowerUp",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "HP’s latest OmniBooks get RTX Spark, 128 GB LPDDR5X RAM and 3K OLED displays - Notebookcheck",
+   "source": "Notebookcheck",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNDJWamQtcmFCZFVfd3BBTWtxQzhYaF9iTWNEWjNvQ3Bwa3lOd1V5b0FUencta0lpLU1Ic01YMUZja2JMcEw2OTlUeTY0UlJtUEtVeU4xSGpJSUZxd1RVOHdvb1VsV1pzVElEN05BWE93SGV5Ry1DdEtpa0VYZG9HRURhaWRiNm9vZkdCUmV0LWF6NnRDM3lwWDgyYW1xZngyTEJRdVo5SkxsaFAwRlYwV0tKUzZIMExDNGR0Zw?oc=5",
+   "date": "2026-09-05 04:46",
+   "publishedAt": "2026-09-05T04:46:00+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "hp"
+   ],
+   "press": false,
+   "heat": 23,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [
+    "rtx"
+   ],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "HP’s latest OmniBooks get RTX Spark, 128 GB LPDDR5X RAM and 3K OLED displays - Notebookcheck",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "HP unveils the world's thinnest Nvidia RTX Spark laptops for professionals and gamers alike - XDA",
+   "source": "XDA",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZl85T25JQ19qbkpuQU5WWW03eXpXM0VsRDBmcEVsLXBZY0prMy1fZFRvZ0NXSXQwOWJxSjF4eC1zUnUyVkMydzlwd19fTDdyOHJORFNBQ3ViZ2otOS1HOEs0eVBGR05qbGotVHVmMWRmcFdZTk1WVWpxYXlIYWRIN1VSV1NQdlNCWElrSHFqTHY1Y29BVU1SalVHcUFJdzkwQXFWX3daS05uZVRaY2VBb293aXFTSUkzei0zbUNlSQ?oc=5",
+   "date": "2026-09-05 03:44",
+   "publishedAt": "2026-09-05T03:44:43+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "hp"
+   ],
+   "press": false,
+   "heat": 30,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 2,
+   "also": [],
+   "lines": [
+    "rtx"
+   ],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "HP unveils the world's thinnest Nvidia RTX Spark laptops for professionals and gamers alike - XDA",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "HP announces new OmniBook PCs powered by Nvidia RTX Spark - TipRanks",
+   "source": "TipRanks",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYWhreTMzV29uS2F3cmd1S3c4SDhZTWc4ckhLcHFsVFY2U0lueDNCeXR6eHhBYTctZUJ3ak9VWElYS3FGeGc5T3NGallQWmFUVUtLZXdDbkN1T1E5ZllPMUgwRmx6OVRuOHd4TXQxTTRoalVYc1hUajMwb0Y1TVl0eUpKa1VJM0RKbDNSaVJRbHBIeDlrcDdGVkZyRm1MQUtxVVFHRUVsLVVfQTQ?oc=5",
+   "date": "2026-09-05 03:08",
+   "publishedAt": "2026-09-05T03:08:14+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "hp"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [
+    "rtx"
+   ],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "HP announces new OmniBook PCs powered by Nvidia RTX Spark - TipRanks",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Nvidia Gains 2% as RTX Spark Pushes AI Beyond the Cloud - TradingView",
+   "source": "TradingView",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVE5wZU91UktmT3dJcGRpTk9zci1aMnNKOTFIZnpVU3pYNDdVcDlkdzhodjBXSXNlVVcxcHlIRjJTYW9kZnkySVJ6UlhuQ0Z6d18tUVhXQnJJbzFYM2dsYkw5YWxrQmw0dXhpekdVTC0yNXVTMVl4SXBfR0JPZ1FsV1JsX3pxVzdFZUFDQjFQUU90U2ZkZGtVTzMzRHU3dF9xOXpUb3VvN1V3TlZpWmdrN3UwZWQ?oc=5",
+   "date": "2026-09-05 02:24",
+   "publishedAt": "2026-09-05T02:24:08+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [
+    "rtx"
+   ],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Nvidia Gains 2% as RTX Spark Pushes AI Beyond the Cloud - TradingView",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "HP unveils two new OmniBook laptops powered by Nvidia RTX Spark - StreetInsider",
+   "source": "StreetInsider",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNlM5R19ZVm56WjRUa2JsUzBhQlcxSVVWS3pWNl9JeGJUckozN0JybFNpNm1JSFpaSFRIRzNzSjJIN1FYdHZMN05mSk9xZmR5eFNWZjM3ZEF3QTdiZExSMW1nUjRlRU40eUhOVFJodElBZndDVHROU09mcmw3VWIwenp1RzJQc2txYkNlcEJLR1hWLTlhVGp1ODhic0NnSTNkZVM3eTMxX0MzejBramMwQWwyRG9vLVktSk9MdldScw?oc=5",
+   "date": "2026-09-05 02:01",
+   "publishedAt": "2026-09-05T02:01:51+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "hp"
+   ],
+   "press": false,
+   "heat": 22,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [
+    "rtx"
+   ],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "HP unveils two new OmniBook laptops powered by Nvidia RTX Spark - StreetInsider",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "I saw a whole bunch of RTX Spark laptops all at once. - The Verge",
+   "source": "The Verge",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOalFRNVRESzlFMlp0d2JkU09IWDJmai1GMUd5di1xaTQ1SWI3Q3JrTE02Sm83d3JkMlNFUWtVS2JSbFpZN2dET1owdy1RejhqZlhnY2h3ejlmbXlKME5RQ2xaN0QxaExIMks0N0xNN3h5UGdJanAxc2hWQ1pCVUlobUZYQjRTdEFzQnhlUXpnMjFMV3M?oc=5",
+   "date": "2026-09-05 01:23",
+   "publishedAt": "2026-09-05T01:23:54+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 22,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [
+    "rtx"
+   ],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "I saw a whole bunch of RTX Spark laptops all at once. - The Verge",
      "summary": ""
     }
    }
@@ -79,7 +310,7 @@
     "other"
    ],
    "press": false,
-   "heat": 15,
+   "heat": 14,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -94,47 +325,6 @@
     "en": {
      "title": "AMD Reveals Threadripper Halo Station: 96 Cores and up to 576GB of HBM3E Aimed Straight at DGX Station",
      "summary": ""
-    }
-   }
-  },
-  {
-   "title": "J'ai joué avec RTX Spark de NVIDIA : plus PUISSANT qu'on ne le croit",
-   "source": "YouTube · OtaXou",
-   "url": "https://www.youtube.com/watch?v=ER6ZB19jd1I",
-   "date": "2026-09-05 00:00",
-   "publishedAt": "2026-09-05T00:00:06+08:00",
-   "summary": "J'ai profité de l'IFA 2026 pour aller prendre en main une dernière fois les RTX Spark de NVIDIA, les nouveaux PC portables propulsés par les NVIDA N1X. Nous avons d'ailleurs les spécifications techniq",
-   "models": [
-    "RTX Spark",
-    "N1X"
-   ],
-   "tag": "影片",
-   "camps": [
-    "nvidia"
-   ],
-   "press": false,
-   "heat": 100,
-   "image": "https://i.ytimg.com/vi/ER6ZB19jd1I/mqdefault.jpg",
-   "views": 17168,
-   "comments": 86,
-   "dupes": 49,
-   "also": [
-    "YouTube · Tonytech - Cputech",
-    "YouTube · Plain AI News",
-    "YouTube · Andrew Marc David",
-    "YouTube · Hipertextual",
-    "YouTube · NexbyteX",
-    "YouTube · TechMatePL"
-   ],
-   "lines": [
-    "rtx"
-   ],
-   "score": 387,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "J'ai joué avec RTX Spark de NVIDIA : plus PUISSANT qu'on ne le croit",
-     "summary": "J'ai profité de l'IFA 2026 pour aller prendre en main une dernière fois les RTX Spark de NVIDIA, les nouveaux PC portables propulsés par les NVIDA N1X. Nous avons d'ailleurs les spécifications techniq"
     }
    }
   },
@@ -154,7 +344,7 @@
     "lenovo"
    ],
    "press": false,
-   "heat": 15,
+   "heat": 14,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -187,7 +377,7 @@
     "lenovo"
    ],
    "press": false,
-   "heat": 15,
+   "heat": 14,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -222,7 +412,7 @@
     "lenovo"
    ],
    "press": false,
-   "heat": 23,
+   "heat": 22,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -241,9 +431,9 @@
    }
   },
   {
-   "title": "IFA 2026: Nvidia RTX Spark PCs, Local AI Tools Announced With October Launch Planned - Gadgets 360",
-   "source": "Gadgets 360",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObHRaWkdSZXJaZ0JyU19zY005T2lJaGgwVGVqbXZqSVB3eXlOcVRXQlp0UlFuTFBBbWRWa1owZ0M4R1lCQ21hWC1CSlVCWno5eGlQWWZsZXUweFBLakVJSlpYTG9sX0pDVXFPbThpcnhNcjVQMVBUVmdlMDAyS0o1SEw3SUhSOTRsN3puY1N0NDRaandfLUlUMW1CdUE5LWtLb1pHOW5GNTFXakJhaXo1eHJWVG1CMzM40gG4AUFVX3lxTE5sdFpaR1JlclpnQnJTX3NjTTlPaUloaDBUZWptdmpJUHd5eU5xVFdCWnRSUW5MUEFtZFZrWjBnQzhHWUJDbWFYLUJKVUJaejl4aVBZZmxldTB4UEtqRUlKWlhMb2xfSkNVcU9tOGlyeE1yNVAxUFRWZ2UwMDJLSjVITDdJSFI5NGw3em5jU3Q0NFpqd18tSVQxbUJ1QTkta0tvWkc5bkY1MVdqQmFpejV4clZUbUIzMzg?oc=5",
+   "title": "IFA 2026: Nvidia RTX Spark PCs, Local AI Tools Announced With October Launch Planned - gadgets360.com",
+   "source": "gadgets360.com",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVlRINHJHTTBnOTdkZkp6dldZcUNob2tjNndlbUlzNGtoZTNuaVdndjB6ZlVyazBicFRsRzRlSVZSYkthcHFwb0pqeXptZlF1TzFjdElXejB4eDBxNHBGWnlvRDFFX1Z3ZWp0R29uNkF0NVJ0cGloUHRSU21mRDk5Q2lCTVpQdGozSzlPRVpuYWpyd01KWm1LNXVqUTBweWdzNnRJVmpna3hWNTBIdDQtTDNzc9IBuAFBVV95cUxObHRaWkdSZXJaZ0JyU19zY005T2lJaGgwVGVqbXZqSVB3eXlOcVRXQlp0UlFuTFBBbWRWa1owZ0M4R1lCQ21hWC1CSlVCWno5eGlQWWZsZXUweFBLakVJSlpYTG9sX0pDVXFPbThpcnhNcjVQMVBUVmdlMDAyS0o1SEw3SUhSOTRsN3puY1N0NDRaandfLUlUMW1CdUE5LWtLb1pHOW5GNTFXakJhaXo1eHJWVG1CMzM4?oc=5",
    "date": "2026-09-04 22:20",
    "publishedAt": "2026-09-04T22:20:42+08:00",
    "summary": "",
@@ -255,7 +445,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 15,
+   "heat": 14,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -268,7 +458,7 @@
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "IFA 2026: Nvidia RTX Spark PCs, Local AI Tools Announced With October Launch Planned - Gadgets 360",
+     "title": "IFA 2026: Nvidia RTX Spark PCs, Local AI Tools Announced With October Launch Planned - gadgets360.com",
      "summary": ""
     }
    }
@@ -288,7 +478,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 14,
+   "heat": 13,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -321,7 +511,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 30,
+   "heat": 29,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -354,7 +544,7 @@
     "other"
    ],
    "press": false,
-   "heat": 22,
+   "heat": 21,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -388,7 +578,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 22,
+   "heat": 21,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -421,7 +611,7 @@
     "lenovo"
    ],
    "press": false,
-   "heat": 22,
+   "heat": 21,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -454,7 +644,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 14,
+   "heat": 13,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -473,8 +663,8 @@
    }
   },
   {
-   "title": "Nvidia RTX Spark laptops, desktops arrive in October from six manufacturers - techspot.com",
-   "source": "techspot.com",
+   "title": "Nvidia RTX Spark laptops, desktops arrive in October from six manufacturers - TechSpot",
+   "source": "TechSpot",
    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdDZ2Nzh3d3NDQUZ6VGFubWJ0b1BGbi1ZMHF2eFNTQk45SnVFV1NFNnItZjRvcUFaVTd6dTY3dVNubUN3YWx3Q3VNOG52SEEweXlMRGFWeGVhVzlQNEJtVE9iVnZHN21LeEU2eHdOLVVEd1Y2UGpqdE1EY3NnYjJkbTZ5SnpVdjg4NFdZc3lYTTZ0SFliZ1VRcE1n?oc=5",
    "date": "2026-09-04 19:15",
    "publishedAt": "2026-09-04T19:15:00+08:00",
@@ -487,7 +677,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 30,
+   "heat": 29,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -500,15 +690,49 @@
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "Nvidia RTX Spark laptops, desktops arrive in October from six manufacturers - techspot.com",
+     "title": "Nvidia RTX Spark laptops, desktops arrive in October from six manufacturers - TechSpot",
      "summary": ""
     }
    }
   },
   {
-   "title": "Nvidia RTX Spark PCs from Lenovo, Acer to launch in October - enterpriseai.economictimes.indiatimes.com",
-   "source": "enterpriseai.economictimes.indiatimes.com",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPSWsyM2ZSY005RWRKeTByRXVNWWctV1MwRkxlaVlQbzRiN0k5bGpNQnFPdkVuWUF3TDF1OXRWWkh5WHQyZkJDS1JfRDJYQ2J4ckNVb3ROZFBSOXlZQmpSbDlEVTJQS0NlWnFMZjdfTDBaVDIzUFd2eXMweDJqalpzejRiTHRpd2Q4My16YVBhZ1AtUWltc3BWS0dHMnBrSWRMUWdMOVlwUjk4UFlHVzJNeGNtNlZSVVFOalphdXlSR2VpdkN1ZUY1dklfNnZiVzZtbXfSAdIBQVVfeXFMT0lrMjNmUmNNOUVkSnkwckV1TVlnLVdTMEZMZWlZUG80YjdJOWxqTUJxT3ZFbllBd0wxdTl0VlpIeVh0MmZCQ0tSX0QyWENieHJDVW90TmRQUjl5WUJqUmw5RFUyUEtDZVpxTGY3X0wwWlQyM1BXdnlzMHgyampac3o0Ykx0aXdkODMtemFQYWdQLVFpbXNwVktHRzJwa0lkTFFnTDlZcFI5OFBZR1cyTXhjbTZWUlVRTmpaYXV5UkdlaXZDdWVGNXZJXzZ2Ylc2bW13?oc=5",
+   "title": "Nvidia RTX Spark N1X Launches October: 128GB RAM [2026] - tech-insider.org",
+   "source": "tech-insider.org",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBFMVRvRUdwZktYM2Z5VllZQU1fWTR5cl9Yc2s1ZDh0V01id040ejl3a2FUM1N4a1Y2R0tvNnM1R0t3ai1aSWdoS013X0lKTVA5dXRxcDUwRHYtbmFWY3ZKaUdMWDlZTFhqRk1FaEFBX0t0dGt2?oc=5",
+   "date": "2026-09-04 19:00",
+   "publishedAt": "2026-09-04T19:00:17+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark",
+    "N1X"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 48,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 5,
+   "also": [],
+   "lines": [
+    "rtx"
+   ],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Nvidia RTX Spark N1X Launches October: 128GB RAM [2026] - tech-insider.org",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Nvidia RTX Spark PCs from Lenovo, Acer to launch in October - ET Enterprise AI",
+   "source": "ET Enterprise AI",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNLV9LY1ZpR3VCY2RqSHBwUHZmNTRGQnhudDB5eVJjZnhLTHVEVTVLT3BRMUxRWXJKcVI5M0l0YkRIMG81aEk2c3laMm5wNEpudEFrSlFWTC1tVFlTMnlTakcya01kT0VyWmtlUW9hZm9CVk02Tjk0RFQyY3NVbVdJOGJTUVdJb3I4dE1vWHdTMmQ1WDhFRy1BVXhpbWhTMXh5aEJfYU1UWEpXQUtkWU5qUVY0NFp0eUdiZFYxZkVrX1k5YkdhWTFhR0xtQVPSAdIBQVVfeXFMT0lrMjNmUmNNOUVkSnkwckV1TVlnLVdTMEZMZWlZUG80YjdJOWxqTUJxT3ZFbllBd0wxdTl0VlpIeVh0MmZCQ0tSX0QyWENieHJDVW90TmRQUjl5WUJqUmw5RFUyUEtDZVpxTGY3X0wwWlQyM1BXdnlzMHgyampac3o0Ykx0aXdkODMtemFQYWdQLVFpbXNwVktHRzJwa0lkTFFnTDlZcFI5OFBZR1cyTXhjbTZWUlVRTmpaYXV5UkdlaXZDdWVGNXZJXzZ2Ylc2bW13?oc=5",
    "date": "2026-09-04 18:19",
    "publishedAt": "2026-09-04T18:19:55+08:00",
    "summary": "",
@@ -521,7 +745,7 @@
     "lenovo"
    ],
    "press": false,
-   "heat": 14,
+   "heat": 13,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -534,7 +758,7 @@
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "Nvidia RTX Spark PCs from Lenovo, Acer to launch in October - enterpriseai.economictimes.indiatimes.com",
+     "title": "Nvidia RTX Spark PCs from Lenovo, Acer to launch in October - ET Enterprise AI",
      "summary": ""
     }
    }
@@ -554,7 +778,7 @@
     "lenovo"
    ],
    "press": false,
-   "heat": 22,
+   "heat": 21,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -573,8 +797,41 @@
    }
   },
   {
-   "title": "ASUS ProArt RTX Spark PCs at IFA 2026: 5 Things Creators Should Know - the-gadgeteer.com",
-   "source": "the-gadgeteer.com",
+   "title": "英偉達通過RTX Spark PC和新工具擴大本地AI佈局 - Moomoo",
+   "source": "Moomoo",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdklhM3VBMHh5YnluWHIzUEZ3cGhCWF9mWUpMQm1jZ2d3VjdveGdubWdHSHM3WklrdkZ2cVAwTFFuVlhhVUg3bEZnY1FhZzZDVFdBeWtnSEJ2Z0pUSEltTGlQV1dfcTllcDl3VDZBNFJXOXdCOHRXRnZpeEJWY3BrbEplWDdDZ3h5QmJDWXJZMWdUM1BuWElBY3ZsOHBwX3M?oc=5",
+   "date": "2026-09-04 17:17",
+   "publishedAt": "2026-09-04T17:17:22+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 21,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [
+    "rtx"
+   ],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "英偉達通過RTX Spark PC和新工具擴大本地AI佈局 - Moomoo",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "ASUS ProArt RTX Spark PCs at IFA 2026: 5 Things Creators Should Know - The Gadgeteer",
+   "source": "The Gadgeteer",
    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUzFvcWlJREN6ZE9LRXE0V1FtN01rUDVwQW45eFNYZ1prMU5ZZ19WMEVTRFFRc0Z3bTdMbUVmRGlyVm9iRjhjTG1nbXdjMjN2X3liX2lobTU2UDZCLTNrWFg1eGdMUS1VLU04YzB4aFAwdHFLY2pPWlJxR3hCTmc1cXdEVWhObjBr?oc=5",
    "date": "2026-09-04 17:00",
    "publishedAt": "2026-09-04T17:00:17+08:00",
@@ -587,7 +844,7 @@
     "asus"
    ],
    "press": false,
-   "heat": 22,
+   "heat": 21,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -600,7 +857,7 @@
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "ASUS ProArt RTX Spark PCs at IFA 2026: 5 Things Creators Should Know - the-gadgeteer.com",
+     "title": "ASUS ProArt RTX Spark PCs at IFA 2026: 5 Things Creators Should Know - The Gadgeteer",
      "summary": ""
     }
    }
@@ -620,7 +877,7 @@
     "asus"
    ],
    "press": false,
-   "heat": 22,
+   "heat": 21,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -639,8 +896,8 @@
    }
   },
   {
-   "title": "Nvidia Sets October Launch for RTX Spark AI Chips With Lenovo, Acer - whalesbook.com",
-   "source": "whalesbook.com",
+   "title": "Nvidia Sets October Launch for RTX Spark AI Chips With Lenovo, Acer - Whalesbook",
+   "source": "Whalesbook",
    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNaUFWemx5UzlBLWpqdVA5LVZJV0k0cjVRRmlRUDQ0VlJkVG5CamFKak9fekhqY0gwZ0F1RkZxb2NrZ1NrTEFWbW1vWlJxWXg2T05nSzRwdi11U3R4bS1mY3RMTzN2ckhYN2N2V2JvcE1lMDlaU0lnSHRxTUNvaEdaNlFwZnpmRDltSUhKa1pTbU9jMDFVWXktSUtzSlhWMFB2cHJZQUtyZGZRZmpWaVh3SFJQY0xSdmcyUkRfUzVYSVc4bHNzN0hnYUY1ZnVBUDhkTF9qWnBBeGFFdw?oc=5",
    "date": "2026-09-04 16:28",
    "publishedAt": "2026-09-04T16:28:29+08:00",
@@ -654,7 +911,7 @@
     "lenovo"
    ],
    "press": false,
-   "heat": 14,
+   "heat": 13,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -667,14 +924,14 @@
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "Nvidia Sets October Launch for RTX Spark AI Chips With Lenovo, Acer - whalesbook.com",
+     "title": "Nvidia Sets October Launch for RTX Spark AI Chips With Lenovo, Acer - Whalesbook",
      "summary": ""
     }
    }
   },
   {
-   "title": "Top News Today: Ultrahuman Funding, Nvidia RTX Spark, Goa Hiring Rules, Bitcoin Buying, LLM Content Gaps - analyticsinsight.net",
-   "source": "analyticsinsight.net",
+   "title": "Top News Today: Ultrahuman Funding, Nvidia RTX Spark, Goa Hiring Rules, Bitcoin Buying, LLM Content Gaps - Analytics Insight",
+   "source": "Analytics Insight",
    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOWnV6Y3FmWGM5ekstSnBIa1NxM2hXX2txb1N4R2hGWE9rUmpzdGRYbEJMNGNUcjlZSVBiUzhMZ0M0N19LaGVxVVNjTUZxR2dwSnVuckxtMW1WRnhqRjZNa3p3Ql9TSTlJN1hkSU1iaVdwbmFrSVFWUFNTY1NXN1MtSm4tTDJacl84Zm5lR0IzMl9fVzlNdnpxUVJHNVJsckIxTGt0LW5mVlpCM2V6TUlwSk5HZzdTamR0V0tqNEF0V0tDVnA5TG0wd2dFaV90MTdRa29ERlV3U0FwQdIB5wFBVV95cUxOd2xTdWdXT2pqRW9RTmFrWFpTang1ODVrcmFOV2ZiRnEwa0d6SUF4WjZNQWlHUDMyM19OQmpLSjVhUENqY0Y5cS14TEVZLWhiMzQ0c2Vqb3VvdW9sYW5lVkR3ZnplUUdCOE5QTW9SQWs1MFZaTndDMlM3OU0ta21pMVlwalZvQ1NYVHpWa3U3aG5IN211Z0YxSUM4YUt0Qmd2cXZVdGF5cWw3NVlWOWtQMU5UYVJJckRYYnU3NW9uakNQMVNpbjFQam01S2l2Y0l0QTExelFMVGdiak9Tb0lHX3pVbHNIZlk?oc=5",
    "date": "2026-09-04 15:45",
    "publishedAt": "2026-09-04T15:45:59+08:00",
@@ -687,7 +944,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 14,
+   "heat": 13,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -700,14 +957,14 @@
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "Top News Today: Ultrahuman Funding, Nvidia RTX Spark, Goa Hiring Rules, Bitcoin Buying, LLM Content Gaps - analyticsinsight.net",
+     "title": "Top News Today: Ultrahuman Funding, Nvidia RTX Spark, Goa Hiring Rules, Bitcoin Buying, LLM Content Gaps - Analytics Insight",
      "summary": ""
     }
    }
   },
   {
-   "title": "Lenovo Yoga Pro 9n / Yoga 9n 2-in-1 AI PCs with NVIDIA RTX Spark announced - FoneArena.com",
-   "source": "FoneArena.com",
+   "title": "Lenovo Yoga Pro 9n / Yoga 9n 2-in-1 AI PCs with NVIDIA RTX Spark announced - fonearena.com",
+   "source": "fonearena.com",
    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOaDZCUThNUHF2aTdrZUlEdVNFZEhCTHI2UDUzeWdfcTllRktOWGlhUHMzQmJZUE91ZXdwbnYyZHZBYlZheGFsR0ZubnU2THJjcUFxWWhmLXB2TjZvaV9QWEFyeWQxcVc5MjNmNFRjT1NoV2dWblplSUVadjRLZVRxSHNXR3BxM1FjOGl5YdIBkgFBVV95cUxOVXVKY3J4WWZPaXJsMWFpOVJMN0dRZUFRV3hBUzh6ZzRyWGFDaWpmZGRsOTl6YTlHYllrYWRXeWd3em41bXk2QUdvUU5QSHJYNk90cjlsYkt1LUw2Sl9kOTNwb1FqYml3ZHpIcGVYaE5UMnhlWDJsS0RyWXNOYk1URlF6V3FrWVpRR0NscnIxc0xtQQ?oc=5",
    "date": "2026-09-04 15:30",
    "publishedAt": "2026-09-04T15:30:28+08:00",
@@ -720,7 +977,7 @@
     "lenovo"
    ],
    "press": false,
-   "heat": 22,
+   "heat": 20,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -733,7 +990,7 @@
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "Lenovo Yoga Pro 9n / Yoga 9n 2-in-1 AI PCs with NVIDIA RTX Spark announced - FoneArena.com",
+     "title": "Lenovo Yoga Pro 9n / Yoga 9n 2-in-1 AI PCs with NVIDIA RTX Spark announced - fonearena.com",
      "summary": ""
     }
    }
@@ -753,7 +1010,7 @@
     "lenovo"
    ],
    "press": false,
-   "heat": 21,
+   "heat": 20,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -786,7 +1043,7 @@
     "asus"
    ],
    "press": false,
-   "heat": 21,
+   "heat": 20,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -820,7 +1077,7 @@
     "lenovo"
    ],
    "press": false,
-   "heat": 21,
+   "heat": 20,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -853,11 +1110,11 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 29,
+   "heat": 20,
    "image": "",
    "views": 0,
    "comments": 0,
-   "dupes": 2,
+   "dupes": 1,
    "also": [],
    "lines": [
     "rtx"
@@ -887,7 +1144,7 @@
     "lenovo"
    ],
    "press": false,
-   "heat": 21,
+   "heat": 20,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -908,8 +1165,8 @@
    }
   },
   {
-   "title": "熱門股／輝達RTX Spark電腦將開賣！華碩改寫新高微星、宏碁齊揚| 產經 - news.ustv.com.tw",
-   "source": "news.ustv.com.tw",
+   "title": "熱門股／輝達RTX Spark電腦將開賣！華碩改寫新高微星、宏碁齊揚| 產經 - 非凡新聞台",
+   "source": "非凡新聞台",
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5mWHo2ZGFKMGkxeDN2amliWm9uX1pwMFpsLXZzR29NcTdnWkdzcGg0alJuOUVLdGx4Q2kxX3dydDNLTU9LUk1nbXJxZVNTTnJuMGd1UkVERzVMZGtFdHF3?oc=5",
    "date": "2026-09-04 13:27",
    "publishedAt": "2026-09-04T13:27:18+08:00",
@@ -924,7 +1181,7 @@
     "msi"
    ],
    "press": false,
-   "heat": 13,
+   "heat": 12,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -937,7 +1194,7 @@
    "lang": "zh",
    "i18n": {
     "zh-TW": {
-     "title": "熱門股／輝達RTX Spark電腦將開賣！華碩改寫新高微星、宏碁齊揚| 產經 - news.ustv.com.tw",
+     "title": "熱門股／輝達RTX Spark電腦將開賣！華碩改寫新高微星、宏碁齊揚| 產經 - 非凡新聞台",
      "summary": ""
     }
    }
@@ -958,7 +1215,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 37,
+   "heat": 36,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -991,7 +1248,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 29,
+   "heat": 28,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -1024,7 +1281,7 @@
     "other"
    ],
    "press": false,
-   "heat": 29,
+   "heat": 28,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -1058,7 +1315,7 @@
     "lenovo"
    ],
    "press": false,
-   "heat": 21,
+   "heat": 20,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -1092,7 +1349,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 21,
+   "heat": 20,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -1125,12 +1382,14 @@
     "lenovo"
    ],
    "press": false,
-   "heat": 13,
+   "heat": 20,
    "image": "",
    "views": 0,
    "comments": 0,
-   "dupes": 0,
-   "also": [],
+   "dupes": 1,
+   "also": [
+    "富途牛牛"
+   ],
    "lines": [
     "rtx"
    ],
@@ -1158,7 +1417,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 45,
+   "heat": 44,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -1172,41 +1431,6 @@
    "i18n": {
     "zh-TW": {
      "title": "NVIDIA RTX Spark是什麼？規格解析，台灣概念股與上市時間一次看懂 - pocket.tw",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "英偉達RTX Spark電腦2026年10月上市 聯想宏碁首批搭載N1X芯片 - Moomoo",
-   "source": "Moomoo",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBpRUJqazRZODBUQ3JKVGJGem5WSUE0NHZ0SS1kSzlqTTRDMi1RX1R2N2pRRnpfYlJVR2FSeENzRGNIajg1NTZiZkFxbnNHa3JjOENKTERnQ3RQZw?oc=5",
-   "date": "2026-09-04 08:48",
-   "publishedAt": "2026-09-04T08:48:27+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark",
-    "N1X"
-   ],
-   "tag": "價格上市",
-   "camps": [
-    "acer",
-    "lenovo"
-   ],
-   "press": false,
-   "heat": 12,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [
-    "rtx"
-   ],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "英偉達RTX Spark電腦2026年10月上市 聯想宏碁首批搭載N1X芯片 - Moomoo",
      "summary": ""
     }
    }
@@ -1227,7 +1451,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 36,
+   "heat": 35,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -1260,7 +1484,7 @@
     "lenovo"
    ],
    "press": false,
-   "heat": 20,
+   "heat": 19,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -1293,7 +1517,7 @@
     "lenovo"
    ],
    "press": false,
-   "heat": 20,
+   "heat": 19,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -1312,8 +1536,8 @@
    }
   },
   {
-   "title": "電子時報：「AI落地」商機可期，宏碁RTX Spark、GoogleBook雙軌出擊 - 富聯網",
-   "source": "富聯網",
+   "title": "電子時報：「AI落地」商機可期，宏碁RTX Spark、GoogleBook雙軌出擊 - ww2.money-link.com.tw",
+   "source": "ww2.money-link.com.tw",
    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbVpoX3JtS0M2Q0FESS0zMVNucW9lU2ltNHdMNlE1aXNLcUEzNmlubHFSZ1RvRFo3U3liQjlKTmxrVjBwUmo0WGY4U1hyZmpPT05UMmFxOHFZOW0ydFBqSzJLeXF6aVVHbTRNZDQtdV9HRS1GNGl1N25iX19KRF9tMW1PRXpydlVB?oc=5",
    "date": "2026-09-04 08:00",
    "publishedAt": "2026-09-04T08:00:00+08:00",
@@ -1326,7 +1550,7 @@
     "acer"
    ],
    "press": false,
-   "heat": 20,
+   "heat": 19,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -1339,7 +1563,7 @@
    "lang": "zh",
    "i18n": {
     "zh-TW": {
-     "title": "電子時報：「AI落地」商機可期，宏碁RTX Spark、GoogleBook雙軌出擊 - 富聯網",
+     "title": "電子時報：「AI落地」商機可期，宏碁RTX Spark、GoogleBook雙軌出擊 - ww2.money-link.com.tw",
      "summary": ""
     }
    }
@@ -1360,7 +1584,7 @@
     "lenovo"
    ],
    "press": false,
-   "heat": 20,
+   "heat": 19,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -1394,7 +1618,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 20,
+   "heat": 19,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -1428,7 +1652,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 28,
+   "heat": 27,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -1462,7 +1686,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 20,
+   "heat": 19,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -1495,7 +1719,7 @@
     "lenovo"
    ],
    "press": false,
-   "heat": 20,
+   "heat": 19,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -1514,8 +1738,8 @@
    }
   },
   {
-   "title": "宏碁IFA新品出擊點燃科技戰局 輕薄筆電大尺寸平板改寫規格 SFF RTX Spark桌機顛覆PC市場 - 自由電子報3C科技",
-   "source": "自由電子報3C科技",
+   "title": "宏碁IFA新品出擊點燃科技戰局 輕薄筆電大尺寸平板改寫規格 SFF RTX Spark桌機顛覆PC市場 - 3c.ltn.com.tw",
+   "source": "3c.ltn.com.tw",
    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE80TklralRmVEpvdlVtdVRieTFyYTRkeHl2RUxCd1gyejkxVUoyMXhwTnUxcmc0bUM2V0ZDZVNYbzU1V2pTd2040gFMQVVfeXFMT1lEdHpvNGNPbG41Z25qZVBjd0lxZmNYWXpFNFlLREQ0bzVEZEZuN0Vodk5WRlA4dVhUMXY2NXg5T0s5TlhmdjBoSVJMbQ?oc=5",
    "date": "2026-09-04 05:40",
    "publishedAt": "2026-09-04T05:40:00+08:00",
@@ -1528,7 +1752,7 @@
     "acer"
    ],
    "press": false,
-   "heat": 20,
+   "heat": 19,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -1541,7 +1765,7 @@
    "lang": "zh",
    "i18n": {
     "zh-TW": {
-     "title": "宏碁IFA新品出擊點燃科技戰局 輕薄筆電大尺寸平板改寫規格 SFF RTX Spark桌機顛覆PC市場 - 自由電子報3C科技",
+     "title": "宏碁IFA新品出擊點燃科技戰局 輕薄筆電大尺寸平板改寫規格 SFF RTX Spark桌機顛覆PC市場 - 3c.ltn.com.tw",
      "summary": ""
     }
    }
@@ -1561,7 +1785,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 12,
+   "heat": 11,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -1594,7 +1818,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 12,
+   "heat": 11,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -1628,7 +1852,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 12,
+   "heat": 11,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -1661,7 +1885,7 @@
     "asus"
    ],
    "press": false,
-   "heat": 28,
+   "heat": 27,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -1695,7 +1919,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 12,
+   "heat": 11,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -1728,7 +1952,7 @@
     "asus"
    ],
    "press": false,
-   "heat": 28,
+   "heat": 27,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -1762,7 +1986,7 @@
     "lenovo"
    ],
    "press": false,
-   "heat": 12,
+   "heat": 11,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -1796,7 +2020,7 @@
     "lenovo"
    ],
    "press": false,
-   "heat": 12,
+   "heat": 11,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -1810,241 +2034,6 @@
    "i18n": {
     "en": {
      "title": "NVIDIA (NVDA) Partners with Lenovo and Acer to Launch RTX Spark PCs - GuruFocus",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "宏碁新品發表 Packard Bell回歸、輝達RTX Spark電腦開賣陳俊聖口中的「保留未來升級空間」是什麼意思？ - 工商時報",
-   "source": "工商時報",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ObHJHcy16V1NFMS1OVERZVjh2VmZnQXM2YkJwcUJuT2Y3M0FRZFc1azIxcTNUSkZfY1NQZlBGWTJnNWt6Q2lWa09HanZrRERRRmZBMGNrQnpSbzhtcUx3?oc=5",
-   "date": "2026-09-04 03:00",
-   "publishedAt": "2026-09-04T03:00:00+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "價格上市",
-   "camps": [
-    "acer"
-   ],
-   "press": false,
-   "heat": 20,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [],
-   "lines": [
-    "rtx"
-   ],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "宏碁新品發表 Packard Bell回歸、輝達RTX Spark電腦開賣陳俊聖口中的「保留未來升級空間」是什麼意思？ - 工商時報",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "【NVDA】英偉達RTX Spark電腦10月登場 聯想、宏碁首批推出Windows產品 - 香港經濟日報HKET",
-   "source": "香港經濟日報HKET",
-   "url": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxQZF90OHgwVVYwcXZBb1dGZE5yeE1MUG0ta002eDJ2UUk5NHJ3a2UzMDBNRE5yX2xEbTNGSXJuMjBqajlJc256b1J4SkdwcnRDQ3prVFQ2dmFpcGt3a1hvMEhxS0QyWjVHUWtKbGVETWRORHVNOUFybEhDTFhCLXFWWWltaU9NaERTM1REUm1kV3gwTnIydlh5UkhzeEVSZ1VpWXpyZEM4eXVXdHdwZzRzby0yWnNhMkl4RlFaNVJvSnprV21Kb01ib055dFBJWUNIcVZ2OFhYSjJ6c19Yb3RYTE5sRTV4eHJHWXdCZ2QtSFJOMzNJemNWbTNKWnYxeWJtOHJpQVRIVWdvQUM4UW1xMEo5dDJBNWhIbGVFblphcktvUS1BMkhIUWtrem9TalhEZEt2RmplWTZ2dTZOa0RNdkF3SmhPUElVd2Q5RUUxMmNzVGJ4NURpRTV0NDBBM0EtaE5rVVlMNlREMVlQeXQ3MC1WQVlPVE1h?oc=5",
-   "date": "2026-09-04 02:59",
-   "publishedAt": "2026-09-04T02:59:27+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "acer",
-    "lenovo"
-   ],
-   "press": false,
-   "heat": 12,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [
-    "rtx"
-   ],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "【NVDA】英偉達RTX Spark電腦10月登場 聯想、宏碁首批推出Windows產品 - 香港經濟日報HKET",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "首批輝達RTX Spark電腦聯想宏碁10月率先開賣| 科技 - 中央社 CNA",
-   "source": "中央社 CNA",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE93T2hsaXZmTm56ekNhUVpkQkREYnBXZm1oSmw2UkZjcDRteXhXRi1DdmhTd1UxUXNkdG5fb21PblhuMTAwUzBKLW9ScGlTWnQ2d1l5YzVLd0Y0cDZaOWc?oc=5",
-   "date": "2026-09-04 02:57",
-   "publishedAt": "2026-09-04T02:57:00+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "價格上市",
-   "camps": [
-    "acer",
-    "lenovo"
-   ],
-   "press": false,
-   "heat": 20,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [],
-   "lines": [
-    "rtx"
-   ],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "首批輝達RTX Spark電腦聯想宏碁10月率先開賣| 科技 - 中央社 CNA",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Nvidia introduces RTX Spark platform for Windows-PC market - Zamin.uz",
-   "source": "Zamin.uz",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcTlDZ2NvZnZQTXozRXVObWRBa2ZGbnJYcTlzblNCaERoenpKMGViY1pna0JjUUlCRzlnc1lzcldPa3h4TkhlYkIwV1VzSVFHQ1hWWTlwV2VKV0M3TkFSX2dpc3EwRkR3Q0ljN2dNMXl5SzFGbFg4M0F5TXBQNm5RRUstWmZTUlFOZTM3ek4xZzZkXzZiNURYcE1ETjA1ZkloTzIw?oc=5",
-   "date": "2026-09-04 02:50",
-   "publishedAt": "2026-09-04T02:50:55+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "nvidia"
-   ],
-   "press": false,
-   "heat": 20,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [],
-   "lines": [
-    "rtx"
-   ],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Nvidia introduces RTX Spark platform for Windows-PC market - Zamin.uz",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "ASUS’ RTX Spark-Powered ProArt P14 And ProArt P16 To Rely On Liquid Metal For Heat Transfer, Bringing Some Risk To The Table, But No Vapor Chamber Present - Wccftech",
-   "source": "Wccftech",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOajRYenR5VVpvS0UxZndjREFsa1I5TXdubmkzYS1oQVBIU0t4VnNBQmp2LWkySFgtLXdKN015UnVMY2NYT1RyV1dWX2xxR0NZSzhfdjVNM1hBdE9hTkVWMGREa3J2NmNXTy1xV0NfR2plZUNnRW5FWUc4OVZpVXRscVAxMGtoNk1l0gGOAUFVX3lxTFBNTWZMWGhzSHM1Wk13Rzg2S2EteVhzcDduRjVZWnJ6dnluREZWX3lHZmJzci1GUEVnSzZYTzFLU251QmU2ZU1wdXBVTkVJbkwtWGF3NlJaVW5JTERWUy1wbV9ycGh0OXY5YUx2eEw0NDlNYk9BRkJ5SElSMC05WndsMFNEYV91UmFjRlRCWlE?oc=5",
-   "date": "2026-09-04 02:46",
-   "publishedAt": "2026-09-04T02:46:17+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "asus"
-   ],
-   "press": false,
-   "heat": 20,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [],
-   "lines": [
-    "rtx"
-   ],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "ASUS’ RTX Spark-Powered ProArt P14 And ProArt P16 To Rely On Liquid Metal For Heat Transfer, Bringing Some Risk To The Table, But No Vapor Chamber Present - Wccftech",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Lenovo puts Nvidia RTX Spark into its new Yoga Pro laptops for local AI at IFA 2026 - Digital Trends",
-   "source": "Digital Trends",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbG92dXlVY0w4RWp1bHk1bFI5T1V4SXhjd1VRdDFoQVhOOUo2bmpKWmdsdnk5eXpRM0UzZUlIZkxtZFZpeTNSWG5yMW9DQlF6ZVZfVk1XMHlZWFJHYlpJZHN6Y1FrY25QXzAwUVJIejVwLTFoQVVvNVZteXE3SGE0aDd5czRhY1luR1BmZlN0Q015TEFBMnNwOG1DOHdqTl84LXJyZndIa05uUEdYaU43dS1kaEFQWVpySWRac3dfbWhLdw?oc=5",
-   "date": "2026-09-04 02:41",
-   "publishedAt": "2026-09-04T02:41:35+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "lenovo"
-   ],
-   "press": false,
-   "heat": 20,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [],
-   "lines": [
-    "rtx"
-   ],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Lenovo puts Nvidia RTX Spark into its new Yoga Pro laptops for local AI at IFA 2026 - Digital Trends",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "宏碁：PC漲價幅度趨緩 樂觀看待輝達RTX Spark PC商機 - UDN",
-   "source": "UDN",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9BQVNGdm9LS1h2UHVfanVKNlNDcDh3UU5DS3RCV092U0xva3VSTURJTFZzc1FIMnF0T0ZXRnhaRHpDTjN0UDNMZUZ5NHFwdjVyYlhPd3Bn0gFWQVVfeXFMT0FBU0Z2b0tLWHZQdV9qdUo2U0NwOHdRTkNLdEJXT3ZTTG9rdVJNRElMVnNzUUgycXRPRldGeFpEekNOM3RQM0xlRnk0cXB2NXJiWE93cGc?oc=5",
-   "date": "2026-09-04 02:31",
-   "publishedAt": "2026-09-04T02:31:41+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "acer"
-   ],
-   "press": false,
-   "heat": 28,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 2,
-   "also": [
-    "經濟日報"
-   ],
-   "lines": [
-    "rtx"
-   ],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "宏碁：PC漲價幅度趨緩 樂觀看待輝達RTX Spark PC商機 - UDN",
      "summary": ""
     }
    }
