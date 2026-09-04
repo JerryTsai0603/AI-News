@@ -89,7 +89,13 @@ MODELS_FEEDS = [
     ("MIT Tech Review", "https://www.technologyreview.com/topic/artificial-intelligence/feed"),
     ("Google AI Blog", "https://blog.google/technology/ai/rss/"),
     ("OpenAI Blog", "https://openai.com/blog/rss.xml"),
-    ("Anthropic News", "https://www.anthropic.com/rss.xml"),
+]
+
+MODELS_PRESS_PAGES = [
+    ("Anthropic News", "https://www.anthropic.com/news"),
+    ("OpenAI News", "https://openai.com/news/"),
+    ("Google DeepMind", "https://deepmind.google/discover/blog/"),
+    ("Meta AI Blog", "https://ai.meta.com/blog/"),
 ]
 
 MODELS_GROUPS = [
@@ -257,6 +263,7 @@ CHANNELS = {
         "out": ROOT / "data",
         "queries": MODELS_QUERIES, "feeds": MODELS_FEEDS,
         "reddit": MODELS_REDDIT, "window": 48,
+        "press_pages": MODELS_PRESS_PAGES,
         "groups": MODELS_GROUPS, "fallback": [], "lines": [],
         "tags": MODELS_TAGS, "keep": MODELS_KEEP, "products": MODELS_PRODUCTS,
     },
@@ -316,14 +323,21 @@ def clean_url(url: str) -> str:
         (p.scheme, p.netloc, p.path, urllib.parse.urlencode(keep), ""))
 
 
-def fetch(url: str) -> str | None:
-    try:
-        r = requests.get(url, headers={"User-Agent": UA}, timeout=TIMEOUT)
-        r.raise_for_status()
-        return r.text
-    except Exception as exc:
-        log(f"  ✗ 取得失敗 {url[:70]} → {exc}")
-        return None
+def fetch(url: str, retries: int = 1) -> str | None:
+    for attempt in range(retries + 1):
+        try:
+            r = requests.get(url, headers={"User-Agent": UA}, timeout=TIMEOUT)
+            if r.status_code in (429, 503) and attempt < retries:
+                time.sleep(6)          # 被限流就等一下再試
+                continue
+            r.raise_for_status()
+            return r.text
+        except Exception as exc:
+            if attempt < retries:
+                time.sleep(3)
+                continue
+            log(f"  ✗ 取得失敗 {url[:70]} → {exc}")
+    return None
 
 
 def detect_lang(text: str) -> str:
@@ -997,7 +1011,7 @@ def get_llm() -> dict | None:
     return None
 
 
-def call_llm(prompt: str, max_tokens: int = 4000) -> str:
+def call_llm(prompt: str, max_tokens: int = 8000) -> str:
     cfg = get_llm()
     if not cfg:
         raise RuntimeError("沒有可用的 API 金鑰")
@@ -1044,11 +1058,64 @@ def call_llm(prompt: str, max_tokens: int = 4000) -> str:
     if r.status_code >= 400:
         raise RuntimeError(f"{r.status_code} {r.text[:200]}")
     choices = r.json().get("choices", [])
-    return choices[0].get("message", {}).get("content", "") if choices else ""
+    if not choices:
+        return ""
+    msg = choices[0].get("message", {}) or {}
+    content = msg.get("content")
+    # 推理型模型有時把文字放在 reasoning_content，或用 list 包起來
+    if isinstance(content, list):
+        content = "".join(b.get("text", "") for b in content if isinstance(b, dict))
+    if not content:
+        content = msg.get("reasoning_content") or ""
+    return content
 
 
-def extract_json(text: str):
-    return json.loads(text[text.find("["): text.rfind("]") + 1])
+def parse_rows(text: str) -> list[dict]:
+    """盡量從回應裡撈出物件。整批解析失敗就逐個搶救，不讓一顆壞蘋果毀掉整批。"""
+    if not text:
+        return []
+    clean = text.replace("```json", "").replace("```", "").strip()
+
+    a, b = clean.find("["), clean.rfind("]")
+    if a != -1 and b > a:
+        try:
+            got = json.loads(clean[a:b + 1])
+            if isinstance(got, list):
+                return [x for x in got if isinstance(x, dict)]
+        except Exception:
+            pass
+
+    rows, dec, i = [], json.JSONDecoder(), 0
+    while i < len(clean):
+        j = clean.find("{", i)
+        if j == -1:
+            break
+        try:
+            obj, end = dec.raw_decode(clean, j)
+            if isinstance(obj, dict):
+                rows.append(obj)
+            i = end
+        except Exception:
+            i = j + 1
+    return rows
+
+
+def llm_rows(prompt: str, max_tokens: int = 8000, tries: int = 2) -> list[dict]:
+    """呼叫模型並解析，失敗重試一次。"""
+    last = ""
+    for _ in range(tries):
+        try:
+            text = call_llm(prompt, max_tokens)
+        except Exception as exc:
+            last = str(exc)[:120]
+            time.sleep(1.5)
+            continue
+        rows = parse_rows(text)
+        if rows:
+            return rows
+        last = "回應為空" if not text.strip() else f"解析不出物件（{len(text)} 字）"
+        time.sleep(1.0)
+    raise RuntimeError(last)
 
 
 def add_summaries(items: list[dict]) -> None:
@@ -1056,20 +1123,27 @@ def add_summaries(items: list[dict]) -> None:
         log("找不到任何 API 金鑰，略過摘要與翻譯（網頁會顯示原文）")
         log("  可用的環境變數：" + "、".join(e for _, e, _, _, _ in PROVIDERS))
         return
-    for start in range(0, len(items), 20):
+    done = 0
+    for start in range(0, len(items), 10):
         chunk = [{"i": i, "t": items[i]["title"], "s": items[i].get("summary", "")[:150]}
-                 for i in range(start, min(start + 20, len(items)))]
-        prompt = ("以下是新聞標題清單（JSON）。請為每一則寫一句 45 字以內的繁體中文摘要，"
-                  "點出具體事實。只輸出 JSON 陣列，格式 [{\"i\":0,\"s\":\"摘要\"}]，"
-                  "不要其他文字。\n\n" + json.dumps(chunk, ensure_ascii=False))
+                 for i in range(start, min(start + 10, len(items)))]
+        prompt = (
+            "為下列每一則新聞寫一句 45 字以內的繁體中文摘要，點出具體事實。\n"
+            f"輸出格式：每行一個 JSON 物件，共 {len(chunk)} 行，"
+            "不要陣列括號、不要 markdown、不要任何說明文字。\n"
+            '每行長這樣：{"i": 0, "s": "摘要文字"}\n\n'
+            "待處理：\n"
+            + "\n".join(json.dumps(c, ensure_ascii=False) for c in chunk)
+        )
         try:
-            for row in extract_json(call_llm(prompt, 2000)):
+            for row in llm_rows(prompt, 3000):
                 i = row.get("i")
                 if isinstance(i, int) and 0 <= i < len(items) and row.get("s"):
                     items[i]["summary"] = row["s"]
-            log(f"  ✓ 已摘要 {len(chunk)} 則")
+                    done += 1
         except Exception as exc:
-            log(f"  ✗ 摘要失敗：{exc}")
+            log(f"  ✗ 摘要第 {start // 10 + 1} 批失敗：{exc}")
+    log(f"  ✓ 已摘要 {done}/{len(items)} 則")
 
 
 def add_translations(items: list[dict]) -> None:
@@ -1094,30 +1168,34 @@ def add_translations(items: list[dict]) -> None:
             continue
 
         done = 0
-        for start in range(0, len(todo), 15):
-            batch = todo[start:start + 15]
+        for start in range(0, len(todo), 8):
+            batch = todo[start:start + 8]
             payload = [{"i": i, "t": items[i]["title"],
                         "s": (items[i].get("summary") or "")[:200]} for i in batch]
             prompt = (
-                f"把下列新聞標題與摘要翻譯成{name}。\n"
-                "要求：\n"
-                "- 公司名、產品型號（DGX Spark、GB10、Ascent GX10、GPT-5、Claude 等）保留原文不譯。\n"
+                f"把下列新聞的標題與摘要翻譯成{name}。\n"
+                "規則：\n"
+                "- 公司名與產品型號（DGX Spark、RTX Spark、GB10、GPT-5、Claude 等）保留原文不譯。\n"
                 "- 標題譯得像新聞標題，簡潔有力。\n"
-                "- 摘要控制在 60 字以內；原本沒有摘要就回傳空字串。\n"
-                "- 只輸出 JSON 陣列，格式 [{\"i\":0,\"t\":\"標題\",\"s\":\"摘要\"}]，"
-                "不要任何說明文字或 markdown 標記。\n\n"
-                + json.dumps(payload, ensure_ascii=False)
+                "- 摘要 60 字以內；原本沒有摘要就給空字串。\n"
+                f"輸出格式：每行一個 JSON 物件，共 {len(payload)} 行，"
+                "不要陣列括號、不要 markdown、不要任何說明文字。\n"
+                '每行長這樣：{"i": 0, "t": "標題", "s": "摘要"}\n\n'
+                "待處理：\n"
+                + "\n".join(json.dumps(c, ensure_ascii=False) for c in payload)
             )
             try:
-                for row in extract_json(call_llm(prompt)):
+                for row in llm_rows(prompt, 4000):
                     i = row.get("i")
                     if isinstance(i, int) and 0 <= i < len(items) and row.get("t"):
-                        items[i]["i18n"][lang] = {"title": row["t"], "summary": row.get("s", "")}
+                        items[i]["i18n"][lang] = {"title": row["t"],
+                                                  "summary": row.get("s", "")}
                         done += 1
             except Exception as exc:
-                log(f"  ✗ {name} 第 {start // 15 + 1} 批失敗：{exc}")
-            time.sleep(0.5)
-        log(f"  ✓ {name}：翻譯 {done}/{len(todo)} 則")
+                log(f"  ✗ {name} 第 {start // 8 + 1} 批失敗：{exc}")
+            time.sleep(0.4)
+        log(f"  ✓ {name}：翻譯 {done}/{len(todo)} 則"
+            + ("" if done == len(todo) else "（其餘顯示原文）"))
 
 
 # ---------------------------------------------------------------- 單一頻道
