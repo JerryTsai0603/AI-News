@@ -100,6 +100,21 @@
   .src{font-family:ui-monospace,SFMono-Regular,monospace;font-size:11.5px;color:var(--mute);}
   .lang{font-size:10.5px;color:var(--mute);border:1px solid var(--line);
         border-radius:2px;padding:2px 6px;}
+  .card-body{display:flex;gap:14px;align-items:flex-start;}
+  .card-main{flex:1;min-width:0;}
+  .thumb{flex:none;width:104px;height:78px;border-radius:2px;overflow:hidden;
+         background:#DFE4EB;border:1px solid var(--line);}
+  .thumb img{width:100%;height:100%;object-fit:cover;display:block;}
+  .stats{display:flex;gap:12px;flex-wrap:wrap;align-items:center;
+         font-family:ui-monospace,SFMono-Regular,monospace;
+         font-size:11.5px;color:var(--mute);font-variant-numeric:tabular-nums;}
+  .stats b{font-weight:600;color:#3A4453;}
+  .heat{display:inline-flex;align-items:center;gap:5px;margin-left:auto;}
+  .heat-bar{display:flex;gap:2px;}
+  .heat-bar i{width:3px;height:12px;background:var(--line);display:block;}
+  .heat-bar i.lit{background:#D1493F;}
+  .heat-n{font-family:ui-monospace,SFMono-Regular,monospace;font-size:11px;
+          color:var(--mute);font-variant-numeric:tabular-nums;}
   .card h2{font-size:17px;font-weight:600;line-height:1.5;margin:0;letter-spacing:-.01em;}
   .card h2 a{text-decoration:none;background-image:linear-gradient(currentColor,currentColor);
              background-size:0 1px;background-repeat:no-repeat;background-position:0 100%;
@@ -128,6 +143,7 @@
 
   .ftoggle{display:none;}
   @media (max-width:760px){
+    .thumb{width:76px;height:58px;}
     .grid{grid-template-columns:1fr;gap:16px;}
     .rail{position:static;max-height:none;overflow:visible;}
     .ftoggle{display:block;width:100%;margin-bottom:10px;}
@@ -202,7 +218,8 @@ const UI = {
     eyebrow: "每日 06:00 · AI 語言模型", title: "模型快訊監測台",
     next: "距下次自動更新", sort: "排序", reload: "立即更新",
     filter: "篩選", clearAll: "清除全部", filterBtn: "篩選條件", filterHide: "收起篩選",
-    sorts: { new: "時間 · 最新在前", old: "時間 · 最舊在前",
+    sorts: { heat: "熱門程度",
+             new: "時間 · 最新在前", old: "時間 · 最舊在前",
              source: "來源名稱", tag: "主題分類", title: "標題" },
     groups: { date: "日期", line: "產品線",
               camp: "模型", brand: "品牌",
@@ -215,7 +232,8 @@ const UI = {
             "政策": "政策", "安全": "安全",
             "開箱評測": "開箱評測", "規格效能": "規格效能", "價格上市": "價格上市", "應用案例": "應用案例",
             "社群討論": "社群討論",
-            "官方發布": "官方發布" },
+            "官方發布": "官方發布",
+            "影片": "影片" },
     langs: { zh: "中文", en: "英文", ja: "日文", ko: "韓文" },
     camps: { openai: "OpenAI · GPT", anthropic: "Anthropic · Claude",
              google: "Google · Gemini", meta: "Meta · Llama",
@@ -238,7 +256,8 @@ const UI = {
     eyebrow: "Daily 06:00 · AI language models", title: "Model Newswire",
     next: "Next auto-update in", sort: "Sort", reload: "Refresh",
     filter: "Filters", clearAll: "Clear all", filterBtn: "Filters", filterHide: "Hide filters",
-    sorts: { new: "Newest first", old: "Oldest first",
+    sorts: { heat: "Popularity",
+             new: "Newest first", old: "Oldest first",
              source: "Source name", tag: "Topic", title: "Headline" },
     groups: { date: "Date", line: "Product line",
               camp: "Model", brand: "Brand",
@@ -251,7 +270,8 @@ const UI = {
             "政策": "Policy", "安全": "Safety",
             "開箱評測": "Review", "規格效能": "Specs", "價格上市": "Price & availability", "應用案例": "Use case",
             "社群討論": "Community",
-            "官方發布": "Official" },
+            "官方發布": "Official",
+            "影片": "Video" },
     langs: { zh: "Chinese", en: "English", ja: "Japanese", ko: "Korean" },
     camps: { openai: "OpenAI · GPT", anthropic: "Anthropic · Claude",
              google: "Google · Gemini", meta: "Meta · Llama",
@@ -274,7 +294,8 @@ const UI = {
     eyebrow: "毎日 06:00 · AI言語モデル", title: "モデル速報",
     next: "次回の自動更新まで", sort: "並び順", reload: "更新",
     filter: "絞り込み", clearAll: "すべて解除", filterBtn: "絞り込み", filterHide: "絞り込みを閉じる",
-    sorts: { new: "新しい順", old: "古い順",
+    sorts: { heat: "注目度",
+             new: "新しい順", old: "古い順",
              source: "ソース名", tag: "トピック", title: "見出し" },
     groups: { date: "日付", line: "製品ライン",
               camp: "モデル", brand: "メーカー",
@@ -287,7 +308,8 @@ const UI = {
             "政策": "政策", "安全": "安全",
             "開箱評測": "レビュー", "規格效能": "仕様・性能", "價格上市": "価格・発売", "應用案例": "活用事例",
             "社群討論": "コミュニティ",
-            "官方發布": "公式発表" },
+            "官方發布": "公式発表",
+            "影片": "動画" },
     langs: { zh: "中国語", en: "英語", ja: "日本語", ko: "韓国語" },
     camps: { openai: "OpenAI · GPT", anthropic: "Anthropic · Claude",
              google: "Google · Gemini", meta: "Meta · Llama",
@@ -310,7 +332,8 @@ const UI = {
     eyebrow: "每日 06:00 · AI 语言模型", title: "模型快讯监测台",
     next: "距下次自动更新", sort: "排序", reload: "立即更新",
     filter: "筛选", clearAll: "清除全部", filterBtn: "筛选条件", filterHide: "收起筛选",
-    sorts: { new: "时间 · 最新在前", old: "时间 · 最旧在前",
+    sorts: { heat: "热门程度",
+             new: "时间 · 最新在前", old: "时间 · 最旧在前",
              source: "来源名称", tag: "主题分类", title: "标题" },
     groups: { date: "日期", line: "产品线",
               camp: "模型", brand: "品牌",
@@ -323,7 +346,8 @@ const UI = {
             "政策": "政策", "安全": "安全",
             "開箱評測": "开箱评测", "規格效能": "规格效能", "價格上市": "价格上市", "應用案例": "应用案例",
             "社群討論": "社区讨论",
-            "官方發布": "官方发布" },
+            "官方發布": "官方发布",
+            "影片": "视频" },
     langs: { zh: "中文", en: "英文", ja: "日文", ko: "韩文" },
     camps: { openai: "OpenAI · GPT", anthropic: "Anthropic · Claude",
              google: "Google · Gemini", meta: "Meta · Llama",
@@ -346,7 +370,8 @@ const UI = {
     eyebrow: "매일 06:00 · AI 언어 모델", title: "모델 뉴스와이어",
     next: "다음 자동 업데이트까지", sort: "정렬", reload: "새로고침",
     filter: "필터", clearAll: "전체 해제", filterBtn: "필터", filterHide: "필터 접기",
-    sorts: { new: "최신순", old: "오래된순",
+    sorts: { heat: "인기도",
+             new: "최신순", old: "오래된순",
              source: "출처 이름", tag: "주제", title: "제목" },
     groups: { date: "날짜", line: "제품군",
               camp: "모델", brand: "브랜드",
@@ -359,7 +384,8 @@ const UI = {
             "政策": "정책", "安全": "안전",
             "開箱評測": "리뷰", "規格效能": "사양·성능", "價格上市": "가격·출시", "應用案例": "활용 사례",
             "社群討論": "커뮤니티",
-            "官方發布": "공식 발표" },
+            "官方發布": "공식 발표",
+            "影片": "영상" },
     langs: { zh: "중국어", en: "영어", ja: "일본어", ko: "한국어" },
     camps: { openai: "OpenAI · GPT", anthropic: "Anthropic · Claude",
              google: "Google · Gemini", meta: "Meta · Llama",
@@ -383,7 +409,8 @@ const UI = {
     next: "Nächste Aktualisierung in", sort: "Sortierung", reload: "Aktualisieren",
     filter: "Filter", clearAll: "Alle zurücksetzen",
     filterBtn: "Filter", filterHide: "Filter ausblenden",
-    sorts: { new: "Neueste zuerst", old: "Älteste zuerst",
+    sorts: { heat: "Beliebtheit",
+             new: "Neueste zuerst", old: "Älteste zuerst",
              source: "Quellenname", tag: "Thema", title: "Schlagzeile" },
     groups: { date: "Datum", line: "Produktlinie",
               camp: "Modell", brand: "Marke",
@@ -397,7 +424,8 @@ const UI = {
             "政策": "Politik", "安全": "Sicherheit",
             "開箱評測": "Test", "規格效能": "Technik", "價格上市": "Preis & Verfügbarkeit", "應用案例": "Anwendung",
             "社群討論": "Community",
-            "官方發布": "Offiziell" },
+            "官方發布": "Offiziell",
+            "影片": "Video" },
     langs: { zh: "Chinesisch", en: "Englisch", ja: "Japanisch", ko: "Koreanisch" },
     camps: { openai: "OpenAI · GPT", anthropic: "Anthropic · Claude",
              google: "Google · Gemini", meta: "Meta · Llama",
@@ -421,7 +449,8 @@ const UI = {
     next: "Próxima actualización en", sort: "Orden", reload: "Actualizar",
     filter: "Filtros", clearAll: "Borrar todo",
     filterBtn: "Filtros", filterHide: "Ocultar filtros",
-    sorts: { new: "Más recientes primero", old: "Más antiguas primero",
+    sorts: { heat: "Popularidad",
+             new: "Más recientes primero", old: "Más antiguas primero",
              source: "Nombre de la fuente", tag: "Tema", title: "Titular" },
     groups: { date: "Fecha", line: "Línea de producto",
               camp: "Modelo", brand: "Marca",
@@ -435,7 +464,8 @@ const UI = {
             "政策": "Política", "安全": "Seguridad",
             "開箱評測": "Análisis", "規格效能": "Especificaciones", "價格上市": "Precio y disponibilidad", "應用案例": "Caso de uso",
             "社群討論": "Comunidad",
-            "官方發布": "Oficial" },
+            "官方發布": "Oficial",
+            "影片": "Vídeo" },
     langs: { zh: "Chino", en: "Inglés", ja: "Japonés", ko: "Coreano" },
     camps: { openai: "OpenAI · GPT", anthropic: "Anthropic · Claude",
              google: "Google · Gemini", meta: "Meta · Llama",
@@ -459,7 +489,8 @@ const UI = {
     next: "Prochaine mise à jour dans", sort: "Tri", reload: "Actualiser",
     filter: "Filtres", clearAll: "Tout effacer",
     filterBtn: "Filtres", filterHide: "Masquer les filtres",
-    sorts: { new: "Plus récentes d'abord", old: "Plus anciennes d'abord",
+    sorts: { heat: "Popularité",
+             new: "Plus récentes d'abord", old: "Plus anciennes d'abord",
              source: "Nom de la source", tag: "Thème", title: "Titre" },
     groups: { date: "Date", line: "Gamme",
               camp: "Modèle", brand: "Marque",
@@ -473,7 +504,8 @@ const UI = {
             "政策": "Politique", "安全": "Sécurité",
             "開箱評測": "Test", "規格效能": "Caractéristiques", "價格上市": "Prix et disponibilité", "應用案例": "Cas d'usage",
             "社群討論": "Communauté",
-            "官方發布": "Officiel" },
+            "官方發布": "Officiel",
+            "影片": "Vidéo" },
     langs: { zh: "Chinois", en: "Anglais", ja: "Japonais", ko: "Coréen" },
     camps: { openai: "OpenAI · GPT", anthropic: "Anthropic · Claude",
              google: "Google · Gemini", meta: "Meta · Llama",
@@ -497,7 +529,8 @@ const UI = {
     next: "Prossimo aggiornamento tra", sort: "Ordina", reload: "Aggiorna",
     filter: "Filtri", clearAll: "Cancella tutto",
     filterBtn: "Filtri", filterHide: "Nascondi filtri",
-    sorts: { new: "Più recenti prima", old: "Più vecchie prima",
+    sorts: { heat: "Popolarità",
+             new: "Più recenti prima", old: "Più vecchie prima",
              source: "Nome della fonte", tag: "Tema", title: "Titolo" },
     groups: { date: "Data", line: "Linea di prodotto",
               camp: "Modello", brand: "Marca",
@@ -511,7 +544,8 @@ const UI = {
             "政策": "Politica", "安全": "Sicurezza",
             "開箱評測": "Recensione", "規格效能": "Specifiche", "價格上市": "Prezzo e disponibilità", "應用案例": "Caso d'uso",
             "社群討論": "Community",
-            "官方發布": "Ufficiale" },
+            "官方發布": "Ufficiale",
+            "影片": "Video" },
     langs: { zh: "Cinese", en: "Inglese", ja: "Giapponese", ko: "Coreano" },
     camps: { openai: "OpenAI · GPT", anthropic: "Anthropic · Claude",
              google: "Google · Gemini", meta: "Meta · Llama",
@@ -534,7 +568,7 @@ const CHANNELS = {
   models: {
     base: "data",
     ids: ["openai", "anthropic", "google", "meta", "cn", "other"],
-    tagKeys: ["產品發表", "研究", "商業", "政策", "安全", "社群討論"],
+    tagKeys: ["產品發表", "研究", "商業", "政策", "安全", "社群討論", "影片"],
     groupLabel: "camp",
   },
   // RTX Spark 與 DGX Spark 共用同一份資料，各分頁只鎖定自己的產品線
@@ -544,7 +578,7 @@ const CHANNELS = {
     ids: ["asus", "acer", "dell", "hp", "lenovo", "msi", "gigabyte",
           "microsoft", "nvidia", "other"],
     tagKeys: ["產品發表", "官方發布", "開箱評測", "規格效能",
-                "價格上市", "應用案例", "社群討論"],
+                "價格上市", "應用案例", "社群討論", "影片"],
     groupLabel: "brand",
   },
   dgx: {
@@ -553,7 +587,7 @@ const CHANNELS = {
     ids: ["asus", "acer", "dell", "hp", "lenovo", "msi", "gigabyte",
           "microsoft", "nvidia", "other"],
     tagKeys: ["產品發表", "官方發布", "開箱評測", "規格效能",
-                "價格上市", "應用案例", "社群討論"],
+                "價格上市", "應用案例", "社群討論", "影片"],
     groupLabel: "brand",
   },
 };
@@ -574,7 +608,7 @@ const TAG_COLORS = {
   "產品發表":"#2D3BFF", "研究":"#0F6E5C", "商業":"#8A5A00",
   "政策":"#6B3FA0", "安全":"#B23A2E",
   "開箱評測":"#0F6E5C", "規格效能":"#6B3FA0", "價格上市":"#8A5A00", "應用案例":"#B23A2E",
-  "社群討論":"#0E6E8A", "官方發布":"#1F5FBF",
+  "社群討論":"#0E6E8A", "官方發布":"#1F5FBF", "影片":"#B0344E",
 };
 
 const $ = (id) => document.getElementById(id);
@@ -587,7 +621,7 @@ const esc = (s) => String(s ?? "").replace(/[&<>"']/g,
 
 let cur = "zh-TW";                 // 目前顯示語言
 let ch = "models";                 // 目前分頁
-let sortBy = "new";
+let sortBy = "heat";
 
 // 每個分頁各自一份狀態，切回來時篩選條件還在
 const blank = () => ({
@@ -634,7 +668,9 @@ const isTranslated = (it) =>
      || (mtCache.get(`${it.url}|${cur}`) || {}).title);
 
 /* --- 備援：瀏覽器內建翻譯（Chrome 138+）。沒有 API 金鑰時仍能看到譯文。 --- */
-const MT_LANG = { "zh-TW": "zh-Hant", "zh-CN": "zh-Hans" };
+// 兩個後端吃的語言代碼不一樣，分開對照
+const MT_LANG = { "zh-TW": "zh-Hant", "zh-CN": "zh-Hans" };   // Chrome 內建翻譯
+const MM_LANG = { "zh-TW": "zh-TW", "zh-CN": "zh-CN" };       // MyMemory
 const mtCache = new Map();    // `${url}|${lang}` → { title, summary }
 const mtPool = new Map();
 let mtOff = false;
@@ -650,28 +686,72 @@ async function mtGet(src, tgt) {
   return tr;
 }
 
-async function machineTranslate(list) {
-  if (mtOff || typeof Translator === "undefined") return;
-  const tgt = MT_LANG[cur] || cur;
-  const todo = list.filter((i) => !isTranslated(i)).slice(0, 25);
-  if (!todo.length) return;
+/* 第二層備援：MyMemory 免費翻譯 API，不需要金鑰。
+   匿名額度約每日 5 千字；填入 email 可提高到 5 萬字。
+   品質與額度都不如爬蟲端預先翻譯，只是沒有金鑰時的替代方案。 */
+const MM_EMAIL = "";          // 想提高額度就填自己的 email
+let mmOff = false;
+
+async function mmTranslate(text, src, tgt) {
+  const u = new URL("https://api.mymemory.translated.net/get");
+  u.searchParams.set("q", text.slice(0, 480));
+  u.searchParams.set("langpair", `${src}|${tgt}`);
+  if (MM_EMAIL) u.searchParams.set("de", MM_EMAIL);
+  const r = await fetch(u);
+  const j = await r.json();
+  const out = j && j.responseData && j.responseData.translatedText;
+  if (!out || Number(j.responseStatus) !== 200) throw new Error("quota");
+  return out;
+}
+
+/* 譯文寫進 localStorage，換頁或重新載入不必重譯，省額度。 */
+function mtLoad() {
   try {
+    const raw = localStorage.getItem("mtCache");
+    if (raw) for (const [k, v] of Object.entries(JSON.parse(raw))) mtCache.set(k, v);
+  } catch {}
+}
+function mtSave() {
+  try {
+    const obj = {};
     let n = 0;
-    for (const it of todo) {
-      const src = langOf(it);
-      if (src === cur.split("-")[0]) continue;
-      const tr = await mtGet(src, tgt);
-      if (!tr) continue;
-      mtCache.set(`${it.url}|${cur}`, {
-        title: await tr.translate(it.title),
-        summary: it.summary ? await tr.translate(it.summary) : "",
-      });
+    for (const [k, v] of mtCache) { if (n++ > 600) break; obj[k] = v; }
+    localStorage.setItem("mtCache", JSON.stringify(obj));
+  } catch {}
+}
+
+async function machineTranslate(list) {
+  const tgt = MT_LANG[cur] || cur;
+  const todo = list.filter((i) => !isTranslated(i)
+                                  && langOf(i) !== cur.split("-")[0]).slice(0, 15);
+  if (!todo.length) return;
+
+  const builtin = !mtOff && typeof Translator !== "undefined";
+  if (!builtin && mmOff) return;
+
+  let n = 0;
+  for (const it of todo) {
+    const src = langOf(it);
+    try {
+      let title, summary;
+      if (builtin) {
+        const tr = await mtGet(src, tgt);
+        if (!tr) continue;
+        title = await tr.translate(it.title);
+        summary = it.summary ? await tr.translate(it.summary) : "";
+      } else {
+        const mtgt = MM_LANG[cur] || cur;
+        title = await mmTranslate(it.title, src, mtgt);
+        summary = it.summary ? await mmTranslate(it.summary, src, mtgt) : "";
+      }
+      mtCache.set(`${it.url}|${cur}`, { title, summary });
       n++;
+    } catch {
+      if (builtin) { mtOff = true; } else { mmOff = true; }
+      break;        // 額度用盡或不支援就停手，已翻好的仍會顯示
     }
-    if (n) renderFeed();
-  } catch {
-    mtOff = true;      // 瀏覽器不支援就永久關掉，不影響其他功能
   }
+  if (n) { mtSave(); renderFeed(); }
 }
 
 function langOf(it) {
@@ -783,6 +863,7 @@ const countFor = (g, v) =>
 
 function results() {
   const cmp = {
+    heat:   (a, b) => (b.heat || 0) - (a.heat || 0) || timeOf(b) - timeOf(a),
     new:    (a, b) => timeOf(b) - timeOf(a),
     old:    (a, b) => timeOf(a) - timeOf(b),
     source: (a, b) => String(a.source).localeCompare(String(b.source), cur) || timeOf(b) - timeOf(a),
@@ -895,6 +976,34 @@ async function toggle(group, value) {
   renderAll();
 }
 
+const compact = (n) => n >= 1e6 ? (n / 1e6).toFixed(1) + "M"
+  : n >= 1e3 ? (n / 1e3).toFixed(n >= 1e4 ? 0 : 1) + "K" : String(n);
+
+function statsRow(i) {
+  const bits = [];
+  if (i.views)    bits.push(`<span>▶ <b>${compact(i.views)}</b></span>`);
+  if (i.score)    bits.push(`<span>▲ <b>${compact(i.score)}</b></span>`);
+  if (i.comments) bits.push(`<span>💬 <b>${compact(i.comments)}</b></span>`);
+  if (i.dupes)    bits.push(`<span>📰 <b>${i.dupes + 1}</b></span>`);
+  return bits.length
+    ? `<div class="stats" style="margin-top:10px">${bits.join("")}</div>` : "";
+}
+
+function heatBadge(i, t) {
+  const h = i.heat || 0;
+  const lit = Math.round(h / 20);
+  const covered = (i.dupes || 0) + 1;
+  const tip = [`${t.sorts.heat} ${h}/100`,
+               covered > 1 ? `${covered}×` : null,
+               (i.also || []).join(", ")].filter(Boolean).join(" · ");
+  return `<span class="heat" title="${esc(tip)}">
+    <span class="heat-bar" aria-hidden="true">${
+      Array.from({ length: 5 }, (_, k) =>
+        `<i class="${k < lit ? "lit" : ""}"></i>`).join("")}</span>
+    <span class="heat-n">${h}${covered > 1 ? ` ·${covered}` : ""}</span>
+  </span>`;
+}
+
 function renderFeed() {
   const t = T(), shown = results(), n = activeCount();
   $("status").textContent = t.status(shown.length, items.length, n, loaded.size);
@@ -919,14 +1028,22 @@ function renderFeed() {
         <span class="tag" style="color:${color};border-color:${color}">${esc(t.tags[i.tag] || i.tag || "")}</span>
         <span class="src">${esc(i.source)} · ${esc(when)}</span>
         <span class="lang">${esc(srcLang)}${done ? "" : " · " + esc(t.untranslated)}</span>
-        ${i.score ? `<span class="src">▲ ${i.score}</span>` : ""}
+        ${heatBadge(i, t)}
       </div>
-      <h2><a href="${esc(i.url)}" target="_blank" rel="noopener noreferrer">${esc(title)}</a></h2>
-      ${summary ? `<p class="sum">${esc(summary)}</p>` : ""}
+      <div class="card-body">
+        <div class="card-main">
+          <h2><a href="${esc(i.url)}" target="_blank" rel="noopener noreferrer">${esc(title)}</a></h2>
+          ${summary ? `<p class="sum">${esc(summary)}</p>` : ""}
+        </div>
+        ${i.image ? `<div class="thumb"><img src="${esc(i.image)}" alt="" loading="lazy"
+             referrerpolicy="no-referrer"
+             onerror="this.parentNode.remove()"></div>` : ""}
+      </div>
       ${done && i.title !== title ? `<details class="orig">
         <summary>${esc(t.showOriginal)}</summary>
         <div style="margin-top:6px">${esc(i.title)}${i.summary ? "<br>" + esc(i.summary) : ""}</div>
       </details>` : ""}
+      ${statsRow(i)}
       <div class="card-btm">
         <div class="models">${(i.models || []).map((m) => `<span class="m">${esc(m)}</span>`).join("")}</div>
         <a class="go" href="${esc(i.url)}" target="_blank" rel="noopener noreferrer">${esc(t.open)}</a>
@@ -972,6 +1089,7 @@ $("reload").onclick = async () => {
   }
 };
 
+mtLoad();
 cur = loadPref();
 if (window.innerWidth > 760) $("rail").classList.remove("collapsed");
 renderChrome();

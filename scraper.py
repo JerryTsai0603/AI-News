@@ -20,6 +20,9 @@
   LLM_BASE_URL        選用。接任何 OpenAI 相容端點（OpenRouter、本地 Ollama 等）。
   REDDIT_CLIENT_ID    選用。設了才走 Reddit 官方 API（雲端 IP 建議設）。
   REDDIT_CLIENT_SECRET
+  YOUTUBE_API_KEY     選用。設了才能做 YouTube 關鍵字搜尋（免費額度夠用）。
+  YT_CHANNELS         選用。逗號分隔的頻道 ID，覆寫內建清單。
+  X_BEARER_TOKEN      選用。X 搜尋需付費方案，沒有就跳過。
   TARGET_LANGS        選用。預設 zh-TW,zh-CN,en,ja,ko,de,es,fr,it
 """
 
@@ -27,6 +30,7 @@ from __future__ import annotations
 
 import html
 import json
+import math
 import os
 import re
 import sys
@@ -100,7 +104,7 @@ MODELS_GROUPS = [
 ]
 
 MODELS_REDDIT = {
-    "subs": ["LocalLLaMA"],
+    "subs": ["LocalLLaMA", "MachineLearning", "artificial", "singularity"],
     "query": "GPT OR Claude OR Gemini OR Llama OR Qwen OR DeepSeek OR Mistral",
     "min_score": 25,
 }
@@ -215,6 +219,7 @@ SPARK_REDDIT = {
     "query": ('"RTX Spark" OR N1X OR "DGX Spark" OR GB10 OR "Ascent GX10" '
               'OR EdgeXpert OR "ZGX Nano" OR "ThinkStation PGX"'),
     "min_score": 5,
+    "subs_extra": ["nvidia", "hardware"],
 }
 
 SPARK_TAGS = [
@@ -333,6 +338,37 @@ def detect_lang(text: str) -> str:
 
 # ---------------------------------------------------------------- 解析
 
+MEDIA_NS = "{http://search.yahoo.com/mrss/}"
+IMG_RE = re.compile(r'<img[^>]+src=["\']([^"\']+)["\']', re.I)
+
+
+def extract_img(raw: str) -> str:
+    if not raw:
+        return ""
+    m = IMG_RE.search(html.unescape(raw))
+    return m.group(1) if m else ""
+
+
+def pick_image(e) -> str:
+    """依序試 media:thumbnail、media:content、enclosure。"""
+    for tag in (MEDIA_NS + "thumbnail", MEDIA_NS + "content", "enclosure"):
+        node = e.find(tag)
+        if node is None:
+            continue
+        url = node.attrib.get("url", "")
+        typ = node.attrib.get("type", "")
+        medium = node.attrib.get("medium", "")
+        if url and (tag.startswith(MEDIA_NS) or typ.startswith("image")
+                    or medium == "image"):
+            return url
+    grp = e.find(MEDIA_NS + "group")
+    if grp is not None:
+        th = grp.find(MEDIA_NS + "thumbnail")
+        if th is not None:
+            return th.attrib.get("url", "")
+    return ""
+
+
 def parse_feed(xml_text: str, fallback_source: str) -> list[dict]:
     try:
         root = ET.fromstring(xml_text.encode("utf-8", "ignore"))
@@ -367,6 +403,7 @@ def parse_feed(xml_text: str, fallback_source: str) -> list[dict]:
         src_node = e.find("source")
         source = (src_node.text or "").strip() if src_node is not None and src_node.text else ""
 
+        image = pick_image(e)
         raw_summary = text_of("description", "atom:summary", "content")
         summary = strip_html(raw_summary)
         # Google 新聞的 description 只是一段指向原文的連結，文字等於標題，沒有資訊量
@@ -382,6 +419,7 @@ def parse_feed(xml_text: str, fallback_source: str) -> list[dict]:
             "published": parse_date(text_of("pubDate", "published", "updated",
                                             "atom:published", "atom:updated")),
             "summary": summary[:220],
+            "image": image or extract_img(raw_summary),
         })
     return out
 
@@ -519,6 +557,188 @@ def collect_press(cfg: dict) -> list[dict]:
     return items
 
 
+# ---------------------------------------------------------------- YouTube
+
+# 免金鑰做法：填頻道 ID（形如 UCxxxx），頻道 feed 本身就帶觀看數。
+# 找法：開啟頻道頁 → 檢視原始碼 → 搜尋 channelId。
+# 也可用環境變數 YT_CHANNELS 以逗號分隔覆寫。
+YOUTUBE_CHANNELS = [
+    "UCXuqSBlHAE6Xw-yeJA0Tunw",   # Linus Tech Tips
+    "UC4QZ_LsYcvcq7qOsOhpAX4A",   # ColdFusion
+    "UCJ0-OtVpF0wOKEqT2Z1HEtA",   # ExplainingComputers
+    "UCsBjURrPoezykLs9EqgamOA",   # Fireship
+    "UCXGgrKt94gR6lmN4aN3mYTg",   # Level1Techs
+]
+
+
+def yt_channels() -> list[str]:
+    env = os.environ.get("YT_CHANNELS", "").strip()
+    return [c.strip() for c in env.split(",") if c.strip()] if env else YOUTUBE_CHANNELS
+
+
+def parse_youtube_feed(xml_text: str) -> list[dict]:
+    """YouTube 頻道 feed 的 media:community 區塊帶有觀看數與按讚數。"""
+    try:
+        root = ET.fromstring(xml_text.encode("utf-8", "ignore"))
+    except ET.ParseError:
+        return []
+
+    ns = {"atom": "http://www.w3.org/2005/Atom"}
+    out = []
+    for e in root.findall(".//atom:entry", ns):
+        tn = e.find("atom:title", ns)
+        title = strip_html(tn.text or "") if tn is not None else ""
+        ln = e.find("atom:link", ns)
+        url = ln.attrib.get("href", "") if ln is not None else ""
+        if not title or not url:
+            continue
+
+        an = e.find("atom:author/atom:name", ns)
+        author = (an.text or "").strip() if an is not None else "YouTube"
+
+        views = likes = 0
+        image = desc = ""
+        grp = e.find(MEDIA_NS + "group")
+        if grp is not None:
+            th = grp.find(MEDIA_NS + "thumbnail")
+            if th is not None:
+                image = th.attrib.get("url", "")
+            dn = grp.find(MEDIA_NS + "description")
+            if dn is not None and dn.text:
+                desc = strip_html(dn.text)[:200]
+            comm = grp.find(MEDIA_NS + "community")
+            if comm is not None:
+                st = comm.find(MEDIA_NS + "statistics")
+                if st is not None:
+                    views = int(st.attrib.get("views", 0) or 0)
+                sr = comm.find(MEDIA_NS + "starRating")
+                if sr is not None:
+                    likes = int(sr.attrib.get("count", 0) or 0)
+
+        pub = e.find("atom:published", ns)
+        out.append({
+            "title": title, "url": clean_url(url),
+            "source": f"YouTube · {author}",
+            "published": parse_date(pub.text if pub is not None else None),
+            "summary": desc, "image": image,
+            "views": views, "score": likes,
+            "force_tag": "影片",
+        })
+    return out
+
+
+def collect_youtube(cfg: dict) -> list[dict]:
+    items = []
+
+    # 1) 頻道 feed（免金鑰，含觀看數）
+    for cid in yt_channels():
+        log(f"  YouTube 頻道：{cid}")
+        xml_text = fetch(f"https://www.youtube.com/feeds/videos.xml?channel_id={cid}")
+        if xml_text:
+            items += parse_youtube_feed(xml_text)
+        time.sleep(0.4)
+
+    # 2) 有金鑰時再做關鍵字搜尋，覆蓋面大得多
+    key = os.environ.get("YOUTUBE_API_KEY")
+    if not key:
+        log("  未設定 YOUTUBE_API_KEY，只用頻道 feed（覆蓋面較小）")
+        return items
+
+    after = (datetime.now(timezone.utc)
+             - timedelta(hours=cfg.get("window", WINDOW_HOURS))).strftime(
+                 "%Y-%m-%dT%H:%M:%SZ")
+    for query, _lang in cfg["queries"][:6]:
+        log(f"  YouTube 搜尋：{query[:38]}")
+        try:
+            r = requests.get(
+                "https://www.googleapis.com/youtube/v3/search",
+                params={"key": key, "part": "snippet", "q": query,
+                        "type": "video", "order": "date", "maxResults": 15,
+                        "publishedAfter": after},
+                timeout=TIMEOUT)
+            r.raise_for_status()
+            ids = [x["id"]["videoId"] for x in r.json().get("items", [])
+                   if x.get("id", {}).get("videoId")]
+            if not ids:
+                continue
+            r2 = requests.get(
+                "https://www.googleapis.com/youtube/v3/videos",
+                params={"key": key, "part": "snippet,statistics",
+                        "id": ",".join(ids)},
+                timeout=TIMEOUT)
+            r2.raise_for_status()
+            for v in r2.json().get("items", []):
+                sn, st = v.get("snippet", {}), v.get("statistics", {})
+                th = sn.get("thumbnails", {})
+                items.append({
+                    "title": strip_html(sn.get("title", "")),
+                    "url": f"https://www.youtube.com/watch?v={v['id']}",
+                    "source": f"YouTube · {sn.get('channelTitle', '')}",
+                    "published": parse_date(sn.get("publishedAt")),
+                    "summary": strip_html(sn.get("description", ""))[:200],
+                    "image": (th.get("medium") or th.get("default") or {}).get("url", ""),
+                    "views": int(st.get("viewCount", 0) or 0),
+                    "score": int(st.get("likeCount", 0) or 0),
+                    "comments": int(st.get("commentCount", 0) or 0),
+                    "force_tag": "影片",
+                })
+        except Exception as exc:
+            log(f"  ✗ YouTube 搜尋失敗：{exc}")
+        time.sleep(0.5)
+
+    return items
+
+
+# ---------------------------------------------------------------- X（Twitter）
+
+def collect_x(cfg: dict) -> list[dict]:
+    """X 的搜尋 API 需要付費方案，沒有 token 就整段跳過。"""
+    tok = os.environ.get("X_BEARER_TOKEN")
+    if not tok:
+        log("  未設定 X_BEARER_TOKEN，略過 X（免費方案無搜尋權限）")
+        return []
+
+    query = cfg["reddit"]["query"]
+    log("  X 搜尋")
+    try:
+        r = requests.get(
+            "https://api.x.com/2/tweets/search/recent",
+            headers={"Authorization": f"Bearer {tok}", "User-Agent": UA},
+            params={"query": f"({query}) -is:retweet",
+                    "max_results": 50,
+                    "tweet.fields": "public_metrics,created_at,author_id",
+                    "expansions": "author_id", "user.fields": "username"},
+            timeout=TIMEOUT)
+        if r.status_code in (401, 403):
+            log(f"  ✗ X 回應 {r.status_code}：目前方案無搜尋權限")
+            return []
+        r.raise_for_status()
+        body = r.json()
+    except Exception as exc:
+        log(f"  ✗ X 擷取失敗：{exc}")
+        return []
+
+    users = {u["id"]: u for u in body.get("includes", {}).get("users", [])}
+    out = []
+    for t in body.get("data", []):
+        m = t.get("public_metrics", {})
+        if m.get("like_count", 0) < 20:
+            continue
+        handle = users.get(t.get("author_id"), {}).get("username", "x")
+        out.append({
+            "title": strip_html(t.get("text", ""))[:160],
+            "url": f"https://x.com/{handle}/status/{t['id']}",
+            "source": f"X · @{handle}",
+            "published": parse_date(t.get("created_at")),
+            "summary": "",
+            "score": m.get("like_count", 0),
+            "comments": m.get("reply_count", 0),
+            "views": m.get("impression_count", 0),
+            "skip_keep": True, "force_tag": "社群討論",
+        })
+    return out
+
+
 # ---------------------------------------------------------------- Reddit
 
 _reddit_token: dict = {"value": None, "expires": 0}
@@ -551,6 +771,20 @@ def reddit_token() -> str | None:
         return None
 
 
+def reddit_thumb(d: dict) -> str:
+    thumb = d.get("thumbnail", "")
+    if not str(thumb).startswith("http"):
+        thumb = ""
+    try:
+        imgs = (d.get("preview", {}).get("images") or [{}])[0]
+        res = imgs.get("resolutions") or []
+        if res:
+            thumb = html.unescape(res[min(2, len(res) - 1)].get("url", thumb))
+    except Exception:
+        pass
+    return thumb
+
+
 def collect_reddit(cfg: dict) -> list[dict]:
     conf = cfg.get("reddit")
     if not conf:
@@ -559,7 +793,7 @@ def collect_reddit(cfg: dict) -> list[dict]:
     token = reddit_token()
     out = []
 
-    for sub in conf["subs"]:
+    for sub in conf["subs"] + conf.get("subs_extra", []):
         params = {
             "q": conf["query"], "restrict_sr": "on",
             "sort": "new", "t": "week", "limit": "50",
@@ -612,7 +846,9 @@ def collect_reddit(cfg: dict) -> list[dict]:
                 "published": datetime.fromtimestamp(
                     d.get("created_utc", 0), tz=timezone.utc).astimezone(TZ),
                 "summary": summary,
+                "image": reddit_thumb(d),
                 "score": score,
+                "comments": d.get("num_comments", 0),
                 # 搜尋條件已經限定主題，不再套用關鍵字過濾
                 "skip_keep": True,
                 "force_tag": "社群討論",
@@ -658,16 +894,55 @@ def classify(item: dict, cfg: dict) -> dict:
 
 
 def dedupe(items: list[dict]) -> list[dict]:
-    seen_url, seen_title, out = set(), set(), []
+    """保留第一則，但把重複者的家數與媒體名記下來——那正是「熱門程度」的主要訊號。"""
+    by_url: dict = {}
+    by_title: dict = {}
+    out = []
+
     for it in items:
         u = it["url"].split("?")[0].rstrip("/")
         t = norm_title(it["title"])
-        if not t or u in seen_url or t in seen_title:
+        if not t:
             continue
-        seen_url.add(u)
-        seen_title.add(t)
+
+        keep = by_url.get(u) or by_title.get(t)
+        if keep is not None:
+            keep["dupes"] = keep.get("dupes", 0) + 1
+            src = it.get("source")
+            others = keep.setdefault("also", [])
+            if src and src not in others and src != keep.get("source"):
+                others.append(src)
+            # 社群分數取最高的那一筆
+            for f in ("score", "views", "comments"):
+                if (it.get(f) or 0) > (keep.get(f) or 0):
+                    keep[f] = it[f]
+            if not keep.get("image") and it.get("image"):
+                keep["image"] = it["image"]
+            # 原本沒有摘要就補上
+            if not keep.get("summary") and it.get("summary"):
+                keep["summary"] = it["summary"]
+            continue
+
+        it["dupes"] = 0
+        by_url[u] = by_title[t] = it
         out.append(it)
     return out
+
+
+def compute_heat(items: list[dict], now: datetime, window: int) -> None:
+    """熱門程度 0–100。三個訊號：多少家媒體報導、社群分數、新舊程度。"""
+    for it in items:
+        dupes = it.get("dupes", 0)
+        social = it.get("score") or 0
+        age_h = max(0.0, (now - it["published"]).total_seconds() / 3600)
+
+        heat = 0.0
+        heat += min(35.0, dupes * 8.0)                                      # 幾家媒體報導
+        heat += min(25.0, 10.0 * math.log10(1 + social))                    # 讚 / 分數
+        heat += min(25.0, 8.0 * math.log10(1 + (it.get("views") or 0)))     # 瀏覽數
+        heat += min(15.0, 6.0 * math.log10(1 + (it.get("comments") or 0)))  # 討論數
+        heat += max(0.0, 15.0 * (1 - age_h / max(window, 1)))               # 新舊
+        it["heat"] = int(round(min(100.0, heat)))
 
 
 # ---------------------------------------------------------------- 摘要與翻譯
@@ -856,9 +1131,12 @@ def run_channel(name: str) -> int:
                 else "DGX Spark OR GB10")
     reddit = collect_reddit(cfg)
     press = collect_press(cfg)
+    yt = collect_youtube(cfg)
+    xs = collect_x(cfg)
     raw = (collect_google(cfg["queries"]) + collect_rss(cfg["feeds"])
-           + collect_hn(hn_query) + reddit + press)
-    log(f"原始擷取 {len(raw)} 則（Reddit {len(reddit)}、新聞室 {len(press)}）")
+           + collect_hn(hn_query) + reddit + press + yt + xs)
+    log(f"原始擷取 {len(raw)} 則（Reddit {len(reddit)}、新聞室 {len(press)}、"
+        f"YouTube {len(yt)}、X {len(xs)}）")
 
     window = cfg.get("window", WINDOW_HOURS)
     cutoff = started - timedelta(hours=window)
@@ -877,6 +1155,10 @@ def run_channel(name: str) -> int:
 
     for it in items:
         classify(it, cfg)
+    compute_heat(items, started, window)
+    log("熱度前五名：" + "、".join(
+        f"{i['heat']}({i.get('dupes', 0) + 1}家)"
+        for i in sorted(items, key=lambda x: -x["heat"])[:5]))
     add_summaries(items)
     add_translations(items)
 
@@ -905,6 +1187,12 @@ def run_channel(name: str) -> int:
             "tag": i.get("tag", "產品發表"),
             "camps": i["camps"],
             "press": bool(i.get("press")),
+            "heat": i.get("heat", 0),
+            "image": i.get("image", ""),
+            "views": i.get("views") or 0,
+            "comments": i.get("comments") or 0,
+            "dupes": i.get("dupes", 0),
+            "also": i.get("also", [])[:6],
             "lines": i.get("lines", []),
             "score": i.get("score"),
             "lang": i.get("lang", "en"),
