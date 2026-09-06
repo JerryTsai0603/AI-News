@@ -1,0 +1,8 @@
+{
+  "_說明": "手動補通路報價。country 用 TW/JP/US/DE/GB/FR；price 填數字，可帶小數，不要逗號或貨幣符號。",
+  "_範例格式": [
+    { "country": "US", "platform": "B&H", "price": 3999, "currency": "USD", "url": "https://www.bhphotovideo.com/" }
+  ],
+  "nvidia-dgx-spark-fe": [],
+  "asus-ascent-gx10": []
+}

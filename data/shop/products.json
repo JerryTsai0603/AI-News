@@ -1,0 +1,1016 @@
+{
+ "version": "v15",
+ "fetchedAt": "2026-09-06T22:48:57.392399+08:00",
+ "edition": "2026-09-06",
+ "count": 16,
+ "products": [
+  {
+   "id": "nvidia-dgx-spark-fe",
+   "name": "NVIDIA DGX Spark Founders Edition",
+   "brand": "nvidia",
+   "line": "dgx",
+   "specs": {
+    "chip": "NVIDIA GB10 Grace Blackwell",
+    "cpu": "20 核 Arm（10× Cortex-X925 + 10× A725）",
+    "gpu": "Blackwell（第 5 代 Tensor Core）",
+    "aiPerf": "1 PFLOPS FP4",
+    "memory": "128 GB LPDDR5X 統一記憶體",
+    "bandwidth": "273 GB/s",
+    "network": "ConnectX-7 200 Gb/s",
+    "os": "NVIDIA DGX OS",
+    "power": "約 240 W",
+    "storage": "4 TB NVMe",
+    "form": "桌上型"
+   },
+   "facets": {
+    "memory": "128 GB",
+    "storage": "4 TB NVMe",
+    "form": "桌上型"
+   },
+   "markets": [
+    {
+     "country": "TW",
+     "region": "apac",
+     "status": "launched",
+     "offers": []
+    },
+    {
+     "country": "JP",
+     "region": "apac",
+     "status": "launched",
+     "offers": []
+    },
+    {
+     "country": "US",
+     "region": "na",
+     "status": "launched",
+     "offers": []
+    },
+    {
+     "country": "DE",
+     "region": "emea",
+     "status": "launched",
+     "offers": []
+    },
+    {
+     "country": "GB",
+     "region": "emea",
+     "status": "launched",
+     "offers": []
+    },
+    {
+     "country": "FR",
+     "region": "emea",
+     "status": "launched",
+     "offers": []
+    }
+   ],
+   "signals": []
+  },
+  {
+   "id": "asus-ascent-gx10",
+   "name": "ASUS Ascent GX10",
+   "brand": "asus",
+   "line": "dgx",
+   "specs": {
+    "chip": "NVIDIA GB10 Grace Blackwell",
+    "cpu": "20 核 Arm（10× Cortex-X925 + 10× A725）",
+    "gpu": "Blackwell（第 5 代 Tensor Core）",
+    "aiPerf": "1 PFLOPS FP4",
+    "memory": "128 GB LPDDR5X 統一記憶體",
+    "bandwidth": "273 GB/s",
+    "network": "ConnectX-7 200 Gb/s",
+    "os": "NVIDIA DGX OS",
+    "power": "約 240 W",
+    "storage": "1 TB NVMe",
+    "form": "桌上型"
+   },
+   "facets": {
+    "memory": "128 GB",
+    "storage": "1 TB NVMe",
+    "form": "桌上型"
+   },
+   "markets": [
+    {
+     "country": "TW",
+     "region": "apac",
+     "status": "launched",
+     "offers": []
+    },
+    {
+     "country": "JP",
+     "region": "apac",
+     "status": "launched",
+     "offers": []
+    },
+    {
+     "country": "US",
+     "region": "na",
+     "status": "launched",
+     "offers": []
+    },
+    {
+     "country": "DE",
+     "region": "emea",
+     "status": "launched",
+     "offers": []
+    },
+    {
+     "country": "GB",
+     "region": "emea",
+     "status": "launched",
+     "offers": []
+    },
+    {
+     "country": "FR",
+     "region": "emea",
+     "status": "launched",
+     "offers": []
+    }
+   ],
+   "signals": []
+  },
+  {
+   "id": "acer-veriton-gn100",
+   "name": "Acer Veriton GN100",
+   "brand": "acer",
+   "line": "dgx",
+   "specs": {
+    "chip": "NVIDIA GB10 Grace Blackwell",
+    "cpu": "20 核 Arm（10× Cortex-X925 + 10× A725）",
+    "gpu": "Blackwell（第 5 代 Tensor Core）",
+    "aiPerf": "1 PFLOPS FP4",
+    "memory": "128 GB LPDDR5X 統一記憶體",
+    "bandwidth": "273 GB/s",
+    "network": "ConnectX-7 200 Gb/s",
+    "os": "NVIDIA DGX OS",
+    "power": "約 240 W",
+    "storage": "1 TB / 4 TB NVMe",
+    "form": "桌上型"
+   },
+   "facets": {
+    "memory": "128 GB",
+    "storage": "1 TB / 4 TB NVMe",
+    "form": "桌上型"
+   },
+   "markets": [
+    {
+     "country": "TW",
+     "region": "apac",
+     "status": "launched",
+     "offers": []
+    },
+    {
+     "country": "JP",
+     "region": "apac",
+     "status": "launched",
+     "offers": []
+    },
+    {
+     "country": "US",
+     "region": "na",
+     "status": "launched",
+     "offers": []
+    },
+    {
+     "country": "DE",
+     "region": "emea",
+     "status": "launched",
+     "offers": []
+    },
+    {
+     "country": "GB",
+     "region": "emea",
+     "status": "launched",
+     "offers": []
+    },
+    {
+     "country": "FR",
+     "region": "emea",
+     "status": "launched",
+     "offers": []
+    }
+   ],
+   "signals": []
+  },
+  {
+   "id": "dell-pro-max-gb10",
+   "name": "Dell Pro Max with GB10",
+   "brand": "dell",
+   "line": "dgx",
+   "specs": {
+    "chip": "NVIDIA GB10 Grace Blackwell",
+    "cpu": "20 核 Arm（10× Cortex-X925 + 10× A725）",
+    "gpu": "Blackwell（第 5 代 Tensor Core）",
+    "aiPerf": "1 PFLOPS FP4",
+    "memory": "128 GB LPDDR5X 統一記憶體",
+    "bandwidth": "273 GB/s",
+    "network": "ConnectX-7 200 Gb/s",
+    "os": "NVIDIA DGX OS",
+    "power": "約 240 W",
+    "storage": "4 TB NVMe",
+    "form": "桌上型"
+   },
+   "facets": {
+    "memory": "128 GB",
+    "storage": "4 TB NVMe",
+    "form": "桌上型"
+   },
+   "markets": [
+    {
+     "country": "TW",
+     "region": "apac",
+     "status": "launched",
+     "offers": []
+    },
+    {
+     "country": "JP",
+     "region": "apac",
+     "status": "launched",
+     "offers": []
+    },
+    {
+     "country": "US",
+     "region": "na",
+     "status": "launched",
+     "offers": []
+    },
+    {
+     "country": "DE",
+     "region": "emea",
+     "status": "launched",
+     "offers": []
+    },
+    {
+     "country": "GB",
+     "region": "emea",
+     "status": "launched",
+     "offers": []
+    },
+    {
+     "country": "FR",
+     "region": "emea",
+     "status": "launched",
+     "offers": []
+    }
+   ],
+   "signals": []
+  },
+  {
+   "id": "hp-zgx-nano",
+   "name": "HP ZGX Nano AI Station",
+   "brand": "hp",
+   "line": "dgx",
+   "specs": {
+    "chip": "NVIDIA GB10 Grace Blackwell",
+    "cpu": "20 核 Arm（10× Cortex-X925 + 10× A725）",
+    "gpu": "Blackwell（第 5 代 Tensor Core）",
+    "aiPerf": "1 PFLOPS FP4",
+    "memory": "128 GB LPDDR5X 統一記憶體",
+    "bandwidth": "273 GB/s",
+    "network": "ConnectX-7 200 Gb/s",
+    "os": "NVIDIA DGX OS",
+    "power": "約 240 W",
+    "storage": "1 TB / 4 TB NVMe",
+    "form": "桌上型"
+   },
+   "facets": {
+    "memory": "128 GB",
+    "storage": "1 TB / 4 TB NVMe",
+    "form": "桌上型"
+   },
+   "markets": [
+    {
+     "country": "TW",
+     "region": "apac",
+     "status": "launched",
+     "offers": []
+    },
+    {
+     "country": "JP",
+     "region": "apac",
+     "status": "launched",
+     "offers": []
+    },
+    {
+     "country": "US",
+     "region": "na",
+     "status": "launched",
+     "offers": []
+    },
+    {
+     "country": "DE",
+     "region": "emea",
+     "status": "launched",
+     "offers": []
+    },
+    {
+     "country": "GB",
+     "region": "emea",
+     "status": "launched",
+     "offers": []
+    },
+    {
+     "country": "FR",
+     "region": "emea",
+     "status": "launched",
+     "offers": []
+    }
+   ],
+   "signals": []
+  },
+  {
+   "id": "lenovo-thinkstation-pgx",
+   "name": "Lenovo ThinkStation PGX",
+   "brand": "lenovo",
+   "line": "dgx",
+   "specs": {
+    "chip": "NVIDIA GB10 Grace Blackwell",
+    "cpu": "20 核 Arm（10× Cortex-X925 + 10× A725）",
+    "gpu": "Blackwell（第 5 代 Tensor Core）",
+    "aiPerf": "1 PFLOPS FP4",
+    "memory": "128 GB LPDDR5X 統一記憶體",
+    "bandwidth": "273 GB/s",
+    "network": "ConnectX-7 200 Gb/s",
+    "os": "NVIDIA DGX OS",
+    "power": "約 240 W",
+    "storage": "4 TB NVMe",
+    "form": "桌上型"
+   },
+   "facets": {
+    "memory": "128 GB",
+    "storage": "4 TB NVMe",
+    "form": "桌上型"
+   },
+   "markets": [
+    {
+     "country": "TW",
+     "region": "apac",
+     "status": "launched",
+     "offers": []
+    },
+    {
+     "country": "JP",
+     "region": "apac",
+     "status": "launched",
+     "offers": []
+    },
+    {
+     "country": "US",
+     "region": "na",
+     "status": "launched",
+     "offers": []
+    },
+    {
+     "country": "DE",
+     "region": "emea",
+     "status": "launched",
+     "offers": []
+    },
+    {
+     "country": "GB",
+     "region": "emea",
+     "status": "launched",
+     "offers": []
+    },
+    {
+     "country": "FR",
+     "region": "emea",
+     "status": "launched",
+     "offers": []
+    }
+   ],
+   "signals": []
+  },
+  {
+   "id": "msi-edgexpert",
+   "name": "MSI EdgeXpert MS-C931",
+   "brand": "msi",
+   "line": "dgx",
+   "specs": {
+    "chip": "NVIDIA GB10 Grace Blackwell",
+    "cpu": "20 核 Arm（10× Cortex-X925 + 10× A725）",
+    "gpu": "Blackwell（第 5 代 Tensor Core）",
+    "aiPerf": "1 PFLOPS FP4",
+    "memory": "128 GB LPDDR5X 統一記憶體",
+    "bandwidth": "273 GB/s",
+    "network": "ConnectX-7 200 Gb/s",
+    "os": "NVIDIA DGX OS",
+    "power": "約 240 W",
+    "storage": "1 TB / 4 TB NVMe",
+    "form": "邊緣工作站"
+   },
+   "facets": {
+    "memory": "128 GB",
+    "storage": "1 TB / 4 TB NVMe",
+    "form": "邊緣工作站"
+   },
+   "markets": [
+    {
+     "country": "TW",
+     "region": "apac",
+     "status": "launched",
+     "offers": []
+    },
+    {
+     "country": "JP",
+     "region": "apac",
+     "status": "launched",
+     "offers": []
+    },
+    {
+     "country": "US",
+     "region": "na",
+     "status": "launched",
+     "offers": []
+    },
+    {
+     "country": "DE",
+     "region": "emea",
+     "status": "launched",
+     "offers": []
+    },
+    {
+     "country": "GB",
+     "region": "emea",
+     "status": "launched",
+     "offers": []
+    },
+    {
+     "country": "FR",
+     "region": "emea",
+     "status": "launched",
+     "offers": []
+    }
+   ],
+   "signals": []
+  },
+  {
+   "id": "gigabyte-ai-top-atom",
+   "name": "GIGABYTE AI TOP ATOM",
+   "brand": "gigabyte",
+   "line": "dgx",
+   "specs": {
+    "chip": "NVIDIA GB10 Grace Blackwell",
+    "cpu": "20 核 Arm（10× Cortex-X925 + 10× A725）",
+    "gpu": "Blackwell（第 5 代 Tensor Core）",
+    "aiPerf": "1 PFLOPS FP4",
+    "memory": "128 GB LPDDR5X 統一記憶體",
+    "bandwidth": "273 GB/s",
+    "network": "ConnectX-7 200 Gb/s",
+    "os": "NVIDIA DGX OS",
+    "power": "約 240 W",
+    "storage": "4 TB NVMe",
+    "form": "桌上型"
+   },
+   "facets": {
+    "memory": "128 GB",
+    "storage": "4 TB NVMe",
+    "form": "桌上型"
+   },
+   "markets": [
+    {
+     "country": "TW",
+     "region": "apac",
+     "status": "launched",
+     "offers": []
+    },
+    {
+     "country": "JP",
+     "region": "apac",
+     "status": "launched",
+     "offers": []
+    },
+    {
+     "country": "US",
+     "region": "na",
+     "status": "launched",
+     "offers": []
+    },
+    {
+     "country": "DE",
+     "region": "emea",
+     "status": "launched",
+     "offers": []
+    },
+    {
+     "country": "GB",
+     "region": "emea",
+     "status": "launched",
+     "offers": []
+    },
+    {
+     "country": "FR",
+     "region": "emea",
+     "status": "launched",
+     "offers": []
+    }
+   ],
+   "signals": []
+  },
+  {
+   "id": "rtx-spark-asus",
+   "name": "ASUS RTX Spark 筆電",
+   "brand": "asus",
+   "line": "rtx",
+   "specs": {
+    "chip": "NVIDIA N1X（與 MediaTek 共同開發）",
+    "cpu": "20 核 Arm",
+    "gpu": "Blackwell RTX",
+    "aiPerf": "—",
+    "memory": "最高 128 GB",
+    "bandwidth": "—",
+    "network": "—",
+    "os": "Windows on Arm",
+    "power": "—",
+    "storage": "—",
+    "form": "筆記型"
+   },
+   "facets": {
+    "memory": "最高 128 GB",
+    "storage": "—",
+    "form": "筆記型"
+   },
+   "markets": [
+    {
+     "country": "TW",
+     "region": "apac",
+     "status": "announced",
+     "offers": []
+    },
+    {
+     "country": "JP",
+     "region": "apac",
+     "status": "announced",
+     "offers": []
+    },
+    {
+     "country": "US",
+     "region": "na",
+     "status": "announced",
+     "offers": []
+    },
+    {
+     "country": "DE",
+     "region": "emea",
+     "status": "announced",
+     "offers": []
+    },
+    {
+     "country": "GB",
+     "region": "emea",
+     "status": "announced",
+     "offers": []
+    },
+    {
+     "country": "FR",
+     "region": "emea",
+     "status": "announced",
+     "offers": []
+    }
+   ],
+   "signals": []
+  },
+  {
+   "id": "rtx-spark-dell",
+   "name": "Dell RTX Spark 機種",
+   "brand": "dell",
+   "line": "rtx",
+   "specs": {
+    "chip": "NVIDIA N1X（與 MediaTek 共同開發）",
+    "cpu": "20 核 Arm",
+    "gpu": "Blackwell RTX",
+    "aiPerf": "—",
+    "memory": "最高 128 GB",
+    "bandwidth": "—",
+    "network": "—",
+    "os": "Windows on Arm",
+    "power": "—",
+    "storage": "—",
+    "form": "筆記型 / 小型桌機"
+   },
+   "facets": {
+    "memory": "最高 128 GB",
+    "storage": "—",
+    "form": "筆記型 / 小型桌機"
+   },
+   "markets": [
+    {
+     "country": "TW",
+     "region": "apac",
+     "status": "announced",
+     "offers": []
+    },
+    {
+     "country": "JP",
+     "region": "apac",
+     "status": "announced",
+     "offers": []
+    },
+    {
+     "country": "US",
+     "region": "na",
+     "status": "announced",
+     "offers": []
+    },
+    {
+     "country": "DE",
+     "region": "emea",
+     "status": "announced",
+     "offers": []
+    },
+    {
+     "country": "GB",
+     "region": "emea",
+     "status": "announced",
+     "offers": []
+    },
+    {
+     "country": "FR",
+     "region": "emea",
+     "status": "announced",
+     "offers": []
+    }
+   ],
+   "signals": []
+  },
+  {
+   "id": "rtx-spark-hp",
+   "name": "HP RTX Spark 機種",
+   "brand": "hp",
+   "line": "rtx",
+   "specs": {
+    "chip": "NVIDIA N1X（與 MediaTek 共同開發）",
+    "cpu": "20 核 Arm",
+    "gpu": "Blackwell RTX",
+    "aiPerf": "—",
+    "memory": "最高 128 GB",
+    "bandwidth": "—",
+    "network": "—",
+    "os": "Windows on Arm",
+    "power": "—",
+    "storage": "—",
+    "form": "筆記型"
+   },
+   "facets": {
+    "memory": "最高 128 GB",
+    "storage": "—",
+    "form": "筆記型"
+   },
+   "markets": [
+    {
+     "country": "TW",
+     "region": "apac",
+     "status": "announced",
+     "offers": []
+    },
+    {
+     "country": "JP",
+     "region": "apac",
+     "status": "announced",
+     "offers": []
+    },
+    {
+     "country": "US",
+     "region": "na",
+     "status": "announced",
+     "offers": []
+    },
+    {
+     "country": "DE",
+     "region": "emea",
+     "status": "announced",
+     "offers": []
+    },
+    {
+     "country": "GB",
+     "region": "emea",
+     "status": "announced",
+     "offers": []
+    },
+    {
+     "country": "FR",
+     "region": "emea",
+     "status": "announced",
+     "offers": []
+    }
+   ],
+   "signals": []
+  },
+  {
+   "id": "rtx-spark-lenovo",
+   "name": "Lenovo Yoga Pro 9n / Yoga 9n",
+   "brand": "lenovo",
+   "line": "rtx",
+   "specs": {
+    "chip": "NVIDIA N1X（與 MediaTek 共同開發）",
+    "cpu": "20 核 Arm",
+    "gpu": "Blackwell RTX",
+    "aiPerf": "—",
+    "memory": "最高 128 GB",
+    "bandwidth": "—",
+    "network": "—",
+    "os": "Windows on Arm",
+    "power": "—",
+    "storage": "—",
+    "form": "筆記型"
+   },
+   "facets": {
+    "memory": "最高 128 GB",
+    "storage": "—",
+    "form": "筆記型"
+   },
+   "markets": [
+    {
+     "country": "TW",
+     "region": "apac",
+     "status": "announced",
+     "offers": []
+    },
+    {
+     "country": "JP",
+     "region": "apac",
+     "status": "announced",
+     "offers": []
+    },
+    {
+     "country": "US",
+     "region": "na",
+     "status": "announced",
+     "offers": []
+    },
+    {
+     "country": "DE",
+     "region": "emea",
+     "status": "announced",
+     "offers": []
+    },
+    {
+     "country": "GB",
+     "region": "emea",
+     "status": "announced",
+     "offers": []
+    },
+    {
+     "country": "FR",
+     "region": "emea",
+     "status": "announced",
+     "offers": []
+    }
+   ],
+   "signals": []
+  },
+  {
+   "id": "rtx-spark-msi",
+   "name": "MSI RTX Spark 機種",
+   "brand": "msi",
+   "line": "rtx",
+   "specs": {
+    "chip": "NVIDIA N1X（與 MediaTek 共同開發）",
+    "cpu": "20 核 Arm",
+    "gpu": "Blackwell RTX",
+    "aiPerf": "—",
+    "memory": "最高 128 GB",
+    "bandwidth": "—",
+    "network": "—",
+    "os": "Windows on Arm",
+    "power": "—",
+    "storage": "—",
+    "form": "筆記型"
+   },
+   "facets": {
+    "memory": "最高 128 GB",
+    "storage": "—",
+    "form": "筆記型"
+   },
+   "markets": [
+    {
+     "country": "TW",
+     "region": "apac",
+     "status": "announced",
+     "offers": []
+    },
+    {
+     "country": "JP",
+     "region": "apac",
+     "status": "announced",
+     "offers": []
+    },
+    {
+     "country": "US",
+     "region": "na",
+     "status": "announced",
+     "offers": []
+    },
+    {
+     "country": "DE",
+     "region": "emea",
+     "status": "announced",
+     "offers": []
+    },
+    {
+     "country": "GB",
+     "region": "emea",
+     "status": "announced",
+     "offers": []
+    },
+    {
+     "country": "FR",
+     "region": "emea",
+     "status": "announced",
+     "offers": []
+    }
+   ],
+   "signals": []
+  },
+  {
+   "id": "rtx-spark-surface",
+   "name": "Microsoft Surface（RTX Spark）",
+   "brand": "microsoft",
+   "line": "rtx",
+   "specs": {
+    "chip": "NVIDIA N1X（與 MediaTek 共同開發）",
+    "cpu": "20 核 Arm",
+    "gpu": "Blackwell RTX",
+    "aiPerf": "—",
+    "memory": "最高 128 GB",
+    "bandwidth": "—",
+    "network": "—",
+    "os": "Windows on Arm",
+    "power": "—",
+    "storage": "—",
+    "form": "筆記型"
+   },
+   "facets": {
+    "memory": "最高 128 GB",
+    "storage": "—",
+    "form": "筆記型"
+   },
+   "markets": [
+    {
+     "country": "TW",
+     "region": "apac",
+     "status": "announced",
+     "offers": []
+    },
+    {
+     "country": "JP",
+     "region": "apac",
+     "status": "announced",
+     "offers": []
+    },
+    {
+     "country": "US",
+     "region": "na",
+     "status": "announced",
+     "offers": []
+    },
+    {
+     "country": "DE",
+     "region": "emea",
+     "status": "announced",
+     "offers": []
+    },
+    {
+     "country": "GB",
+     "region": "emea",
+     "status": "announced",
+     "offers": []
+    },
+    {
+     "country": "FR",
+     "region": "emea",
+     "status": "announced",
+     "offers": []
+    }
+   ],
+   "signals": []
+  },
+  {
+   "id": "rtx-spark-acer",
+   "name": "Acer RTX Spark 機種",
+   "brand": "acer",
+   "line": "rtx",
+   "specs": {
+    "chip": "NVIDIA N1X（與 MediaTek 共同開發）",
+    "cpu": "20 核 Arm",
+    "gpu": "Blackwell RTX",
+    "aiPerf": "—",
+    "memory": "最高 128 GB",
+    "bandwidth": "—",
+    "network": "—",
+    "os": "Windows on Arm",
+    "power": "—",
+    "storage": "—",
+    "form": "筆記型"
+   },
+   "facets": {
+    "memory": "最高 128 GB",
+    "storage": "—",
+    "form": "筆記型"
+   },
+   "markets": [
+    {
+     "country": "TW",
+     "region": "apac",
+     "status": "unannounced",
+     "offers": []
+    },
+    {
+     "country": "JP",
+     "region": "apac",
+     "status": "unannounced",
+     "offers": []
+    },
+    {
+     "country": "US",
+     "region": "na",
+     "status": "unannounced",
+     "offers": []
+    },
+    {
+     "country": "DE",
+     "region": "emea",
+     "status": "unannounced",
+     "offers": []
+    },
+    {
+     "country": "GB",
+     "region": "emea",
+     "status": "unannounced",
+     "offers": []
+    },
+    {
+     "country": "FR",
+     "region": "emea",
+     "status": "unannounced",
+     "offers": []
+    }
+   ],
+   "signals": []
+  },
+  {
+   "id": "rtx-spark-gigabyte",
+   "name": "GIGABYTE RTX Spark 機種",
+   "brand": "gigabyte",
+   "line": "rtx",
+   "specs": {
+    "chip": "NVIDIA N1X（與 MediaTek 共同開發）",
+    "cpu": "20 核 Arm",
+    "gpu": "Blackwell RTX",
+    "aiPerf": "—",
+    "memory": "最高 128 GB",
+    "bandwidth": "—",
+    "network": "—",
+    "os": "Windows on Arm",
+    "power": "—",
+    "storage": "—",
+    "form": "筆記型"
+   },
+   "facets": {
+    "memory": "最高 128 GB",
+    "storage": "—",
+    "form": "筆記型"
+   },
+   "markets": [
+    {
+     "country": "TW",
+     "region": "apac",
+     "status": "unannounced",
+     "offers": []
+    },
+    {
+     "country": "JP",
+     "region": "apac",
+     "status": "unannounced",
+     "offers": []
+    },
+    {
+     "country": "US",
+     "region": "na",
+     "status": "unannounced",
+     "offers": []
+    },
+    {
+     "country": "DE",
+     "region": "emea",
+     "status": "unannounced",
+     "offers": []
+    },
+    {
+     "country": "GB",
+     "region": "emea",
+     "status": "unannounced",
+     "offers": []
+    },
+    {
+     "country": "FR",
+     "region": "emea",
+     "status": "unannounced",
+     "offers": []
+    }
+   ],
+   "signals": []
+  }
+ ]
+}
