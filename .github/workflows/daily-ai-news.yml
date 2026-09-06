@@ -1,4 +1,4 @@
-name: 每日 AI 新聞擷取
+name: 每日 Edge AI 資料擷取
 
 on:
   schedule:
@@ -8,10 +8,14 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 45        # 超時就中斷，不再讓它跑一小時以上
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
 
@@ -21,42 +25,54 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: 擷取與翻譯
+      - name: 擷取、翻譯、價格與規格
         env:
           # ---- 翻譯金鑰：設其中一組就會生效 ----
+          MINIMAX_API_KEY:   ${{ secrets.MINIMAX_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY:    ${{ secrets.OPENAI_API_KEY }}
+          GEMINI_API_KEY:    ${{ secrets.GEMINI_API_KEY }}
+          DEEPSEEK_API_KEY:  ${{ secrets.DEEPSEEK_API_KEY }}
           GROQ_API_KEY:      ${{ secrets.GROQ_API_KEY }}
           MISTRAL_API_KEY:   ${{ secrets.MISTRAL_API_KEY }}
           LLM_PROVIDER:      ${{ vars.LLM_PROVIDER }}
           LLM_MODEL:         ${{ vars.LLM_MODEL }}
           LLM_BASE_URL:      ${{ vars.LLM_BASE_URL }}
-
-          # 翻譯的時間上限（分鐘／每個分頁）與並行數，可在 Variables 調整
           TRANSLATE_BUDGET_MIN: ${{ vars.TRANSLATE_BUDGET_MIN }}
           LLM_WORKERS:          ${{ vars.LLM_WORKERS }}
 
-          # ---- Reddit：雲端 IP 常被擋 403，建議設 ----
+          # ---- 社群來源 ----
           REDDIT_CLIENT_ID:     ${{ secrets.REDDIT_CLIENT_ID }}
           REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+          YOUTUBE_API_KEY:      ${{ secrets.YOUTUBE_API_KEY }}
+          YT_CHANNELS:          ${{ vars.YT_CHANNELS }}
+          X_BEARER_TOKEN:       ${{ secrets.X_BEARER_TOKEN }}
 
-          # ---- YouTube：不設也有頻道 feed，設了才能關鍵字搜尋 ----
-          YOUTUBE_API_KEY:   ${{ secrets.YOUTUBE_API_KEY }}
-          YT_CHANNELS:       ${{ vars.YT_CHANNELS }}
-
-          # ---- X：搜尋需付費方案，沒有就自動跳過 ----
-          X_BEARER_TOKEN:    ${{ secrets.X_BEARER_TOKEN }}
+          # ---- 市場監控 ----
+          REVIEW_FETCH_MAX:     ${{ vars.REVIEW_FETCH_MAX }}
 
           TARGET_LANGS: "zh-TW,zh-CN,en,ja,ko,de,es,fr,it"
+        # all = 模型新聞 → RTX Spark → DGX Spark → 市場監控 → 來源清單
         run: python scraper.py all
 
       - name: 提交結果
-        if: always()           # 即使前一步中途失敗，也把已抓到的資料存下來
+        if: always()
         run: |
           git config user.name  "ai-news-bot"
           git config user.email "actions@github.com"
           git add data/
           if git diff --staged --quiet; then
             echo "沒有新資料"
-          else
-            git commit -m "資料更新 $(TZ=Asia/Taipei date '+%Y-%m-%d %H:%M')"
-            git push
+            exit 0
           fi
+          git commit -m "資料更新 $(TZ=Asia/Taipei date '+%Y-%m-%d %H:%M')"
+          for i in 1 2 3; do
+            if git push; then
+              echo "推送成功"
+              exit 0
+            fi
+            echo "推送失敗，第 $i 次重試"
+            sleep $((RANDOM % 8 + 4))
+            git pull --rebase --autostash origin main || true
+          done
+          echo "::warning::推送重試 3 次仍失敗"
