@@ -2,9 +2,12 @@
 """
 雙頻道新聞爬蟲
 
-  python scraper.py models    AI 語言模型新聞  → data/
-  python scraper.py spark     DGX Spark 機種新聞 → data/spark/
-  python scraper.py all       兩個都跑
+  python scraper.py models    AI 語言模型新聞    → data/
+  python scraper.py rtx       RTX Spark 新聞     → data/rtx/
+  python scraper.py dgx       DGX Spark 新聞     → data/dgx/
+  python scraper.py shop      市場監控（價格規格）→ data/shop/
+  python scraper.py sources   只重建來源清單     → data/sources.json
+  python scraper.py all       全部依序跑一遍
 
 每個頻道各自輸出：
   <out>/news.json                最新一期
@@ -47,7 +50,7 @@ import requests
 
 # ---------------------------------------------------------------- 通用設定
 
-SCRAPER_VERSION = "v15"          # 網頁左下角會顯示，用來確認部署的是哪一版
+SCRAPER_VERSION = "v17"          # 網頁左下角會顯示，用來確認部署的是哪一版
 
 TZ = timezone(timedelta(hours=8))
 WINDOW_HOURS = 48
@@ -160,15 +163,18 @@ MODELS_PRODUCTS = [
 
 # ================================================================ 頻道二：DGX Spark 機種
 
-SPARK_QUERIES = [
-    # --- RTX Spark（N1X，Windows on Arm 筆電與小型桌機）---
+RTX_QUERIES = [
     ("NVIDIA RTX Spark", "zh-TW"),
     ("RTX Spark 筆電 OR 桌機 OR 售價", "zh-TW"),
+    ("RTX Spark 聯發科 N1X", "zh-TW"),
     ("NVIDIA RTX Spark laptop", "en-US"),
     ("RTX Spark N1X Windows on Arm", "en-US"),
     ("RTX Spark ASUS OR Dell OR HP OR Lenovo OR MSI", "en-US"),
     ("Surface RTX Spark Microsoft", "en-US"),
-    # --- DGX Spark（GB10，迷你 AI 工作站）---
+    ("N1X MediaTek NVIDIA superchip", "en-US"),
+]
+
+DGX_QUERIES = [
     ("NVIDIA DGX Spark", "zh-TW"),
     ("DGX Spark 評測 OR 開箱 OR 售價", "zh-TW"),
     ("GB10 Grace Blackwell 迷你 AI 電腦", "zh-TW"),
@@ -183,18 +189,29 @@ SPARK_QUERIES = [
     ("GIGABYTE AI TOP ATOM", "en-US"),
 ]
 
-SPARK_FEEDS = [
+# RTX Spark 是消費級筆電／小桌機，看的是消費電子與 Windows 媒體
+RTX_FEEDS = [
     ("Tom's Hardware", "https://www.tomshardware.com/feeds/all"),
-    ("ServeTheHome", "https://www.servethehome.com/feed/"),
-    ("The Register", "https://www.theregister.com/headlines.atom"),
     ("VideoCardz", "https://videocardz.com/feed"),
-    ("StorageReview", "https://www.storagereview.com/feed"),
-    ("NVIDIA Blog", "https://blogs.nvidia.com/feed/"),
-    ("TechRadar Pro", "https://www.techradar.com/rss/news/computing"),
-    ("iThome", "https://www.ithome.com.tw/rss"),
-    ("科技新報", "https://technews.tw/feed/"),
     ("Windows Central", "https://www.windowscentral.com/feeds/all"),
     ("Engadget", "https://www.engadget.com/rss.xml"),
+    ("TechRadar Pro", "https://www.techradar.com/rss/news/computing"),
+    ("The Register", "https://www.theregister.com/headlines.atom"),
+    ("NVIDIA Blog", "https://blogs.nvidia.com/feed/"),
+    ("iThome", "https://www.ithome.com.tw/rss"),
+    ("科技新報", "https://technews.tw/feed/"),
+]
+
+# DGX Spark 偏工作站／資料中心，看的是伺服器與儲存媒體
+DGX_FEEDS = [
+    ("ServeTheHome", "https://www.servethehome.com/feed/"),
+    ("StorageReview", "https://www.storagereview.com/feed"),
+    ("Tom's Hardware", "https://www.tomshardware.com/feeds/all"),
+    ("The Register", "https://www.theregister.com/headlines.atom"),
+    ("NVIDIA Blog", "https://blogs.nvidia.com/feed/"),
+    ("VideoCardz", "https://videocardz.com/feed"),
+    ("iThome", "https://www.ithome.com.tw/rss"),
+    ("科技新報", "https://technews.tw/feed/"),
 ]
 
 # 這些是各品牌的新聞室與產品頁。抓不到的會在日誌標明並跳過，
@@ -242,10 +259,17 @@ SPARK_FALLBACK = [
                 r"\bgb10\b", "grace blackwell", "輝達"]),
 ]
 
-SPARK_REDDIT = {
+RTX_REDDIT = {
+    "subs": ["nvidia"],
+    "query": '"RTX Spark" OR N1X OR "Windows on Arm" NVIDIA',
+    "min_score": 5,
+    "subs_extra": ["hardware", "laptops"],
+}
+
+DGX_REDDIT = {
     "subs": ["LocalLLaMA"],
-    "query": ('"RTX Spark" OR N1X OR "DGX Spark" OR GB10 OR "Ascent GX10" '
-              'OR EdgeXpert OR "ZGX Nano" OR "ThinkStation PGX"'),
+    "query": ('"DGX Spark" OR GB10 OR "Ascent GX10" OR EdgeXpert '
+              'OR "ZGX Nano" OR "ThinkStation PGX"'),
     "min_score": 5,
     "subs_extra": ["nvidia", "hardware"],
 }
@@ -262,16 +286,25 @@ SPARK_TAGS = [
     ("產品發表", []),
 ]
 
-SPARK_KEEP = re.compile(
+RTX_KEEP = re.compile(
     r"rtx\s*spark|\bn1x\b|spark\s*superchip|"
+    r"(nvidia|mediatek|聯發科).{0,40}(windows on arm|arm 筆電)",
+    re.I,
+)
+
+DGX_KEEP = re.compile(
     r"dgx\s*spark|\bgb10\b|grace\s*blackwell|ascent\s*gx10|veriton\s*gn100|"
     r"\bzgx\b|edgexpert|thinkstation\s*pgx|ai\s*top\s*atom|"
     r"pro\s*max\s*(with\s*)?gb10|project\s*digits|dgx\s*station",
     re.I,
 )
 
-SPARK_PRODUCTS = [
-    "RTX Spark", "N1X", "Surface Laptop Ultra", "Grace CPU", "MediaTek",
+RTX_PRODUCTS = [
+    "RTX Spark", "N1X", "Surface Laptop Ultra", "MediaTek",
+    "Yoga Pro 9n", "Yoga 9n", "Windows on Arm",
+]
+
+DGX_PRODUCTS = [
     "DGX Spark", "GB10", "Ascent GX10", "Veriton GN100", "ZGX Nano",
     "EdgeXpert", "ThinkStation PGX", "AI TOP ATOM", "Pro Max with GB10",
     "DGX Station", "GB300", "Grace Blackwell",
@@ -289,15 +322,24 @@ CHANNELS = {
         "groups": MODELS_GROUPS, "fallback": [], "lines": [],
         "tags": MODELS_TAGS, "keep": MODELS_KEEP, "products": MODELS_PRODUCTS,
     },
-    "spark": {
-        "label": "DGX Spark 機種",
-        "out": ROOT / "data" / "spark",
-        "queries": SPARK_QUERIES, "feeds": SPARK_FEEDS,
+    "rtx": {
+        "label": "RTX Spark",
+        "out": ROOT / "data" / "rtx",
+        "queries": RTX_QUERIES, "feeds": RTX_FEEDS,
         # 硬體新聞量少，時間窗放寬到四天
-        "reddit": SPARK_REDDIT, "window": 96,
+        "reddit": RTX_REDDIT, "window": 96,
         "press_feeds": SPARK_PRESS_FEEDS, "press_pages": SPARK_PRESS_PAGES,
-        "groups": SPARK_GROUPS, "fallback": SPARK_FALLBACK, "lines": SPARK_LINES,
-        "tags": SPARK_TAGS, "keep": SPARK_KEEP, "products": SPARK_PRODUCTS,
+        "groups": SPARK_GROUPS, "fallback": SPARK_FALLBACK, "lines": [],
+        "tags": SPARK_TAGS, "keep": RTX_KEEP, "products": RTX_PRODUCTS,
+    },
+    "dgx": {
+        "label": "DGX Spark",
+        "out": ROOT / "data" / "dgx",
+        "queries": DGX_QUERIES, "feeds": DGX_FEEDS,
+        "reddit": DGX_REDDIT, "window": 96,
+        "press_feeds": SPARK_PRESS_FEEDS, "press_pages": SPARK_PRESS_PAGES,
+        "groups": SPARK_GROUPS, "fallback": SPARK_FALLBACK, "lines": [],
+        "tags": SPARK_TAGS, "keep": DGX_KEEP, "products": DGX_PRODUCTS,
     },
 }
 
@@ -1474,25 +1516,25 @@ PRODUCT_SEED = [
     dict(id="nvidia-dgx-spark-fe", name="NVIDIA DGX Spark Founders Edition",
          brand="nvidia", line="dgx", storage="4 TB NVMe", form="桌上型",
          status="launched", keywords=["dgx spark founders", "founders edition"]),
-    dict(id="asus-ascent-gx10", name="ASUS Ascent GX10",
+    dict(id="asus-ascent-gx10", page="https://www.asus.com/networking-iot-servers/ai-servers/ascent/asus-ascent-gx10/", name="ASUS Ascent GX10",
          brand="asus", line="dgx", storage="1 TB NVMe", form="桌上型",
          status="launched", keywords=["ascent gx10"]),
-    dict(id="acer-veriton-gn100", name="Acer Veriton GN100",
+    dict(id="acer-veriton-gn100", page="https://www.acer.com/us-en/desktop/veriton/veriton-gn100", name="Acer Veriton GN100",
          brand="acer", line="dgx", storage="1 TB / 4 TB NVMe", form="桌上型",
          status="launched", keywords=["veriton gn100"]),
-    dict(id="dell-pro-max-gb10", name="Dell Pro Max with GB10",
+    dict(id="dell-pro-max-gb10", page="https://www.dell.com/en-us/shop/desktop-computers/dell-pro-max-with-gb10/spd/pro-max-gb10", name="Dell Pro Max with GB10",
          brand="dell", line="dgx", storage="4 TB NVMe", form="桌上型",
          status="launched", keywords=["pro max with gb10", "pro max gb10"]),
-    dict(id="hp-zgx-nano", name="HP ZGX Nano AI Station",
+    dict(id="hp-zgx-nano", page="https://www.hp.com/us-en/workstations/zgx-nano-ai-station.html", name="HP ZGX Nano AI Station",
          brand="hp", line="dgx", storage="1 TB / 4 TB NVMe", form="桌上型",
          status="launched", keywords=["zgx nano", "zgx"]),
-    dict(id="lenovo-thinkstation-pgx", name="Lenovo ThinkStation PGX",
+    dict(id="lenovo-thinkstation-pgx", page="https://www.lenovo.com/us/en/p/workstations/thinkstation-p-series/thinkstation-pgx/", name="Lenovo ThinkStation PGX",
          brand="lenovo", line="dgx", storage="4 TB NVMe", form="桌上型",
          status="launched", keywords=["thinkstation pgx"]),
-    dict(id="msi-edgexpert", name="MSI EdgeXpert MS-C931",
+    dict(id="msi-edgexpert", page="https://www.msi.com/AI-PC/EdgeXpert-MS-C931", name="MSI EdgeXpert MS-C931",
          brand="msi", line="dgx", storage="1 TB / 4 TB NVMe", form="邊緣工作站",
          status="launched", keywords=["edgexpert", "ms-c931"]),
-    dict(id="gigabyte-ai-top-atom", name="GIGABYTE AI TOP ATOM",
+    dict(id="gigabyte-ai-top-atom", page="https://www.gigabyte.com/Consumer/AI-TOP-ATOM", name="GIGABYTE AI TOP ATOM",
          brand="gigabyte", line="dgx", storage="4 TB NVMe", form="桌上型",
          status="launched", keywords=["ai top atom"]),
     # ---- RTX Spark（N1X）：2026 秋季 ----
@@ -1711,6 +1753,88 @@ def scan_shop(shop: dict, query: str, keywords: list[str],
     return out
 
 
+# ---------------------------------------------------------------- 規格擷取
+
+# 各家規格頁的欄位名稱不同，而且有多語版本，所以用標籤關鍵字對照。
+# 順序有意義：越具體的越前面。
+# 「Memory bandwidth」含有 memory，若 memory 排在前面就會被判錯。
+SPEC_LABELS = [
+    ("aiPerf",    ["ai performance", "tflops", "petaflops", "petaflop", "flops",
+                   "ai 效能", "ai效能", "ai性能"]),
+    ("bandwidth", ["memory bandwidth", "bandwidth", "頻寬", "带宽", "帯域幅", "帯域",
+                   "bandbreite", "bande passante", "larghezza di banda"]),
+    ("form",      ["form factor", "dimensions", "外型", "尺寸", "サイズ", "寸法",
+                   "abmessungen", "dimensiones", "dimensioni"]),
+    ("os",        ["operating system", "作業系統", "操作系统", "os",
+                   "betriebssystem", "sistema operativo",
+                   "système d'exploitation", "sistema operativo"]),
+    ("network",   ["networking", "network", "ethernet", "lan", "wi-fi", "網路", "网络",
+                   "ネットワーク", "netzwerk", "réseau", "rete"]),
+    ("storage",   ["storage", "hard drive", "ssd", "nvme", "儲存", "存储",
+                   "ストレージ", "speicher", "almacenamiento", "stockage",
+                   "archiviazione"]),
+    ("memory",    ["unified memory", "memory", "ram", "記憶體", "内存", "メモリ",
+                   "arbeitsspeicher", "memoria", "mémoire"]),
+    ("gpu",       ["gpu", "graphics", "顯示晶片", "显卡", "グラフィック", "grafik",
+                   "gráfica", "graphique", "grafica"]),
+    ("cpu",       ["cpu", "processor", "處理器", "处理器", "プロセッサ", "prozessor",
+                   "procesador", "processeur", "processore"]),
+    ("power",     ["power supply", "power consumption", "wattage", "psu", "power",
+                   "電源", "消費電力", "功耗", "netzteil", "alimentation",
+                   "alimentazione"]),
+    ("chip",      ["superchip", "chipset", "soc", "platform", "晶片", "芯片",
+                   "チップ"]),
+]
+
+# <tr><th>標籤</th><td>值</td></tr> 與 <dt>標籤</dt><dd>值</dd> 兩種常見寫法
+ROW_RE = re.compile(
+    r"<t[hd][^>]*>(?P<k>.{2,60}?)</t[hd]>\s*<td[^>]*>(?P<v>.{1,200}?)</td>",
+    re.I | re.S)
+DL_RE = re.compile(
+    r"<dt[^>]*>(?P<k>.{2,60}?)</dt>\s*<dd[^>]*>(?P<v>.{1,200}?)</dd>",
+    re.I | re.S)
+# schema.org 的 additionalProperty
+LD_PROP_RE = re.compile(
+    r'"name"\s*:\s*"(?P<k>[^"]{2,60})"\s*,\s*"value"\s*:\s*"(?P<v>[^"]{1,200})"',
+    re.I)
+
+
+def _hit(word: str, low: str) -> bool:
+    """短的英文縮寫（os、cpu、lan…）用子字串比對會誤判，一律要求字詞邊界。"""
+    if re.search(r"[a-z]", word):
+        return re.search(r"(?<![a-z])" + re.escape(word) + r"(?![a-z])", low) is not None
+    return word in low          # 中日韓沒有詞界，直接比對
+
+
+def match_spec_key(label: str) -> str | None:
+    low = re.sub(r"\s+", " ", label).strip().lower().rstrip(":：")
+    for key, words in SPEC_LABELS:
+        if any(_hit(w, low) for w in words):
+            return key
+    return None
+
+
+def extract_specs(page: str) -> dict:
+    """從規格表、定義列表與結構化資料裡撈規格。抓不到就回空字典。"""
+    found: dict = {}
+    for rx in (ROW_RE, DL_RE, LD_PROP_RE):
+        for m in rx.finditer(page):
+            key = match_spec_key(strip_html(m.group("k")))
+            if not key or key in found:
+                continue
+            val = strip_html(m.group("v"))
+            if 2 <= len(val) <= 160 and not val.lower().startswith("http"):
+                found[key] = val
+    return found
+
+
+def fetch_specs(url: str) -> dict:
+    page = fetch(url, retries=0)
+    if not page:
+        return {}
+    return extract_specs(html.unescape(page))
+
+
 # ---------------------------------------------------------------- 消費者評論
 
 # 多數電商為了 SEO 都會在頁面裡埋 schema.org 的 aggregateRating，
@@ -1853,10 +1977,25 @@ def load_manual_prices() -> dict:
         return {}
 
 
-def run_shop(news: list[dict]) -> None:
+def load_channel_news(name: str) -> list[dict]:
+    """從已產出的 news.json 讀新聞，讓價格分頁能獨立執行。"""
+    f = CHANNELS[name]["out"] / "news.json"
+    if not f.exists():
+        return []
+    try:
+        return json.loads(f.read_text(encoding="utf-8")).get("items", [])
+    except Exception:
+        return []
+
+
+def run_shop(news: list[dict] | None = None) -> None:
     started = datetime.now(TZ)
     log(f"===== 價格與規格（爬蟲 {SCRAPER_VERSION}）=====")
     SHOP_OUT.mkdir(parents=True, exist_ok=True)
+
+    if news is None:
+        news = load_channel_news("rtx") + load_channel_news("dgx")
+        log(f"從 data/rtx 與 data/dgx 讀入 {len(news)} 則新聞判斷貨況")
 
     hist = load_history()
     rhist = load_reviews_hist()
@@ -1867,9 +2006,22 @@ def run_shop(news: list[dict]) -> None:
 
     products = []
     for seed in PRODUCT_SEED:
-        specs = dict(GB10_SPECS if seed["line"] == "dgx" else N1X_SPECS)
-        specs["storage"] = seed["storage"]
-        specs["form"] = seed["form"]
+        # 內建值只是後備；優先用從產品官網或通路頁抓到的規格
+        fallback = dict(GB10_SPECS if seed["line"] == "dgx" else N1X_SPECS)
+        fallback["storage"] = seed["storage"]
+        fallback["form"] = seed["form"]
+
+        scraped, spec_src = {}, ""
+        if seed.get("page"):
+            got = fetch_specs(seed["page"])
+            if got:
+                scraped, spec_src = got, seed["page"]
+                log(f"  規格：{seed['name']} → 從產品官網抓到 {len(got)} 項")
+            else:
+                log(f"  規格：{seed['name']} → 官網抓不到，改用內建值")
+            time.sleep(0.6)
+
+        specs = {**fallback, **scraped}
 
         signals = collect_signals(seed, news)
 
@@ -1930,6 +2082,14 @@ def run_shop(news: list[dict]) -> None:
 
             # 評分只抓該國最便宜那筆的商品頁，避免請求量爆掉
             if best.get("url"):
+                # 官網沒抓到規格時，順手從通路頁補
+                if not scraped:
+                    got = extract_specs(html.unescape(fetch(best["url"], retries=0) or ""))
+                    if got:
+                        scraped = got
+                        spec_src = best["url"]
+                        specs.update(got)
+                        log(f"  規格：{seed['name']} → 從 {best['platform']} 補到 {len(got)} 項")
                 rv = fetch_reviews(best["url"])
                 if rv:
                     best.update(rv)
@@ -1954,7 +2114,10 @@ def run_shop(news: list[dict]) -> None:
         products.append({
             "id": seed["id"], "name": seed["name"],
             "brand": seed["brand"], "line": seed["line"],
+            "page": seed.get("page", ""),
             "specs": specs,
+            "specSource": spec_src,
+            "specScraped": sorted(scraped.keys()),
             "facets": {"memory": specs["memory"].split(" LPDDR")[0].strip(),
                        "storage": seed["storage"], "form": seed["form"]},
             "markets": [markets[c] for c in MARKETS],
@@ -1975,6 +2138,8 @@ def run_shop(news: list[dict]) -> None:
 
     with_price = sum(1 for p in products
                      for m in p["markets"] if m["offers"])
+    scraped_n = sum(1 for p in products if p["specScraped"])
+    log(f"規格擷取：{scraped_n}/{len(products)} 個機種取得實際規格，其餘用內建後備值")
     rated = sum(1 for p in products for m in p["markets"] if m.get("rating"))
     log(f"評分擷取：{rated} 個市場有評分 · 剩餘預算 {_review_budget['left']}/{REVIEW_FETCH_MAX}")
     with_sig = sum(1 for p in products if p["signals"])
@@ -1982,8 +2147,70 @@ def run_shop(news: list[dict]) -> None:
         f"有貨況訊息的機種 {with_sig} 個 → data/shop/products.json")
 
 
+# ================================================================ 來源清單
+
+def build_sources() -> None:
+    """把所有爬取來源與網址寫成 data/sources.json，網頁會顯示成可點的清單。"""
+    groups = []
+
+    for cid, cfg in CHANNELS.items():
+        rows = []
+        for q, lang in cfg["queries"]:
+            gl, ceid = ("TW", "TW:zh-Hant") if lang == "zh-TW" else ("US", "US:en")
+            rows.append({
+                "kind": "Google 新聞", "label": q,
+                "url": ("https://news.google.com/rss/search?q="
+                        + urllib.parse.quote(q) + f"&hl={lang}&gl={gl}&ceid={ceid}"),
+            })
+        for label, url in cfg["feeds"]:
+            rows.append({"kind": "媒體 RSS", "label": label, "url": url})
+        for label, url in cfg.get("press_feeds", []):
+            rows.append({"kind": "新聞室 RSS", "label": label, "url": url})
+        for label, url in cfg.get("press_pages", []):
+            rows.append({"kind": "新聞室網頁", "label": label, "url": url})
+        for sub in cfg["reddit"]["subs"] + cfg["reddit"].get("subs_extra", []):
+            rows.append({"kind": "Reddit", "label": f"r/{sub}",
+                         "url": f"https://www.reddit.com/r/{sub}/"})
+        for cidy in yt_channels():
+            rows.append({"kind": "YouTube 頻道", "label": cidy,
+                         "url": f"https://www.youtube.com/channel/{cidy}"})
+        rows.append({"kind": "Hacker News", "label": "Algolia 搜尋 API",
+                     "url": "https://hn.algolia.com/"})
+        groups.append({"channel": cid, "label": cfg["label"], "sources": rows})
+
+    shop_rows = [{"kind": "通路", "label": "PChome 24h（TW）",
+                  "url": "https://24h.pchome.com.tw/"}]
+    for sh in SHOPS:
+        shop_rows.append({"kind": "通路", "label": f"{sh['platform']}（{sh['country']}）",
+                          "url": sh["base"]})
+    for seed in PRODUCT_SEED:
+        if seed.get("page"):
+            shop_rows.append({"kind": "產品官網", "label": seed["name"],
+                              "url": seed["page"]})
+    groups.append({"channel": "shop", "label": "市場監控", "sources": shop_rows})
+
+    total = sum(len(g["sources"]) for g in groups)
+    out = ROOT / "data" / "sources.json"
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(json.dumps(
+        {"version": SCRAPER_VERSION,
+         "updatedAt": datetime.now(TZ).isoformat(),
+         "count": total, "groups": groups},
+        ensure_ascii=False, indent=1), encoding="utf-8")
+    log(f"來源清單：{total} 個來源 → data/sources.json")
+
+
 def main() -> int:
     arg = (sys.argv[1] if len(sys.argv) > 1 else "all").lower()
+    if arg == "sources":
+        build_sources()
+        return 0
+
+    if arg == "shop":
+        run_shop()
+        build_sources()
+        return 0
+
     names = list(CHANNELS) if arg == "all" else [arg]
     for n in names:
         if n not in CHANNELS:
@@ -1993,12 +2220,13 @@ def main() -> int:
     for n in names:
         collected[n] = run_channel(n)
 
-    # 價格與規格分頁借用 Spark 頻道的新聞來判斷貨況
-    if "spark" in collected:
+    # 只有整批執行時才順便更新價格分頁；單獨跑某個頻道就不動它
+    if arg == "all":
         try:
-            run_shop(collected["spark"])
+            run_shop()
         except Exception as exc:
             log(f"✗ 價格與規格產生失敗：{exc}")
+    build_sources()
 
     return 0 if any(v for v in collected.values()) else 1
 

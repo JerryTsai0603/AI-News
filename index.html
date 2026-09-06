@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>模型快訊監測台</title>
+<title>Edge AI 產品資訊觀測站</title>
 <style>
   :root{
     --ink:#0F141C; --paper:#E7EAEF; --panel:#FFF; --line:#CFD6E0;
@@ -234,6 +234,23 @@
         color:var(--mute);text-align:right;}
   .stars{color:#C98A00;letter-spacing:1px;}
 
+  /* 資料來源清單 */
+  .srcbox{margin-top:16px;border-top:1px solid var(--line);padding-top:12px;}
+  .srcbox > summary{list-style:none;cursor:pointer;font-size:11.5px;font-weight:600;
+    letter-spacing:.1em;text-transform:uppercase;color:var(--mute);
+    display:flex;align-items:center;gap:6px;}
+  .srcbox > summary::-webkit-details-marker{display:none;}
+  .srcbox > summary::after{content:"+";margin-left:auto;font-size:14px;letter-spacing:0;}
+  .srcbox[open] > summary::after{content:"–";}
+  .srcgrp{margin-top:10px;}
+  .srcgrp h4{font-size:11.5px;margin:10px 0 4px;color:var(--ink);font-weight:600;}
+  .srclist{list-style:none;padding:0;margin:0;}
+  .srclist li{font-size:11.5px;line-height:1.75;display:flex;gap:6px;}
+  .srclist .kind{color:var(--mute);flex:none;min-width:64px;}
+  .srclist a{color:var(--signal);text-decoration:none;overflow:hidden;
+    text-overflow:ellipsis;white-space:nowrap;}
+  .srclist a:hover{text-decoration:underline;}
+
   .ftoggle{display:none;}
   @media (max-width:760px){
     .thumb{width:76px;height:58px;}
@@ -295,6 +312,10 @@
       <div id="groups"></div>
       <p class="note" id="tNote"></p>
       <p class="note" id="ver" style="opacity:.7"></p>
+      <details class="srcbox" id="srcbox" hidden>
+        <summary id="srcSummary"></summary>
+        <div id="srcBody"></div>
+      </details>
     </div>
   </aside>
   <section class="feed" id="feed"></section>
@@ -310,7 +331,7 @@ const UI = {
   "zh-TW": {
     name: "繁體中文", htmlLang: "zh-Hant",
     tabs: { models: "AI 語言模型", spark: "DGX Spark 機種" },
-    eyebrow: "每日 06:00 · AI 語言模型", title: "模型快訊監測台",
+    eyebrow: "每日 06:00 · Edge AI 產品觀測", title: "Edge AI 產品資訊觀測站",
     next: "距下次自動更新", sort: "排序", reload: "立即更新",
     filter: "篩選", clearAll: "清除全部", filterBtn: "篩選條件", filterHide: "收起篩選",
     sorts: { heat: "熱門程度",
@@ -344,7 +365,8 @@ const UI = {
     errArchive: (d, m) => `讀不到 ${d} 期的存檔（${m}）。`,
     errRefresh: (m) => `更新失敗:${m}`,
     reloading: "讀取中…",
-    shop: { tab: "價格規格", region: "區域", country: "國家", platform: "通路", status: "狀態", spec: "規格", memory: "記憶體", storage: "儲存", form: "型式", compare: "比較", clear: "清除", specs: "規格表", markets: "各國貨況", signals: "貨況消息", noPrice: "無報價", pickTwo: "勾選兩個以上的機種才能比較", selected: "已選", st: { unannounced: "未發表", announced: "已發表", preorder: "預購", launched: "開賣", oos: "缺貨" }, rg: { apac: "亞太", na: "北美", emea: "歐洲" } },
+    shop: { tab: "市場監控", region: "區域", country: "國家", platform: "通路", status: "狀態", spec: "規格", memory: "記憶體", storage: "儲存", form: "型式", compare: "比較", clear: "清除", specs: "規格表", markets: "各國貨況", signals: "貨況消息", noPrice: "無報價", pickTwo: "勾選兩個以上的機種才能比較", selected: "已選", st: { unannounced: "未發表", announced: "已發表", preorder: "預購", launched: "開賣", oos: "缺貨" }, rg: { apac: "亞太", na: "北美", emea: "歐洲" } },
+    srcTitle: "資料來源",
     dash: { dash: "儀表板", list: "清單", tracked: "追蹤機種", onsale: "已開賣市場", cheapest: "最低價", newReviews: "7 日新增評論", launchMap: "開賣區域", priceTrend: "價格趨勢", salesProxy: "銷售動能（推估）", salesNote: "電商不公開銷量，這裡以評論數的增量推估，僅供參考", reviews: "評價", noHistory: "累積幾天資料後才會出現趨勢線", days: "天" },
     rescrape: '重新爬取',
     rescrapeAsk: '貼上具 actions:write 權限的 GitHub token（只存在本次瀏覽階段，不會寫進網頁）：',
@@ -356,7 +378,7 @@ const UI = {
   "en": {
     name: "English", htmlLang: "en",
     tabs: { models: "AI models", spark: "DGX Spark systems" },
-    eyebrow: "Daily 06:00 · AI language models", title: "Model Newswire",
+    eyebrow: "Daily 06:00 · Edge AI products", title: "Edge AI Product Observatory",
     next: "Next auto-update in", sort: "Sort", reload: "Refresh",
     filter: "Filters", clearAll: "Clear all", filterBtn: "Filters", filterHide: "Hide filters",
     sorts: { heat: "Popularity",
@@ -390,7 +412,8 @@ const UI = {
     errArchive: (d, m) => `Could not read the archive for ${d} (${m}).`,
     errRefresh: (m) => `Refresh failed: ${m}`,
     reloading: "Loading…",
-    shop: { tab: "Prices & specs", region: "Region", country: "Country", platform: "Retailer", status: "Status", spec: "Specs", memory: "Memory", storage: "Storage", form: "Form factor", compare: "Compare", clear: "Clear", specs: "Specifications", markets: "Availability", signals: "Availability news", noPrice: "No listing", pickTwo: "Select at least two models to compare", selected: "selected", st: { unannounced: "Unannounced", announced: "Announced", preorder: "Pre-order", launched: "On sale", oos: "Out of stock" }, rg: { apac: "APAC", na: "North America", emea: "Europe" } },
+    shop: { tab: "Market monitor", region: "Region", country: "Country", platform: "Retailer", status: "Status", spec: "Specs", memory: "Memory", storage: "Storage", form: "Form factor", compare: "Compare", clear: "Clear", specs: "Specifications", markets: "Availability", signals: "Availability news", noPrice: "No listing", pickTwo: "Select at least two models to compare", selected: "selected", st: { unannounced: "Unannounced", announced: "Announced", preorder: "Pre-order", launched: "On sale", oos: "Out of stock" }, rg: { apac: "APAC", na: "North America", emea: "Europe" } },
+    srcTitle: "Data sources",
     dash: { dash: "Dashboard", list: "List", tracked: "Models tracked", onsale: "Markets on sale", cheapest: "Lowest price", newReviews: "New reviews (7d)", launchMap: "Availability map", priceTrend: "Price trend", salesProxy: "Sales momentum (estimated)", salesNote: "Retailers do not publish unit sales; this estimates momentum from review growth", reviews: "Ratings", noHistory: "Trend lines appear once a few days of data accumulate", days: "days" },
     rescrape: 'Re-scrape',
     rescrapeAsk: 'Paste a GitHub token with actions:write scope (kept for this session only, never written into the page):',
@@ -402,7 +425,7 @@ const UI = {
   "ja": {
     name: "日本語", htmlLang: "ja",
     tabs: { models: "AI言語モデル", spark: "DGX Spark 製品" },
-    eyebrow: "毎日 06:00 · AI言語モデル", title: "モデル速報",
+    eyebrow: "毎日 06:00 · Edge AI 製品", title: "Edge AI 製品情報観測所",
     next: "次回の自動更新まで", sort: "並び順", reload: "更新",
     filter: "絞り込み", clearAll: "すべて解除", filterBtn: "絞り込み", filterHide: "絞り込みを閉じる",
     sorts: { heat: "注目度",
@@ -436,7 +459,8 @@ const UI = {
     errArchive: (d, m) => `${d}版のアーカイブを読み込めません（${m}）。`,
     errRefresh: (m) => `更新に失敗しました:${m}`,
     reloading: "読み込み中…",
-    shop: { tab: "価格・仕様", region: "地域", country: "国", platform: "販売店", status: "状況", spec: "仕様", memory: "メモリ", storage: "ストレージ", form: "形状", compare: "比較", clear: "解除", specs: "仕様表", markets: "各国の状況", signals: "入荷情報", noPrice: "掲載なし", pickTwo: "2機種以上を選んでください", selected: "選択中", st: { unannounced: "未発表", announced: "発表済", preorder: "予約受付", launched: "発売中", oos: "在庫切れ" }, rg: { apac: "アジア太平洋", na: "北米", emea: "欧州" } },
+    shop: { tab: "市場モニター", region: "地域", country: "国", platform: "販売店", status: "状況", spec: "仕様", memory: "メモリ", storage: "ストレージ", form: "形状", compare: "比較", clear: "解除", specs: "仕様表", markets: "各国の状況", signals: "入荷情報", noPrice: "掲載なし", pickTwo: "2機種以上を選んでください", selected: "選択中", st: { unannounced: "未発表", announced: "発表済", preorder: "予約受付", launched: "発売中", oos: "在庫切れ" }, rg: { apac: "アジア太平洋", na: "北米", emea: "欧州" } },
+    srcTitle: "データソース",
     dash: { dash: "ダッシュボード", list: "一覧", tracked: "追跡機種", onsale: "発売中の市場", cheapest: "最安値", newReviews: "7日間の新規レビュー", launchMap: "発売地域", priceTrend: "価格推移", salesProxy: "販売の勢い（推定）", salesNote: "販売数は公開されないため、レビュー数の増加から推定した参考値です", reviews: "評価", noHistory: "数日分のデータが溜まると推移が表示されます", days: "日" },
     rescrape: '再取得',
     rescrapeAsk: 'actions:write 権限のある GitHub トークンを貼り付けてください（このセッションのみ保持、ページには書き込まれません）：',
@@ -448,7 +472,7 @@ const UI = {
   "zh-CN": {
     name: "简体中文", htmlLang: "zh-Hans",
     tabs: { models: "AI 语言模型", spark: "DGX Spark 机型" },
-    eyebrow: "每日 06:00 · AI 语言模型", title: "模型快讯监测台",
+    eyebrow: "每日 06:00 · Edge AI 产品观测", title: "Edge AI 产品信息观测站",
     next: "距下次自动更新", sort: "排序", reload: "立即更新",
     filter: "筛选", clearAll: "清除全部", filterBtn: "筛选条件", filterHide: "收起筛选",
     sorts: { heat: "热门程度",
@@ -482,7 +506,8 @@ const UI = {
     errArchive: (d, m) => `读不到 ${d} 期的存档(${m})。`,
     errRefresh: (m) => `更新失败:${m}`,
     reloading: "读取中…",
-    shop: { tab: "价格规格", region: "区域", country: "国家", platform: "渠道", status: "状态", spec: "规格", memory: "内存", storage: "存储", form: "型式", compare: "比较", clear: "清除", specs: "规格表", markets: "各国货况", signals: "货况消息", noPrice: "无报价", pickTwo: "勾选两个以上的机型才能比较", selected: "已选", st: { unannounced: "未发表", announced: "已发表", preorder: "预购", launched: "开卖", oos: "缺货" }, rg: { apac: "亚太", na: "北美", emea: "欧洲" } },
+    shop: { tab: "市场监控", region: "区域", country: "国家", platform: "渠道", status: "状态", spec: "规格", memory: "内存", storage: "存储", form: "型式", compare: "比较", clear: "清除", specs: "规格表", markets: "各国货况", signals: "货况消息", noPrice: "无报价", pickTwo: "勾选两个以上的机型才能比较", selected: "已选", st: { unannounced: "未发表", announced: "已发表", preorder: "预购", launched: "开卖", oos: "缺货" }, rg: { apac: "亚太", na: "北美", emea: "欧洲" } },
+    srcTitle: "数据来源",
     dash: { dash: "仪表板", list: "列表", tracked: "追踪机型", onsale: "已开卖市场", cheapest: "最低价", newReviews: "7 日新增评论", launchMap: "开卖区域", priceTrend: "价格趋势", salesProxy: "销售动能（推估）", salesNote: "电商不公开销量，这里以评论数的增量推估，仅供参考", reviews: "评价", noHistory: "累积几天数据后才会出现趋势线", days: "天" },
     rescrape: '重新抓取',
     rescrapeAsk: '粘贴具 actions:write 权限的 GitHub token（仅存在本次浏览会话，不会写入网页）：',
@@ -494,7 +519,7 @@ const UI = {
   "ko": {
     name: "한국어", htmlLang: "ko",
     tabs: { models: "AI 언어 모델", spark: "DGX Spark 제품" },
-    eyebrow: "매일 06:00 · AI 언어 모델", title: "모델 뉴스와이어",
+    eyebrow: "매일 06:00 · Edge AI 제품", title: "Edge AI 제품 정보 관측소",
     next: "다음 자동 업데이트까지", sort: "정렬", reload: "새로고침",
     filter: "필터", clearAll: "전체 해제", filterBtn: "필터", filterHide: "필터 접기",
     sorts: { heat: "인기도",
@@ -528,7 +553,8 @@ const UI = {
     errArchive: (d, m) => `${d}판 보관 파일을 읽을 수 없습니다 (${m}).`,
     errRefresh: (m) => `새로고침 실패: ${m}`,
     reloading: "불러오는 중…",
-    shop: { tab: "가격·사양", region: "지역", country: "국가", platform: "판매처", status: "상태", spec: "사양", memory: "메모리", storage: "스토리지", form: "형태", compare: "비교", clear: "해제", specs: "사양표", markets: "국가별 상태", signals: "출시 소식", noPrice: "미등록", pickTwo: "두 개 이상 선택하세요", selected: "선택", st: { unannounced: "미발표", announced: "발표됨", preorder: "사전예약", launched: "판매중", oos: "품절" }, rg: { apac: "아시아태평양", na: "북미", emea: "유럽" } },
+    shop: { tab: "시장 모니터링", region: "지역", country: "국가", platform: "판매처", status: "상태", spec: "사양", memory: "메모리", storage: "스토리지", form: "형태", compare: "비교", clear: "해제", specs: "사양표", markets: "국가별 상태", signals: "출시 소식", noPrice: "미등록", pickTwo: "두 개 이상 선택하세요", selected: "선택", st: { unannounced: "미발표", announced: "발표됨", preorder: "사전예약", launched: "판매중", oos: "품절" }, rg: { apac: "아시아태평양", na: "북미", emea: "유럽" } },
+    srcTitle: "데이터 출처",
     dash: { dash: "대시보드", list: "목록", tracked: "추적 기종", onsale: "판매 중 시장", cheapest: "최저가", newReviews: "7일 신규 리뷰", launchMap: "출시 지역", priceTrend: "가격 추이", salesProxy: "판매 흐름(추정)", salesNote: "판매량은 공개되지 않으므로 리뷰 증가량으로 추정한 참고치입니다", reviews: "평점", noHistory: "며칠간 데이터가 쌓이면 추이가 표시됩니다", days: "일" },
     rescrape: '다시 수집',
     rescrapeAsk: 'actions:write 권한이 있는 GitHub 토큰을 붙여넣으세요(이 세션에만 보관되며 페이지에 저장되지 않습니다):',
@@ -540,7 +566,7 @@ const UI = {
   "de": {
     name: "Deutsch", htmlLang: "de",
     tabs: { models: "KI-Modelle", spark: "DGX-Spark-Systeme" },
-    eyebrow: "Täglich 06:00 · KI-Sprachmodelle", title: "Modell-Nachrichtenticker",
+    eyebrow: "Täglich 06:00 · Edge-AI-Produkte", title: "Edge-AI-Produktobservatorium",
     next: "Nächste Aktualisierung in", sort: "Sortierung", reload: "Aktualisieren",
     filter: "Filter", clearAll: "Alle zurücksetzen",
     filterBtn: "Filter", filterHide: "Filter ausblenden",
@@ -576,7 +602,8 @@ const UI = {
     errArchive: (d, m) => `Archiv für ${d} konnte nicht gelesen werden (${m}).`,
     errRefresh: (m) => `Aktualisierung fehlgeschlagen: ${m}`,
     reloading: "Wird geladen…",
-    shop: { tab: "Preise & Technik", region: "Region", country: "Land", platform: "Händler", status: "Status", spec: "Technik", memory: "Speicher", storage: "Datenträger", form: "Bauform", compare: "Vergleich", clear: "Leeren", specs: "Technische Daten", markets: "Verfügbarkeit", signals: "Verfügbarkeitsmeldungen", noPrice: "Kein Angebot", pickTwo: "Mindestens zwei Modelle auswählen", selected: "ausgewählt", st: { unannounced: "Unangekündigt", announced: "Angekündigt", preorder: "Vorbestellung", launched: "Im Handel", oos: "Nicht verfügbar" }, rg: { apac: "Asien-Pazifik", na: "Nordamerika", emea: "Europa" } },
+    shop: { tab: "Marktbeobachtung", region: "Region", country: "Land", platform: "Händler", status: "Status", spec: "Technik", memory: "Speicher", storage: "Datenträger", form: "Bauform", compare: "Vergleich", clear: "Leeren", specs: "Technische Daten", markets: "Verfügbarkeit", signals: "Verfügbarkeitsmeldungen", noPrice: "Kein Angebot", pickTwo: "Mindestens zwei Modelle auswählen", selected: "ausgewählt", st: { unannounced: "Unangekündigt", announced: "Angekündigt", preorder: "Vorbestellung", launched: "Im Handel", oos: "Nicht verfügbar" }, rg: { apac: "Asien-Pazifik", na: "Nordamerika", emea: "Europa" } },
+    srcTitle: "Datenquellen",
     dash: { dash: "Dashboard", list: "Liste", tracked: "Verfolgte Modelle", onsale: "Märkte im Handel", cheapest: "Tiefstpreis", newReviews: "Neue Bewertungen (7 T)", launchMap: "Verfügbarkeitskarte", priceTrend: "Preisverlauf", salesProxy: "Verkaufsdynamik (geschätzt)", salesNote: "Händler veröffentlichen keine Verkaufszahlen; geschätzt aus dem Zuwachs an Bewertungen", reviews: "Bewertungen", noHistory: "Verlaufslinien erscheinen nach einigen Tagen", days: "Tage" },
     rescrape: 'Neu abrufen',
     rescrapeAsk: 'GitHub-Token mit actions:write einfügen (nur für diese Sitzung, wird nicht in die Seite geschrieben):',
@@ -588,7 +615,7 @@ const UI = {
   "es": {
     name: "Español", htmlLang: "es",
     tabs: { models: "Modelos de IA", spark: "Sistemas DGX Spark" },
-    eyebrow: "Cada día 06:00 · Modelos de lenguaje", title: "Boletín de modelos",
+    eyebrow: "Cada día 06:00 · Productos Edge AI", title: "Observatorio de productos Edge AI",
     next: "Próxima actualización en", sort: "Orden", reload: "Actualizar",
     filter: "Filtros", clearAll: "Borrar todo",
     filterBtn: "Filtros", filterHide: "Ocultar filtros",
@@ -624,7 +651,8 @@ const UI = {
     errArchive: (d, m) => `No se pudo leer el archivo de ${d} (${m}).`,
     errRefresh: (m) => `Error al actualizar: ${m}`,
     reloading: "Cargando…",
-    shop: { tab: "Precios y especificaciones", region: "Región", country: "País", platform: "Tienda", status: "Estado", spec: "Especificaciones", memory: "Memoria", storage: "Almacenamiento", form: "Formato", compare: "Comparar", clear: "Borrar", specs: "Ficha técnica", markets: "Disponibilidad", signals: "Novedades de disponibilidad", noPrice: "Sin oferta", pickTwo: "Selecciona al menos dos modelos", selected: "seleccionados", st: { unannounced: "Sin anunciar", announced: "Anunciado", preorder: "Reserva", launched: "En venta", oos: "Agotado" }, rg: { apac: "Asia-Pacífico", na: "Norteamérica", emea: "Europa" } },
+    shop: { tab: "Monitor de mercado", region: "Región", country: "País", platform: "Tienda", status: "Estado", spec: "Especificaciones", memory: "Memoria", storage: "Almacenamiento", form: "Formato", compare: "Comparar", clear: "Borrar", specs: "Ficha técnica", markets: "Disponibilidad", signals: "Novedades de disponibilidad", noPrice: "Sin oferta", pickTwo: "Selecciona al menos dos modelos", selected: "seleccionados", st: { unannounced: "Sin anunciar", announced: "Anunciado", preorder: "Reserva", launched: "En venta", oos: "Agotado" }, rg: { apac: "Asia-Pacífico", na: "Norteamérica", emea: "Europa" } },
+    srcTitle: "Fuentes de datos",
     dash: { dash: "Panel", list: "Lista", tracked: "Modelos seguidos", onsale: "Mercados en venta", cheapest: "Precio más bajo", newReviews: "Nuevas opiniones (7 d)", launchMap: "Mapa de disponibilidad", priceTrend: "Evolución del precio", salesProxy: "Impulso de ventas (estimado)", salesNote: "Las tiendas no publican ventas; se estima a partir del aumento de opiniones", reviews: "Valoraciones", noHistory: "Las líneas aparecen tras unos días de datos", days: "días" },
     rescrape: 'Volver a recopilar',
     rescrapeAsk: 'Pega un token de GitHub con permiso actions:write (solo en esta sesión, nunca se guarda en la página):',
@@ -636,7 +664,7 @@ const UI = {
   "fr": {
     name: "Français", htmlLang: "fr",
     tabs: { models: "Modèles d'IA", spark: "Systèmes DGX Spark" },
-    eyebrow: "Chaque jour 06:00 · Modèles de langage", title: "Fil des modèles",
+    eyebrow: "Chaque jour 06:00 · Produits Edge AI", title: "Observatoire des produits Edge AI",
     next: "Prochaine mise à jour dans", sort: "Tri", reload: "Actualiser",
     filter: "Filtres", clearAll: "Tout effacer",
     filterBtn: "Filtres", filterHide: "Masquer les filtres",
@@ -672,7 +700,8 @@ const UI = {
     errArchive: (d, m) => `Impossible de lire l'archive du ${d} (${m}).`,
     errRefresh: (m) => `Échec de la mise à jour : ${m}`,
     reloading: "Chargement…",
-    shop: { tab: "Prix et fiches", region: "Région", country: "Pays", platform: "Revendeur", status: "État", spec: "Fiche", memory: "Mémoire", storage: "Stockage", form: "Format", compare: "Comparer", clear: "Effacer", specs: "Fiche technique", markets: "Disponibilité", signals: "Actualité de disponibilité", noPrice: "Aucune offre", pickTwo: "Sélectionnez au moins deux modèles", selected: "sélectionnés", st: { unannounced: "Non annoncé", announced: "Annoncé", preorder: "Précommande", launched: "En vente", oos: "Épuisé" }, rg: { apac: "Asie-Pacifique", na: "Amérique du Nord", emea: "Europe" } },
+    shop: { tab: "Suivi du marché", region: "Région", country: "Pays", platform: "Revendeur", status: "État", spec: "Fiche", memory: "Mémoire", storage: "Stockage", form: "Format", compare: "Comparer", clear: "Effacer", specs: "Fiche technique", markets: "Disponibilité", signals: "Actualité de disponibilité", noPrice: "Aucune offre", pickTwo: "Sélectionnez au moins deux modèles", selected: "sélectionnés", st: { unannounced: "Non annoncé", announced: "Annoncé", preorder: "Précommande", launched: "En vente", oos: "Épuisé" }, rg: { apac: "Asie-Pacifique", na: "Amérique du Nord", emea: "Europe" } },
+    srcTitle: "Sources de données",
     dash: { dash: "Tableau de bord", list: "Liste", tracked: "Modèles suivis", onsale: "Marchés en vente", cheapest: "Prix le plus bas", newReviews: "Nouveaux avis (7 j)", launchMap: "Carte de disponibilité", priceTrend: "Évolution du prix", salesProxy: "Dynamique des ventes (estimée)", salesNote: "Les revendeurs ne publient pas les ventes ; estimation basée sur la hausse des avis", reviews: "Notes", noHistory: "Les courbes apparaissent après quelques jours de données", days: "jours" },
     rescrape: 'Relancer la collecte',
     rescrapeAsk: 'Collez un jeton GitHub avec la portée actions:write (conservé pour cette session uniquement, jamais écrit dans la page) :',
@@ -684,7 +713,7 @@ const UI = {
   "it": {
     name: "Italiano", htmlLang: "it",
     tabs: { models: "Modelli IA", spark: "Sistemi DGX Spark" },
-    eyebrow: "Ogni giorno 06:00 · Modelli linguistici", title: "Notiziario dei modelli",
+    eyebrow: "Ogni giorno 06:00 · Prodotti Edge AI", title: "Osservatorio prodotti Edge AI",
     next: "Prossimo aggiornamento tra", sort: "Ordina", reload: "Aggiorna",
     filter: "Filtri", clearAll: "Cancella tutto",
     filterBtn: "Filtri", filterHide: "Nascondi filtri",
@@ -720,7 +749,8 @@ const UI = {
     errArchive: (d, m) => `Impossibile leggere l'archivio del ${d} (${m}).`,
     errRefresh: (m) => `Aggiornamento non riuscito: ${m}`,
     reloading: "Caricamento…",
-    shop: { tab: "Prezzi e schede", region: "Regione", country: "Paese", platform: "Rivenditore", status: "Stato", spec: "Scheda", memory: "Memoria", storage: "Archiviazione", form: "Formato", compare: "Confronta", clear: "Azzera", specs: "Scheda tecnica", markets: "Disponibilità", signals: "Novità sulla disponibilità", noPrice: "Nessuna offerta", pickTwo: "Seleziona almeno due modelli", selected: "selezionati", st: { unannounced: "Non annunciato", announced: "Annunciato", preorder: "Preordine", launched: "In vendita", oos: "Esaurito" }, rg: { apac: "Asia-Pacifico", na: "Nord America", emea: "Europa" } },
+    shop: { tab: "Monitoraggio mercato", region: "Regione", country: "Paese", platform: "Rivenditore", status: "Stato", spec: "Scheda", memory: "Memoria", storage: "Archiviazione", form: "Formato", compare: "Confronta", clear: "Azzera", specs: "Scheda tecnica", markets: "Disponibilità", signals: "Novità sulla disponibilità", noPrice: "Nessuna offerta", pickTwo: "Seleziona almeno due modelli", selected: "selezionati", st: { unannounced: "Non annunciato", announced: "Annunciato", preorder: "Preordine", launched: "In vendita", oos: "Esaurito" }, rg: { apac: "Asia-Pacifico", na: "Nord America", emea: "Europa" } },
+    srcTitle: "Fonti dei dati",
     dash: { dash: "Dashboard", list: "Elenco", tracked: "Modelli monitorati", onsale: "Mercati in vendita", cheapest: "Prezzo minimo", newReviews: "Nuove recensioni (7 g)", launchMap: "Mappa disponibilità", priceTrend: "Andamento prezzo", salesProxy: "Slancio di vendita (stimato)", salesNote: "I rivenditori non pubblicano le vendite; stima basata sull'aumento delle recensioni", reviews: "Valutazioni", noHistory: "Le curve appaiono dopo alcuni giorni di dati", days: "giorni" },
     rescrape: 'Ripeti la raccolta',
     rescrapeAsk: 'Incolla un token GitHub con ambito actions:write (conservato solo per questa sessione, mai scritto nella pagina):',
@@ -738,10 +768,9 @@ const CHANNELS = {
     tagKeys: ["產品發表", "研究", "商業", "政策", "安全", "社群討論", "影片"],
     groupLabel: "camp",
   },
-  // RTX Spark 與 DGX Spark 共用同一份資料，各分頁只鎖定自己的產品線
+  // 兩條產品線各有獨立的爬蟲與資料目錄
   rtx: {
-    base: "data/spark",
-    forceLine: "rtx",
+    base: "data/rtx",
     ids: ["asus", "acer", "dell", "hp", "lenovo", "msi", "gigabyte",
           "microsoft", "nvidia", "other"],
     tagKeys: ["產品發表", "官方發布", "開箱評測", "規格效能",
@@ -749,8 +778,7 @@ const CHANNELS = {
     groupLabel: "brand",
   },
   dgx: {
-    base: "data/spark",
-    forceLine: "dgx",
+    base: "data/dgx",
     ids: ["asus", "acer", "dell", "hp", "lenovo", "msi", "gigabyte",
           "microsoft", "nvidia", "other"],
     tagKeys: ["產品發表", "官方發布", "開箱評測", "規格效能",
@@ -805,7 +833,8 @@ const esc = (s) => String(s ?? "").replace(/[&<>"']/g,
 
 let dataVer = "—";                 // 資料檔裡的爬蟲版本
 let editionCounts = {};            // 各期則數，來自 index.json，未載入也能顯示
-let products = [];                 // 價格規格分頁的機種清單
+let products = [];                 // 市場監控分頁的機種清單
+let sourceGroups = null;           // data/sources.json 的內容
 let shopView = "dash";             // 價格規格分頁的檢視：dash 或 list
 const picked = new Set();          // 勾選要比較的機種 id
 let dataTime = "";                 // 資料檔的擷取時間，用來判斷有沒有真的更新
@@ -1087,8 +1116,6 @@ const TESTS = {
 };
 
 function pass(it, skip) {
-  const force = CH().forceLine;
-  if (force && !(it.lines || []).includes(force)) return false;
   for (const k of Object.keys(F)) {
     if (k === skip) continue;
     if (F[k].size && !TESTS[k](it, F[k])) return false;
@@ -1126,7 +1153,10 @@ function renderChrome() {
   $("tSort").textContent = t.sort;
   $("tFilter").textContent = t.filter;
   $("tNote").textContent = t.note;
-  $("ver").textContent = `頁面 v15 · 資料 ${dataVer}`;
+  $("ver").textContent = `頁面 v17 · 資料 ${dataVer}`;
+  if (sourceGroups && sourceGroups.length) {
+    renderSources(sourceGroups.reduce((n, g) => n + g.sources.length, 0));
+  }
   // 價格規格分頁沒有時間排序，把排序下拉藏起來
   $("sort").parentNode.style.display = CH().kind === "shop" ? "none" : "";
   $("clearAll").textContent = t.clearAll;
@@ -1639,8 +1669,17 @@ function renderShop() {
       ${offerList}
       ${sigs}
       <details class="orig"><summary>${esc(sh.specs)}</summary>
-        <dl class="specgrid">${SPEC_ROWS.filter((k) => p.specs[k]).map((k) =>
-          `<dt>${esc(specLabel(k, t))}</dt><dd>${esc(p.specs[k])}</dd>`).join("")}</dl>
+        <dl class="specgrid">${SPEC_ROWS.filter((k) => p.specs[k]).map((k) => {
+          const live = (p.specScraped || []).includes(k);
+          return `<dt>${esc(specLabel(k, t))}${live ? "" : " ·"}</dt>
+                  <dd>${esc(p.specs[k])}</dd>`;
+        }).join("")}</dl>
+        ${p.specSource ? `<p class="hint" style="margin-top:8px">
+          ${esc(t.srcTitle)}:
+          <a href="${esc(p.specSource)}" target="_blank" rel="noopener noreferrer"
+             style="color:var(--signal)">${esc(new URL(p.specSource).hostname)}</a>
+          · ${(p.specScraped || []).length} / ${SPEC_ROWS.length}</p>`
+        : `<p class="hint" style="margin-top:8px">${esc(t.dash.noHistory)}</p>`}
       </details>
     </article>`;
   }).join("");
@@ -1735,6 +1774,32 @@ function renderFeed() {
       </div>
     </article>`;
   }).join("");
+}
+
+/* ---------- 資料來源清單：所有爬取來源都附連結 ---------- */
+async function loadSources() {
+  if (sourceGroups !== null) return;
+  try {
+    const d = await grab("data/sources.json");
+    sourceGroups = d.groups || [];
+    renderSources(d.count || 0);
+  } catch {
+    sourceGroups = [];
+  }
+}
+
+function renderSources(count) {
+  if (!sourceGroups || !sourceGroups.length) return;
+  const t = T();
+  $("srcbox").hidden = false;
+  $("srcSummary").textContent = `${t.srcTitle}${count ? ` (${count})` : ""}`;
+  $("srcBody").innerHTML = sourceGroups.map((g) => `<div class="srcgrp">
+    <h4>${esc(g.label)} · ${g.sources.length}</h4>
+    <ul class="srclist">${g.sources.map((r) =>
+      `<li><span class="kind">${esc(r.kind)}</span>
+        <a href="${esc(r.url)}" target="_blank" rel="noopener noreferrer"
+           title="${esc(r.url)}">${esc(r.label)}</a></li>`).join("")}</ul>
+  </div>`).join("");
 }
 
 function renderAll() {
@@ -1848,6 +1913,7 @@ $("reload").onclick = async () => {
 };
 
 mtLoad();
+loadSources();
 cur = loadPref();
 if (window.innerWidth > 760) $("rail").classList.remove("collapsed");
 renderChrome();
