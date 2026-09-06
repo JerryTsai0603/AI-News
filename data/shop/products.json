@@ -1,7 +1,7 @@
 {
  "version": "v17",
- "fetchedAt": "2026-09-06T23:50:46.124883+08:00",
- "edition": "2026-09-06",
+ "fetchedAt": "2026-09-07T07:31:07.272283+08:00",
+ "edition": "2026-09-07",
  "count": 16,
  "products": [
   {
@@ -46,13 +46,6 @@
       {
        "platform": "PChome 24h",
        "title": "Leadtek 麗臺 NVIDIA DGX Spark - NVIDIA GB10/128G記憶體/4TB SSD/NVIDIA DGX OS 作業系統",
-       "price": 229900,
-       "currency": "TWD",
-       "url": "https://24h.pchome.com.tw/prod/DSAMAX-A900K52CY"
-      },
-      {
-       "platform": "PChome 24h",
-       "title": "Leadtek 麗臺 NVIDIA DGX Spark - NVIDIA GB10/128G記憶體/4TB SSD/NVIDIA DGX OS 作業系統",
        "price": 239900,
        "currency": "TWD",
        "url": "https://24h.pchome.com.tw/prod/DSAMAT-A900K5JIW"
@@ -64,6 +57,13 @@
        "currency": "TWD",
        "url": "https://24h.pchome.com.tw/prod/DJBQ1U-D900K198R",
        "rating": 2.0
+      },
+      {
+       "platform": "PChome 24h",
+       "title": "Leadtek 麗臺 NVIDIA DGX Spark - NVIDIA GB10/128G記憶體/4TB SSD/NVIDIA DGX OS 作業系統",
+       "price": 229900,
+       "currency": "TWD",
+       "url": "https://24h.pchome.com.tw/prod/DSAMAX-A900K52CY"
       },
       {
        "platform": "PChome 24h",
@@ -86,6 +86,11 @@
      "history": [
       {
        "d": "2026-09-06",
+       "p": 864,
+       "c": "TWD"
+      },
+      {
+       "d": "2026-09-07",
        "p": 864,
        "c": "TWD"
       }
@@ -183,17 +188,17 @@
       },
       {
        "platform": "PChome 24h",
-       "title": "ASUS 華碩 Ascent GX10系列 - NVIDIA GB10/128G記憶體/1TB SSD/NVIDIA DGX OS 作業系統",
-       "price": 199900,
-       "currency": "TWD",
-       "url": "https://24h.pchome.com.tw/prod/DSAM22-A900K801U"
-      },
-      {
-       "platform": "PChome 24h",
        "title": "ASUS 華碩 〈限時〉Ascent GX10 桌上型AI超級電腦+QNAP TS-464-8G NAS伺服器",
        "price": 246900,
        "currency": "TWD",
        "url": "https://24h.pchome.com.tw/prod/DSAANT-A900KDMOW"
+      },
+      {
+       "platform": "PChome 24h",
+       "title": "ASUS 華碩 Ascent GX10系列 - NVIDIA GB10/128G記憶體/1TB SSD/NVIDIA DGX OS 作業系統",
+       "price": 199900,
+       "currency": "TWD",
+       "url": "https://24h.pchome.com.tw/prod/DSAM22-A900K801U"
       }
      ],
      "best": {
@@ -209,6 +214,11 @@
      "history": [
       {
        "d": "2026-09-06",
+       "p": 4999,
+       "c": "TWD"
+      },
+      {
+       "d": "2026-09-07",
        "p": 4999,
        "c": "TWD"
       }
@@ -336,6 +346,11 @@
        "d": "2026-09-06",
        "p": 36800,
        "c": "TWD"
+      },
+      {
+       "d": "2026-09-07",
+       "p": 36800,
+       "c": "TWD"
       }
      ],
      "reviewHistory": []
@@ -428,6 +443,13 @@
       },
       {
        "platform": "PChome 24h",
+       "title": "Pro 3 14 14吋 文書效能筆電灰色(Intel Core 7 350/32GB/1TB/WIN11PRO/P314260-C732G1T)",
+       "price": 67990,
+       "currency": "TWD",
+       "url": "https://24h.pchome.com.tw/prod/DHAIAL-A900K3O1C"
+      },
+      {
+       "platform": "PChome 24h",
        "title": "Pro 3 14 14吋 文書效能筆電灰色(Intel Core 5 320/16GB/512GB/WIN11PRO/P314260-C516G512G)",
        "price": 46990,
        "currency": "TWD",
@@ -439,13 +461,6 @@
        "price": 68990,
        "currency": "TWD",
        "url": "https://24h.pchome.com.tw/prod/DHAIAL-A900K3OC0"
-      },
-      {
-       "platform": "PChome 24h",
-       "title": "Pro 3 14 14吋 文書效能筆電灰色(Intel Core 7 350/32GB/1TB/WIN11PRO/P314260-C732G1T)",
-       "price": 67990,
-       "currency": "TWD",
-       "url": "https://24h.pchome.com.tw/prod/DHAIAL-A900K3O1C"
       }
      ],
      "best": {
@@ -459,9 +474,15 @@
      },
      "rating": 5.0,
      "reviews": 2,
+     "reviewDelta": 0,
      "history": [
       {
        "d": "2026-09-06",
+       "p": 30990,
+       "c": "TWD"
+      },
+      {
+       "d": "2026-09-07",
        "p": 30990,
        "c": "TWD"
       }
@@ -469,6 +490,10 @@
      "reviewHistory": [
       {
        "d": "2026-09-06",
+       "n": 2
+      },
+      {
+       "d": "2026-09-07",
        "n": 2
       }
      ]
@@ -593,6 +618,11 @@
      "history": [
       {
        "d": "2026-09-06",
+       "p": 67900,
+       "c": "TWD"
+      },
+      {
+       "d": "2026-09-07",
        "p": 67900,
        "c": "TWD"
       }
@@ -721,6 +751,11 @@
        "d": "2026-09-06",
        "p": 84900,
        "c": "TWD"
+      },
+      {
+       "d": "2026-09-07",
+       "p": 84900,
+       "c": "TWD"
       }
      ],
      "reviewHistory": []
@@ -815,9 +850,15 @@
      },
      "rating": 5.0,
      "reviews": 1,
+     "reviewDelta": 0,
      "history": [
       {
        "d": "2026-09-06",
+       "p": 210000,
+       "c": "TWD"
+      },
+      {
+       "d": "2026-09-07",
        "p": 210000,
        "c": "TWD"
       }
@@ -825,6 +866,10 @@
      "reviewHistory": [
       {
        "d": "2026-09-06",
+       "n": 1
+      },
+      {
+       "d": "2026-09-07",
        "n": 1
       }
      ]
@@ -927,6 +972,11 @@
      "history": [
       {
        "d": "2026-09-06",
+       "p": 3990,
+       "c": "TWD"
+      },
+      {
+       "d": "2026-09-07",
        "p": 3990,
        "c": "TWD"
       }
@@ -1189,30 +1239,6 @@
      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSTNxYURqelFPSjF6SnFlckF5ZTJZX1QxS2dHc2RDVi1acEs2VFZBRmNWWDlvLUFpMnI2QWZIblJ2MFQ3b2l2bFdHbjgwdFp4Z2hjWVZUVmpPWjk5R3NWYXYyYUx0X2hfeE0tczFSZDJKX3Y4XzRFRHlSVlR5RVdKUHhfR2J5NzNlVG9nNG40MXR2TUsyZTB6VGVVWTZrLVE?oc=5",
      "source": "Thurrott.com",
      "date": "2026-09-05 21:35"
-    },
-    {
-     "status": "announced",
-     "countries": [],
-     "title": "HP unveils the world's thinnest Nvidia RTX Spark laptops for professionals and gamers alike - XDA",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZl85T25JQ19qbkpuQU5WWW03eXpXM0VsRDBmcEVsLXBZY0prMy1fZFRvZ0NXSXQwOWJxSjF4eC1zUnUyVkMydzlwd19fTDdyOHJORFNBQ3ViZ2otOS1HOEs0eVBGR05qbGotVHVmMWRmcFdZTk1WVWpxYXlIYWRIN1VSV1NQdlNCWElrSHFqTHY1Y29BVU1SalVHcUFJdzkwQXFWX3daS05uZVRaY2VBb293aXFTSUkzei0zbUNlSQ?oc=5",
-     "source": "XDA",
-     "date": "2026-09-05 03:44"
-    },
-    {
-     "status": "announced",
-     "countries": [],
-     "title": "HP announces new OmniBook PCs powered by Nvidia RTX Spark - TipRanks",
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYWhreTMzV29uS2F3cmd1S3c4SDhZTWc4ckhLcHFsVFY2U0lueDNCeXR6eHhBYTctZUJ3ak9VWElYS3FGeGc5T3NGallQWmFUVUtLZXdDbkN1T1E5ZllPMUgwRmx6OVRuOHd4TXQxTTRoalVYc1hUajMwb0Y1TVl0eUpKa1VJM0RKbDNSaVJRbHBIeDlrcDdGVkZyRm1MQUtxVVFHRUVsLVVfQTQ?oc=5",
-     "source": "TipRanks",
-     "date": "2026-09-05 03:08"
-    },
-    {
-     "status": "announced",
-     "countries": [],
-     "title": "HP unveils two new OmniBook laptops powered by Nvidia RTX Spark - streetinsider.com",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNlM5R19ZVm56WjRUa2JsUzBhQlcxSVVWS3pWNl9JeGJUckozN0JybFNpNm1JSFpaSFRIRzNzSjJIN1FYdHZMN05mSk9xZmR5eFNWZjM3ZEF3QTdiZExSMW1nUjRlRU40eUhOVFJodElBZndDVHROU09mcmw3VWIwenp1RzJQc2txYkNlcEJLR1hWLTlhVGp1ODhic0NnSTNkZVM3eTMxX0MzejBramMwQWwyRG9vLVktSk9MdldScw?oc=5",
-     "source": "streetinsider.com",
-     "date": "2026-09-05 02:17"
     }
    ]
   },
@@ -1362,7 +1388,7 @@
      "title": "MSI發表首款搭載NVIDIA RTX Spark筆電 性能特色一次看 - 三立新聞",
      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9iZmJLaEpmMWpJQzJ1Rmg4My1VVGdHTWo1Y0JYZ1hPVFotM2ctamVYaGo1YndieXRYUG9vSHJXQlJnWEtZY0FucdIBTEFVX3lxTFBkMlEyU2RIMU9HUFUyMGptU2JkS202c2xEa1IzZGZYSFhYRElmNl9ndE5INWNzTVM3d0tFSTd1Y3JteWdkcER1MV9ReVY?oc=5",
      "source": "三立新聞",
-     "date": "2026-09-05 02:42"
+     "date": "2026-09-06 04:50"
     }
    ]
   },
