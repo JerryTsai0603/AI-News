@@ -23,6 +23,7 @@
   YOUTUBE_API_KEY     選用。設了才能做 YouTube 關鍵字搜尋（免費額度夠用）。
   YT_CHANNELS         選用。逗號分隔的頻道 ID，覆寫內建清單。
   X_BEARER_TOKEN      選用。X 搜尋需付費方案，沒有就跳過。
+  REVIEW_FETCH_MAX    選用。每次執行最多抓幾個商品頁的評分，預設 24。
   TARGET_LANGS        選用。預設 zh-TW,zh-CN,en,ja,ko,de,es,fr,it
 """
 
@@ -46,7 +47,7 @@ import requests
 
 # ---------------------------------------------------------------- 通用設定
 
-SCRAPER_VERSION = "v10"          # 網頁左下角會顯示，用來確認部署的是哪一版
+SCRAPER_VERSION = "v15"          # 網頁左下角會顯示，用來確認部署的是哪一版
 
 TZ = timezone(timedelta(hours=8))
 WINDOW_HOURS = 48
@@ -1359,7 +1360,7 @@ def run_channel(name: str) -> int:
 
     if not items:
         log("沒有取得任何新聞，保留上一期資料不覆寫")
-        return 1
+        return []
 
     for it in items:
         classify(it, cfg)
@@ -1415,11 +1416,570 @@ def run_channel(name: str) -> int:
     (out / "news.json").write_text(dump(payload), encoding="utf-8")
     (archive / f"{payload['edition']}.json").write_text(dump(payload), encoding="utf-8")
 
-    editions = sorted((p.stem for p in archive.glob("*.json")), reverse=True)[:30]
-    (out / "index.json").write_text(dump({"editions": editions}), encoding="utf-8")
+    # 每期的則數也寫進索引，網頁的日期篩選才能在未載入時顯示正確數字
+    entries = []
+    for f in sorted(archive.glob("*.json"), reverse=True)[:30]:
+        try:
+            n = json.loads(f.read_text(encoding="utf-8")).get("count", 0)
+        except Exception:
+            n = 0
+        entries.append({"d": f.stem, "n": n})
+    (out / "index.json").write_text(
+        dump({"editions": [e["d"] for e in entries],   # 舊版網頁仍能讀
+              "counts": {e["d"]: e["n"] for e in entries}}),
+        encoding="utf-8")
 
     log(f"完成：{len(items)} 則 → {out.relative_to(ROOT)}/news.json")
-    return 0
+    return items
+
+
+# ================================================================ 價格與規格
+
+SHOP_OUT = ROOT / "data" / "shop"
+
+REGION_OF = {"TW": "apac", "JP": "apac", "US": "na",
+             "DE": "emea", "GB": "emea", "FR": "emea"}
+MARKETS = ["TW", "JP", "US", "DE", "GB", "FR"]
+
+# GB10 家族的規格來自 NVIDIA 官方文件，各 OEM 機種基本相同，差在儲存容量與外型。
+GB10_SPECS = {
+    "chip": "NVIDIA GB10 Grace Blackwell",
+    "cpu": "20 核 Arm（10× Cortex-X925 + 10× A725）",
+    "gpu": "Blackwell（第 5 代 Tensor Core）",
+    "aiPerf": "1 PFLOPS FP4",
+    "memory": "128 GB LPDDR5X 統一記憶體",
+    "bandwidth": "273 GB/s",
+    "network": "ConnectX-7 200 Gb/s",
+    "os": "NVIDIA DGX OS",
+    "power": "約 240 W",
+}
+
+# RTX Spark（N1X）2026-05-31 發表，秋季上市，公開規格仍少，未知一律留「—」。
+N1X_SPECS = {
+    "chip": "NVIDIA N1X（與 MediaTek 共同開發）",
+    "cpu": "20 核 Arm",
+    "gpu": "Blackwell RTX",
+    "aiPerf": "—",
+    "memory": "最高 128 GB",
+    "bandwidth": "—",
+    "network": "—",
+    "os": "Windows on Arm",
+    "power": "—",
+}
+
+# 這份種子表可以直接編輯。status 只是起始值，之後會被新聞訊號與通路報價修正。
+#   unannounced 未發表 / announced 已發表 / preorder 預購 / launched 開賣 / oos 缺貨
+PRODUCT_SEED = [
+    # ---- DGX Spark（GB10）：2025 年 10 月起陸續開賣 ----
+    dict(id="nvidia-dgx-spark-fe", name="NVIDIA DGX Spark Founders Edition",
+         brand="nvidia", line="dgx", storage="4 TB NVMe", form="桌上型",
+         status="launched", keywords=["dgx spark founders", "founders edition"]),
+    dict(id="asus-ascent-gx10", name="ASUS Ascent GX10",
+         brand="asus", line="dgx", storage="1 TB NVMe", form="桌上型",
+         status="launched", keywords=["ascent gx10"]),
+    dict(id="acer-veriton-gn100", name="Acer Veriton GN100",
+         brand="acer", line="dgx", storage="1 TB / 4 TB NVMe", form="桌上型",
+         status="launched", keywords=["veriton gn100"]),
+    dict(id="dell-pro-max-gb10", name="Dell Pro Max with GB10",
+         brand="dell", line="dgx", storage="4 TB NVMe", form="桌上型",
+         status="launched", keywords=["pro max with gb10", "pro max gb10"]),
+    dict(id="hp-zgx-nano", name="HP ZGX Nano AI Station",
+         brand="hp", line="dgx", storage="1 TB / 4 TB NVMe", form="桌上型",
+         status="launched", keywords=["zgx nano", "zgx"]),
+    dict(id="lenovo-thinkstation-pgx", name="Lenovo ThinkStation PGX",
+         brand="lenovo", line="dgx", storage="4 TB NVMe", form="桌上型",
+         status="launched", keywords=["thinkstation pgx"]),
+    dict(id="msi-edgexpert", name="MSI EdgeXpert MS-C931",
+         brand="msi", line="dgx", storage="1 TB / 4 TB NVMe", form="邊緣工作站",
+         status="launched", keywords=["edgexpert", "ms-c931"]),
+    dict(id="gigabyte-ai-top-atom", name="GIGABYTE AI TOP ATOM",
+         brand="gigabyte", line="dgx", storage="4 TB NVMe", form="桌上型",
+         status="launched", keywords=["ai top atom"]),
+    # ---- RTX Spark（N1X）：2026 秋季 ----
+    dict(id="rtx-spark-asus", name="ASUS RTX Spark 筆電",
+         brand="asus", line="rtx", storage="—", form="筆記型",
+         status="announced", keywords=["asus", "zenbook", "rog"]),
+    dict(id="rtx-spark-dell", name="Dell RTX Spark 機種",
+         brand="dell", line="rtx", storage="—", form="筆記型 / 小型桌機",
+         status="announced", keywords=["dell", "xps"]),
+    dict(id="rtx-spark-hp", name="HP RTX Spark 機種",
+         brand="hp", line="rtx", storage="—", form="筆記型",
+         status="announced", keywords=["hp ", "omnibook", "elitebook"]),
+    dict(id="rtx-spark-lenovo", name="Lenovo Yoga Pro 9n / Yoga 9n",
+         brand="lenovo", line="rtx", storage="—", form="筆記型",
+         status="announced", keywords=["yoga pro 9n", "yoga 9n", "lenovo"]),
+    dict(id="rtx-spark-msi", name="MSI RTX Spark 機種",
+         brand="msi", line="rtx", storage="—", form="筆記型",
+         status="announced", keywords=["msi"]),
+    dict(id="rtx-spark-surface", name="Microsoft Surface（RTX Spark）",
+         brand="microsoft", line="rtx", storage="—", form="筆記型",
+         status="announced", keywords=["surface"]),
+    dict(id="rtx-spark-acer", name="Acer RTX Spark 機種",
+         brand="acer", line="rtx", storage="—", form="筆記型",
+         status="unannounced", keywords=["acer"]),
+    dict(id="rtx-spark-gigabyte", name="GIGABYTE RTX Spark 機種",
+         brand="gigabyte", line="rtx", storage="—", form="筆記型",
+         status="unannounced", keywords=["gigabyte", "aorus"]),
+]
+
+# 從新聞標題判斷貨況的關鍵字，越後面的狀態越「進階」
+STATUS_RULES = [
+    ("oos", ["out of stock", "sold out", "backorder", "缺貨", "售完", "補貨"]),
+    ("launched", ["now available", "on sale", "ships", "shipping", "goes on sale",
+                  "launches", "available now", "開賣", "上市", "出貨", "開始銷售"]),
+    ("preorder", ["pre-order", "preorder", "pre order", "預購", "預訂"]),
+    ("announced", ["announce", "unveil", "reveal", "發表", "揭曉", "公布"]),
+]
+STATUS_RANK = {"unannounced": 0, "announced": 1, "preorder": 2, "launched": 3, "oos": 4}
+
+# 用字詞邊界比對，避免「NT$」被當成美國、「plus」裡的 us 被誤判
+COUNTRY_HINTS = {
+    "TW": [r"\btaiwan\b", "台灣", "台湾", "新台幣", r"\bnt\$", r"\btwd\b"],
+    "JP": [r"\bjapan(ese)?\b", "日本", r"\bjpy\b", r"¥"],
+    "US": [r"\bu\.?s\.?a?\b", r"\bunited states\b", r"\bamerica(n)?\b",
+           "美國", r"\busd\b", r"us\$"],
+    "DE": [r"\bgerman(y)?\b", "德國", r"\bdeutschland\b"],
+    "GB": [r"\buk\b", r"\bbritain\b", r"\bunited kingdom\b", "英國",
+           r"£", r"\bgbp\b"],
+    "FR": [r"\bfrance\b", r"\bfrench\b", "法國", r"\beur\b"],
+}
+
+
+def detect_status(text: str) -> str | None:
+    low = text.lower()
+    for status, kws in STATUS_RULES:
+        if any(k in low for k in kws):
+            return status
+    return None
+
+
+def match_product(text: str, prod: dict) -> bool:
+    low = text.lower()
+    # RTX Spark 機種要同時命中品牌關鍵字與產品線
+    if prod["line"] == "rtx":
+        if not re.search(r"rtx\s*spark|\bn1x\b", low):
+            return False
+    return any(k.lower() in low for k in prod["keywords"])
+
+
+def collect_signals(prod: dict, news: list[dict]) -> list[dict]:
+    """從已抓到的新聞裡找出跟這個機種有關的貨況訊息。"""
+    out = []
+    for it in news:
+        text = f"{it.get('title', '')} {it.get('summary', '')}"
+        if not match_product(text, prod):
+            continue
+        st = detect_status(text)
+        if not st:
+            continue
+        countries = [c for c, pats in COUNTRY_HINTS.items()
+                     if any(re.search(pat, text, re.I) for pat in pats)]
+        out.append({
+            "status": st,
+            "countries": countries,
+            "title": it.get("title", "")[:150],
+            "url": it.get("url", ""),
+            "source": it.get("source", ""),
+            "date": it.get("date", ""),
+        })
+    out.sort(key=lambda x: x["date"], reverse=True)
+    return out[:6]
+
+
+# ---------------------------------------------------------------- 通路價格
+
+# 各站的 HTML 結構常改，所以不綁 class 名稱。
+# 做法：先找出符合該站商品網址樣式的連結，再往後一段距離內抓第一個價格。
+SHOPS = [
+    dict(id="newegg", platform="Newegg", country="US", currency="USD",
+         locale="us", base="https://www.newegg.com",
+         url="https://www.newegg.com/p/pl?d={q}",
+         link=r'<a[^>]+href="(?P<href>https://www\.newegg\.com/[^"?]+/p/[^"?]+)"[^>]*>'
+              r'(?P<name>[^<]{8,180})</a>',
+         price=r'\$\s?(?P<v>[\d,]+(?:\.\d{2})?)'),
+    dict(id="kakaku", platform="価格.com", country="JP", currency="JPY",
+         locale="jp", base="https://kakaku.com",
+         url="https://kakaku.com/search_results/{q}/",
+         link=r'<a[^>]+href="(?P<href>https?://kakaku\.com/item/[^"?]+)"[^>]*>'
+              r'(?P<name>[^<]{6,180})</a>',
+         price=r'[¥￥]\s?(?P<v>[\d,]{3,})'),
+    # --- 英國 ---
+    dict(id="scan", platform="Scan UK", country="GB", currency="GBP",
+         locale="en", base="https://www.scan.co.uk",
+         url="https://www.scan.co.uk/search?q={q}",
+         link=r'<a[^>]+href="(?P<href>/products/[^"?]+)"[^>]*>'
+              r'(?P<name>[^<]{8,180})</a>',
+         price=r'£\s*(?P<v>[\d,]+(?:\.\d{2})?)'),
+    dict(id="ocuk", platform="Overclockers UK", country="GB", currency="GBP",
+         locale="en", base="https://www.overclockers.co.uk",
+         url="https://www.overclockers.co.uk/catalogsearch/result/?q={q}",
+         link=r'<a[^>]+href="(?P<href>https://www\.overclockers\.co\.uk/[^"?]+\.html)"[^>]*>'
+              r'(?P<name>[^<]{8,180})</a>',
+         price=r'£\s*(?P<v>[\d,]+(?:\.\d{2})?)'),
+    dict(id="currys", platform="Currys", country="GB", currency="GBP",
+         locale="en", base="https://www.currys.co.uk",
+         url="https://www.currys.co.uk/search?q={q}",
+         link=r'<a[^>]+href="(?P<href>/products/[^"?]+)"[^>]*>'
+              r'(?P<name>[^<]{8,180})</a>',
+         price=r'£\s*(?P<v>[\d,]+(?:\.\d{2})?)'),
+    # --- 法國：價格在數字後面，千分位是空格 ---
+    dict(id="ldlc", platform="LDLC", country="FR", currency="EUR",
+         locale="fr", base="https://www.ldlc.com",
+         url="https://www.ldlc.com/recherche/{q}/",
+         link=r'<a[^>]+href="(?P<href>/fiche/[^"?]+\.html)"[^>]*>'
+              r'(?P<name>[^<]{8,180})</a>',
+         price=r'(?P<v>\d[\d\s\u00a0\u202f]*,\d{2})\s*€'),
+    dict(id="geizhals", platform="Geizhals", country="DE", currency="EUR",
+         locale="de", base="https://geizhals.de",
+         url="https://geizhals.de/?fs={q}&hloc=de&in=",
+         link=r'<a[^>]+href="(?P<href>/[^"?]*-a\d+\.html)"[^>]*>'
+              r'(?P<name>[^<]{8,180})</a>',
+         price=r'€\s?(?P<v>[\d.]+(?:,\d{2})?|[\d.]+,–)'),
+]
+
+
+def parse_price(raw: str, locale: str) -> float | None:
+    """各地寫法差很多，分開處理：
+         en  1,234.56    逗號千分位、點小數（美、英）
+         jp  123,456     逗號千分位、無小數
+         de  3.999,–     點千分位、逗號小數（德、奧）
+         fr  3 499,95    空格千分位、逗號小數（法）
+    """
+    t = raw.strip()
+    for ch in ("\xa0", "\u202f", "\u2009", " "):
+        t = t.replace(ch, "")
+    try:
+        if locale in ("de", "fr"):
+            t = t.replace("–", "00").rstrip(",")
+            if locale == "de":
+                t = t.replace(".", "")
+            t = t.replace(",", ".")
+            return round(float(t), 2)
+        if locale == "jp":
+            return float(t.replace(",", ""))
+        return round(float(t.replace(",", "")), 2)
+    except Exception:
+        return None
+
+
+def name_matches(name: str, keywords: list[str]) -> bool:
+    """搜尋結果常混進配件與周邊，用機種關鍵字過濾。"""
+    low = name.lower()
+    return any(k.lower() in low for k in keywords)
+
+
+def scan_shop(shop: dict, query: str, keywords: list[str],
+              window: int = 2500, limit: int = 3) -> list[dict]:
+    url = shop["url"].format(q=urllib.parse.quote(query))
+    page = fetch(url, retries=0)
+    if not page:
+        log(f"  ✗ {shop['platform']}：取不到頁面（多半是被擋）")
+        return []
+    # 原始碼裡的 &nbsp; 等實體字元會讓價格比對失敗，先還原
+    page = html.unescape(page)
+
+    out, seen = [], set()
+    for m in re.finditer(shop["link"], page, re.I | re.S):
+        name = strip_html(m.group("name"))
+        if not name_matches(name, keywords):
+            continue
+        href = urllib.parse.urljoin(shop["base"], m.group("href"))
+        if href in seen:
+            continue
+
+        seg = page[m.end(): m.end() + window]
+        pm = re.search(shop["price"], seg)
+        if not pm:
+            continue
+        price = parse_price(pm.group("v"), shop["locale"])
+        if not price or price < 100:
+            continue
+
+        seen.add(href)
+        out.append({
+            "platform": shop["platform"],
+            "title": name[:120],
+            "price": price,
+            "currency": shop["currency"],
+            "url": href,
+        })
+        if len(out) >= limit:
+            break
+
+    log(f"  {shop['platform']}：{len(out)} 筆" if out
+        else f"  {shop['platform']}：查無符合的商品")
+    return out
+
+
+# ---------------------------------------------------------------- 消費者評論
+
+# 多數電商為了 SEO 都會在頁面裡埋 schema.org 的 aggregateRating，
+# 直接抓這組數字最通用，不必為每個站寫一套解析。
+RATING_RE = re.compile(r'"ratingValue"\s*:\s*"?(?P<v>[\d.]+)"?', re.I)
+COUNT_RE = re.compile(r'"(?:reviewCount|ratingCount)"\s*:\s*"?(?P<v>\d+)"?', re.I)
+# 沒有結構化資料時的備援：常見的無障礙標籤寫法
+ALT_RATING_RE = re.compile(
+    r'(?P<v>[\d.]+)\s*(?:out of|/|sur|von|su)\s*5', re.I)
+
+REVIEW_FETCH_MAX = env_int("REVIEW_FETCH_MAX", 24)
+_review_budget = {"left": REVIEW_FETCH_MAX}
+
+
+def fetch_reviews(url: str) -> dict:
+    """抓商品頁的評分與評論數。只回傳彙總數字與連結，不複製評論內文。"""
+    if _review_budget["left"] <= 0:
+        return {}
+    _review_budget["left"] -= 1
+
+    page = fetch(url, retries=0)
+    if not page:
+        return {}
+
+    out = {}
+    m = RATING_RE.search(page) or ALT_RATING_RE.search(page)
+    if m:
+        try:
+            val = float(m.group("v"))
+            if 0 < val <= 5:
+                out["rating"] = round(val, 2)
+        except ValueError:
+            pass
+    c = COUNT_RE.search(page)
+    if c:
+        try:
+            out["reviews"] = int(c.group("v"))
+        except ValueError:
+            pass
+    return out
+
+
+REVIEW_HISTORY_PATH = ROOT / "data" / "shop" / "review-history.json"
+
+
+def load_reviews_hist() -> dict:
+    if not REVIEW_HISTORY_PATH.exists():
+        return {}
+    try:
+        return json.loads(REVIEW_HISTORY_PATH.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+
+def save_reviews_hist(hist: dict) -> None:
+    REVIEW_HISTORY_PATH.parent.mkdir(parents=True, exist_ok=True)
+    trimmed = {k: v[-60:] for k, v in hist.items() if v}
+    REVIEW_HISTORY_PATH.write_text(
+        json.dumps(trimmed, ensure_ascii=False, indent=1), encoding="utf-8")
+
+
+# ---------------------------------------------------------------- 價格歷史
+
+HISTORY_PATH = ROOT / "data" / "shop" / "price-history.json"
+
+
+def load_history() -> dict:
+    if not HISTORY_PATH.exists():
+        return {}
+    try:
+        return json.loads(HISTORY_PATH.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+
+def save_history(hist: dict) -> None:
+    HISTORY_PATH.parent.mkdir(parents=True, exist_ok=True)
+    trimmed = {k: v[-60:] for k, v in hist.items() if v}
+    HISTORY_PATH.write_text(json.dumps(trimmed, ensure_ascii=False, indent=1),
+                            encoding="utf-8")
+
+
+def record_price(hist: dict, pid: str, country: str, offer: dict, today: str) -> dict:
+    """回傳與上一筆不同日期紀錄的價差，供網頁顯示漲跌。"""
+    key = f"{pid}|{country}"
+    rows = hist.setdefault(key, [])
+    prev = next((r for r in reversed(rows) if r["d"] != today), None)
+    if not rows or rows[-1]["d"] != today or rows[-1]["p"] != offer["price"]:
+        rows.append({"d": today, "p": offer["price"], "c": offer["currency"]})
+    if prev and prev["p"] != offer["price"]:
+        return {"prev": prev["p"], "delta": offer["price"] - prev["p"], "since": prev["d"]}
+    return {}
+
+
+# ---------------------------------------------------------------- PChome（台灣）
+
+def pchome_search(query: str) -> list[dict]:
+    """PChome 24h 的搜尋 JSON。版本路徑偶爾會變，兩個都試。"""
+    for ver in ("v4.3", "v3.3"):
+        url = ("https://ecshweb.pchome.com.tw/search/" + ver + "/all/results"
+               "?q=" + urllib.parse.quote(query) + "&page=1&sort=sale/dc")
+        raw = fetch(url, retries=0)
+        if not raw:
+            continue
+        try:
+            body = json.loads(raw)
+        except Exception:
+            continue
+        prods = body.get("prods") or body.get("Prods") or []
+        out = []
+        for x in prods[:5]:
+            name = x.get("name") or x.get("Name") or ""
+            pid = x.get("Id") or x.get("id") or ""
+            price = x.get("price") or x.get("Price")
+            if not name or price in (None, 0):
+                continue
+            out.append({
+                "platform": "PChome 24h",
+                "title": strip_html(name)[:120],
+                "price": int(price),
+                "currency": "TWD",
+                "url": f"https://24h.pchome.com.tw/prod/{pid}" if pid else url,
+            })
+        if out:
+            return out
+    return []
+
+
+def load_manual_prices() -> dict:
+    """data/shop/prices-manual.json 可以手動補其他通路的報價，格式：
+       { "asus-ascent-gx10": [ {"country":"US","platform":"B&H",
+                                "price":2999,"currency":"USD","url":"..."} ] }"""
+    f = SHOP_OUT / "prices-manual.json"
+    if not f.exists():
+        return {}
+    try:
+        return json.loads(f.read_text(encoding="utf-8"))
+    except Exception as exc:
+        log(f"  ✗ prices-manual.json 解析失敗：{exc}")
+        return {}
+
+
+def run_shop(news: list[dict]) -> None:
+    started = datetime.now(TZ)
+    log(f"===== 價格與規格（爬蟲 {SCRAPER_VERSION}）=====")
+    SHOP_OUT.mkdir(parents=True, exist_ok=True)
+
+    hist = load_history()
+    rhist = load_reviews_hist()
+    today = started.strftime("%Y-%m-%d")
+    manual = load_manual_prices()
+    if manual:
+        log(f"手動報價載入 {sum(len(v) for v in manual.values())} 筆")
+
+    products = []
+    for seed in PRODUCT_SEED:
+        specs = dict(GB10_SPECS if seed["line"] == "dgx" else N1X_SPECS)
+        specs["storage"] = seed["storage"]
+        specs["form"] = seed["form"]
+
+        signals = collect_signals(seed, news)
+
+        # 各國狀態：以種子為基礎，有新聞訊號就往上修正
+        markets = {}
+        for c in MARKETS:
+            markets[c] = {"country": c, "region": REGION_OF[c],
+                          "status": seed["status"], "offers": []}
+        for sig in signals:
+            targets = sig["countries"] or MARKETS
+            for c in targets:
+                if STATUS_RANK[sig["status"]] > STATUS_RANK[markets[c]["status"]]:
+                    markets[c]["status"] = sig["status"]
+
+        # 通路報價。RTX Spark 還沒上市，先只查 DGX 系列以免浪費請求。
+        if seed["line"] == "dgx":
+            q = seed["name"].replace("NVIDIA ", "").replace(" Founders Edition", "")
+            log(f"  查詢通路：{seed['name']}")
+
+            tw = pchome_search(q)
+            if tw:
+                markets["TW"]["offers"] += tw
+                log(f"  PChome 24h：{len(tw)} 筆")
+            time.sleep(0.6)
+
+            for shop in SHOPS:
+                found = scan_shop(shop, q, seed["keywords"])
+                if found:
+                    markets[shop["country"]]["offers"] += found
+                time.sleep(0.7)
+
+        # 手動報價
+        for row in manual.get(seed["id"], []):
+            c = row.get("country")
+            if c in markets:
+                markets[c]["offers"].append({
+                    "platform": row.get("platform", "手動"),
+                    "title": row.get("title", seed["name"]),
+                    "price": row.get("price"),
+                    "currency": row.get("currency", ""),
+                    "url": row.get("url", ""),
+                })
+                if row.get("price"):
+                    markets[c]["status"] = "launched"
+
+        # 開賣狀態、價格漲跌、評論
+        for c, m in markets.items():
+            priced = [o for o in m["offers"] if o.get("price")]
+            if not priced:
+                continue
+
+            m["status"] = "launched"
+            best = min(priced, key=lambda o: o["price"])
+            m["best"] = best
+            trend = record_price(hist, seed["id"], c, best, today)
+            if trend:
+                m["trend"] = trend
+
+            # 評分只抓該國最便宜那筆的商品頁，避免請求量爆掉
+            if best.get("url"):
+                rv = fetch_reviews(best["url"])
+                if rv:
+                    best.update(rv)
+                    m["rating"] = rv.get("rating")
+                    m["reviews"] = rv.get("reviews")
+                    if rv.get("reviews") is not None:
+                        key = f"{seed['id']}|{c}"
+                        rows = rhist.setdefault(key, [])
+                        if not rows or rows[-1]["d"] != today:
+                            rows.append({"d": today, "n": rv["reviews"]})
+                        else:
+                            rows[-1]["n"] = rv["reviews"]
+                        prev = next((r for r in reversed(rows[:-1])), None)
+                        if prev:
+                            m["reviewDelta"] = rv["reviews"] - prev["n"]
+                time.sleep(0.5)
+
+            # 把歷史序列直接嵌進資料檔，網頁不必再多抓一次
+            m["history"] = hist.get(f"{seed['id']}|{c}", [])[-30:]
+            m["reviewHistory"] = rhist.get(f"{seed['id']}|{c}", [])[-30:]
+
+        products.append({
+            "id": seed["id"], "name": seed["name"],
+            "brand": seed["brand"], "line": seed["line"],
+            "specs": specs,
+            "facets": {"memory": specs["memory"].split(" LPDDR")[0].strip(),
+                       "storage": seed["storage"], "form": seed["form"]},
+            "markets": [markets[c] for c in MARKETS],
+            "signals": signals,
+        })
+
+    payload = {
+        "version": SCRAPER_VERSION,
+        "fetchedAt": started.isoformat(),
+        "edition": started.strftime("%Y-%m-%d"),
+        "count": len(products),
+        "products": products,
+    }
+    (SHOP_OUT / "products.json").write_text(
+        json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
+    save_history(hist)
+    save_reviews_hist(rhist)
+
+    with_price = sum(1 for p in products
+                     for m in p["markets"] if m["offers"])
+    rated = sum(1 for p in products for m in p["markets"] if m.get("rating"))
+    log(f"評分擷取：{rated} 個市場有評分 · 剩餘預算 {_review_budget['left']}/{REVIEW_FETCH_MAX}")
+    with_sig = sum(1 for p in products if p["signals"])
+    log(f"完成：{len(products)} 個機種 · 有報價的市場 {with_price} 個 · "
+        f"有貨況訊息的機種 {with_sig} 個 → data/shop/products.json")
 
 
 def main() -> int:
@@ -1429,8 +1989,18 @@ def main() -> int:
         if n not in CHANNELS:
             print(__doc__)
             return 2
-    codes = [run_channel(n) for n in names]
-    return 0 if any(c == 0 for c in codes) else 1
+    collected = {}
+    for n in names:
+        collected[n] = run_channel(n)
+
+    # 價格與規格分頁借用 Spark 頻道的新聞來判斷貨況
+    if "spark" in collected:
+        try:
+            run_shop(collected["spark"])
+        except Exception as exc:
+            log(f"✗ 價格與規格產生失敗：{exc}")
+
+    return 0 if any(v for v in collected.values()) else 1
 
 
 if __name__ == "__main__":
