@@ -1,6 +1,6 @@
 {
- "version": "v15",
- "fetchedAt": "2026-09-06T22:48:57.392399+08:00",
+ "version": "v17",
+ "fetchedAt": "2026-09-06T23:50:46.124883+08:00",
  "edition": "2026-09-06",
  "count": 16,
  "products": [
@@ -9,6 +9,7 @@
    "name": "NVIDIA DGX Spark Founders Edition",
    "brand": "nvidia",
    "line": "dgx",
+   "page": "",
    "specs": {
     "chip": "NVIDIA GB10 Grace Blackwell",
     "cpu": "20 核 Arm（10× Cortex-X925 + 10× A725）",
@@ -22,6 +23,8 @@
     "storage": "4 TB NVMe",
     "form": "桌上型"
    },
+   "specSource": "",
+   "specScraped": [],
    "facets": {
     "memory": "128 GB",
     "storage": "4 TB NVMe",
@@ -32,7 +35,62 @@
      "country": "TW",
      "region": "apac",
      "status": "launched",
-     "offers": []
+     "offers": [
+      {
+       "platform": "PChome 24h",
+       "title": "Leadtek 麗臺 NVIDIA DGX Spark - NVIDIA GB10/128G記憶體/4TB SSD/NVIDIA DGX OS 作業系統兩入組",
+       "price": 439800,
+       "currency": "TWD",
+       "url": "https://24h.pchome.com.tw/prod/DSAMAT-A900K5R7C"
+      },
+      {
+       "platform": "PChome 24h",
+       "title": "Leadtek 麗臺 NVIDIA DGX Spark - NVIDIA GB10/128G記憶體/4TB SSD/NVIDIA DGX OS 作業系統",
+       "price": 229900,
+       "currency": "TWD",
+       "url": "https://24h.pchome.com.tw/prod/DSAMAX-A900K52CY"
+      },
+      {
+       "platform": "PChome 24h",
+       "title": "Leadtek 麗臺 NVIDIA DGX Spark - NVIDIA GB10/128G記憶體/4TB SSD/NVIDIA DGX OS 作業系統",
+       "price": 239900,
+       "currency": "TWD",
+       "url": "https://24h.pchome.com.tw/prod/DSAMAT-A900K5JIW"
+      },
+      {
+       "platform": "PChome 24h",
+       "title": "Kobo 塞爆 128G GPU 記憶體，Nvidia DGX Spark，影音圖生成、微調、預訓練 Agent 全面玩透",
+       "price": 864,
+       "currency": "TWD",
+       "url": "https://24h.pchome.com.tw/prod/DJBQ1U-D900K198R",
+       "rating": 2.0
+      },
+      {
+       "platform": "PChome 24h",
+       "title": "Pubu 塞爆 128G GPU 記憶體，Nvidia DGX Spark，影音圖生成、微調、預訓練 Agent 全面玩透",
+       "price": 864,
+       "currency": "TWD",
+       "url": "https://24h.pchome.com.tw/prod/DJBS3S-D900K1JE2"
+      }
+     ],
+     "best": {
+      "platform": "PChome 24h",
+      "title": "Kobo 塞爆 128G GPU 記憶體，Nvidia DGX Spark，影音圖生成、微調、預訓練 Agent 全面玩透",
+      "price": 864,
+      "currency": "TWD",
+      "url": "https://24h.pchome.com.tw/prod/DJBQ1U-D900K198R",
+      "rating": 2.0
+     },
+     "rating": 2.0,
+     "reviews": null,
+     "history": [
+      {
+       "d": "2026-09-06",
+       "p": 864,
+       "c": "TWD"
+      }
+     ],
+     "reviewHistory": []
     },
     {
      "country": "JP",
@@ -72,6 +130,7 @@
    "name": "ASUS Ascent GX10",
    "brand": "asus",
    "line": "dgx",
+   "page": "https://www.asus.com/networking-iot-servers/ai-servers/ascent/asus-ascent-gx10/",
    "specs": {
     "chip": "NVIDIA GB10 Grace Blackwell",
     "cpu": "20 核 Arm（10× Cortex-X925 + 10× A725）",
@@ -79,12 +138,16 @@
     "aiPerf": "1 PFLOPS FP4",
     "memory": "128 GB LPDDR5X 統一記憶體",
     "bandwidth": "273 GB/s",
-    "network": "ConnectX-7 200 Gb/s",
+    "network": "Routers",
     "os": "NVIDIA DGX OS",
     "power": "約 240 W",
     "storage": "1 TB NVMe",
     "form": "桌上型"
    },
+   "specSource": "https://www.asus.com/networking-iot-servers/ai-servers/ascent/asus-ascent-gx10/",
+   "specScraped": [
+    "network"
+   ],
    "facets": {
     "memory": "128 GB",
     "storage": "1 TB NVMe",
@@ -95,7 +158,62 @@
      "country": "TW",
      "region": "apac",
      "status": "launched",
-     "offers": []
+     "offers": [
+      {
+       "platform": "PChome 24h",
+       "title": "ASUS 華碩 Ascent GX10 桌上型AI超級電腦(GB10/128GB/1TB/GX10/DGX)(90MS0371-M00010)",
+       "price": 175900,
+       "currency": "TWD",
+       "url": "https://24h.pchome.com.tw/prod/DSAUR0-A900JIS6V"
+      },
+      {
+       "platform": "PChome 24h",
+       "title": "ASUS 華碩 Ascent GX10 桌上型AI超級電腦(GB10/128GB/1TB/GX10/DGX)(90MS0371-M00010)",
+       "price": 175900,
+       "currency": "TWD",
+       "url": "https://24h.pchome.com.tw/prod/DSAUZ2-A900JX7XQ"
+      },
+      {
+       "platform": "PChome 24h",
+       "title": "博光通訊 0.4M 400G QSFP112 DAC直連銅纜 相容ASUS Ascent GX10 AI超級電腦專用",
+       "price": 4999,
+       "currency": "TWD",
+       "url": "https://24h.pchome.com.tw/prod/DCACM5-A900KDLIU",
+       "rating": 2.0
+      },
+      {
+       "platform": "PChome 24h",
+       "title": "ASUS 華碩 Ascent GX10系列 - NVIDIA GB10/128G記憶體/1TB SSD/NVIDIA DGX OS 作業系統",
+       "price": 199900,
+       "currency": "TWD",
+       "url": "https://24h.pchome.com.tw/prod/DSAM22-A900K801U"
+      },
+      {
+       "platform": "PChome 24h",
+       "title": "ASUS 華碩 〈限時〉Ascent GX10 桌上型AI超級電腦+QNAP TS-464-8G NAS伺服器",
+       "price": 246900,
+       "currency": "TWD",
+       "url": "https://24h.pchome.com.tw/prod/DSAANT-A900KDMOW"
+      }
+     ],
+     "best": {
+      "platform": "PChome 24h",
+      "title": "博光通訊 0.4M 400G QSFP112 DAC直連銅纜 相容ASUS Ascent GX10 AI超級電腦專用",
+      "price": 4999,
+      "currency": "TWD",
+      "url": "https://24h.pchome.com.tw/prod/DCACM5-A900KDLIU",
+      "rating": 2.0
+     },
+     "rating": 2.0,
+     "reviews": null,
+     "history": [
+      {
+       "d": "2026-09-06",
+       "p": 4999,
+       "c": "TWD"
+      }
+     ],
+     "reviewHistory": []
     },
     {
      "country": "JP",
@@ -135,12 +253,13 @@
    "name": "Acer Veriton GN100",
    "brand": "acer",
    "line": "dgx",
+   "page": "https://www.acer.com/us-en/desktop/veriton/veriton-gn100",
    "specs": {
-    "chip": "NVIDIA GB10 Grace Blackwell",
-    "cpu": "20 核 Arm（10× Cortex-X925 + 10× A725）",
+    "chip": "內建顯示晶片",
+    "cpu": "Intel Core i3",
     "gpu": "Blackwell（第 5 代 Tensor Core）",
     "aiPerf": "1 PFLOPS FP4",
-    "memory": "128 GB LPDDR5X 統一記憶體",
+    "memory": "16GB",
     "bandwidth": "273 GB/s",
     "network": "ConnectX-7 200 Gb/s",
     "os": "NVIDIA DGX OS",
@@ -148,8 +267,14 @@
     "storage": "1 TB / 4 TB NVMe",
     "form": "桌上型"
    },
+   "specSource": "https://24h.pchome.com.tw/prod/DSAM00-A900K5VLL",
+   "specScraped": [
+    "chip",
+    "cpu",
+    "memory"
+   ],
    "facets": {
-    "memory": "128 GB",
+    "memory": "16GB",
     "storage": "1 TB / 4 TB NVMe",
     "form": "桌上型"
    },
@@ -158,7 +283,62 @@
      "country": "TW",
      "region": "apac",
      "status": "launched",
-     "offers": []
+     "offers": [
+      {
+       "platform": "PChome 24h",
+       "title": "ACER 宏碁 Veriton 171X系列-i3處理器/16G記憶體/512G SSD/Win11專業版電腦(UD.R2GTA.00N)",
+       "price": 36800,
+       "currency": "TWD",
+       "url": "https://24h.pchome.com.tw/prod/DSAM00-A900K5VLL",
+       "rating": 2.0
+      },
+      {
+       "platform": "PChome 24h",
+       "title": "ACER 宏碁 Veriton VM8720G系列 - i7處理器 - 32G記憶體 / 2TB+512G SSD / Win11專業版電腦",
+       "price": 56900,
+       "currency": "TWD",
+       "url": "https://24h.pchome.com.tw/prod/DSAM7V-A900KEQI9"
+      },
+      {
+       "platform": "PChome 24h",
+       "title": "ACER 宏碁 Veriton VS2732G系列 - Ultra7處理器 - 64G記憶體 / 2TB+2TB SSD / Win11P專業版電腦",
+       "price": 100900,
+       "currency": "TWD",
+       "url": "https://24h.pchome.com.tw/prod/DSAM7V-A900JUCG4"
+      },
+      {
+       "platform": "PChome 24h",
+       "title": "ACER 宏碁 Veriton VS2732G系列 - Ultra7處理器 - 16G記憶體 / 512G SSD / Win11P專業版電腦",
+       "price": 57900,
+       "currency": "TWD",
+       "url": "https://24h.pchome.com.tw/prod/DSAM7V-A900JUCDS"
+      },
+      {
+       "platform": "PChome 24h",
+       "title": "ACER 宏碁 Veriton VS2732G系列 - Ultra7處理器 - 64G記憶體 / 4TB+4TB SSD / Win11P專業版電腦",
+       "price": 113900,
+       "currency": "TWD",
+       "url": "https://24h.pchome.com.tw/prod/DSAM7V-A900JUEE8"
+      }
+     ],
+     "best": {
+      "platform": "PChome 24h",
+      "title": "ACER 宏碁 Veriton 171X系列-i3處理器/16G記憶體/512G SSD/Win11專業版電腦(UD.R2GTA.00N)",
+      "price": 36800,
+      "currency": "TWD",
+      "url": "https://24h.pchome.com.tw/prod/DSAM00-A900K5VLL",
+      "rating": 2.0
+     },
+     "rating": 2.0,
+     "reviews": null,
+     "history": [
+      {
+       "d": "2026-09-06",
+       "p": 36800,
+       "c": "TWD"
+      }
+     ],
+     "reviewHistory": []
     },
     {
      "country": "JP",
@@ -198,21 +378,29 @@
    "name": "Dell Pro Max with GB10",
    "brand": "dell",
    "line": "dgx",
+   "page": "https://www.dell.com/en-us/shop/desktop-computers/dell-pro-max-with-gb10/spd/pro-max-gb10",
    "specs": {
-    "chip": "NVIDIA GB10 Grace Blackwell",
-    "cpu": "20 核 Arm（10× Cortex-X925 + 10× A725）",
+    "chip": "Intel顯卡",
+    "cpu": "Intel Core 5",
     "gpu": "Blackwell（第 5 代 Tensor Core）",
     "aiPerf": "1 PFLOPS FP4",
-    "memory": "128 GB LPDDR5X 統一記憶體",
+    "memory": "16GB",
     "bandwidth": "273 GB/s",
     "network": "ConnectX-7 200 Gb/s",
     "os": "NVIDIA DGX OS",
     "power": "約 240 W",
     "storage": "4 TB NVMe",
-    "form": "桌上型"
+    "form": "14吋"
    },
+   "specSource": "https://24h.pchome.com.tw/prod/DHAI86-A900JZELQ",
+   "specScraped": [
+    "chip",
+    "cpu",
+    "form",
+    "memory"
+   ],
    "facets": {
-    "memory": "128 GB",
+    "memory": "16GB",
     "storage": "4 TB NVMe",
     "form": "桌上型"
    },
@@ -221,7 +409,69 @@
      "country": "TW",
      "region": "apac",
      "status": "launched",
-     "offers": []
+     "offers": [
+      {
+       "platform": "PChome 24h",
+       "title": "Pro 14 Essential 14吋效能筆電黑色(Intel Core 5 120U/16GB/512GB/WIN11PRO/PV14250-R1608BTW)",
+       "price": 30990,
+       "currency": "TWD",
+       "url": "https://24h.pchome.com.tw/prod/DHAI86-A900JZELQ",
+       "rating": 5.0,
+       "reviews": 2
+      },
+      {
+       "platform": "PChome 24h",
+       "title": "Pro 3 14 14吋 AI文書效能筆電灰色(Ryzen AI 7 PRO 450/32GB/1TB/WIN11PRO/P314265-AI732G1T)",
+       "price": 63990,
+       "currency": "TWD",
+       "url": "https://24h.pchome.com.tw/prod/DHAIAL-A900K3ONO"
+      },
+      {
+       "platform": "PChome 24h",
+       "title": "Pro 3 14 14吋 文書效能筆電灰色(Intel Core 5 320/16GB/512GB/WIN11PRO/P314260-C516G512G)",
+       "price": 46990,
+       "currency": "TWD",
+       "url": "https://24h.pchome.com.tw/prod/DHAIAL-A900K3NTX"
+      },
+      {
+       "platform": "PChome 24h",
+       "title": "Pro 3 16 16吋 文書效能筆電灰色(Intel Core 7 350/32GB/1TB/WIN11PRO/P316260-C732G1T)",
+       "price": 68990,
+       "currency": "TWD",
+       "url": "https://24h.pchome.com.tw/prod/DHAIAL-A900K3OC0"
+      },
+      {
+       "platform": "PChome 24h",
+       "title": "Pro 3 14 14吋 文書效能筆電灰色(Intel Core 7 350/32GB/1TB/WIN11PRO/P314260-C732G1T)",
+       "price": 67990,
+       "currency": "TWD",
+       "url": "https://24h.pchome.com.tw/prod/DHAIAL-A900K3O1C"
+      }
+     ],
+     "best": {
+      "platform": "PChome 24h",
+      "title": "Pro 14 Essential 14吋效能筆電黑色(Intel Core 5 120U/16GB/512GB/WIN11PRO/PV14250-R1608BTW)",
+      "price": 30990,
+      "currency": "TWD",
+      "url": "https://24h.pchome.com.tw/prod/DHAI86-A900JZELQ",
+      "rating": 5.0,
+      "reviews": 2
+     },
+     "rating": 5.0,
+     "reviews": 2,
+     "history": [
+      {
+       "d": "2026-09-06",
+       "p": 30990,
+       "c": "TWD"
+      }
+     ],
+     "reviewHistory": [
+      {
+       "d": "2026-09-06",
+       "n": 2
+      }
+     ]
     },
     {
      "country": "JP",
@@ -261,21 +511,29 @@
    "name": "HP ZGX Nano AI Station",
    "brand": "hp",
    "line": "dgx",
+   "page": "https://www.hp.com/us-en/workstations/zgx-nano-ai-station.html",
    "specs": {
-    "chip": "NVIDIA GB10 Grace Blackwell",
-    "cpu": "20 核 Arm（10× Cortex-X925 + 10× A725）",
+    "chip": "內建顯示晶片",
+    "cpu": "Intel Core Ultra 7",
     "gpu": "Blackwell（第 5 代 Tensor Core）",
     "aiPerf": "1 PFLOPS FP4",
-    "memory": "128 GB LPDDR5X 統一記憶體",
+    "memory": "32GB",
     "bandwidth": "273 GB/s",
     "network": "ConnectX-7 200 Gb/s",
     "os": "NVIDIA DGX OS",
     "power": "約 240 W",
     "storage": "1 TB / 4 TB NVMe",
-    "form": "桌上型"
+    "form": "14吋"
    },
+   "specSource": "https://24h.pchome.com.tw/prod/DHAG55-A900K577S",
+   "specScraped": [
+    "chip",
+    "cpu",
+    "form",
+    "memory"
+   ],
    "facets": {
-    "memory": "128 GB",
+    "memory": "32GB",
     "storage": "1 TB / 4 TB NVMe",
     "form": "桌上型"
    },
@@ -284,7 +542,62 @@
      "country": "TW",
      "region": "apac",
      "status": "launched",
-     "offers": []
+     "offers": [
+      {
+       "platform": "PChome 24h",
+       "title": "HP 惠普 ZBook Ultra G1a 14吋2.8K觸控OLED工作站(AI Max+ PRO 395/128G/2T SSD/W11P/WSL2/1年保固/BK6M7PT)",
+       "price": 219000,
+       "currency": "TWD",
+       "url": "https://24h.pchome.com.tw/prod/DHAGBK-A900JS7WM"
+      },
+      {
+       "platform": "PChome 24h",
+       "title": "HP 惠普 EliteBook 8 G2i 14 Next Gen AI 14吋400nits商用AI筆電(Ultra 5 332/升至64G/1T SSD/3年保固/DJ2J6PT)",
+       "price": 98100,
+       "currency": "TWD",
+       "url": "https://24h.pchome.com.tw/prod/DHABH2-A900K9P6S"
+      },
+      {
+       "platform": "PChome 24h",
+       "title": "HP 惠普 OmniBook X Flip AI 14吋 AI效能筆電灰色(Ultra 7-356H/32GB/1TB SSD/WIN11/14-kb0080TU)",
+       "price": 67900,
+       "currency": "TWD",
+       "url": "https://24h.pchome.com.tw/prod/DHAG55-A900K577S",
+       "rating": 2.0
+      },
+      {
+       "platform": "PChome 24h",
+       "title": "HP 惠普 OmniBook Ultra AI 14 14吋 效能筆電金色(Ultra 9 386H/32GB/1TB/WIN11/14-kd0023TU)",
+       "price": 74900,
+       "currency": "TWD",
+       "url": "https://24h.pchome.com.tw/prod/DHAGCR-A900JUC32"
+      },
+      {
+       "platform": "PChome 24h",
+       "title": "HP 惠普 OmniBook Ultra AI 14 14吋 效能筆電金色(Ultra 9 386H/32GB/1TB/WIN11/14-kd0023TU)",
+       "price": 74900,
+       "currency": "TWD",
+       "url": "https://24h.pchome.com.tw/prod/DHAGF6-A900K8CQP"
+      }
+     ],
+     "best": {
+      "platform": "PChome 24h",
+      "title": "HP 惠普 OmniBook X Flip AI 14吋 AI效能筆電灰色(Ultra 7-356H/32GB/1TB SSD/WIN11/14-kb0080TU)",
+      "price": 67900,
+      "currency": "TWD",
+      "url": "https://24h.pchome.com.tw/prod/DHAG55-A900K577S",
+      "rating": 2.0
+     },
+     "rating": 2.0,
+     "reviews": null,
+     "history": [
+      {
+       "d": "2026-09-06",
+       "p": 67900,
+       "c": "TWD"
+      }
+     ],
+     "reviewHistory": []
     },
     {
      "country": "JP",
@@ -324,21 +637,29 @@
    "name": "Lenovo ThinkStation PGX",
    "brand": "lenovo",
    "line": "dgx",
+   "page": "https://www.lenovo.com/us/en/p/workstations/thinkstation-p-series/thinkstation-pgx/",
    "specs": {
-    "chip": "NVIDIA GB10 Grace Blackwell",
-    "cpu": "20 核 Arm（10× Cortex-X925 + 10× A725）",
+    "chip": "繪圖顯卡",
+    "cpu": "Intel Core Ultra 5",
     "gpu": "Blackwell（第 5 代 Tensor Core）",
     "aiPerf": "1 PFLOPS FP4",
-    "memory": "128 GB LPDDR5X 統一記憶體",
+    "memory": "16GB",
     "bandwidth": "273 GB/s",
     "network": "ConnectX-7 200 Gb/s",
     "os": "NVIDIA DGX OS",
     "power": "約 240 W",
     "storage": "4 TB NVMe",
-    "form": "桌上型"
+    "form": "14吋"
    },
+   "specSource": "https://24h.pchome.com.tw/prod/DHABBJ-A900JXVZK",
+   "specScraped": [
+    "chip",
+    "cpu",
+    "form",
+    "memory"
+   ],
    "facets": {
-    "memory": "128 GB",
+    "memory": "16GB",
     "storage": "4 TB NVMe",
     "form": "桌上型"
    },
@@ -347,7 +668,62 @@
      "country": "TW",
      "region": "apac",
      "status": "launched",
-     "offers": []
+     "offers": [
+      {
+       "platform": "PChome 24h",
+       "title": "LENOVO 聯想 ThinkPad P14s Gen5 14.5吋繪圖RTX獨顯商務筆電(Ultra5-225H/16G+32G/2TB/RTX PRO 500/W11P/規格升級)",
+       "price": 111900,
+       "currency": "TWD",
+       "url": "https://24h.pchome.com.tw/prod/DHAD7M-A900JN6FF"
+      },
+      {
+       "platform": "PChome 24h",
+       "title": "LENOVO 聯想 ThinkPad P14s Gen6 14.5吋繪圖RTX獨顯商務筆電(Ultra5-225H/32G+32G/1TB/RTX PRO 500/W11P/規格升級)",
+       "price": 113900,
+       "currency": "TWD",
+       "url": "https://24h.pchome.com.tw/prod/DHAD7M-A900K0YOW"
+      },
+      {
+       "platform": "PChome 24h",
+       "title": "LENOVO 聯想 ThinkPad P14s Gen5 14.5吋繪圖RTX獨顯商務筆電(Ultra5-225H/16G+32G/1TB/RTX PRO 500/W11P/規格升級)",
+       "price": 104900,
+       "currency": "TWD",
+       "url": "https://24h.pchome.com.tw/prod/DHAD7M-A900JN6GL"
+      },
+      {
+       "platform": "PChome 24h",
+       "title": "LENOVO 聯想 ThinkPad P14s Gen5 14.5吋繪圖RTX獨顯商務筆電(Ultra5-225H/16G+16G/1TB/RTX PRO 500/W11P/規格升級)",
+       "price": 98900,
+       "currency": "TWD",
+       "url": "https://24h.pchome.com.tw/prod/DHAD7M-A900JDKTC"
+      },
+      {
+       "platform": "PChome 24h",
+       "title": "LENOVO 聯想 ThinkPad P14s Gen6 繪圖RTX獨顯筆電(Ultra5-225H/16G/512G/RTX PRO 500/W11P/14.5吋/三年保)",
+       "price": 84900,
+       "currency": "TWD",
+       "url": "https://24h.pchome.com.tw/prod/DHABBJ-A900JXVZK",
+       "rating": 2.0
+      }
+     ],
+     "best": {
+      "platform": "PChome 24h",
+      "title": "LENOVO 聯想 ThinkPad P14s Gen6 繪圖RTX獨顯筆電(Ultra5-225H/16G/512G/RTX PRO 500/W11P/14.5吋/三年保)",
+      "price": 84900,
+      "currency": "TWD",
+      "url": "https://24h.pchome.com.tw/prod/DHABBJ-A900JXVZK",
+      "rating": 2.0
+     },
+     "rating": 2.0,
+     "reviews": null,
+     "history": [
+      {
+       "d": "2026-09-06",
+       "p": 84900,
+       "c": "TWD"
+      }
+     ],
+     "reviewHistory": []
     },
     {
      "country": "JP",
@@ -387,12 +763,13 @@
    "name": "MSI EdgeXpert MS-C931",
    "brand": "msi",
    "line": "dgx",
+   "page": "https://www.msi.com/AI-PC/EdgeXpert-MS-C931",
    "specs": {
-    "chip": "NVIDIA GB10 Grace Blackwell",
-    "cpu": "20 核 Arm（10× Cortex-X925 + 10× A725）",
+    "chip": "內建顯示晶片",
+    "cpu": "其他處理器",
     "gpu": "Blackwell（第 5 代 Tensor Core）",
     "aiPerf": "1 PFLOPS FP4",
-    "memory": "128 GB LPDDR5X 統一記憶體",
+    "memory": "128GB",
     "bandwidth": "273 GB/s",
     "network": "ConnectX-7 200 Gb/s",
     "os": "NVIDIA DGX OS",
@@ -400,8 +777,14 @@
     "storage": "1 TB / 4 TB NVMe",
     "form": "邊緣工作站"
    },
+   "specSource": "https://24h.pchome.com.tw/prod/DSAM25-A900JYSNT",
+   "specScraped": [
+    "chip",
+    "cpu",
+    "memory"
+   ],
    "facets": {
-    "memory": "128 GB",
+    "memory": "128GB",
     "storage": "1 TB / 4 TB NVMe",
     "form": "邊緣工作站"
    },
@@ -410,7 +793,41 @@
      "country": "TW",
      "region": "apac",
      "status": "launched",
-     "offers": []
+     "offers": [
+      {
+       "platform": "PChome 24h",
+       "title": "MSI 微星 EdgeXpert AI Super Computer - NVIDIA GB10 / 128G 記憶體 / 4TB SSD / NVIDIA DGX OS 作業系統",
+       "price": 210000,
+       "currency": "TWD",
+       "url": "https://24h.pchome.com.tw/prod/DSAM25-A900JYSNT",
+       "rating": 5.0,
+       "reviews": 1
+      }
+     ],
+     "best": {
+      "platform": "PChome 24h",
+      "title": "MSI 微星 EdgeXpert AI Super Computer - NVIDIA GB10 / 128G 記憶體 / 4TB SSD / NVIDIA DGX OS 作業系統",
+      "price": 210000,
+      "currency": "TWD",
+      "url": "https://24h.pchome.com.tw/prod/DSAM25-A900JYSNT",
+      "rating": 5.0,
+      "reviews": 1
+     },
+     "rating": 5.0,
+     "reviews": 1,
+     "history": [
+      {
+       "d": "2026-09-06",
+       "p": 210000,
+       "c": "TWD"
+      }
+     ],
+     "reviewHistory": [
+      {
+       "d": "2026-09-06",
+       "n": 1
+      }
+     ]
     },
     {
      "country": "JP",
@@ -450,12 +867,13 @@
    "name": "GIGABYTE AI TOP ATOM",
    "brand": "gigabyte",
    "line": "dgx",
+   "page": "https://www.gigabyte.com/Consumer/AI-TOP-ATOM",
    "specs": {
-    "chip": "NVIDIA GB10 Grace Blackwell",
-    "cpu": "20 核 Arm（10× Cortex-X925 + 10× A725）",
+    "chip": "其他顯卡",
+    "cpu": "Snapdragon X2 系列",
     "gpu": "Blackwell（第 5 代 Tensor Core）",
     "aiPerf": "1 PFLOPS FP4",
-    "memory": "128 GB LPDDR5X 統一記憶體",
+    "memory": "其他",
     "bandwidth": "273 GB/s",
     "network": "ConnectX-7 200 Gb/s",
     "os": "NVIDIA DGX OS",
@@ -463,8 +881,14 @@
     "storage": "4 TB NVMe",
     "form": "桌上型"
    },
+   "specSource": "https://24h.pchome.com.tw/prod/DSAURK-A900K6ASS",
+   "specScraped": [
+    "chip",
+    "cpu",
+    "memory"
+   ],
    "facets": {
-    "memory": "128 GB",
+    "memory": "其他",
     "storage": "4 TB NVMe",
     "form": "桌上型"
    },
@@ -473,7 +897,41 @@
      "country": "TW",
      "region": "apac",
      "status": "launched",
-     "offers": []
+     "offers": [
+      {
+       "platform": "PChome 24h",
+       "title": "GIGABYTE 技嘉 AI TOP ATOM 超級電腦 (NVIDIA GB10 Grace Blackwell /128G D5/GEN4 4TB SSD)",
+       "price": 239000,
+       "currency": "TWD",
+       "url": "https://24h.pchome.com.tw/prod/DSAA08-A900JYHGA"
+      },
+      {
+       "platform": "PChome 24h",
+       "title": "GIGABYTE 技嘉 AI TOP ATOM NVIDIA ConnectX-7 連接線",
+       "price": 3990,
+       "currency": "TWD",
+       "url": "https://24h.pchome.com.tw/prod/DSAURK-A900K6ASS",
+       "rating": 2.0
+      }
+     ],
+     "best": {
+      "platform": "PChome 24h",
+      "title": "GIGABYTE 技嘉 AI TOP ATOM NVIDIA ConnectX-7 連接線",
+      "price": 3990,
+      "currency": "TWD",
+      "url": "https://24h.pchome.com.tw/prod/DSAURK-A900K6ASS",
+      "rating": 2.0
+     },
+     "rating": 2.0,
+     "reviews": null,
+     "history": [
+      {
+       "d": "2026-09-06",
+       "p": 3990,
+       "c": "TWD"
+      }
+     ],
+     "reviewHistory": []
     },
     {
      "country": "JP",
@@ -513,6 +971,7 @@
    "name": "ASUS RTX Spark 筆電",
    "brand": "asus",
    "line": "rtx",
+   "page": "",
    "specs": {
     "chip": "NVIDIA N1X（與 MediaTek 共同開發）",
     "cpu": "20 核 Arm",
@@ -526,6 +985,8 @@
     "storage": "—",
     "form": "筆記型"
    },
+   "specSource": "",
+   "specScraped": [],
    "facets": {
     "memory": "最高 128 GB",
     "storage": "—",
@@ -569,13 +1030,25 @@
      "offers": []
     }
    ],
-   "signals": []
+   "signals": [
+    {
+     "status": "announced",
+     "countries": [
+      "TW"
+     ],
+     "title": "ASUS Announces RTX Spark-Powered ProArt Models, Partners With Qualcomm To Deploy Pharmaceutical AI Agent In Taiwan - Pokde.Net",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE02S0FLWGh0NnBNMVQwclFnVmVYN3Q5aG1kY2lDWFZOOVlOOEtCSXNMVzZiMDR6ODc0ZnA3dnhUd0d4ZUNFajZZTUFrR1kxbWMxVm4waTdtRG9iZnh6TnBjVTBEaHdJUUhIcWRqMXhvUjA0ZUxSRktPYmphSQ?oc=5",
+     "source": "Pokde.Net",
+     "date": "2026-09-06 22:31"
+    }
+   ]
   },
   {
    "id": "rtx-spark-dell",
    "name": "Dell RTX Spark 機種",
    "brand": "dell",
    "line": "rtx",
+   "page": "",
    "specs": {
     "chip": "NVIDIA N1X（與 MediaTek 共同開發）",
     "cpu": "20 核 Arm",
@@ -589,6 +1062,8 @@
     "storage": "—",
     "form": "筆記型 / 小型桌機"
    },
+   "specSource": "",
+   "specScraped": [],
    "facets": {
     "memory": "最高 128 GB",
     "storage": "—",
@@ -639,6 +1114,7 @@
    "name": "HP RTX Spark 機種",
    "brand": "hp",
    "line": "rtx",
+   "page": "",
    "specs": {
     "chip": "NVIDIA N1X（與 MediaTek 共同開發）",
     "cpu": "20 核 Arm",
@@ -652,6 +1128,8 @@
     "storage": "—",
     "form": "筆記型"
    },
+   "specSource": "",
+   "specScraped": [],
    "facets": {
     "memory": "最高 128 GB",
     "storage": "—",
@@ -695,13 +1173,55 @@
      "offers": []
     }
    ],
-   "signals": []
+   "signals": [
+    {
+     "status": "announced",
+     "countries": [],
+     "title": "HP Unveils OmniBook Ultra 16 and X 14 with NVIDIA RTX Spark - Technetbook",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdFJhRW14MldNa3VzMGo3aXJFS2NPVDd2SW9DVFFTcnFxV05ucEVaN05xTFk0QVRUZVB0M1g5TWZxR2NMSHZNYi1DdkZQVEcwMnlGSS1sZndvb2lKUEhqdUl1bUw1ekh2azkwTkpWNkZuNHdJNk8xX2VYWEVoazdSTGxOUUtVZw?oc=5",
+     "source": "Technetbook",
+     "date": "2026-09-06 01:51"
+    },
+    {
+     "status": "announced",
+     "countries": [],
+     "title": "HP Announces Three Nvidia RTX Spark-Powered PCs - Thurrott.com",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSTNxYURqelFPSjF6SnFlckF5ZTJZX1QxS2dHc2RDVi1acEs2VFZBRmNWWDlvLUFpMnI2QWZIblJ2MFQ3b2l2bFdHbjgwdFp4Z2hjWVZUVmpPWjk5R3NWYXYyYUx0X2hfeE0tczFSZDJKX3Y4XzRFRHlSVlR5RVdKUHhfR2J5NzNlVG9nNG40MXR2TUsyZTB6VGVVWTZrLVE?oc=5",
+     "source": "Thurrott.com",
+     "date": "2026-09-05 21:35"
+    },
+    {
+     "status": "announced",
+     "countries": [],
+     "title": "HP unveils the world's thinnest Nvidia RTX Spark laptops for professionals and gamers alike - XDA",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZl85T25JQ19qbkpuQU5WWW03eXpXM0VsRDBmcEVsLXBZY0prMy1fZFRvZ0NXSXQwOWJxSjF4eC1zUnUyVkMydzlwd19fTDdyOHJORFNBQ3ViZ2otOS1HOEs0eVBGR05qbGotVHVmMWRmcFdZTk1WVWpxYXlIYWRIN1VSV1NQdlNCWElrSHFqTHY1Y29BVU1SalVHcUFJdzkwQXFWX3daS05uZVRaY2VBb293aXFTSUkzei0zbUNlSQ?oc=5",
+     "source": "XDA",
+     "date": "2026-09-05 03:44"
+    },
+    {
+     "status": "announced",
+     "countries": [],
+     "title": "HP announces new OmniBook PCs powered by Nvidia RTX Spark - TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYWhreTMzV29uS2F3cmd1S3c4SDhZTWc4ckhLcHFsVFY2U0lueDNCeXR6eHhBYTctZUJ3ak9VWElYS3FGeGc5T3NGallQWmFUVUtLZXdDbkN1T1E5ZllPMUgwRmx6OVRuOHd4TXQxTTRoalVYc1hUajMwb0Y1TVl0eUpKa1VJM0RKbDNSaVJRbHBIeDlrcDdGVkZyRm1MQUtxVVFHRUVsLVVfQTQ?oc=5",
+     "source": "TipRanks",
+     "date": "2026-09-05 03:08"
+    },
+    {
+     "status": "announced",
+     "countries": [],
+     "title": "HP unveils two new OmniBook laptops powered by Nvidia RTX Spark - streetinsider.com",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNlM5R19ZVm56WjRUa2JsUzBhQlcxSVVWS3pWNl9JeGJUckozN0JybFNpNm1JSFpaSFRIRzNzSjJIN1FYdHZMN05mSk9xZmR5eFNWZjM3ZEF3QTdiZExSMW1nUjRlRU40eUhOVFJodElBZndDVHROU09mcmw3VWIwenp1RzJQc2txYkNlcEJLR1hWLTlhVGp1ODhic0NnSTNkZVM3eTMxX0MzejBramMwQWwyRG9vLVktSk9MdldScw?oc=5",
+     "source": "streetinsider.com",
+     "date": "2026-09-05 02:17"
+    }
+   ]
   },
   {
    "id": "rtx-spark-lenovo",
    "name": "Lenovo Yoga Pro 9n / Yoga 9n",
    "brand": "lenovo",
    "line": "rtx",
+   "page": "",
    "specs": {
     "chip": "NVIDIA N1X（與 MediaTek 共同開發）",
     "cpu": "20 核 Arm",
@@ -715,6 +1235,8 @@
     "storage": "—",
     "form": "筆記型"
    },
+   "specSource": "",
+   "specScraped": [],
    "facets": {
     "memory": "最高 128 GB",
     "storage": "—",
@@ -758,13 +1280,23 @@
      "offers": []
     }
    ],
-   "signals": []
+   "signals": [
+    {
+     "status": "announced",
+     "countries": [],
+     "title": "Nvidia's game-changing RTX Spark laptops are coming in October - but price information is still MIA",
+     "url": "https://www.techradar.com/computing/laptops/nvidias-game-changing-rtx-spark-laptops-are-coming-in-october-but-price-information-is-still-mia",
+     "source": "TechRadar Pro",
+     "date": "2026-09-04 00:00"
+    }
+   ]
   },
   {
    "id": "rtx-spark-msi",
    "name": "MSI RTX Spark 機種",
    "brand": "msi",
    "line": "rtx",
+   "page": "",
    "specs": {
     "chip": "NVIDIA N1X（與 MediaTek 共同開發）",
     "cpu": "20 核 Arm",
@@ -778,6 +1310,8 @@
     "storage": "—",
     "form": "筆記型"
    },
+   "specSource": "",
+   "specScraped": [],
    "facets": {
     "memory": "最高 128 GB",
     "storage": "—",
@@ -821,13 +1355,23 @@
      "offers": []
     }
    ],
-   "signals": []
+   "signals": [
+    {
+     "status": "announced",
+     "countries": [],
+     "title": "MSI發表首款搭載NVIDIA RTX Spark筆電 性能特色一次看 - 三立新聞",
+     "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9iZmJLaEpmMWpJQzJ1Rmg4My1VVGdHTWo1Y0JYZ1hPVFotM2ctamVYaGo1YndieXRYUG9vSHJXQlJnWEtZY0FucdIBTEFVX3lxTFBkMlEyU2RIMU9HUFUyMGptU2JkS202c2xEa1IzZGZYSFhYRElmNl9ndE5INWNzTVM3d0tFSTd1Y3JteWdkcER1MV9ReVY?oc=5",
+     "source": "三立新聞",
+     "date": "2026-09-05 02:42"
+    }
+   ]
   },
   {
    "id": "rtx-spark-surface",
    "name": "Microsoft Surface（RTX Spark）",
    "brand": "microsoft",
    "line": "rtx",
+   "page": "",
    "specs": {
     "chip": "NVIDIA N1X（與 MediaTek 共同開發）",
     "cpu": "20 核 Arm",
@@ -841,6 +1385,8 @@
     "storage": "—",
     "form": "筆記型"
    },
+   "specSource": "",
+   "specScraped": [],
    "facets": {
     "memory": "最高 128 GB",
     "storage": "—",
@@ -891,6 +1437,7 @@
    "name": "Acer RTX Spark 機種",
    "brand": "acer",
    "line": "rtx",
+   "page": "",
    "specs": {
     "chip": "NVIDIA N1X（與 MediaTek 共同開發）",
     "cpu": "20 核 Arm",
@@ -904,6 +1451,8 @@
     "storage": "—",
     "form": "筆記型"
    },
+   "specSource": "",
+   "specScraped": [],
    "facets": {
     "memory": "最高 128 GB",
     "storage": "—",
@@ -954,6 +1503,7 @@
    "name": "GIGABYTE RTX Spark 機種",
    "brand": "gigabyte",
    "line": "rtx",
+   "page": "",
    "specs": {
     "chip": "NVIDIA N1X（與 MediaTek 共同開發）",
     "cpu": "20 核 Arm",
@@ -967,6 +1517,8 @@
     "storage": "—",
     "form": "筆記型"
    },
+   "specSource": "",
+   "specScraped": [],
    "facets": {
     "memory": "最高 128 GB",
     "storage": "—",

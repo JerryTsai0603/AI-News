@@ -1,0 +1,323 @@
+{
+ "channel": "dgx",
+ "version": "v17",
+ "fetchedAt": "2026-09-06T23:49:17.019628+08:00",
+ "edition": "2026-09-06",
+ "count": 9,
+ "languages": [
+  "zh-TW",
+  "zh-CN",
+  "en",
+  "ja",
+  "ko",
+  "de",
+  "es",
+  "fr",
+  "it"
+ ],
+ "byGroup": {
+  "asus": 1,
+  "acer": 0,
+  "hp": 0,
+  "msi": 0,
+  "dell": 0,
+  "lenovo": 0,
+  "gigabyte": 0,
+  "microsoft": 0,
+  "nvidia": 5
+ },
+ "byLine": {},
+ "items": [
+  {
+   "title": "DGX Spark A Grace Blackwell AI Supercomputer on your desk",
+   "source": "NVIDIA DGX Spark",
+   "url": "https://www.nvidia.com/en-us/products/workstations/dgx-spark/",
+   "date": "2026-09-06 23:49",
+   "publishedAt": "2026-09-06T23:49:17.161402+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark",
+    "Grace Blackwell"
+   ],
+   "tag": "官方發布",
+   "camps": [
+    "nvidia"
+   ],
+   "press": true,
+   "heat": 23,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "DGX Spark A Grace Blackwell AI Supercomputer on your desk",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "DGX Station Desktop AI supercomputer for scalable model training and development",
+   "source": "NVIDIA DGX Spark",
+   "url": "https://www.nvidia.com/en-us/products/workstations/dgx-station/",
+   "date": "2026-09-06 23:49",
+   "publishedAt": "2026-09-06T23:49:17.161402+08:00",
+   "summary": "",
+   "models": [
+    "DGX Station"
+   ],
+   "tag": "官方發布",
+   "camps": [
+    "other"
+   ],
+   "press": true,
+   "heat": 23,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "DGX Station Desktop AI supercomputer for scalable model training and development",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Browse DGX Spark Playbooks",
+   "source": "NVIDIA DGX Spark",
+   "url": "http://build.nvidia.com/spark",
+   "date": "2026-09-06 23:49",
+   "publishedAt": "2026-09-06T23:49:17.161402+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "官方發布",
+   "camps": [
+    "nvidia"
+   ],
+   "press": true,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Browse DGX Spark Playbooks",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "ASUS Ascent GX10: Um Supercomputador de IA em Miniatura!",
+   "source": "YouTube · Atacado Connect",
+   "url": "https://www.youtube.com/watch?v=iOhk0g4mwpY",
+   "date": "2026-09-06 23:00",
+   "publishedAt": "2026-09-06T23:00:09+08:00",
+   "summary": "O ASUS Ascent GX10 é um mini PC desenvolvido para rodar inteligência artificial localmente, trazendo a plataforma NVIDIA GB10 Grace Blackwell, 128 GB de memória unificada e desempenho de até 1 petaFLO",
+   "models": [
+    "GB10",
+    "Ascent GX10",
+    "Grace Blackwell"
+   ],
+   "tag": "影片",
+   "camps": [
+    "asus"
+   ],
+   "press": false,
+   "heat": 100,
+   "image": "https://i.ytimg.com/vi/iOhk0g4mwpY/mqdefault.jpg",
+   "views": 12989,
+   "comments": 11,
+   "dupes": 27,
+   "also": [
+    "YouTube · Alex Ziskind",
+    "YouTube · Микрофон и мишка",
+    "YouTube · TrendArc",
+    "YouTube · AI FIRST",
+    "YouTube · Wendy Labs",
+    "YouTube · 베리굿"
+   ],
+   "lines": [],
+   "score": 165,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "ASUS Ascent GX10: Um Supercomputador de IA em Miniatura!",
+     "summary": "O ASUS Ascent GX10 é um mini PC desenvolvido para rodar inteligência artificial localmente, trazendo a plataforma NVIDIA GB10 Grace Blackwell, 128 GB de memória unificada e desempenho de até 1 petaFLO"
+    }
+   }
+  },
+  {
+   "title": "AMD於IFA 2026大秀地端算力！以Threadripper Halo Station叫陣NVIDIA DGX Station | 科技新情報 - udn科技玩家",
+   "source": "udn科技玩家",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1pNW9sdkU5SHhXUkNHOWhraVhfRnJxUUstX2o0MjRKU0kyMTFmTlJyVDcwTFZRU0l0VVBiQlFlenF6NExOY3dRWllPbV9Ua0hDUElNM1FDQ1BJUQ?oc=5",
+   "date": "2026-09-06 07:39",
+   "publishedAt": "2026-09-06T07:39:54+08:00",
+   "summary": "",
+   "models": [
+    "DGX Station"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "AMD於IFA 2026大秀地端算力！以Threadripper Halo Station叫陣NVIDIA DGX Station | 科技新情報 - udn科技玩家",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "DGX Spark Windows 線索：本週韌體新增 Windows 啟動證書，NVIDIA 公佈十月詳情… - storagereview.com",
+   "source": "storagereview.com",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOWXhlUHFzb1ByX3RBb0lPdXVrWmVBalBkTGZJbm1LenczUjJmMWwwai1HUGhzR2FDR2g1UW1GX0VaeVQ0aWZqTG5NSk5xRklERDNxT0ZSMTY1LVRjMUJ5LTBORWlPVkdSc2VVVjc1bXpaSHJKQXc5SFhnTDlTUGJaV1IzQmNfLUxiMlNBWnFkRGN3b3l2Q1FNcnJ3dDlBeHZ3aHVaLXFaendhMDd0VTBkcTVZRjdENW1ldGx5YV9GR0ZXQzVqazB6STVZOTAybTJPa1I5TThZbnN3UdIB3wFBVV95cUxQb1pGUFdMNEtNdG95UE9xYXRERldUQm1NUzhRMDlyUWh0S0tIUDJycGdpODJhUnlLZ21obW5KOU0zM2hmRDVDVzRoT181RTNVR2FPY3RLN29Qc3JrNU5mTmJPM3NyeDlLSTdCekZ4UzNXTXF2eGpJdGVvd1pjWkE0UjJsdGJlVjZ4TUkycFdBd2R5ZS1aT3BMdFJlU1V6Y19TU1hlVHo2ZVp3ZE1sLWV2UW9YZGdxRXBUU1VzdU9kTmd0Z3I2am5tcnJvRXZTSlBYMlJ5NFJUTjUzV0VBZTNZ?oc=5",
+   "date": "2026-09-05 11:59",
+   "publishedAt": "2026-09-05T11:59:24+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "開箱評測",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 17,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "DGX Spark Windows 線索：本週韌體新增 Windows 啟動證書，NVIDIA 公佈十月詳情… - storagereview.com",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "DGX Spark Windows Clue: This Week’s Firmware Adds a Windows Boot Certificate as NVIDIA Details Octobe... - StorageReview.com",
+   "source": "StorageReview.com",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPdm4wLTVkMktTS1p3MHRQY0dBUmNCU0Z3TGN4RFd1MVViYl9KTmNFYUpWWmlCQzVxOTVyXzVTSnpUMG5mXzRKcHlNcXllcDVFdzFpZENwVjBsd1lFQW8tSFhvdi1ad3dSVTJ0NjJnT09jVXhsZkV5YzJVeTdKZFlyMDM0UDlrU0xSWHF3TFVfdFgtYjY0M1Mxbzk2a1NyTk1hTnUzWjdkM05MNHRjOU1rRFZPaDVkdWVJTV8tSXZNQThjUE1nM1FWT2hWSFhydU41T2fSAdcBQVVfeXFMTVZVSWlTbnpXQ2lQYTVKQk1oVkoyV2tEQTZHRG0zdHFPVFEzY29PZ09HUGI5cmJCUU13Y0cxUlp6UEhOeDBibWJsUF81cnNJRXZQQ0M4UW1aUElidXFhdG91cXA4TXBURmsxLXpiWmV3clVjbzduLXN3a1FkT1UwbmZ3NWowNlRYMXJjSW4tOHoxQ2F4LUxBc2ZDUjJQdlNST1BINmZDQkQ2WlhiaWhEbFAtdGlDcHk4Q0xkcjBrRDlLajdiX25DcjVQNHhiQXIzS1o3X1JLalU?oc=5",
+   "date": "2026-09-05 08:27",
+   "publishedAt": "2026-09-05T08:27:47+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "開箱評測",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 9,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "DGX Spark Windows Clue: This Week’s Firmware Adds a Windows Boot Certificate as NVIDIA Details Octobe... - StorageReview.com",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "DGX Spark Windows Clue: This Week’s Firmware Adds a Windows Boot Certificate as NVIDIA Details October RTX Spark PCs",
+   "source": "StorageReview",
+   "url": "https://www.storagereview.com/news/dgx-spark-windows-clue-firmware-adds-windows-boot-certificate-as-nvidia-details-october-rtx-spark-pcs",
+   "date": "2026-09-05 08:25",
+   "publishedAt": "2026-09-05T08:25:04+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "規格效能",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 9,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "DGX Spark Windows Clue: This Week’s Firmware Adds a Windows Boot Certificate as NVIDIA Details October RTX Spark PCs",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "AMD Reveals Threadripper Halo Station: 96 Cores and up to 576GB of HBM3E Aimed Straight at DGX Station - StorageReview.com",
+   "source": "StorageReview.com",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPemxqcmkwOVN1WkY2OWJ0WlhyeGJra2xPbjNuOW4zNHRxeThOOG1JOWRBQXNGcUhiV1BwRmhrX1JtTDhGeW91aXRYZDdmaWdhd2NHbUl0REFqc0J5T1U4LU9CQThWV2szZFNwQ2VfdkFkaEVwMVJvWjM1LWxBR0ZYQ1kyZGxyRm5WLXFXN01qYnNhaEJiSHQ3Q0JobS12dklydUJnMlI3bW1uTDlybjdYVkZ1aTl5bzZIaFZ1SUkzaDduTlQycnNVUVdiWXBJbDlNQTNFMXUxQdIB1wFBVV95cUxPemxqcmkwOVN1WkY2OWJ0WlhyeGJra2xPbjNuOW4zNHRxeThOOG1JOWRBQXNGcUhiV1BwRmhrX1JtTDhGeW91aXRYZDdmaWdhd2NHbUl0REFqc0J5T1U4LU9CQThWV2szZFNwQ2VfdkFkaEVwMVJvWjM1LWxBR0ZYQ1kyZGxyRm5WLXFXN01qYnNhaEJiSHQ3Q0JobS12dklydUJnMlI3bW1uTDlybjdYVkZ1aTl5bzZIaFZ1SUkzaDduTlQycnNVUVdiWXBJbDlNQTNFMXUxQQ?oc=5",
+   "date": "2026-09-05 00:09",
+   "publishedAt": "2026-09-05T00:09:01+08:00",
+   "summary": "",
+   "models": [
+    "DGX Station"
+   ],
+   "tag": "開箱評測",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 16,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [
+    "StorageReview"
+   ],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "AMD Reveals Threadripper Halo Station: 96 Cores and up to 576GB of HBM3E Aimed Straight at DGX Station - StorageReview.com",
+     "summary": ""
+    }
+   }
+  }
+ ]
+}
