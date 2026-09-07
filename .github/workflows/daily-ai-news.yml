@@ -70,17 +70,23 @@ jobs:
           echo "::warning::推送重試 3 次仍失敗"
 
   # ── 第二段：價格與規格。跑在你自己的電腦上，用住宅 IP 避開 403 ──
-  # Windows runner 一律用 PowerShell：若用 bash，runner 可能抓到 WSL 的
-  # /bin/bash，它看不懂 C:\ 開頭的路徑，會出現找不到腳本的錯誤。
+  # 兩個 Windows 專屬的坑：
+  #   1. 用 bash 會抓到 WSL 的 /bin/bash，看不懂 C:\ 路徑 → 一律用 PowerShell
+  #   2. runner 產生的 .ps1 沒有 BOM，PowerShell 5.1 用 cp950 解讀，
+  #      腳本內若有中文會變成語法錯誤 → run: 區塊裡只寫 ASCII
   shop:
     needs: news
-    if: always()                # 新聞那段失敗也照樣試著更新價格
+    if: always()
     runs-on: self-hosted
     timeout-minutes: 40
-    continue-on-error: true     # 電腦沒開時不要把整趟標成失敗
+    continue-on-error: true
     defaults:
       run:
         shell: powershell
+    env:
+      # 讓 Python 用 UTF-8 輸出，否則 cp950 編不出日誌裡的符號會整支中斷
+      PYTHONIOENCODING: "utf-8"
+      PYTHONUTF8: "1"
     steps:
       - uses: actions/checkout@v4
 
@@ -115,19 +121,19 @@ jobs:
           git add data/
           git diff --staged --quiet
           if ($LASTEXITCODE -eq 0) {
-            Write-Host "沒有新資料"
+            Write-Host "No changes to commit"
             exit 0
           }
-          git commit -m ("價格規格更新 " + (Get-Date -Format "yyyy-MM-dd HH:mm"))
+          git commit -m ("shop data update " + (Get-Date -Format "yyyy-MM-dd HH:mm"))
           for ($i = 1; $i -le 3; $i++) {
             git push
             if ($LASTEXITCODE -eq 0) {
-              Write-Host "推送成功"
+              Write-Host "Push OK"
               exit 0
             }
-            Write-Host "推送失敗，第 $i 次重試"
+            Write-Host "Push failed, retry $i"
             Start-Sleep -Seconds (Get-Random -Minimum 4 -Maximum 12)
             git pull --rebase --autostash origin main
           }
-          Write-Host "::warning::推送重試 3 次仍失敗"
+          Write-Host "::warning::Push failed after 3 retries"
           exit 0
