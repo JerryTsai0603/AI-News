@@ -1,6 +1,6 @@
 {
- "version": "v21",
- "fetchedAt": "2026-09-07T15:53:55.640863+08:00",
+ "version": "v24",
+ "fetchedAt": "2026-09-07T23:19:44.788752+08:00",
  "edition": "2026-09-07",
  "count": 16,
  "products": [
@@ -11,8 +11,8 @@
    "line": "dgx",
    "page": "",
    "specs": {
-    "chip": "其他顯卡",
-    "cpu": "其他處理器",
+    "chip": "NVIDIA GB10 Grace Blackwell",
+    "cpu": "20 核 Arm（10× Cortex-X925 + 10× A725）",
     "gpu": "Blackwell（第 5 代 Tensor Core）",
     "aiPerf": "1 PFLOPS FP4",
     "memory": "128GB",
@@ -20,19 +20,17 @@
     "network": "ConnectX-7 200 Gb/s",
     "os": "NVIDIA DGX OS",
     "power": "約 240 W",
-    "storage": "4 TB NVMe",
-    "form": "桌上型"
+    "storage": "4 TB NVMe"
    },
    "specSource": "https://24h.pchome.com.tw/prod/DRADUB-A900JV1U7",
    "specScraped": [
-    "chip",
-    "cpu",
     "memory"
    ],
+   "form": "desktop",
    "facets": {
     "memory": "128GB",
     "storage": "4 TB NVMe",
-    "form": "桌上型"
+    "form": "desktop"
    },
    "markets": [
     {
@@ -46,13 +44,6 @@
        "price": 239900.0,
        "currency": "TWD",
        "url": "https://24h.pchome.com.tw/prod/DSAMAT-A900K5JIW"
-      },
-      {
-       "platform": "PChome 24h",
-       "title": "Leadtek 麗臺 NVIDIA DGX Spark - NVIDIA GB10/128G記憶體/4TB SSD/NVIDIA DGX OS 作業系統兩入組",
-       "price": 439800.0,
-       "currency": "TWD",
-       "url": "https://24h.pchome.com.tw/prod/DSAMAT-A900K5R7C"
       },
       {
        "platform": "PChome 24h",
@@ -139,7 +130,30 @@
      "country": "FR",
      "region": "emea",
      "status": "launched",
-     "offers": []
+     "offers": [
+      {
+       "platform": "LDLC",
+       "title": "PNY NVIDIA DGX Spark (NVDGXSPARK-PB)",
+       "price": 6099.95,
+       "currency": "EUR",
+       "url": "https://www.ldlc.com/fiche/PB00733846.html"
+      }
+     ],
+     "best": {
+      "platform": "LDLC",
+      "title": "PNY NVIDIA DGX Spark (NVDGXSPARK-PB)",
+      "price": 6099.95,
+      "currency": "EUR",
+      "url": "https://www.ldlc.com/fiche/PB00733846.html"
+     },
+     "history": [
+      {
+       "d": "2026-09-07",
+       "p": 6099.95,
+       "c": "EUR"
+      }
+     ],
+     "reviewHistory": []
     }
    ],
    "signals": []
@@ -155,22 +169,22 @@
     "cpu": "20 核 Arm（10× Cortex-X925 + 10× A725）",
     "gpu": "Blackwell（第 5 代 Tensor Core）",
     "aiPerf": "1 PFLOPS FP4",
-    "memory": "128 GB LPDDR5X 統一記憶體",
+    "memory": "128GB",
     "bandwidth": "273 GB/s",
-    "network": "Routers",
+    "network": "ConnectX-7 200 Gb/s",
     "os": "NVIDIA DGX OS",
     "power": "約 240 W",
-    "storage": "1 TB NVMe",
-    "form": "桌上型"
+    "storage": "1 TB NVMe"
    },
-   "specSource": "https://www.asus.com/networking-iot-servers/ai-servers/ascent/asus-ascent-gx10/",
+   "specSource": "https://24h.pchome.com.tw/prod/DSAUZ2-A900JX7XQ",
    "specScraped": [
-    "network"
+    "memory"
    ],
+   "form": "desktop",
    "facets": {
-    "memory": "128 GB",
+    "memory": "128GB",
     "storage": "1 TB NVMe",
-    "form": "桌上型"
+    "form": "desktop"
    },
    "markets": [
     {
@@ -196,24 +210,10 @@
       },
       {
        "platform": "PChome 24h",
-       "title": "ASUS 華碩 〈限時〉Ascent GX10 桌上型AI超級電腦+QNAP TS-464-8G NAS伺服器",
-       "price": 246900.0,
-       "currency": "TWD",
-       "url": "https://24h.pchome.com.tw/prod/DSAANT-A900KDMOW"
-      },
-      {
-       "platform": "PChome 24h",
        "title": "ASUS 華碩 Ascent GX10系列 - NVIDIA GB10/128G記憶體/1TB SSD/NVIDIA DGX OS 作業系統",
        "price": 199900.0,
        "currency": "TWD",
        "url": "https://24h.pchome.com.tw/prod/DSAM22-A900K801U"
-      },
-      {
-       "platform": "PChome 24h",
-       "title": "ASUS 華碩 〈限時〉Ascent GX10 桌上型AI超級電腦+QNAP TS-264-8G NAS伺服器",
-       "price": 176900.0,
-       "currency": "TWD",
-       "url": "https://24h.pchome.com.tw/prod/DSAANT-A900KDMWV"
       }
      ],
      "best": {
@@ -305,15 +305,15 @@
     "network": "ConnectX-7 200 Gb/s",
     "os": "NVIDIA DGX OS",
     "power": "約 240 W",
-    "storage": "1 TB / 4 TB NVMe",
-    "form": "桌上型"
+    "storage": "1 TB / 4 TB NVMe"
    },
    "specSource": "",
    "specScraped": [],
+   "form": "desktop",
    "facets": {
     "memory": "128 GB",
     "storage": "1 TB / 4 TB NVMe",
-    "form": "桌上型"
+    "form": "desktop"
    },
    "markets": [
     {
@@ -371,15 +371,15 @@
     "network": "ConnectX-7 200 Gb/s",
     "os": "NVIDIA DGX OS",
     "power": "約 240 W",
-    "storage": "4 TB NVMe",
-    "form": "桌上型"
+    "storage": "4 TB NVMe"
    },
    "specSource": "",
    "specScraped": [],
+   "form": "desktop",
    "facets": {
     "memory": "128 GB",
     "storage": "4 TB NVMe",
-    "form": "桌上型"
+    "form": "desktop"
    },
    "markets": [
     {
@@ -437,15 +437,15 @@
     "network": "ConnectX-7 200 Gb/s",
     "os": "NVIDIA DGX OS",
     "power": "約 240 W",
-    "storage": "1 TB / 4 TB NVMe",
-    "form": "桌上型"
+    "storage": "1 TB / 4 TB NVMe"
    },
    "specSource": "",
    "specScraped": [],
+   "form": "desktop",
    "facets": {
     "memory": "128 GB",
     "storage": "1 TB / 4 TB NVMe",
-    "form": "桌上型"
+    "form": "desktop"
    },
    "markets": [
     {
@@ -503,15 +503,15 @@
     "network": "ConnectX-7 200 Gb/s",
     "os": "NVIDIA DGX OS",
     "power": "約 240 W",
-    "storage": "4 TB NVMe",
-    "form": "桌上型"
+    "storage": "4 TB NVMe"
    },
    "specSource": "",
    "specScraped": [],
+   "form": "desktop",
    "facets": {
     "memory": "128 GB",
     "storage": "4 TB NVMe",
-    "form": "桌上型"
+    "form": "desktop"
    },
    "markets": [
     {
@@ -560,8 +560,8 @@
    "line": "dgx",
    "page": "https://www.msi.com/AI-PC/EdgeXpert-MS-C931",
    "specs": {
-    "chip": "內建顯示晶片",
-    "cpu": "其他處理器",
+    "chip": "NVIDIA GB10 Grace Blackwell",
+    "cpu": "20 核 Arm（10× Cortex-X925 + 10× A725）",
     "gpu": "Blackwell（第 5 代 Tensor Core）",
     "aiPerf": "1 PFLOPS FP4",
     "memory": "128GB",
@@ -569,19 +569,17 @@
     "network": "ConnectX-7 200 Gb/s",
     "os": "NVIDIA DGX OS",
     "power": "約 240 W",
-    "storage": "1 TB / 4 TB NVMe",
-    "form": "邊緣工作站"
+    "storage": "1 TB / 4 TB NVMe"
    },
    "specSource": "https://24h.pchome.com.tw/prod/DSAM25-A900JYSNT",
    "specScraped": [
-    "chip",
-    "cpu",
     "memory"
    ],
+   "form": "edge",
    "facets": {
     "memory": "128GB",
     "storage": "1 TB / 4 TB NVMe",
-    "form": "邊緣工作站"
+    "form": "edge"
    },
    "markets": [
     {
@@ -662,7 +660,30 @@
      "country": "FR",
      "region": "emea",
      "status": "launched",
-     "offers": []
+     "offers": [
+      {
+       "platform": "LDLC",
+       "title": "MSI EdgeXpert MS-C931 32SEU-BGB104TG5",
+       "price": 6299.95,
+       "currency": "EUR",
+       "url": "https://www.ldlc.com/fiche/PB00711276.html"
+      }
+     ],
+     "best": {
+      "platform": "LDLC",
+      "title": "MSI EdgeXpert MS-C931 32SEU-BGB104TG5",
+      "price": 6299.95,
+      "currency": "EUR",
+      "url": "https://www.ldlc.com/fiche/PB00711276.html"
+     },
+     "history": [
+      {
+       "d": "2026-09-07",
+       "p": 6299.95,
+       "c": "EUR"
+      }
+     ],
+     "reviewHistory": []
     }
    ],
    "signals": []
@@ -674,8 +695,8 @@
    "line": "dgx",
    "page": "https://www.gigabyte.com/Consumer/AI-TOP-ATOM",
    "specs": {
-    "chip": "內建顯示晶片",
-    "cpu": "其他處理器",
+    "chip": "NVIDIA GB10 Grace Blackwell",
+    "cpu": "20 核 Arm（10× Cortex-X925 + 10× A725）",
     "gpu": "Blackwell（第 5 代 Tensor Core）",
     "aiPerf": "1 PFLOPS FP4",
     "memory": "128GB",
@@ -683,19 +704,17 @@
     "network": "ConnectX-7 200 Gb/s",
     "os": "NVIDIA DGX OS",
     "power": "約 240 W",
-    "storage": "4 TB NVMe",
-    "form": "桌上型"
+    "storage": "4 TB NVMe"
    },
    "specSource": "https://24h.pchome.com.tw/prod/DSAA08-A900JYHGA",
    "specScraped": [
-    "chip",
-    "cpu",
     "memory"
    ],
+   "form": "desktop",
    "facets": {
     "memory": "128GB",
     "storage": "4 TB NVMe",
-    "form": "桌上型"
+    "form": "desktop"
    },
    "markets": [
     {
@@ -795,15 +814,15 @@
     "network": "—",
     "os": "Windows on Arm",
     "power": "—",
-    "storage": "—",
-    "form": "筆記型"
+    "storage": "—"
    },
    "specSource": "",
    "specScraped": [],
+   "form": "laptop",
    "facets": {
     "memory": "最高 128 GB",
     "storage": "—",
-    "form": "筆記型"
+    "form": "laptop"
    },
    "markets": [
     {
@@ -857,9 +876,9 @@
      "countries": [
       "TW"
      ],
-     "title": "ASUS Announces RTX Spark-Powered ProArt Models, Partners With Qualcomm To Deploy Pharmaceutical AI Agent In Taiwan - pokde.net",
+     "title": "ASUS Announces RTX Spark-Powered ProArt Models, Partners With Qualcomm To Deploy Pharmaceutical AI Agent In Taiwan - Pokde.Net",
      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE02S0FLWGh0NnBNMVQwclFnVmVYN3Q5aG1kY2lDWFZOOVlOOEtCSXNMVzZiMDR6ODc0ZnA3dnhUd0d4ZUNFajZZTUFrR1kxbWMxVm4waTdtRG9iZnh6TnBjVTBEaHdJUUhIcWRqMXhvUjA0ZUxSRktPYmphSQ?oc=5",
-     "source": "pokde.net",
+     "source": "Pokde.Net",
      "date": "2026-09-06 22:31"
     }
    ]
@@ -880,15 +899,15 @@
     "network": "—",
     "os": "Windows on Arm",
     "power": "—",
-    "storage": "—",
-    "form": "筆記型 / 小型桌機"
+    "storage": "—"
    },
    "specSource": "",
    "specScraped": [],
+   "form": "laptop",
    "facets": {
     "memory": "最高 128 GB",
     "storage": "—",
-    "form": "筆記型 / 小型桌機"
+    "form": "laptop"
    },
    "markets": [
     {
@@ -946,15 +965,15 @@
     "network": "—",
     "os": "Windows on Arm",
     "power": "—",
-    "storage": "—",
-    "form": "筆記型"
+    "storage": "—"
    },
    "specSource": "",
    "specScraped": [],
+   "form": "laptop",
    "facets": {
     "memory": "最高 128 GB",
     "storage": "—",
-    "form": "筆記型"
+    "form": "laptop"
    },
    "markets": [
     {
@@ -1002,14 +1021,6 @@
      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdFJhRW14MldNa3VzMGo3aXJFS2NPVDd2SW9DVFFTcnFxV05ucEVaN05xTFk0QVRUZVB0M1g5TWZxR2NMSHZNYi1DdkZQVEcwMnlGSS1sZndvb2lKUEhqdUl1bUw1ekh2azkwTkpWNkZuNHdJNk8xX2VYWEVoazdSTGxOUUtVZw?oc=5",
      "source": "Technetbook",
      "date": "2026-09-06 01:51"
-    },
-    {
-     "status": "announced",
-     "countries": [],
-     "title": "HP Announces Three Nvidia RTX Spark-Powered PCs - Thurrott.com",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSTNxYURqelFPSjF6SnFlckF5ZTJZX1QxS2dHc2RDVi1acEs2VFZBRmNWWDlvLUFpMnI2QWZIblJ2MFQ3b2l2bFdHbjgwdFp4Z2hjWVZUVmpPWjk5R3NWYXYyYUx0X2hfeE0tczFSZDJKX3Y4XzRFRHlSVlR5RVdKUHhfR2J5NzNlVG9nNG40MXR2TUsyZTB6VGVVWTZrLVE?oc=5",
-     "source": "Thurrott.com",
-     "date": "2026-09-05 21:35"
     }
    ]
   },
@@ -1029,15 +1040,15 @@
     "network": "—",
     "os": "Windows on Arm",
     "power": "—",
-    "storage": "—",
-    "form": "筆記型"
+    "storage": "—"
    },
    "specSource": "",
    "specScraped": [],
+   "form": "laptop",
    "facets": {
     "memory": "最高 128 GB",
     "storage": "—",
-    "form": "筆記型"
+    "form": "laptop"
    },
    "markets": [
     {
@@ -1104,15 +1115,15 @@
     "network": "—",
     "os": "Windows on Arm",
     "power": "—",
-    "storage": "—",
-    "form": "筆記型"
+    "storage": "—"
    },
    "specSource": "",
    "specScraped": [],
+   "form": "laptop",
    "facets": {
     "memory": "最高 128 GB",
     "storage": "—",
-    "form": "筆記型"
+    "form": "laptop"
    },
    "markets": [
     {
@@ -1179,15 +1190,15 @@
     "network": "—",
     "os": "Windows on Arm",
     "power": "—",
-    "storage": "—",
-    "form": "筆記型"
+    "storage": "—"
    },
    "specSource": "",
    "specScraped": [],
+   "form": "laptop",
    "facets": {
     "memory": "最高 128 GB",
     "storage": "—",
-    "form": "筆記型"
+    "form": "laptop"
    },
    "markets": [
     {
@@ -1245,15 +1256,15 @@
     "network": "—",
     "os": "Windows on Arm",
     "power": "—",
-    "storage": "—",
-    "form": "筆記型"
+    "storage": "—"
    },
    "specSource": "",
    "specScraped": [],
+   "form": "laptop",
    "facets": {
     "memory": "最高 128 GB",
     "storage": "—",
-    "form": "筆記型"
+    "form": "laptop"
    },
    "markets": [
     {
@@ -1311,15 +1322,15 @@
     "network": "—",
     "os": "Windows on Arm",
     "power": "—",
-    "storage": "—",
-    "form": "筆記型"
+    "storage": "—"
    },
    "specSource": "",
    "specScraped": [],
+   "form": "laptop",
    "facets": {
     "memory": "最高 128 GB",
     "storage": "—",
-    "form": "筆記型"
+    "form": "laptop"
    },
    "markets": [
     {
