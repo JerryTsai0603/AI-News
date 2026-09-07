@@ -1,9 +1,9 @@
 {
  "channel": "rtx",
  "version": "v17",
- "fetchedAt": "2026-09-07T15:06:21.492874+08:00",
+ "fetchedAt": "2026-09-07T15:29:29.087244+08:00",
  "edition": "2026-09-07",
- "count": 30,
+ "count": 29,
  "languages": [
   "zh-TW",
   "zh-CN",
@@ -16,59 +16,60 @@
   "it"
  ],
  "byGroup": {
-  "asus": 3,
-  "acer": 3,
+  "asus": 4,
+  "acer": 2,
   "hp": 4,
-  "msi": 1,
+  "msi": 2,
   "dell": 0,
   "lenovo": 8,
   "gigabyte": 0,
   "microsoft": 1,
-  "nvidia": 10
+  "nvidia": 9
  },
  "byLine": {},
  "items": [
   {
-   "title": "Acer's tiny RTX Spark PC takes aim at Mac Studio with Blackwell and 128GB unified memory - | NEWS-MO",
-   "source": "YouTube · News Monster",
-   "url": "https://www.youtube.com/watch?v=v7eX_fzkopY",
-   "date": "2026-09-07 14:50",
-   "publishedAt": "2026-09-07T14:50:24+08:00",
-   "summary": "Acer's tiny RTX Spark PC takes aim at Mac Studio with Blackwell and 128GB unified memory - | NEWS-MONSTER Source: TweakTown #acer #technology #breaking #news-monster",
+   "title": "華碩.微星RTX Spark電腦秒殺!緊急急向輝達追單... PC下半年出貨恐下滑 \"保價不保量\"衝刺高階市場｜非凡財經新聞｜20260907",
+   "source": "YouTube · USTV 非凡電視",
+   "url": "https://www.youtube.com/watch?v=0Vyw1mdCykc",
+   "date": "2026-09-07 15:25",
+   "publishedAt": "2026-09-07T15:25:11+08:00",
+   "summary": "※下載非凡新聞ＡＰＰ看更多：https://reurl.cc/jr7A5p ※下載非凡商業ＡＰＰ學理財：https://reurl.cc/oYLj9j 更多內容 敬請鎖定 【非凡新聞台】【非凡商業台】 非凡電視台YouTube頻道 https://www.youtube.com/user/ustv 非凡電視台IG https://instagram.com/ustvnews 非凡電視台粉絲團 ht",
    "models": [
     "RTX Spark"
    ],
    "tag": "影片",
    "camps": [
-    "acer"
+    "asus",
+    "msi"
    ],
    "press": false,
    "heat": 100,
-   "image": "https://i.ytimg.com/vi/v7eX_fzkopY/mqdefault.jpg",
-   "views": 22203,
+   "image": "https://i.ytimg.com/vi/0Vyw1mdCykc/mqdefault.jpg",
+   "views": 22292,
    "comments": 41,
-   "dupes": 50,
+   "dupes": 49,
    "also": [
+    "YouTube · News Monster",
     "YouTube · SMARTmania.cz",
     "YouTube · BLACK BANDIT TECH",
     "YouTube · Eswara Vardhan Pappu - Tech",
     "YouTube · Sam Salhi",
-    "YouTube · Mobilissimo.ro",
-    "YouTube · SK Tech News + Gaming News"
+    "YouTube · Mobilissimo.ro"
    ],
    "lines": [],
-   "score": 231,
-   "lang": "en",
+   "score": 232,
+   "lang": "zh",
    "i18n": {
-    "en": {
-     "title": "Acer's tiny RTX Spark PC takes aim at Mac Studio with Blackwell and 128GB unified memory - | NEWS-MO",
-     "summary": "Acer's tiny RTX Spark PC takes aim at Mac Studio with Blackwell and 128GB unified memory - | NEWS-MONSTER Source: TweakTown #acer #technology #breaking #news-monster"
+    "zh-TW": {
+     "title": "華碩.微星RTX Spark電腦秒殺!緊急急向輝達追單... PC下半年出貨恐下滑 \"保價不保量\"衝刺高階市場｜非凡財經新聞｜20260907",
+     "summary": "※下載非凡新聞ＡＰＰ看更多：https://reurl.cc/jr7A5p ※下載非凡商業ＡＰＰ學理財：https://reurl.cc/oYLj9j 更多內容 敬請鎖定 【非凡新聞台】【非凡商業台】 非凡電視台YouTube頻道 https://www.youtube.com/user/ustv 非凡電視台IG https://instagram.com/ustvnews 非凡電視台粉絲團 ht"
     }
    }
   },
   {
-   "title": "Lenovo takes the wraps off 2 new Nvidia RTX Spark laptops at IFA 2026 - Mashable",
-   "source": "Mashable",
+   "title": "Lenovo takes the wraps off 2 new Nvidia RTX Spark laptops at IFA 2026 - mashable.com",
+   "source": "mashable.com",
    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9BQkFfbUd6TUtSSFR6WjFvbTdPVFYwM19SaWxsT0psZmU2dW1BUkpnbnpsUnhNbDhVUWdYRDZ4WEZqZ0w0MVFyUk15SE8xRWJla202bmRrY20ycWNpN0xxVlhldGZYX1d6MGNwOVpwdDlubWxGa3VBdVpnMA?oc=5",
    "date": "2026-09-07 14:15",
    "publishedAt": "2026-09-07T14:15:13+08:00",
@@ -92,7 +93,7 @@
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "Lenovo takes the wraps off 2 new Nvidia RTX Spark laptops at IFA 2026 - Mashable",
+     "title": "Lenovo takes the wraps off 2 new Nvidia RTX Spark laptops at IFA 2026 - mashable.com",
      "summary": ""
     }
    }
@@ -175,7 +176,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 23,
+   "heat": 22,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -206,7 +207,7 @@
     "asus"
    ],
    "press": false,
-   "heat": 23,
+   "heat": 22,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -441,8 +442,8 @@
    }
   },
   {
-   "title": "Acer's tiny RTX Spark PC takes aim at Mac Studio with Blackwell and 128GB unified memory - tweaktown.com",
-   "source": "tweaktown.com",
+   "title": "Acer's tiny RTX Spark PC takes aim at Mac Studio with Blackwell and 128GB unified memory - TweakTown",
+   "source": "TweakTown",
    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxObjMxRHBNeTZzb0pqZHRyZzFXMlBUYmtFUTlsQ1pYSDhWNGVlaExwLW5DSkdJZ29EdndadGo1MWczT0VScVdOMV9MWlk5Um9GTWRXMHlidFRrdWI3ZUYxUk5sLXRRemZFTTJhY1Z3YU5SR0NZZkRnMjBlNzFWaEdGYWJ3V2FwNWRIbldaT2dCRUsxSG1KWGZNelh1ZFpqQy1zdl80cTdTOVhwQ3Q5Z29vakV0T1htNWx6eWpCOWhLWDFiQ3B3azhuYkNhUTl5ZTRsaEE?oc=5",
    "date": "2026-09-06 06:36",
    "publishedAt": "2026-09-06T06:36:12+08:00",
@@ -466,7 +467,7 @@
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "Acer's tiny RTX Spark PC takes aim at Mac Studio with Blackwell and 128GB unified memory - tweaktown.com",
+     "title": "Acer's tiny RTX Spark PC takes aim at Mac Studio with Blackwell and 128GB unified memory - TweakTown",
      "summary": ""
     }
    }
@@ -498,37 +499,6 @@
    "i18n": {
     "zh-TW": {
      "title": "MSI發表首款搭載NVIDIA RTX Spark筆電 性能特色一次看 - 三立新聞",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Nvidia’s (NVDA) New RTX Spark Brings Local AI to Windows PC This October - TipRanks",
-   "source": "TipRanks",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOblpJWXVYV0lIc05GNEdQTW9KQVlORDIzVkpYdFlJcUhmWVFrVy1STi1WVXNRVXFvQ1RyQzl3ZlhqZGg2RnFialRncERDWVl2WHBrQzNhT1lJb3BDWGl4WnBvalJiLWhJQ0N5VWhPZHZWOXJuSVk2OS1OM0h0Rk9WdU9OeXF5ZWlfeHBhdTUwZHFTazhia3BPTTdtaW5QTmJa?oc=5",
-   "date": "2026-09-06 02:57",
-   "publishedAt": "2026-09-06T02:57:19+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "nvidia"
-   ],
-   "press": false,
-   "heat": 9,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Nvidia’s (NVDA) New RTX Spark Brings Local AI to Windows PC This October - TipRanks",
      "summary": ""
     }
    }
@@ -579,11 +549,11 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 25,
+   "heat": 17,
    "image": "",
    "views": 0,
    "comments": 0,
-   "dupes": 2,
+   "dupes": 1,
    "also": [],
    "lines": [],
    "score": null,
@@ -673,11 +643,11 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 17,
+   "heat": 9,
    "image": "",
    "views": 0,
    "comments": 0,
-   "dupes": 1,
+   "dupes": 0,
    "also": [],
    "lines": [],
    "score": null,
@@ -704,7 +674,7 @@
     "hp"
    ],
    "press": false,
-   "heat": 17,
+   "heat": 16,
    "image": "",
    "views": 0,
    "comments": 0,
