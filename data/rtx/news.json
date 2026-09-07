@@ -1,9 +1,9 @@
 {
  "channel": "rtx",
  "version": "v17",
- "fetchedAt": "2026-09-07T07:28:14.244812+08:00",
+ "fetchedAt": "2026-09-07T15:06:21.492874+08:00",
  "edition": "2026-09-07",
- "count": 33,
+ "count": 30,
  "languages": [
   "zh-TW",
   "zh-CN",
@@ -16,12 +16,12 @@
   "it"
  ],
  "byGroup": {
-  "asus": 4,
+  "asus": 3,
   "acer": 3,
   "hp": 4,
-  "msi": 3,
+  "msi": 1,
   "dell": 0,
-  "lenovo": 10,
+  "lenovo": 8,
   "gigabyte": 0,
   "microsoft": 1,
   "nvidia": 10
@@ -29,11 +29,49 @@
  "byLine": {},
  "items": [
   {
+   "title": "Acer's tiny RTX Spark PC takes aim at Mac Studio with Blackwell and 128GB unified memory - | NEWS-MO",
+   "source": "YouTube · News Monster",
+   "url": "https://www.youtube.com/watch?v=v7eX_fzkopY",
+   "date": "2026-09-07 14:50",
+   "publishedAt": "2026-09-07T14:50:24+08:00",
+   "summary": "Acer's tiny RTX Spark PC takes aim at Mac Studio with Blackwell and 128GB unified memory - | NEWS-MONSTER Source: TweakTown #acer #technology #breaking #news-monster",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "影片",
+   "camps": [
+    "acer"
+   ],
+   "press": false,
+   "heat": 100,
+   "image": "https://i.ytimg.com/vi/v7eX_fzkopY/mqdefault.jpg",
+   "views": 22203,
+   "comments": 41,
+   "dupes": 50,
+   "also": [
+    "YouTube · SMARTmania.cz",
+    "YouTube · BLACK BANDIT TECH",
+    "YouTube · Eswara Vardhan Pappu - Tech",
+    "YouTube · Sam Salhi",
+    "YouTube · Mobilissimo.ro",
+    "YouTube · SK Tech News + Gaming News"
+   ],
+   "lines": [],
+   "score": 231,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Acer's tiny RTX Spark PC takes aim at Mac Studio with Blackwell and 128GB unified memory - | NEWS-MO",
+     "summary": "Acer's tiny RTX Spark PC takes aim at Mac Studio with Blackwell and 128GB unified memory - | NEWS-MONSTER Source: TweakTown #acer #technology #breaking #news-monster"
+    }
+   }
+  },
+  {
    "title": "Lenovo takes the wraps off 2 new Nvidia RTX Spark laptops at IFA 2026 - Mashable",
    "source": "Mashable",
    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9BQkFfbUd6TUtSSFR6WjFvbTdPVFYwM19SaWxsT0psZmU2dW1BUkpnbnpsUnhNbDhVUWdYRDZ4WEZqZ0w0MVFyUk15SE8xRWJla202bmRrY20ycWNpN0xxVlhldGZYX1d6MGNwOVpwdDlubWxGa3VBdVpnMA?oc=5",
-   "date": "2026-09-07 04:52",
-   "publishedAt": "2026-09-07T04:52:16+08:00",
+   "date": "2026-09-07 14:15",
+   "publishedAt": "2026-09-07T14:15:13+08:00",
    "summary": "",
    "models": [
     "RTX Spark"
@@ -60,40 +98,127 @@
    }
   },
   {
-   "title": "ASUS ProArt 2026 cu NVIDIA RTX Spark: 128 GB RAM, petaflop AI și ecrane Lumina Pro OLED la IFA",
-   "source": "YouTube · Mobilissimo.ro",
-   "url": "https://www.youtube.com/watch?v=qkqOEVEdrZo",
-   "date": "2026-09-07 02:50",
-   "publishedAt": "2026-09-07T02:50:31+08:00",
-   "summary": "📖 La standul ASUS din Berlin am văzut noua generație ProArt și NVIDIA RTX Spark, o platformă gândită pentru AI serios, nu doar pentru editări rapide. Vorbim despre până la 128 GB memorie, 6.144 nuclee",
+   "title": "Interested in NVIDIA RTX Spark but not laptops? Then the Acer SFF RTX Spark that sits on your desktop could be the one - Tech Critter",
+   "source": "Tech Critter",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE43UzBsd0xTemFudS1aY2c1S2h0alZFUGhiUU5SdWI4SWhaRFlZdUJSYV8xUHJFMm5jdGc1QW96QlRpRHY1T2NiblQxbTRQVzdsZUlNbEdEbkRqUVZrdXdtODZ2SWpQYlhRb0czMHNYMG5FMHR6UEQ1ZFpVLXVQUQ?oc=5",
+   "date": "2026-09-07 13:38",
+   "publishedAt": "2026-09-07T13:38:30+08:00",
+   "summary": "",
    "models": [
     "RTX Spark"
    ],
-   "tag": "影片",
+   "tag": "產品發表",
+   "camps": [
+    "acer"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Interested in NVIDIA RTX Spark but not laptops? Then the Acer SFF RTX Spark that sits on your desktop could be the one - Tech Critter",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "ASUS reveals more details on NVIDIA RTX Spark-powered ProArt products at IFA 2026 - Tech Critter",
+   "source": "Tech Critter",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1jLXlqeXVXRGtpYjQxQll1Zk9wVkp5REpON0JFYkZZdmk3OElGUXRRZVNZV1o4X19sejZXQWdyalV2NWVOMHFTczdaZkRDOFd5MENYZzFsLVMwX193R0tUaVowQklsVWNwc1BtOF9WMFo0Z1hVcW41aXlEVQ?oc=5",
+   "date": "2026-09-07 12:29",
+   "publishedAt": "2026-09-07T12:29:44+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
    "camps": [
     "asus"
    ],
    "press": false,
-   "heat": 100,
-   "image": "https://i.ytimg.com/vi/qkqOEVEdrZo/mqdefault.jpg",
-   "views": 25077,
-   "comments": 40,
-   "dupes": 53,
-   "also": [
-    "YouTube · SK Tech News + Gaming News",
-    "YouTube · avrona",
-    "YouTube · Hidden AI Hacks",
-    "YouTube · MAKERTRONIC TECH ",
-    "YouTube · サルでもわかるAIにゅーす速報【ゆっくり解説】",
-    "YouTube · RR Tube "
-   ],
+   "heat": 23,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
    "lines": [],
-   "score": 364,
+   "score": null,
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "ASUS ProArt 2026 cu NVIDIA RTX Spark: 128 GB RAM, petaflop AI și ecrane Lumina Pro OLED la IFA",
-     "summary": "📖 La standul ASUS din Berlin am văzut noua generație ProArt și NVIDIA RTX Spark, o platformă gândită pentru AI serios, nu doar pentru editări rapide. Vorbim despre până la 128 GB memorie, 6.144 nuclee"
+     "title": "ASUS reveals more details on NVIDIA RTX Spark-powered ProArt products at IFA 2026 - Tech Critter",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "NVIDIA RTX Spark N1X: ARM Chip with 128 GB Memory - igor´sLAB",
+   "source": "igor´sLAB",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMTVZS3RJYm9kN0dzRTNkTDlrcWlrcUxTeWo4MjlYeGlJaFlKZDVZUDJCSkF0TDlFcTU3NzJSbEk3RXFYVGtzT1F4RUlsaGI1bEhIei1jN3QzV1RwRVFkal9oUEN5bWZ4TU1xN0dseXdsT2k1QVdoYnNFN2lJQU9CdjFVM2k1ZkxDcHlOR0VqREFOMThnR2ZyeDB3RXJFYnFFbFFLTTBJWVQzdw?oc=5",
+   "date": "2026-09-07 12:00",
+   "publishedAt": "2026-09-07T12:00:00+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark",
+    "N1X"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 23,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "NVIDIA RTX Spark N1X: ARM Chip with 128 GB Memory - igor´sLAB",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "ASUS ProArt GR1X: Compact RTX Spark PC delivers up to one petaflop of AI performance - igor´sLAB",
+   "source": "igor´sLAB",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQS1MzSV9taFJlSXR4ZTFhakY5MExZNTdsU01Wc1hjQVY3eURacXZScEduZWR1UzgydWU1WHktdDhzSWNIdzg5QTJhY1g2OEZvbmd4bzFBRE1JQUM5WGthd2FmMUl0aEZ5eW9udEVpc1dSbG1ISGVYdlppTXdGN2RfbXJ6ak1uLTkteU5XeHI3eWdCazFyZWdjZktCelJMaVlZ?oc=5",
+   "date": "2026-09-07 12:00",
+   "publishedAt": "2026-09-07T12:00:00+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "asus"
+   ],
+   "press": false,
+   "heat": 23,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "ASUS ProArt GR1X: Compact RTX Spark PC delivers up to one petaflop of AI performance - igor´sLAB",
+     "summary": ""
     }
    }
   },
@@ -112,7 +237,7 @@
     "lenovo"
    ],
    "press": false,
-   "heat": 22,
+   "heat": 21,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -143,7 +268,7 @@
     "asus"
    ],
    "press": false,
-   "heat": 22,
+   "heat": 20,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -174,7 +299,7 @@
     "hp"
    ],
    "press": false,
-   "heat": 21,
+   "heat": 20,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -191,8 +316,8 @@
    }
   },
   {
-   "title": "NVIDIA RTX Spark Launches October 2026, Here's the Specifications - VOI.id",
-   "source": "VOI.id",
+   "title": "NVIDIA RTX Spark Launches October 2026, Here's the Specifications - VOI.ID",
+   "source": "VOI.ID",
    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE42cUlaa1llellQdTBzYlg3V01NbmtIUUxoUFVleHpKTmVseDMwS0VsSTZWdTlwS1V0aWZVSF8yVWdMSjRfTmlxeS1xNNIBQkFVX3lxTE1XcHFQYk5RLWUyNFJXbGZpeGhKYWY0TEplV2Y1TFJidHE1d1lmZWZ2a1pFLThxZnpJYUlUNllQVWNrZw?oc=5",
    "date": "2026-09-06 18:15",
    "publishedAt": "2026-09-06T18:15:00+08:00",
@@ -205,7 +330,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 13,
+   "heat": 12,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -216,7 +341,7 @@
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "NVIDIA RTX Spark Launches October 2026, Here's the Specifications - VOI.id",
+     "title": "NVIDIA RTX Spark Launches October 2026, Here's the Specifications - VOI.ID",
      "summary": ""
     }
    }
@@ -237,7 +362,7 @@
     "lenovo"
    ],
    "press": false,
-   "heat": 29,
+   "heat": 28,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -268,14 +393,12 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 19,
+   "heat": 18,
    "image": "",
    "views": 0,
    "comments": 0,
    "dupes": 1,
-   "also": [
-    "FTNN 新聞網"
-   ],
+   "also": [],
    "lines": [],
    "score": null,
    "lang": "zh",
@@ -301,7 +424,7 @@
     "lenovo"
    ],
    "press": false,
-   "heat": 19,
+   "heat": 18,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -318,8 +441,8 @@
    }
   },
   {
-   "title": "Acer's tiny RTX Spark PC takes aim at Mac Studio with Blackwell and 128GB unified memory - TweakTown",
-   "source": "TweakTown",
+   "title": "Acer's tiny RTX Spark PC takes aim at Mac Studio with Blackwell and 128GB unified memory - tweaktown.com",
+   "source": "tweaktown.com",
    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxObjMxRHBNeTZzb0pqZHRyZzFXMlBUYmtFUTlsQ1pYSDhWNGVlaExwLW5DSkdJZ29EdndadGo1MWczT0VScVdOMV9MWlk5Um9GTWRXMHlidFRrdWI3ZUYxUk5sLXRRemZFTTJhY1Z3YU5SR0NZZkRnMjBlNzFWaEdGYWJ3V2FwNWRIbldaT2dCRUsxSG1KWGZNelh1ZFpqQy1zdl80cTdTOVhwQ3Q5Z29vakV0T1htNWx6eWpCOWhLWDFiQ3B3azhuYkNhUTl5ZTRsaEE?oc=5",
    "date": "2026-09-06 06:36",
    "publishedAt": "2026-09-06T06:36:12+08:00",
@@ -332,7 +455,7 @@
     "acer"
    ],
    "press": false,
-   "heat": 19,
+   "heat": 18,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -343,7 +466,7 @@
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "Acer's tiny RTX Spark PC takes aim at Mac Studio with Blackwell and 128GB unified memory - TweakTown",
+     "title": "Acer's tiny RTX Spark PC takes aim at Mac Studio with Blackwell and 128GB unified memory - tweaktown.com",
      "summary": ""
     }
    }
@@ -363,7 +486,7 @@
     "other"
    ],
    "press": false,
-   "heat": 19,
+   "heat": 18,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -375,39 +498,6 @@
    "i18n": {
     "zh-TW": {
      "title": "MSI發表首款搭載NVIDIA RTX Spark筆電 性能特色一次看 - 三立新聞",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "熱門股／輝達RTX Spark電腦將開賣！華碩改寫新高微星、宏碁齊揚| 產經 - 非凡新聞台",
-   "source": "非凡新聞台",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5mWHo2ZGFKMGkxeDN2amliWm9uX1pwMFpsLXZzR29NcTdnWkdzcGg0alJuOUVLdGx4Q2kxX3dydDNLTU9LUk1nbXJxZVNTTnJuMGd1UkVERzVMZGtFdHF3?oc=5",
-   "date": "2026-09-06 03:14",
-   "publishedAt": "2026-09-06T03:14:15+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "價格上市",
-   "camps": [
-    "asus",
-    "acer",
-    "msi"
-   ],
-   "press": false,
-   "heat": 11,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "熱門股／輝達RTX Spark電腦將開賣！華碩改寫新高微星、宏碁齊揚| 產經 - 非凡新聞台",
      "summary": ""
     }
    }
@@ -427,7 +517,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 11,
+   "heat": 9,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -458,7 +548,7 @@
     "hp"
    ],
    "press": false,
-   "heat": 18,
+   "heat": 17,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -489,11 +579,11 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 18,
+   "heat": 25,
    "image": "",
    "views": 0,
    "comments": 0,
-   "dupes": 1,
+   "dupes": 2,
    "also": [],
    "lines": [],
    "score": null,
@@ -520,7 +610,7 @@
     "other"
    ],
    "press": false,
-   "heat": 18,
+   "heat": 17,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -552,7 +642,7 @@
     "lenovo"
    ],
    "press": false,
-   "heat": 18,
+   "heat": 17,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -583,7 +673,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 18,
+   "heat": 17,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -614,7 +704,7 @@
     "hp"
    ],
    "press": false,
-   "heat": 18,
+   "heat": 17,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -631,8 +721,8 @@
    }
   },
   {
-   "title": "NVIDIA RTX Spark Windows PC 將於 2026 年 10 月登場 - xfastest.com",
-   "source": "xfastest.com",
+   "title": "NVIDIA RTX Spark Windows PC 將於 2026 年 10 月登場 - XFastest",
+   "source": "XFastest",
    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBYcjA5blJVM1A2YjlwbWE2TkNNbkcxTXFJTDBQdDFlTnJ1UUJ1NmhCVTFJRGRVbGJJUVpwY2RtNzJuSVNOc0x4c0xPYUdYdFgyNWdPVUFrQlVRckU?oc=5",
    "date": "2026-09-05 19:36",
    "publishedAt": "2026-09-05T19:36:37+08:00",
@@ -645,7 +735,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 17,
+   "heat": 16,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -656,39 +746,38 @@
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "NVIDIA RTX Spark Windows PC 將於 2026 年 10 月登場 - xfastest.com",
+     "title": "NVIDIA RTX Spark Windows PC 將於 2026 年 10 月登場 - XFastest",
      "summary": ""
     }
    }
   },
   {
-   "title": "輝達最強 AI PC 預訂一空 華碩及微星首批搭載 RTX Spark 處理器機種被搶光 - 經濟日報",
-   "source": "經濟日報",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5lekl6QkhpRC1nbERaZTFwRGxDN3dTWFJ5MzVNRTlGNFh2eDRZeXROYll5MDNtOWdLRHdyLXZ1WVljdENiT3Zra1Nna2dWMlh0MmNTRVh5M2dRZ9IBX0FVX3lxTE0zb0xRWXc3bkktUU11T0pmYnhLcW9QT2MtYXdDbFc3eFJ2U2VyQXlvSEpFMXRYd3dzUHZKZ2hmdEE3a3hOa1poaEIySTlJSHQtZzJEdTBJcXVEMHo1M2Ew?oc=5",
-   "date": "2026-09-05 17:00",
-   "publishedAt": "2026-09-05T17:00:00+08:00",
+   "title": "〈熱門股〉輝達RTX Spark預購告急 微星周漲逾11%外資連六買共2.3萬張 - 優分析UAnalyze",
+   "source": "優分析UAnalyze",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4zYUxQT0hxZFhGYjNRMUhVWTVDU2RRZnNQTzhZbE1LaHR2SE1VOHBEY1RZSXRDdVBDaGQ2b0ttTURTWGV6OWtNMVVGbFZzUkpaX0UzSWpn?oc=5",
+   "date": "2026-09-05 17:06",
+   "publishedAt": "2026-09-05T17:06:27+08:00",
    "summary": "",
    "models": [
     "RTX Spark"
    ],
    "tag": "產品發表",
    "camps": [
-    "asus",
     "msi"
    ],
    "press": false,
-   "heat": 25,
+   "heat": 8,
    "image": "",
    "views": 0,
    "comments": 0,
-   "dupes": 2,
+   "dupes": 0,
    "also": [],
    "lines": [],
    "score": null,
    "lang": "zh",
    "i18n": {
     "zh-TW": {
-     "title": "輝達最強 AI PC 預訂一空 華碩及微星首批搭載 RTX Spark 處理器機種被搶光 - 經濟日報",
+     "title": "〈熱門股〉輝達RTX Spark預購告急 微星周漲逾11%外資連六買共2.3萬張 - 優分析UAnalyze",
      "summary": ""
     }
    }
@@ -708,7 +797,7 @@
     "lenovo"
    ],
    "press": false,
-   "heat": 17,
+   "heat": 16,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -739,7 +828,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 17,
+   "heat": 16,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -752,227 +841,6 @@
     "en": {
      "title": "Stop Relying On The Cloud: NVIDIA RTX Spark Changes How Local AI Agents Run - Gizbot",
      "summary": ""
-    }
-   }
-  },
-  {
-   "title": "輝達 RTX Spark 電腦將於10月份上市，聯想、宏碁專注於裝置端AI應用 - 蕃新聞",
-   "source": "蕃新聞",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB2VDZ1aEVoMVhCS1k1R3FTWWFRcElqYXdmdGx3NUtwVWRZZUphSWtMY1Jua1lBX2lUekJxRTZ2anVid3ZmWElsSk9MTy13TlVaWlE?oc=5",
-   "date": "2026-09-05 14:28",
-   "publishedAt": "2026-09-05T14:28:00+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "價格上市",
-   "camps": [
-    "acer",
-    "lenovo"
-   ],
-   "press": false,
-   "heat": 17,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "輝達 RTX Spark 電腦將於10月份上市，聯想、宏碁專注於裝置端AI應用 - 蕃新聞",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "NVIDIA’S GAME-CHANGING RTX SPARK LAPTOPS ARE COMING IN OCTOBER | Techlife News - technology - Magzter",
-   "source": "Magzter",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOHJoU1RLMklQQXp4Z3JnUzNDZ2x4WVZUUndHOUdWQXhQak5IXzBmX3BmRi1xbENvUUh3TnB5NGJOWElPOGw5bXpDY1MydE1vRnNBeURyeHpMY1o2cGxNdmthM1VzRzVXRHQybG9yZms2R01rSkJzMzN1MXNMdFhTODQxaDNXdll3WWxycnVZZ3k0UXhVQjJQWlJzal85NGEwSkp4Z0VPenhHanBWS1JIQVVJbTM4UDNH?oc=5",
-   "date": "2026-09-05 12:40",
-   "publishedAt": "2026-09-05T12:40:07+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "nvidia"
-   ],
-   "press": false,
-   "heat": 24,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 2,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "NVIDIA’S GAME-CHANGING RTX SPARK LAPTOPS ARE COMING IN OCTOBER | Techlife News - technology - Magzter",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "NVIDIA RTX Spark in a Laptop: Lenovo Brings Up to 128 GB of Unified Memory - igor´sLAB",
-   "source": "igor´sLAB",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSEtwbDlfcS1oc3pOa0QtZHdMR3lMTkN2UWEyQ295Y0xIV0o5M1B0QWFKd0RlaklCSzBfQVlibEMyNURacHVCVVRNNEZZUXpJX3lydGFDdlFqaU4wQ3NjZWlod2NVUjMxQ2djeExOZHoydmNsTGNwYVJKUjJyTnJsSGRSSVpQM2dYWGZVYl9YMA?oc=5",
-   "date": "2026-09-05 12:00",
-   "publishedAt": "2026-09-05T12:00:00+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "lenovo"
-   ],
-   "press": false,
-   "heat": 16,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "NVIDIA RTX Spark in a Laptop: Lenovo Brings Up to 128 GB of Unified Memory - igor´sLAB",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "〈熱門股〉輝達RTX Spark預購告急 微星周漲逾11%外資連六買共2.3萬張 - news.cnyes.com",
-   "source": "news.cnyes.com",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8tQTZDSmY0QkRWY09GLTMtQmVyeHZCVDQ3NF9tYU5CUU1lY004SW1DZFQ4TXJNRGxEbE9BUXZlT2ozVncxaEhOUXM2NVdfTms?oc=5",
-   "date": "2026-09-05 10:22",
-   "publishedAt": "2026-09-05T10:22:21+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "msi"
-   ],
-   "press": false,
-   "heat": 8,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "〈熱門股〉輝達RTX Spark預購告急 微星周漲逾11%外資連六買共2.3萬張 - news.cnyes.com",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "RTX Spark N1X Launches October, 128GB vs 32GB [2026] - shattered.io",
-   "source": "shattered.io",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBPeUFfcnZIQ3BEV3ZWQWowcXJuN0ZVX1hhM1ZkSTNBUVhFOVU3dnhwdEliUGU3V0hET3p6VDJHYXVmYW1iOUFtWnoxNUhaY3ZmU3EtRW1lQ2FkV2J0WW52VWdfXzdRLWU4eWpjWDVMUQ?oc=5",
-   "date": "2026-09-05 10:09",
-   "publishedAt": "2026-09-05T10:09:48+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark",
-    "N1X"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "heat": 32,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 3,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "RTX Spark N1X Launches October, 128GB vs 32GB [2026] - shattered.io",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "RTX Spark N1X: 6144 vs 5120 Cores, 128GB vs 32GB [2026] - tech-insider.org",
-   "source": "tech-insider.org",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1ieGJZUHZiZHdwRnNZTkFhVERyc3BSd0VxdDhmT0tkM09iU1J4R1EwaWlxYzJIZzByWEM5elZlaWdNTHFCSTdlSlpaRkV6RE9hb256M0didjk5TTVibEFvWkcxMWFCQVBiX0ktYzVOcUlKcFNZYVZuZ2Nn?oc=5",
-   "date": "2026-09-05 09:24",
-   "publishedAt": "2026-09-05T09:24:34+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark",
-    "N1X"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "heat": 40,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 4,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "RTX Spark N1X: 6144 vs 5120 Cores, 128GB vs 32GB [2026] - tech-insider.org",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Nvidia's RTX Spark N1X launches in October for laptops and desktops — 18 or 20 CPU cores, paired with 5,120 or6,144 CUDA cores, up to 128GB of unified memory",
-   "source": "Tom's Hardware",
-   "url": "https://www.tomshardware.com/laptops/nvidias-rtx-spark-n1x-launches-in-october-for-laptops-and-desktops-18-or-20-cpu-cores-paired-with-5-120-or-6-144-cuda-cores-up-to-128gb-of-unified-memory",
-   "date": "2026-09-04 00:00",
-   "publishedAt": "2026-09-04T00:00:00+08:00",
-   "summary": "Systems with Nvidia's RTX Spark N1X chips will launch in October in mini PCs and laptops, with the chips coming in two configurations.",
-   "models": [
-    "RTX Spark",
-    "N1X"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "nvidia"
-   ],
-   "press": false,
-   "heat": 3,
-   "image": "https://cdn.mos.cms.futurecdn.net/27F7rHXqesaDdqqdqyxZpG-1280-80.jpg",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Nvidia's RTX Spark N1X launches in October for laptops and desktops — 18 or 20 CPU cores, paired with 5,120 or6,144 CUDA cores, up to 128GB of unified memory",
-     "summary": "Systems with Nvidia's RTX Spark N1X chips will launch in October in mini PCs and laptops, with the chips coming in two configurations."
     }
    }
   },
@@ -993,7 +861,7 @@
     "lenovo"
    ],
    "press": false,
-   "heat": 3,
+   "heat": 1,
    "image": "https://cdn.mos.cms.futurecdn.net/N7XeY9THig9x2BNMkaLqB7-1280-80.jpg",
    "views": 0,
    "comments": 0,
@@ -1006,6 +874,38 @@
     "en": {
      "title": "Lenovo details its RTX Spark laptops — Yoga Pro 9n and Yoga 9n 2-in-1 get full specs, stylus support",
      "summary": "Lenovo detailed its RTX Spark laptops ahead of IFA in Berlin, releasing full specs and showing off stylus compatibility."
+    }
+   }
+  },
+  {
+   "title": "Nvidia's RTX Spark N1X launches in October for laptops and desktops — 18 or 20 CPU cores, paired with 5,120 or6,144 CUDA cores, up to 128GB of unified memory",
+   "source": "Tom's Hardware",
+   "url": "https://www.tomshardware.com/laptops/nvidias-rtx-spark-n1x-launches-in-october-for-laptops-and-desktops-18-or-20-cpu-cores-paired-with-5-120-or-6-144-cuda-cores-up-to-128gb-of-unified-memory",
+   "date": "2026-09-04 00:00",
+   "publishedAt": "2026-09-04T00:00:00+08:00",
+   "summary": "Systems with Nvidia's RTX Spark N1X chips will launch in October in mini PCs and laptops, with the chips coming in two configurations.",
+   "models": [
+    "RTX Spark",
+    "N1X"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 1,
+   "image": "https://cdn.mos.cms.futurecdn.net/27F7rHXqesaDdqqdqyxZpG-1280-80.jpg",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Nvidia's RTX Spark N1X launches in October for laptops and desktops — 18 or 20 CPU cores, paired with 5,120 or6,144 CUDA cores, up to 128GB of unified memory",
+     "summary": "Systems with Nvidia's RTX Spark N1X chips will launch in October in mini PCs and laptops, with the chips coming in two configurations."
     }
    }
   },
@@ -1025,7 +925,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 3,
+   "heat": 1,
    "image": "https://cdn.mos.cms.futurecdn.net/JhoVtM3vuSxJQa5svFKe27-1280-80.jpg",
    "views": 0,
    "comments": 0,
@@ -1058,7 +958,7 @@
     "microsoft"
    ],
    "press": false,
-   "heat": 3,
+   "heat": 1,
    "image": "https://cdn.mos.cms.futurecdn.net/ZrwVmEKuvLeNQhm3PhDeKa-1280-80.jpg",
    "views": 0,
    "comments": 0,
