@@ -27,6 +27,7 @@
   YT_CHANNELS         選用。逗號分隔的頻道 ID，覆寫內建清單。
   X_BEARER_TOKEN      選用。X 搜尋需付費方案，沒有就跳過。
   REVIEW_FETCH_MAX    選用。每次執行最多抓幾個商品頁的評分，預設 24。
+  PRODUCT_PAGE_MAX    選用。搜尋頁抓不到價格時最多再開幾個商品頁，預設 14。
   TARGET_LANGS        選用。預設 zh-TW,zh-CN,en,ja,ko,de,es,fr,it
 """
 
@@ -50,7 +51,7 @@ import requests
 
 # ---------------------------------------------------------------- 通用設定
 
-SCRAPER_VERSION = "v22"          # 網頁左下角會顯示，用來確認部署的是哪一版
+SCRAPER_VERSION = "v24"          # 網頁左下角會顯示，用來確認部署的是哪一版
 
 # Windows 主控台預設是 cp950，✓ ✗ 這類符號編不進去會直接拋例外，
 # 所以先把標準輸出改成 UTF-8，編不出來的字改成替代字元而不是報錯。
@@ -64,7 +65,29 @@ TZ = timezone(timedelta(hours=8))
 WINDOW_HOURS = 48
 MAX_ITEMS = 60
 TIMEOUT = 20
-UA = "Mozilla/5.0 (compatible; ai-news-monitor/2.0; +https://github.com/)"
+UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+      "(KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36")
+
+# 只送 User-Agent 很容易被 WAF 認出來，補齊現代瀏覽器一定會帶的欄位。
+BROWSER_HEADERS = {
+    "User-Agent": UA,
+    "Accept": ("text/html,application/xhtml+xml,application/xml;q=0.9,"
+               "image/avif,image/webp,image/apng,*/*;q=0.8"),
+    "Accept-Language": "en-US,en;q=0.9",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Sec-CH-UA": '"Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"',
+    "Sec-CH-UA-Mobile": "?0",
+    "Sec-CH-UA-Platform": '"Windows"',
+    "Cache-Control": "max-age=0",
+    "Connection": "keep-alive",
+}
+
+# 用 Session 保留 cookie；有些站第一次會發 cookie，第二次才放行。
+SESSION = requests.Session()
 ROOT = Path(__file__).resolve().parent
 
 def env_str(name: str, default: str = "") -> str:
@@ -395,10 +418,13 @@ def clean_url(url: str) -> str:
         (p.scheme, p.netloc, p.path, urllib.parse.urlencode(keep), ""))
 
 
-def fetch(url: str, retries: int = 1) -> str | None:
+def fetch(url: str, retries: int = 1, headers: dict | None = None) -> str | None:
+    hdr = dict(BROWSER_HEADERS)
+    if headers:
+        hdr.update(headers)
     for attempt in range(retries + 1):
         try:
-            r = requests.get(url, headers={"User-Agent": UA}, timeout=TIMEOUT)
+            r = SESSION.get(url, headers=hdr, timeout=TIMEOUT)
             if r.status_code in (429, 503) and attempt < retries:
                 time.sleep(6)          # 被限流就等一下再試
                 continue
@@ -1640,54 +1666,79 @@ def collect_signals(prod: dict, news: list[dict]) -> list[dict]:
 
 # 各站的 HTML 結構常改，所以不綁 class 名稱。
 # 做法：先找出符合該站商品網址樣式的連結，再往後一段距離內抓第一個價格。
+# 德式價格的四種寫法：3.499,00 € ／ € 3.499,00 ／ 3.499,– € ／ € 3.499,–
+DE_PRICE_PATTERNS = [
+    r'(?P<v>[\d.]+,\d{2})\s*€',
+    r'€\s*(?P<v>[\d.]+,\d{2})',
+    r'(?P<v>[\d.]+,–)\s*€',
+    r'€\s*(?P<v>[\d.]+,–)',
+]
+
 SHOPS = [
-    dict(id="newegg", platform="Newegg", country="US", currency="USD",
+    dict(id="newegg", lang="en-US,en;q=0.9", platform="Newegg", country="US", currency="USD",
          locale="us", base="https://www.newegg.com",
          url=["https://www.newegg.com/p/pl?d={q}",
               "https://www.newegg.com/global/tw-en/p/pl?d={q}"],
-         link=r'<a[^>]+href="(?P<href>https://www\.newegg\.com/[^"?]+/p/[^"?]+)"[^>]*>'
-              r'(?P<name>[^<]{8,180})</a>',
+         link=r'<a[^>]+href="(?P<href>(?:https://www\.newegg\.com)?/[^"?]*p/[^"?]+)"[^>]*>'
+              r'\s*(?P<name>[^<]{8,180}?)\s*</a>',
          price=r'\$\s?(?P<v>[\d,]+(?:\.\d{2})?)'),
-    dict(id="kakaku", platform="価格.com", country="JP", currency="JPY",
+    dict(id="kakaku", lang="ja-JP,ja;q=0.9,en;q=0.8", platform="価格.com", country="JP", currency="JPY",
          locale="jp", base="https://kakaku.com",
          # kakaku.com/search_results 會 302 到 search.kakaku.com 造成 404
          url=["https://search.kakaku.com/{q}/",
               "https://kakaku.com/search_results/{q}/"],
          link=r'<a[^>]+href="(?P<href>https?://kakaku\.com/item/[^"?]+)"[^>]*>'
               r'(?P<name>[^<]{6,180})</a>',
-         price=r'[¥￥]\s?(?P<v>[\d,]{3,})'),
+         # 価格.com 有 ¥123,456 與 123,456円 兩種寫法
+         price=[r'[¥￥]\s*(?P<v>[\d,]{3,})', r'(?P<v>[\d,]{4,})\s*円']),
     # --- 英國 ---
-    dict(id="scan", platform="Scan UK", country="GB", currency="GBP",
+    dict(id="scan", lang="en-GB,en;q=0.9", platform="Scan UK", country="GB", currency="GBP",
          locale="en", base="https://www.scan.co.uk",
          url="https://www.scan.co.uk/search?q={q}",
-         link=r'<a[^>]+href="(?P<href>/products/[^"?]+)"[^>]*>'
-              r'(?P<name>[^<]{8,180})</a>',
+         link=r'<a[^>]+href="(?P<href>/(?:products|shop)/[^"?]+)"[^>]*>'
+              r'\s*(?P<name>[^<]{8,180}?)\s*</a>',
          price=r'£\s*(?P<v>[\d,]+(?:\.\d{2})?)'),
-    dict(id="ocuk", platform="Overclockers UK", country="GB", currency="GBP",
+    dict(id="ocuk", lang="en-GB,en;q=0.9", platform="Overclockers UK", country="GB", currency="GBP",
          locale="en", base="https://www.overclockers.co.uk",
          url="https://www.overclockers.co.uk/catalogsearch/result/?q={q}",
          link=r'<a[^>]+href="(?P<href>https://www\.overclockers\.co\.uk/[^"?]+\.html)"[^>]*>'
               r'(?P<name>[^<]{8,180})</a>',
          price=r'£\s*(?P<v>[\d,]+(?:\.\d{2})?)'),
-    dict(id="currys", platform="Currys", country="GB", currency="GBP",
+    dict(id="currys", lang="en-GB,en;q=0.9", platform="Currys", country="GB", currency="GBP",
          locale="en", base="https://www.currys.co.uk",
          url="https://www.currys.co.uk/search?q={q}",
          link=r'<a[^>]+href="(?P<href>/products/[^"?]+)"[^>]*>'
               r'(?P<name>[^<]{8,180})</a>',
          price=r'£\s*(?P<v>[\d,]+(?:\.\d{2})?)'),
     # --- 法國：價格在數字後面，千分位是空格 ---
-    dict(id="ldlc", platform="LDLC", country="FR", currency="EUR",
+    dict(id="ldlc", lang="fr-FR,fr;q=0.9,en;q=0.8", platform="LDLC", country="FR", currency="EUR",
          locale="fr", base="https://www.ldlc.com",
          url="https://www.ldlc.com/recherche/{q}/",
          link=r'<a[^>]+href="(?P<href>/fiche/[^"?]+\.html)"[^>]*>'
               r'(?P<name>[^<]{8,180})</a>',
-         price=r'(?P<v>\d[\d\s\u00a0\u202f]*,\d{2})\s*€'),
-    dict(id="geizhals", platform="Geizhals", country="DE", currency="EUR",
+         # LDLC 常寫成 3 499€95（€ 夾在中間），也有 3 499,95 €
+         price=[r'(?P<v>\d[\d\s\u00a0\u202f]*)€(?P<c>\d{2})',
+                r'(?P<v>\d[\d\s\u00a0\u202f]*,\d{2})\s*€',
+                r'€\s*(?P<v>\d[\d\s\u00a0\u202f]*,\d{2})']),
+    # DGX Spark 這類工作站在德國主要走 B2B 通路，這兩家比比價站好抓
+    dict(id="jacob", lang="de-DE,de;q=0.9", platform="Jacob.de", country="DE",
+         currency="EUR", locale="de", base="https://www.jacob.de",
+         url="https://www.jacob.de/suche.html?q={q}",
+         link=r'<a[^>]+href="(?P<href>/produkte/[^"?]+)"[^>]*>'
+              r'\s*(?P<name>[^<]{8,180}?)\s*</a>',
+         price=DE_PRICE_PATTERNS),
+    dict(id="alternate", lang="de-DE,de;q=0.9", platform="Alternate.de", country="DE",
+         currency="EUR", locale="de", base="https://www.alternate.de",
+         url="https://www.alternate.de/listing.xhtml?q={q}",
+         link=r'<a[^>]+href="(?P<href>(?:https://www\.alternate\.de)?/[^"?]*/[^"?]+)"'
+              r'[^>]*data-product[^>]*>\s*(?P<name>[^<]{8,180}?)\s*</a>',
+         price=DE_PRICE_PATTERNS),
+    dict(id="geizhals", lang="de-DE,de;q=0.9,en;q=0.8", platform="Geizhals", country="DE", currency="EUR",
          locale="de", base="https://geizhals.de",
          url="https://geizhals.de/?fs={q}&hloc=de&in=",
          link=r'<a[^>]+href="(?P<href>/[^"?]*-a\d+\.html)"[^>]*>'
               r'(?P<name>[^<]{8,180})</a>',
-         price=r'€\s?(?P<v>[\d.]+(?:,\d{2})?|[\d.]+,–)'),
+         price=DE_PRICE_PATTERNS),
 ]
 
 
@@ -1750,14 +1801,80 @@ def name_matches(name: str, keywords: list[str]) -> bool:
     return any(k.lower() in low for k in keywords)
 
 
+# 幾乎所有電商都會為了 SEO 在商品頁埋 schema.org 的 offers.price，
+# 搜尋頁抓不到價格時，直接去商品頁讀這組數字最可靠。
+LD_PRICE_RE = re.compile(r'"price"\s*:\s*"?(?P<v>\d+(?:[.,]\d{1,2})?)"?', re.I)
+LD_CURRENCY_RE = re.compile(r'"priceCurrency"\s*:\s*"(?P<c>[A-Z]{3})"', re.I)
+
+PRODUCT_PAGE_MAX = env_int("PRODUCT_PAGE_MAX", 14)
+_page_budget = {"left": PRODUCT_PAGE_MAX}
+
+
+def price_patterns(shop: dict) -> list[str]:
+    p = shop["price"]
+    return p if isinstance(p, list) else [p]
+
+
+def compose_price(m, locale: str) -> float | None:
+    """有些站把小數拆在另一個群組，例如 LDLC 的 3 499€95。"""
+    raw = m.group("v")
+    cents = None
+    if "c" in (m.re.groupindex or {}):
+        cents = m.group("c")
+    if cents:
+        digits = re.sub(r"[^\d]", "", raw)
+        try:
+            return round(float(f"{digits}.{cents}"), 2)
+        except ValueError:
+            return None
+    return parse_price(raw, locale)
+
+
+def fetch_offer_price(url: str, shop: dict) -> float | None:
+    """去商品頁抓價格。先讀結構化資料，再退回該站的價格樣式。"""
+    if _page_budget["left"] <= 0:
+        return None
+    _page_budget["left"] -= 1
+
+    page = fetch(url, retries=0,
+                 headers={"Accept-Language": shop.get("lang", "en-US,en;q=0.9"),
+                          "Referer": shop["base"] + "/",
+                          "Sec-Fetch-Site": "same-origin"})
+    if not page:
+        return None
+    page = html.unescape(page)
+
+    m = LD_PRICE_RE.search(page)
+    if m:
+        cm = LD_CURRENCY_RE.search(page)
+        if not cm or cm.group("c") == shop["currency"]:
+            raw = m.group("v").replace(",", ".")
+            try:
+                return round(float(raw), 2)
+            except ValueError:
+                pass
+
+    for pat in price_patterns(shop):
+        pm = re.search(pat, page)
+        if pm:
+            v = compose_price(pm, shop["locale"])
+            if v:
+                return v
+    return None
+
+
 def scan_shop(shop: dict, query: str, keywords: list[str], line: str = "dgx",
               window: int = 2500, limit: int = 3) -> list[dict]:
     # url 可以是字串或多個候選，依序試到拿得到頁面為止
     templates = shop["url"] if isinstance(shop["url"], list) else [shop["url"]]
+    # 送當地語系與該站首頁當 Referer，看起來更像從站內點進來的
+    hdr = {"Accept-Language": shop.get("lang", "en-US,en;q=0.9"),
+           "Referer": shop["base"] + "/",
+           "Sec-Fetch-Site": "same-origin"}
     page, url = None, ""
     for tpl in templates:
         url = tpl.format(q=urllib.parse.quote(query))
-        page = fetch(url, retries=0)
+        page = fetch(url, retries=0, headers=hdr)
         if page:
             break
     if not page:
@@ -1766,8 +1883,10 @@ def scan_shop(shop: dict, query: str, keywords: list[str], line: str = "dgx",
     # 原始碼裡的 &nbsp; 等實體字元會讓價格比對失敗，先還原
     page = html.unescape(page)
 
-    out, seen = [], set()
+    out, seen, pending = [], set(), []
     n_link = n_name = n_price = 0
+    pats = price_patterns(shop)
+
     for m in re.finditer(shop["link"], page, re.I | re.S):
         n_link += 1
         name = strip_html(m.group("name"))
@@ -1779,11 +1898,18 @@ def scan_shop(shop: dict, query: str, keywords: list[str], line: str = "dgx",
             continue
 
         seg = page[m.end(): m.end() + window]
-        pm = re.search(shop["price"], seg)
-        if not pm:
+        price = None
+        for pat in pats:
+            pm = re.search(pat, seg)
+            if pm:
+                price = compose_price(pm, shop["locale"])
+                if price:
+                    break
+
+        if not price:
+            pending.append((href, name))   # 等一下去商品頁補
             continue
-        price = parse_price(pm.group("v"), shop["locale"])
-        if not price or not above_floor(price, shop["currency"], line):
+        if not above_floor(price, shop["currency"], line):
             continue
         n_price += 1
 
@@ -1798,12 +1924,26 @@ def scan_shop(shop: dict, query: str, keywords: list[str], line: str = "dgx",
         if len(out) >= limit:
             break
 
-    # 三個數字讓失敗原因一目了然：
+    # 搜尋頁沒抓到價格的，去商品頁讀結構化資料
+    n_page = 0
+    for href, name in pending[:2]:
+        if len(out) >= limit or href in seen:
+            continue
+        price = fetch_offer_price(href, shop)
+        time.sleep(0.4)
+        if not price or not above_floor(price, shop["currency"], line):
+            continue
+        n_page += 1
+        seen.add(href)
+        out.append({"platform": shop["platform"], "title": name[:120],
+                    "price": price, "currency": shop["currency"], "url": href})
+
+    # 這幾個數字讓失敗原因一目了然：
     #   連結 0    → 網址樣式對不上（該站改版了）
     #   名稱 0    → 有商品但關鍵字沒中（搜尋詞或機種名要調）
     #   價格 0    → 找到商品但抓不到價格（價格樣式要調）
     log(f"  {shop['platform']}：連結 {n_link} → 名稱符合 {n_name} → "
-        f"價格合理 {n_price} → 採用 {len(out)} 筆")
+        f"搜尋頁有價 {n_price} → 商品頁補 {n_page} → 採用 {len(out)} 筆")
     return out
 
 
@@ -2054,8 +2194,8 @@ def pchome_search(query: str, keywords: list[str] | None = None,
             if len(out) >= 5:
                 break
         log(f"  PChome 24h：搜到 {found} 筆 → 名稱符合 {named} → 價格合理 {priced}")
-        if out:
-            return out
+        if out or found:
+            return out          # 有回應就別再試舊版路徑，免得日誌重複
     return []
 
 
