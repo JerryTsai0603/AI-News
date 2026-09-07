@@ -1,7 +1,7 @@
 {
- "version": "v21",
- "updatedAt": "2026-09-07T15:56:04.808913+08:00",
- "count": 123,
+ "version": "v24",
+ "updatedAt": "2026-09-07T23:19:06.186798+08:00",
+ "count": 125,
  "groups": [
   {
    "channel": "models",
@@ -599,6 +599,16 @@
      "kind": "通路",
      "label": "LDLC（FR）",
      "url": "https://www.ldlc.com"
+    },
+    {
+     "kind": "通路",
+     "label": "Jacob.de（DE）",
+     "url": "https://www.jacob.de"
+    },
+    {
+     "kind": "通路",
+     "label": "Alternate.de（DE）",
+     "url": "https://www.alternate.de"
     },
     {
      "kind": "通路",

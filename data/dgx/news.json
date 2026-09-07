@@ -1,9 +1,9 @@
 {
  "channel": "dgx",
- "version": "v21",
- "fetchedAt": "2026-09-07T15:51:52.175119+08:00",
+ "version": "v24",
+ "fetchedAt": "2026-09-07T23:17:44.263308+08:00",
  "edition": "2026-09-07",
- "count": 8,
+ "count": 7,
  "languages": [
   "zh-TW",
   "zh-CN",
@@ -16,87 +16,18 @@
   "it"
  ],
  "byGroup": {
-  "asus": 0,
+  "asus": 1,
   "acer": 0,
   "hp": 0,
-  "msi": 1,
+  "msi": 0,
   "dell": 0,
   "lenovo": 0,
   "gigabyte": 0,
   "microsoft": 0,
-  "nvidia": 4
+  "nvidia": 3
  },
  "byLine": {},
  "items": [
-  {
-   "title": "MSI XpertStation WS300 搭載 NVIDIA DGX Station 架構出貨",
-   "source": "科技新報",
-   "url": "https://technews.tw/2026/09/07/msi-xpertstation-ws300-nvidia-dgx-station/",
-   "date": "2026-09-07 14:00",
-   "publishedAt": "2026-09-07T14:00:41+08:00",
-   "summary": "全球伺服器技術領導者 MSI 微星科技宣布，搭載 NVIDIA DGX Station 架構的 XpertSt […]",
-   "models": [
-    "DGX Station"
-   ],
-   "tag": "價格上市",
-   "camps": [
-    "msi"
-   ],
-   "press": false,
-   "heat": 15,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "MSI XpertStation WS300 搭載 NVIDIA DGX Station 架構出貨",
-     "summary": "全球伺服器技術領導者 MSI 微星科技宣布，搭載 NVIDIA DGX Station 架構的 XpertSt […]"
-    }
-   }
-  },
-  {
-   "title": "Mac Studio vs DGX Spark: The Fake Benchmarks Nobody's Talking About",
-   "source": "YouTube · NewEraAi",
-   "url": "https://www.youtube.com/watch?v=arHJTa8iEro",
-   "date": "2026-09-07 13:00",
-   "publishedAt": "2026-09-07T13:00:04+08:00",
-   "summary": "Mac Studio M5 Ultra vs NVIDIA DGX Spark — which one actually wins for local AI in 2026? Apple's new Mac Studio claims 1.2TB/s of memory bandwidth, 4.4x more than DGX Spark's 273GB/s, but it doesn't sh",
-   "models": [
-    "DGX Spark"
-   ],
-   "tag": "影片",
-   "camps": [
-    "nvidia"
-   ],
-   "press": false,
-   "heat": 100,
-   "image": "https://i.ytimg.com/vi/arHJTa8iEro/mqdefault.jpg",
-   "views": 28204,
-   "comments": 27,
-   "dupes": 26,
-   "also": [
-    "YouTube · Asia Pacific University of Technology & Innovation (APU)",
-    "YouTube · Tech With Ray",
-    "YouTube · Coding Horizon",
-    "YouTube · Atacado Connect",
-    "YouTube · سدید گستران",
-    "YouTube · Alex Ziskind"
-   ],
-   "lines": [],
-   "score": 592,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Mac Studio vs DGX Spark: The Fake Benchmarks Nobody's Talking About",
-     "summary": "Mac Studio M5 Ultra vs NVIDIA DGX Spark — which one actually wins for local AI in 2026? Apple's new Mac Studio claims 1.2TB/s of memory bandwidth, 4.4x more than DGX Spark's 273GB/s, but it doesn't sh"
-    }
-   }
-  },
   {
    "title": "DGX Spark A Grace Blackwell AI Supercomputer on your desk",
    "source": "NVIDIA DGX Spark",
@@ -113,7 +44,7 @@
     "nvidia"
    ],
    "press": true,
-   "heat": 20,
+   "heat": 19,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -144,7 +75,7 @@
     "other"
    ],
    "press": true,
-   "heat": 20,
+   "heat": 19,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -175,7 +106,7 @@
     "nvidia"
    ],
    "press": true,
-   "heat": 12,
+   "heat": 11,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -192,8 +123,44 @@
    }
   },
   {
-   "title": "AMD於IFA 2026大秀地端算力！以Threadripper Halo Station叫陣NVIDIA DGX Station | 科技新情報 - udn科技玩家",
-   "source": "udn科技玩家",
+   "title": "ASUS Ascent GX10: Um Supercomputador de IA em Miniatura!",
+   "source": "YouTube · Atacado Connect",
+   "url": "https://www.youtube.com/watch?v=iOhk0g4mwpY",
+   "date": "2026-09-06 23:00",
+   "publishedAt": "2026-09-06T23:00:09+08:00",
+   "summary": "O ASUS Ascent GX10 é um mini PC desenvolvido para rodar inteligência artificial localmente, trazendo a plataforma NVIDIA GB10 Grace Blackwell, 128 GB de memória unificada e desempenho de até 1 petaFLO",
+   "models": [
+    "GB10",
+    "Ascent GX10",
+    "Grace Blackwell"
+   ],
+   "tag": "影片",
+   "camps": [
+    "asus"
+   ],
+   "press": false,
+   "heat": 62,
+   "image": "https://i.ytimg.com/vi/iOhk0g4mwpY/mqdefault.jpg",
+   "views": 606,
+   "comments": 1,
+   "dupes": 2,
+   "also": [
+    "YouTube · NebX Tool Reviews",
+    "YouTube · EchoTech"
+   ],
+   "lines": [],
+   "score": 11,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "ASUS Ascent GX10: Um Supercomputador de IA em Miniatura!",
+     "summary": "O ASUS Ascent GX10 é um mini PC desenvolvido para rodar inteligência artificial localmente, trazendo a plataforma NVIDIA GB10 Grace Blackwell, 128 GB de memória unificada e desempenho de até 1 petaFLO"
+    }
+   }
+  },
+  {
+   "title": "AMD於IFA 2026大秀地端算力！以Threadripper Halo Station叫陣NVIDIA DGX Station | 科技新情報 - tech.udn.com",
+   "source": "tech.udn.com",
    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1pNW9sdkU5SHhXUkNHOWhraVhfRnJxUUstX2o0MjRKU0kyMTFmTlJyVDcwTFZRU0l0VVBiQlFlenF6NExOY3dRWllPbV9Ua0hDUElNM1FDQ1BJUQ?oc=5",
    "date": "2026-09-06 07:39",
    "publishedAt": "2026-09-06T07:39:54+08:00",
@@ -206,7 +173,7 @@
     "other"
    ],
    "press": false,
-   "heat": 10,
+   "heat": 9,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -217,7 +184,7 @@
    "lang": "zh",
    "i18n": {
     "zh-TW": {
-     "title": "AMD於IFA 2026大秀地端算力！以Threadripper Halo Station叫陣NVIDIA DGX Station | 科技新情報 - udn科技玩家",
+     "title": "AMD於IFA 2026大秀地端算力！以Threadripper Halo Station叫陣NVIDIA DGX Station | 科技新情報 - tech.udn.com",
      "summary": ""
     }
    }
@@ -237,7 +204,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 6,
+   "heat": 5,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -268,7 +235,7 @@
     "other"
    ],
    "press": false,
-   "heat": 5,
+   "heat": 4,
    "image": "",
    "views": 0,
    "comments": 0,
