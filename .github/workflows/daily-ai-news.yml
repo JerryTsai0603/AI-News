@@ -70,52 +70,64 @@ jobs:
           echo "::warning::推送重試 3 次仍失敗"
 
   # ── 第二段：價格與規格。跑在你自己的電腦上，用住宅 IP 避開 403 ──
+  # Windows runner 一律用 PowerShell：若用 bash，runner 可能抓到 WSL 的
+  # /bin/bash，它看不懂 C:\ 開頭的路徑，會出現找不到腳本的錯誤。
   shop:
     needs: news
     if: always()                # 新聞那段失敗也照樣試著更新價格
     runs-on: self-hosted
     timeout-minutes: 40
     continue-on-error: true     # 電腦沒開時不要把整趟標成失敗
+    defaults:
+      run:
+        shell: powershell
     steps:
       - uses: actions/checkout@v4
 
-      - name: 確認 Python 與同步最新資料
-        shell: bash
+      - name: 同步最新資料並確認環境
         run: |
-          PY=$(command -v python || command -v python3)
-          echo "使用 $PY"
-          "$PY" --version
-          git pull --rebase --autostash origin main || true
+          $ErrorActionPreference = 'Continue'
+          python --version
+          git --version
+          git pull --rebase --autostash origin main
+          exit 0
 
       - name: 安裝套件
-        shell: bash
         run: |
-          PY=$(command -v python || command -v python3)
-          "$PY" -m pip install --quiet --upgrade pip
-          "$PY" -m pip install --quiet -r requirements.txt
+          $ErrorActionPreference = 'Continue'
+          python -m pip install --quiet --upgrade pip
+          python -m pip install --quiet -r requirements.txt
+          exit 0
 
       - name: 市場監控
-        shell: bash
         env:
           REVIEW_FETCH_MAX: ${{ vars.REVIEW_FETCH_MAX }}
         run: |
-          PY=$(command -v python || command -v python3)
-          "$PY" scraper.py shop
+          $ErrorActionPreference = 'Continue'
+          python scraper.py shop
 
       - name: 提交價格
         if: always()
-        shell: bash
         run: |
+          $ErrorActionPreference = 'Continue'
           git config user.name  "ai-news-bot"
           git config user.email "actions@github.com"
           git add data/
-          if git diff --staged --quiet; then
-            echo "沒有新資料"; exit 0
-          fi
-          git commit -m "價格規格更新 $(TZ=Asia/Taipei date '+%Y-%m-%d %H:%M')"
-          for i in 1 2 3; do
-            git push && exit 0
-            sleep $((RANDOM % 8 + 4))
-            git pull --rebase --autostash origin main || true
-          done
-          echo "::warning::推送重試 3 次仍失敗"
+          git diff --staged --quiet
+          if ($LASTEXITCODE -eq 0) {
+            Write-Host "沒有新資料"
+            exit 0
+          }
+          git commit -m ("價格規格更新 " + (Get-Date -Format "yyyy-MM-dd HH:mm"))
+          for ($i = 1; $i -le 3; $i++) {
+            git push
+            if ($LASTEXITCODE -eq 0) {
+              Write-Host "推送成功"
+              exit 0
+            }
+            Write-Host "推送失敗，第 $i 次重試"
+            Start-Sleep -Seconds (Get-Random -Minimum 4 -Maximum 12)
+            git pull --rebase --autostash origin main
+          }
+          Write-Host "::warning::推送重試 3 次仍失敗"
+          exit 0
