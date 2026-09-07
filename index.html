@@ -1153,7 +1153,7 @@ function renderChrome() {
   $("tSort").textContent = t.sort;
   $("tFilter").textContent = t.filter;
   $("tNote").textContent = t.note;
-  $("ver").textContent = `頁面 v17 · 資料 ${dataVer}`;
+  $("ver").textContent = `頁面 v18 · 資料 ${dataVer}`;
   if (sourceGroups && sourceGroups.length) {
     renderSources(sourceGroups.reduce((n, g) => n + g.sources.length, 0));
   }
@@ -1420,8 +1420,9 @@ function money(o) {
   const cc = o.currency || "USD";
   const digits = NO_DECIMAL.has(cc) ? 0 : (Number.isInteger(o.price) ? 0 : 2);
   try {
+    // 六個市場並排時，$ 會讓台幣和美元混淆，一律顯示貨幣代碼
     return new Intl.NumberFormat(cur, {
-      style: "currency", currency: cc,
+      style: "currency", currency: cc, currencyDisplay: "code",
       minimumFractionDigits: digits, maximumFractionDigits: digits,
     }).format(o.price);
   } catch {

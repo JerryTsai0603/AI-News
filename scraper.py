@@ -50,7 +50,7 @@ import requests
 
 # ---------------------------------------------------------------- 通用設定
 
-SCRAPER_VERSION = "v17"          # 網頁左下角會顯示，用來確認部署的是哪一版
+SCRAPER_VERSION = "v18"          # 網頁左下角會顯示，用來確認部署的是哪一版
 
 TZ = timezone(timedelta(hours=8))
 WINDOW_HOURS = 48
@@ -1515,7 +1515,7 @@ PRODUCT_SEED = [
     # ---- DGX Spark（GB10）：2025 年 10 月起陸續開賣 ----
     dict(id="nvidia-dgx-spark-fe", name="NVIDIA DGX Spark Founders Edition",
          brand="nvidia", line="dgx", storage="4 TB NVMe", form="桌上型",
-         status="launched", keywords=["dgx spark founders", "founders edition"]),
+         status="launched", keywords=["dgx spark", "founders edition"]),
     dict(id="asus-ascent-gx10", page="https://www.asus.com/networking-iot-servers/ai-servers/ascent/asus-ascent-gx10/", name="ASUS Ascent GX10",
          brand="asus", line="dgx", storage="1 TB NVMe", form="桌上型",
          status="launched", keywords=["ascent gx10"]),
@@ -1680,6 +1680,18 @@ SHOPS = [
 ]
 
 
+# 這類機器沒有便宜貨。低於下限的一律視為配件或無關商品。
+PRICE_FLOOR = {
+    "dgx": {"TWD": 40000, "JPY": 200000, "USD": 1200, "EUR": 1100, "GBP": 950},
+    "rtx": {"TWD": 20000, "JPY": 100000, "USD": 600, "EUR": 550, "GBP": 500},
+}
+
+
+def above_floor(price: float, currency: str, line: str) -> bool:
+    floor = PRICE_FLOOR.get(line, {}).get(currency)
+    return price >= floor if floor else price >= 100
+
+
 def parse_price(raw: str, locale: str) -> float | None:
     """各地寫法差很多，分開處理：
          en  1,234.56    逗號千分位、點小數（美、英）
@@ -1710,7 +1722,7 @@ def name_matches(name: str, keywords: list[str]) -> bool:
     return any(k.lower() in low for k in keywords)
 
 
-def scan_shop(shop: dict, query: str, keywords: list[str],
+def scan_shop(shop: dict, query: str, keywords: list[str], line: str = "dgx",
               window: int = 2500, limit: int = 3) -> list[dict]:
     url = shop["url"].format(q=urllib.parse.quote(query))
     page = fetch(url, retries=0)
@@ -1721,10 +1733,13 @@ def scan_shop(shop: dict, query: str, keywords: list[str],
     page = html.unescape(page)
 
     out, seen = [], set()
+    n_link = n_name = n_price = 0
     for m in re.finditer(shop["link"], page, re.I | re.S):
+        n_link += 1
         name = strip_html(m.group("name"))
         if not name_matches(name, keywords):
             continue
+        n_name += 1
         href = urllib.parse.urljoin(shop["base"], m.group("href"))
         if href in seen:
             continue
@@ -1734,8 +1749,9 @@ def scan_shop(shop: dict, query: str, keywords: list[str],
         if not pm:
             continue
         price = parse_price(pm.group("v"), shop["locale"])
-        if not price or price < 100:
+        if not price or not above_floor(price, shop["currency"], line):
             continue
+        n_price += 1
 
         seen.add(href)
         out.append({
@@ -1748,8 +1764,12 @@ def scan_shop(shop: dict, query: str, keywords: list[str],
         if len(out) >= limit:
             break
 
-    log(f"  {shop['platform']}：{len(out)} 筆" if out
-        else f"  {shop['platform']}：查無符合的商品")
+    # 三個數字讓失敗原因一目了然：
+    #   連結 0    → 網址樣式對不上（該站改版了）
+    #   名稱 0    → 有商品但關鍵字沒中（搜尋詞或機種名要調）
+    #   價格 0    → 找到商品但抓不到價格（價格樣式要調）
+    log(f"  {shop['platform']}：連結 {n_link} → 名稱符合 {n_name} → "
+        f"價格合理 {n_price} → 採用 {len(out)} 筆")
     return out
 
 
@@ -1931,7 +1951,8 @@ def record_price(hist: dict, pid: str, country: str, offer: dict, today: str) ->
 
 # ---------------------------------------------------------------- PChome（台灣）
 
-def pchome_search(query: str) -> list[dict]:
+def pchome_search(query: str, keywords: list[str] | None = None,
+                  line: str = "dgx") -> list[dict]:
     """PChome 24h 的搜尋 JSON。版本路徑偶爾會變，兩個都試。"""
     for ver in ("v4.3", "v3.3"):
         url = ("https://ecshweb.pchome.com.tw/search/" + ver + "/all/results"
@@ -1944,20 +1965,31 @@ def pchome_search(query: str) -> list[dict]:
         except Exception:
             continue
         prods = body.get("prods") or body.get("Prods") or []
+        found, named, priced = len(prods), 0, 0
         out = []
-        for x in prods[:5]:
-            name = x.get("name") or x.get("Name") or ""
+        for x in prods[:20]:
+            name = strip_html(x.get("name") or x.get("Name") or "")
             pid = x.get("Id") or x.get("id") or ""
             price = x.get("price") or x.get("Price")
             if not name or price in (None, 0):
                 continue
+            # 之前漏了這一段，導致電子書、周邊都被當成商品收進來
+            if keywords and not name_matches(name, keywords):
+                continue
+            named += 1
+            if not above_floor(float(price), "TWD", line):
+                continue
+            priced += 1
             out.append({
                 "platform": "PChome 24h",
-                "title": strip_html(name)[:120],
-                "price": int(price),
+                "title": name[:120],
+                "price": float(price),
                 "currency": "TWD",
                 "url": f"https://24h.pchome.com.tw/prod/{pid}" if pid else url,
             })
+            if len(out) >= 5:
+                break
+        log(f"  PChome 24h：搜到 {found} 筆 → 名稱符合 {named} → 價格合理 {priced}")
         if out:
             return out
     return []
@@ -2041,14 +2073,13 @@ def run_shop(news: list[dict] | None = None) -> None:
             q = seed["name"].replace("NVIDIA ", "").replace(" Founders Edition", "")
             log(f"  查詢通路：{seed['name']}")
 
-            tw = pchome_search(q)
+            tw = pchome_search(q, seed["keywords"], seed["line"])
             if tw:
                 markets["TW"]["offers"] += tw
-                log(f"  PChome 24h：{len(tw)} 筆")
             time.sleep(0.6)
 
             for shop in SHOPS:
-                found = scan_shop(shop, q, seed["keywords"])
+                found = scan_shop(shop, q, seed["keywords"], seed["line"])
                 if found:
                     markets[shop["country"]]["offers"] += found
                 time.sleep(0.7)
