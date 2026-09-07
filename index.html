@@ -365,7 +365,7 @@ const UI = {
     errArchive: (d, m) => `讀不到 ${d} 期的存檔（${m}）。`,
     errRefresh: (m) => `更新失敗:${m}`,
     reloading: "讀取中…",
-    shop: { tab: "市場監控", region: "區域", country: "國家", platform: "通路", status: "狀態", spec: "規格", memory: "記憶體", storage: "儲存", form: "型式", compare: "比較", clear: "清除", specs: "規格表", markets: "各國貨況", signals: "貨況消息", noPrice: "無報價", pickTwo: "勾選兩個以上的機種才能比較", selected: "已選", st: { unannounced: "未發表", announced: "已發表", preorder: "預購", launched: "開賣", oos: "缺貨" }, rg: { apac: "亞太", na: "北美", emea: "歐洲" } },
+    shop: { forms: { desktop: "桌上型", laptop: "筆記型", edge: "邊緣工作站", unknown: "未定" }, tab: "市場監控", region: "區域", country: "國家", platform: "通路", status: "狀態", spec: "規格", memory: "記憶體", storage: "儲存", form: "型式", compare: "比較", clear: "清除", specs: "規格表", markets: "各國貨況", signals: "貨況消息", noPrice: "無報價", pickTwo: "勾選兩個以上的機種才能比較", selected: "已選", st: { unannounced: "未發表", announced: "已發表", preorder: "預購", launched: "開賣", oos: "缺貨" }, rg: { apac: "亞太", na: "北美", emea: "歐洲" } },
     srcTitle: "資料來源",
     dash: { dash: "儀表板", list: "清單", tracked: "追蹤機種", onsale: "已開賣市場", cheapest: "最低價", newReviews: "7 日新增評論", launchMap: "開賣區域", priceTrend: "價格趨勢", salesProxy: "銷售動能（推估）", salesNote: "電商不公開銷量，這裡以評論數的增量推估，僅供參考", reviews: "評價", noHistory: "累積幾天資料後才會出現趨勢線", days: "天" },
     rescrape: '重新爬取',
@@ -412,7 +412,7 @@ const UI = {
     errArchive: (d, m) => `Could not read the archive for ${d} (${m}).`,
     errRefresh: (m) => `Refresh failed: ${m}`,
     reloading: "Loading…",
-    shop: { tab: "Market monitor", region: "Region", country: "Country", platform: "Retailer", status: "Status", spec: "Specs", memory: "Memory", storage: "Storage", form: "Form factor", compare: "Compare", clear: "Clear", specs: "Specifications", markets: "Availability", signals: "Availability news", noPrice: "No listing", pickTwo: "Select at least two models to compare", selected: "selected", st: { unannounced: "Unannounced", announced: "Announced", preorder: "Pre-order", launched: "On sale", oos: "Out of stock" }, rg: { apac: "APAC", na: "North America", emea: "Europe" } },
+    shop: { forms: { desktop: "Desktop", laptop: "Laptop", edge: "Edge workstation", unknown: "TBD" }, tab: "Market monitor", region: "Region", country: "Country", platform: "Retailer", status: "Status", spec: "Specs", memory: "Memory", storage: "Storage", form: "Form factor", compare: "Compare", clear: "Clear", specs: "Specifications", markets: "Availability", signals: "Availability news", noPrice: "No listing", pickTwo: "Select at least two models to compare", selected: "selected", st: { unannounced: "Unannounced", announced: "Announced", preorder: "Pre-order", launched: "On sale", oos: "Out of stock" }, rg: { apac: "APAC", na: "North America", emea: "Europe" } },
     srcTitle: "Data sources",
     dash: { dash: "Dashboard", list: "List", tracked: "Models tracked", onsale: "Markets on sale", cheapest: "Lowest price", newReviews: "New reviews (7d)", launchMap: "Availability map", priceTrend: "Price trend", salesProxy: "Sales momentum (estimated)", salesNote: "Retailers do not publish unit sales; this estimates momentum from review growth", reviews: "Ratings", noHistory: "Trend lines appear once a few days of data accumulate", days: "days" },
     rescrape: 'Re-scrape',
@@ -459,7 +459,7 @@ const UI = {
     errArchive: (d, m) => `${d}版のアーカイブを読み込めません（${m}）。`,
     errRefresh: (m) => `更新に失敗しました:${m}`,
     reloading: "読み込み中…",
-    shop: { tab: "市場モニター", region: "地域", country: "国", platform: "販売店", status: "状況", spec: "仕様", memory: "メモリ", storage: "ストレージ", form: "形状", compare: "比較", clear: "解除", specs: "仕様表", markets: "各国の状況", signals: "入荷情報", noPrice: "掲載なし", pickTwo: "2機種以上を選んでください", selected: "選択中", st: { unannounced: "未発表", announced: "発表済", preorder: "予約受付", launched: "発売中", oos: "在庫切れ" }, rg: { apac: "アジア太平洋", na: "北米", emea: "欧州" } },
+    shop: { forms: { desktop: "デスクトップ", laptop: "ノート", edge: "エッジ", unknown: "未定" }, tab: "市場モニター", region: "地域", country: "国", platform: "販売店", status: "状況", spec: "仕様", memory: "メモリ", storage: "ストレージ", form: "形状", compare: "比較", clear: "解除", specs: "仕様表", markets: "各国の状況", signals: "入荷情報", noPrice: "掲載なし", pickTwo: "2機種以上を選んでください", selected: "選択中", st: { unannounced: "未発表", announced: "発表済", preorder: "予約受付", launched: "発売中", oos: "在庫切れ" }, rg: { apac: "アジア太平洋", na: "北米", emea: "欧州" } },
     srcTitle: "データソース",
     dash: { dash: "ダッシュボード", list: "一覧", tracked: "追跡機種", onsale: "発売中の市場", cheapest: "最安値", newReviews: "7日間の新規レビュー", launchMap: "発売地域", priceTrend: "価格推移", salesProxy: "販売の勢い（推定）", salesNote: "販売数は公開されないため、レビュー数の増加から推定した参考値です", reviews: "評価", noHistory: "数日分のデータが溜まると推移が表示されます", days: "日" },
     rescrape: '再取得',
@@ -506,7 +506,7 @@ const UI = {
     errArchive: (d, m) => `读不到 ${d} 期的存档(${m})。`,
     errRefresh: (m) => `更新失败:${m}`,
     reloading: "读取中…",
-    shop: { tab: "市场监控", region: "区域", country: "国家", platform: "渠道", status: "状态", spec: "规格", memory: "内存", storage: "存储", form: "型式", compare: "比较", clear: "清除", specs: "规格表", markets: "各国货况", signals: "货况消息", noPrice: "无报价", pickTwo: "勾选两个以上的机型才能比较", selected: "已选", st: { unannounced: "未发表", announced: "已发表", preorder: "预购", launched: "开卖", oos: "缺货" }, rg: { apac: "亚太", na: "北美", emea: "欧洲" } },
+    shop: { forms: { desktop: "台式机", laptop: "笔记本", edge: "边缘工作站", unknown: "未定" }, tab: "市场监控", region: "区域", country: "国家", platform: "渠道", status: "状态", spec: "规格", memory: "内存", storage: "存储", form: "型式", compare: "比较", clear: "清除", specs: "规格表", markets: "各国货况", signals: "货况消息", noPrice: "无报价", pickTwo: "勾选两个以上的机型才能比较", selected: "已选", st: { unannounced: "未发表", announced: "已发表", preorder: "预购", launched: "开卖", oos: "缺货" }, rg: { apac: "亚太", na: "北美", emea: "欧洲" } },
     srcTitle: "数据来源",
     dash: { dash: "仪表板", list: "列表", tracked: "追踪机型", onsale: "已开卖市场", cheapest: "最低价", newReviews: "7 日新增评论", launchMap: "开卖区域", priceTrend: "价格趋势", salesProxy: "销售动能（推估）", salesNote: "电商不公开销量，这里以评论数的增量推估，仅供参考", reviews: "评价", noHistory: "累积几天数据后才会出现趋势线", days: "天" },
     rescrape: '重新抓取',
@@ -553,7 +553,7 @@ const UI = {
     errArchive: (d, m) => `${d}판 보관 파일을 읽을 수 없습니다 (${m}).`,
     errRefresh: (m) => `새로고침 실패: ${m}`,
     reloading: "불러오는 중…",
-    shop: { tab: "시장 모니터링", region: "지역", country: "국가", platform: "판매처", status: "상태", spec: "사양", memory: "메모리", storage: "스토리지", form: "형태", compare: "비교", clear: "해제", specs: "사양표", markets: "국가별 상태", signals: "출시 소식", noPrice: "미등록", pickTwo: "두 개 이상 선택하세요", selected: "선택", st: { unannounced: "미발표", announced: "발표됨", preorder: "사전예약", launched: "판매중", oos: "품절" }, rg: { apac: "아시아태평양", na: "북미", emea: "유럽" } },
+    shop: { forms: { desktop: "데스크톱", laptop: "노트북", edge: "엣지", unknown: "미정" }, tab: "시장 모니터링", region: "지역", country: "국가", platform: "판매처", status: "상태", spec: "사양", memory: "메모리", storage: "스토리지", form: "형태", compare: "비교", clear: "해제", specs: "사양표", markets: "국가별 상태", signals: "출시 소식", noPrice: "미등록", pickTwo: "두 개 이상 선택하세요", selected: "선택", st: { unannounced: "미발표", announced: "발표됨", preorder: "사전예약", launched: "판매중", oos: "품절" }, rg: { apac: "아시아태평양", na: "북미", emea: "유럽" } },
     srcTitle: "데이터 출처",
     dash: { dash: "대시보드", list: "목록", tracked: "추적 기종", onsale: "판매 중 시장", cheapest: "최저가", newReviews: "7일 신규 리뷰", launchMap: "출시 지역", priceTrend: "가격 추이", salesProxy: "판매 흐름(추정)", salesNote: "판매량은 공개되지 않으므로 리뷰 증가량으로 추정한 참고치입니다", reviews: "평점", noHistory: "며칠간 데이터가 쌓이면 추이가 표시됩니다", days: "일" },
     rescrape: '다시 수집',
@@ -602,7 +602,7 @@ const UI = {
     errArchive: (d, m) => `Archiv für ${d} konnte nicht gelesen werden (${m}).`,
     errRefresh: (m) => `Aktualisierung fehlgeschlagen: ${m}`,
     reloading: "Wird geladen…",
-    shop: { tab: "Marktbeobachtung", region: "Region", country: "Land", platform: "Händler", status: "Status", spec: "Technik", memory: "Speicher", storage: "Datenträger", form: "Bauform", compare: "Vergleich", clear: "Leeren", specs: "Technische Daten", markets: "Verfügbarkeit", signals: "Verfügbarkeitsmeldungen", noPrice: "Kein Angebot", pickTwo: "Mindestens zwei Modelle auswählen", selected: "ausgewählt", st: { unannounced: "Unangekündigt", announced: "Angekündigt", preorder: "Vorbestellung", launched: "Im Handel", oos: "Nicht verfügbar" }, rg: { apac: "Asien-Pazifik", na: "Nordamerika", emea: "Europa" } },
+    shop: { forms: { desktop: "Desktop", laptop: "Notebook", edge: "Edge-Workstation", unknown: "offen" }, tab: "Marktbeobachtung", region: "Region", country: "Land", platform: "Händler", status: "Status", spec: "Technik", memory: "Speicher", storage: "Datenträger", form: "Bauform", compare: "Vergleich", clear: "Leeren", specs: "Technische Daten", markets: "Verfügbarkeit", signals: "Verfügbarkeitsmeldungen", noPrice: "Kein Angebot", pickTwo: "Mindestens zwei Modelle auswählen", selected: "ausgewählt", st: { unannounced: "Unangekündigt", announced: "Angekündigt", preorder: "Vorbestellung", launched: "Im Handel", oos: "Nicht verfügbar" }, rg: { apac: "Asien-Pazifik", na: "Nordamerika", emea: "Europa" } },
     srcTitle: "Datenquellen",
     dash: { dash: "Dashboard", list: "Liste", tracked: "Verfolgte Modelle", onsale: "Märkte im Handel", cheapest: "Tiefstpreis", newReviews: "Neue Bewertungen (7 T)", launchMap: "Verfügbarkeitskarte", priceTrend: "Preisverlauf", salesProxy: "Verkaufsdynamik (geschätzt)", salesNote: "Händler veröffentlichen keine Verkaufszahlen; geschätzt aus dem Zuwachs an Bewertungen", reviews: "Bewertungen", noHistory: "Verlaufslinien erscheinen nach einigen Tagen", days: "Tage" },
     rescrape: 'Neu abrufen',
@@ -651,7 +651,7 @@ const UI = {
     errArchive: (d, m) => `No se pudo leer el archivo de ${d} (${m}).`,
     errRefresh: (m) => `Error al actualizar: ${m}`,
     reloading: "Cargando…",
-    shop: { tab: "Monitor de mercado", region: "Región", country: "País", platform: "Tienda", status: "Estado", spec: "Especificaciones", memory: "Memoria", storage: "Almacenamiento", form: "Formato", compare: "Comparar", clear: "Borrar", specs: "Ficha técnica", markets: "Disponibilidad", signals: "Novedades de disponibilidad", noPrice: "Sin oferta", pickTwo: "Selecciona al menos dos modelos", selected: "seleccionados", st: { unannounced: "Sin anunciar", announced: "Anunciado", preorder: "Reserva", launched: "En venta", oos: "Agotado" }, rg: { apac: "Asia-Pacífico", na: "Norteamérica", emea: "Europa" } },
+    shop: { forms: { desktop: "Sobremesa", laptop: "Portátil", edge: "Estación edge", unknown: "pendiente" }, tab: "Monitor de mercado", region: "Región", country: "País", platform: "Tienda", status: "Estado", spec: "Especificaciones", memory: "Memoria", storage: "Almacenamiento", form: "Formato", compare: "Comparar", clear: "Borrar", specs: "Ficha técnica", markets: "Disponibilidad", signals: "Novedades de disponibilidad", noPrice: "Sin oferta", pickTwo: "Selecciona al menos dos modelos", selected: "seleccionados", st: { unannounced: "Sin anunciar", announced: "Anunciado", preorder: "Reserva", launched: "En venta", oos: "Agotado" }, rg: { apac: "Asia-Pacífico", na: "Norteamérica", emea: "Europa" } },
     srcTitle: "Fuentes de datos",
     dash: { dash: "Panel", list: "Lista", tracked: "Modelos seguidos", onsale: "Mercados en venta", cheapest: "Precio más bajo", newReviews: "Nuevas opiniones (7 d)", launchMap: "Mapa de disponibilidad", priceTrend: "Evolución del precio", salesProxy: "Impulso de ventas (estimado)", salesNote: "Las tiendas no publican ventas; se estima a partir del aumento de opiniones", reviews: "Valoraciones", noHistory: "Las líneas aparecen tras unos días de datos", days: "días" },
     rescrape: 'Volver a recopilar',
@@ -700,7 +700,7 @@ const UI = {
     errArchive: (d, m) => `Impossible de lire l'archive du ${d} (${m}).`,
     errRefresh: (m) => `Échec de la mise à jour : ${m}`,
     reloading: "Chargement…",
-    shop: { tab: "Suivi du marché", region: "Région", country: "Pays", platform: "Revendeur", status: "État", spec: "Fiche", memory: "Mémoire", storage: "Stockage", form: "Format", compare: "Comparer", clear: "Effacer", specs: "Fiche technique", markets: "Disponibilité", signals: "Actualité de disponibilité", noPrice: "Aucune offre", pickTwo: "Sélectionnez au moins deux modèles", selected: "sélectionnés", st: { unannounced: "Non annoncé", announced: "Annoncé", preorder: "Précommande", launched: "En vente", oos: "Épuisé" }, rg: { apac: "Asie-Pacifique", na: "Amérique du Nord", emea: "Europe" } },
+    shop: { forms: { desktop: "Bureau", laptop: "Portable", edge: "Station edge", unknown: "à venir" }, tab: "Suivi du marché", region: "Région", country: "Pays", platform: "Revendeur", status: "État", spec: "Fiche", memory: "Mémoire", storage: "Stockage", form: "Format", compare: "Comparer", clear: "Effacer", specs: "Fiche technique", markets: "Disponibilité", signals: "Actualité de disponibilité", noPrice: "Aucune offre", pickTwo: "Sélectionnez au moins deux modèles", selected: "sélectionnés", st: { unannounced: "Non annoncé", announced: "Annoncé", preorder: "Précommande", launched: "En vente", oos: "Épuisé" }, rg: { apac: "Asie-Pacifique", na: "Amérique du Nord", emea: "Europe" } },
     srcTitle: "Sources de données",
     dash: { dash: "Tableau de bord", list: "Liste", tracked: "Modèles suivis", onsale: "Marchés en vente", cheapest: "Prix le plus bas", newReviews: "Nouveaux avis (7 j)", launchMap: "Carte de disponibilité", priceTrend: "Évolution du prix", salesProxy: "Dynamique des ventes (estimée)", salesNote: "Les revendeurs ne publient pas les ventes ; estimation basée sur la hausse des avis", reviews: "Notes", noHistory: "Les courbes apparaissent après quelques jours de données", days: "jours" },
     rescrape: 'Relancer la collecte',
@@ -749,7 +749,7 @@ const UI = {
     errArchive: (d, m) => `Impossibile leggere l'archivio del ${d} (${m}).`,
     errRefresh: (m) => `Aggiornamento non riuscito: ${m}`,
     reloading: "Caricamento…",
-    shop: { tab: "Monitoraggio mercato", region: "Regione", country: "Paese", platform: "Rivenditore", status: "Stato", spec: "Scheda", memory: "Memoria", storage: "Archiviazione", form: "Formato", compare: "Confronta", clear: "Azzera", specs: "Scheda tecnica", markets: "Disponibilità", signals: "Novità sulla disponibilità", noPrice: "Nessuna offerta", pickTwo: "Seleziona almeno due modelli", selected: "selezionati", st: { unannounced: "Non annunciato", announced: "Annunciato", preorder: "Preordine", launched: "In vendita", oos: "Esaurito" }, rg: { apac: "Asia-Pacifico", na: "Nord America", emea: "Europa" } },
+    shop: { forms: { desktop: "Desktop", laptop: "Portatile", edge: "Workstation edge", unknown: "da definire" }, tab: "Monitoraggio mercato", region: "Regione", country: "Paese", platform: "Rivenditore", status: "Stato", spec: "Scheda", memory: "Memoria", storage: "Archiviazione", form: "Formato", compare: "Confronta", clear: "Azzera", specs: "Scheda tecnica", markets: "Disponibilità", signals: "Novità sulla disponibilità", noPrice: "Nessuna offerta", pickTwo: "Seleziona almeno due modelli", selected: "selezionati", st: { unannounced: "Non annunciato", announced: "Annunciato", preorder: "Preordine", launched: "In vendita", oos: "Esaurito" }, rg: { apac: "Asia-Pacifico", na: "Nord America", emea: "Europa" } },
     srcTitle: "Fonti dei dati",
     dash: { dash: "Dashboard", list: "Elenco", tracked: "Modelli monitorati", onsale: "Mercati in vendita", cheapest: "Prezzo minimo", newReviews: "Nuove recensioni (7 g)", launchMap: "Mappa disponibilità", priceTrend: "Andamento prezzo", salesProxy: "Slancio di vendita (stimato)", salesNote: "I rivenditori non pubblicano le vendite; stima basata sull'aumento delle recensioni", reviews: "Valutazioni", noHistory: "Le curve appaiono dopo alcuni giorni di dati", days: "giorni" },
     rescrape: 'Ripeti la raccolta',
@@ -804,7 +804,9 @@ const REGION_IDS = ["apac", "na", "emea"];
 
 // 填入 "帳號/repo" 才會出現「重新爬取」按鈕。留空則隱藏。
 // token 由使用者按下按鈕時輸入，只存在 sessionStorage，不會寫進這個檔案。
-const GITHUB_REPO = "JerryTsai0603/AI-News";
+// 留空 = 不顯示「重新爬取」按鈕。要用的話填 "帳號/repo"，
+// 按下時會要求輸入 GitHub token（只存在該次瀏覽階段）。
+const GITHUB_REPO = "";
 const GITHUB_WORKFLOW = "daily-ai-news.yml";
 
 // 品牌是專有名詞，各語言都一樣，不進字典
@@ -1093,7 +1095,7 @@ const SHOP_TESTS = {
   line:     (p, s) => s.has(p.line),
   memory:   (p, s) => s.has(p.facets.memory),
   storage:  (p, s) => s.has(p.facets.storage),
-  form:     (p, s) => s.has(p.facets.form),
+  form:     (p, s) => s.has(p.form || p.facets.form),
 };
 
 function passShop(p, skip) {
@@ -1153,7 +1155,7 @@ function renderChrome() {
   $("tSort").textContent = t.sort;
   $("tFilter").textContent = t.filter;
   $("tNote").textContent = t.note;
-  $("ver").textContent = `頁面 v18 · 資料 ${dataVer}`;
+  $("ver").textContent = `頁面 v22 · 資料 ${dataVer}`;
   if (sourceGroups && sourceGroups.length) {
     renderSources(sourceGroups.reduce((n, g) => n + g.sources.length, 0));
   }
@@ -1204,7 +1206,8 @@ function shopGroupDefs() {
     { key: "storage",  label: sh.storage,     open: false,
       opts: uniq((p) => p.facets.storage).map((x) => [x, x]) },
     { key: "form",     label: sh.form,        open: false,
-      opts: uniq((p) => p.facets.form).map((x) => [x, x]) },
+      opts: uniq((p) => p.form || p.facets.form)
+              .map((x) => [x, sh.forms[x] || x]) },
   ].filter((g) => g.opts.length);
 }
 
@@ -1493,23 +1496,43 @@ function renderDash(shown, t) {
       <div class="s">${esc(d.salesProxy)}</div></div>
   </div>`;
 
-  // 開賣區域矩陣
+  // 開賣區域矩陣：先按產品線，再按型式分組
   const cc = ["TW", "JP", "US", "DE", "GB", "FR"];
-  const mapRows = shown.map((p) => {
-    const by = {};
-    p.markets.forEach((m) => { by[m.country] = m; });
-    return `<tr><td>${esc(p.name)}</td>${cc.map((c) => {
-      const m = by[c];
-      const st = m ? m.status : "unannounced";
-      return `<td title="${esc(sh.st[st] || st)}">
-        <span class="dot" style="background:${STATUS_COLOR[st]}"></span></td>`;
-    }).join("")}</tr>`;
-  }).join("");
+  const buckets = new Map();
+  for (const p of shown) {
+    const key = `${p.line}|${p.form || "unknown"}`;
+    if (!buckets.has(key)) buckets.set(key, []);
+    buckets.get(key).push(p);
+  }
+  // RTX 排前面，同產品線內筆記型排前面
+  const orderLine = { rtx: 0, dgx: 1 };
+  const orderForm = { laptop: 0, desktop: 1, edge: 2, unknown: 3 };
+  const sections = [...buckets.entries()].sort((a, b) => {
+    const [la, fa] = a[0].split("|"), [lb, fb] = b[0].split("|");
+    return (orderLine[la] ?? 9) - (orderLine[lb] ?? 9)
+        || (orderForm[fa] ?? 9) - (orderForm[fb] ?? 9);
+  });
 
   const amap = `<div class="panelbox"><h3>${esc(d.launchMap)}</h3>
-    <div class="amap"><table>
-      <thead><tr><th></th>${cc.map((c) => `<th>${c}</th>`).join("")}</tr></thead>
-      <tbody>${mapRows}</tbody></table></div>
+    ${sections.map(([key, list]) => {
+      const [line, form] = key.split("|");
+      return `<h4 style="font-size:12px;margin:14px 0 6px;font-weight:600">
+          ${esc(LINE_FIXED[line] || line)} · ${esc(sh.forms[form] || form)}
+          <span style="color:var(--mute);font-weight:400">${list.length}</span></h4>
+        <div class="amap"><table>
+          <thead><tr><th></th>${cc.map((c) => `<th>${c}</th>`).join("")}</tr></thead>
+          <tbody>${list.map((p) => {
+            const by = {};
+            p.markets.forEach((m) => { by[m.country] = m; });
+            return `<tr><td>${esc(p.name)}</td>${cc.map((c) => {
+              const m = by[c];
+              const st = m ? m.status : "unannounced";
+              const best = m && m.best;
+              return `<td title="${esc(sh.st[st] || st)}${best ? " " + money(best) : ""}">
+                <span class="dot" style="background:${STATUS_COLOR[st]}"></span></td>`;
+            }).join("")}</tr>`;
+          }).join("")}</tbody></table></div>`;
+    }).join("")}
     <div class="legend">${STATUS_ORDER.map((k) =>
       `<span><span class="dot" style="background:${STATUS_COLOR[k]}"></span>${esc(sh.st[k])}</span>`
     ).join("")}</div></div>`;
@@ -1659,7 +1682,8 @@ function renderShop() {
           <span class="o-name">${esc(sh.compare)}</span></button>
       </div>
       <h2>${esc(p.name)}</h2>
-      <div class="pmeta">${esc(p.specs.chip)} · ${esc(p.facets.memory)} · ${esc(p.facets.storage)}</div>
+      <div class="pmeta">${esc(p.specs.chip || "—")} · ${esc(p.facets.memory)}
+        · ${esc(p.facets.storage)} · ${esc(sh.forms[p.form] || p.form || "")}</div>
       <div class="mrow">${chips}</div>
       ${p.markets.filter((m) => m.rating).map((m) =>
         `<div class="stats" style="margin-bottom:8px">

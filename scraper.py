@@ -50,7 +50,7 @@ import requests
 
 # ---------------------------------------------------------------- 通用設定
 
-SCRAPER_VERSION = "v21"          # 網頁左下角會顯示，用來確認部署的是哪一版
+SCRAPER_VERSION = "v22"          # 網頁左下角會顯示，用來確認部署的是哪一版
 
 # Windows 主控台預設是 cp950，✓ ✗ 這類符號編不進去會直接拋例外，
 # 所以先把標準輸出改成 UTF-8，編不出來的字改成替代字元而不是報錯。
@@ -1522,53 +1522,53 @@ N1X_SPECS = {
 PRODUCT_SEED = [
     # ---- DGX Spark（GB10）：2025 年 10 月起陸續開賣 ----
     dict(id="nvidia-dgx-spark-fe", name="NVIDIA DGX Spark Founders Edition",
-         brand="nvidia", line="dgx", storage="4 TB NVMe", form="桌上型",
+         brand="nvidia", line="dgx", storage="4 TB NVMe", form="desktop",
          status="launched", keywords=["dgx spark", "founders edition"]),
     dict(id="asus-ascent-gx10", page="https://www.asus.com/networking-iot-servers/ai-servers/ascent/asus-ascent-gx10/", name="ASUS Ascent GX10",
-         brand="asus", line="dgx", storage="1 TB NVMe", form="桌上型",
+         brand="asus", line="dgx", storage="1 TB NVMe", form="desktop",
          status="launched", keywords=["ascent gx10"]),
     dict(id="acer-veriton-gn100", page="https://www.acer.com/us-en/desktop/veriton/veriton-gn100", name="Acer Veriton GN100",
-         brand="acer", line="dgx", storage="1 TB / 4 TB NVMe", form="桌上型",
+         brand="acer", line="dgx", storage="1 TB / 4 TB NVMe", form="desktop",
          status="launched", keywords=["veriton gn100"]),
     dict(id="dell-pro-max-gb10", page="https://www.dell.com/en-us/shop/desktop-computers/dell-pro-max-with-gb10/spd/pro-max-gb10", name="Dell Pro Max with GB10",
-         brand="dell", line="dgx", storage="4 TB NVMe", form="桌上型",
+         brand="dell", line="dgx", storage="4 TB NVMe", form="desktop",
          status="launched", keywords=["pro max with gb10", "pro max gb10"]),
     dict(id="hp-zgx-nano", page="https://www.hp.com/us-en/workstations/zgx-nano-ai-station.html", name="HP ZGX Nano AI Station",
-         brand="hp", line="dgx", storage="1 TB / 4 TB NVMe", form="桌上型",
+         brand="hp", line="dgx", storage="1 TB / 4 TB NVMe", form="desktop",
          status="launched", keywords=["zgx nano", "zgx"]),
     dict(id="lenovo-thinkstation-pgx", page="https://www.lenovo.com/us/en/p/workstations/thinkstation-p-series/thinkstation-pgx/", name="Lenovo ThinkStation PGX",
-         brand="lenovo", line="dgx", storage="4 TB NVMe", form="桌上型",
+         brand="lenovo", line="dgx", storage="4 TB NVMe", form="desktop",
          status="launched", keywords=["thinkstation pgx"]),
     dict(id="msi-edgexpert", page="https://www.msi.com/AI-PC/EdgeXpert-MS-C931", name="MSI EdgeXpert MS-C931",
-         brand="msi", line="dgx", storage="1 TB / 4 TB NVMe", form="邊緣工作站",
+         brand="msi", line="dgx", storage="1 TB / 4 TB NVMe", form="edge",
          status="launched", keywords=["edgexpert", "ms-c931"]),
     dict(id="gigabyte-ai-top-atom", page="https://www.gigabyte.com/Consumer/AI-TOP-ATOM", name="GIGABYTE AI TOP ATOM",
-         brand="gigabyte", line="dgx", storage="4 TB NVMe", form="桌上型",
+         brand="gigabyte", line="dgx", storage="4 TB NVMe", form="desktop",
          status="launched", keywords=["ai top atom"]),
     # ---- RTX Spark（N1X）：2026 秋季 ----
     dict(id="rtx-spark-asus", name="ASUS RTX Spark 筆電",
-         brand="asus", line="rtx", storage="—", form="筆記型",
+         brand="asus", line="rtx", storage="—", form="laptop",
          status="announced", keywords=["asus", "zenbook", "rog"]),
     dict(id="rtx-spark-dell", name="Dell RTX Spark 機種",
-         brand="dell", line="rtx", storage="—", form="筆記型 / 小型桌機",
+         brand="dell", line="rtx", storage="—", form="laptop",
          status="announced", keywords=["dell", "xps"]),
     dict(id="rtx-spark-hp", name="HP RTX Spark 機種",
-         brand="hp", line="rtx", storage="—", form="筆記型",
+         brand="hp", line="rtx", storage="—", form="laptop",
          status="announced", keywords=["hp ", "omnibook", "elitebook"]),
     dict(id="rtx-spark-lenovo", name="Lenovo Yoga Pro 9n / Yoga 9n",
-         brand="lenovo", line="rtx", storage="—", form="筆記型",
+         brand="lenovo", line="rtx", storage="—", form="laptop",
          status="announced", keywords=["yoga pro 9n", "yoga 9n", "lenovo"]),
     dict(id="rtx-spark-msi", name="MSI RTX Spark 機種",
-         brand="msi", line="rtx", storage="—", form="筆記型",
+         brand="msi", line="rtx", storage="—", form="laptop",
          status="announced", keywords=["msi"]),
     dict(id="rtx-spark-surface", name="Microsoft Surface（RTX Spark）",
-         brand="microsoft", line="rtx", storage="—", form="筆記型",
+         brand="microsoft", line="rtx", storage="—", form="laptop",
          status="announced", keywords=["surface"]),
     dict(id="rtx-spark-acer", name="Acer RTX Spark 機種",
-         brand="acer", line="rtx", storage="—", form="筆記型",
+         brand="acer", line="rtx", storage="—", form="laptop",
          status="unannounced", keywords=["acer"]),
     dict(id="rtx-spark-gigabyte", name="GIGABYTE RTX Spark 機種",
-         brand="gigabyte", line="rtx", storage="—", form="筆記型",
+         brand="gigabyte", line="rtx", storage="—", form="laptop",
          status="unannounced", keywords=["gigabyte", "aorus"]),
 ]
 
@@ -1727,6 +1727,23 @@ def parse_price(raw: str, locale: str) -> float | None:
         return None
 
 
+# 搜尋結果常混進組合包、加購服務、電子書。命中就整筆剔除。
+OFFER_EXCLUDE = [
+    r"\+", "＋", "兩入", "二入", "組合", "套裝", "bundle",
+    "nas", "伺服器", "server", "保固", "延長", "服務", "維護",
+    "電子書", "ebook", "kobo", "pubu", "readmoo", "課程", "教學", "書籤", "貼紙", "背包",
+    "配件", "轉接", "傳輸線", "cable", "adapter", "支架", "清潔",
+]
+
+
+def offer_excluded(name: str) -> str | None:
+    low = name.lower()
+    for pat in OFFER_EXCLUDE:
+        if re.search(pat, low, re.I):
+            return pat
+    return None
+
+
 def name_matches(name: str, keywords: list[str]) -> bool:
     """搜尋結果常混進配件與周邊，用機種關鍵字過濾。"""
     low = name.lower()
@@ -1754,7 +1771,7 @@ def scan_shop(shop: dict, query: str, keywords: list[str], line: str = "dgx",
     for m in re.finditer(shop["link"], page, re.I | re.S):
         n_link += 1
         name = strip_html(m.group("name"))
-        if not name_matches(name, keywords):
+        if not name_matches(name, keywords) or offer_excluded(name):
             continue
         n_name += 1
         href = urllib.parse.urljoin(shop["base"], m.group("href"))
@@ -1851,6 +1868,30 @@ def match_spec_key(label: str) -> str | None:
     return None
 
 
+# 從網頁抓下來的值常常是分類標籤（例如 chip 抓到「其他顯卡」），
+# 每個欄位要求出現對應的單位或品牌詞，過不了就不採用。
+SPEC_SANITY = {
+    "chip":      r"gb10|n1x|grace|blackwell|snapdragon|intel|amd|ryzen|core|soc|\d",
+    "cpu":       r"core|arm|cortex|\d|ghz|intel|amd|ryzen|grace",
+    "gpu":       r"blackwell|rtx|geforce|radeon|arc|nvidia|\d",
+    "aiPerf":    r"flops|tops|\d",
+    "memory":    r"\d\s*(gb|tb|mb)|lpddr|ddr",
+    "bandwidth": r"\d\s*(gb|mb|tb)\s*/?\s*s|gbps",
+    "storage":   r"\d\s*(gb|tb)|ssd|nvme|hdd",
+    "network":   r"\d|gbe|ethernet|wi-?fi|rj-?45|gbps",
+    "os":        r"windows|linux|dgx os|ubuntu|chrome|android|macos|作業系統|os",
+    "power":     r"\d\s*w|watt|瓦",
+    "form":      r"\d|mm|cm|inch|吋|desktop|laptop|tower|mini",
+}
+
+
+def spec_is_sane(key: str, value: str) -> bool:
+    pat = SPEC_SANITY.get(key)
+    if not pat:
+        return True
+    return re.search(pat, value, re.I) is not None
+
+
 def extract_specs(page: str) -> dict:
     """從規格表、定義列表與結構化資料裡撈規格。抓不到就回空字典。"""
     found: dict = {}
@@ -1860,8 +1901,11 @@ def extract_specs(page: str) -> dict:
             if not key or key in found:
                 continue
             val = strip_html(m.group("v"))
-            if 2 <= len(val) <= 160 and not val.lower().startswith("http"):
-                found[key] = val
+            if not (2 <= len(val) <= 160) or val.lower().startswith("http"):
+                continue
+            if not spec_is_sane(key, val):
+                continue          # 像 chip 抓到「其他顯卡」這種分類標籤就丟掉
+            found[key] = val
     return found
 
 
@@ -1993,6 +2037,9 @@ def pchome_search(query: str, keywords: list[str] | None = None,
             # 之前漏了這一段，導致電子書、周邊都被當成商品收進來
             if keywords and not name_matches(name, keywords):
                 continue
+            bad = offer_excluded(name)
+            if bad:
+                continue          # 組合包、加購、電子書
             named += 1
             if not above_floor(float(price), "TWD", line):
                 continue
@@ -2058,7 +2105,7 @@ def run_shop(news: list[dict] | None = None) -> None:
         # 內建值只是後備；優先用從產品官網或通路頁抓到的規格
         fallback = dict(GB10_SPECS if seed["line"] == "dgx" else N1X_SPECS)
         fallback["storage"] = seed["storage"]
-        fallback["form"] = seed["form"]
+        fallback.pop("form", None)      # 型式改由 product.form 這個代碼表示
 
         scraped, spec_src = {}, ""
         if seed.get("page"):
@@ -2166,6 +2213,7 @@ def run_shop(news: list[dict] | None = None) -> None:
             "specs": specs,
             "specSource": spec_src,
             "specScraped": sorted(scraped.keys()),
+            "form": seed["form"],
             "facets": {"memory": specs["memory"].split(" LPDDR")[0].strip(),
                        "storage": seed["storage"], "form": seed["form"]},
             "markets": [markets[c] for c in MARKETS],
