@@ -50,7 +50,15 @@ import requests
 
 # ---------------------------------------------------------------- 通用設定
 
-SCRAPER_VERSION = "v18"          # 網頁左下角會顯示，用來確認部署的是哪一版
+SCRAPER_VERSION = "v21"          # 網頁左下角會顯示，用來確認部署的是哪一版
+
+# Windows 主控台預設是 cp950，✓ ✗ 這類符號編不進去會直接拋例外，
+# 所以先把標準輸出改成 UTF-8，編不出來的字改成替代字元而不是報錯。
+for _stream in (sys.stdout, sys.stderr):
+    try:
+        _stream.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:
+        pass
 
 TZ = timezone(timedelta(hours=8))
 WINDOW_HOURS = 48
@@ -1635,13 +1643,16 @@ def collect_signals(prod: dict, news: list[dict]) -> list[dict]:
 SHOPS = [
     dict(id="newegg", platform="Newegg", country="US", currency="USD",
          locale="us", base="https://www.newegg.com",
-         url="https://www.newegg.com/p/pl?d={q}",
+         url=["https://www.newegg.com/p/pl?d={q}",
+              "https://www.newegg.com/global/tw-en/p/pl?d={q}"],
          link=r'<a[^>]+href="(?P<href>https://www\.newegg\.com/[^"?]+/p/[^"?]+)"[^>]*>'
               r'(?P<name>[^<]{8,180})</a>',
          price=r'\$\s?(?P<v>[\d,]+(?:\.\d{2})?)'),
     dict(id="kakaku", platform="価格.com", country="JP", currency="JPY",
          locale="jp", base="https://kakaku.com",
-         url="https://kakaku.com/search_results/{q}/",
+         # kakaku.com/search_results 會 302 到 search.kakaku.com 造成 404
+         url=["https://search.kakaku.com/{q}/",
+              "https://kakaku.com/search_results/{q}/"],
          link=r'<a[^>]+href="(?P<href>https?://kakaku\.com/item/[^"?]+)"[^>]*>'
               r'(?P<name>[^<]{6,180})</a>',
          price=r'[¥￥]\s?(?P<v>[\d,]{3,})'),
@@ -1724,8 +1735,14 @@ def name_matches(name: str, keywords: list[str]) -> bool:
 
 def scan_shop(shop: dict, query: str, keywords: list[str], line: str = "dgx",
               window: int = 2500, limit: int = 3) -> list[dict]:
-    url = shop["url"].format(q=urllib.parse.quote(query))
-    page = fetch(url, retries=0)
+    # url 可以是字串或多個候選，依序試到拿得到頁面為止
+    templates = shop["url"] if isinstance(shop["url"], list) else [shop["url"]]
+    page, url = None, ""
+    for tpl in templates:
+        url = tpl.format(q=urllib.parse.quote(query))
+        page = fetch(url, retries=0)
+        if page:
+            break
     if not page:
         log(f"  ✗ {shop['platform']}：取不到頁面（多半是被擋）")
         return []
