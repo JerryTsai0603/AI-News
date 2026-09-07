@@ -1,9 +1,9 @@
 {
  "channel": "rtx",
- "version": "v17",
- "fetchedAt": "2026-09-07T15:29:29.087244+08:00",
+ "version": "v18",
+ "fetchedAt": "2026-09-07T15:39:10.467218+08:00",
  "edition": "2026-09-07",
- "count": 29,
+ "count": 30,
  "languages": [
   "zh-TW",
   "zh-CN",
@@ -16,60 +16,60 @@
   "it"
  ],
  "byGroup": {
-  "asus": 4,
+  "asus": 3,
   "acer": 2,
   "hp": 4,
-  "msi": 2,
+  "msi": 1,
   "dell": 0,
   "lenovo": 8,
   "gigabyte": 0,
   "microsoft": 1,
-  "nvidia": 9
+  "nvidia": 11
  },
  "byLine": {},
  "items": [
   {
-   "title": "華碩.微星RTX Spark電腦秒殺!緊急急向輝達追單... PC下半年出貨恐下滑 \"保價不保量\"衝刺高階市場｜非凡財經新聞｜20260907",
-   "source": "YouTube · USTV 非凡電視",
-   "url": "https://www.youtube.com/watch?v=0Vyw1mdCykc",
-   "date": "2026-09-07 15:25",
-   "publishedAt": "2026-09-07T15:25:11+08:00",
-   "summary": "※下載非凡新聞ＡＰＰ看更多：https://reurl.cc/jr7A5p ※下載非凡商業ＡＰＰ學理財：https://reurl.cc/oYLj9j 更多內容 敬請鎖定 【非凡新聞台】【非凡商業台】 非凡電視台YouTube頻道 https://www.youtube.com/user/ustv 非凡電視台IG https://instagram.com/ustvnews 非凡電視台粉絲團 ht",
+   "title": "2026年9月7日 120BのLLMをローカル実行！超小型AI PC「ProArt GR1X」が登場",
+   "source": "YouTube · GPUニュース",
+   "url": "https://www.youtube.com/watch?v=CVSdpIIHaK4",
+   "date": "2026-09-07 15:30",
+   "publishedAt": "2026-09-07T15:30:47+08:00",
+   "summary": "ASUSから発表された超小型AI PC「ProArt GR1X」を徹底解説。Blackwell世代のGPUとGrace CPUを統合した最新SoC「NVIDIA RTX Spark N1X」を搭載し、驚異的なAI性能を実現しています。特筆すべきはユニファイドメモリ構造による効率化で、なんと120Bパラメータという大規模なLLMのローカル実行や最大100万トークンのコンテキスト対応を可能にしました。",
    "models": [
-    "RTX Spark"
+    "RTX Spark",
+    "N1X"
    ],
    "tag": "影片",
    "camps": [
-    "asus",
-    "msi"
+    "nvidia"
    ],
    "press": false,
    "heat": 100,
-   "image": "https://i.ytimg.com/vi/0Vyw1mdCykc/mqdefault.jpg",
-   "views": 22292,
+   "image": "https://i.ytimg.com/vi/CVSdpIIHaK4/mqdefault.jpg",
+   "views": 22323,
    "comments": 41,
-   "dupes": 49,
+   "dupes": 40,
    "also": [
+    "YouTube · USTV 非凡電視",
     "YouTube · News Monster",
     "YouTube · SMARTmania.cz",
-    "YouTube · BLACK BANDIT TECH",
     "YouTube · Eswara Vardhan Pappu - Tech",
     "YouTube · Sam Salhi",
     "YouTube · Mobilissimo.ro"
    ],
    "lines": [],
    "score": 232,
-   "lang": "zh",
+   "lang": "ja",
    "i18n": {
-    "zh-TW": {
-     "title": "華碩.微星RTX Spark電腦秒殺!緊急急向輝達追單... PC下半年出貨恐下滑 \"保價不保量\"衝刺高階市場｜非凡財經新聞｜20260907",
-     "summary": "※下載非凡新聞ＡＰＰ看更多：https://reurl.cc/jr7A5p ※下載非凡商業ＡＰＰ學理財：https://reurl.cc/oYLj9j 更多內容 敬請鎖定 【非凡新聞台】【非凡商業台】 非凡電視台YouTube頻道 https://www.youtube.com/user/ustv 非凡電視台IG https://instagram.com/ustvnews 非凡電視台粉絲團 ht"
+    "ja": {
+     "title": "2026年9月7日 120BのLLMをローカル実行！超小型AI PC「ProArt GR1X」が登場",
+     "summary": "ASUSから発表された超小型AI PC「ProArt GR1X」を徹底解説。Blackwell世代のGPUとGrace CPUを統合した最新SoC「NVIDIA RTX Spark N1X」を搭載し、驚異的なAI性能を実現しています。特筆すべきはユニファイドメモリ構造による効率化で、なんと120Bパラメータという大規模なLLMのローカル実行や最大100万トークンのコンテキスト対応を可能にしました。"
     }
    }
   },
   {
-   "title": "Lenovo takes the wraps off 2 new Nvidia RTX Spark laptops at IFA 2026 - mashable.com",
-   "source": "mashable.com",
+   "title": "Lenovo takes the wraps off 2 new Nvidia RTX Spark laptops at IFA 2026 - Mashable",
+   "source": "Mashable",
    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9BQkFfbUd6TUtSSFR6WjFvbTdPVFYwM19SaWxsT0psZmU2dW1BUkpnbnpsUnhNbDhVUWdYRDZ4WEZqZ0w0MVFyUk15SE8xRWJla202bmRrY20ycWNpN0xxVlhldGZYX1d6MGNwOVpwdDlubWxGa3VBdVpnMA?oc=5",
    "date": "2026-09-07 14:15",
    "publishedAt": "2026-09-07T14:15:13+08:00",
@@ -82,18 +82,18 @@
     "lenovo"
    ],
    "press": false,
-   "heat": 31,
+   "heat": 23,
    "image": "",
    "views": 0,
    "comments": 0,
-   "dupes": 2,
+   "dupes": 1,
    "also": [],
    "lines": [],
    "score": null,
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "Lenovo takes the wraps off 2 new Nvidia RTX Spark laptops at IFA 2026 - mashable.com",
+     "title": "Lenovo takes the wraps off 2 new Nvidia RTX Spark laptops at IFA 2026 - Mashable",
      "summary": ""
     }
    }
@@ -504,6 +504,37 @@
    }
   },
   {
+   "title": "Nvidia’s (NVDA) New RTX Spark Brings Local AI to Windows PC This October - TipRanks",
+   "source": "TipRanks",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOblpJWXVYV0lIc05GNEdQTW9KQVlORDIzVkpYdFlJcUhmWVFrVy1STi1WVXNRVXFvQ1RyQzl3ZlhqZGg2RnFialRncERDWVl2WHBrQzNhT1lJb3BDWGl4WnBvalJiLWhJQ0N5VWhPZHZWOXJuSVk2OS1OM0h0Rk9WdU9OeXF5ZWlfeHBhdTUwZHFTazhia3BPTTdtaW5QTmJa?oc=5",
+   "date": "2026-09-06 02:57",
+   "publishedAt": "2026-09-06T02:57:19+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 9,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Nvidia’s (NVDA) New RTX Spark Brings Local AI to Windows PC This October - TipRanks",
+     "summary": ""
+    }
+   }
+  },
+  {
    "title": "HP Unveils OmniBook Ultra 16 and X 14 with NVIDIA RTX Spark - Technetbook",
    "source": "Technetbook",
    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdFJhRW14MldNa3VzMGo3aXJFS2NPVDd2SW9DVFFTcnFxV05ucEVaN05xTFk0QVRUZVB0M1g5TWZxR2NMSHZNYi1DdkZQVEcwMnlGSS1sZndvb2lKUEhqdUl1bUw1ekh2azkwTkpWNkZuNHdJNk8xX2VYWEVoazdSTGxOUUtVZw?oc=5",
@@ -549,11 +580,11 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 17,
+   "heat": 25,
    "image": "",
    "views": 0,
    "comments": 0,
-   "dupes": 1,
+   "dupes": 2,
    "also": [],
    "lines": [],
    "score": null,
@@ -643,11 +674,11 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 9,
+   "heat": 16,
    "image": "",
    "views": 0,
    "comments": 0,
-   "dupes": 0,
+   "dupes": 1,
    "also": [],
    "lines": [],
    "score": null,
@@ -815,6 +846,38 @@
    }
   },
   {
+   "title": "Nvidia's RTX Spark N1X launches in October for laptops and desktops — 18 or 20 CPU cores, paired with 5,120 or6,144 CUDA cores, up to 128GB of unified memory",
+   "source": "Tom's Hardware",
+   "url": "https://www.tomshardware.com/laptops/nvidias-rtx-spark-n1x-launches-in-october-for-laptops-and-desktops-18-or-20-cpu-cores-paired-with-5-120-or-6-144-cuda-cores-up-to-128gb-of-unified-memory",
+   "date": "2026-09-04 00:00",
+   "publishedAt": "2026-09-04T00:00:00+08:00",
+   "summary": "Systems with Nvidia's RTX Spark N1X chips will launch in October in mini PCs and laptops, with the chips coming in two configurations.",
+   "models": [
+    "RTX Spark",
+    "N1X"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 1,
+   "image": "https://cdn.mos.cms.futurecdn.net/27F7rHXqesaDdqqdqyxZpG-1280-80.jpg",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Nvidia's RTX Spark N1X launches in October for laptops and desktops — 18 or 20 CPU cores, paired with 5,120 or6,144 CUDA cores, up to 128GB of unified memory",
+     "summary": "Systems with Nvidia's RTX Spark N1X chips will launch in October in mini PCs and laptops, with the chips coming in two configurations."
+    }
+   }
+  },
+  {
    "title": "Lenovo details its RTX Spark laptops — Yoga Pro 9n and Yoga 9n 2-in-1 get full specs, stylus support",
    "source": "Tom's Hardware",
    "url": "https://www.tomshardware.com/laptops/lenovo-details-its-rtx-spark-laptops-yoga-pro-9n-and-yoga-9n-2-in-1-get-full-specs-stylus-support",
@@ -844,38 +907,6 @@
     "en": {
      "title": "Lenovo details its RTX Spark laptops — Yoga Pro 9n and Yoga 9n 2-in-1 get full specs, stylus support",
      "summary": "Lenovo detailed its RTX Spark laptops ahead of IFA in Berlin, releasing full specs and showing off stylus compatibility."
-    }
-   }
-  },
-  {
-   "title": "Nvidia's RTX Spark N1X launches in October for laptops and desktops — 18 or 20 CPU cores, paired with 5,120 or6,144 CUDA cores, up to 128GB of unified memory",
-   "source": "Tom's Hardware",
-   "url": "https://www.tomshardware.com/laptops/nvidias-rtx-spark-n1x-launches-in-october-for-laptops-and-desktops-18-or-20-cpu-cores-paired-with-5-120-or-6-144-cuda-cores-up-to-128gb-of-unified-memory",
-   "date": "2026-09-04 00:00",
-   "publishedAt": "2026-09-04T00:00:00+08:00",
-   "summary": "Systems with Nvidia's RTX Spark N1X chips will launch in October in mini PCs and laptops, with the chips coming in two configurations.",
-   "models": [
-    "RTX Spark",
-    "N1X"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "nvidia"
-   ],
-   "press": false,
-   "heat": 1,
-   "image": "https://cdn.mos.cms.futurecdn.net/27F7rHXqesaDdqqdqyxZpG-1280-80.jpg",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Nvidia's RTX Spark N1X launches in October for laptops and desktops — 18 or 20 CPU cores, paired with 5,120 or6,144 CUDA cores, up to 128GB of unified memory",
-     "summary": "Systems with Nvidia's RTX Spark N1X chips will launch in October in mini PCs and laptops, with the chips coming in two configurations."
     }
    }
   },
