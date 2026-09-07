@@ -13,7 +13,8 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  scrape:
+  # ── 第一段：新聞。跑在 GitHub 的機器上，你的電腦沒開也照樣更新 ──
+  news:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
@@ -25,9 +26,8 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: 擷取、翻譯、價格與規格
+      - name: 擷取與翻譯
         env:
-          # ---- 翻譯金鑰：設其中一組就會生效 ----
           MINIMAX_API_KEY:   ${{ secrets.MINIMAX_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           OPENAI_API_KEY:    ${{ secrets.OPENAI_API_KEY }}
@@ -40,38 +40,81 @@ jobs:
           LLM_BASE_URL:      ${{ vars.LLM_BASE_URL }}
           TRANSLATE_BUDGET_MIN: ${{ vars.TRANSLATE_BUDGET_MIN }}
           LLM_WORKERS:          ${{ vars.LLM_WORKERS }}
-
-          # ---- 社群來源 ----
           REDDIT_CLIENT_ID:     ${{ secrets.REDDIT_CLIENT_ID }}
           REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
           YOUTUBE_API_KEY:      ${{ secrets.YOUTUBE_API_KEY }}
           YT_CHANNELS:          ${{ vars.YT_CHANNELS }}
           X_BEARER_TOKEN:       ${{ secrets.X_BEARER_TOKEN }}
-
-          # ---- 市場監控 ----
-          REVIEW_FETCH_MAX:     ${{ vars.REVIEW_FETCH_MAX }}
-
           TARGET_LANGS: "zh-TW,zh-CN,en,ja,ko,de,es,fr,it"
-        # all = 模型新聞 → RTX Spark → DGX Spark → 市場監控 → 來源清單
-        run: python scraper.py all
+        run: |
+          python scraper.py models
+          python scraper.py rtx
+          python scraper.py dgx
+          python scraper.py sources
 
-      - name: 提交結果
+      - name: 提交新聞
         if: always()
         run: |
           git config user.name  "ai-news-bot"
           git config user.email "actions@github.com"
           git add data/
           if git diff --staged --quiet; then
-            echo "沒有新資料"
-            exit 0
+            echo "沒有新資料"; exit 0
           fi
-          git commit -m "資料更新 $(TZ=Asia/Taipei date '+%Y-%m-%d %H:%M')"
+          git commit -m "新聞更新 $(TZ=Asia/Taipei date '+%Y-%m-%d %H:%M')"
           for i in 1 2 3; do
-            if git push; then
-              echo "推送成功"
-              exit 0
-            fi
-            echo "推送失敗，第 $i 次重試"
+            git push && exit 0
+            sleep $((RANDOM % 8 + 4))
+            git pull --rebase --autostash origin main || true
+          done
+          echo "::warning::推送重試 3 次仍失敗"
+
+  # ── 第二段：價格與規格。跑在你自己的電腦上，用住宅 IP 避開 403 ──
+  shop:
+    needs: news
+    if: always()                # 新聞那段失敗也照樣試著更新價格
+    runs-on: self-hosted
+    timeout-minutes: 40
+    continue-on-error: true     # 電腦沒開時不要把整趟標成失敗
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 確認 Python 與同步最新資料
+        shell: bash
+        run: |
+          PY=$(command -v python || command -v python3)
+          echo "使用 $PY"
+          "$PY" --version
+          git pull --rebase --autostash origin main || true
+
+      - name: 安裝套件
+        shell: bash
+        run: |
+          PY=$(command -v python || command -v python3)
+          "$PY" -m pip install --quiet --upgrade pip
+          "$PY" -m pip install --quiet -r requirements.txt
+
+      - name: 市場監控
+        shell: bash
+        env:
+          REVIEW_FETCH_MAX: ${{ vars.REVIEW_FETCH_MAX }}
+        run: |
+          PY=$(command -v python || command -v python3)
+          "$PY" scraper.py shop
+
+      - name: 提交價格
+        if: always()
+        shell: bash
+        run: |
+          git config user.name  "ai-news-bot"
+          git config user.email "actions@github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "沒有新資料"; exit 0
+          fi
+          git commit -m "價格規格更新 $(TZ=Asia/Taipei date '+%Y-%m-%d %H:%M')"
+          for i in 1 2 3; do
+            git push && exit 0
             sleep $((RANDOM % 8 + 4))
             git pull --rebase --autostash origin main || true
           done
