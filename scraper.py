@@ -51,7 +51,7 @@ import requests
 
 # ---------------------------------------------------------------- 通用設定
 
-SCRAPER_VERSION = "v24"          # 網頁左下角會顯示，用來確認部署的是哪一版
+SCRAPER_VERSION = "v25"          # 網頁左下角會顯示，用來確認部署的是哪一版
 
 # Windows 主控台預設是 cp950，✓ ✗ 這類符號編不進去會直接拋例外，
 # 所以先把標準輸出改成 UTF-8，編不出來的字改成替代字元而不是報錯。
@@ -146,6 +146,11 @@ MODELS_FEEDS = [
     ("Google AI Blog", "https://blog.google/technology/ai/rss/"),
     ("OpenAI Blog", "https://openai.com/blog/rss.xml"),
 ]
+
+# 官網規格頁若改版或抓不到，這幾個第三方彙整站的規格通常仍然準確
+SPEC_FALLBACK_PAGES = {
+    "lenovo-thinkstation-pgx": "https://thinkstation-specs.com/thinkstation/pgx/",
+}
 
 MODELS_PRESS_PAGES = [
     ("Anthropic News", "https://www.anthropic.com/news"),
@@ -1550,26 +1555,26 @@ PRODUCT_SEED = [
     dict(id="nvidia-dgx-spark-fe", name="NVIDIA DGX Spark Founders Edition",
          brand="nvidia", line="dgx", storage="4 TB NVMe", form="desktop",
          status="launched", keywords=["dgx spark", "founders edition"]),
-    dict(id="asus-ascent-gx10", page="https://www.asus.com/networking-iot-servers/ai-servers/ascent/asus-ascent-gx10/", name="ASUS Ascent GX10",
+    dict(id="asus-ascent-gx10", page="https://www.asus.com/networking-iot-servers/desktop-ai-supercomputer/ultra-small-ai-supercomputers/asus-ascent-gx10/", name="ASUS Ascent GX10",
          brand="asus", line="dgx", storage="1 TB NVMe", form="desktop",
          status="launched", keywords=["ascent gx10"]),
-    dict(id="acer-veriton-gn100", page="https://www.acer.com/us-en/desktop/veriton/veriton-gn100", name="Acer Veriton GN100",
+    dict(id="acer-veriton-gn100", page="https://www.acer.com/us-en/desktops-and-all-in-ones/veriton-workstations/veriton-gn100-ai-mini-workstation", name="Acer Veriton GN100",
          brand="acer", line="dgx", storage="1 TB / 4 TB NVMe", form="desktop",
          status="launched", keywords=["veriton gn100"]),
-    dict(id="dell-pro-max-gb10", page="https://www.dell.com/en-us/shop/desktop-computers/dell-pro-max-with-gb10/spd/pro-max-gb10", name="Dell Pro Max with GB10",
+    dict(id="dell-pro-max-gb10", page="https://www.dell.com/en-us/shop/dell-laptops/sf/dell-pro-max-nvidia-ai", name="Dell Pro Max with GB10",
          brand="dell", line="dgx", storage="4 TB NVMe", form="desktop",
          status="launched", keywords=["pro max with gb10", "pro max gb10"]),
     dict(id="hp-zgx-nano", page="https://www.hp.com/us-en/workstations/zgx-nano-ai-station.html", name="HP ZGX Nano AI Station",
-         brand="hp", line="dgx", storage="1 TB / 4 TB NVMe", form="desktop",
+         brand="hp", line="dgx", storage="2 TB / 4 TB NVMe", form="desktop",
          status="launched", keywords=["zgx nano", "zgx"]),
-    dict(id="lenovo-thinkstation-pgx", page="https://www.lenovo.com/us/en/p/workstations/thinkstation-p-series/thinkstation-pgx/", name="Lenovo ThinkStation PGX",
+    dict(id="lenovo-thinkstation-pgx", page="https://www.lenovo.com/us/en/p/workstations/thinkstation-p-series/lenovo-thinkstation-pgx-sff/30kl000eus", name="Lenovo ThinkStation PGX",
          brand="lenovo", line="dgx", storage="4 TB NVMe", form="desktop",
          status="launched", keywords=["thinkstation pgx"]),
-    dict(id="msi-edgexpert", page="https://www.msi.com/AI-PC/EdgeXpert-MS-C931", name="MSI EdgeXpert MS-C931",
+    dict(id="msi-edgexpert", page="https://www.msi.com/Landing/EdgeXpert-MS-C931", name="MSI EdgeXpert MS-C931",
          brand="msi", line="dgx", storage="1 TB / 4 TB NVMe", form="edge",
          status="launched", keywords=["edgexpert", "ms-c931"]),
-    dict(id="gigabyte-ai-top-atom", page="https://www.gigabyte.com/Consumer/AI-TOP-ATOM", name="GIGABYTE AI TOP ATOM",
-         brand="gigabyte", line="dgx", storage="4 TB NVMe", form="desktop",
+    dict(id="gigabyte-ai-top-atom", page="https://www.gigabyte.com/AI-TOP-PC/GIGABYTE-AI-TOP-ATOM/sp", name="GIGABYTE AI TOP ATOM",
+         brand="gigabyte", line="dgx", storage="1 TB / 4 TB NVMe", form="desktop",
          status="launched", keywords=["ai top atom"]),
     # ---- RTX Spark（N1X）：2026 秋季 ----
     dict(id="rtx-spark-asus", name="ASUS RTX Spark 筆電",
@@ -1700,6 +1705,8 @@ SHOPS = [
          price=r'£\s*(?P<v>[\d,]+(?:\.\d{2})?)'),
     dict(id="ocuk", lang="en-GB,en;q=0.9", platform="Overclockers UK", country="GB", currency="GBP",
          locale="en", base="https://www.overclockers.co.uk",
+         # 這條搜尋路徑未經實際驗證，上次回應從 403 變 404，
+         # 可能是網址結構已改變。若持續失敗，建議移除這家。
          url="https://www.overclockers.co.uk/catalogsearch/result/?q={q}",
          link=r'<a[^>]+href="(?P<href>https://www\.overclockers\.co\.uk/[^"?]+\.html)"[^>]*>'
               r'(?P<name>[^<]{8,180})</a>',
@@ -2256,6 +2263,14 @@ def run_shop(news: list[dict] | None = None) -> None:
             else:
                 log(f"  規格：{seed['name']} → 官網抓不到，改用內建值")
             time.sleep(0.6)
+
+        if not scraped and seed["id"] in SPEC_FALLBACK_PAGES:
+            fb_url = SPEC_FALLBACK_PAGES[seed["id"]]
+            got = fetch_specs(fb_url)
+            if got:
+                scraped, spec_src = got, fb_url
+                log(f"  規格：{seed['name']} → 從第三方規格站抓到 {len(got)} 項")
+            time.sleep(0.5)
 
         specs = {**fallback, **scraped}
 
