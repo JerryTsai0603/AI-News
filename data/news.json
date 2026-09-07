@@ -1,7 +1,7 @@
 {
  "channel": "models",
- "version": "v18",
- "fetchedAt": "2026-09-07T15:37:36.264391+08:00",
+ "version": "v21",
+ "fetchedAt": "2026-09-07T15:48:59.484832+08:00",
  "edition": "2026-09-07",
  "count": 60,
  "languages": [
@@ -16,9 +16,9 @@
   "it"
  ],
  "byGroup": {
-  "openai": 42,
-  "anthropic": 9,
-  "google": 3,
+  "openai": 43,
+  "anthropic": 11,
+  "google": 2,
   "meta": 0,
   "cn": 1,
   "other": 18
@@ -26,11 +26,49 @@
  "byLine": {},
  "items": [
   {
+   "title": "OpenAI just dropped GPT-6 Astra — shockingly good | The AI Radar",
+   "source": "YouTube · The AI Radar",
+   "url": "https://www.youtube.com/watch?v=HW_JsvF73i4",
+   "date": "2026-09-07 15:48",
+   "publishedAt": "2026-09-07T15:48:32+08:00",
+   "summary": "📲 Daily AI intel on Telegram: https://t.me/the_ai_radar OpenAI just released GPT-6 Astra and early testers say it's shockingly good at almost everything. The new AI model powers ChatGPT and Codex with",
+   "models": [
+    "ChatGPT"
+   ],
+   "tag": "影片",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 100,
+   "image": "https://i.ytimg.com/vi/HW_JsvF73i4/mqdefault.jpg",
+   "views": 29490,
+   "comments": 36,
+   "dupes": 81,
+   "also": [
+    "YouTube · 正修科技大學 數位多媒體設計系",
+    "YouTube · B2B行銷解密中",
+    "YouTube · Clipixy",
+    "YouTube · Akshay Bavkar",
+    "YouTube · Insightful Pipe - AI Connectors Platform",
+    "YouTube · Piers BK GrowYourBnb"
+   ],
+   "lines": [],
+   "score": 903,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "OpenAI just dropped GPT-6 Astra — shockingly good | The AI Radar",
+     "summary": "📲 Daily AI intel on Telegram: https://t.me/the_ai_radar OpenAI just released GPT-6 Astra and early testers say it's shockingly good at almost everything. The new AI model powers ChatGPT and Codex with"
+    }
+   }
+  },
+  {
    "title": "GPT-6 Astra: A new generation of intelligence - OpenAI",
    "source": "OpenAI",
    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE11QUxBUVJLdC1jSmtJbmcxQzg4Qm9yUlNPS3JEMEVBanIyY1FRT2k2R0hBTlNnX2VqcWpTSDJUMDV0TjBJN1VGamlrZzVPZw?oc=5",
-   "date": "2026-09-07 15:30",
-   "publishedAt": "2026-09-07T15:30:33+08:00",
+   "date": "2026-09-07 15:46",
+   "publishedAt": "2026-09-07T15:46:35+08:00",
    "summary": "",
    "models": [],
    "tag": "產品發表",
@@ -55,9 +93,67 @@
    }
   },
   {
-   "title": "Google Gemini 3.8 Flash登場！AI Studio可免費玩 限時半價超抵 - 香港01",
+   "title": "GPT-6 Astra提示詞怎麼寫？讓模型少問多做、定義指令優先級··· 5個關鍵調整一次看 - bnext.com.tw",
+   "source": "bnext.com.tw",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5VMlRhUUg3M0NGX1RnV0FYQ3Y1T0VieDdOYjNndU1zbnlBRW45WUFENGp3SHRmcGlTemhvNzdOeTBHekg5ZTZnWjBrd3lfLUgxM3hhX2g5YzRPT2daTUhVcU10elhQd0tOVzdBOE0wNHhzXzBE?oc=5",
+   "date": "2026-09-07 15:40",
+   "publishedAt": "2026-09-07T15:40:00+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "GPT-6 Astra提示詞怎麼寫？讓模型少問多做、定義指令優先級··· 5個關鍵調整一次看 - bnext.com.tw",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "國際產經：GPT-6 Astra動用逾10萬顆GPU，黃仁勳喊AGI到來、AI基建需求續強 - ww2.money-link.com.tw",
+   "source": "ww2.money-link.com.tw",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQnEyc2Y4dTZ2MEtUeGdFT09tVjZqY2NSWE1rcFZZZ2pxZnVKaF9weWYwSVdlLTl3cGJYbHBxS0d0dV9zSTdGem9ZUXpKU3piRklxQklDV3dpWDV1clAtM2hoc2dUeDNrR0tYWU45a1hmWUVNMjcwWUJqX2NFbjk0dWM5NzNVRWV6?oc=5",
+   "date": "2026-09-07 15:36",
+   "publishedAt": "2026-09-07T15:36:00+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "國際產經：GPT-6 Astra動用逾10萬顆GPU，黃仁勳喊AGI到來、AI基建需求續強 - ww2.money-link.com.tw",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Google Gemini 3.8 Flash登場！AI Studio免費玩 付費版限時半價 - 香港01",
    "source": "香港01",
-   "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxQYmZRajN6WlJudEJSdHFJdE00bUdIWG1PTm00UjlaS0xsREcyWDR4VVAyUlQtcGUtVzdueU40MWhtX0JpbXZ3aDlSOVRIMmNVc1ktTXdEcUk4M1ZtM1c5a0F5WXExVFgxQ3pqdmNZdkpVOV80djdoTi01TTZTamo4V3doY3V0OUVHUFo0OWZPRVJjNDRrTDVNalJuOXdVZy1tZ3RtQ0t1N2RIbXhLU1k3eWNwZjV2UEs5Wl9nWUVSc2poNVVYQUxWZXhLbUlXeDg2MUZMNW9jdkEzOTRWZVljckhJWTFITmFFMnN2Z1ptVGpzemtFRkRVaWlnYmQ4bFdIMEk1T3BYR1Y5QUkyYU9yOU9sekJucTNfdnd5WVJUclFmWDRjWUpTYjhYOGR6Unp1dndR?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxPWTd5Q0xIUjJvZkp6WU1fQVhsMFdWNnBzdXdpcnNYeTBFRVZDVDBmbngzUW5zbEdlbVVlRG1PRGtWUk9pMmp3YWpLb3p3NjZUQkM2VXhVVEw1eUhYVWRScmZvb21ySGtiLWJCaHk4UFNzeEd5al9VWDE2SjdHV0FuMGh0ZDRuRUVlR1RKdzMyT05na2IzUTZJQzJob1NtOXpaYk9KTHhXYWNhUzJlUTBGNlFTSjdVR3k1SlVhWkJ1bGxzTlhHaHp4VUw4aFNJTGk4c0ZuTS1XZVBxRzVjUmlvVzlOTEhKUUwtd25VSllCSFJhRWR6X09PV0VmRllhLW9FQWpnVWUyZjEyOXA0RmdUbC1vN2RwMkRsd1ZNNXpSQXZHSEp5RjJTdV84ZmV3YjZJVjh3?oc=5",
    "date": "2026-09-07 15:30",
    "publishedAt": "2026-09-07T15:30:32+08:00",
    "summary": "",
@@ -80,7 +176,7 @@
    "lang": "zh",
    "i18n": {
     "zh-TW": {
-     "title": "Google Gemini 3.8 Flash登場！AI Studio可免費玩 限時半價超抵 - 香港01",
+     "title": "Google Gemini 3.8 Flash登場！AI Studio免費玩 付費版限時半價 - 香港01",
      "summary": ""
     }
    }
@@ -150,8 +246,8 @@
    }
   },
   {
-   "title": "大陸產經：陸AI模型調用量連19週領先美國，騰訊混元Hy4 preview暴增379%登頂 - 富聯網",
-   "source": "富聯網",
+   "title": "大陸產經：陸AI模型調用量連19週領先美國，騰訊混元Hy4 preview暴增379%登頂 - ww2.money-link.com.tw",
+   "source": "ww2.money-link.com.tw",
    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNT3pLckRfblFSNjRWQkxVdHh6ZWEzMFZXVUNQR2N0cmdvZlc2SmY0MEVGTVVrZnRYRmQ1SllEREo3RHAzdmdqa2lBUUl1Z2ZBbGJaaVRTV3lDUU1EQnR4VG0zUWZ1dWRhdFNtLUhocFNNbFpFNXQzckdfbW9IQW8yQThBLXliVFJM?oc=5",
    "date": "2026-09-07 15:20",
    "publishedAt": "2026-09-07T15:20:00+08:00",
@@ -173,44 +269,8 @@
    "lang": "zh",
    "i18n": {
     "zh-TW": {
-     "title": "大陸產經：陸AI模型調用量連19週領先美國，騰訊混元Hy4 preview暴增379%登頂 - 富聯網",
+     "title": "大陸產經：陸AI模型調用量連19週領先美國，騰訊混元Hy4 preview暴增379%登頂 - ww2.money-link.com.tw",
      "summary": ""
-    }
-   }
-  },
-  {
-   "title": "正修科技大學-生成式AI賦能數位內容美術設計人才培育 AI輔助3D建模與材質優化 EP4",
-   "source": "YouTube · 正修科技大學 數位多媒體設計系",
-   "url": "https://www.youtube.com/watch?v=3ceNjYkxlD8",
-   "date": "2026-09-07 15:15",
-   "publishedAt": "2026-09-07T15:15:44+08:00",
-   "summary": "偕同業師 黃宇正 助理教授 李傑琦",
-   "models": [],
-   "tag": "影片",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "heat": 100,
-   "image": "https://i.ytimg.com/vi/3ceNjYkxlD8/mqdefault.jpg",
-   "views": 29468,
-   "comments": 36,
-   "dupes": 82,
-   "also": [
-    "YouTube · B2B行銷解密中",
-    "YouTube · Akshay Bavkar",
-    "YouTube · Piers BK GrowYourBnb",
-    "YouTube · Ali Hassan",
-    "YouTube · ゆうき@AI生活",
-    "YouTube · Workflow Lab"
-   ],
-   "lines": [],
-   "score": 729,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "正修科技大學-生成式AI賦能數位內容美術設計人才培育 AI輔助3D建模與材質優化 EP4",
-     "summary": "偕同業師 黃宇正 助理教授 李傑琦"
     }
    }
   },
@@ -360,8 +420,8 @@
    }
   },
   {
-   "title": "2026 AI Listing Wave: Amid Trillion-Dollar Valuation Carnival, the Real AI Commercialization Test Has Only Just Begun - eu.36kr.com",
-   "source": "eu.36kr.com",
+   "title": "2026 AI Listing Wave: Amid Trillion-Dollar Valuation Carnival, the Real AI Commercialization Test Has Only Just Begun - 36 Kr",
+   "source": "36 Kr",
    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5KNTBURGdMVjJvSWtjT2tiS00tdl9OYW54M1R4NE1JN1lNWHRGczd1TzI1YmVYSlRmdkxyZ21QUjBCWGdwZ0RiMWwxOUpyVGdYLUVZ?oc=5",
    "date": "2026-09-07 14:40",
    "publishedAt": "2026-09-07T14:40:23+08:00",
@@ -383,7 +443,7 @@
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "2026 AI Listing Wave: Amid Trillion-Dollar Valuation Carnival, the Real AI Commercialization Test Has Only Just Begun - eu.36kr.com",
+     "title": "2026 AI Listing Wave: Amid Trillion-Dollar Valuation Carnival, the Real AI Commercialization Test Has Only Just Begun - 36 Kr",
      "summary": ""
     }
    }
@@ -413,6 +473,36 @@
    "i18n": {
     "zh-TW": {
      "title": "研究顯示，OpenAI智能體「劫持」了一個網站 - flamingwheels.online",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "OpenAI’s GPT-6 Astra Is AGI, Says NVIDIA CEO Jensen Huang - The Mac Observer",
+   "source": "The Mac Observer",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWUlOVmdqY1l6YVFzTjRBckt3Y1JUWnlPYjlIWmdBdlZXNko4ekFUUEhSZzk3X0ZzYm1FRTcwRjNFUk82dXo4bzU0WXdYbXVobGZXbktkTG92UkROc3VtMHFVMWREMDBZX2JRXzAySDM2b0paTEl2MVhoYWlpVWFDVmNGRHFEOWVCZE9vVzZBcm9VLTQ?oc=5",
+   "date": "2026-09-07 14:28",
+   "publishedAt": "2026-09-07T14:28:11+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "other"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "OpenAI’s GPT-6 Astra Is AGI, Says NVIDIA CEO Jensen Huang - The Mac Observer",
      "summary": ""
     }
    }
@@ -459,7 +549,7 @@
     "other"
    ],
    "press": false,
-   "heat": 15,
+   "heat": 14,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -488,7 +578,7 @@
     "openai"
    ],
    "press": false,
-   "heat": 15,
+   "heat": 14,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -505,14 +595,14 @@
    }
   },
   {
-   "title": "【即時新聞】最新OpenAI模型引爆晶片需求！標普500指數(GSPC)期貨遇壓，亞洲股市多空交戰 - CMoney投資網誌",
-   "source": "CMoney投資網誌",
+   "title": "【即時新聞】最新OpenAI模型引爆晶片需求！標普500指數(GSPC)期貨遇壓，亞洲股市多空交戰 - cmnews.com.tw",
+   "source": "cmnews.com.tw",
    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTUNGZ2xPLVJNUktLSkVpSG5wcG04T28tclVGSGhQVmJZTGZnM0hzWDRyc1g1SjBXYXBzOXFpbFBqbVk4Zy10dFc3QnNlT2ppV0k3aS1MaXRrYXdPVENkaE5pRmJIaGFkYTZvMXFIQkFFa1RZRWpIOGI0SWFaN214Tkc5amZVMFVXaUtUSzYxWlE?oc=5",
    "date": "2026-09-07 13:58",
    "publishedAt": "2026-09-07T13:58:33+08:00",
    "summary": "",
    "models": [],
-   "tag": "商業",
+   "tag": "產品發表",
    "camps": [
     "openai"
    ],
@@ -528,7 +618,7 @@
    "lang": "zh",
    "i18n": {
     "zh-TW": {
-     "title": "【即時新聞】最新OpenAI模型引爆晶片需求！標普500指數(GSPC)期貨遇壓，亞洲股市多空交戰 - CMoney投資網誌",
+     "title": "【即時新聞】最新OpenAI模型引爆晶片需求！標普500指數(GSPC)期貨遇壓，亞洲股市多空交戰 - cmnews.com.tw",
      "summary": ""
     }
    }
@@ -593,35 +683,6 @@
    "i18n": {
     "en": {
      "title": "Grok 4.5: $2/$6 Pricing Beats GPT-5 & Claude [2026] - shattered.io",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "2330 台積電 - Re: [新聞] 黃仁勳宣告「AGI已經到來」！OpenAI GPT - 股市爆料同學會 - CMoney",
-   "source": "CMoney",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5JRHZQUGcxWXN1Z05IanJsNGNBUjlJRXlFMDdmamRHcy0yNEtqbjQ5bTJLZloyWFBPMks5RExDYjd3T0hBNV93eFY5Snd2ZWFMbHBaM1BrX3M?oc=5",
-   "date": "2026-09-07 13:41",
-   "publishedAt": "2026-09-07T13:41:28+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "openai"
-   ],
-   "press": false,
-   "heat": 14,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "2330 台積電 - Re: [新聞] 黃仁勳宣告「AGI已經到來」！OpenAI GPT - 股市爆料同學會 - CMoney",
      "summary": ""
     }
    }
@@ -716,14 +777,14 @@
    }
   },
   {
-   "title": "新OpenAI模型引發記憶體需求激增，亞洲股市表現參差不齊！ - CMoney投資網誌",
-   "source": "CMoney投資網誌",
+   "title": "新OpenAI模型引發記憶體需求激增，亞洲股市表現參差不齊！ - cmnews.com.tw",
+   "source": "cmnews.com.tw",
    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQjltbUlNTm1xOE40SDNMY3FtRlY1a0ZYbG82VGtFUm9BUTdhbFpxVGFpeFNJZWJnTHRtbE9nQ0F5bGQ1OGhKTHpvMENXZU1BMTlidkhSN0cxSlJoVldoUTZFWHJxYlJnOTRTMHVyWVc5VTdiU1B4TmFXTUR2QVZoUG9nUGFUR1ZyelQyNG5n?oc=5",
    "date": "2026-09-07 13:22",
    "publishedAt": "2026-09-07T13:22:57+08:00",
    "summary": "",
    "models": [],
-   "tag": "商業",
+   "tag": "產品發表",
    "camps": [
     "openai"
    ],
@@ -739,36 +800,38 @@
    "lang": "zh",
    "i18n": {
     "zh-TW": {
-     "title": "新OpenAI模型引發記憶體需求激增，亞洲股市表現參差不齊！ - CMoney投資網誌",
+     "title": "新OpenAI模型引發記憶體需求激增，亞洲股市表現參差不齊！ - cmnews.com.tw",
      "summary": ""
     }
    }
   },
   {
-   "title": "黃仁勳宣稱「AGI已到來」！OpenAI GPT-6 Astra驚艷亮相引發科技界震撼 - CMoney投資網誌",
-   "source": "CMoney投資網誌",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOalhVanpZNThZSlE0bi1ySHJ1clZkbnRXSzk2eEZGX1l3RXk4MFBONW5aTXl4ZlhwZk1wcU8tSzRYMUYtdVNXVVAzc1NyYS0yeHA5S0JQNVNGLXdSeVFuTk9MMnJoNllSdnBPaHV2UVpDdmc4aWJfc1R6blROTnhTNThPdXpvSG9fNHRxRldR?oc=5",
+   "title": "黃仁勳宣稱「AGI已到來」！OpenAI GPT-6 Astra驚艷亮相引發科技界震撼 - cmnews.com.tw",
+   "source": "cmnews.com.tw",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQNEdlcmtIOWtDcV80M2pzYmxJV21zYkpJMFNSaG8ydXVEY0tFVGoxZUt5Nk43TmE4Mkl0RFJvQ0JhSXdBQTNlTWxFM2hnbXRqd1JLVlpSdzc4ZzZZcjYzTFFUQVlyOTBoZ3l0Z1plLXUwQVNFSEhsT1pOVFRyUWxINjg4T0xmSkd3ZndDS1pqT2ltbXQ1Q1dhRXJpcmpkVWl0N0Fha1JzYWhCSUFuN3FDeVRRQ25PdkFid1pMT3EycDVyckFXdG42d1hiNk13YUE?oc=5",
    "date": "2026-09-07 13:22",
    "publishedAt": "2026-09-07T13:22:49+08:00",
    "summary": "",
    "models": [],
-   "tag": "商業",
+   "tag": "產品發表",
    "camps": [
     "openai"
    ],
    "press": false,
-   "heat": 14,
+   "heat": 22,
    "image": "",
    "views": 0,
    "comments": 0,
-   "dupes": 0,
-   "also": [],
+   "dupes": 1,
+   "also": [
+    "forecastock.tw"
+   ],
    "lines": [],
    "score": null,
    "lang": "zh",
    "i18n": {
     "zh-TW": {
-     "title": "黃仁勳宣稱「AGI已到來」！OpenAI GPT-6 Astra驚艷亮相引發科技界震撼 - CMoney投資網誌",
+     "title": "黃仁勳宣稱「AGI已到來」！OpenAI GPT-6 Astra驚艷亮相引發科技界震撼 - cmnews.com.tw",
      "summary": ""
     }
    }
@@ -836,7 +899,7 @@
   {
    "title": "黃仁勳宣告「AGI已到來」！GPT-6 Astra狂吃10萬套輝達系統 - UDN",
    "source": "UDN",
-   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5iTmR3OW1VSDdyak1taVBxaEY5MDRTcGc4bVQxZm1IUmd3S01tb3Z5OFZaeEZ5TGxfZF9RMDZCWC1UN0dJa2lWRE1zSU5ERjQyVkl6bmFjZ9IBV0FVX3lxTE5iTmR3OW1VSDdyak1taVBxaEY5MDRTcGc4bVQxZm1IUmd3S01tb3Z5OFZaeEZ5TGxfZF9RMDZCWC1UN0dJa2lWRE1zSU5ERjQyVkl6bmFjZw?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1nOXhQN1BQYVp5QWNpNmMwejVQZ0taY3RmeHBFclBBb0Z3cWpFbGhKc1VHdS15TXRtMU9la18xWjBlVElMT0tKR1pSYnA4MTdHV3fSAVdBVV95cUxOYk5kdzltVUg3cmpNbWlQcWhGOTA0U3BnOG1UMWZtSFJnd0tNbW92eThWWnhGeUxsX2RfUTA2QlgtVDdHSWtpVkRNc0lOREY0MlZJem5hY2c?oc=5",
    "date": "2026-09-07 13:09",
    "publishedAt": "2026-09-07T13:09:32+08:00",
    "summary": "",
@@ -864,8 +927,8 @@
    }
   },
   {
-   "title": "OpenAI最聰明模型GPT-6 Astra問世 神級應用與亮點一次看 - 知新聞",
-   "source": "知新聞",
+   "title": "OpenAI最聰明模型GPT-6 Astra問世 神級應用與亮點一次看 - knews.com.tw",
+   "source": "knews.com.tw",
    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9iZ3hIajZpdlVTRmQ2Q3NoMDJiZXlfcTdWYlBkMDZzMFJ0cUJENUlkYWRaUVV3ZWdVZEM1SWhsdmRKWHIyWlZUbzd2dm5zeVIwN1dVX0JUS2tYNjFhdkZ3Q3l2eHhINzV3NmlTa25kOA?oc=5",
    "date": "2026-09-07 13:05",
    "publishedAt": "2026-09-07T13:05:00+08:00",
@@ -887,7 +950,7 @@
    "lang": "zh",
    "i18n": {
     "zh-TW": {
-     "title": "OpenAI最聰明模型GPT-6 Astra問世 神級應用與亮點一次看 - 知新聞",
+     "title": "OpenAI最聰明模型GPT-6 Astra問世 神級應用與亮點一次看 - knews.com.tw",
      "summary": ""
     }
    }
@@ -1130,8 +1193,8 @@
    }
   },
   {
-   "title": "OpenAI最強模型Astra登場！黃仁勳讚「AGI已經到來」 預告再投入40萬顆GPU - Yahoo股市",
-   "source": "Yahoo股市",
+   "title": "OpenAI最強模型Astra登場！黃仁勳讚「AGI已經到來」 預告再投入40萬顆GPU - tw.stock.yahoo.com",
+   "source": "tw.stock.yahoo.com",
    "url": "https://news.google.com/rss/articles/CBMi9AJBVV95cUxQdFFXdHNqOWRkX0lEcWRRQzQ2NVZpMHZiZTNIRGljakFlMHF1VlZyeC1HdzJsTDRlX0hBVlBCYTA4RGc1Yy1VME1qY2EweHR5ZDVCNmM3TXcxYU5hQ2cwbVVjOW1Hdk0wS09vYmJjTDNrU1FyVnFPV3RKS3NHbUIza0F3NEVaYkl4ZFM2a0F5N21LQzZsZDJDUVQxeVpMNUI3eW1Cc0Q4bFJTQzVyTmZiSW5pY09Gd0xkRWJ2Z0tvUDNJSEF0TGNHbGJmTTRPbWdSNGNJVXUzRDg0dEdURi1LLV84V0hCUzdZNkJwTGpycjhLWG1nVE1zdlhYcXcxenRFUGR2NnVfc0hCS1NCcl80dkhNVjgtQTd2UU1vQThNYU8zbVQxakFqSWd1M1FfcDhNQTRLQkhRTUlMc0Exdlc4dUJTYTB1TEptQjVKN2NHTWVPZkM5OER4UjZObC1xQ0dQSHo4SjY1UlAwOHlSUEpKcjlhSmQ?oc=5",
    "date": "2026-09-07 12:40",
    "publishedAt": "2026-09-07T12:40:46+08:00",
@@ -1153,7 +1216,7 @@
    "lang": "zh",
    "i18n": {
     "zh-TW": {
-     "title": "OpenAI最強模型Astra登場！黃仁勳讚「AGI已經到來」 預告再投入40萬顆GPU - Yahoo股市",
+     "title": "OpenAI最強模型Astra登場！黃仁勳讚「AGI已經到來」 預告再投入40萬顆GPU - tw.stock.yahoo.com",
      "summary": ""
     }
    }
@@ -1278,8 +1341,8 @@
    }
   },
   {
-   "title": "GPT-6 Astra Released 3 Days Ago: OpenAI Chief Scientist Calls for Urgent Development Pause - eu.36kr.com",
-   "source": "eu.36kr.com",
+   "title": "GPT-6 Astra Released 3 Days Ago: OpenAI Chief Scientist Calls for Urgent Development Pause - 36 Kr",
+   "source": "36 Kr",
    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5uejItMVZyZHpiZnJuNFB2LXFSdUJEMjdHMDlSb1BhYk5ieEhwNmZfSTNsb2NVbGYwZWZPakx3VU9YVHNlTElPQ3RpX0tFTTJWcnpJ?oc=5",
    "date": "2026-09-07 12:05",
    "publishedAt": "2026-09-07T12:05:05+08:00",
@@ -1301,7 +1364,7 @@
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "GPT-6 Astra Released 3 Days Ago: OpenAI Chief Scientist Calls for Urgent Development Pause - eu.36kr.com",
+     "title": "GPT-6 Astra Released 3 Days Ago: OpenAI Chief Scientist Calls for Urgent Development Pause - 36 Kr",
      "summary": ""
     }
    }
@@ -1336,35 +1399,6 @@
    }
   },
   {
-   "title": "OpenClaw 2.0上最大更新 AI Agent預設GPT 5.6及支援多人協作 - 香港01",
-   "source": "香港01",
-   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBoU2dWcC15cm8wOGd1bVhzUGRvM0Z4Z094TkFuMFpTYU1rVkxqVVVIS1F3WEhuU19OZkc2dHE1NU9PVkNhWWlwc3VpczY4UQ?oc=5",
-   "date": "2026-09-07 12:00",
-   "publishedAt": "2026-09-07T12:00:50+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "openai"
-   ],
-   "press": false,
-   "heat": 14,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "OpenClaw 2.0上最大更新 AI Agent預設GPT 5.6及支援多人協作 - 香港01",
-     "summary": ""
-    }
-   }
-  },
-  {
    "title": "Chinese AI Inference Costs Up To 90% Below US Rivals - FutureIOT",
    "source": "FutureIOT",
    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNdVU1QTN2cWk2eHFsUjhuamtsbW5XVUlibklpQmNZbHRMYVdMMGIxMFV2d3cyUUVvNjB6OWVmTzdPVFBSR0Z4U2Z5eU5WQlFaSFNtaG53OVkwbVJIcjR3MlZnTC1LVnAwUFpkZlpjRHBibXc3WEh1Y1NkSGtEYl9MZQ?oc=5",
@@ -1394,8 +1428,38 @@
    }
   },
   {
-   "title": "AI 戰場新風向：不拚「最聰明」拚「最划算」，高性價比中階模型成企業新寵 - technews.tw",
-   "source": "technews.tw",
+   "title": "The Pentagon Doubled Down on Its Anthropic Blacklist. Why Amazon and Alphabet Investors Should Care - Yahoo! Finance Canada",
+   "source": "Yahoo! Finance Canada",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRmRMeUhfbXp5UUlJSzBGdWRGWVR5MkxxTnNJZWJXcE8wN0xyM0VObDF4bFZ4eC1HY1AzRmdTUHlDNVotdkJJRkxLWjVfWTdNWm1Canl6cDZ3T01hTEFJalltQm1odHlNRGlQYmtYakIxUlIxeHRiamZjLW16TDY4V013aVRpYXZaYkhuZW50cDVwVGM4?oc=5",
+   "date": "2026-09-07 11:44",
+   "publishedAt": "2026-09-07T11:44:00+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic",
+    "other"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "The Pentagon Doubled Down on Its Anthropic Blacklist. Why Amazon and Alphabet Investors Should Care - Yahoo! Finance Canada",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "AI 戰場新風向：不拚「最聰明」拚「最划算」，高性價比中階模型成企業新寵 - TechNews 科技新報",
+   "source": "TechNews 科技新報",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQV0ZiMXJGbGc0dHRsclotUnd6aFVjRE1adUJwNEkwbDB1cm12SWNYR2U4OFdMbjIxQzZfYk9OMGdXR0x0bzdGM2x6WUhzSGlVUjZLd2dBRUc0Qi1tbEJEVHFqTDk4LTZjcE8wVG1ubjFsYi0tOFFTS0pxbWJyOWtMeFFocGVjUURYTl9KTGJCcnpxTVVjYmZ6eG4tQmFXYnMzYkE?oc=5",
    "date": "2026-09-07 11:28",
    "publishedAt": "2026-09-07T11:28:02+08:00",
@@ -1417,7 +1481,7 @@
    "lang": "zh",
    "i18n": {
     "zh-TW": {
-     "title": "AI 戰場新風向：不拚「最聰明」拚「最划算」，高性價比中階模型成企業新寵 - technews.tw",
+     "title": "AI 戰場新風向：不拚「最聰明」拚「最划算」，高性價比中階模型成企業新寵 - TechNews 科技新報",
      "summary": ""
     }
    }
@@ -1455,8 +1519,38 @@
    }
   },
   {
-   "title": "OpenAI 的 GPT-6 Astra 可能引爆新一波 CPU 需求，英特爾與超微可望受惠 - BigGo 財經",
-   "source": "BigGo 財經",
+   "title": "OpenAI自稱 GPT-6 Astra 最聰明 測試方：推理力仍輸 Anthropic - Yellow.com",
+   "source": "Yellow.com",
+   "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOQUhPOVMyeDUxckNYN2FieWRHMXJPc3ZXT3BIRGNCR2xNaklqclZER1dXVzBWeG1GOEMtaUU5UUdIaUozS0F3b3NabmN2Y0ptLVEzOWtuNEN2cjBqZTNLX2NOWE1kNmVXYk5COTZBbWpEYkxnT3BYR3pqSERWYi1HZTlJVUxWa3ZnUlQyTU8tRkFiZ2RNZWd6cjM4anhQQ0Nzd096WDRTLUJiRWVWZnJzRHY0LWtxR1FkRkViUm1JZGRqZ29jbzF0LVFkQlpETmZLVzBCWTJpeXFBQ01fVlRUZWJuWUJHd0Y0SXR3OHY2WFQ2aEJyYWpRSXVXLWtacHJqc0FfYmIxNVN5WWdWQ1VKeDUwWTc?oc=5",
+   "date": "2026-09-07 11:18",
+   "publishedAt": "2026-09-07T11:18:00+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 22,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "OpenAI自稱 GPT-6 Astra 最聰明 測試方：推理力仍輸 Anthropic - Yellow.com",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "OpenAI 的 GPT-6 Astra 可能引爆新一波 CPU 需求，英特爾與超微可望受惠 - finance.biggo.com.tw",
+   "source": "finance.biggo.com.tw",
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE52UGUtbFNsbU5LREh6Tjh2bHBtVnd1ZlRsQkhhY3p4U2s3eDhHVUJtOVBrU1dhMGhZekg3SGZZY2JfSDUtT1NyN1RySzdDTUVqd3FmeFJ6TEhtNHZxMmd1X1JRSG5KUEI2T1pGYlA3NndQUTFkdm0tb1Bn?oc=5",
    "date": "2026-09-07 11:05",
    "publishedAt": "2026-09-07T11:05:00+08:00",
@@ -1478,7 +1572,7 @@
    "lang": "zh",
    "i18n": {
     "zh-TW": {
-     "title": "OpenAI 的 GPT-6 Astra 可能引爆新一波 CPU 需求，英特爾與超微可望受惠 - BigGo 財經",
+     "title": "OpenAI 的 GPT-6 Astra 可能引爆新一波 CPU 需求，英特爾與超微可望受惠 - finance.biggo.com.tw",
      "summary": ""
     }
    }
@@ -1526,7 +1620,7 @@
     "anthropic"
    ],
    "press": false,
-   "heat": 22,
+   "heat": 21,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -1555,7 +1649,7 @@
     "openai"
    ],
    "press": false,
-   "heat": 14,
+   "heat": 13,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -1590,7 +1684,7 @@
    "comments": 0,
    "dupes": 1,
    "also": [
-    "知新聞"
+    "knews.com.tw"
    ],
    "lines": [],
    "score": null,
@@ -1691,8 +1785,8 @@
    }
   },
   {
-   "title": "祝賀 OpenAI 推出 GPT-6 Astra 模型，黃仁勳：AGI 已經到來 - technews.tw",
-   "source": "technews.tw",
+   "title": "祝賀 OpenAI 推出 GPT-6 Astra 模型，黃仁勳：AGI 已經到來 - TechNews 科技新報",
+   "source": "TechNews 科技新報",
    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9yLW9HbEdpYzN1Nm9fcTRTVnBsRTlSX2k2UHNqb1lQSVpCUmdsdW92OEtGU3J3OHhWeFVKUnRlejMxX085WDRMOEtpdHVYWHJBMDBDNTR3Wm5YRkc2TVRZOU9iQXlwZzkybHJOZXBqR1h0alE?oc=5",
    "date": "2026-09-07 10:36",
    "publishedAt": "2026-09-07T10:36:56+08:00",
@@ -1714,97 +1808,7 @@
    "lang": "zh",
    "i18n": {
     "zh-TW": {
-     "title": "祝賀 OpenAI 推出 GPT-6 Astra 模型，黃仁勳：AGI 已經到來 - technews.tw",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "GPT-6 Astra｜宣稱直逼AGI - EJ Tech",
-   "source": "EJ Tech",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNdExydWlUWTFsYngydXNUMXExcVBNQ0JvS05GN1hqdDU5N3Mtb1hfX3B5ZWN4RlIxUWV3eVJCR2lpc0pnM3R3TEdVeVN0V1ZrZHBXckUwdjNvTDJJc3lCODJjbFcxdWJ0ZThVQTFFZlVZUlZFVkt0Wk85azlGN3ZGODdzV0RBNFI2Smc?oc=5",
-   "date": "2026-09-07 10:36",
-   "publishedAt": "2026-09-07T10:36:16+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "openai"
-   ],
-   "press": false,
-   "heat": 13,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "GPT-6 Astra｜宣稱直逼AGI - EJ Tech",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "AI更新太快了！OpenAI、Google同週搶發新品 業界開始出現「模型疲勞」 - 科技島",
-   "source": "科技島",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9oSC1WWldPOXVNT2d2T1VVc055b055dm4zc0NTTjR3WnE4bGJyQnBMTEpmVXBWVV9SU2hJcXJoUTI0NFlFc3lYbExJMWpQSXhZUHBQV3ZRRXY?oc=5",
-   "date": "2026-09-07 10:35",
-   "publishedAt": "2026-09-07T10:35:48+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "openai",
-    "google"
-   ],
-   "press": false,
-   "heat": 29,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 2,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "AI更新太快了！OpenAI、Google同週搶發新品 業界開始出現「模型疲勞」 - 科技島",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "AI模型加速迭代！科技巨頭上周密集更新 業界憂「模型疲勞」與失控風險 - TradingView",
-   "source": "TradingView",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAzVGV4aER5OFJFNkk1SDB0YV9CdldDMk5WQUI1alZESzBxQzNucEV3MUt6UkNDdWRtOEVlZVdvVjFmNWZrSjBhclBNeWotYjBZY2ZtMGpaN2xFYm5mMWY3SXRZUnY?oc=5",
-   "date": "2026-09-07 10:32",
-   "publishedAt": "2026-09-07T10:32:51+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "heat": 37,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 3,
-   "also": [
-    "news.cnyes.com"
-   ],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "AI模型加速迭代！科技巨頭上周密集更新 業界憂「模型疲勞」與失控風險 - TradingView",
+     "title": "祝賀 OpenAI 推出 GPT-6 Astra 模型，黃仁勳：AGI 已經到來 - TechNews 科技新報",
      "summary": ""
     }
    }
