@@ -1,7 +1,7 @@
 {
- "version": "v24",
- "fetchedAt": "2026-09-07T23:19:44.788752+08:00",
- "edition": "2026-09-07",
+ "version": "v25",
+ "fetchedAt": "2026-09-08T08:00:59.562975+08:00",
+ "edition": "2026-09-08",
  "count": 16,
  "products": [
   {
@@ -71,13 +71,9 @@
       "rating": 5.0,
       "reviews": 3
      },
-     "trend": {
-      "prev": 864,
-      "delta": 198636.0,
-      "since": "2026-09-06"
-     },
      "rating": 5.0,
      "reviews": 3,
+     "reviewDelta": 0,
      "history": [
       {
        "d": "2026-09-06",
@@ -93,11 +89,20 @@
        "d": "2026-09-07",
        "p": 199500.0,
        "c": "TWD"
+      },
+      {
+       "d": "2026-09-08",
+       "p": 199500.0,
+       "c": "TWD"
       }
      ],
      "reviewHistory": [
       {
        "d": "2026-09-07",
+       "n": 3
+      },
+      {
+       "d": "2026-09-08",
        "n": 3
       }
      ]
@@ -151,6 +156,11 @@
        "d": "2026-09-07",
        "p": 6099.95,
        "c": "EUR"
+      },
+      {
+       "d": "2026-09-08",
+       "p": 6099.95,
+       "c": "EUR"
       }
      ],
      "reviewHistory": []
@@ -163,7 +173,7 @@
    "name": "ASUS Ascent GX10",
    "brand": "asus",
    "line": "dgx",
-   "page": "https://www.asus.com/networking-iot-servers/ai-servers/ascent/asus-ascent-gx10/",
+   "page": "https://www.asus.com/networking-iot-servers/desktop-ai-supercomputer/ultra-small-ai-supercomputers/asus-ascent-gx10/",
    "specs": {
     "chip": "NVIDIA GB10 Grace Blackwell",
     "cpu": "20 核 Arm（10× Cortex-X925 + 10× A725）",
@@ -176,7 +186,7 @@
     "power": "約 240 W",
     "storage": "1 TB NVMe"
    },
-   "specSource": "https://24h.pchome.com.tw/prod/DSAUZ2-A900JX7XQ",
+   "specSource": "https://24h.pchome.com.tw/prod/DSAUR0-A900JIS6V",
    "specScraped": [
     "memory"
    ],
@@ -197,16 +207,16 @@
        "title": "ASUS 華碩 Ascent GX10 桌上型AI超級電腦(GB10/128GB/1TB/GX10/DGX)(90MS0371-M00010)",
        "price": 175900.0,
        "currency": "TWD",
-       "url": "https://24h.pchome.com.tw/prod/DSAUZ2-A900JX7XQ",
-       "rating": 5.0,
-       "reviews": 5
+       "url": "https://24h.pchome.com.tw/prod/DSAUR0-A900JIS6V",
+       "rating": 4.9,
+       "reviews": 14
       },
       {
        "platform": "PChome 24h",
        "title": "ASUS 華碩 Ascent GX10 桌上型AI超級電腦(GB10/128GB/1TB/GX10/DGX)(90MS0371-M00010)",
        "price": 175900.0,
        "currency": "TWD",
-       "url": "https://24h.pchome.com.tw/prod/DSAUR0-A900JIS6V"
+       "url": "https://24h.pchome.com.tw/prod/DSAUZ2-A900JX7XQ"
       },
       {
        "platform": "PChome 24h",
@@ -221,17 +231,13 @@
       "title": "ASUS 華碩 Ascent GX10 桌上型AI超級電腦(GB10/128GB/1TB/GX10/DGX)(90MS0371-M00010)",
       "price": 175900.0,
       "currency": "TWD",
-      "url": "https://24h.pchome.com.tw/prod/DSAUZ2-A900JX7XQ",
-      "rating": 5.0,
-      "reviews": 5
+      "url": "https://24h.pchome.com.tw/prod/DSAUR0-A900JIS6V",
+      "rating": 4.9,
+      "reviews": 14
      },
-     "trend": {
-      "prev": 4999,
-      "delta": 170901.0,
-      "since": "2026-09-06"
-     },
-     "rating": 5.0,
-     "reviews": 5,
+     "rating": 4.9,
+     "reviews": 14,
+     "reviewDelta": 9,
      "history": [
       {
        "d": "2026-09-06",
@@ -247,12 +253,21 @@
        "d": "2026-09-07",
        "p": 175900.0,
        "c": "TWD"
+      },
+      {
+       "d": "2026-09-08",
+       "p": 175900.0,
+       "c": "TWD"
       }
      ],
      "reviewHistory": [
       {
        "d": "2026-09-07",
        "n": 5
+      },
+      {
+       "d": "2026-09-08",
+       "n": 14
       }
      ]
     },
@@ -294,7 +309,7 @@
    "name": "Acer Veriton GN100",
    "brand": "acer",
    "line": "dgx",
-   "page": "https://www.acer.com/us-en/desktop/veriton/veriton-gn100",
+   "page": "https://www.acer.com/us-en/desktops-and-all-in-ones/veriton-workstations/veriton-gn100-ai-mini-workstation",
    "specs": {
     "chip": "NVIDIA GB10 Grace Blackwell",
     "cpu": "20 核 Arm（10× Cortex-X925 + 10× A725）",
@@ -360,7 +375,7 @@
    "name": "Dell Pro Max with GB10",
    "brand": "dell",
    "line": "dgx",
-   "page": "https://www.dell.com/en-us/shop/desktop-computers/dell-pro-max-with-gb10/spd/pro-max-gb10",
+   "page": "https://www.dell.com/en-us/shop/dell-laptops/sf/dell-pro-max-nvidia-ai",
    "specs": {
     "chip": "NVIDIA GB10 Grace Blackwell",
     "cpu": "20 核 Arm（10× Cortex-X925 + 10× A725）",
@@ -437,14 +452,14 @@
     "network": "ConnectX-7 200 Gb/s",
     "os": "NVIDIA DGX OS",
     "power": "約 240 W",
-    "storage": "1 TB / 4 TB NVMe"
+    "storage": "2 TB / 4 TB NVMe"
    },
    "specSource": "",
    "specScraped": [],
    "form": "desktop",
    "facets": {
     "memory": "128 GB",
-    "storage": "1 TB / 4 TB NVMe",
+    "storage": "2 TB / 4 TB NVMe",
     "form": "desktop"
    },
    "markets": [
@@ -492,7 +507,7 @@
    "name": "Lenovo ThinkStation PGX",
    "brand": "lenovo",
    "line": "dgx",
-   "page": "https://www.lenovo.com/us/en/p/workstations/thinkstation-p-series/thinkstation-pgx/",
+   "page": "https://www.lenovo.com/us/en/p/workstations/thinkstation-p-series/lenovo-thinkstation-pgx-sff/30kl000eus",
    "specs": {
     "chip": "NVIDIA GB10 Grace Blackwell",
     "cpu": "20 核 Arm（10× Cortex-X925 + 10× A725）",
@@ -558,7 +573,7 @@
    "name": "MSI EdgeXpert MS-C931",
    "brand": "msi",
    "line": "dgx",
-   "page": "https://www.msi.com/AI-PC/EdgeXpert-MS-C931",
+   "page": "https://www.msi.com/Landing/EdgeXpert-MS-C931",
    "specs": {
     "chip": "NVIDIA GB10 Grace Blackwell",
     "cpu": "20 核 Arm（10× Cortex-X925 + 10× A725）",
@@ -619,6 +634,11 @@
        "d": "2026-09-07",
        "p": 210000,
        "c": "TWD"
+      },
+      {
+       "d": "2026-09-08",
+       "p": 210000.0,
+       "c": "TWD"
       }
      ],
      "reviewHistory": [
@@ -628,6 +648,10 @@
       },
       {
        "d": "2026-09-07",
+       "n": 1
+      },
+      {
+       "d": "2026-09-08",
        "n": 1
       }
      ]
@@ -681,6 +705,11 @@
        "d": "2026-09-07",
        "p": 6299.95,
        "c": "EUR"
+      },
+      {
+       "d": "2026-09-08",
+       "p": 6299.95,
+       "c": "EUR"
       }
      ],
      "reviewHistory": []
@@ -693,7 +722,7 @@
    "name": "GIGABYTE AI TOP ATOM",
    "brand": "gigabyte",
    "line": "dgx",
-   "page": "https://www.gigabyte.com/Consumer/AI-TOP-ATOM",
+   "page": "https://www.gigabyte.com/AI-TOP-PC/GIGABYTE-AI-TOP-ATOM/sp",
    "specs": {
     "chip": "NVIDIA GB10 Grace Blackwell",
     "cpu": "20 核 Arm（10× Cortex-X925 + 10× A725）",
@@ -704,7 +733,7 @@
     "network": "ConnectX-7 200 Gb/s",
     "os": "NVIDIA DGX OS",
     "power": "約 240 W",
-    "storage": "4 TB NVMe"
+    "storage": "1 TB / 4 TB NVMe"
    },
    "specSource": "https://24h.pchome.com.tw/prod/DSAA08-A900JYHGA",
    "specScraped": [
@@ -713,7 +742,7 @@
    "form": "desktop",
    "facets": {
     "memory": "128GB",
-    "storage": "4 TB NVMe",
+    "storage": "1 TB / 4 TB NVMe",
     "form": "desktop"
    },
    "markets": [
@@ -739,11 +768,6 @@
       "url": "https://24h.pchome.com.tw/prod/DSAA08-A900JYHGA",
       "rating": 2.0
      },
-     "trend": {
-      "prev": 3990,
-      "delta": 235010.0,
-      "since": "2026-09-06"
-     },
      "rating": 2.0,
      "reviews": null,
      "history": [
@@ -759,6 +783,11 @@
       },
       {
        "d": "2026-09-07",
+       "p": 239000.0,
+       "c": "TWD"
+      },
+      {
+       "d": "2026-09-08",
        "p": 239000.0,
        "c": "TWD"
       }
@@ -1013,16 +1042,7 @@
      "offers": []
     }
    ],
-   "signals": [
-    {
-     "status": "announced",
-     "countries": [],
-     "title": "HP Unveils OmniBook Ultra 16 and X 14 with NVIDIA RTX Spark - Technetbook",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdFJhRW14MldNa3VzMGo3aXJFS2NPVDd2SW9DVFFTcnFxV05ucEVaN05xTFk0QVRUZVB0M1g5TWZxR2NMSHZNYi1DdkZQVEcwMnlGSS1sZndvb2lKUEhqdUl1bUw1ekh2azkwTkpWNkZuNHdJNk8xX2VYWEVoazdSTGxOUUtVZw?oc=5",
-     "source": "Technetbook",
-     "date": "2026-09-06 01:51"
-    }
-   ]
+   "signals": []
   },
   {
    "id": "rtx-spark-lenovo",
@@ -1088,16 +1108,7 @@
      "offers": []
     }
    ],
-   "signals": [
-    {
-     "status": "announced",
-     "countries": [],
-     "title": "Nvidia's game-changing RTX Spark laptops are coming in October - but price information is still MIA",
-     "url": "https://www.techradar.com/computing/laptops/nvidias-game-changing-rtx-spark-laptops-are-coming-in-october-but-price-information-is-still-mia",
-     "source": "TechRadar Pro",
-     "date": "2026-09-04 00:00"
-    }
-   ]
+   "signals": []
   },
   {
    "id": "rtx-spark-msi",
@@ -1163,16 +1174,7 @@
      "offers": []
     }
    ],
-   "signals": [
-    {
-     "status": "announced",
-     "countries": [],
-     "title": "MSI發表首款搭載NVIDIA RTX Spark筆電 性能特色一次看 - 三立新聞",
-     "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9iZmJLaEpmMWpJQzJ1Rmg4My1VVGdHTWo1Y0JYZ1hPVFotM2ctamVYaGo1YndieXRYUG9vSHJXQlJnWEtZY0FucdIBTEFVX3lxTFBkMlEyU2RIMU9HUFUyMGptU2JkS202c2xEa1IzZGZYSFhYRElmNl9ndE5INWNzTVM3d0tFSTd1Y3JteWdkcER1MV9ReVY?oc=5",
-     "source": "三立新聞",
-     "date": "2026-09-06 04:50"
-    }
-   ]
+   "signals": []
   },
   {
    "id": "rtx-spark-surface",
