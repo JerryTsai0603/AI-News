@@ -51,7 +51,7 @@ import requests
 
 # ---------------------------------------------------------------- 通用設定
 
-SCRAPER_VERSION = "v25"          # 網頁左下角會顯示，用來確認部署的是哪一版
+SCRAPER_VERSION = "v26"          # 網頁左下角會顯示，用來確認部署的是哪一版
 
 # Windows 主控台預設是 cp950，✓ ✗ 這類符號編不進去會直接拋例外，
 # 所以先把標準輸出改成 UTF-8，編不出來的字改成替代字元而不是報錯。
@@ -2276,11 +2276,16 @@ def run_shop(news: list[dict] | None = None) -> None:
 
         signals = collect_signals(seed, news)
 
-        # 各國狀態：以種子為基礎，有新聞訊號就往上修正
+        # 各國狀態：seed["status"] 是全域已知狀態（例如「這條產品線已經上市」），
+        # 但不代表每個國家都買得到。沒有實際證據（報價或提及該國的新聞）的
+        # 國家，狀態壓到「已發表」為上限，避免顯示「開賣」卻沒有任何連結。
+        default_status = ("announced"
+                           if STATUS_RANK[seed["status"]] > STATUS_RANK["announced"]
+                           else seed["status"])
         markets = {}
         for c in MARKETS:
             markets[c] = {"country": c, "region": REGION_OF[c],
-                          "status": seed["status"], "offers": []}
+                          "status": default_status, "offers": []}
         for sig in signals:
             targets = sig["countries"] or MARKETS
             for c in targets:
