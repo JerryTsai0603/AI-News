@@ -1,7 +1,7 @@
 {
- "version": "v25",
- "fetchedAt": "2026-09-08T08:00:59.562975+08:00",
- "edition": "2026-09-08",
+ "version": "v26",
+ "fetchedAt": "2026-09-09T07:53:08.806150+08:00",
+ "edition": "2026-09-09",
  "count": 16,
  "products": [
   {
@@ -94,6 +94,11 @@
        "d": "2026-09-08",
        "p": 199500.0,
        "c": "TWD"
+      },
+      {
+       "d": "2026-09-09",
+       "p": 199500.0,
+       "c": "TWD"
       }
      ],
      "reviewHistory": [
@@ -104,31 +109,35 @@
       {
        "d": "2026-09-08",
        "n": 3
+      },
+      {
+       "d": "2026-09-09",
+       "n": 3
       }
      ]
     },
     {
      "country": "JP",
      "region": "apac",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "US",
      "region": "na",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "DE",
      "region": "emea",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "GB",
      "region": "emea",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
@@ -159,6 +168,11 @@
       },
       {
        "d": "2026-09-08",
+       "p": 6099.95,
+       "c": "EUR"
+      },
+      {
+       "d": "2026-09-09",
        "p": 6099.95,
        "c": "EUR"
       }
@@ -237,7 +251,7 @@
      },
      "rating": 4.9,
      "reviews": 14,
-     "reviewDelta": 9,
+     "reviewDelta": 0,
      "history": [
       {
        "d": "2026-09-06",
@@ -258,6 +272,11 @@
        "d": "2026-09-08",
        "p": 175900.0,
        "c": "TWD"
+      },
+      {
+       "d": "2026-09-09",
+       "p": 175900.0,
+       "c": "TWD"
       }
      ],
      "reviewHistory": [
@@ -268,37 +287,41 @@
       {
        "d": "2026-09-08",
        "n": 14
+      },
+      {
+       "d": "2026-09-09",
+       "n": 14
       }
      ]
     },
     {
      "country": "JP",
      "region": "apac",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "US",
      "region": "na",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "DE",
      "region": "emea",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "GB",
      "region": "emea",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "FR",
      "region": "emea",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     }
    ],
@@ -334,37 +357,37 @@
     {
      "country": "TW",
      "region": "apac",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "JP",
      "region": "apac",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "US",
      "region": "na",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "DE",
      "region": "emea",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "GB",
      "region": "emea",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "FR",
      "region": "emea",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     }
    ],
@@ -400,37 +423,37 @@
     {
      "country": "TW",
      "region": "apac",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "JP",
      "region": "apac",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "US",
      "region": "na",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "DE",
      "region": "emea",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "GB",
      "region": "emea",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "FR",
      "region": "emea",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     }
    ],
@@ -466,37 +489,37 @@
     {
      "country": "TW",
      "region": "apac",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "JP",
      "region": "apac",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "US",
      "region": "na",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "DE",
      "region": "emea",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "GB",
      "region": "emea",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "FR",
      "region": "emea",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     }
    ],
@@ -532,37 +555,37 @@
     {
      "country": "TW",
      "region": "apac",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "JP",
      "region": "apac",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "US",
      "region": "na",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "DE",
      "region": "emea",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "GB",
      "region": "emea",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "FR",
      "region": "emea",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     }
    ],
@@ -639,6 +662,11 @@
        "d": "2026-09-08",
        "p": 210000.0,
        "c": "TWD"
+      },
+      {
+       "d": "2026-09-09",
+       "p": 210000.0,
+       "c": "TWD"
       }
      ],
      "reviewHistory": [
@@ -653,66 +681,42 @@
       {
        "d": "2026-09-08",
        "n": 1
+      },
+      {
+       "d": "2026-09-09",
+       "n": 1
       }
      ]
     },
     {
      "country": "JP",
      "region": "apac",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "US",
      "region": "na",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "DE",
      "region": "emea",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "GB",
      "region": "emea",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "FR",
      "region": "emea",
-     "status": "launched",
-     "offers": [
-      {
-       "platform": "LDLC",
-       "title": "MSI EdgeXpert MS-C931 32SEU-BGB104TG5",
-       "price": 6299.95,
-       "currency": "EUR",
-       "url": "https://www.ldlc.com/fiche/PB00711276.html"
-      }
-     ],
-     "best": {
-      "platform": "LDLC",
-      "title": "MSI EdgeXpert MS-C931 32SEU-BGB104TG5",
-      "price": 6299.95,
-      "currency": "EUR",
-      "url": "https://www.ldlc.com/fiche/PB00711276.html"
-     },
-     "history": [
-      {
-       "d": "2026-09-07",
-       "p": 6299.95,
-       "c": "EUR"
-      },
-      {
-       "d": "2026-09-08",
-       "p": 6299.95,
-       "c": "EUR"
-      }
-     ],
-     "reviewHistory": []
+     "status": "announced",
+     "offers": []
     }
    ],
    "signals": []
@@ -790,6 +794,11 @@
        "d": "2026-09-08",
        "p": 239000.0,
        "c": "TWD"
+      },
+      {
+       "d": "2026-09-09",
+       "p": 239000.0,
+       "c": "TWD"
       }
      ],
      "reviewHistory": []
@@ -797,32 +806,55 @@
     {
      "country": "JP",
      "region": "apac",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "US",
      "region": "na",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "DE",
      "region": "emea",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "GB",
      "region": "emea",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "FR",
      "region": "emea",
      "status": "launched",
-     "offers": []
+     "offers": [
+      {
+       "platform": "LDLC",
+       "title": "Gigabyte AI TOP ATOM (ATAGB10-9000) · Occasion",
+       "price": 7199.96,
+       "currency": "EUR",
+       "url": "https://www.ldlc.com/fiche/PB00747515.html"
+      }
+     ],
+     "best": {
+      "platform": "LDLC",
+      "title": "Gigabyte AI TOP ATOM (ATAGB10-9000) · Occasion",
+      "price": 7199.96,
+      "currency": "EUR",
+      "url": "https://www.ldlc.com/fiche/PB00747515.html"
+     },
+     "history": [
+      {
+       "d": "2026-09-09",
+       "p": 7199.96,
+       "c": "EUR"
+      }
+     ],
+     "reviewHistory": []
     }
    ],
    "signals": []
@@ -895,20 +927,18 @@
     {
      "status": "announced",
      "countries": [],
+     "title": "ASUS Unveils ProArt P16, P14, and GR1X Powered by NVIDIA RTX Spark - Gadget Pilipinas",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYXlKTUtqU1dvZlFKVHpOOWxGaHRIOU5XblFmVlhRUUh1bDNoUHEzazNUcEwtb0hBWHJJbUl2TGU1a1Mzc29XVnhCNTZRZ0ptMzhhNWtGc1JWRmxNb0I2YXhsbUtXaDdOeldIam5xZW15YURncVVKOUNiUGc0UEtwMkhKcjhvWlZiUGxKOHE4d0NiM2NDRC0wMzZXRG1xd1JPVHJQZHZRQUs?oc=5",
+     "source": "Gadget Pilipinas",
+     "date": "2026-09-08 15:44"
+    },
+    {
+     "status": "announced",
+     "countries": [],
      "title": "ASUS reveals more details on NVIDIA RTX Spark-powered ProArt products at IFA 2026 - Tech Critter",
      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1jLXlqeXVXRGtpYjQxQll1Zk9wVkp5REpON0JFYkZZdmk3OElGUXRRZVNZV1o4X19sejZXQWdyalV2NWVOMHFTczdaZkRDOFd5MENYZzFsLVMwX193R0tUaVowQklsVWNwc1BtOF9WMFo0Z1hVcW41aXlEVQ?oc=5",
      "source": "Tech Critter",
      "date": "2026-09-07 12:29"
-    },
-    {
-     "status": "announced",
-     "countries": [
-      "TW"
-     ],
-     "title": "ASUS Announces RTX Spark-Powered ProArt Models, Partners With Qualcomm To Deploy Pharmaceutical AI Agent In Taiwan - Pokde.Net",
-     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE02S0FLWGh0NnBNMVQwclFnVmVYN3Q5aG1kY2lDWFZOOVlOOEtCSXNMVzZiMDR6ODc0ZnA3dnhUd0d4ZUNFajZZTUFrR1kxbWMxVm4waTdtRG9iZnh6TnBjVTBEaHdJUUhIcWRqMXhvUjA0ZUxSRktPYmphSQ?oc=5",
-     "source": "Pokde.Net",
-     "date": "2026-09-06 22:31"
     }
    ]
   },
@@ -1008,41 +1038,50 @@
     {
      "country": "TW",
      "region": "apac",
-     "status": "announced",
+     "status": "launched",
      "offers": []
     },
     {
      "country": "JP",
      "region": "apac",
-     "status": "announced",
+     "status": "launched",
      "offers": []
     },
     {
      "country": "US",
      "region": "na",
-     "status": "announced",
+     "status": "launched",
      "offers": []
     },
     {
      "country": "DE",
      "region": "emea",
-     "status": "announced",
+     "status": "launched",
      "offers": []
     },
     {
      "country": "GB",
      "region": "emea",
-     "status": "announced",
+     "status": "launched",
      "offers": []
     },
     {
      "country": "FR",
      "region": "emea",
-     "status": "announced",
+     "status": "launched",
      "offers": []
     }
    ],
-   "signals": []
+   "signals": [
+    {
+     "status": "launched",
+     "countries": [],
+     "title": "HP Launches OmniBook Ultra 16 And OmniBook X 14 With NVIDIA RTX Spark - pulse2.com",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWjNfZGZaelg4c0NqT2V3eTZudzJTbmFuUFktN2RQQy1wQzBkYl81em0tUk1iczhQTzFHQ2l1UlZSVS0wWm9wLW95MTl2azIxbG91emdIQ280RzBVcDVkYUl5dlJENlpsbm13QnZxanZzWjF6d01QMDV4Y3BEbWJtUXQwN0k3RTVTMHlyV016MS1aQXPSAZgBQVVfeXFMUENiM240a0JBMzZVb1ZsaWtoVXo1RC1mcXdXSmRZNzVZNHdIOWZMeWhGWmV2STl5NWt2d2k4VTBXWXljcVR0MmhNdDVSOF9wWFpxUmZIUjIwUUpmNHJnWnVJdlZrUnZ2ZGY0eDUwWXdVMzl3VHQ0cmxweUR6REZORWVxNnRhRk93OXRFNkYyV0NwNmUyeWo4VDM?oc=5",
+     "source": "pulse2.com",
+     "date": "2026-09-09 02:14"
+    }
+   ]
   },
   {
    "id": "rtx-spark-lenovo",
@@ -1074,41 +1113,50 @@
     {
      "country": "TW",
      "region": "apac",
-     "status": "announced",
+     "status": "launched",
      "offers": []
     },
     {
      "country": "JP",
      "region": "apac",
-     "status": "announced",
+     "status": "launched",
      "offers": []
     },
     {
      "country": "US",
      "region": "na",
-     "status": "announced",
+     "status": "launched",
      "offers": []
     },
     {
      "country": "DE",
      "region": "emea",
-     "status": "announced",
+     "status": "launched",
      "offers": []
     },
     {
      "country": "GB",
      "region": "emea",
-     "status": "announced",
+     "status": "launched",
      "offers": []
     },
     {
      "country": "FR",
      "region": "emea",
-     "status": "announced",
+     "status": "launched",
      "offers": []
     }
    ],
-   "signals": []
+   "signals": [
+    {
+     "status": "launched",
+     "countries": [],
+     "title": "Lenovo Unveils Yoga Flagships Powered by Nvidia RTX Spark and Colourful Idea range at IFA - EFTM",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTTVDd0twWm1Yc3hRSzJYRVN4eGkyZkgtckRaMUpSOUZnZnR1aV9jSHR0d0RjeWFHeVYyd1JobW0zaXQ4Uk54RnJXQ0VJajBSQ1lZSk1jZWFvaFFjY2NGaDJOdFEwR2V6Rk5zN0VQT2lGTFM1ZnhFUTNJSmlwMlpRTTJOMXNQMW9OenIxUnpYQ0hEWkRlaW5SRnc0cVpLZWpTd21TTC1Lcm1JZ2stOG1qWEg4WnBCQnl4V0ExVEhB0gHDAUFVX3lxTE4xdGZJeUg5SnlKWVY1Qmw2M0NsS0ZQeGlWdUEyQjVQTWx4ejFaVmIySm1kMjd5UDUtRjRWRGRuVEhORGpaWnN3d2cwUm1USkdaTlhMWFFKWVVlY0Z5akk0UU9lc29jbWdBaTZwREdzdkV0eWFZQlRSRHJaM1NTMU1JcUlER0t2VDlmUktaaVE4dGU2dkIxenRqT0tUTjU3b0RSd1RvRTZISzJVNFBRR3JXbVZ4YVRGRUpXN1dNQUluZ3Z4SQ?oc=5",
+     "source": "EFTM",
+     "date": "2026-09-08 10:08"
+    }
+   ]
   },
   {
    "id": "rtx-spark-msi",
