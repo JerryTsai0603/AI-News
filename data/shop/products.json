@@ -1,7 +1,7 @@
 {
  "version": "v26",
- "fetchedAt": "2026-09-10T07:52:34.076365+08:00",
- "edition": "2026-09-10",
+ "fetchedAt": "2026-09-11T07:44:29.537596+08:00",
+ "edition": "2026-09-11",
  "count": 16,
  "products": [
   {
@@ -41,14 +41,14 @@
       {
        "platform": "PChome 24h",
        "title": "Leadtek 麗臺 NVIDIA DGX Spark - NVIDIA GB10/128G記憶體/4TB SSD/NVIDIA DGX OS 作業系統",
-       "price": 239900.0,
+       "price": 229900.0,
        "currency": "TWD",
        "url": "https://24h.pchome.com.tw/prod/DSAMAT-A900K5JIW"
       },
       {
        "platform": "PChome 24h",
        "title": "Leadtek 麗臺 NVIDIA DGX Spark - NVIDIA GB10/128G記憶體/4TB SSD/NVIDIA DGX OS 作業系統",
-       "price": 229900.0,
+       "price": 219900.0,
        "currency": "TWD",
        "url": "https://24h.pchome.com.tw/prod/DSAMAX-A900K52CY"
       },
@@ -104,6 +104,11 @@
        "d": "2026-09-10",
        "p": 199500.0,
        "c": "TWD"
+      },
+      {
+       "d": "2026-09-11",
+       "p": 199500.0,
+       "c": "TWD"
       }
      ],
      "reviewHistory": [
@@ -122,31 +127,35 @@
       {
        "d": "2026-09-10",
        "n": 3
+      },
+      {
+       "d": "2026-09-11",
+       "n": 3
       }
      ]
     },
     {
      "country": "JP",
      "region": "apac",
-     "status": "announced",
+     "status": "launched",
      "offers": []
     },
     {
      "country": "US",
      "region": "na",
-     "status": "announced",
+     "status": "launched",
      "offers": []
     },
     {
      "country": "DE",
      "region": "emea",
-     "status": "announced",
+     "status": "launched",
      "offers": []
     },
     {
      "country": "GB",
      "region": "emea",
-     "status": "announced",
+     "status": "launched",
      "offers": []
     },
     {
@@ -189,12 +198,26 @@
        "d": "2026-09-10",
        "p": 6099.95,
        "c": "EUR"
+      },
+      {
+       "d": "2026-09-11",
+       "p": 6099.95,
+       "c": "EUR"
       }
      ],
      "reviewHistory": []
     }
    ],
-   "signals": []
+   "signals": [
+    {
+     "status": "launched",
+     "countries": [],
+     "title": "NVIDIA DGX Spark is now available: desktop AI with 128GB unified memory - en.softonic.com",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZnlhWTl0ckVQTV9GVWhSc3BmOWpyM05INmFycE5WM0E0R3YxQ1ZVaXFUaE9rWV9rSHFBOGF1WVM1TVVOUC1IYXVnZ2xTWHZVVjI0a2hYYXVvN25Qd2xpQ3JKNE1yUHpEMkNoUUM0X0NhSmZQcnlBdnBSSkRld2h6V0NaMVdzT1RjSkY3NXI5cWFJZnI0a0xLeTVTVGpnanBzcU9QWHRB?oc=5",
+     "source": "en.softonic.com",
+     "date": "2026-09-10 18:07"
+    }
+   ]
   },
   {
    "id": "asus-ascent-gx10",
@@ -214,7 +237,7 @@
     "power": "約 240 W",
     "storage": "1 TB NVMe"
    },
-   "specSource": "https://24h.pchome.com.tw/prod/DSAUZ2-A900JX7XQ",
+   "specSource": "https://24h.pchome.com.tw/prod/DSAUR0-A900JIS6V",
    "specScraped": [
     "memory"
    ],
@@ -235,16 +258,16 @@
        "title": "ASUS 華碩 Ascent GX10 桌上型AI超級電腦(GB10/128GB/1TB/GX10/DGX)(90MS0371-M00010)",
        "price": 175900.0,
        "currency": "TWD",
-       "url": "https://24h.pchome.com.tw/prod/DSAUZ2-A900JX7XQ",
-       "rating": 5.0,
-       "reviews": 5
+       "url": "https://24h.pchome.com.tw/prod/DSAUR0-A900JIS6V",
+       "rating": 4.9,
+       "reviews": 14
       },
       {
        "platform": "PChome 24h",
        "title": "ASUS 華碩 Ascent GX10 桌上型AI超級電腦(GB10/128GB/1TB/GX10/DGX)(90MS0371-M00010)",
        "price": 175900.0,
        "currency": "TWD",
-       "url": "https://24h.pchome.com.tw/prod/DSAUR0-A900JIS6V"
+       "url": "https://24h.pchome.com.tw/prod/DSAUZ2-A900JX7XQ"
       },
       {
        "platform": "PChome 24h",
@@ -259,13 +282,13 @@
       "title": "ASUS 華碩 Ascent GX10 桌上型AI超級電腦(GB10/128GB/1TB/GX10/DGX)(90MS0371-M00010)",
       "price": 175900.0,
       "currency": "TWD",
-      "url": "https://24h.pchome.com.tw/prod/DSAUZ2-A900JX7XQ",
-      "rating": 5.0,
-      "reviews": 5
+      "url": "https://24h.pchome.com.tw/prod/DSAUR0-A900JIS6V",
+      "rating": 4.9,
+      "reviews": 14
      },
-     "rating": 5.0,
-     "reviews": 5,
-     "reviewDelta": -9,
+     "rating": 4.9,
+     "reviews": 14,
+     "reviewDelta": 9,
      "history": [
       {
        "d": "2026-09-06",
@@ -296,6 +319,11 @@
        "d": "2026-09-10",
        "p": 175900.0,
        "c": "TWD"
+      },
+      {
+       "d": "2026-09-11",
+       "p": 175900.0,
+       "c": "TWD"
       }
      ],
      "reviewHistory": [
@@ -314,6 +342,10 @@
       {
        "d": "2026-09-10",
        "n": 5
+      },
+      {
+       "d": "2026-09-11",
+       "n": 14
       }
      ]
     },
@@ -695,6 +727,11 @@
        "d": "2026-09-10",
        "p": 210000.0,
        "c": "TWD"
+      },
+      {
+       "d": "2026-09-11",
+       "p": 210000.0,
+       "c": "TWD"
       }
      ],
      "reviewHistory": [
@@ -716,6 +753,10 @@
       },
       {
        "d": "2026-09-10",
+       "n": 1
+      },
+      {
+       "d": "2026-09-11",
        "n": 1
       }
      ]
@@ -779,6 +820,11 @@
        "d": "2026-09-10",
        "p": 6299.95,
        "c": "EUR"
+      },
+      {
+       "d": "2026-09-11",
+       "p": 6299.95,
+       "c": "EUR"
       }
      ],
      "reviewHistory": []
@@ -830,7 +876,7 @@
       {
        "platform": "PChome 24h",
        "title": "GIGABYTE 技嘉 AI TOP ATOM - NVIDIA GB10/128G記憶體/4TB SSD/NVIDIA DGX OS 作業系統",
-       "price": 204900.0,
+       "price": 219900.0,
        "currency": "TWD",
        "url": "https://24h.pchome.com.tw/prod/DSAMAX-A900K4DE6",
        "rating": 2.0
@@ -839,15 +885,15 @@
      "best": {
       "platform": "PChome 24h",
       "title": "GIGABYTE 技嘉 AI TOP ATOM - NVIDIA GB10/128G記憶體/4TB SSD/NVIDIA DGX OS 作業系統",
-      "price": 204900.0,
+      "price": 219900.0,
       "currency": "TWD",
       "url": "https://24h.pchome.com.tw/prod/DSAMAX-A900K4DE6",
       "rating": 2.0
      },
      "trend": {
-      "prev": 239000.0,
-      "delta": -34100.0,
-      "since": "2026-09-09"
+      "prev": 204900.0,
+      "delta": 15000.0,
+      "since": "2026-09-10"
      },
      "rating": 2.0,
      "reviews": null,
@@ -880,6 +926,11 @@
       {
        "d": "2026-09-10",
        "p": 204900.0,
+       "c": "TWD"
+      },
+      {
+       "d": "2026-09-11",
+       "p": 219900.0,
        "c": "TWD"
       }
      ],
@@ -990,14 +1041,6 @@
      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSzdmck9UN042SHY4cTdxTDlyankxQWFkemtyQTJWaE94VGRRU20zNkxjMzhELUJNRHBNMFdFQzNKV3A3dWhlREhtUDNVa2VnWnhBR0tlbmpWM1F5b2xYWDZrWlJUZmYyZXpEY25TWm9wSWJVSXhRQnUybHhsUVFlTTBYemFrdkJaX1RsbkxTdFXSAZABQVVfeXFMT0s3ZnJPVDdONkh2OHE3cUw5cmp5MUFhZHprckEyVmhPeFRkUVNtMzZMYzM4RC1CTURwTTBXRUMzSldwN3VoZURIbVAzVWtlZ1p4QUdLZW5qVjNReW9sWFg2a1pSVGZmMmV6RGNuU1pvcEliVUl4UUJ1Mmx4bFFRZU0wWHpha3ZCWl9UbG5MU3RV?oc=5",
      "source": "Mezha",
      "date": "2026-09-09 20:00"
-    },
-    {
-     "status": "announced",
-     "countries": [],
-     "title": "ASUS Unveils ProArt P16, P14, and GR1X Powered by NVIDIA RTX Spark - Gadget Pilipinas",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYXlKTUtqU1dvZlFKVHpOOWxGaHRIOU5XblFmVlhRUUh1bDNoUHEzazNUcEwtb0hBWHJJbUl2TGU1a1Mzc29XVnhCNTZRZ0ptMzhhNWtGc1JWRmxNb0I2YXhsbUtXaDdOeldIam5xZW15YURncVVKOUNiUGc0UEtwMkhKcjhvWlZiUGxKOHE4d0NiM2NDRC0wMzZXRG1xd1JPVHJQZHZRQUs?oc=5",
-     "source": "Gadget Pilipinas",
-     "date": "2026-09-08 15:44"
     }
    ]
   },
@@ -1097,48 +1140,48 @@
     {
      "country": "TW",
      "region": "apac",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "JP",
      "region": "apac",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "US",
      "region": "na",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "DE",
      "region": "emea",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "GB",
      "region": "emea",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "FR",
      "region": "emea",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     }
    ],
    "signals": [
     {
-     "status": "launched",
+     "status": "announced",
      "countries": [],
-     "title": "HP Launches OmniBook Ultra 16 And OmniBook X 14 With NVIDIA RTX Spark - Pulse 2.0",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWjNfZGZaelg4c0NqT2V3eTZudzJTbmFuUFktN2RQQy1wQzBkYl81em0tUk1iczhQTzFHQ2l1UlZSVS0wWm9wLW95MTl2azIxbG91emdIQ280RzBVcDVkYUl5dlJENlpsbm13QnZxanZzWjF6d01QMDV4Y3BEbWJtUXQwN0k3RTVTMHlyV016MS1aQXPSAZgBQVVfeXFMUENiM240a0JBMzZVb1ZsaWtoVXo1RC1mcXdXSmRZNzVZNHdIOWZMeWhGWmV2STl5NWt2d2k4VTBXWXljcVR0MmhNdDVSOF9wWFpxUmZIUjIwUUpmNHJnWnVJdlZrUnZ2ZGY0eDUwWXdVMzl3VHQ0cmxweUR6REZORWVxNnRhRk93OXRFNkYyV0NwNmUyeWo4VDM?oc=5",
-     "source": "Pulse 2.0",
-     "date": "2026-09-09 02:14"
+     "title": "HP OmniBook Ultra 16: The World’s Thinnest RTX Spark Laptop Unveiled - Basic Tutorials",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPV1lQR0hqSUE0RGtsVGM3YnZHQldxeHJSeDBpUzktNlJEN1pnTVdib2c4WThfaEdya3Uta2JnaExIWm1YanJTNF9PN08yZlNZLTBwd3VvV1ZqdTZHZXdiZmhuT0RTbHZiR1lGN3dTMnc2RDFESFlhc2cwbWlFdkk3SVNtSEZHTHcwM1VibEw5ZXhHQ2luUm41OTNSMEZZTzZBRmc?oc=5",
+     "source": "Basic Tutorials",
+     "date": "2026-09-10 11:05"
     }
    ]
   },
@@ -1172,50 +1215,41 @@
     {
      "country": "TW",
      "region": "apac",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "JP",
      "region": "apac",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "US",
      "region": "na",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "DE",
      "region": "emea",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "GB",
      "region": "emea",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "FR",
      "region": "emea",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     }
    ],
-   "signals": [
-    {
-     "status": "launched",
-     "countries": [],
-     "title": "Lenovo Unveils Yoga Flagships Powered by Nvidia RTX Spark and Colourful Idea range at IFA - EFTM",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTTVDd0twWm1Yc3hRSzJYRVN4eGkyZkgtckRaMUpSOUZnZnR1aV9jSHR0d0RjeWFHeVYyd1JobW0zaXQ4Uk54RnJXQ0VJajBSQ1lZSk1jZWFvaFFjY2NGaDJOdFEwR2V6Rk5zN0VQT2lGTFM1ZnhFUTNJSmlwMlpRTTJOMXNQMW9OenIxUnpYQ0hEWkRlaW5SRnc0cVpLZWpTd21TTC1Lcm1JZ2stOG1qWEg4WnBCQnl4V0ExVEhB0gHDAUFVX3lxTE4xdGZJeUg5SnlKWVY1Qmw2M0NsS0ZQeGlWdUEyQjVQTWx4ejFaVmIySm1kMjd5UDUtRjRWRGRuVEhORGpaWnN3d2cwUm1USkdaTlhMWFFKWVVlY0Z5akk0UU9lc29jbWdBaTZwREdzdkV0eWFZQlRSRHJaM1NTMU1JcUlER0t2VDlmUktaaVE4dGU2dkIxenRqT0tUTjU3b0RSd1RvRTZISzJVNFBRR3JXbVZ4YVRGRUpXN1dNQUluZ3Z4SQ?oc=5",
-     "source": "EFTM",
-     "date": "2026-09-08 10:08"
-    }
-   ]
+   "signals": []
   },
   {
    "id": "rtx-spark-msi",
