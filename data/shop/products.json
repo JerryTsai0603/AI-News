@@ -1,7 +1,7 @@
 {
  "version": "v26",
- "fetchedAt": "2026-09-12T07:55:30.618500+08:00",
- "edition": "2026-09-12",
+ "fetchedAt": "2026-09-13T07:45:35.064248+08:00",
+ "edition": "2026-09-13",
  "count": 16,
  "products": [
   {
@@ -114,6 +114,11 @@
        "d": "2026-09-12",
        "p": 199500.0,
        "c": "TWD"
+      },
+      {
+       "d": "2026-09-13",
+       "p": 199500.0,
+       "c": "TWD"
       }
      ],
      "reviewHistory": [
@@ -140,31 +145,35 @@
       {
        "d": "2026-09-12",
        "n": 3
+      },
+      {
+       "d": "2026-09-13",
+       "n": 3
       }
      ]
     },
     {
      "country": "JP",
      "region": "apac",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "US",
      "region": "na",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "DE",
      "region": "emea",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
      "country": "GB",
      "region": "emea",
-     "status": "launched",
+     "status": "announced",
      "offers": []
     },
     {
@@ -217,21 +226,17 @@
        "d": "2026-09-12",
        "p": 6099.95,
        "c": "EUR"
+      },
+      {
+       "d": "2026-09-13",
+       "p": 6099.95,
+       "c": "EUR"
       }
      ],
      "reviewHistory": []
     }
    ],
-   "signals": [
-    {
-     "status": "launched",
-     "countries": [],
-     "title": "NVIDIA DGX Spark is now available: desktop AI with 128GB unified memory - en.softonic.com",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZnlhWTl0ckVQTV9GVWhSc3BmOWpyM05INmFycE5WM0E0R3YxQ1ZVaXFUaE9rWV9rSHFBOGF1WVM1TVVOUC1IYXVnZ2xTWHZVVjI0a2hYYXVvN25Qd2xpQ3JKNE1yUHpEMkNoUUM0X0NhSmZQcnlBdnBSSkRld2h6V0NaMVdzT1RjSkY3NXI5cWFJZnI0a0xLeTVTVGpnanBzcU9QWHRB?oc=5",
-     "source": "en.softonic.com",
-     "date": "2026-09-10 18:07"
-    }
-   ]
+   "signals": []
   },
   {
    "id": "asus-ascent-gx10",
@@ -302,7 +307,7 @@
      },
      "rating": 5.0,
      "reviews": 5,
-     "reviewDelta": -9,
+     "reviewDelta": 0,
      "history": [
       {
        "d": "2026-09-06",
@@ -343,6 +348,11 @@
        "d": "2026-09-12",
        "p": 175900.0,
        "c": "TWD"
+      },
+      {
+       "d": "2026-09-13",
+       "p": 175900.0,
+       "c": "TWD"
       }
      ],
      "reviewHistory": [
@@ -368,6 +378,10 @@
       },
       {
        "d": "2026-09-12",
+       "n": 5
+      },
+      {
+       "d": "2026-09-13",
        "n": 5
       }
      ]
@@ -760,6 +774,11 @@
        "d": "2026-09-12",
        "p": 210000.0,
        "c": "TWD"
+      },
+      {
+       "d": "2026-09-13",
+       "p": 210000.0,
+       "c": "TWD"
       }
      ],
      "reviewHistory": [
@@ -789,6 +808,10 @@
       },
       {
        "d": "2026-09-12",
+       "n": 1
+      },
+      {
+       "d": "2026-09-13",
        "n": 1
       }
      ]
@@ -860,6 +883,11 @@
       },
       {
        "d": "2026-09-12",
+       "p": 6299.95,
+       "c": "EUR"
+      },
+      {
+       "d": "2026-09-13",
        "p": 6299.95,
        "c": "EUR"
       }
@@ -967,6 +995,11 @@
       },
       {
        "d": "2026-09-12",
+       "p": 219900.0,
+       "c": "TWD"
+      },
+      {
+       "d": "2026-09-13",
        "p": 219900.0,
        "c": "TWD"
       }
@@ -1202,16 +1235,7 @@
      "offers": []
     }
    ],
-   "signals": [
-    {
-     "status": "announced",
-     "countries": [],
-     "title": "HP OmniBook Ultra 16: The World’s Thinnest RTX Spark Laptop Unveiled - Basic Tutorials",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPV1lQR0hqSUE0RGtsVGM3YnZHQldxeHJSeDBpUzktNlJEN1pnTVdib2c4WThfaEdya3Uta2JnaExIWm1YanJTNF9PN08yZlNZLTBwd3VvV1ZqdTZHZXdiZmhuT0RTbHZiR1lGN3dTMnc2RDFESFlhc2cwbWlFdkk3SVNtSEZHTHcwM1VibEw5ZXhHQ2luUm41OTNSMEZZTzZBRmc?oc=5",
-     "source": "Basic Tutorials",
-     "date": "2026-09-10 11:05"
-    }
-   ]
+   "signals": []
   },
   {
    "id": "rtx-spark-lenovo",
