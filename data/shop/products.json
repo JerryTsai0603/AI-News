@@ -1,7 +1,7 @@
 {
  "version": "v26",
- "fetchedAt": "2026-09-13T07:45:35.064248+08:00",
- "edition": "2026-09-13",
+ "fetchedAt": "2026-09-14T07:56:54.263289+08:00",
+ "edition": "2026-09-14",
  "count": 16,
  "products": [
   {
@@ -119,6 +119,11 @@
        "d": "2026-09-13",
        "p": 199500.0,
        "c": "TWD"
+      },
+      {
+       "d": "2026-09-14",
+       "p": 199500.0,
+       "c": "TWD"
       }
      ],
      "reviewHistory": [
@@ -148,6 +153,10 @@
       },
       {
        "d": "2026-09-13",
+       "n": 3
+      },
+      {
+       "d": "2026-09-14",
        "n": 3
       }
      ]
@@ -231,6 +240,11 @@
        "d": "2026-09-13",
        "p": 6099.95,
        "c": "EUR"
+      },
+      {
+       "d": "2026-09-14",
+       "p": 6099.95,
+       "c": "EUR"
       }
      ],
      "reviewHistory": []
@@ -256,7 +270,7 @@
     "power": "約 240 W",
     "storage": "1 TB NVMe"
    },
-   "specSource": "https://24h.pchome.com.tw/prod/DSAUZ2-A900JX7XQ",
+   "specSource": "https://24h.pchome.com.tw/prod/DSAUR0-A900JIS6V",
    "specScraped": [
     "memory"
    ],
@@ -277,16 +291,16 @@
        "title": "ASUS 華碩 Ascent GX10 桌上型AI超級電腦(GB10/128GB/1TB/GX10/DGX)(90MS0371-M00010)",
        "price": 175900.0,
        "currency": "TWD",
-       "url": "https://24h.pchome.com.tw/prod/DSAUZ2-A900JX7XQ",
-       "rating": 5.0,
-       "reviews": 5
+       "url": "https://24h.pchome.com.tw/prod/DSAUR0-A900JIS6V",
+       "rating": 4.9,
+       "reviews": 14
       },
       {
        "platform": "PChome 24h",
        "title": "ASUS 華碩 Ascent GX10 桌上型AI超級電腦(GB10/128GB/1TB/GX10/DGX)(90MS0371-M00010)",
        "price": 175900.0,
        "currency": "TWD",
-       "url": "https://24h.pchome.com.tw/prod/DSAUR0-A900JIS6V"
+       "url": "https://24h.pchome.com.tw/prod/DSAUZ2-A900JX7XQ"
       },
       {
        "platform": "PChome 24h",
@@ -301,13 +315,13 @@
       "title": "ASUS 華碩 Ascent GX10 桌上型AI超級電腦(GB10/128GB/1TB/GX10/DGX)(90MS0371-M00010)",
       "price": 175900.0,
       "currency": "TWD",
-      "url": "https://24h.pchome.com.tw/prod/DSAUZ2-A900JX7XQ",
-      "rating": 5.0,
-      "reviews": 5
+      "url": "https://24h.pchome.com.tw/prod/DSAUR0-A900JIS6V",
+      "rating": 4.9,
+      "reviews": 14
      },
-     "rating": 5.0,
-     "reviews": 5,
-     "reviewDelta": 0,
+     "rating": 4.9,
+     "reviews": 14,
+     "reviewDelta": 9,
      "history": [
       {
        "d": "2026-09-06",
@@ -353,6 +367,11 @@
        "d": "2026-09-13",
        "p": 175900.0,
        "c": "TWD"
+      },
+      {
+       "d": "2026-09-14",
+       "p": 175900.0,
+       "c": "TWD"
       }
      ],
      "reviewHistory": [
@@ -383,6 +402,10 @@
       {
        "d": "2026-09-13",
        "n": 5
+      },
+      {
+       "d": "2026-09-14",
+       "n": 14
       }
      ]
     },
@@ -779,6 +802,11 @@
        "d": "2026-09-13",
        "p": 210000.0,
        "c": "TWD"
+      },
+      {
+       "d": "2026-09-14",
+       "p": 210000.0,
+       "c": "TWD"
       }
      ],
      "reviewHistory": [
@@ -812,6 +840,10 @@
       },
       {
        "d": "2026-09-13",
+       "n": 1
+      },
+      {
+       "d": "2026-09-14",
        "n": 1
       }
      ]
@@ -888,6 +920,11 @@
       },
       {
        "d": "2026-09-13",
+       "p": 6299.95,
+       "c": "EUR"
+      },
+      {
+       "d": "2026-09-14",
        "p": 6299.95,
        "c": "EUR"
       }
@@ -1002,6 +1039,11 @@
        "d": "2026-09-13",
        "p": 219900.0,
        "c": "TWD"
+      },
+      {
+       "d": "2026-09-14",
+       "p": 219900.0,
+       "c": "TWD"
       }
      ],
      "reviewHistory": []
@@ -1103,7 +1145,16 @@
      "offers": []
     }
    ],
-   "signals": []
+   "signals": [
+    {
+     "status": "announced",
+     "countries": [],
+     "title": "NVIDIA RTX Spark الوحش الجديد الذي غيّر مستقبل الحواسيب #ai #reels #nvidia #microsoft #tiktok",
+     "url": "https://www.youtube.com/watch?v=smllSpR-RoU",
+     "source": "YouTube · BMCTEC Studio",
+     "date": "2026-09-14 04:57"
+    }
+   ]
   },
   {
    "id": "rtx-spark-dell",
@@ -1367,7 +1418,16 @@
      "offers": []
     }
    ],
-   "signals": []
+   "signals": [
+    {
+     "status": "announced",
+     "countries": [],
+     "title": "MSI發表首款搭載NVIDIA RTX Spark筆電 性能特色一次看 - 三立新聞",
+     "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9iZmJLaEpmMWpJQzJ1Rmg4My1VVGdHTWo1Y0JYZ1hPVFotM2ctamVYaGo1YndieXRYUG9vSHJXQlJnWEtZY0FucdIBTEFVX3lxTFBkMlEyU2RIMU9HUFUyMGptU2JkS202c2xEa1IzZGZYSFhYRElmNl9ndE5INWNzTVM3d0tFSTd1Y3JteWdkcER1MV9ReVY?oc=5",
+     "source": "三立新聞",
+     "date": "2026-09-12 23:35"
+    }
+   ]
   },
   {
    "id": "rtx-spark-surface",
