@@ -1,7 +1,7 @@
 {
  "version": "v26",
- "fetchedAt": "2026-09-15T08:17:36.495135+08:00",
- "edition": "2026-09-15",
+ "fetchedAt": "2026-09-16T08:00:38.695746+08:00",
+ "edition": "2026-09-16",
  "count": 16,
  "products": [
   {
@@ -40,6 +40,13 @@
      "offers": [
       {
        "platform": "PChome 24h",
+       "title": "Leadtek 麗臺 NVIDIA DGX Spark - NVIDIA GB10/128G記憶體/4TB SSD/NVIDIA DGX OS 作業系統",
+       "price": 214900.0,
+       "currency": "TWD",
+       "url": "https://24h.pchome.com.tw/prod/DSAMAT-A900K5JIW"
+      },
+      {
+       "platform": "PChome 24h",
        "title": "Leadtek 麗臺 NVIDIA DGX Spark 桌上型AI超級電腦 (GB10/128GB/4TB/DGX)",
        "price": 199500.0,
        "currency": "TWD",
@@ -50,14 +57,7 @@
       {
        "platform": "PChome 24h",
        "title": "Leadtek 麗臺 NVIDIA DGX Spark - NVIDIA GB10/128G記憶體/4TB SSD/NVIDIA DGX OS 作業系統",
-       "price": 229900.0,
-       "currency": "TWD",
-       "url": "https://24h.pchome.com.tw/prod/DSAMAT-A900K5JIW"
-      },
-      {
-       "platform": "PChome 24h",
-       "title": "Leadtek 麗臺 NVIDIA DGX Spark - NVIDIA GB10/128G記憶體/4TB SSD/NVIDIA DGX OS 作業系統",
-       "price": 219900.0,
+       "price": 199500.0,
        "currency": "TWD",
        "url": "https://24h.pchome.com.tw/prod/DSAMAX-A900K52CY"
       }
@@ -129,6 +129,11 @@
        "d": "2026-09-15",
        "p": 199500.0,
        "c": "TWD"
+      },
+      {
+       "d": "2026-09-16",
+       "p": 199500.0,
+       "c": "TWD"
       }
      ],
      "reviewHistory": [
@@ -166,6 +171,10 @@
       },
       {
        "d": "2026-09-15",
+       "n": 3
+      },
+      {
+       "d": "2026-09-16",
        "n": 3
       }
      ]
@@ -259,6 +268,11 @@
        "d": "2026-09-15",
        "p": 6099.95,
        "c": "EUR"
+      },
+      {
+       "d": "2026-09-16",
+       "p": 6099.95,
+       "c": "EUR"
       }
      ],
      "reviewHistory": []
@@ -335,7 +349,7 @@
      },
      "rating": 5.0,
      "reviews": 5,
-     "reviewDelta": -9,
+     "reviewDelta": 0,
      "history": [
       {
        "d": "2026-09-06",
@@ -391,6 +405,11 @@
        "d": "2026-09-15",
        "p": 175900.0,
        "c": "TWD"
+      },
+      {
+       "d": "2026-09-16",
+       "p": 175900.0,
+       "c": "TWD"
       }
      ],
      "reviewHistory": [
@@ -428,6 +447,10 @@
       },
       {
        "d": "2026-09-15",
+       "n": 5
+      },
+      {
+       "d": "2026-09-16",
        "n": 5
       }
      ]
@@ -835,6 +858,11 @@
        "d": "2026-09-15",
        "p": 210000.0,
        "c": "TWD"
+      },
+      {
+       "d": "2026-09-16",
+       "p": 210000.0,
+       "c": "TWD"
       }
      ],
      "reviewHistory": [
@@ -876,6 +904,10 @@
       },
       {
        "d": "2026-09-15",
+       "n": 1
+      },
+      {
+       "d": "2026-09-16",
        "n": 1
       }
      ]
@@ -962,6 +994,11 @@
       },
       {
        "d": "2026-09-15",
+       "p": 6299.95,
+       "c": "EUR"
+      },
+      {
+       "d": "2026-09-16",
        "p": 6299.95,
        "c": "EUR"
       }
@@ -1084,6 +1121,11 @@
       },
       {
        "d": "2026-09-15",
+       "p": 219900.0,
+       "c": "TWD"
+      },
+      {
+       "d": "2026-09-16",
        "p": 219900.0,
        "c": "TWD"
       }
