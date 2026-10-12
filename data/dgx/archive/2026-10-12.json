@@ -1,0 +1,70 @@
+{
+ "channel": "dgx",
+ "version": "v26",
+ "fetchedAt": "2026-10-12T10:45:33.930445+08:00",
+ "edition": "2026-10-12",
+ "count": 1,
+ "languages": [
+  "zh-TW",
+  "zh-CN",
+  "en",
+  "ja",
+  "ko",
+  "de",
+  "es",
+  "fr",
+  "it"
+ ],
+ "byGroup": {
+  "asus": 0,
+  "acer": 0,
+  "hp": 0,
+  "msi": 0,
+  "dell": 0,
+  "lenovo": 0,
+  "gigabyte": 0,
+  "microsoft": 0,
+  "nvidia": 1
+ },
+ "byLine": {},
+ "items": [
+  {
+   "title": "2026-10-12 AI主機報",
+   "source": "YouTube · 小淵聊3C",
+   "url": "https://www.youtube.com/watch?v=c930kgqcSss",
+   "date": "2026-10-12 10:22",
+   "publishedAt": "2026-10-12T10:22:34+08:00",
+   "summary": "20261012 AI主機日報｜動態簡報版（DGX Spark × RTX Spark × Mac Studio） 本片為動態簡報排版版：毛玻璃文字卡＋梯形透視配圖＋Zoom 動態；口說內容與當日 Podcast 相同。",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "影片",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 100,
+   "image": "https://i.ytimg.com/vi/c930kgqcSss/mqdefault.jpg",
+   "views": 45713,
+   "comments": 149,
+   "dupes": 25,
+   "also": [
+    "YouTube · BuildLocalAI",
+    "YouTube · Tec_1explains",
+    "YouTube · AI Chip Advancements",
+    "YouTube · Local AI Logic",
+    "YouTube · Raymundo Ojeda",
+    "YouTube · Web Resources"
+   ],
+   "lines": [],
+   "score": 559,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "2026-10-12 AI主機報",
+     "summary": "20261012 AI主機日報｜動態簡報版（DGX Spark × RTX Spark × Mac Studio） 本片為動態簡報排版版：毛玻璃文字卡＋梯形透視配圖＋Zoom 動態；口說內容與當日 Podcast 相同。"
+    }
+   }
+  }
+ ]
+}

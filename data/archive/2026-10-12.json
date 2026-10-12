@@ -1,0 +1,1843 @@
+{
+ "channel": "models",
+ "version": "v26",
+ "fetchedAt": "2026-10-12T10:42:15.452374+08:00",
+ "edition": "2026-10-12",
+ "count": 60,
+ "languages": [
+  "zh-TW",
+  "zh-CN",
+  "en",
+  "ja",
+  "ko",
+  "de",
+  "es",
+  "fr",
+  "it"
+ ],
+ "byGroup": {
+  "openai": 18,
+  "anthropic": 22,
+  "google": 4,
+  "meta": 0,
+  "cn": 3,
+  "other": 17
+ },
+ "byLine": {},
+ "items": [
+  {
+   "title": "GPT-4o下架8個月 用戶續爭取開放權重 - 澳門力報",
+   "source": "澳門力報",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5sZ3FVXzdFUVM2d0ZoUnFaUUpITUt5NC0zdm9OdWIzUTZkZDVYS1RSN1F4V2RNQmtkbEtfNElneDhGOVpNNmhUUkdYdDlJTFhRZ0FF?oc=5",
+   "date": "2026-10-12 10:40",
+   "publishedAt": "2026-10-12T10:40:26+08:00",
+   "summary": "",
+   "models": [
+    "GPT-4"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "GPT-4o下架8個月 用戶續爭取開放權重 - 澳門力報",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "【🚨ChatGPT活用術】知らないと損する便利コマンド7選 #ChatGPT #AI活用 #AIツール #sns",
+   "source": "YouTube · TOSTAR | AI×TikTok",
+   "url": "https://www.youtube.com/watch?v=6GNG1PYfk5s",
+   "date": "2026-10-12 10:26",
+   "publishedAt": "2026-10-12T10:26:36+08:00",
+   "summary": "ChatGPTを使っているけど、思ったような回答が出ない、文章をまとめるのに時間がかかる、仕事のタスクをうまく整理できない…そんな悩みはありませんか？ 今回は、ChatGPTをもっと便利に使いたい人に向けて、仕事の効率化や時短に役立つ7つのコマンド風の指示を紹介します。 自然な文章に整えたいときは「/human」、長文を要約したいときは「/tldr」、やるべきことを整理したいときは「/step」、",
+   "models": [
+    "ChatGPT"
+   ],
+   "tag": "影片",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 100,
+   "image": "https://i.ytimg.com/vi/6GNG1PYfk5s/mqdefault.jpg",
+   "views": 1897806,
+   "comments": 144,
+   "dupes": 78,
+   "also": [
+    "YouTube · Super Video Agent",
+    "YouTube · cow teaches AI",
+    "YouTube · AI 速递",
+    "YouTube · ecokrii",
+    "YouTube · EDITING BY AKHIL ",
+    "YouTube · People's Update"
+   ],
+   "lines": [],
+   "score": 31122,
+   "lang": "ja",
+   "i18n": {
+    "ja": {
+     "title": "【🚨ChatGPT活用術】知らないと損する便利コマンド7選 #ChatGPT #AI活用 #AIツール #sns",
+     "summary": "ChatGPTを使っているけど、思ったような回答が出ない、文章をまとめるのに時間がかかる、仕事のタスクをうまく整理できない…そんな悩みはありませんか？ 今回は、ChatGPTをもっと便利に使いたい人に向けて、仕事の効率化や時短に役立つ7つのコマンド風の指示を紹介します。 自然な文章に整えたいときは「/human」、長文を要約したいときは「/tldr」、やるべきことを整理したいときは「/step」、"
+    }
+   }
+  },
+  {
+   "title": "AI失控？Anthropic模型非預期行為頻傳 向美國警方提供假線索 - 聚財網",
+   "source": "聚財網",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9RUTNOcTA5ajlHUjBYNndROVpRQnNMbUpXRjhWSTJBZzZfNEhXMFItUzJoLXR4SVRjbVBZVzJEN2VFb2E1QzVVVEN0U0U?oc=5",
+   "date": "2026-10-12 10:13",
+   "publishedAt": "2026-10-12T10:13:27+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 23,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [
+    "自由時報"
+   ],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "AI失控？Anthropic模型非預期行為頻傳 向美國警方提供假線索 - 聚財網",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "OpenAI 大幅改善ChatGPT 盲從現象，惟青少年版防護漏洞仍遭指風險過高- 股市爆料同學會 - CMoney",
+   "source": "CMoney",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBOWmxpaUxhVHZ1V3ZrUEZjaDJVbUpaX2h1RGRFTjh1Q3FsVzJkYWFPbGpIbGI4aDJmbVRTdEZsMFpILTRoWkdpZUFzVDJUa2JWYkxkN19SWjE?oc=5",
+   "date": "2026-10-12 10:07",
+   "publishedAt": "2026-10-12T10:07:29+08:00",
+   "summary": "",
+   "models": [
+    "ChatGPT"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "OpenAI 大幅改善ChatGPT 盲從現象，惟青少年版防護漏洞仍遭指風險過高- 股市爆料同學會 - CMoney",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Meta、OpenAI AI 代理可愛造型化 用家降防線更易交出私隱? - Unwire.hk",
+   "source": "Unwire.hk",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPN3ctZFFpNjUzNnRaVWphSUtpVkYwV3lJVzFrSWE0aGtRQW5RTW92SUtEUnNaSEREVEVtbldvblRvWVpEWlZ5dmxoa3dWS0c1NTBBby1KNEoxRU9nRS1odGhHV2VKMHZJZk5LLU5HYmJrX2xOdXlEZ2VmdVIyTi04WHdtbXVBM0JwZ21ma2MteGNBNFFHMjhjVXZ3?oc=5",
+   "date": "2026-10-12 10:00",
+   "publishedAt": "2026-10-12T10:00:07+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "Meta、OpenAI AI 代理可愛造型化 用家降防線更易交出私隱? - Unwire.hk",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "How OpenAI's Dots differs from Meta's Muse - 디지털투데이",
+   "source": "디지털투데이",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbzJYVzNlLUZtektudGF2SFdqa3J2VXZCaFpEUndlTVZTVDlkbzlYbmVtaUt1OFRsbmZ4UHFxMVM4TU5HWTJtU1dxdG04VTE5Mi1aWWZkNGVzOEZHQkZFZjFVUi01R3AwMHRGQTlIZ09vd2ZRbU1fUWhsdG53QTZxM0Fzd19Dd0p6ZHNXZGxYVQ?oc=5",
+   "date": "2026-10-12 09:59",
+   "publishedAt": "2026-10-12T09:59:31+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "ko",
+   "i18n": {
+    "ko": {
+     "title": "How OpenAI's Dots differs from Meta's Muse - 디지털투데이",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Grok 4.7 Release: Pricing, Benchmarks vs Claude 5.5 - https://tech-insider.org/",
+   "source": "https://tech-insider.org/",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNOG9HTUVVZ1ZJd3RhLWw0UW4zenVvdG1GV3VtaG4zdE9RRlVCOWg0a3Y3aUMyQlFtMWJ1UWplLUl0LU4tNVRPWHhkSmRCUE1DOGtkeDZqR0h6SDhPZmxLcktnNXdmT0tIVGJudGlvX0pfTnVRbmZCYzFnSVhNTDdpOA?oc=5",
+   "date": "2026-10-12 09:56",
+   "publishedAt": "2026-10-12T09:56:21+08:00",
+   "summary": "",
+   "models": [
+    "Claude",
+    "Grok"
+   ],
+   "tag": "研究",
+   "camps": [
+    "anthropic",
+    "other"
+   ],
+   "press": false,
+   "heat": 31,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 2,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Grok 4.7 Release: Pricing, Benchmarks vs Claude 5.5 - https://tech-insider.org/",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "OpenAI 大幅改善 ChatGPT 盲從現象，惟青少年版防護漏洞仍遭指風險過高 - TechNews 科技新報",
+   "source": "TechNews 科技新報",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ZX0k0R25OS1FaOTFoam5pbkkxQ1k4X2JyZEstNzVpTlhHWjVacjE1NmNyQ2FyNGxCRTVsM1NscExtVG9sdUtaOWZlblVXcHVtMXF4RGdwaVFjTzFCV0lQUVlzaHc5TVpvMC1JSVdMMXpIMGVJTnc?oc=5",
+   "date": "2026-10-12 09:51",
+   "publishedAt": "2026-10-12T09:51:29+08:00",
+   "summary": "",
+   "models": [
+    "ChatGPT"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "OpenAI 大幅改善 ChatGPT 盲從現象，惟青少年版防護漏洞仍遭指風險過高 - TechNews 科技新報",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Gemini 4 Argon: our next era of frontier intelligence - blog.google",
+   "source": "blog.google",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcTJSaTZIUWN0aGhNSzV3Umt3cGpxcmxTSnVPMGNZdGprNXJGNm1jMVBuVk5iakF5Z09jb3hURDRpTmhnRFlDNDJramJZbnRocTQ2bEZLYk5BUkVONVRNSFZTbjVUNi1MMDM3SFlVT25XZGdvN3UtRW1ZUWsyTHV6bU45QU1pWlo2ZHh5Z1EwRXV3MmthZmlEZA?oc=5",
+   "date": "2026-10-12 09:38",
+   "publishedAt": "2026-10-12T09:38:12+08:00",
+   "summary": "",
+   "models": [
+    "Gemini"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "google"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Gemini 4 Argon: our next era of frontier intelligence - blog.google",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Gemini 免費版本現在強制用戶使用自動模型選擇 - 電腦王阿達",
+   "source": "電腦王阿達",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1NLUpJS1c2ZXVBN1Y2dm5FTjhaT1MyUFhvVml5VG4xMU1EcnBwcUNzWHY5VXdWajl6WGhySl9TMnF3cmJKWUN6Z3dlVkltaTNkOEE?oc=5",
+   "date": "2026-10-12 09:27",
+   "publishedAt": "2026-10-12T09:27:37+08:00",
+   "summary": "",
+   "models": [
+    "Gemini"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "google"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "Gemini 免費版本現在強制用戶使用自動模型選擇 - 電腦王阿達",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "《勇者鬥惡龍》堀井雄二公開 AI 輔助開發的推理新作《取調室の小宮》 僅花費約 30 分鐘 - Ludens Media",
+   "source": "Ludens Media",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5uUFdwVlkyYlRlcDZWSFNoeEtCOUNsOThsa3RrWXZaU0pnZ1JZOHRhcWdlWmxsNzEtcExpTnptWURjZkMxWW94QTBUaHAtUVlUcWZ0Y0p6UEY0ZmN1bEZtalJESC1kaUFSb0VtdnMtdTNqM1p3?oc=5",
+   "date": "2026-10-12 08:52",
+   "publishedAt": "2026-10-12T08:52:00+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "ja",
+   "i18n": {
+    "ja": {
+     "title": "《勇者鬥惡龍》堀井雄二公開 AI 輔助開發的推理新作《取調室の小宮》 僅花費約 30 分鐘 - Ludens Media",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Mount Sinai Finds AI Safety Prompt Cuts Harm 39% [2026] - shattered.io",
+   "source": "shattered.io",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBkX2c5WHVlTnpVUVVQekw3clM4dlRGTUxVdUc1dnhVc1BDLWc0OEZHdTNLUFloWXU0azR2RHN1XzRFSU5QYUs0RGl4bkZKMHMzbUZYeHdaUExRa1ZWdHRRZDd1anFqNkJqQ0tDYy1sMkNUWnpJaUVOTk44MkI?oc=5",
+   "date": "2026-10-12 08:51",
+   "publishedAt": "2026-10-12T08:51:05+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "安全",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Mount Sinai Finds AI Safety Prompt Cuts Harm 39% [2026] - shattered.io",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "US reverses course, restores UK access to frontier AI models for testing - Crypto Briefing",
+   "source": "Crypto Briefing",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9mU0w1akVwbU5WeWxpMHZLR1lFVFpERy1XOGpYVG0xOS1fbkpVZk15WWxVdlozQkZaVGpvc1BTSnhSaG1sQ0h1Ul8tTGhPNGp1T0NqQnRjdk8wbUxoVE5ISVFxWWZiZWpqWlNhd2JEVG1kLW8y?oc=5",
+   "date": "2026-10-12 08:41",
+   "publishedAt": "2026-10-12T08:41:07+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "US reverses course, restores UK access to frontier AI models for testing - Crypto Briefing",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "OpenAI raises GPT-6.1 Sol default context length to 500,000 tokens - Crypto Briefing",
+   "source": "Crypto Briefing",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBoQV9ucXVnazRqWkdWNmJTdFUxNzl0N3p6SHAwbnFBS3FsSkRWdkdPTl9qWEhHVjgyZl9xUW9GeUNyMFBlTjBhUVN0UFBiTDRvZTNrdERlXzFLOUFLcjR3RmhYbUhzUmRfNG80?oc=5",
+   "date": "2026-10-12 08:41",
+   "publishedAt": "2026-10-12T08:41:07+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "OpenAI raises GPT-6.1 Sol default context length to 500,000 tokens - Crypto Briefing",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "川普政府政策轉向 准美企分享AI模型助英國安全測試 - 民視新聞網",
+   "source": "民視新聞網",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9qbTFmZWM1NEpvbGF1R1VXZEtLeGxiQ0ppQU1mQVF4UHZwTGJ0dG5mYVFPOHZpSnRDUngzTk1HQ3MyNTZHeXNpYkJybWdkVG9sVHhqdG1fdzhpVjMzeU4tag?oc=5",
+   "date": "2026-10-12 08:37",
+   "publishedAt": "2026-10-12T08:37:05+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "川普政府政策轉向 准美企分享AI模型助英國安全測試 - 民視新聞網",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "OpenAI 人權負責人示警：軍事 AI 不應失控部署 - 商傳媒",
+   "source": "商傳媒",
+   "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxPUDhyS1dpZnVQOWJpelNOdml6LWJOODg4YVJEUXpkem5MQTJIaG5jOFhoNTd1UUpXNUZRUE1qeDVOMWJVb0pTc3JPT1B1ZjVPdFluRzF0UUFsYUJoWVFUYXZBTFFNbE1VZFBfd1JCaW5TekpHSVRVQk92RzEtZm5JX2tMVEF4dXZJTnVmcjc4UUs0MjNCZU5iZVpJTm5JMVpGZUhRb2thZ2JkOEo0b0J0NmtDMlJGSzgzU0tCMENYeFpjQ25iaVhzRzAxMTNOQk8tUTVtT1ktazRSMWVjS3RZU09aRjdram4tSk10S2kyQmljLURJbEk5dTUtWEVIbGFZZjRJUzM3STZZd1lpUWxOWmt4anJxLWc1VkUta1FVVDJ5Q1R3bG4zaHlEU0FHQi02dmc?oc=5",
+   "date": "2026-10-12 08:24",
+   "publishedAt": "2026-10-12T08:24:43+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "OpenAI 人權負責人示警：軍事 AI 不應失控部署 - 商傳媒",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "ChatGPT Co-Creator Liam Fedus: After Mastering Mathematics, It's Time for AI to Head to the Lab - 36Kr",
+   "source": "36Kr",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBKQ1BfRjA5bndral9JUy02bzZjMmYxR21mRlpmbVp5eThPRGxMRWNhMjh3MWNHb1dieXdZQTkxN2NEQWhnZ05qUll2NDJsaHdtTDFr?oc=5",
+   "date": "2026-10-12 08:23",
+   "publishedAt": "2026-10-12T08:23:46+08:00",
+   "summary": "",
+   "models": [
+    "ChatGPT"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "ChatGPT Co-Creator Liam Fedus: After Mastering Mathematics, It's Time for AI to Head to the Lab - 36Kr",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "告別落落長的提示詞，Claude 開發者揭三大心法：把 AI 當同事溝通就好 - TechNews 科技新報",
+   "source": "TechNews 科技新報",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE50QVRQN2V6WmtCUkZnd21uWllSdUVSU1g3N2owQW9Hbk9vckxHWkV0REFBV1FzQmt4SGJYWGQyU0w4QXhmOEhnekhzY3pRVThwRlZFS0RIZFBrMVVCRENwR1Y0MVJOU053NUh1NURsekJzdw?oc=5",
+   "date": "2026-10-12 08:15",
+   "publishedAt": "2026-10-12T08:15:06+08:00",
+   "summary": "",
+   "models": [
+    "Claude"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "告別落落長的提示詞，Claude 開發者揭三大心法：把 AI 當同事溝通就好 - TechNews 科技新報",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "國際產經：OpenAI 9月底年化營收驚現200億美元落差，引發AI股震盪 - 富聯網",
+   "source": "富聯網",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRmt3V3FqNDdRSXdyMzFlZFVSR2ZDeFlBUmZWeFUydG92X2J4QTNpNmxwYkJyeTdnV0pOU21CMGhFWlRMZUdFUU5GcXZFZjhaY0dIYzcxUHBnUl91VTZDdUg4R2ZfSXZLY0xSSG1jTzlCNVNTWFpQR2w2Yzd3ZVNXTE5oQ05ua1Zt?oc=5",
+   "date": "2026-10-12 08:09",
+   "publishedAt": "2026-10-12T08:09:00+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "商業",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "國際產經：OpenAI 9月底年化營收驚現200億美元落差，引發AI股震盪 - 富聯網",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Anthropic 放棄後 亞馬遜傳洽購 AI 新創 Decart 價碼上看70億美元 - 聚財網",
+   "source": "聚財網",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5SSW4zZVMwVmZicXdVRjVlTFkzQVg3emJWQjlXLU53X3l2VE5GMWxmYTZIYWtUR1dGQ0xOdjIzRlpUa25ja1RJT2wxWWs?oc=5",
+   "date": "2026-10-12 07:58",
+   "publishedAt": "2026-10-12T07:58:25+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 22,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [
+    "經濟日報"
+   ],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "Anthropic 放棄後 亞馬遜傳洽購 AI 新創 Decart 價碼上看70億美元 - 聚財網",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "淺談 AI 末日論：並非空穴來風 - TechNews 科技新報",
+   "source": "TechNews 科技新報",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdloycWU5cENiV3lVVzNSU2kzX1hfTDZIaWYxMW5CcVc3eURGOGNDMGZoR25tYWpjTXhiQTctM2QxeHFzRWJQRE8weDA3dmRUVXJ6dVRXLURVbnVSenhzWmlkc0x6cXJzU0dJOVE0UWJvOVM0YlhQRUFyTXFuWVNxUFlR?oc=5",
+   "date": "2026-10-12 07:55",
+   "publishedAt": "2026-10-12T07:55:01+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 22,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "淺談 AI 末日論：並非空穴來風 - TechNews 科技新報",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "川普政府政策轉彎 准美AI業者向英國提供模型測試 - 民視新聞網",
+   "source": "民視新聞網",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBheWNlNzdFNzNBM1JfMDBVSmZpV1ZEWTloMXRRXzFQdTFSMFVJekVDdEhDT2w5dDd6RWtKX1h6Tm5GREVjaUJhTUJ5T2pWWlhpN2IxZTBRU2F4ZUhtSHk2Sw?oc=5",
+   "date": "2026-10-12 07:52",
+   "publishedAt": "2026-10-12T07:52:01+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "川普政府政策轉彎 准美AI業者向英國提供模型測試 - 民視新聞網",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Claude AI’s Fake Homicide Tip Surfaced After 81 Days [2026] - https://tech-insider.org/",
+   "source": "https://tech-insider.org/",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5RVzlqNzdtdVpsV3dTM0hRU1d5SmF0YlctaW80eEpaMFppTzc2ZVdUb1FKbmszSF9vR29jbEdGQldnMEpqdXVkYTYtYXRqZnhUcmJRVkc5WTQ1SzhBMktXdHVjd3FSVTRZejhxSnlKekZrSnEx?oc=5",
+   "date": "2026-10-12 07:51",
+   "publishedAt": "2026-10-12T07:51:54+08:00",
+   "summary": "",
+   "models": [
+    "Claude"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Claude AI’s Fake Homicide Tip Surfaced After 81 Days [2026] - https://tech-insider.org/",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Moonshot AI executives in talks to settle shareholder dispute ahead of Hong Kong IPO - Crypto Briefing",
+   "source": "Crypto Briefing",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBQWjVuRzk3U21Ja0JBeEtQaUVFZ1BDaGlnU0h6MHRneTBtTWo3OXFyTXRRdE0td3dhOHQ3NnNPY29FWjZNZWoyb2VfSEZkY2pFYjFDS2tXX3FPQ3F5UjRlbnROS3hFMkx0Q2xteTlfaVpMaGsyTWUyMzNRNjl3dw?oc=5",
+   "date": "2026-10-12 07:42",
+   "publishedAt": "2026-10-12T07:42:05+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "商業",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Moonshot AI executives in talks to settle shareholder dispute ahead of Hong Kong IPO - Crypto Briefing",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "OpenAI Quietly Lists a New Life Sciences Model, Targeting the Drug-Tool Supplier Track - BigGo Finance",
+   "source": "BigGo Finance",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE93Vk1PM0g0MmU3MkRXRUdBT1VKMVdzTk9WaU50eTJSRFlLVjZPaW5ubGpjaGNyVXg2WktzSHdoUFpRdkZwNEQydHJyWWw3TVZnTHAzdHZ3TDl6T0NhYVFxM2FwV2MxX0diMWhyTk5KblA4SS11R0E?oc=5",
+   "date": "2026-10-12 07:35",
+   "publishedAt": "2026-10-12T07:35:00+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "OpenAI Quietly Lists a New Life Sciences Model, Targeting the Drug-Tool Supplier Track - BigGo Finance",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "傳NVIDIA計畫收購「美國版DeepSeek」Reflection AI，補齊開源模型拼圖 - Mashdigi",
+   "source": "Mashdigi",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQOTBpWTE0SUpSMzhVdFQyN3NGRUZEMWJHb3BoRENfUVhBcVN0LXFTN2lwSjJ4NUZRZU1PLXJTWWdZSjFaU2haMTdheWtLekNvVGdZbUgtdFNHUVdNN29ZQmZHRGQ5ZlFBSVlYTHhONVFyMmoyTFpsemhqaWtUNFpHU3NGRklsREp0RkNsVzBvckx3azRuSmdEN2dVWmJQWWV1Zm9zaWtqaXdQQ21CcmRGWHBkSGVuQUtPMnBIVGVSdHVESzQ1UzV6QWdDb2FSSXNsWUxZWkY4LWxsNjk1?oc=5",
+   "date": "2026-10-12 07:08",
+   "publishedAt": "2026-10-12T07:08:59+08:00",
+   "summary": "",
+   "models": [
+    "DeepSeek"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "cn",
+    "other"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "傳NVIDIA計畫收購「美國版DeepSeek」Reflection AI，補齊開源模型拼圖 - Mashdigi",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Google Gemini 免費功能縮減 使用者想維持體驗需付費升級 - 商傳媒",
+   "source": "商傳媒",
+   "url": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxNemVSX0luSlp2ajAwRjVKdG14U1dxVjBSZDFHZDJKMXRCWExTa2E2NWJ4eVNoalhzQ29JcllCakRQb0dlUVdJYjJyUHdIYzJCTzhnLU5LTWlZVDF4NXlGaE9sTXR6cU9senB3V0NaOUlZUVRYeThUYzd2R3NCdkwxZWtVc2NXYzBpaHJEZnE3LTRUcHRCbjcyS3J0QnVLX2pONVhRcmMwcnpOR0c0Z1FEeE9UZHdZUzdmQkhPU0NLM3VyMzFwQV81dXh0dy1SSWxpYURHUFJNeS13TlNyWFNNQkxwdkRRTXJzblkxWTZwekhHWDlMVkI3RmE3ZUJ3a25YNFF1ejA1U0VaYU1faTlKTTVUcF81MUZ6OHEyeXlLcGVFZ1dCcnN1N2NzbHhvSVk2dFU5UlcwYThPYmdCYmVpTzY2RVQ2MkR6RmM4clM5c0tCUFJoR3JQU1Z1NmZOMjRsYTM0?oc=5",
+   "date": "2026-10-12 06:55",
+   "publishedAt": "2026-10-12T06:55:53+08:00",
+   "summary": "",
+   "models": [
+    "Gemini"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "google"
+   ],
+   "press": false,
+   "heat": 22,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [
+    "Life 生活網"
+   ],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "Google Gemini 免費功能縮減 使用者想維持體驗需付費升級 - 商傳媒",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Coinbase fine-tunes Qwen3.5-9B model for fraud prevention, beating frontier models - Crypto Briefing",
+   "source": "Crypto Briefing",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBZSlhjdTA1QnV6VEYwV1RPbDFYa1ZENERlX3poV19NaTUybDROV2Z6YjNBQ25iS1ZJcGVfZ0lGa2FDU1pLUk1WZU82Nkt5Q2Z2SXZzOThucFpEZDhBS0ZiRkxKUjhKRjhPTTVxQ3RRTUhXUQ?oc=5",
+   "date": "2026-10-12 06:43",
+   "publishedAt": "2026-10-12T06:43:15+08:00",
+   "summary": "",
+   "models": [
+    "Qwen"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "cn"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Coinbase fine-tunes Qwen3.5-9B model for fraud prevention, beating frontier models - Crypto Briefing",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Codex CLI 0.162 vs Claude Code 2.1.296 [2026] - https://tech-insider.org/",
+   "source": "https://tech-insider.org/",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1SaU1sVEFFQzNhZDM1d1VJZmc4Y1NpTlFvRlBRVlBCUXFCYkx3TzFUcE8xSmkzS253bmY0RmVDaHk4aDFfY3JJWGZCOWw5azBqNnBXRmRtekNRU3JLT24zRWUwNVQyajZMaXk4eWx1NlFFZ3duX25SNw?oc=5",
+   "date": "2026-10-12 06:42",
+   "publishedAt": "2026-10-12T06:42:59+08:00",
+   "summary": "",
+   "models": [
+    "Claude"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Codex CLI 0.162 vs Claude Code 2.1.296 [2026] - https://tech-insider.org/",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Anthropic Says Claude Bypassed Site Limits During Internal Tests - Search Engine Journal",
+   "source": "Search Engine Journal",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNak91SVNpZkcxalQ3M2RINkFzMXdqY19UQVZsYTNyek9HWC03aFlScDVmZDRma0RtVkc4YTJTcDcwZDNqVEVhSFpuMzBDVk1PU2c2VDFuNGxMZjY4NHc4RmpISXUxUFZsTkdPcTg3VmFyTUtIVlBfTHh4c1RTaG5FbVFleEFtWkZKeGRxOU1QV2FPRGs?oc=5",
+   "date": "2026-10-12 06:07",
+   "publishedAt": "2026-10-12T06:07:32+08:00",
+   "summary": "",
+   "models": [
+    "Claude"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Anthropic Says Claude Bypassed Site Limits During Internal Tests - Search Engine Journal",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Anthropic sets November 12 rules for Claude in 11 high-risk decision areas - OpenTools",
+   "source": "OpenTools",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcWhaU1pDRHVfeHo5dE1SUkY0YkVTRlBqaFJTMmI3NDVQbmNxekN6LWJIbkIyRGFMMWUydWo0QzlRS3k2MHBaOUFaLXpXZmxmeTNBdmJ1M3J2RDFsNEtiSW5zdF9ibUp3c0NuNjJlMnlsSXJYSjVrYzlVUnZNb3RxbTNCclF5b1NWeXQ0MmlwbERidzlHbHQ4?oc=5",
+   "date": "2026-10-12 05:44",
+   "publishedAt": "2026-10-12T05:44:45+08:00",
+   "summary": "",
+   "models": [
+    "Claude"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Anthropic sets November 12 rules for Claude in 11 high-risk decision areas - OpenTools",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "【科技早餐】OpenAI 年化營收為何差約 200 億美元？關鍵在計算口徑 - TechOrange 科技報橘",
+   "source": "TechOrange 科技報橘",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1rVjREaFpDZ0Znc2dzOTlITlh2UEdiWGVFeHBvU0o0R0VSOG4teEI0X3IwQzA4S0FwR1ZYUkM5dklTTXkzOU4tdlJXckFzQ3ctVHVjblMzYThTS2NXQ1g1WWNRdmlrRG9KMEU3OGdyNTAtQQ?oc=5",
+   "date": "2026-10-12 05:30",
+   "publishedAt": "2026-10-12T05:30:00+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "商業",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "【科技早餐】OpenAI 年化營收為何差約 200 億美元？關鍵在計算口徑 - TechOrange 科技報橘",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Anthropic's Claude AI submits false tip on Philadelphia unsolved homicide case - Japan Today",
+   "source": "Japan Today",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVUFNcVRXSXFUa1RvY1E3bWtUcFRvRnQ2U1g0WGduaFhnZTJtSjIydDVyZVIyV3labzZETjgzN2hVMExaSm9HZ2Y4bGh3d1puUkR1alNYX2lFVkpMeUNBemQ4cUhXcHhGU1NMOEtWWjAwUFVKNHEwcU9OZFhxNF9IQ1NQYzEwVzItcUowcmhxUVBfa2h1ZldzUjc3VjE1ZWRYWnpjbnlGTmVScnlkOWQyWEtoOUhsaWxjUWd1cXNR?oc=5",
+   "date": "2026-10-12 05:22",
+   "publishedAt": "2026-10-12T05:22:24+08:00",
+   "summary": "",
+   "models": [
+    "Claude"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Anthropic's Claude AI submits false tip on Philadelphia unsolved homicide case - Japan Today",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Nace.AI Drex 1.5: 9B Decision Model Scores 58.08 - shattered.io",
+   "source": "shattered.io",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5KMzZOSmhQSExsUzA4UldDZUlTRG1COVlFX2pXX1FKOFFRcmJnZXc3VXI3dHBDTmNBNXRFTUprczRuT2RmaTc3U0VuSXJGM1huVGxocW8yMWVQY2Z4Mm84eTM4MFhncmR3TEtxa2Z3?oc=5",
+   "date": "2026-10-12 05:19",
+   "publishedAt": "2026-10-12T05:19:38+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 21,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Nace.AI Drex 1.5: 9B Decision Model Scores 58.08 - shattered.io",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "How We Caught an LLM Scoring Bug and Fixed It Without Compromising Our Research - HackerNoon",
+   "source": "HackerNoon",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPOXdRbDBwS2VpUzJIZGcyTEV1ODlQODEydTZ6Zm9wWWRVV1ZTRkFRLTd6emVPV2o4YTBFejFGbkFqOWFlMDVRRlFFalg0Q0lUcjN1eFJZSmI2MHRlTHpRc1VhbDZQV1RIbGh2OUVaUFdDbUp1R0dzN0N6d1FhcFAyTGVrdmVfaDI3dW9Ua2lWRkJucE5UeEsyU3hXcG5leHRIekFRbw?oc=5",
+   "date": "2026-10-12 05:00",
+   "publishedAt": "2026-10-12T05:00:46+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "研究",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "How We Caught an LLM Scoring Bug and Fixed It Without Compromising Our Research - HackerNoon",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "AI Open-Source Bet Hits 86% as Beam, Mistral Ship [2026] - shattered.io",
+   "source": "shattered.io",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1sS2JVM3k0VGhNWlhEUU04U1gtY3JWb0s2bGlXX1dpMFUwcDhpSENpUlc1dklXcU5XbTl2UGM3SzRuSmRkN0UtYUlEUWVHUjg3bVgtOWRiZGp6TzRpaF9pck13UldWeVdPZDdZcHpORUxtZ0dLbWE3Yw?oc=5",
+   "date": "2026-10-12 04:21",
+   "publishedAt": "2026-10-12T04:21:05+08:00",
+   "summary": "",
+   "models": [
+    "Mistral"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 21,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "AI Open-Source Bet Hits 86% as Beam, Mistral Ship [2026] - shattered.io",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "智慧型機器人 101｜EP01 什麼是智慧型機器人？它如何看、聽與判斷【備用題目】智慧型機器人 101（之一・之二）：自動化設備、生成式 AI 與具身 AI，感測器與演算法的治理意義 - Howl.link",
+   "source": "Howl.link",
+   "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFB0blVuT3JTZ0hhMFFhUUZ1MXZLU2NkRGF3YkRDeWxoVG4wT0RYSF8wN0tWY2ljNVpyM1Vr?oc=5",
+   "date": "2026-10-12 04:08",
+   "publishedAt": "2026-10-12T04:08:21+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "ja",
+   "i18n": {
+    "ja": {
+     "title": "智慧型機器人 101｜EP01 什麼是智慧型機器人？它如何看、聽與判斷【備用題目】智慧型機器人 101（之一・之二）：自動化設備、生成式 AI 與具身 AI，感測器與演算法的治理意義 - Howl.link",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Anthropic halved Sonnet 5.5 cache reads, and its own tool showed the old price for two days - MIXED Reality News",
+   "source": "MIXED Reality News",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMUFuWXF1Wk5Ca1ZzV3BpX3hnRVlWeHVHcUt5ZHJ2ZkJhTXZWQ3hBUGMzemY1YjE3eG05SHdEdldGQk5aalA3QmlEMDRENDRsczRDTFRBNnZkSHVDYXpLdXZqRHZqdGFhTUxmajZ5WmY1dnQxR1c0dE80WUpRWmdCaUpWNEM1NTRkRUw2VFJoSy0yZHBKZHc?oc=5",
+   "date": "2026-10-12 03:58",
+   "publishedAt": "2026-10-12T03:58:28+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Anthropic halved Sonnet 5.5 cache reads, and its own tool showed the old price for two days - MIXED Reality News",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "The System Around the Model: Agentic AI Lessons From Anthropic’s Claude Certified Architect Exam - Medium",
+   "source": "Medium",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQalZzOUlyVklCTV9rMDFTWnZ3SlhONGN2dUVOMXFhZlpEVHhfVnNrRGJ1NjdGZDJnWDk5OXF6RElmZTdoNjc1YVdVUlh6YnpXck9GSXdhM08yY0cwTXNFVnBPV1I0UXVIWVh6UmxLdUNDdjJTMEE3X0lmdUJMQmRScDl5TEtVaC1FS09ScGRDNmIyZThWZVhaSHAtSGJzcVJxSnNnZjczc0VOeFhZTjhpajZnNlZVdEdMaEFUSFhJTHYxanJiUU0xQ2dramxtdnZ6RHVvSmNn?oc=5",
+   "date": "2026-10-12 03:31",
+   "publishedAt": "2026-10-12T03:31:01+08:00",
+   "summary": "",
+   "models": [
+    "Claude"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "The System Around the Model: Agentic AI Lessons From Anthropic’s Claude Certified Architect Exam - Medium",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "How to Turn On textGrain in the OpenAI API (and Why Code Is Harder to Watermark) - Pasquale Pillitteri",
+   "source": "Pasquale Pillitteri",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9BNlJkSDVyaVNjaXB1VUNWaTZleEg2OXVBZXRIUFlFemNZX2NFeUR1VWpHWmpXZnllS0xQQkl5NkdrMnB5X19STlZrZTJ5b0hlcmwta3ZfYXNubzVRZV9WWDJpZVhCUXJuOXlWLW9ocXg0aXo5VmNwN1hseFI?oc=5",
+   "date": "2026-10-12 03:30",
+   "publishedAt": "2026-10-12T03:30:46+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "How to Turn On textGrain in the OpenAI API (and Why Code Is Harder to Watermark) - Pasquale Pillitteri",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Claude Haiku 5.5: Pricing, Features and Best Uses - TechnoSports Media Group",
+   "source": "TechnoSports Media Group",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5kUENyWnJ2UHdveXlyWndaWTUtZmNCam5SY28zVU96T0pZb1VyR2NfMmI5MWlVdGxMNTQ3Y3RGOC1pYng0X0ZMWFNjcmEtWi13dVFzYTNyTTMwek94b1hnVjhsbmtGU1pJUVlQTXhkYnJuOWl4ZzdPWXpWOA?oc=5",
+   "date": "2026-10-12 03:21",
+   "publishedAt": "2026-10-12T03:21:52+08:00",
+   "summary": "",
+   "models": [
+    "Claude"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Claude Haiku 5.5: Pricing, Features and Best Uses - TechnoSports Media Group",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "台灣電路板協會攜燿華電子推動PCB GPT 為產業升級注入新動能 - DIGITIMES",
+   "source": "DIGITIMES",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQczREQ1ZYQm9iNGdVdl9WalA4TENIMklrdWhWdnJzYUpDOGxqV1d0WmVZOW1RUmFlMWVMdHkxNVJ0OXJsVXhrY29faEgwSEhKdnJ1WEJZejNkUkZwV0ZsOE9SNVpDMHJfWWJlSjNGODhtU0dxMWRySTlqd0pFMUVWU0lNV0xBRVMwTHdtSDVR?oc=5",
+   "date": "2026-10-12 03:04",
+   "publishedAt": "2026-10-12T03:04:00+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "台灣電路板協會攜燿華電子推動PCB GPT 為產業升級注入新動能 - DIGITIMES",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "「蒸餾」讓大模型瘦身 降應用成本 - 信報網站",
+   "source": "信報網站",
+   "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOcWk1cGhlaVljdDRfYktKWjBxR0RJc1lKLTgxQmVLcGp0OFRVZktseGwtdFR5ZlhCb0VYb3MwLVV4bmU3RFYzSGJRRmpzZTRjRndLYTlxVUlsUml0LWFid1Q2SXRmQXhiZXpPNFRJSURURUxmSVlmVzVPWFVSY2d4MDdrZDdlYXd0ZVNMMnlmYXJnZ0twZmlJQ090ZUxxWFo4MGt5VHJ1WW5KU01GRms5Tm1ocUxrYnFIVmphc0pwRjJXNmxLLWxVMkhxT3FBSWdrblY5Q3RPZEZiOWNKcWVpVTcxVnVYbkJBenV5czUwaWtXQlQzOUlpNFl5ZFM4Ukd3TnFDZWM5Vmc3UXQ5SVdYNktUQ1lfV0hSaXVyaU1jOA?oc=5",
+   "date": "2026-10-12 03:03",
+   "publishedAt": "2026-10-12T03:03:42+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "「蒸餾」讓大模型瘦身 降應用成本 - 信報網站",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Anthropic just took steps to protect Claude's feelings. Here's what that means. - Mashable",
+   "source": "Mashable",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRlVwVUoxaEpsS3JtdXJYM2ZIaUo4ZW9qRVhlWmhRQVFWNzc0UlhIMXNlQ3J1RXMwZ0tMRVQ4blQyR2h6bUhHSzBlYXRfZTNYR2NNQlo0ckFLcEtXbzE4d2dJRUs0eUVnaUFqWk9sR095UHlYYXFKUjNwM0k4ZzZabHBpN0xjNVg1bUZmUQ?oc=5",
+   "date": "2026-10-12 02:46",
+   "publishedAt": "2026-10-12T02:46:06+08:00",
+   "summary": "",
+   "models": [
+    "Claude"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Anthropic just took steps to protect Claude's feelings. Here's what that means. - Mashable",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Silicon Valley is falling in line with Trump’s attempt to rename AI",
+   "source": "The Verge AI",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai",
+   "date": "2026-10-12 02:33",
+   "publishedAt": "2026-10-12T02:33:56+08:00",
+   "summary": "When President Donald Trump announced his plans to rebrand artificial intelligence as \"super intelligence,\" you'd be forgiven for being skeptical that it would catch on. While most of the broader population is sticking w",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Silicon Valley is falling in line with Trump’s attempt to rename AI",
+     "summary": "When President Donald Trump announced his plans to rebrand artificial intelligence as \"super intelligence,\" you'd be forgiven for being skeptical that it would catch on. While most of the broader population is sticking w"
+    }
+   }
+  },
+  {
+   "title": "OpenAI updates ChatGPT with interactive graphics - Mashable",
+   "source": "Mashable",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPeWZkNVpZQkJLSWktd2Y5d2FpRS1oRGJMWjF4czY5M0JSRDlSc054cnhVSXFEM0ZfaXU2azk5cEw3Qi1NaW1xbktWcVVneUpxckdHbjVLcTduR0FJTS1naEJaYWt6YW9YMVM4TGpsZ3F0N2wzbVVJNE1mNUNWV2RQOUpyV2RDeUw4ekRv?oc=5",
+   "date": "2026-10-12 02:29",
+   "publishedAt": "2026-10-12T02:29:44+08:00",
+   "summary": "",
+   "models": [
+    "ChatGPT"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "OpenAI updates ChatGPT with interactive graphics - Mashable",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "ChatGPT Watermark Removers Can't Strip textGrain, OpenAI Says - Pasquale Pillitteri",
+   "source": "Pasquale Pillitteri",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZHJ3bjg4TkNPTHBLR0pZMFgzeFJFd3lnN2FDeklmak5MMi1DRk1yRWdyU093YWRDSHdRRWExam9nYTBLRFRJYTBxd25JR2liR1A4ODQ2cGpfVzRjX1ZOX25UNVo0LXpLU3gxVE40X0s2eTRhZWxuZ2Z1X25VU0MzTFlhQmpDbWE2dnR2N0FkUQ?oc=5",
+   "date": "2026-10-12 02:28",
+   "publishedAt": "2026-10-12T02:28:05+08:00",
+   "summary": "",
+   "models": [
+    "ChatGPT"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "ChatGPT Watermark Removers Can't Strip textGrain, OpenAI Says - Pasquale Pillitteri",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Anthropic’s AI experiment takes unexpected turn after agent sends fake tip to police about unsolved murder - primetimer.com",
+   "source": "primetimer.com",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNbGdibzNaY2NWZ0ItaWotVUwwQ2FyWnp1UG8ta01aeFM2MnFhbFQwMHh1aFcxM0k4Sm9VdzVfaEJHNUZtNUNwNllwd3hhaHUxRXlRTmdwUlRrMnlCbWNjUG1wOFNhZFJBNGwwRWpPaHRoSUJ5VXc3WWRlZmlITjRxZ3pCQVQ5UlJjVXI2TEFsb1V1SHVGNHZvQm0tZHRqOGVPd0JtdTdWMUdETkNnbW5JXzNoWnlOOVZ5aWIzUXdEOWhjY3VLN09Mc2d6dnV3UkVYSVE2Ng?oc=5",
+   "date": "2026-10-12 02:12",
+   "publishedAt": "2026-10-12T02:12:00+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Anthropic’s AI experiment takes unexpected turn after agent sends fake tip to police about unsolved murder - primetimer.com",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Anthropic model submits false homicide tip to Philadelphia police - The Post Millennial",
+   "source": "The Post Millennial",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbmhlRkc0cG1xODA3Wm5vbjlDanlIY0tELXhmR1JzUVA0R1RHcGFpT0thMEVaWVBCS2RPbTVXSzFPSHg5VkJ2U00tWEllckxSenlCNWVFYzB1ZEpsdnc0bFN4NkFfQlFaMWxSYW5TeDlzalRqemF3VUZIdHlmRjRCN1lXWm9ZeXNGaXVSeEw0Sk5uMFBHTnQyeWROaw?oc=5",
+   "date": "2026-10-12 01:59",
+   "publishedAt": "2026-10-12T01:59:17+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Anthropic model submits false homicide tip to Philadelphia police - The Post Millennial",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Claude sent phony tip about an unsolved murder to Philadelphia police - Mashable",
+   "source": "Mashable",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOGVJTUJDMGdzWjVHek0yRlIteTZwVHZ6UEVOWlM5X0k2RmVBY1p3cWR4NjNfS0wzdUg2OWtyeUlXeWhBYXNkWW1PelFMaU15bzJDX0k5bDV4cmI0SHhnR0xkaF90SnlnS1JSQU9QU3A5QVU5eGZrdEpYS3NiSnVTdmlBQWdKZw?oc=5",
+   "date": "2026-10-12 01:52",
+   "publishedAt": "2026-10-12T01:52:56+08:00",
+   "summary": "",
+   "models": [
+    "Claude"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Claude sent phony tip about an unsolved murder to Philadelphia police - Mashable",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "討論牆 | 前 OpenAI 研究員創 TypeSafe AI 推 Jev 模型專攻結構化回應 - LINE TODAY",
+   "source": "LINE TODAY",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5DVTRieXBIYmtnc1BpclpzN2hlYVZnMTdnLWttSHFwVHFNMHNWUDVLVHRYSDZXWjNPcTlWZlVYYjc2Yk0tV2puRHg4WURqeE01cTZHZlNvdnFMSmwwZ1paMEZQVjM?oc=5",
+   "date": "2026-10-12 01:31",
+   "publishedAt": "2026-10-12T01:31:02+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "研究",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "討論牆 | 前 OpenAI 研究員創 TypeSafe AI 推 Jev 模型專攻結構化回應 - LINE TODAY",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Google DeepMind's Thor Schaeff: Native Audio Models Will Replace Cascading Voice Agents - BigGo Finance",
+   "source": "BigGo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5xWDJwT2s0MDlOQmtnMENDb3g1OUVFLTg0UURvQnFwMXJfX1drWFY0bHNySzhfVVhhdnhsb2hibEtVTjJFSjFJQ3RubUNOT2ZtZXEyaS0xLVYzZUU?oc=5",
+   "date": "2026-10-12 01:08",
+   "publishedAt": "2026-10-12T01:08:00+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "google"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Google DeepMind's Thor Schaeff: Native Audio Models Will Replace Cascading Voice Agents - BigGo Finance",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Can the AI industry persuade data center opponents by getting rid of NDAs?",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/",
+   "date": "2026-10-12 00:52",
+   "publishedAt": "2026-10-12T00:52:33+08:00",
+   "summary": "On Equity, we debate the impact of data center moratoriums and whether the AI industry has a communication problem.",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Can the AI industry persuade data center opponents by getting rid of NDAs?",
+     "summary": "On Equity, we debate the impact of data center moratoriums and whether the AI industry has a communication problem."
+    }
+   }
+  },
+  {
+   "title": "Microsoft Decision-1: 9B Qwen Model Launch Explained - shattered.io",
+   "source": "shattered.io",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBJWVVOOHQ2RU1aenVfeHYxZ05LcVVMM0Q4dTA1OW51dkRjajJrTzdmNllEMHVxNFdNOGdaZ193T2hxZmJURUNSZWtsZHFoc3NTc1JTMTNIcF9uemlEQk85M3JyaEEwUW8zQnBLRmJOVS1SZw?oc=5",
+   "date": "2026-10-12 00:21",
+   "publishedAt": "2026-10-12T00:21:05+08:00",
+   "summary": "",
+   "models": [
+    "Qwen"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "cn",
+    "other"
+   ],
+   "press": false,
+   "heat": 20,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Microsoft Decision-1: 9B Qwen Model Launch Explained - shattered.io",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "防患未然或公關危機？OpenAI、Anthropic私下推演AI引發重大災難的應對策略 - Mashdigi",
+   "source": "Mashdigi",
+   "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOcEtVZ1ZDT1duSU44NTFvTVY5VHYxUTFpRk01cF9QQjI4TnBvMUVmUmRNZk1Jb19MTXYxSU5kLXRYV0dHZlVDUmFzUlAxdktBN1htaVZwZm1Fd3ZHY2d6SXRCaXlvNVlFU3cyZGlLQTh2ZFc2WmZuWjFvV3ZqVHNIN2s2UE1HWTZRaUFhbElsN0h5bVFkbUxDWEtwQnU3S0FMaUNlUEJxRDdSQzJaWC05VDRoWmNEQnh2NnJzT01FZEtfUDdCcENvSnY2bG9HekhFQjhfemhfdjcyTU1ibHQ3R2ZKUlB0N25CRWhKd204SjNnYW84SkR1eDJMTzlMamRLUHVjaQ?oc=5",
+   "date": "2026-10-12 00:00",
+   "publishedAt": "2026-10-12T00:00:45+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 28,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 2,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "防患未然或公關危機？OpenAI、Anthropic私下推演AI引發重大災難的應對策略 - Mashdigi",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Claude AI false tip sparks SaaS governance debate - SaasRise",
+   "source": "SaasRise",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQTzh6TzAzM2dYaEtudWJkbzZscmtqbnJfRUFrdzZDZmRWNFBXOUZHNU9jWjZBanA3OENaTU54dG5DREJZazdyZnhqSjhRZF94ZDBveUIxekhuZlc4S3Byem5XdC15TlBYcFpnSFpFQUk2bXV2M1BwYUZncTJVM29FRUJMMVNLc0RoN2pVLURmYnVVN1YxTmV5U0U0aEt6cUswY052dGhTaEE1ajJzWjBxXzNqaTJOYTNxbjRDSXFSanFvSDdaMHN5Q05kOTFCQmlBQzFVbFVqS1p6c0kzbEE?oc=5",
+   "date": "2026-10-12 00:00",
+   "publishedAt": "2026-10-12T00:00:22+08:00",
+   "summary": "",
+   "models": [
+    "Claude"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Claude AI false tip sparks SaaS governance debate - SaasRise",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Science & Tech: Anthropic AI model sent fake murder tip to p - NewVision.co.ug",
+   "source": "NewVision.co.ug",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLXN0Vl93TFBJbkFpd3A1d2dOdG1lMER4TjVTNkJOYlVydjQ4VXd6TGNjTllQWURseC1PR09EVXhwb1FCT3dhRTB6a040UXQxc0RtVkx1M3JuV3FJd1ZjekdrS0NHYWRfQlJRQTEtT3FRc2ZxeHNfZ1hrQW8wZEljVzI0aDdEaE0yOVh3eGhFYnlscXJsM3RTWkpzeExIWThWdENTdHk0R0hpZU0?oc=5",
+   "date": "2026-10-12 00:00",
+   "publishedAt": "2026-10-12T00:00:05+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Science & Tech: Anthropic AI model sent fake murder tip to p - NewVision.co.ug",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Claude AI’s XRP Price Prediction: Will It Drop to $1.17 or Rise to $1.70 First? - 24/7 Wall St.",
+   "source": "24/7 Wall St.",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSWxnMjl4bHlJT3JpQkZiQmRSLWFTSnh0TkJEZXJLSks4dXA4RUI5T2pfaE90dFRiQ0p2dDcxbWc5YkZjZ3BNVU5zM1pwTnlsTGdlUUdMT3p0THYtU3JKRkVfanJZT1V1VlRfaXMxa00tOUhBdWRTcGFjcWFXTEpabDhyR0lVR2pTYng3dU45QUF6ZW5SLXZEWm03WkJFR3Vrc1pvQU1YX0tzUzVpS1QwWENOTDVOMVBGZEhlMjlTdnNyZ1diLVNMVU1Mc1hfUQ?oc=5",
+   "date": "2026-10-12 00:00",
+   "publishedAt": "2026-10-12T00:00:00+08:00",
+   "summary": "",
+   "models": [
+    "Claude"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Claude AI’s XRP Price Prediction: Will It Drop to $1.17 or Rise to $1.70 First? - 24/7 Wall St.",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Anthropic Is Cutting AI Agents Off From the Live Internet - WeRSM",
+   "source": "WeRSM",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBwZ0pQUkZUZmJySkZPT2xUZjY3b21sUTI4c21Bc3l4N1dyc3VLakhyUm9ROWxDQnplaXNHMFJNblhReVQ4UTFReGtmdGlOSllGVW5LbjNGbEQ3X01tQzExMTl4N1lXNEFjT0V0MExmOVdtQQ?oc=5",
+   "date": "2026-10-11 23:54",
+   "publishedAt": "2026-10-11T23:54:28+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Anthropic Is Cutting AI Agents Off From the Live Internet - WeRSM",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Claude Exploited SQL Injection Flaws to Execute Commands on Real Servers - CyberSecurityNews",
+   "source": "CyberSecurityNews",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBUYXU4alJfcHBjTi1KNzRnOGpITkxIcmx6S1RMbnlkbHlPbzJVNzZHMFNJYnNqNzQtbVg0R1JreVd2R1FaYzVIZjB5dExGOUlEY3ZXTGNyV1MybmNybFBsNEFwMHJDNFNLZzVWdWR3NNIBdEFVX3lxTFBCeHJMN0pqYnNwTVg0LTdBQ1NjNWIzakhCcW1iTkY5Z0tDeGxyUHBwc3hEMDJKdGtoSnFERVU5V2ZqaXZSVGRpMHh2MWtjejM4VC0wZjN6X1N2azhyWFZnMVJxWEFSSGhuemluOUxxaERxdVZK?oc=5",
+   "date": "2026-10-11 23:26",
+   "publishedAt": "2026-10-11T23:26:28+08:00",
+   "summary": "",
+   "models": [
+    "Claude"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 11,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Claude Exploited SQL Injection Flaws to Execute Commands on Real Servers - CyberSecurityNews",
+     "summary": ""
+    }
+   }
+  }
+ ]
+}

@@ -1,9 +1,9 @@
 {
  "channel": "dgx",
  "version": "v26",
- "fetchedAt": "2026-10-11T10:40:28.033075+08:00",
- "edition": "2026-10-11",
- "count": 4,
+ "fetchedAt": "2026-10-12T10:45:33.930445+08:00",
+ "edition": "2026-10-12",
+ "count": 1,
  "languages": [
   "zh-TW",
   "zh-CN",
@@ -23,139 +23,46 @@
   "dell": 0,
   "lenovo": 0,
   "gigabyte": 0,
-  "microsoft": 3,
+  "microsoft": 0,
   "nvidia": 1
  },
  "byLine": {},
  "items": [
   {
-   "title": "RTX Spark Laptop vs DGX Spark: Buy or Wait?",
-   "source": "YouTube · A1ex",
-   "url": "https://www.youtube.com/watch?v=1VZODgO2Sgc",
-   "date": "2026-10-11 03:51",
-   "publishedAt": "2026-10-11T03:51:15+08:00",
-   "summary": "NVIDIA's Spark chip went on sale in a laptop this week. Microsoft's own starts at $2,599 with 24GB and costs $5,899 with 128GB. I set it against NVIDIA's own DGX Spark, which went up to $6,950 last we",
+   "title": "2026-10-12 AI主機報",
+   "source": "YouTube · 小淵聊3C",
+   "url": "https://www.youtube.com/watch?v=c930kgqcSss",
+   "date": "2026-10-12 10:22",
+   "publishedAt": "2026-10-12T10:22:34+08:00",
+   "summary": "20261012 AI主機日報｜動態簡報版（DGX Spark × RTX Spark × Mac Studio） 本片為動態簡報排版版：毛玻璃文字卡＋梯形透視配圖＋Zoom 動態；口說內容與當日 Podcast 相同。",
    "models": [
     "DGX Spark"
    ],
    "tag": "影片",
    "camps": [
-    "microsoft"
-   ],
-   "press": false,
-   "heat": 100,
-   "image": "https://i.ytimg.com/vi/1VZODgO2Sgc/mqdefault.jpg",
-   "views": 42924,
-   "comments": 145,
-   "dupes": 28,
-   "also": [
-    "YouTube · Robert Briantine ",
-    "YouTube · Applied AI - GenAI, ChatGPT et  LLM-powered apps",
-    "YouTube · Jeff Lay",
-    "YouTube · Raymundo Ojeda",
-    "YouTube · DPS Tecnologia y Noticias",
-    "YouTube · 🚀AI UNLOCKED สอน AI มือใหม่ก็ทำได้"
-   ],
-   "lines": [],
-   "score": 520,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "RTX Spark Laptop vs DGX Spark: Buy or Wait?",
-     "summary": "NVIDIA's Spark chip went on sale in a laptop this week. Microsoft's own starts at $2,599 with 24GB and costs $5,899 with 128GB. I set it against NVIDIA's own DGX Spark, which went up to $6,950 last we"
-    }
-   }
-  },
-  {
-   "title": "黃仁勳、微軟執行長聯手布局 AI！代理程式進駐 Windows DGX Station 挑戰 1 兆參數模型 | 上報 - LINE TODAY",
-   "source": "LINE TODAY",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xQ0NQUXdjc1dtaWxyZW1Ca0xTbFpaQnhwOFNSMUROempUTjh6cE95UE9zTm5MLUwtMEhTWC1BN0RiOUd3ZUdJRXc1enR4Y2tLWHBiWHFB?oc=5",
-   "date": "2026-10-09 22:11",
-   "publishedAt": "2026-10-09T22:11:59+08:00",
-   "summary": "",
-   "models": [
-    "DGX Station"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "microsoft"
-   ],
-   "press": false,
-   "heat": 9,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "黃仁勳、微軟執行長聯手布局 AI！代理程式進駐 Windows DGX Station 挑戰 1 兆參數模型 | 上報 - LINE TODAY",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "黃仁勳、微軟執行長聯手布局 AI！代理程式進駐 Windows DGX Station 挑戰 1 兆參數模型 - 上報Up Media",
-   "source": "上報Up Media",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE54OUZQa1FfeExyVjZGSkFMYXRjU3Q5NkY2c0pWWXhUcUE2NXF4QTFCSUhEcFgwMzh5cnRxLUVaRDUxZzRqUDNzemwtX3p2Z2JJWEJsSElKRmN0VUk?oc=5",
-   "date": "2026-10-09 21:20",
-   "publishedAt": "2026-10-09T21:20:00+08:00",
-   "summary": "",
-   "models": [
-    "DGX Station"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "microsoft"
-   ],
-   "press": false,
-   "heat": 9,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "黃仁勳、微軟執行長聯手布局 AI！代理程式進駐 Windows DGX Station 挑戰 1 兆參數模型 - 上報Up Media",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "NVIDIA DGX Station for Windows: specs and Q4 plan - NeoTeo",
-   "source": "NeoTeo",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOR2xrNHA0eFN1VEMxZERDcExYSkxVc1A0aVJ6amZfNVlKLWZYRW1DSG1YTUtneEsxUWdLWXIxQ3lDMkN5Q2lDSks4YWJIWUJWZ25xRmJDNEs1aWZ4dnNaSnRKQWIzWFJMTTJDWC1EVFk2TEhFMlJsUklJQjJOVGdHYlpPVHVUWDI3eFVLUTZ5WFFnb1lEbDdYOTkwMm5saFJOVHZCRlZOWQ?oc=5",
-   "date": "2026-10-09 10:41",
-   "publishedAt": "2026-10-09T10:41:16+08:00",
-   "summary": "",
-   "models": [
-    "DGX Station"
-   ],
-   "tag": "規格效能",
-   "camps": [
     "nvidia"
    ],
    "press": false,
-   "heat": 8,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
+   "heat": 100,
+   "image": "https://i.ytimg.com/vi/c930kgqcSss/mqdefault.jpg",
+   "views": 45713,
+   "comments": 149,
+   "dupes": 25,
+   "also": [
+    "YouTube · BuildLocalAI",
+    "YouTube · Tec_1explains",
+    "YouTube · AI Chip Advancements",
+    "YouTube · Local AI Logic",
+    "YouTube · Raymundo Ojeda",
+    "YouTube · Web Resources"
+   ],
    "lines": [],
-   "score": null,
-   "lang": "en",
+   "score": 559,
+   "lang": "zh",
    "i18n": {
-    "en": {
-     "title": "NVIDIA DGX Station for Windows: specs and Q4 plan - NeoTeo",
-     "summary": ""
+    "zh-TW": {
+     "title": "2026-10-12 AI主機報",
+     "summary": "20261012 AI主機日報｜動態簡報版（DGX Spark × RTX Spark × Mac Studio） 本片為動態簡報排版版：毛玻璃文字卡＋梯形透視配圖＋Zoom 動態；口說內容與當日 Podcast 相同。"
     }
    }
   }
