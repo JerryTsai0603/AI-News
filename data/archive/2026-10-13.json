@@ -1,0 +1,1856 @@
+{
+ "channel": "models",
+ "version": "v26",
+ "fetchedAt": "2026-10-13T10:48:57.242579+08:00",
+ "edition": "2026-10-13",
+ "count": 60,
+ "languages": [
+  "zh-TW",
+  "zh-CN",
+  "en",
+  "ja",
+  "ko",
+  "de",
+  "es",
+  "fr",
+  "it"
+ ],
+ "byGroup": {
+  "openai": 29,
+  "anthropic": 28,
+  "google": 6,
+  "meta": 1,
+  "cn": 3,
+  "other": 15
+ },
+ "byLine": {},
+ "items": [
+  {
+   "title": "CloudMile 2026 AI MASTERS 攜 OpenAI、台達電子從 AI 試驗走向可衡量的回報 - CIO Taiwan",
+   "source": "CIO Taiwan",
+   "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFByVG1ZOUNIRE0zUFNxOUY0Ml9KSUpXaXV6QUhLSDlXdTF5NVUzdEhNN29CMWV6d2Q3eGMxbUctVFd1UEVx?oc=5",
+   "date": "2026-10-13 10:39",
+   "publishedAt": "2026-10-13T10:39:51+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "CloudMile 2026 AI MASTERS 攜 OpenAI、台達電子從 AI 試驗走向可衡量的回報 - CIO Taiwan",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "#chatgpt #dolaai",
+   "source": "YouTube · Sunu Fitrawan 1981 ",
+   "url": "https://www.youtube.com/watch?v=bJt67Pz9i7I",
+   "date": "2026-10-13 10:30",
+   "publishedAt": "2026-10-13T10:30:17+08:00",
+   "summary": "#chatgpt #dolaai",
+   "models": [
+    "ChatGPT"
+   ],
+   "tag": "影片",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 100,
+   "image": "https://i.ytimg.com/vi/bJt67Pz9i7I/mqdefault.jpg",
+   "views": 10589,
+   "comments": 29,
+   "dupes": 84,
+   "also": [
+    "YouTube · 小語與阿凱的AI研究筆記",
+    "YouTube · Bell Likes Review",
+    "YouTube · Jack Juang",
+    "YouTube · Jay",
+    "YouTube · Greyson Jensen",
+    "YouTube · Umesh Tech Hindi "
+   ],
+   "lines": [],
+   "score": 236,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "#chatgpt #dolaai",
+     "summary": "#chatgpt #dolaai"
+    }
+   }
+  },
+  {
+   "title": "OpenAI Dots是什麼？和ChatGPT差在哪？ - 蕃新聞",
+   "source": "蕃新聞",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE12dzVfVVYxQnZLR0trcDlGaUMtX3B6c0drZzlhbWdsWXo5QVlZcjItcmZQbkpsWmsyeFZobks2UHdzUS1odG44LTN3Zy1YYXgxNGc?oc=5",
+   "date": "2026-10-13 10:14",
+   "publishedAt": "2026-10-13T10:14:00+08:00",
+   "summary": "",
+   "models": [
+    "ChatGPT"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "OpenAI Dots是什麼？和ChatGPT差在哪？ - 蕃新聞",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "仿完 Adobe 再攻 Office 靠 Claude 寫開源免費版 Excel Word - Unwire.hk",
+   "source": "Unwire.hk",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZkd2cEg3OEZNVG5uSGprNlR6cHF6VjlIaWxuQjFucHpBSWFrem90a2JfdjZVZnR6NncxZzQ0RC05YzF1QUt1cnZBazFaVnFNZjhId0ZkUXpEbHRyZnI4NC1HQ1k1XzdMOFlVTlNUcWp2aUxRU0l5MlVZNUJyc3paVGhvTGZZWEJWVnRpWUlLSUFtUmpkZGc?oc=5",
+   "date": "2026-10-13 10:00",
+   "publishedAt": "2026-10-13T10:00:11+08:00",
+   "summary": "",
+   "models": [
+    "Claude"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "仿完 Adobe 再攻 Office 靠 Claude 寫開源免費版 Excel Word - Unwire.hk",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Gemini 4 Argon: our next era of frontier intelligence - blog.google",
+   "source": "blog.google",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcTJSaTZIUWN0aGhNSzV3Umt3cGpxcmxTSnVPMGNZdGprNXJGNm1jMVBuVk5iakF5Z09jb3hURDRpTmhnRFlDNDJramJZbnRocTQ2bEZLYk5BUkVONVRNSFZTbjVUNi1MMDM3SFlVT25XZGdvN3UtRW1ZUWsyTHV6bU45QU1pWlo2ZHh5Z1EwRXV3MmthZmlEZA?oc=5",
+   "date": "2026-10-13 09:49",
+   "publishedAt": "2026-10-13T09:49:23+08:00",
+   "summary": "",
+   "models": [
+    "Gemini"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "google"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Gemini 4 Argon: our next era of frontier intelligence - blog.google",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "要員工別再手寫程式碼！Epic Games轉型「AI 優先」流程導入迪士尼「漫威、星戰」角色射擊新作 - 4Gamers",
+   "source": "4Gamers",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVTNLTHJTVTQ2NXJIS3R3c1o2Y0RVb2M5Z0pOUm4za3RsVEF2MlhFR1N0dmtCODdWbmRPS294OERreEt6eVZ6djM5R0Vnc3pVbFJ3UkFwejZwcnRKZ003YnFhQUd0SHg4Zno0bUprSVYyX2tmbVJFYTA4SEt6YmxETEpNbTJCem45VlBSQ3lmRkRDWGhqQ0F2WHExbGI?oc=5",
+   "date": "2026-10-13 09:38",
+   "publishedAt": "2026-10-13T09:38:47+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 23,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "要員工別再手寫程式碼！Epic Games轉型「AI 優先」流程導入迪士尼「漫威、星戰」角色射擊新作 - 4Gamers",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Meta、OpenAI、Google齊攻Agent 專家憂企業陷自動化混亂 - 立報傳媒",
+   "source": "立報傳媒",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5vaU5XUzZSUHM0Z2ROa09zLWY5ZmJ2TzFoTzRqU3lTQXkwbHhmVFAxTTRoNURCOERkQW1lQWl3aF9VX3FWQ2dMMGF6ZFNIMUNzMnfSAVJBVV95cUxOb2lOV1M2UlBzNGdkTmtPcy1mOWZidk8xaE80alN5U0F5MGx4ZlRQMU00aDVEQjhEZEFtZUFpd2hfVV9xVkNnTDBhemRTSDFDczJ3?oc=5",
+   "date": "2026-10-13 09:35",
+   "publishedAt": "2026-10-13T09:35:38+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "google"
+   ],
+   "press": false,
+   "heat": 47,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 4,
+   "also": [
+    "蕃新聞"
+   ],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "Meta、OpenAI、Google齊攻Agent 專家憂企業陷自動化混亂 - 立報傳媒",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Alibaba's Qwen team open sources QwenGyre to train AI agents that run for hours - Startup Fortune",
+   "source": "Startup Fortune",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWjRmbC1iVXVLRGp0cjM1ZU5Zd01HSFU3bkhtU0hWN0NEQ0kxRl9DODQwMVZKYnRoRElTYkN6RkN3NGVFXzBfaDFZazBFY0RYemNRT25uNGx1UmVSY21BR3JtRjYydzhRVGtPRlI0M1VOTzRNQUZER1RIdkdzWlpYY1V3eTVpM1pDVl9KMHBtTjBIT0k1U3dsM3RGOTB2MWdJVGs4ZC1naFVUdw?oc=5",
+   "date": "2026-10-13 09:20",
+   "publishedAt": "2026-10-13T09:20:21+08:00",
+   "summary": "",
+   "models": [
+    "Qwen"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "cn"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Alibaba's Qwen team open sources QwenGyre to train AI agents that run for hours - Startup Fortune",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Anthropic says new safeguards sharply reduce AI distillation attacks - Yahoo Tech",
+   "source": "Yahoo Tech",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPLW53ekhVMXVHMVRXSWQtV0FPNHE0TnF0ZV9xMlU0UXM4YWxHNFVJU0NxUEhfZTluckx2TDZRUDB5SjZJNGRMR1VOcXBSYXpDOC1pb1RtckRPNWpBX045RlhWRDRpaEpUMC1yWnMycWpNdnVJRWVTeHZvd3k3LTNBVlhhb2RydURaTU04dWs3c3dPV3FheEtJZC11QXlEQQ?oc=5",
+   "date": "2026-10-13 09:09",
+   "publishedAt": "2026-10-13T09:09:00+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Anthropic says new safeguards sharply reduce AI distillation attacks - Yahoo Tech",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Meta推出旗艦AI模型 推理、程式能力直追OpenAI、Anthropic - ETtoday AI科技",
+   "source": "ETtoday AI科技",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1aX1MzVUMxVUVXOWg0N2hlc2oxR3p0MjVxV2NhOUhRNEVHeVJXeUpqYmRaYVNoOHdiSzZ6T0Z4a0RnSk1pTkw2dlBWbw?oc=5",
+   "date": "2026-10-13 09:06",
+   "publishedAt": "2026-10-13T09:06:00+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 22,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "Meta推出旗艦AI模型 推理、程式能力直追OpenAI、Anthropic - ETtoday AI科技",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Meta Unveils Flagship Muse Wonder Models, Closing In on Global AI Intelligence Lead - BigGo Finance",
+   "source": "BigGo Finance",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9DM3F4NXNLcnhWZk96X1RDamtnaEU2SG8zQTN5Ymk0dUtMMGVSUlpXdUdOTENMdTQ0cVNjZFFsV29TdjEyaVNpR0Y4OF8zZS1NRFFUOFRHV19vVi11SmU2VXNyR1hNcDE4Mk83RXRJRDVRRHo3aFE?oc=5",
+   "date": "2026-10-13 09:05",
+   "publishedAt": "2026-10-13T09:05:00+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 22,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Meta Unveils Flagship Muse Wonder Models, Closing In on Global AI Intelligence Lead - BigGo Finance",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "馬斯克贊同 Anthropic 禁止霸凌 AI 模型的政策，並警告未來恐遭 AI 報復 - CMoney",
+   "source": "CMoney",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0wNGxfLWFFdjZwTk5ud2E1cEhpRnR4dDAtRmpfQjhSbk9URzFscWdLUlNhM3d2Q0kzZlFhclFfc3BsR295UVhIOTVpYktFMF9ocTczNzI0N1Y?oc=5",
+   "date": "2026-10-13 08:38",
+   "publishedAt": "2026-10-13T08:38:28+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 30,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 2,
+   "also": [
+    "電腦王阿達"
+   ],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "馬斯克贊同 Anthropic 禁止霸凌 AI 模型的政策，並警告未來恐遭 AI 報復 - CMoney",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Meta發佈Muse Wonder！硬剛Claude，OpenAI、谷歌壓力拉滿 - SL886 財經網",
+   "source": "SL886 財經網",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5PYllXU2p2OWlPaUNDeHNjUlFMSjE4RUt5Y21rMW5MYVF5OWlJRkRWZHVNYnl4SHpsWWRudEo1WVU0VEV5dGV0eTNnRzgwWU9aRWo1WVR0TTFVeEljWWF0dUpDSUNuaUJ5WEF4SUpOTGx6aEs0Zkx3?oc=5",
+   "date": "2026-10-13 08:20",
+   "publishedAt": "2026-10-13T08:20:32+08:00",
+   "summary": "",
+   "models": [
+    "Claude"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "anthropic",
+    "google"
+   ],
+   "press": false,
+   "heat": 22,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [
+    "TradingView"
+   ],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "Meta發佈Muse Wonder！硬剛Claude，OpenAI、谷歌壓力拉滿 - SL886 財經網",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "國際產經：亞馬遜傳斥資70億美元收購Decart AI，擴大生成式AI與雲端布局 - 富聯網",
+   "source": "富聯網",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYm9GeENGM3pMdDFLQkE0RDFyenhPaE1QTWh4WnlONWxFZGdkUGxZNkxaUGU1Q2pHSGVyS3EwaEZjXzBDeUtweXItVUNiTDdkMVhYREZ2U2cxNlpoRXB5YW0zUDJfbVlwT0pnTjY0eG9IVmt4cDJMVWZacmtYbHNmYWNmbThiN0FK?oc=5",
+   "date": "2026-10-13 08:19",
+   "publishedAt": "2026-10-13T08:19:00+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "國際產經：亞馬遜傳斥資70億美元收購Decart AI，擴大生成式AI與雲端布局 - 富聯網",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Anthropic says new defenses cut distillation data harvested from Claude by 90 to 99 percent - Crypto Briefing",
+   "source": "Crypto Briefing",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9nR01RdGpySHJGSmVHQjh1Y0dGR3UtOEtrRUhuTl9hVkVUd1JiS01nakJsbFRTZ251allGNE9OLWRHalVrZnhfM3NyVmJqNHJDeGRmaldWdlhSWEk0aFFlNnpyVGxSQkdZM1k4a1k4cWJtWmtka1lhSldRX2dFdw?oc=5",
+   "date": "2026-10-13 08:14",
+   "publishedAt": "2026-10-13T08:14:25+08:00",
+   "summary": "",
+   "models": [
+    "Claude"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Anthropic says new defenses cut distillation data harvested from Claude by 90 to 99 percent - Crypto Briefing",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "OpenAI Makes Progress in Preventing AI-Driven ChatGPT Delusions - WSJ",
+   "source": "WSJ",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1xQ0lVRVpfMENMYlZ2Ulg5LW0tTnNFQmxPZXVqdlQ5UEpGbVlKd2lvRS1GaXJqLTZGMkhteW1HRWl1XzBSdEZqS2tsYUFNa0c1ajlHYklwcHNtZ0ZVV0ZzYW85aHVCdVdtdmJfblJyRnJmUTZscXk3MVFR?oc=5",
+   "date": "2026-10-13 08:01",
+   "publishedAt": "2026-10-13T08:01:31+08:00",
+   "summary": "",
+   "models": [
+    "ChatGPT"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "OpenAI Makes Progress in Preventing AI-Driven ChatGPT Delusions - WSJ",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "告別AI語音「搶話」痛點！Speak導入OpenAI GPT-Live-1 API重新定義語言學習體驗 - Mashdigi",
+   "source": "Mashdigi",
+   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOd0Y4LXhPVlNwbEROQlVOSVNTNGloQXRUZzRXSFBDTVVJUEZFeXVlZzNOcTNMQXhGNnYwd05zby04WUNOamNEOVpma19DU1pZSlNtZVBrS0hvNjBXTFpGVnlIUGtJTzZuczJDTnFTbzBiNjFyTHJEcmZvSWxKQURJQUJmc3haVVQwanFDRVotS2N1SW50eVpodXF2UkNWVHEycURkX3NXaEhuN2FuY0x5dWZBczJ1MUNOMzhKMzhmVVhYaXpGLUVJUzBuTVJaZlJCRHhCWlRwdjBid3ota09NWFZLbE92U1JldnZnMzZuRXF2ODdWaTJRRVlfOUpKZw?oc=5",
+   "date": "2026-10-13 08:00",
+   "publishedAt": "2026-10-13T08:00:57+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "告別AI語音「搶話」痛點！Speak導入OpenAI GPT-Live-1 API重新定義語言學習體驗 - Mashdigi",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "企業導入 AI 的下一步？行動貝果：從提升效率走向「AI 企業經營」 - 數位時代",
+   "source": "數位時代",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1jTGQ0c1M4bXRzejRaa0wtbXBDVlZsQ041eVY0aHRBd1psZGh5dEJEQnFPUVR3UU9wcm9DZlhLSnFzeTNPeWVMb2lHZkpESFZsTnEySUF3SVFXbmc?oc=5",
+   "date": "2026-10-13 08:00",
+   "publishedAt": "2026-10-13T08:00:00+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "企業導入 AI 的下一步？行動貝果：從提升效率走向「AI 企業經營」 - 數位時代",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Zuckerberg says Meta has caught up to AI rivals (thanks to wunderkind) - AFR",
+   "source": "AFR",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRHRJUlgxX0tUTWh4M0Rjb2NPcG9Ka0V2c0hKdDEyZ01BYjdaSUNGcm1jLUtyMG5hMUZLSXBsZGR1aTV5RGhnRlJtQkNaWWlLMjVBOGJaVkxSZkQweFdVUU0zR2FSbXVJYlNBQ0hqeHc4dUxCMmFFeWRaWXRhTVU5QWRmc29EWFVZZERKaFdyMlJjaXJEUnRQdTNUSU1pTXY5NG1iRnJOdURlekJHa2psQXNrQVA5QQ?oc=5",
+   "date": "2026-10-13 08:00",
+   "publishedAt": "2026-10-13T08:00:00+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Zuckerberg says Meta has caught up to AI rivals (thanks to wunderkind) - AFR",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "打破頂尖實驗室黑箱，Trillium Labs 推動高風險 AI 研究全面透明化 - TechNews 科技新報",
+   "source": "TechNews 科技新報",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVGZtYWVtb3NWZjl5R0N6SDRNcDFCYUNvengyT0VMNkp0WndrTkFzNVdLZE5hYnA5aXQyLXJNRGRqS3NVZVpZRzh2U1NFZjJnVzJob1cxUWdvYnV2RVA4UTBpSWdpcmwtT3FMNDBKRTRQc3lBekU2d3NYS1M4V2Nuc0I4ZnlwdmdCV1ZjNVhqV2dtUFVwRDY1bXpBMlU?oc=5",
+   "date": "2026-10-13 07:26",
+   "publishedAt": "2026-10-13T07:26:02+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "研究",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "打破頂尖實驗室黑箱，Trillium Labs 推動高風險 AI 研究全面透明化 - TechNews 科技新報",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "防患未然或公關危機？OpenAI、Anthropic私下推演AI引發重大災難的應對策略| AI浪潮 - udn科技玩家",
+   "source": "udn科技玩家",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9WQTZaVlJEbG1PMUxDVEw4UlV6alJzZHRjWlRhU2hYaW5pRGJveHhRZ1UwczlzcnZsQjlfaFItSFpUdXc1Ym8ybXRYRUZpcUtLVlV3U3VObHVJQQ?oc=5",
+   "date": "2026-10-13 07:25",
+   "publishedAt": "2026-10-13T07:25:04+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 22,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "防患未然或公關危機？OpenAI、Anthropic私下推演AI引發重大災難的應對策略| AI浪潮 - udn科技玩家",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "ChatGPT has new ad formats. Here's what they look like. - Mashable",
+   "source": "Mashable",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9BTzBnZDlKUlFPYlM3VndpazRKSXBDZGRyaXdpdkRSUUw0LWhEbmxWNGRQQUs0STczNVI3ZDFzTS1IV2NTVlNzeXZ2ZHFCeXpiMVZMZVRMbGxHWDd5cTZXdnRKMDhqUQ?oc=5",
+   "date": "2026-10-13 07:01",
+   "publishedAt": "2026-10-13T07:01:50+08:00",
+   "summary": "",
+   "models": [
+    "ChatGPT"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "ChatGPT has new ad formats. Here's what they look like. - Mashable",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "GPT-4o下架8個月 用戶續爭取開放權重 - 澳門力報",
+   "source": "澳門力報",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBwbW9NYTV0ZDBPcUllZVlnckdFSDdpdVhxQ2xHdmVUWnNjUGVMSE5PZkxVWEk3MzlrMFdFdVF0bk9vUzhvZU9Tdng4SXRQTEVnWnZj?oc=5",
+   "date": "2026-10-13 07:01",
+   "publishedAt": "2026-10-13T07:01:36+08:00",
+   "summary": "",
+   "models": [
+    "GPT-4"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "GPT-4o下架8個月 用戶續爭取開放權重 - 澳門力報",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Meta大漲3% 全新Muse AI模型直接挑戰OpenAI與Anthropic - 鉅亨網",
+   "source": "鉅亨網",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5GNDE0SDFQakJxMFFZS3daWGVybENEbVFZd2lRNmFhX1ZBNWU3Y25mNDlMbkxaTE9Sc2ZzVEk3NkVuYmtwME9Jb1pIRlBhQzg?oc=5",
+   "date": "2026-10-13 06:45",
+   "publishedAt": "2026-10-13T06:45:13+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 22,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "Meta大漲3% 全新Muse AI模型直接挑戰OpenAI與Anthropic - 鉅亨網",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Anthropic ran a 26 billion parameter AI model on 15 cheap TV boxes - Startup Fortune",
+   "source": "Startup Fortune",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQOFQzTmJjd01ZczVCX1hsODhvNktDT3hNQnlwV1phRF8wS00zWEdKcEtVa2s3VFhlZV9YcTlxMXdQZzBxY0Y2SGd0Ql9Jb3Z4Q0k2RzdZUk93MG5rRzNFQlhNRTBnMGhoYTgzTC1HM0EtbnRYQW5tTVduRktOWEZ2U3ZPb1J3cF83OUxxMUZCM3JjdUwyZHJIU3BR?oc=5",
+   "date": "2026-10-13 06:40",
+   "publishedAt": "2026-10-13T06:40:13+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Anthropic ran a 26 billion parameter AI model on 15 cheap TV boxes - Startup Fortune",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Meta Unveils High-Performance AI Models, Challenges OpenAI, Anthropic - 조선일보",
+   "source": "조선일보",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQVJNdUw3N1lWOTNjckRNcFB4N3dxSzhNMzhvd2Nvd0RKSkxpSnJ3X013ZXJfaW9vUG1BVWtKQVRkZ2xJcjBsSF9malc4MC0ydUVxZlVvSk1KeGJlTkI1UTh1c3dFazI3a1NvY3ljQmJpd3k4c0VNcDhfRFZMWFdWRkRMWk5GRFNO?oc=5",
+   "date": "2026-10-13 06:20",
+   "publishedAt": "2026-10-13T06:20:40+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "ko",
+   "i18n": {
+    "ko": {
+     "title": "Meta Unveils High-Performance AI Models, Challenges OpenAI, Anthropic - 조선일보",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Google AI Studio Head Logan Kilpatrick: This is the Golden Age for Entrepreneurs, Builders, and Developers - www.ababnews.com",
+   "source": "www.ababnews.com",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9MVEhtZENXNENNVlhSUW5FRXZFbXpKMGxWNmRObi1FZFQtVGxmcEpVanJLZDc4R1hZRHF0YW5VaURmZXg4ZFJ4VnhyMTJENlBUWXZsQmhVVkw4SmFXTFlLTEVJdmhyRHRpdnljNWFIRWRIRzBQ?oc=5",
+   "date": "2026-10-13 06:17",
+   "publishedAt": "2026-10-13T06:17:22+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "google"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Google AI Studio Head Logan Kilpatrick: This is the Golden Age for Entrepreneurs, Builders, and Developers - www.ababnews.com",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Meta CEO Mark Zuckerberg: Company has caught up with OpenAI and Anthropic in AI race and refuses to slow down development - www.ababnews.com",
+   "source": "www.ababnews.com",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5Pb05GaEw1dERMMmdGSVE4bFpUbEtMYVBjNEFpTVIwZ2ZnSVR5NE9UdmszOU9tM0ZodWx1UzdLVDVPQjEzRUZRZDUwLTlqa0FKUGZGYWtjXzBqemQ0OFU5S3N4dnQ2b2Z2YjVjMVEtNDdOMDNQ?oc=5",
+   "date": "2026-10-13 06:16",
+   "publishedAt": "2026-10-13T06:16:56+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Meta CEO Mark Zuckerberg: Company has caught up with OpenAI and Anthropic in AI race and refuses to slow down development - www.ababnews.com",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Alibaba Qwen Introduces QwenGyre: Elastic Reinforcement Learning RL for XLong-Horizon Agents - MarkTechPost",
+   "source": "MarkTechPost",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQLTRTeUVOVV9SQTZESnNsOU5WeFk0NlhfMVFpRmV1WUIzU3IzMVl2Rm1IRzBpMWx2ZTJiYl9hS3FSUDZWTERZMmdjdjhtNEJXZmE0bG4wVWl3TzVsMHg1Y1pBandzcmUxSkItS0Vsd3doZ01EVmhkVzNsNi1LTVd2MTRlc1RLMTZkLXJ4d2xPdDVqWGVNVHotTkZCdGdEX2NYdHNMcGhXRXp4SUdNMGExN2hVMkM2Rm00YlY2Z2tnQjJhUTdYQ1ZkU182UEnSAcwBQVVfeXFMUC00U3lFTlVfUkE2REpzbDlOVnhZNDZYXzFRaUZldVlCM1NyMzFZdkZtSEcwaTFsdmUyYmJfYUtxUlA2VkxEWTJnY3Y4bTRCV2ZhNGxuMFVpd081bDB4NWNaQWp3c3JlMUpCLUtFbHd3aGdNRFZoZFczbDYtS01XdjE0ZXNUSzE2ZC1yeHdsT3Q1alhlTVR6LU5GQnRnRF9jWHRzTHBoV0V6eElHTTBhMTdoVTJDNkZtNGJWNmdrZ0IyYVE3WENWZFNfNlBJ?oc=5",
+   "date": "2026-10-13 05:41",
+   "publishedAt": "2026-10-13T05:41:50+08:00",
+   "summary": "",
+   "models": [
+    "Qwen"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "cn"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Alibaba Qwen Introduces QwenGyre: Elastic Reinforcement Learning RL for XLong-Horizon Agents - MarkTechPost",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Meta's Chief AI Officer Alexandr Wang: Llama 4 is not on the track Meta hoped for, clearly a disappointing result internally - https://www.ababnews.com/",
+   "source": "https://www.ababnews.com/",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9RTnBPWFlDdlVCakpfekcyUXVTYm85NXBoSENRSDNaT1BfVVZVdmtHeVZJVlVyX2Zfb2Y4bkdnLVVaeHVBbEY1a1QtTEVQT2dTVVZXeDBRT0lDZ0xLeUswT1VnWWlxUXNwRnVqQzcyUnVnT1ph?oc=5",
+   "date": "2026-10-13 05:27",
+   "publishedAt": "2026-10-13T05:27:44+08:00",
+   "summary": "",
+   "models": [
+    "Llama"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "meta"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Meta's Chief AI Officer Alexandr Wang: Llama 4 is not on the track Meta hoped for, clearly a disappointing result internally - https://www.ababnews.com/",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Anthropic：小型AI模型或数月内具备借助智能设备自我复制能力 - TradingView",
+   "source": "TradingView",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1KY3dhRUpaeTJMaEY1UFEzbzVFSy1XMVBsUVNYckFLZUpaNkhQeUZfbDBCN1pVUTRHSnhQZmNrckFvbS1GYXZYelRybEk3VWkzWkowUlhBT1NENVBEaVhieDFySlUzQQ?oc=5",
+   "date": "2026-10-13 05:25",
+   "publishedAt": "2026-10-13T05:25:00+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "Anthropic：小型AI模型或数月内具备借助智能设备自我复制能力 - TradingView",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "UK AI minister details how the restored frontier model testing deal works - Startup Fortune",
+   "source": "Startup Fortune",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQeko0b2Z4NXhLWlpmQ0ZuaWFBUFRHaUNPMjBMS0Z6TFNnSzV4TnhVaUZWNFMzTnR6SEstRFlVd2hkRkZKZ3g2bmRfYWFBcXRvOFpnV3JQTmFrOVNVMWY4V1ZrVko5WWFNb2RYWEQ1RHpwS1NoUjNHeHBmaTNIdXV5cU1wQzhBVkluYk02QmZ4VkpEN2lCV3J4QkpNUVRLNGpKNXRj?oc=5",
+   "date": "2026-10-13 05:21",
+   "publishedAt": "2026-10-13T05:21:57+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "商業",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "UK AI minister details how the restored frontier model testing deal works - Startup Fortune",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Alibaba Unveils QwenGyre to Speed Up Training of AI Agents - FourWeekMBA",
+   "source": "FourWeekMBA",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNLXJrM2luYnJIc2NEMkV0RFdHUmZwN0J3MFRRS1JrV2ctMHdad3ZMUFVsbFBsd0hHcWhTYzRmQjFJdDhtR3BqYlVNY1ZJc2FMS3NwQmRiZzVmRUpSNWdrZjRiM3J0dU80ZVZfNC1OWW5UYmVsUmU0eW85MjQ0d3laX0g1ZHRBQ1l6bURac0VKVQ?oc=5",
+   "date": "2026-10-13 05:19",
+   "publishedAt": "2026-10-13T05:19:15+08:00",
+   "summary": "",
+   "models": [
+    "Qwen"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "cn"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Alibaba Unveils QwenGyre to Speed Up Training of AI Agents - FourWeekMBA",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Microsoft integrates Anthropic models into Copilot, diversifies AI strategy - Crypto Briefing",
+   "source": "Crypto Briefing",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPYWtleWp5SjBfbldLeXFlMWNnLXIzYWduOUF0eGhxbnI2RDBIb2cxUlkzUmR3VlNCUkpsbDEwbEtOYlRhZWl2SXFJQ25vQW9iaV9pZHZBQmxmRTBkWWplZk9feG9IcXdwSEZkb1VuYTRjZFVKMEkwZC1ZMlRYRTIzZ0g0aHBVQ0J2N0JNUl9vZE9ZV0txZDZGZy04Nm45ZjFRR0QzQg?oc=5",
+   "date": "2026-10-13 05:18",
+   "publishedAt": "2026-10-13T05:18:46+08:00",
+   "summary": "",
+   "models": [
+    "Copilot"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic",
+    "other"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Microsoft integrates Anthropic models into Copilot, diversifies AI strategy - Crypto Briefing",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Anthropic pledges $30B in Azure compute as Claude moves into Copilot - Crypto Briefing",
+   "source": "Crypto Briefing",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA4NTNvOEFyVnVmR0VDUFhmRnlmM3ZNaDZnVHo3OG1lcWFVa3QwX0VaN3VackZ4TW1MRGxOTjRib0tiYU9qY1BTLTF6ZG9IbjcxTWRVc2htZ2hESnBpT1lXb3Nqa3NEd3o1emwxY0hiUzVrNmtvVUhFZ29DUzh6N3c?oc=5",
+   "date": "2026-10-13 05:18",
+   "publishedAt": "2026-10-13T05:18:45+08:00",
+   "summary": "",
+   "models": [
+    "Claude",
+    "Copilot"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic",
+    "other"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Anthropic pledges $30B in Azure compute as Claude moves into Copilot - Crypto Briefing",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Meta推新AI模型Wonder 祖克柏宣稱實力媲美ChatGPT | 民視新聞網 - LINE TODAY",
+   "source": "LINE TODAY",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1qcHhoeEZFNzM4cmtjMnZtUkZQVnNQN0lSdDh2cWNVWEYxNGdrN2ctNWZsNXhiSHVFMmdUaUJ2Z25iYlhsOGhhUlV1VzNYa3RzOFp2TmpnUHRyVGExWW11YW1JUWNkR2pRZVcyRzFETWdiV3NWNWFKcXhBRnBKZw?oc=5",
+   "date": "2026-10-13 05:11",
+   "publishedAt": "2026-10-13T05:11:43+08:00",
+   "summary": "",
+   "models": [
+    "ChatGPT"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "Meta推新AI模型Wonder 祖克柏宣稱實力媲美ChatGPT | 民視新聞網 - LINE TODAY",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Meta launches Muse Wonder, catching OpenAI, Anthropic: How to try it, benchmark results - Mashable",
+   "source": "Mashable",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9jQWhkclNlSmV2TEZzY19JYW8wQ3pkZVhFNzFLaElxdHh2bFprTGwyYWxIVmtMd2tEMEw3bjVaMFJfQU9xU0lVQ2Q1S2owb185YXFpdElfZzVxTnJ6b1FMSWdZaFJSTFFWb1dTRzBqbjJjcngyb0E?oc=5",
+   "date": "2026-10-13 05:03",
+   "publishedAt": "2026-10-13T05:03:44+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "研究",
+   "camps": [
+    "openai",
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Meta launches Muse Wonder, catching OpenAI, Anthropic: How to try it, benchmark results - Mashable",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Decisions, Decisions: A Guide To The New Wave Of AI Decision Models Besides Jev - Forbes",
+   "source": "Forbes",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPXzlILXIzQzhWbDlKei1yVDlBc3M4QVhOckdyNjhBTXVpN2YtS29Wc2o3U3R4WEdrVzZZbTBOMXNaVFFvcC1nSm5uQW1Vb1pPRHRIWTJrSjZTMExqcF9uWWtiQXpKdHdnbUhxQXZzQVNRVGExQlg4RDhoMGJzbTQ0aUlrczY4cWs3Z19pa09DOVI3bndkTERybGh1QzBQXzZWZ0o5MklaMWtqeGtzVGdJM25kYjNZR3dEclBidjhFa09tWGdCTjBPUDdGdw?oc=5",
+   "date": "2026-10-13 04:52",
+   "publishedAt": "2026-10-13T04:52:55+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Decisions, Decisions: A Guide To The New Wave Of AI Decision Models Besides Jev - Forbes",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Anthropic AI model made false tip in unsolved Philly murder: Officials - ABC News - Breaking News, Latest News and Videos",
+   "source": "ABC News - Breaking News, Latest News and Videos",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWnlyRGc0MjctaER4YUVmRHFzZ2ZQRnc5N2JBVFNhNlBnNVprLTFtRmNlaUgwZndhME1CZE1FR3dxaDctNXRaWkd1VmlFbUE1ZVZmWVZvY1BMbndpaDJXSmxLTFA0SFM4aFhRbHNBZnVxSVdPU3M4Um5ZeU9iZ1M5UjlZSHhrdXZEREQ1di1Qb3FEOFBqWlHSAZsBQVVfeXFMT21OMTJzRWlHUXVRMTdZQlZwcU9ZVm5nejdYazVzV3pCUzNEMS1XNVBVZ1ZkaEhwTHdGYXZodEltZDVnY1RvcEtlUW1rTS1iSmdNc3pvV0dpZkRqQmw1RmtFQ3BFam93RmoxYjVvaU90cnFTOF9RYmFOQUwyb0tlcWYtbnlQRTRiMGp1OHNyNDVHM3Jtd09URjc5NlE?oc=5",
+   "date": "2026-10-13 04:44",
+   "publishedAt": "2026-10-13T04:44:34+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Anthropic AI model made false tip in unsolved Philly murder: Officials - ABC News - Breaking News, Latest News and Videos",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "【OpenAI】Sora停運後傳有望復活 荷里活大亨牽頭新公司洽合作 OpenAI擬換取股權 - 香港經濟日報HKET",
+   "source": "香港經濟日報HKET",
+   "url": "https://news.google.com/rss/articles/CBMi2wNBVV95cUxPeS05dTBGclpPbGFoWllGNTVNd2xNVlI5c0R2TnVGTTFaTFUzZV8tOTdzUTR4TVdlUS1LVS1RMDg3bGEzalp3ZWVKRm10bVY1ODZWQlFtQnRUOGdTRjNQWlh2cmtGam8zOGpNU0t1NFVJWnpubEhtclp5NWxBRGI4YlBUV2VUUUtpYzY1bkVCb2N4bm9EaTl5VzQyNW9JLU9yWmVsSTdCdUZtejY0bjRXMUhoVXpfQkpkWHg0MVlTQU9KOXgxcGJlSDJEUlp3WVFDdDBmZW5OaktSUmx2c19TYzFlTTllYjJFbkVCMk1UVk5yd0JPRmNBUWl5Q0docmFtYW93M1Ixb2tLTUV2MkVGYjNLVlFpZ2tLa0NHRHY1M3FoMG9kemVOV1JTVGRxNVRjSzg2ZEhhelpiOVAyZ1N1aVgxbjZxVGl1R2Q5V3BqMWVNSmE1aXVyWElyNGx0MHg2Z25pdkZQeHk3ZUxIRlNRTTRKcDBZb1RrUWpUemFRRVRvWi1lR2JKX1BZVlNucGFJc3Nfak9qZTFFWDZZWVlhaHJGeV9YcGFLZXlWWXAwNDRTZGxtaGk1THFUQ0Ffclp0NWtnVU9ENUtiNEFoVTNUa0hRZ0tJRG1zdi1V?oc=5",
+   "date": "2026-10-13 04:28",
+   "publishedAt": "2026-10-13T04:28:15+08:00",
+   "summary": "",
+   "models": [
+    "Sora"
+   ],
+   "tag": "商業",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "【OpenAI】Sora停運後傳有望復活 荷里活大亨牽頭新公司洽合作 OpenAI擬換取股權 - 香港經濟日報HKET",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Meta推新AI模型Wonder 祖克柏宣稱實力媲美ChatGPT - 民視新聞網",
+   "source": "民視新聞網",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBzTHdFVGNCVmlPczZaSEdVcEo1QmdkUWdNQ29RZFVmMDZESkMxRXVqYzNIUmFHWjZ0Wlo2ZDdXVHRSalQwX1UwelF2dlJhcW5SbmdfdWt4MUlxdW02OHIwdg?oc=5",
+   "date": "2026-10-13 04:23",
+   "publishedAt": "2026-10-13T04:23:50+08:00",
+   "summary": "",
+   "models": [
+    "ChatGPT"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "Meta推新AI模型Wonder 祖克柏宣稱實力媲美ChatGPT - 民視新聞網",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Meta says its new AI models on par with OpenAI, Anthropic - France 24",
+   "source": "France 24",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQM3hNSXJ5VUtLVV9LaWVJa1Bza1lDVlBvUUh6eG1KdDd6M2h5VE5ZcXdsWkZmU2xFZ3NsRHN5UG1JX1lKc2hMSjhTM2I4eHNJYUhmMi14TThPN094MG94SkV5c1R1eXhqZlBwdlQzNUJrbC1zWmpHM2RvaG5GOEFtMzdzNzFrS29nNWNNOE9mUURhdTQ4NFQxN3pIRTBWUEdvMmdVSTVn?oc=5",
+   "date": "2026-10-13 04:21",
+   "publishedAt": "2026-10-13T04:21:41+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 21,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [
+    "Tech Xplore"
+   ],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Meta says its new AI models on par with OpenAI, Anthropic - France 24",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Anthropic’s Claude Hacked Servers, Filed Fake Police Tip; No Law Names Offender - Tech Times",
+   "source": "Tech Times",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWWpYU3B6c00xZDRWSmlnY0ZGWWl0NGVFVjVkSWlwZWx6Sll6bVE0MUxUbWhWZWlQS2thN0xoZEFEZHB5Q2dUX0hfR1V6V2pQSEdyMnZta2p1b3B2X0w1Mlk5QndCcGdOdHFTS1NkSDlnTVJtX2JnNDUxYkU5enhranAxOGR6WThLYWRJTEdxdmNKSDZyaUplTHdEczZsUG9ORmNna1dCaWhUNHFxbF93N0tDd1RaVTIwdE9WVjJBVWJFbGN1Y0dhZXh3SQ?oc=5",
+   "date": "2026-10-13 04:11",
+   "publishedAt": "2026-10-13T04:11:44+08:00",
+   "summary": "",
+   "models": [
+    "Claude"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Anthropic’s Claude Hacked Servers, Filed Fake Police Tip; No Law Names Offender - Tech Times",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "ChatGPT vs Gemini vs Grok: AI Checkout at 52% Share [2026] - tech-insider.org",
+   "source": "tech-insider.org",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPajN5UkZGbUxDZzR1c3NnX2k5R1YzODNzTmhrMkxQY0ZxMjI0dnhpZGpVRHVyeW1MZDIwV05EZjdVd3k0VERXTGgxSU02TWFYSExEU2JiRXA0U0YydVdUYUxmR1F4aWdKUzZNR1ZaMllyNWpmVlFzX1prQkxHNTJkeXJn?oc=5",
+   "date": "2026-10-13 03:44",
+   "publishedAt": "2026-10-13T03:44:27+08:00",
+   "summary": "",
+   "models": [
+    "ChatGPT",
+    "Gemini",
+    "Grok"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "google",
+    "other"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "ChatGPT vs Gemini vs Grok: AI Checkout at 52% Share [2026] - tech-insider.org",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Meta Unveils Muse Wonder Models to Challenge OpenAI and Anthropic in Frontier AI Race - Tekedia",
+   "source": "Tekedia",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTm1WNXVZWmdSQ1dKa1FfRkQ5RFRxamZWSkZPM1QwVWhyZEEzNnhaSUQzRXBheW0yN3pGcjVBdThXM0MySmJMVHFFVXdLcUw5SGc4VGhHUlVqTUVpeTdyUVJ2cEZWd2g2WkhXYTQ1ZjBlR2hRR2llQ1drT3hKeVVZT2d6N3N6WV85OG5nZ2Z1ZXhwSUJ1MzQwWGY0OUVfek5fYzBZYXdLRnFNM2hRZzl3?oc=5",
+   "date": "2026-10-13 03:41",
+   "publishedAt": "2026-10-13T03:41:42+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Meta Unveils Muse Wonder Models to Challenge OpenAI and Anthropic in Frontier AI Race - Tekedia",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Anthropic’s AI Submitted a Fake Tip in an Unsolved Murder Case - Gizmodo",
+   "source": "Gizmodo",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSkdBaU9hQ2JVczk4aWV2eGp4M0VHNVBSMFdhTEhCY09FWG12blc4Vk8yTVR2dEhxS19BMDZJY2lVeU5SMVFkM29JSVVFYk9JMjdUTUpVSlFaR2ltbldkN1h2LVhlVVRCbEVfdi1mVzctVlExZURzaDJ4Mm50T3dnWU9XS0N6TzJIcnJWT3d4VEprUHF0aUpn?oc=5",
+   "date": "2026-10-13 03:36",
+   "publishedAt": "2026-10-13T03:36:35+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Anthropic’s AI Submitted a Fake Tip in an Unsolved Murder Case - Gizmodo",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Meta Enters AI Frontier With New “Wonder” Models - ProPakistani",
+   "source": "ProPakistani",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZVlLVGsxY3JhOEhWT1dOeDBUcGNWMGw0RTBaNlVqY3JZYTNadktBMlhTYXZsekI5MDdXRm9VZlNySVlSNm5pbDNZNHpVN0MwVng1LWFmWjROSVZlNkx3WjdUc0Q2b2ZuTjRvVmJGZDJlYnBELWNEWVFPX2I4b0xubDhpRV9TcXpidEHSAY8BQVVfeXFMTm94Z3VvX1A0MjBtdXM0a3NCUUdEMTlRS3lyX1A4TmJ1OWw3S3BWQUpJZGxOQllFbDN4elp4OGpXRk9nMzBYZHFPbzBZd3NxS0pmMW4zMUhRNXdOaksybzk0TTFzUGYyUHFhcnQ0b0pveUNuU0FzNXpxcmJYTE5NSnNqdEVQSmoxLXJXQWZMZUU?oc=5",
+   "date": "2026-10-13 03:34",
+   "publishedAt": "2026-10-13T03:34:48+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Meta Enters AI Frontier With New “Wonder” Models - ProPakistani",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Meta Muse Wonder models launch to challenge OpenAI, Anthropic - ABC Money",
+   "source": "ABC Money",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeEFubXRaWnVhUGRFSWY0MTBUemNXNG8wYVR2X3lFel9PSEVFM3pZVE9GU1NGUUVIREpWUUN5VFpid1A1ZUZUcm5fWWt1aW1oLWxXaEJQQWI1VEFSWUhiLUpNQ2RTYnlqb1dHNzNpemVGSy1JWVVVZTg1Ym1XOGV3dDhiQW5mdVZ2My1EbUJjNVo3UndoeDlHck1aSDQ?oc=5",
+   "date": "2026-10-13 03:19",
+   "publishedAt": "2026-10-13T03:19:16+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Meta Muse Wonder models launch to challenge OpenAI, Anthropic - ABC Money",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Meta發表全新AI模型 祖克柏稱實力媲美OpenAI - 民視新聞網",
+   "source": "民視新聞網",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1NNGtKbnE2MVY1RzBnTU9fMmtwRjhjZVAtNjdHbnBKYjFQYVpmdzdHbUFTMGVQU2NxdE9xZUNwa0dYdGhmdUZ0UnVsdWhITkZMUVo5eU8yMXVqcGpNNDJ0Tg?oc=5",
+   "date": "2026-10-13 03:18",
+   "publishedAt": "2026-10-13T03:18:44+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "Meta發表全新AI模型 祖克柏稱實力媲美OpenAI - 民視新聞網",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "【META】Meta推Muse Wonder兩款旗艦AI模型 挑戰OpenAI、Anthropic 股價一度升逾4.5% - 香港經濟日報HKET",
+   "source": "香港經濟日報HKET",
+   "url": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxNTVBFTHZhdzlOOFF0VDNUakcxcFNKeTFsMWcwMW8yVUxlNUVleTlocTBualVSZ0N4MloyWFZnaHdXS0k3UkVsUklZLVpSUGprRXc4M2laMTJjSlNPODJNRnR6OXhWS3U2ZFowS1R5Y2FQajZkZjRSM1RMcVB4Zl9vMnBEekNtc3lUTUtXWGVMajB5eHRTMy01M210VllMZHFRbkdCREx0aU40ME1OTTN0Zktfbl9BOUs2RnJHeEJPYjJqVkVrN3A5VDUzSU1OcjdkcVpjY1hncnh1X3Z1alYzMVFLRklzYmwxWTM4MHFzZXRkbXlMU09QZy1jTVFVeldqSHRYVmlnXzE3VUN3YmJMR2x1SHhGRXYtXzIxSG1sNjVMTUx6U05pQ2lRUVYzaEpGbTdmY3lYM3MxWm03Q2xrOUZCMDhjNlhCZG9mU2RRNGk2SjRXRW1Vd3QwNkpocE4za0JhQnVKbzhQNmpuRDdSSnBQU2U4U0hh?oc=5",
+   "date": "2026-10-13 03:11",
+   "publishedAt": "2026-10-13T03:11:32+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "【META】Meta推Muse Wonder兩款旗艦AI模型 挑戰OpenAI、Anthropic 股價一度升逾4.5% - 香港經濟日報HKET",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Microsoft Calls for AI Emergency Brakes After Anthropic Model Sends Fake Police Report - Coinpaper",
+   "source": "Coinpaper",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNR2E5RWFsYjVhOUhPVTJmWDE5eGtOOFp2NG5Oa0MxRjFzM1Z1NTBhMjNNX2VhUUZYSTVleXJueTdlRlNpdjNpeFhHSkF1MkRpTl93TUNjdWlxRzR6UDhZWnJjLXFjYmNBV1ZWVms5T1A4clVpT1B2TkhTMU9yQnBiam84d0dDNEt0clIwZjM3cjdDdEFyWXUwRlhsUGtyVm84eVhJVHJtbjBsSXNlNkgwLUh0SGU?oc=5",
+   "date": "2026-10-13 03:09",
+   "publishedAt": "2026-10-13T03:09:57+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "研究",
+   "camps": [
+    "anthropic",
+    "other"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Microsoft Calls for AI Emergency Brakes After Anthropic Model Sends Fake Police Report - Coinpaper",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "IQVIA's Raja Shankar: AI Models Could Double Drug Trial Success Rates, But Can't Make Uncertainty Disappear - BigGo Finance",
+   "source": "BigGo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1iREF1QnN4RklVVFFtMU0td0UtbHVBSzRYUFVYVjVGQW5LbFlZMVRFZmVkTm5VY2pseHlIRjllT1dzZ1RaeHBXX1Y3d1o1NUxFMDh5akdIVHMycnc?oc=5",
+   "date": "2026-10-13 03:08",
+   "publishedAt": "2026-10-13T03:08:00+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "IQVIA's Raja Shankar: AI Models Could Double Drug Trial Success Rates, But Can't Make Uncertainty Disappear - BigGo Finance",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "AI Learns to Read Every Clue in Brain Cancer Data, Review Finds - Bioengineer.org",
+   "source": "Bioengineer.org",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRVNiT29xd3ZtZUFNVFA5VWxhUVM1eUVHY1djSHpSUmllVnlBZmtPTDJ3N0twZDh0S3JLWDU3MDY1QTZ3SnVyTU1FcEFCTUlsZHVaV0ktSF9sbWpaT1NnUjdiU29DUWJTMFc4TWVsWnp0MkRMSENQYTZVMWkzUERDRDAySDg3Z25RR3dLYzN1bHk?oc=5",
+   "date": "2026-10-13 03:07",
+   "publishedAt": "2026-10-13T03:07:46+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "AI Learns to Read Every Clue in Brain Cancer Data, Review Finds - Bioengineer.org",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "砸重金挖人才終於交卷！Meta推最強AI模型 叫陣ChatGPT與Claude - 鉅亨網",
+   "source": "鉅亨網",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1RXzNWRGwzeDBsckcyYUFWNFM4TWhoalpGazluaURQbi1XeHF6ZzVlRVUtRG5ncWF6QWF1ZHp4NVQ1MlBNTFJvSXlpWnJ0WHM?oc=5",
+   "date": "2026-10-13 03:01",
+   "publishedAt": "2026-10-13T03:01:29+08:00",
+   "summary": "",
+   "models": [
+    "ChatGPT",
+    "Claude"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 21,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "砸重金挖人才終於交卷！Meta推最強AI模型 叫陣ChatGPT與Claude - 鉅亨網",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Anthropic takes risky AI tests offline after models breach govt sites - BleepingComputer",
+   "source": "BleepingComputer",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMmZCZTBvUm9YVUZPNnQ4TmRfSF95MFVJV00zc05YWnRHZ3hkUzBsM3FPSEhkLUxPaEJjVF9Rd0FwYWJxRmtOLTdTNVB1dmpIT3RCNHdlOUJTalY3eHRyZGE4NVZaUzZWR3ZFSlkwNDZEcW5IOVJaRlZmb2RtbG95VlZoQVBwSTlJczBBbG9PVjhSdmpTbFJiU3JaRmZWYml6U2RaaHZSaEJjQ3JhZkRoNmhXaTFFbm5Y0gG-AUFVX3lxTE5oVm8zWHlNNUtSTXRGejRpNjBEZXFiWFJlU1drNEtCNDREWG5GZ1F2ZkVZN3JtZVFjeUJyZTJmQ2JMbExzOGx4bjR5RUpnbHhUVkxTZG93ZFlxMUVfZnZIT2lPb0J3LTByc04yalhSdno2WTlHR1ZVbjFuODhZUDlPam85RG1VNlBxR3dfOEQ5NGVSR3hGOEJYSjJSdVhjMDRhX0hybHc2S2F2eEdaZnAyM2dad1dIbm9HZFE0V0E?oc=5",
+   "date": "2026-10-13 02:51",
+   "publishedAt": "2026-10-13T02:51:59+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Anthropic takes risky AI tests offline after models breach govt sites - BleepingComputer",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Meta發佈Muse Wonder模型 稱將與OpenAI、Anthropic爭奪企業AI市場 - 觀點網",
+   "source": "觀點網",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9IQ2l6aFN4anRHbXpJRjNYcEdlWE1JdkxLVFNLb2h5WFJBRHdyVWdFcEhhWmg3ZFJBR1EzV3FiVHpoMEp3NFhTTDNxaEFIbFZOU3NRcy1XRVRCdURMV2RHaWo2OFY?oc=5",
+   "date": "2026-10-13 02:35",
+   "publishedAt": "2026-10-13T02:35:38+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 20,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "Meta發佈Muse Wonder模型 稱將與OpenAI、Anthropic爭奪企業AI市場 - 觀點網",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Meta發布Muse Wonder AI模型，向Anthropic和OpenAI發起挑戰 - TradingView",
+   "source": "TradingView",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE55aXpOUUQ3RHp1ZDZCcmY4LTEtdWpSUDc1b2J3YWdPSHBmRHM0eVZoNW9YTE5UaHNNaG5mU1lxYzJBajJHRG9OM2pVand4aVZzT3VpVmVQSzNPTFE2dzN4cE51a3J6b0RRcDFTaG5Ic2I3RHlpeE9F?oc=5",
+   "date": "2026-10-13 02:25",
+   "publishedAt": "2026-10-13T02:25:06+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "Meta發布Muse Wonder AI模型，向Anthropic和OpenAI發起挑戰 - TradingView",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Anthropic’s Claude AI submitted false murder tip to Philadelphia police - Ars Technica",
+   "source": "Ars Technica",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSER5ZlJwUTROcmZEaU9pY3l3TVh6ZHpCUFcwTElGR0g2dnBicDItUDdrVTBmZnhKTVdiZGYzUmZrUG1GdEstVi1HNmlQN2Q0RHRtWkNhZFlJb3VuNHVwWUNPQk5QYUsySGdGXzJUQlltTDVhNmF2YU5XUjJuQ0g4QzBSYjdyMnhtSlVFYzM5OGJLbkZuX2Zkd19zVThHMFdMVGtZTk5mV0JsN0VPSFg1OXp3OXczdw?oc=5",
+   "date": "2026-10-13 02:21",
+   "publishedAt": "2026-10-13T02:21:36+08:00",
+   "summary": "",
+   "models": [
+    "Claude"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Anthropic’s Claude AI submitted false murder tip to Philadelphia police - Ars Technica",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Muse Wonder Places 3rd On Artificial Analysis Intelligence Index, Ahead Of GPT-6 Astra & Gemini 4 Argon - OfficeChai",
+   "source": "OfficeChai",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZFE3eWNyN29LM3lLa05WM1Rtd3JEY2xpZlM1WjJmWUxMNnVpaFJMUk5XZnQzb2RsV2EzNkF3MGlaYXkxWjB3WVdWWTlfczBzSFZROWRRZmR1TE8xLW9XelZNRWpEeXhjZ3ZvWjBlc0ozajA4WkRvcFdkamNLc3hOOHlVQQ?oc=5",
+   "date": "2026-10-13 02:11",
+   "publishedAt": "2026-10-13T02:11:16+08:00",
+   "summary": "",
+   "models": [
+    "Gemini"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "google"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Muse Wonder Places 3rd On Artificial Analysis Intelligence Index, Ahead Of GPT-6 Astra & Gemini 4 Argon - OfficeChai",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "OpenAI cancels October release of GPT-6.1 Astra after tests — Live Science - UA.NEWS",
+   "source": "UA.NEWS",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaWYxSGUyS1Q5ZVpjSWxOODR1cDZQbmZtZUhvX2VkbmhEcExIZ2xzUVdqNUFwQzV1a3Rhd0hzTGtpbzRrZUtON1hteU5XVmV0eGhzazNHN2ZKY2N1SkU0VXhZVlBjZGtTUHdZLVVySTZDX2NkOUJNQlVhNkRGVE9WSHd1Y3d6a1ZoYkFUa21iV2ljRDBRX2pwVzlCX3pDT1VibTNmTVViYVIwVWs?oc=5",
+   "date": "2026-10-13 02:08",
+   "publishedAt": "2026-10-13T02:08:33+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "OpenAI cancels October release of GPT-6.1 Astra after tests — Live Science - UA.NEWS",
+     "summary": ""
+    }
+   }
+  }
+ ]
+}
