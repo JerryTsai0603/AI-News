@@ -1,9 +1,9 @@
 {
  "channel": "dgx",
  "version": "v26",
- "fetchedAt": "2026-10-13T10:52:24.158904+08:00",
- "edition": "2026-10-13",
- "count": 4,
+ "fetchedAt": "2026-10-14T10:57:37.886662+08:00",
+ "edition": "2026-10-14",
+ "count": 5,
  "languages": [
   "zh-TW",
   "zh-CN",
@@ -24,17 +24,17 @@
   "lenovo": 0,
   "gigabyte": 0,
   "microsoft": 0,
-  "nvidia": 1
+  "nvidia": 2
  },
  "byLine": {},
  "items": [
   {
-   "title": "DGX Spark vs Mac Studio M5｜小型本地 AI 伺服器大對決",
-   "source": "YouTube · AI 策略室-中小企業也能用 AI 成長",
-   "url": "https://www.youtube.com/watch?v=-BERYtpyTvQ",
-   "date": "2026-10-13 10:30",
-   "publishedAt": "2026-10-13T10:30:09+08:00",
-   "summary": "DGX Spark 和 Mac Studio M5，同樣的預算比兩場：二十萬單機對決、四十萬預算加倍。 跑語言模型、很多人一起用、生成影片、放在辦公室，各比一輪，最後照你的用法告訴你該買哪一台。 一句話記住：路不塞，比車速（AI 算力）；路塞滿，比路寬（記憶體頻寬）。 章節 0:00 開場 0:19 選手進場：兩台各是什麼來頭 3:44 先懂兩個數字：車速和路寬 4:41 第一場：單機對決（約 2",
+   "title": "SELL Your NVIDIA DGX Spark NOW?! (This Is Getting INSANE)",
+   "source": "YouTube · Tech2WiLD",
+   "url": "https://www.youtube.com/watch?v=gK24zIiWDGA",
+   "date": "2026-10-14 06:41",
+   "publishedAt": "2026-10-14T06:41:04+08:00",
+   "summary": "Should you SELL your NVIDIA DGX Spark before it's too late?! With DGX Spark prices climbing from around $4,000 to $7,000, new AI hardware on the horizon, and competition heating up from Apple, AMD, In",
    "models": [
     "DGX Spark"
    ],
@@ -44,25 +44,56 @@
    ],
    "press": false,
    "heat": 100,
-   "image": "https://i.ytimg.com/vi/-BERYtpyTvQ/mqdefault.jpg",
-   "views": 28694,
-   "comments": 64,
-   "dupes": 28,
+   "image": "https://i.ytimg.com/vi/gK24zIiWDGA/mqdefault.jpg",
+   "views": 19356,
+   "comments": 69,
+   "dupes": 30,
    "also": [
-    "YouTube · Ridge Security",
-    "YouTube · Tarun Ravi",
-    "YouTube · Hardware Busters",
-    "YouTube · Silicon Dispatch",
-    "YouTube · Local AI Logic",
-    "YouTube · SmartBuy Hub"
+    "YouTube · Chris Tech",
+    "YouTube · Baynum Tech Works",
+    "YouTube · SimplyExplain",
+    "YouTube · lamuh",
+    "YouTube · LearnCodez",
+    "YouTube · Kai"
    ],
    "lines": [],
-   "score": 237,
-   "lang": "zh",
+   "score": 243,
+   "lang": "en",
    "i18n": {
-    "zh-TW": {
-     "title": "DGX Spark vs Mac Studio M5｜小型本地 AI 伺服器大對決",
-     "summary": "DGX Spark 和 Mac Studio M5，同樣的預算比兩場：二十萬單機對決、四十萬預算加倍。 跑語言模型、很多人一起用、生成影片、放在辦公室，各比一輪，最後照你的用法告訴你該買哪一台。 一句話記住：路不塞，比車速（AI 算力）；路塞滿，比路寬（記憶體頻寬）。 章節 0:00 開場 0:19 選手進場：兩台各是什麼來頭 3:44 先懂兩個數字：車速和路寬 4:41 第一場：單機對決（約 2"
+    "en": {
+     "title": "SELL Your NVIDIA DGX Spark NOW?! (This Is Getting INSANE)",
+     "summary": "Should you SELL your NVIDIA DGX Spark before it's too late?! With DGX Spark prices climbing from around $4,000 to $7,000, new AI hardware on the horizon, and competition heating up from Apple, AMD, In"
+    }
+   }
+  },
+  {
+   "title": "NVIDIA's 64GB DGX Spark Debuts at ~¥790,000, More Expensive Than 128GB Version's Launch Price - ASCII.jp",
+   "source": "ASCII.jp",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB2NEIyMVFwQTRrQ3hwR19SS1JGOExGdGpSdURQUVNwa3NpUFJiaFRaMnlUY2poSEoyVmJkNmNFbFY5Y0V2blJTcWtZSkg1T0F5TlJLcUlpSkY?oc=5",
+   "date": "2026-10-13 14:45",
+   "publishedAt": "2026-10-13T14:45:00+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "價格上市",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "NVIDIA's 64GB DGX Spark Debuts at ~¥790,000, More Expensive Than 128GB Version's Launch Price - ASCII.jp",
+     "summary": ""
     }
    }
   },
@@ -81,7 +112,7 @@
     "asus"
    ],
    "press": false,
-   "heat": 30,
+   "heat": 26,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -112,7 +143,7 @@
     "dell"
    ],
    "press": false,
-   "heat": 21,
+   "heat": 18,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -144,7 +175,7 @@
     "asus"
    ],
    "press": false,
-   "heat": 29,
+   "heat": 25,
    "image": "",
    "views": 0,
    "comments": 0,

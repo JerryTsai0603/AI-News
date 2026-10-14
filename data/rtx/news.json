@@ -1,9 +1,9 @@
 {
  "channel": "rtx",
  "version": "v26",
- "fetchedAt": "2026-10-13T10:50:41.463153+08:00",
- "edition": "2026-10-13",
- "count": 35,
+ "fetchedAt": "2026-10-14T10:56:01.196752+08:00",
+ "edition": "2026-10-14",
+ "count": 45,
  "languages": [
   "zh-TW",
   "zh-CN",
@@ -16,55 +16,869 @@
   "it"
  ],
  "byGroup": {
-  "asus": 8,
+  "asus": 7,
   "acer": 0,
   "hp": 1,
-  "msi": 5,
-  "dell": 1,
+  "msi": 1,
+  "dell": 2,
   "lenovo": 0,
   "gigabyte": 0,
-  "microsoft": 10,
-  "nvidia": 10
+  "microsoft": 5,
+  "nvidia": 23
  },
  "byLine": {},
  "items": [
   {
-   "title": "RTX SPARK IS HERE #rtxspark #krootman #ai #surface",
-   "source": "YouTube · Krootman Digital ",
-   "url": "https://www.youtube.com/watch?v=0C3zD7et6sc",
-   "date": "2026-10-13 10:47",
-   "publishedAt": "2026-10-13T10:47:23+08:00",
-   "summary": "MSI Prestige N16 Flip AI+ สเปก RTX Spark N1X เบา 1.9 โล จอทัช OLED 2.8K @120Hz สาย Local AI เริ่ม 104,990 บาท #NotebookITมีเรื่องคุย . MSI Prestige N16 Flip AI+ รุ่นใหม่ปี 2026 เป็น Local AI รุ่นใหม่ ",
+   "title": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark",
+   "source": "NVIDIA Newsroom Web",
+   "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
+   "date": "2026-10-14 10:56",
+   "publishedAt": "2026-10-14T10:56:01.340294+08:00",
+   "summary": "NVIDIA RTX Spark is a new beginning for the PC — a reinvention combining the capabilities of a gaming PC, a creative studio and a personal AI supercomputer into a single superchip. With up to 128GB of unified memory and ",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "官方發布",
+   "camps": [
+    "nvidia"
+   ],
+   "press": true,
+   "heat": 39,
+   "image": "https://blogs.nvidia.com/wp-content/uploads/2026/10/nv-raig-weekly-kit-10132026-nv-blog-1280x680-1.jpg",
+   "views": 0,
+   "comments": 0,
+   "dupes": 3,
+   "also": [
+    "NVIDIA Blog",
+    "NVIDIA Newsroom"
+   ],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark",
+     "summary": "NVIDIA RTX Spark is a new beginning for the PC — a reinvention combining the capabilities of a gaming PC, a creative studio and a personal AI supercomputer into a single superchip. With up to 128GB of unified memory and "
+    }
+   }
+  },
+  {
+   "title": "AI Daily Oct 14: Gemini 4 Argon pricing, NVIDIA RTX Spark, Manus x OPPO",
+   "source": "YouTube · 在逃空指针",
+   "url": "https://www.youtube.com/watch?v=kqAYN2w3CvI",
+   "date": "2026-10-14 10:32",
+   "publishedAt": "2026-10-14T10:32:09+08:00",
+   "summary": "AI Daily, Oct 14: Google's Gemini 4 Argon is now generally available at $2 per 1M input tokens and $10 per 1M output tokens (cached input 95% off), described by Google as an introductory price. Plus N",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "影片",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 100,
+   "image": "https://i.ytimg.com/vi/kqAYN2w3CvI/mqdefault.jpg",
+   "views": 40378,
+   "comments": 105,
+   "dupes": 60,
+   "also": [
+    "YouTube · OmniTech Daily",
+    "YouTube · Tecnoblox",
+    "YouTube · jjihoo",
+    "YouTube · I HAVE ADHD AND FOMO",
+    "YouTube · Aryan Tech World Official",
+    "YouTube · 究極完全体ガジェモン@ガジェットニュース速報"
+   ],
+   "lines": [],
+   "score": 669,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "AI Daily Oct 14: Gemini 4 Argon pricing, NVIDIA RTX Spark, Manus x OPPO",
+     "summary": "AI Daily, Oct 14: Google's Gemini 4 Argon is now generally available at $2 per 1M input tokens and $10 per 1M output tokens (cached input 95% off), described by Google as an introductory price. Plus N"
+    }
+   }
+  },
+  {
+   "title": "NVIDIA RTX Spark 上市週開跑！全新模型、軟體與遊戲更新同步登場 - BenchLife.info",
+   "source": "BenchLife.info",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE85ZldSMDZsLU9DeUIzYW9KMzZjRUJSREtwbWNPbmFHekRhODlXcjlYQURtN0pKMWhBZWRiSFNJRzUxQlNaTVVsVVVSWnJwaW0zSkhrQmJMekZVRDg?oc=5",
+   "date": "2026-10-14 10:16",
+   "publishedAt": "2026-10-14T10:16:03+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "價格上市",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 23,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "NVIDIA RTX Spark 上市週開跑！全新模型、軟體與遊戲更新同步登場 - BenchLife.info",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "ASUS \"ProArt P16\" and \"ProArt P14\" Pre-orders Begin, Featuring NVIDIA RTX Spark N1X AI Laptops - ASCII.jp",
+   "source": "ASCII.jp",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1BTV9SMHAwbFFGZUZFRjJPdXJ2NU4zd0VTekZ6eEFDX1FlS2tGUnpuaWRWZnJKbnhweE5vcWthNk1BUzNuTnM1ZUlwYmdPOFd2X3BfVnVwZmo?oc=5",
+   "date": "2026-10-14 10:00",
+   "publishedAt": "2026-10-14T10:00:00+08:00",
+   "summary": "",
    "models": [
     "RTX Spark",
     "N1X"
    ],
-   "tag": "影片",
+   "tag": "價格上市",
    "camps": [
-    "msi",
-    "microsoft"
+    "asus"
    ],
    "press": false,
-   "heat": 100,
-   "image": "https://i.ytimg.com/vi/0C3zD7et6sc/mqdefault.jpg",
-   "views": 31048,
-   "comments": 87,
-   "dupes": 71,
-   "also": [
-    "YouTube · AdminPong (แอดมินโป้ง)",
-    "YouTube · Nova AI Daily",
-    "YouTube · Micron Maven",
-    "YouTube · ビックカメラCh",
-    "YouTube · 오션지키미",
-    "YouTube · 究極完全体ガジェモン@ガジェットニュース速報"
-   ],
+   "heat": 23,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
    "lines": [],
-   "score": 551,
+   "score": null,
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "RTX SPARK IS HERE #rtxspark #krootman #ai #surface",
-     "summary": "MSI Prestige N16 Flip AI+ สเปก RTX Spark N1X เบา 1.9 โล จอทัช OLED 2.8K @120Hz สาย Local AI เริ่ม 104,990 บาท #NotebookITมีเรื่องคุย . MSI Prestige N16 Flip AI+ รุ่นใหม่ปี 2026 เป็น Local AI รุ่นใหม่ "
+     "title": "ASUS \"ProArt P16\" and \"ProArt P14\" Pre-orders Begin, Featuring NVIDIA RTX Spark N1X AI Laptops - ASCII.jp",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Nvidia RTX Spark laptop prices seemingly revealed by HP leak - Mashable",
+   "source": "Mashable",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE95UEpYNzh6dm92MzV4MUdmVF9DTHFpeFNpTi1HT29xN3B1NWNkelVVd2l2Z0lNX2x2bS1GeVgxNTJlSEgybWNsR2RVTE81bk1IYl9MRzRlQndGLXl1X1ZKLUZHa3ZGNjBfYUhwZ1h2ZjViZ2tVSEpkWQ?oc=5",
+   "date": "2026-10-14 09:26",
+   "publishedAt": "2026-10-14T09:26:52+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "價格上市",
+   "camps": [
+    "hp"
+   ],
+   "press": false,
+   "heat": 31,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 2,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Nvidia RTX Spark laptop prices seemingly revealed by HP leak - Mashable",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "RTX Spark 開賣在即，但要賣給誰？ - TechNews 科技新報",
+   "source": "TechNews 科技新報",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBCbEk3UTltd3RLdXg1dFJVaE9vbnJKVjVwclZRTFpzMHdWV2dKOXJQSTY2TnlvSHhTTTlZLTRiNVVBdjdBa2k0d1RmalQyT0NjbTl4TFZuaHpDLTU5VTVfTmtLU0xrTEtNbk90TndSQQ?oc=5",
+   "date": "2026-10-14 07:54",
+   "publishedAt": "2026-10-14T07:54:27+08:00",
+   "summary": "從今年 COMPUTEX 發表到 IFA 大量曝光，NVIDIA RTX Spark 終於準備進入實際開賣階段 […]",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "價格上市",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 31,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 2,
+   "also": [
+    "科技新報"
+   ],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "RTX Spark 開賣在即，但要賣給誰？ - TechNews 科技新報",
+     "summary": "從今年 COMPUTEX 發表到 IFA 大量曝光，NVIDIA RTX Spark 終於準備進入實際開賣階段 […]"
+    }
+   }
+  },
+  {
+   "title": "Nvidia RTX Spark challenges Dell Pro Max 18 Plus for local AI crown - TechRadar",
+   "source": "TechRadar",
+   "url": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxOcFBkbmw3d1c5VVBrRzRWZGVTRTQ5dmNPdG90QWo4U29WOHc2c0NHM0JOdzBKWFIxckxQdXQzUndCX0U0ekZvc3JZWFFzRzAwa3RkZGMxek9TS01Ydlo5V0hJSkFid3Y0ZVBJVVpqaS1SNFZsbDNNRFhXckVQQm1fanh4VWFlYjBSM3Q0Z1FEVDM0akFpc0Z6anJWWjBvbmQ5LWk1b2JSMEJYcENoclUweTJpMUNrS2tORkpsNnpFMVlHbG9ZUmt6RktXb3lvUjQwZDdTMXF0cDZqLW92cGhwNWpieWJKSzZyeG5pMVU3V0lBWGJ1Z3lHM3dsemlSY1R1QWZjYWRaV1BldzBrU09HR3ZlUU95enFsZUZwTHpLbnpKWWhvUGVDT2tfdlkxN0VmeldPOVYxYy03Qi1ZMEZHOGJDRVItUXpFYllfMUdOT1g?oc=5",
+   "date": "2026-10-14 06:35",
+   "publishedAt": "2026-10-14T06:35:00+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "dell"
+   ],
+   "press": false,
+   "heat": 22,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [
+    "Yahoo Tech"
+   ],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Nvidia RTX Spark challenges Dell Pro Max 18 Plus for local AI crown - TechRadar",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Asus ProArt GR1X joins a crowded RTX Spark field sans a price tag, while AMD's Gorgon Halo boxes already offer 192GB - TechRadar",
+   "source": "TechRadar",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQMWFuRm9iVXRHZkZVaWd1X3VaYWxIZS1sSjE4clhBdXZNeFhYOVpXNGRJenZRWHdOWDFKOTBqVmFRQS1hcDQwNVpsWktiTGJWSnl3OU5vRzNOMExFbzIzU3BScVc5S01BZEpFcHdsbmRLUTBUWXkxRjlqT0d6b0JTUV94Z1V3LXhzU29WcDZJMFlFTXpueXNzZkIwMFBDOTlOQ0hDaVdQelVkNVlWVXFFb2JYTVU1eEIycl93bXJndnFfcV80bmdzRnRDUmJmV1VqTzl6UFlYTkpiX1RC?oc=5",
+   "date": "2026-10-14 05:05",
+   "publishedAt": "2026-10-14T05:05:00+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "價格上市",
+   "camps": [
+    "asus"
+   ],
+   "press": false,
+   "heat": 22,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Asus ProArt GR1X joins a crowded RTX Spark field sans a price tag, while AMD's Gorgon Halo boxes already offer 192GB - TechRadar",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "NVIDIA 為 RTX Spark 引入全新 AI 模型和功能 - Root-Nation.com",
+   "source": "Root-Nation.com",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNWNjeEhhUkFKdWxLU3BjTGZvbzRLU2t4QUdTd1FZNHhyWkpLd213VDRWUHVldExsdzhDMEtKR0oxd2lwOGpBZE93RURhcmVTY3V3UjEyclU2RV9qM1p4WG0xQ2QtMWFJY0JnUlk1QkVsSjhsRFpCZklDU2dNMmY4dWdOWUFMNjcwaEdJMFZXVno2U0gyeG9NVQ?oc=5",
+   "date": "2026-10-14 03:10",
+   "publishedAt": "2026-10-14T03:10:49+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 22,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "NVIDIA 為 RTX Spark 引入全新 AI 模型和功能 - Root-Nation.com",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "NVIDIA Introduces New AI Models, Features for RTX Spark, and DLSS 5 Updates - Root-Nation.com",
+   "source": "Root-Nation.com",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRGxVMHc2ZDU0MThxQ3ZieG5kU1d1SU1acHJ4U2kyRTRxNVZmcXJzYVFoRkdZdi1HYXdGQWd0Wldza1dqVXp3X29DZWVfME4ya0JTZ2JWanIzTzZrdE1CUUNYNEltLUJyb1hjVF82SUZMV1FNMTVadFdjcXpfMUJNeEZpeEk2TVBhbkpRX09rbno?oc=5",
+   "date": "2026-10-14 03:10",
+   "publishedAt": "2026-10-14T03:10:49+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "NVIDIA Introduces New AI Models, Features for RTX Spark, and DLSS 5 Updates - Root-Nation.com",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "NVIDIA Readies RTX Spark Software for Friday Laptop Launch - Technobezz",
+   "source": "Technobezz",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOV1RtM1Y3UDh3bjJoNHQ1a0w2d0ZtbkwzSE1LSDJ1S25qUXVVV2RRWnNvT0c0aU9CVHBpTkRHTjdlOVhINk9xdXlidkNYSExBdjVnLXJiTWZYb203a19JMmNXSU5DekpJV3JLMHU4eThWVXhKUkZuYXZyTTh6cFJXaENLOFI?oc=5",
+   "date": "2026-10-14 02:26",
+   "publishedAt": "2026-10-14T02:26:32+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "NVIDIA Readies RTX Spark Software for Friday Laptop Launch - Technobezz",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "NVIDIA RTX Spark gets DLSS 5 and anti-cheat support, but some games must wait until 2027 - VideoCardz.com",
+   "source": "VideoCardz.com",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRFdYbHBqVEpfcmh1U0h3Vkc5cThIVzhuVXVRdDcwRTNVZV9MRTRkN0VvOXN1TGFtTUY1Y21BQmZLNWZuX1Q0V2pTcFNRbndmRVd6SVhXSUVPOHFfNjd5QWgydi1KOW1pYml2VWVEN0RzeDgyS0dVbWdia1BPUDNWUWpRdEtFQU42V2xrQjhOQ19NSURJaUlmQV9OeHEzYkwzczVSOU92LVlrUWRhcU5mNHp2SkFxdw?oc=5",
+   "date": "2026-10-14 02:08",
+   "publishedAt": "2026-10-14T02:08:37+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "NVIDIA RTX Spark gets DLSS 5 and anti-cheat support, but some games must wait until 2027 - VideoCardz.com",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "RTX Spark: 1 Bold Leap to the Best Windows AI PC - Global Brands Magazine",
+   "source": "Global Brands Magazine",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBQYlRwNTdkWl9ob21wNkFxYUpFb091OEhMaFZ2dGx5Z3BPSHpQNWNCXzJpRE1MdVFncVFaNkV4U09aZFZkT1pjODFZWWZ2RGs0TFFrU280RVZxUU15azBudDRzMjNRUmhoV3RyUw?oc=5",
+   "date": "2026-10-13 23:55",
+   "publishedAt": "2026-10-13T23:55:42+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 21,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "RTX Spark: 1 Bold Leap to the Best Windows AI PC - Global Brands Magazine",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "RTX Spark Launch Week Brings New Local AI Models, Creator Tools and DLSS 5 Updates - Gadget Pilipinas",
+   "source": "Gadget Pilipinas",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQU2RTOVZiRlEwNVZOMUczb29oYXEtelphVUZxT3JMUXFoQ0JkclExR1NCNHAzNUw3MDFlR2p0X3VNQ2lCbXpuemN4cXNpbUl5ejNyRi00alpVRTN5MUVyLUFsOWhQSW4wdWdhbXpjOFdSMWRBblUwcnBtaVFscUxRcWhIczg3NGxacDNDN2FIcw?oc=5",
+   "date": "2026-10-13 22:44",
+   "publishedAt": "2026-10-13T22:44:26+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 21,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "RTX Spark Launch Week Brings New Local AI Models, Creator Tools and DLSS 5 Updates - Gadget Pilipinas",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "NVIDIA Announces Software Ecosystem Updates Ahead of RTX Spark Laptop Launch - Blockchain News",
+   "source": "Blockchain News",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZWhoNVFGeGxJWG8xaVBOOEJodEd6ZWNMWm8zakxlNVhYeW1YMGt4SVd2eWJQLUI0WFhhQ0ZJcUFkNjdEQUV0WUNhWW1xV01FQXo5WlpBOXJsVnY2TDBReXN4WTQzZ0llTkdzZmw3Y2NpaUVQcmRrYVdnNzdVam9KN3RSajVIUTBnejdaT2h3?oc=5",
+   "date": "2026-10-13 22:12",
+   "publishedAt": "2026-10-13T22:12:08+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 21,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "NVIDIA Announces Software Ecosystem Updates Ahead of RTX Spark Laptop Launch - Blockchain News",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "I have Nvidia’s RTX Spark-armed Surface Laptop Ultra in my hands right now — tell me what you want me to test - Tom's Guide",
+   "source": "Tom's Guide",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNdkVEczNFU1lJX2RNWURJU2I3NExHYktnNTAtcFRId3VTVXMyZ09SczlteFItQkRub18xdER2N1dsbHoxWE5BandYVnpaV3VQZ1I0YXo4dFZMY0pHZGRWeEltVVZ5Vk13ZU1DQkF4R0l1RnNqMDJOczlaMmhneUNqc2ZrdHJuN2pDZm00cW4tUHUwcjF4MkpGcGRyMDA1TGZDTDJESUF5TExXSC12V1E0RTQ1TFhtUWlJeWZOQlVST1Q0WWhhRTFsMXhaREQ2SnAwZ1FVR2x3SmVOWHFTVC1Ydk12anM?oc=5",
+   "date": "2026-10-13 22:01",
+   "publishedAt": "2026-10-13T22:01:52+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark",
+    "Surface Laptop Ultra"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "microsoft"
+   ],
+   "press": false,
+   "heat": 21,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "I have Nvidia’s RTX Spark-armed Surface Laptop Ultra in my hands right now — tell me what you want me to test - Tom's Guide",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "NVIDIA RTX Spark Gets 100s of Games & Anti-Cheat Support Ahead of Launch, Backed By Full Suite of DLSS Technologies To Drive 100s of FPS - Wccftech",
+   "source": "Wccftech",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZVRFWnU4WkRCdHU0SS0yRFRHZ21QaVhBSElYZ0w3NUZUYVVNeVZHMU1qRVlyemJ5ZHJjbWZ6REVOZzRaYXVNUmlsclZxSG5fNnIyOW1UWUx3TGNGVUNSTjFGdjk1SC1yUDR1VTdOREFuNVFJUjRHSXR0ekIwY0NpQmdHNEtLeTQ0ZmtMNFMyZDJYTWtvS1A3OGFSU2NDSkx1MGRORzlrWjVweG_SAbABQVVfeXFMUFF6WF9rSGNqamhrcGpENU5zVy1SUjJOeGpQeEktNGhaaURsR1duSlJRY0Y5TFRYTUY1LTVsOHRpZG5YWDFLM1JsVXN5bHZSVmNRNHhweDExZ1JqRG9SWWlXa3ZUM3lnaFV4dkpzeUlvSEh1akFxcldtbnhKcWQzb0hZRmxUUE1uMDV4U0hZRzVtbmVWUG9uS2R1aERrQVpkWjFnR2xSbmpuQk0zZFZkb2U?oc=5",
+   "date": "2026-10-13 21:26",
+   "publishedAt": "2026-10-13T21:26:49+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 21,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "NVIDIA RTX Spark Gets 100s of Games & Anti-Cheat Support Ahead of Launch, Backed By Full Suite of DLSS Technologies To Drive 100s of FPS - Wccftech",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Nvidia Rolls Out Software Blitz Ahead Of RTX Spark Laptop Launch - SMBtech",
+   "source": "SMBtech",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMXBibUxNaVN1d0RUMVVPZGU1UUhMdXpzMTBmLUdpQ1M4VFJVT0p4RmZhTkhYV2wzbU1NNVlOUmROMktvbzRNSE5peUsySlZ1ZFl2azRMdS1DWDJ6cjZRS244ZS1sLTJ3OTdrSWFQU0UwUVdrM1ZlX2FLa3VNYU5pUV9OZjB4NXhPd0JmZ1hXanpaM0k?oc=5",
+   "date": "2026-10-13 21:11",
+   "publishedAt": "2026-10-13T21:11:46+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Nvidia Rolls Out Software Blitz Ahead Of RTX Spark Laptop Launch - SMBtech",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Nvidia rolls out faster DLSS 5 model ahead of RTX Spark launch - KitGuru",
+   "source": "KitGuru",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWXg2Yk1UZmdZSGxtUUNqM1RUMjNpdnpXZnBLMXBjTkZzdC0wYjJXYmp0dFlBdmVWZUo3aUkxc3V2QkdHN3lNeUk3U0FRM3pWZHBONTZEZ2RhY3hPYmpjd2VzaEN4UkRBNmEwZzB1bmN5Z0JQTXNHUUdXa21zQ0hUX3oySDN3R19JSlFJeGl0d2t6ZkQzRjZiazNRM3psSzZiaUVNLXJCeW5EcWtSWHc?oc=5",
+   "date": "2026-10-13 21:00",
+   "publishedAt": "2026-10-13T21:00:49+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Nvidia rolls out faster DLSS 5 model ahead of RTX Spark launch - KitGuru",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "NVIDIA and partners unveil new local AI tools for RTX Spark laptops - GameGPU",
+   "source": "GameGPU",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaXI3WVo4NDdubEtoSlJjWWMwVmJnQlBOZXV0TE5DQmp4WjJlQzVkcVNmQU5uSENsclhzYWFrWGFrbEFGWDh6dHRXRnVfVlc1OEVsVzdtQTBuOUtHYjR5Q21ndzEzaUF4dkNmWG9MMDRoNTgwQ0VOSENtNGdqS0tfQWo4QkFWM3VvR0JSTEpKNk1mY3lXbldDYXVtRThCTHVZOC1NSFlveUN2MFBfZ2hEeGszVTFySzBrVFQxWXNB?oc=5",
+   "date": "2026-10-13 20:17",
+   "publishedAt": "2026-10-13T20:17:42+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "NVIDIA and partners unveil new local AI tools for RTX Spark laptops - GameGPU",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "RTX Spark: Hundreds of Games Oct 16 - NVIDIA",
+   "source": "NVIDIA",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObjhLNXNOdENvME9BNXdBa3hEeVRPTGpFQWIxaEdnRWhNaEpvNUQyaDZpUm5FRGR0dEJyOGFiLV8zTWZ1YTRTeUxNdXBDLW9CajRPN1c3Tl9uUlU3MGZSY2pjQ21JQ3JNb0Rhdk1XLWtYVlQzX19nUGozbnNDYUJOQzlOb0w4MmhGLXc?oc=5",
+   "date": "2026-10-13 19:59",
+   "publishedAt": "2026-10-13T19:59:23+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "RTX Spark: Hundreds of Games Oct 16 - NVIDIA",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "DLSS 5 Comes To Hogwarts Legacy & RTX Spark, Powered By 2X Faster Model - NVIDIA",
+   "source": "NVIDIA",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSjE5blNrbExoZFVLQ1IwSjNYRlhLdW93SWRrVVJmTUJ4MDVVaE5maXZNUWJUcE5WN0gxd2Jhb0hYTURnOVlTSGl1eEozcFlYRGtCUDVIaWlPODNEazVOcVpSUjZIaGIxSkp2TVJkQUFqWmpYaFRiQnczX2VOendSLVhyQWJxUjBZMkVIeHJfSUN5Wkh2bERlcnRfOGxST0Nw?oc=5",
+   "date": "2026-10-13 19:59",
+   "publishedAt": "2026-10-13T19:59:23+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "DLSS 5 Comes To Hogwarts Legacy & RTX Spark, Powered By 2X Faster Model - NVIDIA",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Microsoft's RTX Spark Surface Laptop Ultra pre-orders open to challenge the MacBook Pro in local AI - TechRadar",
+   "source": "TechRadar",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQU045UHRyLWs3QlMwbF9icnI2LS1IR25VZmhNYmZEdWtWbk9RS2RwU3dEM1cxMlpqMU8yZFo0d2hKXzVNQ0tNUWZxaWhHTTRNN0tlblJ3eWE3NEl4YVFBcHFBUTNuWUlscFJyeU1jTlBCajZvOGxDM2t6TURWckZkRkFzRXlPdGN0dkpLNUJvMVZidTQtTFpUb3hLVTB1LW5makQ0VWdMSmluZTRReVktMDNVdEhiVWlnQ2ptUjR3bEhsd1hYR0Fv?oc=5",
+   "date": "2026-10-13 19:18",
+   "publishedAt": "2026-10-13T19:18:53+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark",
+    "Surface Laptop Ultra"
+   ],
+   "tag": "價格上市",
+   "camps": [
+    "microsoft"
+   ],
+   "press": false,
+   "heat": 21,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Microsoft's RTX Spark Surface Laptop Ultra pre-orders open to challenge the MacBook Pro in local AI - TechRadar",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "「PC新紀元」輝達AI筆電RTX Spark本週五開賣 台灣四大PC品牌高層全到齊 - 鏡報",
+   "source": "鏡報",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBYMU5ycUg4aFN0eU55TU9sRFZQRDhOd05yM2hVQ080MHpZcHlZSGhfMHA0d0M4TmNnbFVOSHFPdm0yVzVsd1pEdkpGSkhwSTA5b0E?oc=5",
+   "date": "2026-10-13 16:53",
+   "publishedAt": "2026-10-13T16:53:00+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "價格上市",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 20,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "「PC新紀元」輝達AI筆電RTX Spark本週五開賣 台灣四大PC品牌高層全到齊 - 鏡報",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "NVIDIA Does It: Launching RTX Spark—Is This the Moment to Threaten Apple Silicon on Windows PCs? - آي-فون إسلام",
+   "source": "آي-فون إسلام",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQN2pVaW9vbEM1dEkzYVNncFBJM0RzMkROYzIyYUJlSmp6NXM5Z1B0NTNpcGFueS1XUWE0LVJMRHU5ZURMZ2xKVzhEaFlGMDY3Q2RTb21xN3N1VkNCbDR1Z3RfWC11SkptdF9jMjdEb2ZpcFQ4VThmQzJhSVRWRExYaWxHbEJISjQ4Vnd3aDRVMGt3N2pZdHZRLXVLRWhVVlM4RGxQZnpkSGZia0c4US1pM0F1MVhoc29DbmxVYjJQTVJMMjVGNnRXbjIwQ1BjUjNROFVHMEo2S0VIZEpGQXc?oc=5",
+   "date": "2026-10-13 16:37",
+   "publishedAt": "2026-10-13T16:37:53+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 28,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 2,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "NVIDIA Does It: Launching RTX Spark—Is This the Moment to Threaten Apple Silicon on Windows PCs? - آي-فون إسلام",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "RTX Spark 如何改變筆電競爭焦點？ - CMoney",
+   "source": "CMoney",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE05YkpRVHVsV3VnZjdIWlFTdkNDS3hEWUtBeDBjWlVqOG9leDhHZTJYZ0JNZFNmLUtLQ2ZuNUl4dHBaNDNUNlIxSF9zWWR2c2xGVkQ3VHVTeGRiRGtBZm1PRXJkeFkzLUJsOVRxcDkzb25MbTh5V1duQzNlMA?oc=5",
+   "date": "2026-10-13 16:37",
+   "publishedAt": "2026-10-13T16:37:20+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "RTX Spark 如何改變筆電競爭焦點？ - CMoney",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "NVIDIA RTX Spark Combines Local AI, Gaming, and Content Creation - NoobFeed",
+   "source": "NoobFeed",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9HY1huc3R5aXlyT1c0RHZSODFKcEZWYmd2SjZkc09iVnQxclhZbzR0ZkRpZ01JSjBxcENWaDQ2U21WUkRoZk0zd2xiT29XS3FRczVySUh2akJrN28wNWFqTUdDYzNfV2xfdF9peDBWUXlZc0ZtR1E?oc=5",
+   "date": "2026-10-13 13:14",
+   "publishedAt": "2026-10-13T13:14:53+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 20,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "NVIDIA RTX Spark Combines Local AI, Gaming, and Content Creation - NoobFeed",
+     "summary": ""
     }
    }
   },
@@ -83,11 +897,11 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 15,
+   "heat": 19,
    "image": "",
    "views": 0,
    "comments": 0,
-   "dupes": 0,
+   "dupes": 1,
    "also": [],
    "lines": [],
    "score": null,
@@ -114,7 +928,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 23,
+   "heat": 19,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -126,37 +940,6 @@
    "i18n": {
     "en": {
      "title": "Samsung, LG Display reportedly supply OLED panels for seven Nvidia RTX Spark laptops - digitimes",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "RTX Spark: 1 Bold Leap to the Best Windows AI PC - Global Brands Magazine",
-   "source": "Global Brands Magazine",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBQYlRwNTdkWl9ob21wNkFxYUpFb091OEhMaFZ2dGx5Z3BPSHpQNWNCXzJpRE1MdVFncVFaNkV4U09aZFZkT1pjODFZWWZ2RGs0TFFrU280RVZxUU15azBudDRzMjNRUmhoV3RyUw?oc=5",
-   "date": "2026-10-13 07:44",
-   "publishedAt": "2026-10-13T07:44:01+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "heat": 31,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 2,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "RTX Spark: 1 Bold Leap to the Best Windows AI PC - Global Brands Magazine",
      "summary": ""
     }
    }
@@ -176,11 +959,11 @@
     "other"
    ],
    "press": false,
-   "heat": 30,
+   "heat": 18,
    "image": "",
    "views": 0,
    "comments": 0,
-   "dupes": 2,
+   "dupes": 1,
    "also": [],
    "lines": [],
    "score": null,
@@ -207,7 +990,7 @@
     "other"
    ],
    "press": false,
-   "heat": 30,
+   "heat": 26,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -238,7 +1021,7 @@
     "microsoft"
    ],
    "press": false,
-   "heat": 21,
+   "heat": 18,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -269,11 +1052,11 @@
     "msi"
    ],
    "press": false,
-   "heat": 21,
+   "heat": 26,
    "image": "",
    "views": 0,
    "comments": 0,
-   "dupes": 1,
+   "dupes": 2,
    "also": [],
    "lines": [],
    "score": null,
@@ -300,7 +1083,7 @@
     "dell"
    ],
    "press": false,
-   "heat": 21,
+   "heat": 17,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -331,7 +1114,7 @@
     "microsoft"
    ],
    "press": false,
-   "heat": 21,
+   "heat": 17,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -362,11 +1145,11 @@
     "asus"
    ],
    "press": false,
-   "heat": 21,
+   "heat": 9,
    "image": "",
    "views": 0,
    "comments": 0,
-   "dupes": 1,
+   "dupes": 0,
    "also": [],
    "lines": [],
    "score": null,
@@ -381,9 +1164,9 @@
   {
    "title": "ASUS ProArt P16 快速開箱 NVIDIA RTX Spark 為 AI 生成、代理開路 - XFastest",
    "source": "XFastest",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBVSjlHS3F1bTNmTTdSUHJJZVZMSHB5bTZvdUI3WHhDZm8xOXJ3eGN4ZGlqTVBhMkZzOEpRTXlWUUNrYjlGX2NtbDBQOTBVd1FtNFpzX011SjVpM00?oc=5",
-   "date": "2026-10-12 20:40",
-   "publishedAt": "2026-10-12T20:40:26+08:00",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBTVVlaRzlCSko3bml0WHpOSW1lbEdOYUFxSmJNeXNIOWNzYklKX3lDRVhfT1JtRWFxU1dlMVRjTlNialVpM1dMd2g2bDctM2F3ZG1tbGppVVQyb0p1V2pOLWo0OUJDY3FKNzJYYg?oc=5",
+   "date": "2026-10-12 20:00",
+   "publishedAt": "2026-10-12T20:00:39+08:00",
    "summary": "",
    "models": [
     "RTX Spark"
@@ -393,7 +1176,7 @@
     "asus"
    ],
    "press": false,
-   "heat": 21,
+   "heat": 17,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -405,6 +1188,68 @@
    "i18n": {
     "zh-TW": {
      "title": "ASUS ProArt P16 快速開箱 NVIDIA RTX Spark 為 AI 生成、代理開路 - XFastest",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Asus Launches ProArt P16 And P14 Laptops With Powerful Nvidia RTX Spark AI Platform - SmartHouse",
+   "source": "SmartHouse",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZVN0d1p3a2hzaHVJUXBqTTNZWWVFc1J2VEg2OF9lZ1B1d2MyWnhyRmpaM01HSV9pTkpuOUQweVh1dVJmd0xHS2p4YTlyb3BUM3BodGhDSnAxVlBHbUxyeUZncXhhZzlpX2JVQTJ3SkJ5a0lUdE9JMG9US0pQdk42cTJpRUtLTnVuNGxGTlR3Y0FTblRlSm53VUNqVFpSazBubUl2UEVYNEcwVFZ4Rl84X2FWb2g?oc=5",
+   "date": "2026-10-12 19:24",
+   "publishedAt": "2026-10-12T19:24:54+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "asus"
+   ],
+   "press": false,
+   "heat": 17,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Asus Launches ProArt P16 And P14 Laptops With Powerful Nvidia RTX Spark AI Platform - SmartHouse",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Mechrevo prepares RTX Spark mini PC with AI SSD to extend memory capacity - VideoCardz.com",
+   "source": "VideoCardz.com",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVTBwNU4zVXg5REg1LVlYZ3piSFZEemE4OEh6cXU1SllBOTRvOGNoVTJtR3VMMlpTVXcwQmROZm5aMkFORHVRQlF0NUR6bWpZaXBwUXpoT2M5UEx1SS1GTkRPTkdla3o1T3dZSVE2ZVRXalBhWDdrRnFTV0h3ZVNHTlBNQzBodFFXUGE5eXNYd2xpN1E3TDh6T0hjcTJraEdjdmxR?oc=5",
+   "date": "2026-10-12 19:11",
+   "publishedAt": "2026-10-12T19:11:38+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 9,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Mechrevo prepares RTX Spark mini PC with AI SSD to extend memory capacity - VideoCardz.com",
      "summary": ""
     }
    }
@@ -424,11 +1269,11 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 28,
+   "heat": 33,
    "image": "",
    "views": 0,
    "comments": 0,
-   "dupes": 2,
+   "dupes": 3,
    "also": [],
    "lines": [],
    "score": null,
@@ -436,99 +1281,6 @@
    "i18n": {
     "en": {
      "title": "'They are new to the laptop market': AMD issues a reality check to Nvidia’s RTX Spark and fires a warning shot at Arm - Tom's Guide",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "I spoke to AMD after the Surface RTX Spark event: 'We did this a year ago' - Yahoo Tech",
-   "source": "Yahoo Tech",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQ2lEdGFxWi1Hc21iRmtKdFp6aXdhY1pySnozV2l6NlUtbkYzUDJyQlUydEVBcEhBU2F0YnEzeXg3RzZtX1A0VnllWGJuc2g2RXZvb0pXS1B1T001NDA1R3pucDNYXzdyTmdCcThFQUR4RUhMQWttRS0wRVE2MUE0UVM0MXg1V2JwN201ag?oc=5",
-   "date": "2026-10-12 18:30",
-   "publishedAt": "2026-10-12T18:30:00+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "microsoft"
-   ],
-   "press": false,
-   "heat": 12,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "I spoke to AMD after the Surface RTX Spark event: 'We did this a year ago' - Yahoo Tech",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Nvidia RTX Spark laptop prices seemingly revealed by HP leak - Mashable",
-   "source": "Mashable",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE95UEpYNzh6dm92MzV4MUdmVF9DTHFpeFNpTi1HT29xN3B1NWNkelVVd2l2Z0lNX2x2bS1GeVgxNTJlSEgybWNsR2RVTE81bk1IYl9MRzRlQndGLXl1X1ZKLUZHa3ZGNjBfYUhwZ1h2ZjViZ2tVSEpkWQ?oc=5",
-   "date": "2026-10-12 17:28",
-   "publishedAt": "2026-10-12T17:28:23+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "價格上市",
-   "camps": [
-    "hp"
-   ],
-   "press": false,
-   "heat": 28,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 2,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Nvidia RTX Spark laptop prices seemingly revealed by HP leak - Mashable",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "NVIDIA Does It: Launching RTX Spark—Is This the Moment to Threaten Apple Silicon on Windows PCs? - آي-فون إسلام",
-   "source": "آي-فون إسلام",
-   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQN2pVaW9vbEM1dEkzYVNncFBJM0RzMkROYzIyYUJlSmp6NXM5Z1B0NTNpcGFueS1XUWE0LVJMRHU5ZURMZ2xKVzhEaFlGMDY3Q2RTb21xN3N1VkNCbDR1Z3RfWC11SkptdF9jMjdEb2ZpcFQ4VThmQzJhSVRWRExYaWxHbEJISjQ4Vnd3aDRVMGt3N2pZdHZRLXVLRWhVVlM4RGxQZnpkSGZia0c4US1pM0F1MVhoc29DbmxVYjJQTVJMMjVGNnRXbjIwQ1BjUjNROFVHMEo2S0VIZEpGQXc?oc=5",
-   "date": "2026-10-12 16:20",
-   "publishedAt": "2026-10-12T16:20:30+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "nvidia"
-   ],
-   "press": false,
-   "heat": 28,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 2,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "NVIDIA Does It: Launching RTX Spark—Is This the Moment to Threaten Apple Silicon on Windows PCs? - آي-فون إسلام",
      "summary": ""
     }
    }
@@ -548,7 +1300,7 @@
     "asus"
    ],
    "press": false,
-   "heat": 20,
+   "heat": 16,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -579,7 +1331,7 @@
     "asus"
    ],
    "press": false,
-   "heat": 20,
+   "heat": 16,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -596,11 +1348,43 @@
    }
   },
   {
-   "title": "系微搶攻輝達 RTX Spark N1X 筆電商機 - 經濟日報",
-   "source": "經濟日報",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5MUl9mTi0xNTRWb1c2NnJGaVpZVEdBNlNTdDNTWDJ2WXJwSnNCUVFLWFVFUnlzYlhLTXdUQm8wOHJvZl8tMUJYRi10RllhcThOc3p6cE1hUlQ2d9IBX0FVX3lxTE1iWlVFUVAtUEpyOGItbXRCOHAwVkN3SDNfSlZvUVM4MVctV0ZXcm1YbVFfaG42QWljVHRsY1lvU0ZQUVFFcEg4Y3EzNkM4QWd6MkpEMTJSWDFqNV9wV3NN?oc=5",
+   "title": "6231 系微- 系微搶攻輝達RTX Spark N1X 筆電商機- 股市爆料同學會 - CMoney",
+   "source": "CMoney",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE94QW1uNFdkcDBKOUxQWF9sOTFVWkNvc0dyTExLTGd2TVhCd01BdEJuR0t2UG5BUlFHRUk1Nm5KalhfbER3bE1hNGtpY0oxUlh2SWNaWnI0dE0?oc=5",
+   "date": "2026-10-12 11:52",
+   "publishedAt": "2026-10-12T11:52:51+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark",
+    "N1X"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 24,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 2,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "6231 系微- 系微搶攻輝達RTX Spark N1X 筆電商機- 股市爆料同學會 - CMoney",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "系微搶攻輝達 RTX Spark N1X筆電商機 - UDN",
+   "source": "UDN",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9SR3NjY0tGcjJjaFRqcnRzZ2NhdEpDbXBUczhjWGJVVV9QTGRnRGU0eE5yUW9IaHNablVhMk92RkRfd2htRmI3UGxnSC1ycFRt0gFWQVVfeXFMUHA3bEhod3E2em1uanViZ2dsRXYtOExkVTJPckZubVZNRXBfXzdCNTU3TEdONTk2d0U0RlF3QzZxVU5QY3ZCTVFMQ0RLR1VNQWlWWDNvRkE?oc=5",
    "date": "2026-10-12 11:22",
-   "publishedAt": "2026-10-12T11:22:45+08:00",
+   "publishedAt": "2026-10-12T11:22:40+08:00",
    "summary": "",
    "models": [
     "RTX Spark",
@@ -611,176 +1395,18 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 19,
+   "heat": 24,
    "image": "",
    "views": 0,
    "comments": 0,
-   "dupes": 1,
+   "dupes": 2,
    "also": [],
    "lines": [],
    "score": null,
    "lang": "zh",
    "i18n": {
     "zh-TW": {
-     "title": "系微搶攻輝達 RTX Spark N1X 筆電商機 - 經濟日報",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "《資服股》多款NVIDIA RTX Spark N1X筆記型電腦搭載系微InsydeH2O - 富聯網",
-   "source": "富聯網",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQT1lrR0JQMDdGTGhnXzd3REVweU5WZ3V3SjlmeUFRdkZwMUhxUlBpZ2RDMGVnMWRnTWR4QVU1eGxvVFVVMmR5eGI0OFJmdUNoVzRHdHlNS3VnS3FyX251WVZSRjBDSGY4VDdieHY2ZzlROXlvaGtBdEw1VEhzNno1N1M3Sk5GOFJH?oc=5",
-   "date": "2026-10-12 10:23",
-   "publishedAt": "2026-10-12T10:23:00+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark",
-    "N1X"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "heat": 19,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "《資服股》多款NVIDIA RTX Spark N1X筆記型電腦搭載系微InsydeH2O - 富聯網",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "輝達、聯發科打造超級晶片 RTX Spark開啟AI PC新篇章 - 自由時報",
-   "source": "自由時報",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBtWjVxNzhHamMxNDlGYzZzVjhDaVBDVnF3a2Z3bFVJX19jeHowdUk0a1NyV2xBdE9vUmh0Ti1PLWNTS09iX0RkbDlyT0huUW4xZkt1Tnd1dmw?oc=5",
-   "date": "2026-10-12 09:24",
-   "publishedAt": "2026-10-12T09:24:10+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "nvidia"
-   ],
-   "press": false,
-   "heat": 19,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "輝達、聯發科打造超級晶片 RTX Spark開啟AI PC新篇章 - 自由時報",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Surface Laptop Ultra 128GB 頂規直接秒殺！NVIDIA RTX Spark 筆電讓 AI 開發者搶破頭？ - TechSpace 鐵客空間",
-   "source": "TechSpace 鐵客空間",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1pRVUzVlVwX21KYjRSdk5TMGQ5NDh5eWJrbXFRZWpmeW8tTUJhNElsaElyN0JsUzVBSVl0R05NeE8zRk5BT2stMENWMUtmcXN1SjF4bVc1TTViMGkzX1JDTnVTM1IwdUpoWGIwcDZ1ZERlZDVfM3dZNTV6dVdaTE0?oc=5",
-   "date": "2026-10-12 09:02",
-   "publishedAt": "2026-10-12T09:02:48+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark",
-    "Surface Laptop Ultra"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "microsoft"
-   ],
-   "press": false,
-   "heat": 19,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "Surface Laptop Ultra 128GB 頂規直接秒殺！NVIDIA RTX Spark 筆電讓 AI 開發者搶破頭？ - TechSpace 鐵客空間",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Personal AI Supercomputer Era Nears as RTX Spark-Powered Laptops Roll Out - THE ELEC, Korea Electronics Industry Media",
-   "source": "THE ELEC, Korea Electronics Industry Media",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8wME1XOHNOZFowVW1fYTZ6dlk1aS1NdExXMGloQW1NZWNPNjBOdC1yNzFLY1RHYmZQVjlOb2FfclhqWWhPcVNEZFZqbW9HeEFqbkx2eEQ3aTRlRXRjZEo5OUV2RnBTUTg?oc=5",
-   "date": "2026-10-12 07:42",
-   "publishedAt": "2026-10-12T07:42:31+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "heat": 43,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 4,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Personal AI Supercomputer Era Nears as RTX Spark-Powered Laptops Roll Out - THE ELEC, Korea Electronics Industry Media",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "From Surface Laptop Ultra to RTX Spark laptops, Microsoft’s week was packed with launches, upgrades, and AI buzz - Windows Central",
-   "source": "Windows Central",
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOdFJYZ1A4bk5vSjlLTmQ3RlFWd0dWbDVRQzhpXzRWLWJLQnRVVnV1TWNoMjI0bUJyVmNrZkJDQ0hWU1RtamtKbVBLY180MHAzdmJSZUM3SWpDamNYdXFGTUJoZE1mLVd3emdaMF9fTm1JakdLVFgzNEI2ZGdzc1h6WjB4TWNKQlBiRm5ncG9Tcl93cTZBZFlRQTN3TDNPckVaand6LVpSNThyTGFtVFQ5bm5tZ0ZoWVBDajZidUppV1k3OEk4NGhjNHZsc1F5dzRTa21LdFNB?oc=5",
-   "date": "2026-10-12 05:26",
-   "publishedAt": "2026-10-12T05:26:44+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark",
-    "Surface Laptop Ultra"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "microsoft"
-   ],
-   "press": false,
-   "heat": 18,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "From Surface Laptop Ultra to RTX Spark laptops, Microsoft’s week was packed with launches, upgrades, and AI buzz - Windows Central",
+     "title": "系微搶攻輝達 RTX Spark N1X筆電商機 - UDN",
      "summary": ""
     }
    }
@@ -801,7 +1427,7 @@
     "microsoft"
    ],
    "press": false,
-   "heat": 10,
+   "heat": 7,
    "image": "https://cdn.mos.cms.futurecdn.net/natUzVTsrZcwbWQMAuhZk9-1920-80.jpg",
    "views": 0,
    "comments": 0,
@@ -814,324 +1440,6 @@
     "en": {
      "title": "Microsoft’s week in review: Surface Laptop Ultra arrives, RTX Spark laptops go live, and Windows 11 gets buried under AI jargon",
      "summary": "Microsoft showed off compelling Windows 11 features and hardware, but much of the event was weighed down by developer-focused AI discussions."
-    }
-   }
-  },
-  {
-   "title": "Microsoft isn't the only company releasing a laptop with an Nvidia RTX Spark - MSI reveals new 16-inch, 128GB beast - TechRadar",
-   "source": "TechRadar",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOU1RkZXlOYUM4bExsUkRwVVR4dU5hcERnTzNKVGQ4am94VXBsV1d1US1QVGFHdG1jcFYySll3V0tuOUJjZEU4Y204WmZ3NW1OU1ZEUlZmOWtkLUxFVUJKRm93bkJydjhYSVV1aEVLaWctRU9JaXAtNHN1WXFMUm45b1VidG13RzZVRHk4WTZRaHFmb29DTzNuZ2F4aFNXaWxQOFl3amZLSTlZMkM3SE03VFZKc1pnNHhDbUFHcFJoSkp4ZFlhTk13NFlYdHQwdG00eFpCQWlneW0?oc=5",
-   "date": "2026-10-12 05:05",
-   "publishedAt": "2026-10-12T05:05:00+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "msi",
-    "microsoft"
-   ],
-   "press": false,
-   "heat": 26,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 2,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Microsoft isn't the only company releasing a laptop with an Nvidia RTX Spark - MSI reveals new 16-inch, 128GB beast - TechRadar",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Asus ProArt P16 laptop with NVIDIA RTX Spark coming to Malaysia; yours for RM29,999 - Hitech Century",
-   "source": "Hitech Century",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE91bUdsUmNEU1E4VWFGQjA4bmU0RlNEQTlQU2xhaUs3NlZjLVJjbE4tNlI0NXlGaWY2bjhXa24ySTVNQ2o5QWlFWmxmVEYtRERGMzBRTWxYTktrMVZpZEwxaA?oc=5",
-   "date": "2026-10-12 01:38",
-   "publishedAt": "2026-10-12T01:38:21+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "asus"
-   ],
-   "press": false,
-   "heat": 18,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Asus ProArt P16 laptop with NVIDIA RTX Spark coming to Malaysia; yours for RM29,999 - Hitech Century",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "零組件漲價壓抑PC買氣 華碩、微星攻輝達RTX Spark旗艦機拚逆勢繳佳績 - 鉅亨網",
-   "source": "鉅亨網",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdmxSSmJCNmQ4SEJkN3pfNW5ycThQcFhlcDM2eTlzaEFMdWx5SGtxVkJhY0dSQWQ4MC01TUdZckVBLXB3RlRNRDhIb0VKaU5TY2pHYlRCaWxaTGdfWUxpT1JCVnFVdC14M2JQbGZ6Tmk2bENRUVJvREh4TTJkRlhsSmZVVkpYRWFwVi1KVVhBZUNTN1l2RmI1LWZHcGRhLXRZcUsxWFdB?oc=5",
-   "date": "2026-10-12 01:05",
-   "publishedAt": "2026-10-12T01:05:50+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "asus",
-    "msi"
-   ],
-   "press": false,
-   "heat": 18,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [
-    "Yahoo 財經"
-   ],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "零組件漲價壓抑PC買氣 華碩、微星攻輝達RTX Spark旗艦機拚逆勢繳佳績 - 鉅亨網",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "9to5Toys News Weekly recap – iPad-like Amazon Android Tablets, NVIDIA RTX Spark machines, more - 9to5Toys",
-   "source": "9to5Toys",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQVA2anNOQ24zWmd2SWJGS1dfYXhwNFlBMzBGRkt3aDFYUWRGaDZXQ3EzekZ2LTdkaEs5Slo1N0FOUUk0MkFEeUg4MER3X25aak9IUElQSW1ZdjB3YVY5c1hJUWs0M0E4a0FmUFRxZ3NMV1FjS3luLUkyaDNMSGxqOVlfWnZQaGs?oc=5",
-   "date": "2026-10-11 22:44",
-   "publishedAt": "2026-10-11T22:44:00+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "nvidia"
-   ],
-   "press": false,
-   "heat": 9,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "9to5Toys News Weekly recap – iPad-like Amazon Android Tablets, NVIDIA RTX Spark machines, more - 9to5Toys",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Nvidia Sets October 16 Ship Date for RTX Spark PCs as Reflection AI Talks Stay Unresolved - ad-hoc-news.de",
-   "source": "ad-hoc-news.de",
-   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPWXM5NU04bGc0MHpjbklobGQ0TGNtUnlhUW1vb3pLZkJxOGpsTGhEMUdQWXhmeWxSQWZSVjNpcXh0SXdKS2hRdGRiLUVCWHJYWlN6VVZ4UDBFR203R3puQjRKcFVqNFNERnRFOFNZaGJLTE44UFNVd0RVeDE5ZDJvd0NJc2E1c0h0dnluWE43X0VVZkRpYVVKRTB6alBwcVFLMktvaHpndWZTLW0tM2N4dm5TMXBRVW51ckR2RFFYSDFDXzB0MlFWUDJQaW1UcllCSFhQcnpOYkE1NDhaQlM5UVN1eERJVkhST21oVmVicGs5YlE?oc=5",
-   "date": "2026-10-11 21:01",
-   "publishedAt": "2026-10-11T21:01:29+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "nvidia"
-   ],
-   "press": false,
-   "heat": 9,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Nvidia Sets October 16 Ship Date for RTX Spark PCs as Reflection AI Talks Stay Unresolved - ad-hoc-news.de",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Nvidia’s RTX Spark Brings AI Agents To Windows PCs In October - BW Businessworld",
-   "source": "BW Businessworld",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdFdFam0xSXNMS3l4ZDNBYzE2azJPQjJQaV9CcWdmbUt3OEZ6VlVMWXRZTVhTbGFrQ1lqT3FmUEhER0xhd2pDZk9wd25xdWtPRjFQQ2xLSHRSWXM1aW1WOWV2ZmJFRDg0N0JCUHZMTUJ6THlWX2ZkX21SeGRlLTNaVU5BT0R6eGljb256VFNOZHJadzRLUUVuRXdFN3g5YzVSMUlpV1czZ1k?oc=5",
-   "date": "2026-10-11 19:41",
-   "publishedAt": "2026-10-11T19:41:45+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "nvidia"
-   ],
-   "press": false,
-   "heat": 17,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Nvidia’s RTX Spark Brings AI Agents To Windows PCs In October - BW Businessworld",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "NVIDIA’s CUDA Moat Is Accelerating RTX Spark Laptop Sales, Higher 128GB Unified Memory Options Belonging To Surface Laptop Ultra Already Out Of Stock - Wccftech",
-   "source": "Wccftech",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWG84N1E5NmEwbzB1QVdCejM3SWxYTFJLaXNYa1l5ZGlUSlFEYng5bjhXd29faU8yUVh6NklpbEFkSlQ4bFFFUFYzSEZ6MGtibEhrNGw5RDZEU2lfOWtYa1dVOGtPc2lTeS1ZQjR1THRkQnRUejMzNl9pUXl2WVVZM1RsUGI0V293RF9rWHVXS3Z5UjhaR21PVUlUNUlfdm5DeF9F0gGoAUFVX3lxTE9zVUszc19JME9YZk9Uc0FPSy0tU1dzNFIxczZWU2t4T1lvcHRVb1FQSDV6Y0V2cFNGTDJ5X0pNS0MyenJxR1UxeVNEXzNfNXl3MXFxTFN2ckJWT29wR29VeU1vc2pDbVl0dC1kY2Nfc3N4RDZOME15T1JEa2xCU09JVWttUXQ5YzlRcnVGOF9MZEpoOHNJSTBBTVdxVW9rLXg1RHhKS2M2Qg?oc=5",
-   "date": "2026-10-11 17:26",
-   "publishedAt": "2026-10-11T17:26:15+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark",
-    "Surface Laptop Ultra"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "microsoft"
-   ],
-   "press": false,
-   "heat": 25,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 2,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "NVIDIA’s CUDA Moat Is Accelerating RTX Spark Laptop Sales, Higher 128GB Unified Memory Options Belonging To Surface Laptop Ultra Already Out Of Stock - Wccftech",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "代理式 AI 新世代來臨！ 華碩、微星、微軟 RTX Spark PC 展開預購 - 經濟日報",
-   "source": "經濟日報",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5VRTBrTURHWHM2R1hadHZid3ZndUY3WWV2WTNUV2N2bEpFYl9vZWZMejdnYmdzc1FQRzVtQVl3MWVqTV90UW0ybzBCZ3c1NGd2Y3lHVU1Pb1lLd9IBX0FVX3lxTE4tT250WDktTWdsOUJPUnVjckhHY0czZ2JSUFBWQjNENXJCWVdtdGY3dzIxbXBLRmpwbW1FNHVVWXE1YWszdjQ3dWZvc2hXNE9oSnZIdzJBVHJON0VpNU9R?oc=5",
-   "date": "2026-10-11 17:00",
-   "publishedAt": "2026-10-11T17:00:00+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "asus",
-    "msi",
-    "microsoft"
-   ],
-   "press": false,
-   "heat": 16,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "代理式 AI 新世代來臨！ 華碩、微星、微軟 RTX Spark PC 展開預購 - 經濟日報",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "6231 系微- 系微搶攻輝達RTX Spark N1X 筆電商機- 股市爆料同學會 - CMoney",
-   "source": "CMoney",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE94QW1uNFdkcDBKOUxQWF9sOTFVWkNvc0dyTExLTGd2TVhCd01BdEJuR0t2UG5BUlFHRUk1Nm5KalhfbER3bE1hNGtpY0oxUlh2SWNaWnI0dE0?oc=5",
-   "date": "2026-10-11 12:12",
-   "publishedAt": "2026-10-11T12:12:11+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark",
-    "N1X"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "nvidia"
-   ],
-   "press": false,
-   "heat": 16,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "6231 系微- 系微搶攻輝達RTX Spark N1X 筆電商機- 股市爆料同學會 - CMoney",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "從地端模型到AI Agent自主部署 首款RTX Spark ASUS ProArt筆電預購 - Yahoo新聞",
-   "source": "Yahoo新聞",
-   "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPcFM0eVlrR1lSY3dXWVlRVnRpcTVBcGZoNVhxLXpvWVNWQXpIYUQwN1c2SENnXzMzUW5ndmZIbnhLclpDNUhORklzMHY5Q3BCbEhGWDFHbHBKSDc0Z2s3Tmc1bmVteTZuSGxOdlB5cjJsZm91bTJzclUxN2V3ZWVGMzREcU9YLUhEdXJPTHJGQldodkVVSkJXd3JHak5Jd20xajF3NmRKRHBRXzVjdWNOeWI3Nkd2blBvR3AydXYwQWRDaGtGWHd0Q0RfR3NEOWl5UWw4enBXUHRpSFNxTXZOZ3lzLWFwMGpxRWJjUURCamVyVG5KdnBvVXQ2WUY2SGhMaWc?oc=5",
-   "date": "2026-10-11 11:47",
-   "publishedAt": "2026-10-11T11:47:04+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "應用案例",
-   "camps": [
-    "asus"
-   ],
-   "press": false,
-   "heat": 16,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "從地端模型到AI Agent自主部署 首款RTX Spark ASUS ProArt筆電預購 - Yahoo新聞",
-     "summary": ""
     }
    }
   }
