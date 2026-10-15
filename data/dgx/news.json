@@ -1,8 +1,8 @@
 {
  "channel": "dgx",
  "version": "v26",
- "fetchedAt": "2026-10-14T10:57:37.886662+08:00",
- "edition": "2026-10-14",
+ "fetchedAt": "2026-10-15T11:02:55.117285+08:00",
+ "edition": "2026-10-15",
  "count": 5,
  "languages": [
   "zh-TW",
@@ -16,7 +16,7 @@
   "it"
  ],
  "byGroup": {
-  "asus": 2,
+  "asus": 1,
   "acer": 0,
   "hp": 0,
   "msi": 0,
@@ -24,17 +24,17 @@
   "lenovo": 0,
   "gigabyte": 0,
   "microsoft": 0,
-  "nvidia": 2
+  "nvidia": 3
  },
  "byLine": {},
  "items": [
   {
-   "title": "SELL Your NVIDIA DGX Spark NOW?! (This Is Getting INSANE)",
-   "source": "YouTube · Tech2WiLD",
-   "url": "https://www.youtube.com/watch?v=gK24zIiWDGA",
-   "date": "2026-10-14 06:41",
-   "publishedAt": "2026-10-14T06:41:04+08:00",
-   "summary": "Should you SELL your NVIDIA DGX Spark before it's too late?! With DGX Spark prices climbing from around $4,000 to $7,000, new AI hardware on the horizon, and competition heating up from Apple, AMD, In",
+   "title": "RTX Spark vs Mac for Local AI: Check These 3 Numbers Before Friday",
+   "source": "YouTube · Build Alone",
+   "url": "https://www.youtube.com/watch?v=LAYxDMvsVws",
+   "date": "2026-10-15 08:57",
+   "publishedAt": "2026-10-15T08:57:50+08:00",
+   "summary": "The RTX Spark laptops go on sale Friday, and nobody's allowed to post a benchmark until then. But the chip inside isn't new. It's the same silicon as NVIDIA's DGX Spark, and that box has been measured",
    "models": [
     "DGX Spark"
    ],
@@ -44,25 +44,118 @@
    ],
    "press": false,
    "heat": 100,
-   "image": "https://i.ytimg.com/vi/gK24zIiWDGA/mqdefault.jpg",
-   "views": 19356,
-   "comments": 69,
-   "dupes": 30,
+   "image": "https://i.ytimg.com/vi/LAYxDMvsVws/mqdefault.jpg",
+   "views": 14699,
+   "comments": 34,
+   "dupes": 27,
    "also": [
-    "YouTube · Chris Tech",
-    "YouTube · Baynum Tech Works",
-    "YouTube · SimplyExplain",
-    "YouTube · lamuh",
-    "YouTube · LearnCodez",
-    "YouTube · Kai"
+    "YouTube · Linuks Bilgisayar",
+    "YouTube · Local Explained",
+    "YouTube · Alex Ziskind",
+    "YouTube · Enki",
+    "YouTube · SciRes Tech",
+    "YouTube · Harban AI LABS"
    ],
    "lines": [],
-   "score": 243,
+   "score": 154,
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "SELL Your NVIDIA DGX Spark NOW?! (This Is Getting INSANE)",
-     "summary": "Should you SELL your NVIDIA DGX Spark before it's too late?! With DGX Spark prices climbing from around $4,000 to $7,000, new AI hardware on the horizon, and competition heating up from Apple, AMD, In"
+     "title": "RTX Spark vs Mac for Local AI: Check These 3 Numbers Before Friday",
+     "summary": "The RTX Spark laptops go on sale Friday, and nobody's allowed to post a benchmark until then. But the chip inside isn't new. It's the same silicon as NVIDIA's DGX Spark, and that box has been measured"
+    }
+   }
+  },
+  {
+   "title": "8 reasons the NVIDIA-powered Dell Pro Precision with GB10 could become every AI developer’s favorite tool - IT Pro",
+   "source": "IT Pro",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOLThxajA5NUlKUTd3XzZuUU5sd1g1aU5jUmtuOHhXSHQ5ZTVHWnlyWFBSUGhqbkVMVlZsVmxFYXk0cXViQTNpNWp5a3ZPNWIzVjJEZmo2LS1GVnl0MG95RUU4Z3pPWlR4aXpjeFpFb0JSWjdjbGZCelk3dThGRUF1N3E2SFZxYWF0T1EtdWNQRERiRFdJTE5WQ3NsQWVIcXRrZWJJUXI4cE5FT0EyRUFpQTNnM3c1ZkdKWDFtbTlCUEllcUJldUdpbHB6WXZJZFlF?oc=5",
+   "date": "2026-10-15 07:11",
+   "publishedAt": "2026-10-15T07:11:35+08:00",
+   "summary": "",
+   "models": [
+    "GB10"
+   ],
+   "tag": "應用案例",
+   "camps": [
+    "dell"
+   ],
+   "press": false,
+   "heat": 22,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "8 reasons the NVIDIA-powered Dell Pro Precision with GB10 could become every AI developer’s favorite tool - IT Pro",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "ASUS Ascent GX10 64GB: Powerful Local AI Upgrade - Techgenyz",
+   "source": "Techgenyz",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE81eVFyYTQzZHJXMnFnaUlmUV9jd0ktRXppaVo3RmNGWTMxS1hOTkstYlhONzUzRHJZRDBHZlNxckRpMkpKQzNqd3RNLTRZWFNFWl9wWEhOOA?oc=5",
+   "date": "2026-10-14 13:00",
+   "publishedAt": "2026-10-14T13:00:13+08:00",
+   "summary": "",
+   "models": [
+    "Ascent GX10"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "asus"
+   ],
+   "press": false,
+   "heat": 20,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "ASUS Ascent GX10 64GB: Powerful Local AI Upgrade - Techgenyz",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "AMD Ryzen AI Halo 192GB Loads Models No Rival Can: DGX Spark Still Wins on Speed - Tech Times",
+   "source": "Tech Times",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdk40ZHJmaFk3bWpmOExpYTZFNjY3VWEtS21hdzR2am9FSTJEYjNEWW9pNlNVSEc0dUhMak5uNnhtcXBGaEhSZ3VSQjlXcklBcDMxM1B6VVphVlVIQUtLcndNaHJOZnp5N1M0aFRYOFFVQUNDU3Ezd0xNbklreTFUWUhrTmVKX2pmVENQeFdrZFFYRjFYUkY3ajdFTmJVVV84SFBtWXIycXNuMjFrRXNNQ2t6QnhkcmgwYVk5QWxrLVB5ZTBRa3F2WUYzOA?oc=5",
+   "date": "2026-10-14 12:05",
+   "publishedAt": "2026-10-14T12:05:41+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 11,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "AMD Ryzen AI Halo 192GB Loads Models No Rival Can: DGX Spark Still Wins on Speed - Tech Times",
+     "summary": ""
     }
    }
   },
@@ -81,7 +174,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 12,
+   "heat": 8,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -93,100 +186,6 @@
    "i18n": {
     "en": {
      "title": "NVIDIA's 64GB DGX Spark Debuts at ~¥790,000, More Expensive Than 128GB Version's Launch Price - ASCII.jp",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "ASUS Ascent GX10 Gets A New 64GB Configuration To Lower The Entry Barrier For AI Development - Pokde.Net",
-   "source": "Pokde.Net",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8xd0J4V245WDhHMmlTd0Vpd3JxMzhNZF95RnVvZG92b1RPVURwSWNXRWFHbm5EWm5VakR1RW5hMzB4UzkzcGJ0SllYeVpScG9ITlU4RHRGUnB0SUYzWkVCcTVoUjd4RUgtNHc?oc=5",
-   "date": "2026-10-13 01:58",
-   "publishedAt": "2026-10-13T01:58:40+08:00",
-   "summary": "",
-   "models": [
-    "Ascent GX10"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "asus"
-   ],
-   "press": false,
-   "heat": 26,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 2,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "ASUS Ascent GX10 Gets A New 64GB Configuration To Lower The Entry Barrier For AI Development - Pokde.Net",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "8 reasons the NVIDIA-powered Dell Pro Precision with GB10 could become every AI developer’s favorite tool - IT Pro",
-   "source": "IT Pro",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOLThxajA5NUlKUTd3XzZuUU5sd1g1aU5jUmtuOHhXSHQ5ZTVHWnlyWFBSUGhqbkVMVlZsVmxFYXk0cXViQTNpNWp5a3ZPNWIzVjJEZmo2LS1GVnl0MG95RUU4Z3pPWlR4aXpjeFpFb0JSWjdjbGZCelk3dThGRUF1N3E2SFZxYWF0T1EtdWNQRERiRFdJTE5WQ3NsQWVIcXRrZWJJUXI4cE5FT0EyRUFpQTNnM3c1ZkdKWDFtbTlCUEllcUJldUdpbHB6WXZJZFlF?oc=5",
-   "date": "2026-10-13 00:14",
-   "publishedAt": "2026-10-13T00:14:52+08:00",
-   "summary": "",
-   "models": [
-    "GB10"
-   ],
-   "tag": "應用案例",
-   "camps": [
-    "dell"
-   ],
-   "press": false,
-   "heat": 18,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "8 reasons the NVIDIA-powered Dell Pro Precision with GB10 could become every AI developer’s favorite tool - IT Pro",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "ASUS’s ‘DGX Spark’ Ascent GX10 will get 64GB version targeting 30-35B class models - Tech Critter",
-   "source": "Tech Critter",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VTUN3Mzh3dWkzMHNOTDFyVHUxM3lnVk5uMGRXTVJZMUhrbEhRc2NhTTBXWU1UMmZEaWl3Z2R6V29yS3lfYzI5eFFqcWdVSUwwWVgxVGhScWJSLXpCd0VkcVo2V2FKLTAyeUE?oc=5",
-   "date": "2026-10-12 19:31",
-   "publishedAt": "2026-10-12T19:31:56+08:00",
-   "summary": "",
-   "models": [
-    "DGX Spark",
-    "Ascent GX10"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "asus"
-   ],
-   "press": false,
-   "heat": 25,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 2,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "ASUS’s ‘DGX Spark’ Ascent GX10 will get 64GB version targeting 30-35B class models - Tech Critter",
      "summary": ""
     }
    }

@@ -1,0 +1,194 @@
+{
+ "channel": "dgx",
+ "version": "v26",
+ "fetchedAt": "2026-10-15T11:02:55.117285+08:00",
+ "edition": "2026-10-15",
+ "count": 5,
+ "languages": [
+  "zh-TW",
+  "zh-CN",
+  "en",
+  "ja",
+  "ko",
+  "de",
+  "es",
+  "fr",
+  "it"
+ ],
+ "byGroup": {
+  "asus": 1,
+  "acer": 0,
+  "hp": 0,
+  "msi": 0,
+  "dell": 1,
+  "lenovo": 0,
+  "gigabyte": 0,
+  "microsoft": 0,
+  "nvidia": 3
+ },
+ "byLine": {},
+ "items": [
+  {
+   "title": "RTX Spark vs Mac for Local AI: Check These 3 Numbers Before Friday",
+   "source": "YouTube · Build Alone",
+   "url": "https://www.youtube.com/watch?v=LAYxDMvsVws",
+   "date": "2026-10-15 08:57",
+   "publishedAt": "2026-10-15T08:57:50+08:00",
+   "summary": "The RTX Spark laptops go on sale Friday, and nobody's allowed to post a benchmark until then. But the chip inside isn't new. It's the same silicon as NVIDIA's DGX Spark, and that box has been measured",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "影片",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 100,
+   "image": "https://i.ytimg.com/vi/LAYxDMvsVws/mqdefault.jpg",
+   "views": 14699,
+   "comments": 34,
+   "dupes": 27,
+   "also": [
+    "YouTube · Linuks Bilgisayar",
+    "YouTube · Local Explained",
+    "YouTube · Alex Ziskind",
+    "YouTube · Enki",
+    "YouTube · SciRes Tech",
+    "YouTube · Harban AI LABS"
+   ],
+   "lines": [],
+   "score": 154,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "RTX Spark vs Mac for Local AI: Check These 3 Numbers Before Friday",
+     "summary": "The RTX Spark laptops go on sale Friday, and nobody's allowed to post a benchmark until then. But the chip inside isn't new. It's the same silicon as NVIDIA's DGX Spark, and that box has been measured"
+    }
+   }
+  },
+  {
+   "title": "8 reasons the NVIDIA-powered Dell Pro Precision with GB10 could become every AI developer’s favorite tool - IT Pro",
+   "source": "IT Pro",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOLThxajA5NUlKUTd3XzZuUU5sd1g1aU5jUmtuOHhXSHQ5ZTVHWnlyWFBSUGhqbkVMVlZsVmxFYXk0cXViQTNpNWp5a3ZPNWIzVjJEZmo2LS1GVnl0MG95RUU4Z3pPWlR4aXpjeFpFb0JSWjdjbGZCelk3dThGRUF1N3E2SFZxYWF0T1EtdWNQRERiRFdJTE5WQ3NsQWVIcXRrZWJJUXI4cE5FT0EyRUFpQTNnM3c1ZkdKWDFtbTlCUEllcUJldUdpbHB6WXZJZFlF?oc=5",
+   "date": "2026-10-15 07:11",
+   "publishedAt": "2026-10-15T07:11:35+08:00",
+   "summary": "",
+   "models": [
+    "GB10"
+   ],
+   "tag": "應用案例",
+   "camps": [
+    "dell"
+   ],
+   "press": false,
+   "heat": 22,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "8 reasons the NVIDIA-powered Dell Pro Precision with GB10 could become every AI developer’s favorite tool - IT Pro",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "ASUS Ascent GX10 64GB: Powerful Local AI Upgrade - Techgenyz",
+   "source": "Techgenyz",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE81eVFyYTQzZHJXMnFnaUlmUV9jd0ktRXppaVo3RmNGWTMxS1hOTkstYlhONzUzRHJZRDBHZlNxckRpMkpKQzNqd3RNLTRZWFNFWl9wWEhOOA?oc=5",
+   "date": "2026-10-14 13:00",
+   "publishedAt": "2026-10-14T13:00:13+08:00",
+   "summary": "",
+   "models": [
+    "Ascent GX10"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "asus"
+   ],
+   "press": false,
+   "heat": 20,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "ASUS Ascent GX10 64GB: Powerful Local AI Upgrade - Techgenyz",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "AMD Ryzen AI Halo 192GB Loads Models No Rival Can: DGX Spark Still Wins on Speed - Tech Times",
+   "source": "Tech Times",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdk40ZHJmaFk3bWpmOExpYTZFNjY3VWEtS21hdzR2am9FSTJEYjNEWW9pNlNVSEc0dUhMak5uNnhtcXBGaEhSZ3VSQjlXcklBcDMxM1B6VVphVlVIQUtLcndNaHJOZnp5N1M0aFRYOFFVQUNDU3Ezd0xNbklreTFUWUhrTmVKX2pmVENQeFdrZFFYRjFYUkY3ajdFTmJVVV84SFBtWXIycXNuMjFrRXNNQ2t6QnhkcmgwYVk5QWxrLVB5ZTBRa3F2WUYzOA?oc=5",
+   "date": "2026-10-14 12:05",
+   "publishedAt": "2026-10-14T12:05:41+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 11,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "AMD Ryzen AI Halo 192GB Loads Models No Rival Can: DGX Spark Still Wins on Speed - Tech Times",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "NVIDIA's 64GB DGX Spark Debuts at ~¥790,000, More Expensive Than 128GB Version's Launch Price - ASCII.jp",
+   "source": "ASCII.jp",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB2NEIyMVFwQTRrQ3hwR19SS1JGOExGdGpSdURQUVNwa3NpUFJiaFRaMnlUY2poSEoyVmJkNmNFbFY5Y0V2blJTcWtZSkg1T0F5TlJLcUlpSkY?oc=5",
+   "date": "2026-10-13 14:45",
+   "publishedAt": "2026-10-13T14:45:00+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "價格上市",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 8,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "NVIDIA's 64GB DGX Spark Debuts at ~¥790,000, More Expensive Than 128GB Version's Launch Price - ASCII.jp",
+     "summary": ""
+    }
+   }
+  }
+ ]
+}
