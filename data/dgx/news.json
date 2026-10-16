@@ -1,9 +1,9 @@
 {
  "channel": "dgx",
  "version": "v26",
- "fetchedAt": "2026-10-15T11:02:55.117285+08:00",
- "edition": "2026-10-15",
- "count": 5,
+ "fetchedAt": "2026-10-16T11:08:03.865825+08:00",
+ "edition": "2026-10-16",
+ "count": 7,
  "languages": [
   "zh-TW",
   "zh-CN",
@@ -22,19 +22,19 @@
   "msi": 0,
   "dell": 1,
   "lenovo": 0,
-  "gigabyte": 0,
+  "gigabyte": 1,
   "microsoft": 0,
-  "nvidia": 3
+  "nvidia": 4
  },
  "byLine": {},
  "items": [
   {
-   "title": "RTX Spark vs Mac for Local AI: Check These 3 Numbers Before Friday",
-   "source": "YouTube · Build Alone",
-   "url": "https://www.youtube.com/watch?v=LAYxDMvsVws",
-   "date": "2026-10-15 08:57",
-   "publishedAt": "2026-10-15T08:57:50+08:00",
-   "summary": "The RTX Spark laptops go on sale Friday, and nobody's allowed to post a benchmark until then. But the chip inside isn't new. It's the same silicon as NVIDIA's DGX Spark, and that box has been measured",
+   "title": "Local AI 2026: From an RTX 3090 to a DGX Spark Cluster",
+   "source": "YouTube · Michael Kerkhoff · KI in der Praxis",
+   "url": "https://www.youtube.com/watch?v=BwSByPAPs2U",
+   "date": "2026-10-16 08:18",
+   "publishedAt": "2026-10-16T08:18:16+08:00",
+   "summary": "In May, Claude Opus 4.8 was one of the strongest AI models in the world – cloud-only, on a monthly subscription. Today, GLM 5.3 Flash reaches exactly the same score on the Artificial Analysis Intellig",
    "models": [
     "DGX Spark"
    ],
@@ -44,25 +44,118 @@
    ],
    "press": false,
    "heat": 100,
-   "image": "https://i.ytimg.com/vi/LAYxDMvsVws/mqdefault.jpg",
-   "views": 14699,
-   "comments": 34,
-   "dupes": 27,
+   "image": "https://i.ytimg.com/vi/BwSByPAPs2U/mqdefault.jpg",
+   "views": 29818,
+   "comments": 321,
+   "dupes": 23,
    "also": [
-    "YouTube · Linuks Bilgisayar",
-    "YouTube · Local Explained",
+    "YouTube · Compute Clearly",
+    "YouTube · Toravo",
+    "YouTube · Kai",
+    "YouTube · Tech Field Day",
     "YouTube · Alex Ziskind",
-    "YouTube · Enki",
-    "YouTube · SciRes Tech",
-    "YouTube · Harban AI LABS"
+    "YouTube · SimplyExplain"
    ],
    "lines": [],
-   "score": 154,
+   "score": 737,
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "RTX Spark vs Mac for Local AI: Check These 3 Numbers Before Friday",
-     "summary": "The RTX Spark laptops go on sale Friday, and nobody's allowed to post a benchmark until then. But the chip inside isn't new. It's the same silicon as NVIDIA's DGX Spark, and that box has been measured"
+     "title": "Local AI 2026: From an RTX 3090 to a DGX Spark Cluster",
+     "summary": "In May, Claude Opus 4.8 was one of the strongest AI models in the world – cloud-only, on a monthly subscription. Today, GLM 5.3 Flash reaches exactly the same score on the Artificial Analysis Intellig"
+    }
+   }
+  },
+  {
+   "title": "GIGABYTE's New \"AI TOP ATOM\" Model Features Up to 1 PetaFLOP FP4 AI Performance and 2TB SSD - ASCII.jp",
+   "source": "ASCII.jp",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAzdzZMeHd6NGtwc1pMT1daS1gzd09XcGRKem9RYUN6RHczZG9CZEZRWEFZeUdvSmJVa1dxNmp6Q0xJZ0RkT2xFZkp2SE02ckhTV3NGY0RYOHc?oc=5",
+   "date": "2026-10-16 08:00",
+   "publishedAt": "2026-10-16T08:00:00+08:00",
+   "summary": "",
+   "models": [
+    "AI TOP ATOM"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "gigabyte"
+   ],
+   "press": false,
+   "heat": 23,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "GIGABYTE's New \"AI TOP ATOM\" Model Features Up to 1 PetaFLOP FP4 AI Performance and 2TB SSD - ASCII.jp",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "A Chinese rival to DGX Spark and Ryzen AI Halo emerges in Sipeed’s AX8860-based MaixStation - Tom's Hardware",
+   "source": "Tom's Hardware",
+   "url": "https://news.google.com/rss/articles/CBMi4gJBVV95cUxNc01QU040VHFNYnlmUTI4bURMN1FVcU40Q1VpNnN6c1hiYmlLQVJyU3p4QWhfSWRiVjlBM2RldHNnczVvdnM4OU5feV8wYl94cUQ5bHVELUJkV1NYYTRqTllGNUVyMUI5Qlpod0NVN3doVlJaTU9oU1Y3dDhtUGRnbThQM3Q3aUFsYkFva3F4ZDUzQS00MXFCd0QxcHAwSlF1dUd3b21UVVVCUlh5OGpPSXJMYWdpN3lmcXJBOS1nRWd2SDVIQmtycE1iUV9fRms2SzFmM2NBYlhhbUNUM3c2bThpSFRTR0pwSVZudFdtMnQxcEhqUGVLd0xfajA1b2tYOGlYRVRLYVhfc0NYNmYxSnV4X2FoUWxLeGRnbGpVcmpSVnBoRkxhYnJnbHFnNWp3dUgtUzhfbGg0ZnZ4VVZvWXdYa2E5TnlCTW5MX1BJYlNnbEdmRmVCMUo0RkdZQjFaMlE?oc=5",
+   "date": "2026-10-15 22:30",
+   "publishedAt": "2026-10-15T22:30:00+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "A Chinese rival to DGX Spark and Ryzen AI Halo emerges in Sipeed’s AX8860-based MaixStation - Tom's Hardware",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Sipeed reveals Chinese-made DGX Spark and Ryzen AI Halo rival, expected to cost $3,999",
+   "source": "Tom's Hardware",
+   "url": "https://www.tomshardware.com/desktops/mini-pcs/sipeed-reveals-chinese-made-dgx-spark-and-ryzen-ai-halo-rival-expected-to-cost-usd3-999-maixstation-pairs-axeras-ax8860p-with-128gb-of-lpddr5x-at-273-gb-s-with-promising-local-ai-performance-claims",
+   "date": "2026-10-15 22:30",
+   "publishedAt": "2026-10-15T22:30:00+08:00",
+   "summary": "Sipeed’s MaixStation pairs Axera’s AX8860P with 128GB of LPDDR5X at 273 GB/s to take on Nvidia’s DGX Spark and AMD’s Ryzen AI Halo.",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "https://cdn.mos.cms.futurecdn.net/qJ8AzHF86C7AK4DgmNfWmf-1920-80.jpg",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Sipeed reveals Chinese-made DGX Spark and Ryzen AI Halo rival, expected to cost $3,999",
+     "summary": "Sipeed’s MaixStation pairs Axera’s AX8860P with 128GB of LPDDR5X at 273 GB/s to take on Nvidia’s DGX Spark and AMD’s Ryzen AI Halo."
     }
    }
   },
@@ -70,8 +163,8 @@
    "title": "8 reasons the NVIDIA-powered Dell Pro Precision with GB10 could become every AI developer’s favorite tool - IT Pro",
    "source": "IT Pro",
    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOLThxajA5NUlKUTd3XzZuUU5sd1g1aU5jUmtuOHhXSHQ5ZTVHWnlyWFBSUGhqbkVMVlZsVmxFYXk0cXViQTNpNWp5a3ZPNWIzVjJEZmo2LS1GVnl0MG95RUU4Z3pPWlR4aXpjeFpFb0JSWjdjbGZCelk3dThGRUF1N3E2SFZxYWF0T1EtdWNQRERiRFdJTE5WQ3NsQWVIcXRrZWJJUXI4cE5FT0EyRUFpQTNnM3c1ZkdKWDFtbTlCUEllcUJldUdpbHB6WXZJZFlF?oc=5",
-   "date": "2026-10-15 07:11",
-   "publishedAt": "2026-10-15T07:11:35+08:00",
+   "date": "2026-10-14 23:26",
+   "publishedAt": "2026-10-14T23:26:12+08:00",
    "summary": "",
    "models": [
     "GB10"
@@ -81,7 +174,7 @@
     "dell"
    ],
    "press": false,
-   "heat": 22,
+   "heat": 17,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -112,7 +205,7 @@
     "asus"
    ],
    "press": false,
-   "heat": 20,
+   "heat": 16,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -143,37 +236,6 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 11,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "AMD Ryzen AI Halo 192GB Loads Models No Rival Can: DGX Spark Still Wins on Speed - Tech Times",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "NVIDIA's 64GB DGX Spark Debuts at ~¥790,000, More Expensive Than 128GB Version's Launch Price - ASCII.jp",
-   "source": "ASCII.jp",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB2NEIyMVFwQTRrQ3hwR19SS1JGOExGdGpSdURQUVNwa3NpUFJiaFRaMnlUY2poSEoyVmJkNmNFbFY5Y0V2blJTcWtZSkg1T0F5TlJLcUlpSkY?oc=5",
-   "date": "2026-10-13 14:45",
-   "publishedAt": "2026-10-13T14:45:00+08:00",
-   "summary": "",
-   "models": [
-    "DGX Spark"
-   ],
-   "tag": "價格上市",
-   "camps": [
-    "nvidia"
-   ],
-   "press": false,
    "heat": 8,
    "image": "",
    "views": 0,
@@ -185,7 +247,7 @@
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "NVIDIA's 64GB DGX Spark Debuts at ~¥790,000, More Expensive Than 128GB Version's Launch Price - ASCII.jp",
+     "title": "AMD Ryzen AI Halo 192GB Loads Models No Rival Can: DGX Spark Still Wins on Speed - Tech Times",
      "summary": ""
     }
    }
