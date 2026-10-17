@@ -1,0 +1,227 @@
+{
+ "channel": "dgx",
+ "version": "v26",
+ "fetchedAt": "2026-10-17T11:13:26.914741+08:00",
+ "edition": "2026-10-17",
+ "count": 6,
+ "languages": [
+  "zh-TW",
+  "zh-CN",
+  "en",
+  "ja",
+  "ko",
+  "de",
+  "es",
+  "fr",
+  "it"
+ ],
+ "byGroup": {
+  "asus": 1,
+  "acer": 0,
+  "hp": 0,
+  "msi": 1,
+  "dell": 0,
+  "lenovo": 0,
+  "gigabyte": 1,
+  "microsoft": 1,
+  "nvidia": 4
+ },
+ "byLine": {},
+ "items": [
+  {
+   "title": "Is the RTX Spark the Everything Laptop?",
+   "source": "YouTube · UnderJim",
+   "url": "https://www.youtube.com/watch?v=K8WTyaCoyNs",
+   "date": "2026-10-17 08:17",
+   "publishedAt": "2026-10-17T08:17:18+08:00",
+   "summary": "NVIDIA's RTX Spark laptops are here: the same chip family as the DGX Spark, up to 128GB of unified memory and Windows, from ASUS, MSI and Microsoft. So what are they actually good at? The AI side (a 1",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "影片",
+   "camps": [
+    "asus",
+    "msi",
+    "microsoft"
+   ],
+   "press": false,
+   "heat": 100,
+   "image": "https://i.ytimg.com/vi/K8WTyaCoyNs/mqdefault.jpg",
+   "views": 141996,
+   "comments": 322,
+   "dupes": 20,
+   "also": [
+    "YouTube · AI Decoded",
+    "YouTube · Rodrigo Vera",
+    "YouTube · Mind The Prompt",
+    "YouTube · tech warehouse | テクノロジーを数字で読む",
+    "YouTube · OfflineStack AI",
+    "YouTube · ServerFlow - серверы и серверные комплектующие"
+   ],
+   "lines": [],
+   "score": 2239,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Is the RTX Spark the Everything Laptop?",
+     "summary": "NVIDIA's RTX Spark laptops are here: the same chip family as the DGX Spark, up to 128GB of unified memory and Windows, from ASUS, MSI and Microsoft. So what are they actually good at? The AI side (a 1"
+    }
+   }
+  },
+  {
+   "title": "Mac Studio M5 Max or DGX Spark? Local AI Compared, With Prices - Pasquale Pillitteri",
+   "source": "Pasquale Pillitteri",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOdVg3NFNoTXFlZGJqZXJrSmhlMGdaeUVSTUlfYUluRHlWdnZBNVFBN3AyX3VjV1d1ODdZdW5SNWR1WFlwckFHaUdKcS1EVHp0SlNfQWRGX0NZaXhJUHM1OVlwTUFTWlVTdXpGbG1BT1AyVWIyWUFuQmdCYUNpUHlac3dYUUpNSVNvNEM0?oc=5",
+   "date": "2026-10-17 01:56",
+   "publishedAt": "2026-10-17T01:56:28+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "價格上市",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 30,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 2,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Mac Studio M5 Max or DGX Spark? Local AI Compared, With Prices - Pasquale Pillitteri",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "NVIDIA 推 Nemotron 3.5 Super VL，1200億參數可在 DGX Spark 本機執行 - 自由時報",
+   "source": "自由時報",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE95cE5DUXdUQjd5UTVTa0NCTVR2bXVNRFhnd1JtM2JYTk5rc0FWelh0TjRzOGJ1Z0w4T0pIRHluMVA0OHBGdWhtRTV1d3NhQWlra2FVWmdBMnZFZWQ5OXNsZkVsSm5DMTI1eVA40gFwQVVfeXFMUGdoczNyd3ZEVF96QWY5YjNkX2E1UzE4OE5yZGFkSWFDQWx2RC0zQnZtOS1xQjFjb3hFNDZnU3EyTG1FWkFLN3JIYnlxQmllaVM3X0J6eHpTc2VQMjdYMkRoNE5BUUdSOVZGd3hjUXpLcw?oc=5",
+   "date": "2026-10-16 21:13",
+   "publishedAt": "2026-10-16T21:13:27+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 21,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "NVIDIA 推 Nemotron 3.5 Super VL，1200億參數可在 DGX Spark 本機執行 - 自由時報",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "GIGABYTE's New \"AI TOP ATOM\" Model Features Up to 1 PetaFLOP FP4 AI Performance and 2TB SSD - ASCII.jp",
+   "source": "ASCII.jp",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAzdzZMeHd6NGtwc1pMT1daS1gzd09XcGRKem9RYUN6RHczZG9CZEZRWEFZeUdvSmJVa1dxNmp6Q0xJZ0RkT2xFZkp2SE02ckhTV3NGY0RYOHc?oc=5",
+   "date": "2026-10-16 08:00",
+   "publishedAt": "2026-10-16T08:00:00+08:00",
+   "summary": "",
+   "models": [
+    "AI TOP ATOM"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "gigabyte"
+   ],
+   "press": false,
+   "heat": 19,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "GIGABYTE's New \"AI TOP ATOM\" Model Features Up to 1 PetaFLOP FP4 AI Performance and 2TB SSD - ASCII.jp",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "A Chinese rival to DGX Spark and Ryzen AI Halo emerges in Sipeed’s AX8860-based MaixStation - Tom's Hardware",
+   "source": "Tom's Hardware",
+   "url": "https://news.google.com/rss/articles/CBMi4gJBVV95cUxNc01QU040VHFNYnlmUTI4bURMN1FVcU40Q1VpNnN6c1hiYmlLQVJyU3p4QWhfSWRiVjlBM2RldHNnczVvdnM4OU5feV8wYl94cUQ5bHVELUJkV1NYYTRqTllGNUVyMUI5Qlpod0NVN3doVlJaTU9oU1Y3dDhtUGRnbThQM3Q3aUFsYkFva3F4ZDUzQS00MXFCd0QxcHAwSlF1dUd3b21UVVVCUlh5OGpPSXJMYWdpN3lmcXJBOS1nRWd2SDVIQmtycE1iUV9fRms2SzFmM2NBYlhhbUNUM3c2bThpSFRTR0pwSVZudFdtMnQxcEhqUGVLd0xfajA1b2tYOGlYRVRLYVhfc0NYNmYxSnV4X2FoUWxLeGRnbGpVcmpSVnBoRkxhYnJnbHFnNWp3dUgtUzhfbGg0ZnZ4VVZvWXdYa2E5TnlCTW5MX1BJYlNnbEdmRmVCMUo0RkdZQjFaMlE?oc=5",
+   "date": "2026-10-15 22:30",
+   "publishedAt": "2026-10-15T22:30:00+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 9,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "A Chinese rival to DGX Spark and Ryzen AI Halo emerges in Sipeed’s AX8860-based MaixStation - Tom's Hardware",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Sipeed reveals Chinese-made DGX Spark and Ryzen AI Halo rival, expected to cost $3,999",
+   "source": "Tom's Hardware",
+   "url": "https://www.tomshardware.com/desktops/mini-pcs/sipeed-reveals-chinese-made-dgx-spark-and-ryzen-ai-halo-rival-expected-to-cost-usd3-999-maixstation-pairs-axeras-ax8860p-with-128gb-of-lpddr5x-at-273-gb-s-with-promising-local-ai-performance-claims",
+   "date": "2026-10-15 22:30",
+   "publishedAt": "2026-10-15T22:30:00+08:00",
+   "summary": "Sipeed’s MaixStation pairs Axera’s AX8860P with 128GB of LPDDR5X at 273 GB/s to take on Nvidia’s DGX Spark and AMD’s Ryzen AI Halo.",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 9,
+   "image": "https://cdn.mos.cms.futurecdn.net/qJ8AzHF86C7AK4DgmNfWmf-1920-80.jpg",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Sipeed reveals Chinese-made DGX Spark and Ryzen AI Halo rival, expected to cost $3,999",
+     "summary": "Sipeed’s MaixStation pairs Axera’s AX8860P with 128GB of LPDDR5X at 273 GB/s to take on Nvidia’s DGX Spark and AMD’s Ryzen AI Halo."
+    }
+   }
+  }
+ ]
+}

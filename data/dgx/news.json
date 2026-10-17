@@ -1,9 +1,9 @@
 {
  "channel": "dgx",
  "version": "v26",
- "fetchedAt": "2026-10-16T11:08:03.865825+08:00",
- "edition": "2026-10-16",
- "count": 7,
+ "fetchedAt": "2026-10-17T11:13:26.914741+08:00",
+ "edition": "2026-10-17",
+ "count": 6,
  "languages": [
   "zh-TW",
   "zh-CN",
@@ -19,50 +19,114 @@
   "asus": 1,
   "acer": 0,
   "hp": 0,
-  "msi": 0,
-  "dell": 1,
+  "msi": 1,
+  "dell": 0,
   "lenovo": 0,
   "gigabyte": 1,
-  "microsoft": 0,
+  "microsoft": 1,
   "nvidia": 4
  },
  "byLine": {},
  "items": [
   {
-   "title": "Local AI 2026: From an RTX 3090 to a DGX Spark Cluster",
-   "source": "YouTube · Michael Kerkhoff · KI in der Praxis",
-   "url": "https://www.youtube.com/watch?v=BwSByPAPs2U",
-   "date": "2026-10-16 08:18",
-   "publishedAt": "2026-10-16T08:18:16+08:00",
-   "summary": "In May, Claude Opus 4.8 was one of the strongest AI models in the world – cloud-only, on a monthly subscription. Today, GLM 5.3 Flash reaches exactly the same score on the Artificial Analysis Intellig",
+   "title": "Is the RTX Spark the Everything Laptop?",
+   "source": "YouTube · UnderJim",
+   "url": "https://www.youtube.com/watch?v=K8WTyaCoyNs",
+   "date": "2026-10-17 08:17",
+   "publishedAt": "2026-10-17T08:17:18+08:00",
+   "summary": "NVIDIA's RTX Spark laptops are here: the same chip family as the DGX Spark, up to 128GB of unified memory and Windows, from ASUS, MSI and Microsoft. So what are they actually good at? The AI side (a 1",
    "models": [
     "DGX Spark"
    ],
    "tag": "影片",
    "camps": [
-    "nvidia"
+    "asus",
+    "msi",
+    "microsoft"
    ],
    "press": false,
    "heat": 100,
-   "image": "https://i.ytimg.com/vi/BwSByPAPs2U/mqdefault.jpg",
-   "views": 29818,
-   "comments": 321,
-   "dupes": 23,
+   "image": "https://i.ytimg.com/vi/K8WTyaCoyNs/mqdefault.jpg",
+   "views": 141996,
+   "comments": 322,
+   "dupes": 20,
    "also": [
-    "YouTube · Compute Clearly",
-    "YouTube · Toravo",
-    "YouTube · Kai",
-    "YouTube · Tech Field Day",
-    "YouTube · Alex Ziskind",
-    "YouTube · SimplyExplain"
+    "YouTube · AI Decoded",
+    "YouTube · Rodrigo Vera",
+    "YouTube · Mind The Prompt",
+    "YouTube · tech warehouse | テクノロジーを数字で読む",
+    "YouTube · OfflineStack AI",
+    "YouTube · ServerFlow - серверы и серверные комплектующие"
    ],
    "lines": [],
-   "score": 737,
+   "score": 2239,
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "Local AI 2026: From an RTX 3090 to a DGX Spark Cluster",
-     "summary": "In May, Claude Opus 4.8 was one of the strongest AI models in the world – cloud-only, on a monthly subscription. Today, GLM 5.3 Flash reaches exactly the same score on the Artificial Analysis Intellig"
+     "title": "Is the RTX Spark the Everything Laptop?",
+     "summary": "NVIDIA's RTX Spark laptops are here: the same chip family as the DGX Spark, up to 128GB of unified memory and Windows, from ASUS, MSI and Microsoft. So what are they actually good at? The AI side (a 1"
+    }
+   }
+  },
+  {
+   "title": "Mac Studio M5 Max or DGX Spark? Local AI Compared, With Prices - Pasquale Pillitteri",
+   "source": "Pasquale Pillitteri",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOdVg3NFNoTXFlZGJqZXJrSmhlMGdaeUVSTUlfYUluRHlWdnZBNVFBN3AyX3VjV1d1ODdZdW5SNWR1WFlwckFHaUdKcS1EVHp0SlNfQWRGX0NZaXhJUHM1OVlwTUFTWlVTdXpGbG1BT1AyVWIyWUFuQmdCYUNpUHlac3dYUUpNSVNvNEM0?oc=5",
+   "date": "2026-10-17 01:56",
+   "publishedAt": "2026-10-17T01:56:28+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "價格上市",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 30,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 2,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Mac Studio M5 Max or DGX Spark? Local AI Compared, With Prices - Pasquale Pillitteri",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "NVIDIA 推 Nemotron 3.5 Super VL，1200億參數可在 DGX Spark 本機執行 - 自由時報",
+   "source": "自由時報",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE95cE5DUXdUQjd5UTVTa0NCTVR2bXVNRFhnd1JtM2JYTk5rc0FWelh0TjRzOGJ1Z0w4T0pIRHluMVA0OHBGdWhtRTV1d3NhQWlra2FVWmdBMnZFZWQ5OXNsZkVsSm5DMTI1eVA40gFwQVVfeXFMUGdoczNyd3ZEVF96QWY5YjNkX2E1UzE4OE5yZGFkSWFDQWx2RC0zQnZtOS1xQjFjb3hFNDZnU3EyTG1FWkFLN3JIYnlxQmllaVM3X0J6eHpTc2VQMjdYMkRoNE5BUUdSOVZGd3hjUXpLcw?oc=5",
+   "date": "2026-10-16 21:13",
+   "publishedAt": "2026-10-16T21:13:27+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 21,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "NVIDIA 推 Nemotron 3.5 Super VL，1200億參數可在 DGX Spark 本機執行 - 自由時報",
+     "summary": ""
     }
    }
   },
@@ -81,7 +145,7 @@
     "gigabyte"
    ],
    "press": false,
-   "heat": 23,
+   "heat": 19,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -112,7 +176,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 13,
+   "heat": 9,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -143,7 +207,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 13,
+   "heat": 9,
    "image": "https://cdn.mos.cms.futurecdn.net/qJ8AzHF86C7AK4DgmNfWmf-1920-80.jpg",
    "views": 0,
    "comments": 0,
@@ -156,99 +220,6 @@
     "en": {
      "title": "Sipeed reveals Chinese-made DGX Spark and Ryzen AI Halo rival, expected to cost $3,999",
      "summary": "Sipeed’s MaixStation pairs Axera’s AX8860P with 128GB of LPDDR5X at 273 GB/s to take on Nvidia’s DGX Spark and AMD’s Ryzen AI Halo."
-    }
-   }
-  },
-  {
-   "title": "8 reasons the NVIDIA-powered Dell Pro Precision with GB10 could become every AI developer’s favorite tool - IT Pro",
-   "source": "IT Pro",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOLThxajA5NUlKUTd3XzZuUU5sd1g1aU5jUmtuOHhXSHQ5ZTVHWnlyWFBSUGhqbkVMVlZsVmxFYXk0cXViQTNpNWp5a3ZPNWIzVjJEZmo2LS1GVnl0MG95RUU4Z3pPWlR4aXpjeFpFb0JSWjdjbGZCelk3dThGRUF1N3E2SFZxYWF0T1EtdWNQRERiRFdJTE5WQ3NsQWVIcXRrZWJJUXI4cE5FT0EyRUFpQTNnM3c1ZkdKWDFtbTlCUEllcUJldUdpbHB6WXZJZFlF?oc=5",
-   "date": "2026-10-14 23:26",
-   "publishedAt": "2026-10-14T23:26:12+08:00",
-   "summary": "",
-   "models": [
-    "GB10"
-   ],
-   "tag": "應用案例",
-   "camps": [
-    "dell"
-   ],
-   "press": false,
-   "heat": 17,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "8 reasons the NVIDIA-powered Dell Pro Precision with GB10 could become every AI developer’s favorite tool - IT Pro",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "ASUS Ascent GX10 64GB: Powerful Local AI Upgrade - Techgenyz",
-   "source": "Techgenyz",
-   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE81eVFyYTQzZHJXMnFnaUlmUV9jd0ktRXppaVo3RmNGWTMxS1hOTkstYlhONzUzRHJZRDBHZlNxckRpMkpKQzNqd3RNLTRZWFNFWl9wWEhOOA?oc=5",
-   "date": "2026-10-14 13:00",
-   "publishedAt": "2026-10-14T13:00:13+08:00",
-   "summary": "",
-   "models": [
-    "Ascent GX10"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "asus"
-   ],
-   "press": false,
-   "heat": 16,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "ASUS Ascent GX10 64GB: Powerful Local AI Upgrade - Techgenyz",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "AMD Ryzen AI Halo 192GB Loads Models No Rival Can: DGX Spark Still Wins on Speed - Tech Times",
-   "source": "Tech Times",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdk40ZHJmaFk3bWpmOExpYTZFNjY3VWEtS21hdzR2am9FSTJEYjNEWW9pNlNVSEc0dUhMak5uNnhtcXBGaEhSZ3VSQjlXcklBcDMxM1B6VVphVlVIQUtLcndNaHJOZnp5N1M0aFRYOFFVQUNDU3Ezd0xNbklreTFUWUhrTmVKX2pmVENQeFdrZFFYRjFYUkY3ajdFTmJVVV84SFBtWXIycXNuMjFrRXNNQ2t6QnhkcmgwYVk5QWxrLVB5ZTBRa3F2WUYzOA?oc=5",
-   "date": "2026-10-14 12:05",
-   "publishedAt": "2026-10-14T12:05:41+08:00",
-   "summary": "",
-   "models": [
-    "DGX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "nvidia"
-   ],
-   "press": false,
-   "heat": 8,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "AMD Ryzen AI Halo 192GB Loads Models No Rival Can: DGX Spark Still Wins on Speed - Tech Times",
-     "summary": ""
     }
    }
   }
