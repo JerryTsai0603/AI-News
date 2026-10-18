@@ -1,0 +1,1869 @@
+{
+ "channel": "models",
+ "version": "v26",
+ "fetchedAt": "2026-10-18T11:15:30.995056+08:00",
+ "edition": "2026-10-18",
+ "count": 60,
+ "languages": [
+  "zh-TW",
+  "zh-CN",
+  "en",
+  "ja",
+  "ko",
+  "de",
+  "es",
+  "fr",
+  "it"
+ ],
+ "byGroup": {
+  "openai": 15,
+  "anthropic": 16,
+  "google": 6,
+  "meta": 0,
+  "cn": 21,
+  "other": 14
+ },
+ "byLine": {},
+ "items": [
+  {
+   "title": "Anthropic發佈內部就業報告：智能體工時達到人類6倍，“元工作時代”來了 - 鉅亨號",
+   "source": "鉅亨號",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1ra3VBMkJRNVNoaGdhVUhqOUw4NjJrRXM0TXA4ckttM25vZFBwcExWVkloRDI3cHdUMWd2T0xyRlJXN19zWm1aNg?oc=5",
+   "date": "2026-10-18 11:10",
+   "publishedAt": "2026-10-18T11:10:40+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "Anthropic發佈內部就業報告：智能體工時達到人類6倍，“元工作時代”來了 - 鉅亨號",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Claude AI enables fully edited videos from raw footage with simple text #AI #AITools #VideoEditing",
+   "source": "YouTube · Roddy Lawson",
+   "url": "https://www.youtube.com/watch?v=Bplv33bUxyo",
+   "date": "2026-10-18 10:53",
+   "publishedAt": "2026-10-18T10:53:51+08:00",
+   "summary": "Claude edited the entire video from raw footage using only simple verbal instructions. The AI-driven editing tool transforms rough clips into polished, aesthetic videos without manual app usage, offer",
+   "models": [
+    "Claude"
+   ],
+   "tag": "影片",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 100,
+   "image": "https://i.ytimg.com/vi/Bplv33bUxyo/mqdefault.jpg",
+   "views": 46272,
+   "comments": 173,
+   "dupes": 71,
+   "also": [
+    "YouTube · HOW_TO_DO_EVREYTHING",
+    "YouTube · KlipRok AI",
+    "YouTube · AiSiDaily5Min",
+    "YouTube · ARRIVED FROM SHOWA",
+    "YouTube · Riso-AI",
+    "YouTube · kevin "
+   ],
+   "lines": [],
+   "score": 2132,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Claude AI enables fully edited videos from raw footage with simple text #AI #AITools #VideoEditing",
+     "summary": "Claude edited the entire video from raw footage using only simple verbal instructions. The AI-driven editing tool transforms rough clips into polished, aesthetic videos without manual app usage, offer"
+    }
+   }
+  },
+  {
+   "title": "梁聖又掀桌了！DeepSeek新模型斬殺GPT-6，許願式程式設計時代降臨 - 鉅亨號",
+   "source": "鉅亨號",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1LM1dlNGRhcFVlVG5GMGZGNXQ5WWxSdUZuVzJwb19maDlQcnZ4QVMwVHZXc09NMUN6dlROdWxGdlhNTUJHVEZSTg?oc=5",
+   "date": "2026-10-18 10:36",
+   "publishedAt": "2026-10-18T10:36:50+08:00",
+   "summary": "",
+   "models": [
+    "DeepSeek"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "cn"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "梁聖又掀桌了！DeepSeek新模型斬殺GPT-6，許願式程式設計時代降臨 - 鉅亨號",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "AI 普及但付費意願低，a16z 調查：消費者 AI 市場「極度兩極化」 - TechNews 科技新報",
+   "source": "TechNews 科技新報",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNaTBaM0haZG90TjhzMVhVQ2xxY3dtUGgtdXFsYUZzTTJYVXQ1cml4dWlqODU3Ql9jU21XY3g3MmV1RWR1VzlNekFCWlZla0ZQSEhsaU5JYzJvMjBlR2RDWFBOQlg2NEZVYmlFeUZ3S3piMnBkTFdQYURBa3dCNEVTYmNMV2dUem5YUjQySGNwZmJGbGFl?oc=5",
+   "date": "2026-10-18 10:34",
+   "publishedAt": "2026-10-18T10:34:46+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "AI 普及但付費意願低，a16z 調查：消費者 AI 市場「極度兩極化」 - TechNews 科技新報",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Gemini 4 Argon：為解決你最棘手的難題而生 - blog.google",
+   "source": "blog.google",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTkh1TWdtV29lRkptcS1hal9PZ25qcDROc0JyQ3dyQ29yaW4zUVQwNXlIU0JUeFdPc2lHNG9jOEFjQ0pIUm1fUlVHZzdRTjVYV284MnlEeVg4czZjTklQS2VORUVvd3dZY01lSDVKczhUbTlvUU1fblZPSkJRM1dIeVZDNmhqRjRNTHh1aDhiZGc?oc=5",
+   "date": "2026-10-18 09:49",
+   "publishedAt": "2026-10-18T09:49:09+08:00",
+   "summary": "",
+   "models": [
+    "Gemini"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "google"
+   ],
+   "press": false,
+   "heat": 23,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [
+    "三立新聞"
+   ],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "Gemini 4 Argon：為解決你最棘手的難題而生 - blog.google",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Is this the ‘mathocalypse’? Why OpenAI’s latest results dump has left mathematicians in shock - OnlineKhabar English News",
+   "source": "OnlineKhabar English News",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBwbGd5bTRHbDhDd1RZVzJMLVZWTVRTdnNQZEhwY3JyajJQYnNSQmNQQWxEMVZpVDEwNl9GX3BMTkpxSVFYZjdKRUNsQk8yclNkalNiZldKZ2lCRWkyVWY3eEZldjhzTTEyRmNTZUN6SWRZSzg?oc=5",
+   "date": "2026-10-18 09:15",
+   "publishedAt": "2026-10-18T09:15:00+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Is this the ‘mathocalypse’? Why OpenAI’s latest results dump has left mathematicians in shock - OnlineKhabar English News",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "DeepSeek Releases V4.1-Flash-1017 Update, Says It's Faster and Leaner - Briefs Finance",
+   "source": "Briefs Finance",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZndpekh1RVVab2xVYWN0aWpBWTN2ZmYwbVhKd2o0eEZxTWRobUdWel90X25lSmc0QXFFaGsydUttT0VIQ3h2VmFBUk9EVklERzBkOEx5RFdfZDctMTU1cG9nVGRRRFpJNFZwajJUTzBUd1dOcU5nVXRiVkdtSEg1TmVEdVdpbHZsWnhIRm92VEFBUQ?oc=5",
+   "date": "2026-10-18 08:39",
+   "publishedAt": "2026-10-18T08:39:40+08:00",
+   "summary": "",
+   "models": [
+    "DeepSeek"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "cn"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "DeepSeek Releases V4.1-Flash-1017 Update, Says It's Faster and Leaner - Briefs Finance",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Claude sent phony tip about an unsolved murder to Philadelphia police - Mashable",
+   "source": "Mashable",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOGVJTUJDMGdzWjVHek0yRlIteTZwVHZ6UEVOWlM5X0k2RmVBY1p3cWR4NjNfS0wzdUg2OWtyeUlXeWhBYXNkWW1PelFMaU15bzJDX0k5bDV4cmI0SHhnR0xkaF90SnlnS1JSQU9QU3A5QVU5eGZrdEpYS3NiSnVTdmlBQWdKZw?oc=5",
+   "date": "2026-10-18 08:13",
+   "publishedAt": "2026-10-18T08:13:58+08:00",
+   "summary": "",
+   "models": [
+    "Claude"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Claude sent phony tip about an unsolved murder to Philadelphia police - Mashable",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "DeepSeek rolls out V4.1-Flash update with faster outputs - Tech in Asia",
+   "source": "Tech in Asia",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSGlnUUxua2ZzZjF0dTE0VXA0amwtQUp6TlpvSmxNT0FMM2c3Uk9mOENCWkFzN0pSV3JBT01FWFNjMkNvNllBNVFrOUlEYkhDWWxWcDFEV191b29TRDN1d0RPczgzRm9CZ19tYU84Z3k5NDlSemVtNWthcmc5X0M3YnlNWQ?oc=5",
+   "date": "2026-10-18 08:09",
+   "publishedAt": "2026-10-18T08:09:00+08:00",
+   "summary": "",
+   "models": [
+    "DeepSeek"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "cn"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "DeepSeek rolls out V4.1-Flash update with faster outputs - Tech in Asia",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "DeepSeek-V4.1-Flash-1017: no rank yet, a 45-46 guess - OrcaRouter",
+   "source": "OrcaRouter",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxORkZrcXlvYXhaZVl4RmRXMlhpV1B3OVlnd2tIU2lNWnE1ZnN4cnF4a3VyR3ZTZnk2bXh5QXZkQnh3XzVQekNjbWNMUDQ4VllfWWRmRU1SN3loZktvbERHYlRmTXZKXzVxTHMzSzVGM0VIb3MwTU53eUZwVUxnUzRSXy1HcUY4cDA?oc=5",
+   "date": "2026-10-18 08:05",
+   "publishedAt": "2026-10-18T08:05:38+08:00",
+   "summary": "",
+   "models": [
+    "DeepSeek"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "cn"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "DeepSeek-V4.1-Flash-1017: no rank yet, a 45-46 guess - OrcaRouter",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "生成式AI搜尋使用率首度過半 企業網站「零點選搜尋」對策迫在眉睫 - BigGo 財經",
+   "source": "BigGo 財經",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5zMm11bHhRUVJPeDBDbHNpaDk2RUh3UG9Dakw5dmxQUm5EQkJZV3dtazBmeGszUmZiV1lVa1I2cjJsalFmWW9mQVJvNE5YUDZCNmdVaHVzNG5FRmk2R2xUWlVKN09UOVFHZ0R6TDNST2xOUl9Ka2h6aGlB?oc=5",
+   "date": "2026-10-18 08:05",
+   "publishedAt": "2026-10-18T08:05:00+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "生成式AI搜尋使用率首度過半 企業網站「零點選搜尋」對策迫在眉睫 - BigGo 財經",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "OpenAI 領導的類人機器人計劃重點在於智能大腦發展 - Techritual",
+   "source": "Techritual",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBoWmRmQ2JBZlN3aUVmQTg0MjRob0lFQ2xNN2g1RzNVTWIwVk1YSEhscU9xb1NHN1p5Y0taM3B2X0VEQW5fcXNXc1FXMl9mTFIzcE5UR1hSTjg?oc=5",
+   "date": "2026-10-18 07:54",
+   "publishedAt": "2026-10-18T07:54:30+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "OpenAI 領導的類人機器人計劃重點在於智能大腦發展 - Techritual",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Letting AI agents write econometric code - CEPR",
+   "source": "CEPR",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB4Vzh1ZTJQbVhKRlJ6bEtsemlacDVKeVlnRDdhY0ZrV1B1Xy1wNUlESTY0dkY2R25jYzM3U1RUQUlTZDJQemlDSlYzdkphemw3Wkt0SlZUX0x4cUVRLVdsalFUdW9MZlZYdE5mdWhLZkVRcVVjajVVLWd4NA?oc=5",
+   "date": "2026-10-18 07:09",
+   "publishedAt": "2026-10-18T07:09:22+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Letting AI agents write econometric code - CEPR",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "DeepSeek V4.1 Flash takes on frontier AI models at a fraction of the cost - Crypto Briefing",
+   "source": "Crypto Briefing",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9XRmFGeVVVd1YtVlh0ZEM4cXE4eVBjZnpnNGJCN2dwbEVLOXdVMVpoRlAyVWh1YUtFNjBNNTBPOWowYWFpSkhrU0UxT0Q0SFMyY2kyRmZDRXdpSGEteG5obVNxUmN4UVJfeFZUTTA2UVJTNnlabkVPVXp3?oc=5",
+   "date": "2026-10-18 06:53",
+   "publishedAt": "2026-10-18T06:53:55+08:00",
+   "summary": "",
+   "models": [
+    "DeepSeek"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "cn"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "DeepSeek V4.1 Flash takes on frontier AI models at a fraction of the cost - Crypto Briefing",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "DeepSeek unveils faster, lighter V4.1-Flash-1017 - 디지털투데이",
+   "source": "디지털투데이",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPajdTbkhBRW5NaE9jM3VjeUNyVXBwY3FpY0VkQWhMcUZwNlQ3a2owV2dreTFPUm80WUZtZG82VmxQS1p3dk1FcnNvcjIwMlJBaW1FWU42TWdrLUZhWFRLalFrNVViUVNTNnZiNXhqLTQydF9XWkZ0aWFESHhJVTMyeWl3S3RmbmVvc29GNW5aYWhVUDNXWFRN?oc=5",
+   "date": "2026-10-18 06:50",
+   "publishedAt": "2026-10-18T06:50:52+08:00",
+   "summary": "",
+   "models": [
+    "DeepSeek"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "cn"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "ko",
+   "i18n": {
+    "ko": {
+     "title": "DeepSeek unveils faster, lighter V4.1-Flash-1017 - 디지털투데이",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "終於！Chrome 側邊欄現在能直接跟 ChatGPT 聊天了，不再只有 Codex - Yahoo新聞",
+   "source": "Yahoo新聞",
+   "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOM3VXakM0a0I5NHhucFJrWmxYWXlraUFvc1FiLUl1eUJaTlF3U1VRSGtWZ2NZQU4zNUVZcUpfbEZxZ3pWdE1xU2JCRk50SzhpbURVRm4yTGJNOHRPaU9lVzExTHNUVUZTVWZaNWRVRFlPdExVQmNfb25ib3NSNWplRTlDVzRlWldBX3NiZzA2U3U5UDdtNnlhcFJhWTVfTzZFREplc1EzTXI3REVCcEs3VkNnQU43UWpQSGEybm5SN0N6dXYzTm1OTkZ1LWlQLW4tYUpPUVhxR2xSQ3BWU2c2WnJLZGNzSFBiOUFEZGhpcjczUzJMVWZueGl0NjlCTlVPb1pkMmEtV3NBeXNqQ0JiS2p3?oc=5",
+   "date": "2026-10-18 06:35",
+   "publishedAt": "2026-10-18T06:35:41+08:00",
+   "summary": "",
+   "models": [
+    "ChatGPT"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "終於！Chrome 側邊欄現在能直接跟 ChatGPT 聊天了，不再只有 Codex - Yahoo新聞",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Meta removes language that raised scraping and AI training concerns",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+   "date": "2026-10-18 05:31",
+   "publishedAt": "2026-10-18T05:31:32+08:00",
+   "summary": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web.",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Meta removes language that raised scraping and AI training concerns",
+     "summary": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web."
+    }
+   }
+  },
+  {
+   "title": "DeepSeek releases AI model update, opens search APIs to all users - Investing.com",
+   "source": "Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUGdtMm0zTGN2ZDByNFhUUExKanVmSGhiOWgxVG8tdW1fWS1pUGlGTWUyTkZUbkR3R3Vha1VIUXNsUDlRNXU0a2lsdHJsaXJMUXRFX180ZjE5S0ttUDVKdlRMUlFxZ1EwVlM5cmN2d1JBU2V0b3Q4NGFfMjdqTTJ4c1h1OTN3c0pld3ViZF9wSkFxdFdpV3dNZU9kY0tOLWFpQXNJSVBEWVR1R1QyZFhBVDE2NWxVa1V6TTRRR3R3?oc=5",
+   "date": "2026-10-18 05:05",
+   "publishedAt": "2026-10-18T05:05:06+08:00",
+   "summary": "",
+   "models": [
+    "DeepSeek"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "cn"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "DeepSeek releases AI model update, opens search APIs to all users - Investing.com",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "DeepSeek Opens Its Search and Fetch APIs at $0.75 per 1,000 Calls - Startup Fortune",
+   "source": "Startup Fortune",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdzJ3R3lub3I0cERXWXZENnI1ME8tQjBXbjB2WkRVbEdUTEhOczFNWk5LZXRLd0w3RlhVS0djS0VrUEFQUVpkQnAyR0h2TVhQbHQ2ZEdyanhtUWJnRk9wQnI2emhLVFB6c1dtbjJyN0Qwdnk2WUFma2stdjlHam9GaTZmREJzcDh5U0c1LUh3RlZ6bUJK?oc=5",
+   "date": "2026-10-18 04:45",
+   "publishedAt": "2026-10-18T04:45:10+08:00",
+   "summary": "",
+   "models": [
+    "DeepSeek"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "cn"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "DeepSeek Opens Its Search and Fetch APIs at $0.75 per 1,000 Calls - Startup Fortune",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "DeepSeek prices web search for AI agents at $0.75 per 1,000 calls - PPC Land",
+   "source": "PPC Land",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxON1poTVZpWnR5dFNydER0dTFQVmZmZnBDTFhrYl8xWEpiWmNnRzBYZWFMdjAwNjR4SEljQzUzZFN5aVRZbW05eHE2bDN4amJ0c2s3TkI4dFl6R2QzbmtOQWFxM2pWTmZzd1BtM1lhd2gzWXVTRHNJT0JHR21GSVZ2WHl2bG02UFIwMHc?oc=5",
+   "date": "2026-10-18 04:30",
+   "publishedAt": "2026-10-18T04:30:24+08:00",
+   "summary": "",
+   "models": [
+    "DeepSeek"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "cn"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "DeepSeek prices web search for AI agents at $0.75 per 1,000 calls - PPC Land",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Meet Kyutai REKI: The 2.4B VLA Model Bringing Efficient Memory to Robot Manipulation - MarkTechPost",
+   "source": "MarkTechPost",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNHplallUWHczMjBLQWh0MXlxVXYzdGhTakt6NVZ6bWpCVjd1cnhVZzY0Z2FJb195aHcxRHdVN0lWZkNuMVZJTXhlbkVGaHllb1pKelpZQ1NtbERTV2JZX3FzLUsyNHd6UzhwVFlycXVLQXdZdEdjT3dCOGxxZUFwLW5SUERCVGxXLTNiU0VCZHp1RkJ0cW55T21oUnZOZktfQU5FNWsyYmV1b3FJVGFia3BJbG4yS2NCazBlYzBNcndRUdIBwgFBVV95cUxPNHplallUWHczMjBLQWh0MXlxVXYzdGhTakt6NVZ6bWpCVjd1cnhVZzY0Z2FJb195aHcxRHdVN0lWZkNuMVZJTXhlbkVGaHllb1pKelpZQ1NtbERTV2JZX3FzLUsyNHd6UzhwVFlycXVLQXdZdEdjT3dCOGxxZUFwLW5SUERCVGxXLTNiU0VCZHp1RkJ0cW55T21oUnZOZktfQU5FNWsyYmV1b3FJVGFia3BJbG4yS2NCazBlYzBNcndRUQ?oc=5",
+   "date": "2026-10-18 04:22",
+   "publishedAt": "2026-10-18T04:22:11+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Meet Kyutai REKI: The 2.4B VLA Model Bringing Efficient Memory to Robot Manipulation - MarkTechPost",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Anthropic says its workforce has become less junior and is spending more time in meetings - TechCrunch",
+   "source": "TechCrunch",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNVRwb2hUSGYwb3BQaUZ3XzJCcEpERVhxU1RWNEUxcVFmZHg3Y2REQzBITC04N2VUU1JZajR2ZHNRLUU3bkRVeWtDcVBWQ3p0cnJLODdjOFBVQTJFT0JwdVl4Y2pvSG9CNms5VGtVbTNNODEzTGRBeEZWMUc2WF9Hc1pBRUZsa0l4ZTNmNDBpU3V6VTFFNVFHQUVVVHB5VFJnZWF3M1BxT3pqa1M5VkZCb0Q1aU5SUDVuNTJRZm5KalpmUQ?oc=5",
+   "date": "2026-10-18 04:21",
+   "publishedAt": "2026-10-18T04:21:19+08:00",
+   "summary": "The composition of Anthropic’s workforce and the type of work getting done have changed significantly in the past year.",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 21,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [
+    "TechCrunch AI"
+   ],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Anthropic says its workforce has become less junior and is spending more time in meetings - TechCrunch",
+     "summary": "The composition of Anthropic’s workforce and the type of work getting done have changed significantly in the past year."
+    }
+   }
+  },
+  {
+   "title": "Pentagon gives Anthropic ultimatum on AI technology: Sources - ABC News - Breaking News, Latest News and Videos",
+   "source": "ABC News - Breaking News, Latest News and Videos",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWmk1c3RRZUVnenpEV3lQRUtudTdTV05mVXo4MWxRVW91UkJCVTB0dmo1dDRfQy13Z2hRSkJ5UXN4NlRscjhaTk5uOEhLcElBckVjd0F4Z0hkUHFYejYwWi1tUjM0Vm9DeE9JdjYxWldSbGVOWjhzcEFTNzMxUDNKNG1ic2VhM2ZDVDVsZE15M0JzNzByUTUzZU1yMEppbWvSAaQBQVVfeXFMUFp0N0lQZWF3MHlhZUlzQXl0Wnp1VWxkMnlHZnh1dUM2RENlSll1QU5MVE9keFNUbzJoczlLT1Z3Z09tdHRyT044MVNwTF90YlNXYkNlVGFsWHdNMmdjSkMxOVNpQ3ZZSTBIWU5KUk5YOXBmcElYdmVHWUhqQXlSX0RWaWdrUV82NmRDN1pYU19GckhjOERTb1FHWkJJalk3ODRDM08?oc=5",
+   "date": "2026-10-18 04:04",
+   "publishedAt": "2026-10-18T04:04:05+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Pentagon gives Anthropic ultimatum on AI technology: Sources - ABC News - Breaking News, Latest News and Videos",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Religious leader calls for moral evaluation of AI: “The gap between AI reasoning and AI moral compass is widening” - Deseret News",
+   "source": "Deseret News",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUVJyN3B3THZKVUFoajczTUZwZEY4dTVOU2tJa2Q0RjE1MFRqX0lZc21UNVYzNUhnblFXMUZELXNmNXJYdjA2ZnJIcTRNVmRCLWpyUmNkWHVJb05XMlRQc2htNFRMaUpYbWJ5RVp1MDhmMThiX3MtTTlnRHBoQmVxY0l0TVpzdkFrbTlBVFdHcTljWTY4MjlVVDVOM3RsSkRTc1VRcw?oc=5",
+   "date": "2026-10-18 04:00",
+   "publishedAt": "2026-10-18T04:00:06+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "商業",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Religious leader calls for moral evaluation of AI: “The gap between AI reasoning and AI moral compass is widening” - Deseret News",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Free AI Chatbot Compared: ChatGPT vs Gemini vs Claude - tech-insider.org",
+   "source": "tech-insider.org",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9aTjRpb0UzUUJDU0FuM1FtZ2tobVdwVGVmZEVGcTdZMGd3RTJMQUxqQnR2ZjV5YjdCbTZSV2ZDWDBULVA1ZlNQUlpsUlgwdEZLSDRHTHhsc1BDYjkxMWhSNkVtZjkwRkNGTjM1UHhWak5YSUNvcDBNMG1tREs?oc=5",
+   "date": "2026-10-18 03:50",
+   "publishedAt": "2026-10-18T03:50:06+08:00",
+   "summary": "",
+   "models": [
+    "ChatGPT",
+    "Claude",
+    "Gemini"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "anthropic",
+    "google"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Free AI Chatbot Compared: ChatGPT vs Gemini vs Claude - tech-insider.org",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Sergey Brin says Google’s AI now helps build its next models - The Next Web",
+   "source": "The Next Web",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQa0VHZHFlZkYySzV6a2FqWUI5YTh3UlZzVUhBNHJFN0M2NUFjWlRXdHB2YlJ5NC1RYjhYcVdVdzhlSjV4NHdmenc1bExtMWg3MnN2a0V3VUQ1dkdPOW44VEdyTjRWYkx1b0plbnZlZFBkR2JHOWo1MnlOWmtFb1ZZRHRmYzIyNHJfTXpBQ0o5NXo?oc=5",
+   "date": "2026-10-18 03:16",
+   "publishedAt": "2026-10-18T03:16:22+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "google"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Sergey Brin says Google’s AI now helps build its next models - The Next Web",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "OpenCode Discloses Security Breach, Says Attackers May Have Accessed Users' OpenAI, Anthropic And Google API Keys - OfficeChai",
+   "source": "OfficeChai",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQYzJaVXhkMkszN3dlMi1WZ01zaUZOQVNzcGNaRWxYQ2x0c2J0cENNV0Q1X1pFczFqWnZRMXBTcmZLSVdFLXFrZlFrNDhONktXcEljU08tTWl5M1FOLS1uUjlaVnJCNEQxRlZ5dXVSMm5xcmpXazhhd3VCR09iTGt6LUZNSnUxSUNkSVRYLTJxQlk2aGExYlNBa21xMDNGNXV0RXdLaERROTJ2N0hxYWQ2VzhIckVaSG5Nc3l4VUxVUUNuaGxnc2R5cG0wNFNZSGh0X2Iw?oc=5",
+   "date": "2026-10-18 03:03",
+   "publishedAt": "2026-10-18T03:03:00+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "anthropic",
+    "google"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "OpenCode Discloses Security Breach, Says Attackers May Have Accessed Users' OpenAI, Anthropic And Google API Keys - OfficeChai",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "DeepSeek’s Post-Training Lead Declares “Entering the Era of Democratized Wish-Driven Coding” As V4.1-Flash-1017 Model Smokes OpenAI’s GPT-5.5 Sol - Wccftech",
+   "source": "Wccftech",
+   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQNzNWWTVsMlV1V0dOZGw4YWZFZXRybi1nWFBwVWxYbmZoVm8xUUwyWk52TDRoVzhqVUt6U21WMDBMVGc0OWh5Q1NQcVhDQTRxUzBZdDl4VXlpQ05ja0xKVGpBWXVIck5TVmZYOW04QVI2alIxOFVaZ0pWYjlUSjBWbHZ1cjM3LW8xRFJmVTZvSXpKMTJBT3RELWRhclJuMFhNcXZoTzBteklackQxUTNKMHJIbE1SQ0VDZEJOU2kyUzVDV1pfbFJ1LUdNbjhPSjhtSlQ1YnRnaExHWjJNZktKeG1JMWJRbE1zWWZCU1puanVQVDBzZ1HSAfsBQVVfeXFMTlhpdmdOaXNjclJuZjcxSDBjbE0xSERObXowZkI3bi0tcXlzQWcxei1DLVhaMWdRTXhPclBFMFhQVGI4V1VmOVB6N3VYWXFQN0FYUDNKNi1iZ1VQRnVFLVhOdWlpcEZLNmt3dTRnNkROczdVRTY4bWxCbnFfaXNybEcwYWk4cmN2bHI4bFByS3Z6RzJPcHRsZDBTMU9GUkxEUm96d1ZCZ0dCRzU5OV9sLTQzUDBxSXBYS1BSTUREcVAySGdSNndLdUFnWHUxYmJPRTBWLXhzSE5yZ21uaTdrcUx3VEtSZC1NLWRYVW92MThFVEJmb09lel9fQk0?oc=5",
+   "date": "2026-10-18 03:01",
+   "publishedAt": "2026-10-18T03:01:05+08:00",
+   "summary": "",
+   "models": [
+    "GPT-5",
+    "DeepSeek"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "cn"
+   ],
+   "press": false,
+   "heat": 28,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 2,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "DeepSeek’s Post-Training Lead Declares “Entering the Era of Democratized Wish-Driven Coding” As V4.1-Flash-1017 Model Smokes OpenAI’s GPT-5.5 Sol - Wccftech",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Replit makes OpenAI its default over Anthropic, CEO says - TechCrunch",
+   "source": "TechCrunch",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUFoxYWFYWWFqQTRraXdReXZYYmo5S0ZabG04MmlMbnp5R1VoMUsyLWpIMVg0bUhnOUNqMmxZV05BWm1DRVg4QlhONW9qbUo5UktELXhFMmc4VXhKMzhPbGxuZ2l0cjhGdE1MaEtPU0hBNzdqbTZPaEFHRENkVU9hcG9ieFhDalBPSUNZSEJGRQ?oc=5",
+   "date": "2026-10-18 02:48",
+   "publishedAt": "2026-10-18T02:48:08+08:00",
+   "summary": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform.",
+   "models": [
+    "Claude"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 20,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [
+    "TechCrunch AI"
+   ],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Replit makes OpenAI its default over Anthropic, CEO says - TechCrunch",
+     "summary": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform."
+    }
+   }
+  },
+  {
+   "title": "ChatGPT Voice Gets 13 New Voices, Including Two in Hindi, With GPT-Live-1.1 - Business Upturn",
+   "source": "Business Upturn",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNWR0UmROODRnR0tSdnZ4Z1luaktQcEExVlFPck1CNl80U0x3QmRXYnQyaGVuRERlODY4c2MtMUx3UE53WkNxX0xpRmFmQ3I3Y0pNRkIzVUN2cndSbnlPbHV4aTVTQkZjSzBvMUhJclN3c0p1M1VQYnNrWFJWbDA4bEJWMU14NXN3eHJKY0s4dWZ2N0JpM0FJbGFkc0RPaDkwU1pGOTU0S2hLYjFDSUhNdEJQSE1aUQ?oc=5",
+   "date": "2026-10-18 02:28",
+   "publishedAt": "2026-10-18T02:28:03+08:00",
+   "summary": "",
+   "models": [
+    "ChatGPT"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "ChatGPT Voice Gets 13 New Voices, Including Two in Hindi, With GPT-Live-1.1 - Business Upturn",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Google's Gemini AI helped disprove a 60 year old fusion physics conjecture - Startup Fortune",
+   "source": "Startup Fortune",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcU9FV04yMlNqdzNMVjlzNG5BYVdFdU1SRmdxOHlxNnF1Y185ajgyODRaZzljUGZuc1Ayd2RXTGMwcXdOWF90YklWSXRlMW9WSjNWNXlGRV9jeGFjeDVRZDFSU0c0dWNOZjF1VENuOTZZeUI1QkRGd3VjTWFQcFpmT3VuWUE2dG83ZWoxbFJoNXBMc2JCaEJDZlNJcHkwU2J3ZUNV?oc=5",
+   "date": "2026-10-18 02:15",
+   "publishedAt": "2026-10-18T02:15:55+08:00",
+   "summary": "",
+   "models": [
+    "Gemini"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "google"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Google's Gemini AI helped disprove a 60 year old fusion physics conjecture - Startup Fortune",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Reflection AI Releases Beam, Becomes Second-Best US Open Model On Artificial Analysis Intelligence Index - OfficeChai",
+   "source": "OfficeChai",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNRk1oZGdTVTAybjdNRGJsNU9LWS1KNXB0YnBJazBzNWU2ZFhTRVF5N0VZWEJiUHFjMUUwczZJNEF0bGIyRF83YmNVUm4tbEhPckp4WFh4bmFiYTV4bDZOb1B1YUszUWkxS1ZUVzlxcGxBZ19fS2NkYmJPX1JKQWdpWVBaeEVtSlROcnhsSkpjRFlIb3ZzRUZicTlHVFlMejRaZWdJc182T1UyTjZaWkd5TUgzRVpwX3lVbWl2d0d0VmdpYkhiMDlzeFln?oc=5",
+   "date": "2026-10-18 02:06",
+   "publishedAt": "2026-10-18T02:06:11+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 20,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Reflection AI Releases Beam, Becomes Second-Best US Open Model On Artificial Analysis Intelligence Index - OfficeChai",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Replit Drops Anthropic in Favor of OpenAI, Citing Cost and Performance - BigGo Finance",
+   "source": "BigGo Finance",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBZVGVrRFRsMGxjM0gxWGppNXdMZmRhZGdXNmtEUFZ5RlVsSThocHdiRk1jTC1Pd3pFOHlxcjZwNTRDQ1RnQzRLRkZXZG51aTNoc3pjXzFKbW41anZ2LThaMDN0VkYyZ09lMGxpRHZncUYxTnJJSnc?oc=5",
+   "date": "2026-10-18 02:06",
+   "publishedAt": "2026-10-18T02:06:00+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Replit Drops Anthropic in Favor of OpenAI, Citing Cost and Performance - BigGo Finance",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Anthropic Says Claude Cracked a 25-Year NSA Cryptography Seed Mystery in 30 Minutes - BigGo Finance",
+   "source": "BigGo Finance",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE16YUdJX2RaZmpDNlFMRm15ZTY2eWR3cE9sVDJLWEhmZTdvajUwX2IxR1Itblg0WVREdE92RUczaFl6TVZjRmptVUtvc3h0cEVveVUzOVZHT0V4QlNBSEN4MklrR1ExeDVZT1JlNkJMS3VISTlvUkE?oc=5",
+   "date": "2026-10-18 02:05",
+   "publishedAt": "2026-10-18T02:05:00+08:00",
+   "summary": "",
+   "models": [
+    "Claude"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Anthropic Says Claude Cracked a 25-Year NSA Cryptography Seed Mystery in 30 Minutes - BigGo Finance",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Anthropic 籌資 舉債成本大增 反映投資者要求更高風險溢價 - 經濟日報",
+   "source": "經濟日報",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1lLVoxV29RUHVXdEJMWWx4Xy1uTFdrbFN1NlpkcTNXTkRoTWV6UUJPQTdHSjNtUC12WkJpaFdTVExQMHBlWUZVckJPNC1zb0U3eXFRTmR1SHlMUdIBX0FVX3lxTE43VjAyR2JJeWhLdUt3TEdLLXZMb1hrcTJMdm9obWo3T0hiMDRtSjRJeXZPbzgwOVQ5UHBmZ2Y4Z0g3LW8tb3lscDVpNlQ3SlNmWDNWdGJ6Nk1FaURyZDI4?oc=5",
+   "date": "2026-10-18 02:00",
+   "publishedAt": "2026-10-18T02:00:57+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "商業",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "Anthropic 籌資 舉債成本大增 反映投資者要求更高風險溢價 - 經濟日報",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "DeepSeek's Flash update claims gains on 11 benchmarks at the same price - Techi",
+   "source": "Techi",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBMQy1GQUg4Q0FLRnRCeTRzbV9QdlBWZXFDcWsxakdVREtmRm42SXU5dXVLMEktVXplODNKNmhPVnl4SFo1YVVTZGdrNkVDbzdjQkhGbzdhYm5jUUVDbFp1d2htYTJWY2xnODNPcEhtUW91RHlxT1BOczF3aw?oc=5",
+   "date": "2026-10-18 01:34",
+   "publishedAt": "2026-10-18T01:34:34+08:00",
+   "summary": "",
+   "models": [
+    "DeepSeek"
+   ],
+   "tag": "研究",
+   "camps": [
+    "cn"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "DeepSeek's Flash update claims gains on 11 benchmarks at the same price - Techi",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "OpenAI Adds Prompt-to-Voice and Nine New Voices to the GPT-Live API - Pasquale Pillitteri",
+   "source": "Pasquale Pillitteri",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZGt4R1BhTnl3Umd3a3l5b3dVcERjSGFfbmhXV0gyeUM5cW1RRVVxTExtTGk2VFIxUmV2dmhfU2hmeUxaS2hGazV3RTRfWkxLLS1RVjFaaDlOSEVyMjRPbEFWUG1LQnl3Rm52SVlZUEoyMnhpZVRhV2lHRndsckctWjVrQjBEQTJxNWdWTHJqc2k2a1gzVEE?oc=5",
+   "date": "2026-10-18 01:25",
+   "publishedAt": "2026-10-18T01:25:04+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "OpenAI Adds Prompt-to-Voice and Nine New Voices to the GPT-Live API - Pasquale Pillitteri",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Claude Traces NSA Curve Seeds in Under 30 Minutes - FinanceFeeds",
+   "source": "FinanceFeeds",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQ1U2YVVwTTM1Y1RUQXd5b0Z0N19vaVNiZmc2Ym1zVlJIWU44OU13MERzcUxhZG11RnBfU0pXVFRrWFMtbDJiU1J0Y3N4dVRFOHUxbHNtX250WGppc21DYVk5aldSUlRaUE1STlM1SzNza1VFZW5GWlRlZ21GcG1TVjVValdEMnI2dS1OZWxyVHc1RDZlMm4tbU5FdzZvVXlMRENPSjVBdlpKbGJpTWc?oc=5",
+   "date": "2026-10-18 01:11",
+   "publishedAt": "2026-10-18T01:11:36+08:00",
+   "summary": "",
+   "models": [
+    "Claude"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Claude Traces NSA Curve Seeds in Under 30 Minutes - FinanceFeeds",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Chinese startup DeepSeek releases V4.1-Flash-1017 AI model live on platforms - NewsBytes",
+   "source": "NewsBytes",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPS0dHNmxMaGdsNy1oNDRYZUR3VE5SV2xfZGhxeXZtYTFmRV9Jbkp1b3V4cGVoUDBkZDUxYmpUVGRXUHlTbFJqSWVEQ0hLTS1zMWYxeUtPSXctZUJEM00tU0hXUEg5YzBhS2Nibnc2cWdnTVdPcHlIdXBkZTNsZS1SZEZkdC1HeUJKLU9FSTZtLTRiNDlPemphbzhKNFlyRlBzaVZwVUxTUVZZTmVrLWRwcGlFanAzREo5YUZrd0NDWQ?oc=5",
+   "date": "2026-10-18 00:41",
+   "publishedAt": "2026-10-18T00:41:17+08:00",
+   "summary": "",
+   "models": [
+    "DeepSeek"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "cn"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Chinese startup DeepSeek releases V4.1-Flash-1017 AI model live on platforms - NewsBytes",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "DeepSeek pushes out updated AI model it says is faster, leaner - The Economic Times",
+   "source": "The Economic Times",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPN3c1eFAtVGhUa3NXbVpLMjJZaFBDVEEwdGpoTkd6S2pRbWNrdkNMOFp2VGs3bXN3WFZEUV9SQzZkZkozVzB4dHFzSlFReERUbERINzhlM05Eb05LWTIzVUdCWG5xRnZPcTZsOWhhZjU3RnpWRlYzNUFESWJrZ0tyUVBqTjFBUG41R0lzZ0RqU2VSYTBjQ2cyZS1lcWNoMnhBUElUdnROTlhsZnpqUnV4VjhUTzBRX3dFTVphMzNIUmdQM2JER1JkRzllTTRiZnpGVTNCa3VuNnZBRUhtT1NpQzZ2UkNTT29I?oc=5",
+   "date": "2026-10-18 00:23",
+   "publishedAt": "2026-10-18T00:23:21+08:00",
+   "summary": "",
+   "models": [
+    "DeepSeek"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "cn"
+   ],
+   "press": false,
+   "heat": 28,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 2,
+   "also": [
+    "Bloomberg.com"
+   ],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "DeepSeek pushes out updated AI model it says is faster, leaner - The Economic Times",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Anthropic Claude Mythos 5 Cuts Quantum Circuit Gates By 17x - TronWeekly",
+   "source": "TronWeekly",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNX1g2Vm8tQnRTbVJSTkZmOWFfQmZtU25YR1U1ZE55QjRSTU9UTS1vVk50eE84SXhyaTQ0R0JsZ05seURmTDltLV9mRFYyTEhJd2hCckcyYkNhOTRwZjhBMXlXMEdjSHNZcU1OcjB2alByOXVndXJuMTVYQkNlOFBIYjFrVlhRNDBSdFNIdHVqelA?oc=5",
+   "date": "2026-10-18 00:15",
+   "publishedAt": "2026-10-18T00:15:00+08:00",
+   "summary": "",
+   "models": [
+    "Claude"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Anthropic Claude Mythos 5 Cuts Quantum Circuit Gates By 17x - TronWeekly",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Anthropic 提出自己的美國人工智慧規則 - Root-Nation.com",
+   "source": "Root-Nation.com",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWTJaOG90a1VXeWpCMUItaElwaU00SW94ZVozeHdIbFJCbW9vVHdnd1VmQlBhVGVfbFI0V0FQS3BETl9aamNLOW1UU3dPMGRfOG9jNWVka2IwcGtNdWVPSGxUdWNiSTJlNWFqbmk0cFlKNW9GelIwckJNZWlXbW9paw?oc=5",
+   "date": "2026-10-18 00:09",
+   "publishedAt": "2026-10-18T00:09:32+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "Anthropic 提出自己的美國人工智慧規則 - Root-Nation.com",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Microsoft Decision-1: 9B Qwen Model Launch Explained - shattered.io",
+   "source": "shattered.io",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBJWVVOOHQ2RU1aenVfeHYxZ05LcVVMM0Q4dTA1OW51dkRjajJrTzdmNllEMHVxNFdNOGdaZ193T2hxZmJURUNSZWtsZHFoc3NTc1JTMTNIcF9uemlEQk85M3JyaEEwUW8zQnBLRmJOVS1SZw?oc=5",
+   "date": "2026-10-18 00:04",
+   "publishedAt": "2026-10-18T00:04:51+08:00",
+   "summary": "",
+   "models": [
+    "Qwen"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "cn",
+    "other"
+   ],
+   "press": false,
+   "heat": 20,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Microsoft Decision-1: 9B Qwen Model Launch Explained - shattered.io",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "DeepSeek updates AI model, intensifying competition with Anthropic and OpenAI - Crypto Briefing",
+   "source": "Crypto Briefing",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBYbzZkRHRBalN1cUpOaWpCXy1jS2dreERsalRFeE5lOXRHSktZY1ZnXzFXTnBuU0JGSmtkcmVtSTFRaFBCY053U01PbnNUcU5DbFZvZU9kcm43bkwwaHhoN1RSS3BDR2d4bUhvN2piYXd6VXh5Mi1uZ1huMA?oc=5",
+   "date": "2026-10-18 00:03",
+   "publishedAt": "2026-10-18T00:03:20+08:00",
+   "summary": "",
+   "models": [
+    "DeepSeek"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "anthropic",
+    "cn"
+   ],
+   "press": false,
+   "heat": 11,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "DeepSeek updates AI model, intensifying competition with Anthropic and OpenAI - Crypto Briefing",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Google's Answer To Meta’s Muse AI? DeepMind Chief Says Gemini 4 Launch Is Coming 'Much Earlier' - Stocktwits",
+   "source": "Stocktwits",
+   "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQcXJDc1N3VmNFZlpBQ2ZhREdsemZQaFlLZC1BTnNQX21mR1RuQW5GTDY2NHBwd05USzcyRXZ1QVFuVk1QZmhDcXlaeWEwV3lKbkhpa3NZQzlac2MtbVlQbEVTNVR3RGNudVE5aE1VTUdxUVhraDlZRkhUWVdmSmc3NGRWNzRyLTNHVENuQ1dsTkJtaDFOa0doaXBaUEFkQmE4SHI1V2NiUG1ZQnBWNXhnU0xkeHBUaFp3RTVRZGRHYVdENktwNHBnWFdXbGZLc3paVEJzREN3Q0xuRG9fXzBjSTBBUk9mVWx1VWpOTWxtTGQ3M1dWZnhtWTFMem8?oc=5",
+   "date": "2026-10-17 23:56",
+   "publishedAt": "2026-10-17T23:56:04+08:00",
+   "summary": "",
+   "models": [
+    "Gemini"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "google"
+   ],
+   "press": false,
+   "heat": 11,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Google's Answer To Meta’s Muse AI? DeepMind Chief Says Gemini 4 Launch Is Coming 'Much Earlier' - Stocktwits",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "AI Forensic Accounting Screens Palestinian Banks for Hidden Instability Risk - Bioengineer.org",
+   "source": "Bioengineer.org",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNakNNQWtVWWU2ZHQ5Q1prVGpTNEs0Ync0OVNxTTdJb1V1MWhRN003Wk9nQmEwUTF5RVg2aVB4UjVYRnlQa1JMWUlYYXJMWUVxWTFpOEl0QmlOMzNGelg5VFl3U3pEX25VaVBsRFd5NmN5MUJHOTRBM2NBNUF6YmpZSlpoZWhielhOUVJxZnNIVk5HNUF2bU1kMlRENjNLX1UtTlFF?oc=5",
+   "date": "2026-10-17 23:51",
+   "publishedAt": "2026-10-17T23:51:15+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "政策",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 11,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "AI Forensic Accounting Screens Palestinian Banks for Hidden Instability Risk - Bioengineer.org",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "DeepSeek V4.1 Flash Gets New Model With Big Coding Gains, Cheaper Agent Tasks - ProPakistani",
+   "source": "ProPakistani",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLXQtdlpyQTN6NVAwUkhTY0xjRDdzRWNvTEV2Q05sWDlrOGNRT19OUXZiN3U4bGp0MlpSblFzbVpxSU1aRDRLRTljZDhWeUM0dk1YeDk1c1NiM3FfOHBFZFpzam9aQ2JXcF9lQ3lpSUpmb3pVdHZzUkZoSFo5YXU3R21wcUJpSmxjR0V5VnRWXzh5UGo2OC1yZ1JBc2lJVlNxRmlMQTlzNU9hbzlMRGhRNWNR0gGPAkFVX3lxTE9qd0ZpVWI4N2o0ZUVzR0dvYXhseVZPUDd0OUREYmdjZEFPMzZ3Um5PcTRDQUhqNDBRMDlIYUlxWkduRVVJSzVaVHl2X014Q1p6NTI3YXBoRnQtY24tQVNaa2xKVnVoT0RWQm5PMDhFS2NDRWUzbVpEWEJpOVAwd05pRkptdmNlWUxad0NHOXh0eHVsbndEXzl0MXBQZTIxOG5wenl4NjVhMl9TSHdGTGt0STJOOUwxblZZYmp6MHdEaWZSQUVpTUlodG1TQV9GVlZxanVYZjRtV1ZoemQ5ZEdBUjI1bWRmVGRRQ1ZCX2RjUnY1MngtUFh4Nnc1elEtTUVOYjc3VkEzT1d0YmVHcWs?oc=5",
+   "date": "2026-10-17 23:45",
+   "publishedAt": "2026-10-17T23:45:24+08:00",
+   "summary": "",
+   "models": [
+    "DeepSeek"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "cn"
+   ],
+   "press": false,
+   "heat": 11,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "DeepSeek V4.1 Flash Gets New Model With Big Coding Gains, Cheaper Agent Tasks - ProPakistani",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "An OpenAI model hacked a government site, grabbed 24 years of hospital data and kept it quiet - The Decoder",
+   "source": "The Decoder",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNeC1FWUplYTdoakc0bVZpYUhDSzI5Z3NGVm5IbERyTS15U2x5cS1zYUo4Q3B3aEM5T0kzZ0VWMGgwRDBQLXQ0S0xDWDNoSUZXbS04ckM0R0lRQ3N6NVZkc25qc1JfUlY2d2RQZC1MYXZGOGlIdVJzZklnaGVmN1hTWVF2ck1wM2t1VGIzZVhtWndxLU5yMnJIbVBVakF5d2EtVUlXblNSa2l3Y1hWbEdRR0lKT2x6SHdO?oc=5",
+   "date": "2026-10-17 23:38",
+   "publishedAt": "2026-10-17T23:38:40+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 11,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "An OpenAI model hacked a government site, grabbed 24 years of hospital data and kept it quiet - The Decoder",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "DeepSeek Releases Lightweight New Model With Per-Task Costs One-Tenth of US Rivals - BigGo Finance",
+   "source": "BigGo Finance",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBqZmhvU2N4S1hPUEgzd0lpbVRKYTFWYk1rUkFvYnpmc3ZqZkR4aGYxcU1Hbi13eFAxT09GdFBlVnItNV9ZdUFKV2RmWEE3VVY5WXF4dkp0MGVqbERhUnFIT082THpPUlhobzJRS0JuUDFqVjBHc3c?oc=5",
+   "date": "2026-10-17 23:25",
+   "publishedAt": "2026-10-17T23:25:00+08:00",
+   "summary": "",
+   "models": [
+    "DeepSeek"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "cn"
+   ],
+   "press": false,
+   "heat": 11,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "DeepSeek Releases Lightweight New Model With Per-Task Costs One-Tenth of US Rivals - BigGo Finance",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Meta removes language that may have allowed it to scrape news sites",
+   "source": "The Verge AI",
+   "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+   "date": "2026-10-17 23:04",
+   "publishedAt": "2026-10-17T23:04:36+08:00",
+   "summary": "After backlash, Meta is updating its terms again to remove language that suggested it could scrape content from sites, including news sites, to train its AI. Specifically, the following language no longer appears on the ",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 11,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Meta removes language that may have allowed it to scrape news sites",
+     "summary": "After backlash, Meta is updating its terms again to remove language that suggested it could scrape content from sites, including news sites, to train its AI. Specifically, the following language no longer appears on the "
+    }
+   }
+  },
+  {
+   "title": "Chinese Startup StepFun Launches a Phone Built Around an AI Agent, Not Apps - Decrypt",
+   "source": "Decrypt",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1XbHNDSHdhZ08yYnp3NENLOUtFcmJJQ3FwS3QwUkUtQ2JfUFpUSWdFaTFrSmE2TGlqZmdQS0Z0SkwwbFBlSjk0TXVSRTVLTXBNUW45RTBzaUcyNGE4ZEg5bnpJTERpbzBOUS1xOVJHdzY1dw?oc=5",
+   "date": "2026-10-17 23:01",
+   "publishedAt": "2026-10-17T23:01:03+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 11,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Chinese Startup StepFun Launches a Phone Built Around an AI Agent, Not Apps - Decrypt",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "DeepSeek V4.1 Flash 1017: Specs, Benchmarks, Pricing and Frontier Rivals - Kingy AI",
+   "source": "Kingy AI",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE81QzJCakM3cmFRODB3RkxkdjNfMmlxVHR4THNzUm9UOGFFOHpEaFFYUmo3aExMckxTeWRxTXY1WjF3Um5wNDdodk82OGFoM0MzWVFZOUlwVHlyYXNtZ193VnBkSmRWNU9NWGtxa1hwV3FGaS1xUFZTeXdIejI?oc=5",
+   "date": "2026-10-17 22:40",
+   "publishedAt": "2026-10-17T22:40:04+08:00",
+   "summary": "",
+   "models": [
+    "DeepSeek"
+   ],
+   "tag": "研究",
+   "camps": [
+    "cn"
+   ],
+   "press": false,
+   "heat": 11,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "DeepSeek V4.1 Flash 1017: Specs, Benchmarks, Pricing and Frontier Rivals - Kingy AI",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "DeepSeek V4.1-Flash-1017 Hits 77.0, Opens Search API [2026] - https://tech-insider.org/",
+   "source": "https://tech-insider.org/",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9Tbk1KOU9zeHNGd3JXVGphWWlBN0VlTXhCcFFhc2ZLdWs3T2x6MWVFNGNXOGs1RDdYdk5QS3BoMW9SemtBMXpKNzdLLURYNDNtTWVzWFZ1SDZxWEdpdVJ0VmR2US1JaHAwVFhnSHoxZ3RQZ0g5bGwwUXczem1DRGM?oc=5",
+   "date": "2026-10-17 22:37",
+   "publishedAt": "2026-10-17T22:37:26+08:00",
+   "summary": "",
+   "models": [
+    "DeepSeek"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "cn"
+   ],
+   "press": false,
+   "heat": 11,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "DeepSeek V4.1-Flash-1017 Hits 77.0, Opens Search API [2026] - https://tech-insider.org/",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "DeepSeek pushes out ‘faster, leaner’ updated AI model - The Straits Times",
+   "source": "The Straits Times",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQjJJNGtEbm5FOVg2WjBNc2JDX051YTB1aEEzcjBQdlRRbHBnU2pfRnBYaGNSVjRsTWctWFVsVmpLd0hTS1JiNjJWd2RXQ3JQb0dSRkctN2xPZ0MwdTYwcWpxdEVlQ0RaYm5MTzJ4UmFmM3lFWWNFblNTWmQwM1pCcFNfekc4R0lXT0VQZjRJYTNsMFlNb2lJX1A5RnE?oc=5",
+   "date": "2026-10-17 22:37",
+   "publishedAt": "2026-10-17T22:37:00+08:00",
+   "summary": "",
+   "models": [
+    "DeepSeek"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "cn"
+   ],
+   "press": false,
+   "heat": 11,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "DeepSeek pushes out ‘faster, leaner’ updated AI model - The Straits Times",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "States sue OpenAI, saying it gives life to 'cyberhacking agents' while ChatGPT hurts children and deceives adults - Fortune",
+   "source": "Fortune",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUmdaME9UZTNjODdob3gtbDdzRnU3RnY1N2tRdzlYdVJKOHpMbEdIalBpY0JaNFV3T2pvLWhZajVRQWJYTkU2ZWRLQ3pfMDB3WnFSd1lEUkQ1bG5pX09GNVUxUl9XcWJaa2ZkVVpycEJCOUotY1FRNklrUzR0aUF6SWV6TGlCQmpxUHdmbmtNbERpOThFRG55bzdoMFdib3NYNnpjdg?oc=5",
+   "date": "2026-10-17 22:32",
+   "publishedAt": "2026-10-17T22:32:00+08:00",
+   "summary": "",
+   "models": [
+    "ChatGPT"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 11,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "States sue OpenAI, saying it gives life to 'cyberhacking agents' while ChatGPT hurts children and deceives adults - Fortune",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "DeepSeek moves up the stack: V4.1-Flash update ships alongside its own Search and Fetch APIs for agents - Dealroom",
+   "source": "Dealroom",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTWxDekxrRjhWZGp4NUlkSnZtUXJSblNvU2d6UEJYazJSU0pldDBMZXAyUTdzVkdZb2RyLXA1dDRCRW95VmIxc2hER3RKM2R6enpReHh3Z3Vua0J6X1htdHVfTGFLSno3MGYwWEhaMHlIRVV6dXlhb0V6NG9OS1hzQ2Ewb2dBelB6WGlNZ3FPRDIta3VKVU9Qd0pJQzJjT2hsTVMtbTlEQUZpZW16dm9lMGxmSVZ5SEdDamI3djJYdGJEUk9EcUxuWHdXRlpqVmlwZlE?oc=5",
+   "date": "2026-10-17 22:28",
+   "publishedAt": "2026-10-17T22:28:59+08:00",
+   "summary": "",
+   "models": [
+    "DeepSeek"
+   ],
+   "tag": "商業",
+   "camps": [
+    "cn"
+   ],
+   "press": false,
+   "heat": 11,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "DeepSeek moves up the stack: V4.1-Flash update ships alongside its own Search and Fetch APIs for agents - Dealroom",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Microsoft AI CEO claims its model beats OpenAI’s GPT-5.6 using less compute: Why he said so - Livemint",
+   "source": "Livemint",
+   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQZk53VGhURFFCSnRtdEVtcFVWN2JFSWdCTlAzY1RIWlEyYzlwQnFhLTZYMkwyVGVZNVFxd1JYY2NQQjFXOFlfNEo2eDdlWVo2YVUwcXE0UjZtekpWajB1Y2F2YVNGMUd4Nk9CcUN5a1RjZjZzcjhFOVFnOTVNT1g5Mm5qQmIwbWI1d29pMXBwLVlhX0tYcE9uTERvczRseVNjbkFNTEZyLWo4aW4wcGppRjlNaW4wRFRNZGFjWG9CM0JWaHZYOXVaQU5oRWhrR3REdUtuZFlmYzdDRFZEaWx6U0Mtb2d1dXlycjJz0gHwAUFVX3lxTFBCWERScU84M25BZjRXYzJzQ3hHcy1YSXV2V015SG16WDhIdGp2dWhSN3d1QjRnMnV0ckZVdVVUeU8teTdyTEtIVHBMcWdjUnczc1hZa1hreGxSRFQwQUNJY3pXR3Qzd0dpMVRScjdOMnk2ZFpIc2l1LVVYcVdhUF8tSTN3aXlkd1k2S3I1UTc2Y2RFMzJaTXZCYmcwZExGbVd5b1RXUVFpYnVoUnZjMi0yQXJDNG83UE00WkNkT09YZUxYcHRXd2t4RHdNVUJqdDlSMWViUnYzMDdwTXF2S0ZuZEZfS0doQWxwTm1CeHoyMg?oc=5",
+   "date": "2026-10-17 22:24",
+   "publishedAt": "2026-10-17T22:24:40+08:00",
+   "summary": "",
+   "models": [
+    "GPT-5"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "other"
+   ],
+   "press": false,
+   "heat": 11,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Microsoft AI CEO claims its model beats OpenAI’s GPT-5.6 using less compute: Why he said so - Livemint",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Reflection AI 開源 5010 億參數模型 Beam Apache 2.0 授權強化開源 AI 生態 - 商傳媒",
+   "source": "商傳媒",
+   "url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxPb19nMnAya3RxRzgyemJ6ZnRaX3FFVmM0OVFzbTNTZVFUdWhfZ0MtRWhQLWpBX3lUcXpHcUFqWUtYdl9nWk1zcTljV0tQa0ctQi01Y3lYU0NvVEpBeU9uVnlxWGItd0lGeEZ1QkJGRUxmN2hqX09FbkpOOHFab0J5VVNmYWU0UWZvTHM5dUR6NUlJWFBCMV9jRVhEbDAyYVJLSDhybkl1NVprOExKRHdmeUMyWGxPRzFpa1FnM2E2NlhXT1ZoUm9KdjNYS1FHTWRyZ1BMV0Z4ZGlNUkpUSThuVkRSWDNEdmFHZDVSNkFCeU1CY1dFN3FDeVhlZUNQQWc1VUxGLUdXX3NsTWd5cm9LeGhMMDJmZ2dDTnRJdXhqQU94amwydDVjV2hSMl9oR2VCVnltem4xbWRwZ0tBdTdpRko2SU14NnZpSjVuanNtd25oeHVZU2xHTVFaWG5kT1FXTWxQbHNwcFM?oc=5",
+   "date": "2026-10-17 22:19",
+   "publishedAt": "2026-10-17T22:19:13+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 11,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "Reflection AI 開源 5010 億參數模型 Beam Apache 2.0 授權強化開源 AI 生態 - 商傳媒",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Meta shakes up the frontiers, open and closed - Interconnects AI",
+   "source": "Interconnects AI",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBMVzJJaHdLUmRuWnh4eW93S0MtV1pDSEh4WHpEQjZzZHk5UGlONEE4TFhXOHNwZjNjWFgzUXM2NXNRd1JHV3hMRkUyUWhmRUhoY01YMmxON1NyX0stWF9FcFVITkRadk45NEVBSUNPaXloQQ?oc=5",
+   "date": "2026-10-17 22:06",
+   "publishedAt": "2026-10-17T22:06:54+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 11,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Meta shakes up the frontiers, open and closed - Interconnects AI",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "當人工智慧與機器人協作時，Anthropic 表示這些工作面臨風險 園丁需要擔心嗎？ - Business Insider Taiwan",
+   "source": "Business Insider Taiwan",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1qcXNWMFQ5TEEtRm9SR1JucW85SS0tWk14Zm9OUEhZbDc1NTF3S1liODdGZUlJMGw2aTdVTWxsdVhjZEFobVY5STJScFBMMWxkVnU2RFpR?oc=5",
+   "date": "2026-10-17 22:00",
+   "publishedAt": "2026-10-17T22:00:01+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 11,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "當人工智慧與機器人協作時，Anthropic 表示這些工作面臨風險 園丁需要擔心嗎？ - Business Insider Taiwan",
+     "summary": ""
+    }
+   }
+  }
+ ]
+}
