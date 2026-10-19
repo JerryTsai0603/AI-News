@@ -1,0 +1,194 @@
+{
+ "channel": "dgx",
+ "version": "v26",
+ "fetchedAt": "2026-10-19T11:24:37.551451+08:00",
+ "edition": "2026-10-19",
+ "count": 5,
+ "languages": [
+  "zh-TW",
+  "zh-CN",
+  "en",
+  "ja",
+  "ko",
+  "de",
+  "es",
+  "fr",
+  "it"
+ ],
+ "byGroup": {
+  "asus": 0,
+  "acer": 0,
+  "hp": 0,
+  "msi": 1,
+  "dell": 0,
+  "lenovo": 0,
+  "gigabyte": 0,
+  "microsoft": 0,
+  "nvidia": 4
+ },
+ "byLine": {},
+ "items": [
+  {
+   "title": "Nvidia DGX Spark vs M5 Ultra vs M4 max and 5090 EGPU",
+   "source": "YouTube · Antonio Torres",
+   "url": "https://www.youtube.com/watch?v=LvmFJRi-F34",
+   "date": "2026-10-19 08:47",
+   "publishedAt": "2026-10-19T08:47:35+08:00",
+   "summary": "I compare the popular benchmark measuring the DGX Spark and M5 ultra with a new copetitor the M4 ultra 128gb and 5090 EGPU",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "影片",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 100,
+   "image": "https://i.ytimg.com/vi/LvmFJRi-F34/mqdefault.jpg",
+   "views": 4469,
+   "comments": 18,
+   "dupes": 19,
+   "also": [
+    "YouTube · Eric Stemen",
+    "YouTube · Everyday Marvels",
+    "YouTube · Ctrl Alt Dev",
+    "YouTube · Computers4Canada",
+    "YouTube · AI-Muninn",
+    "YouTube · Tech2WiLD"
+   ],
+   "lines": [],
+   "score": 79,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Nvidia DGX Spark vs M5 Ultra vs M4 max and 5090 EGPU",
+     "summary": "I compare the popular benchmark measuring the DGX Spark and M5 ultra with a new copetitor the M4 ultra 128gb and 5090 EGPU"
+    }
+   }
+  },
+  {
+   "title": "Axera AX8860P 16-core Cortex-A55 SoC takes on NVIDIA DGX Spark at fraction of the cost - CNX Software",
+   "source": "CNX Software",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPd184dEZoZ2Y5cTRNUjRITWRSeWFkMGZ1aGhKZXJESWVGYVQ4Qi1BeE9PLUxrMlUwUWVhN1p3OGgyaDEwMTVtMldjdGNYMDJ0WWd4emIxaTFVazh5VHFaTl9nYXB0b0dVY21RLXVyOFY4NXkxcG1pdUcyWXJpZjZrVmFnZTZuNkE3VFVuZnhRTkRudERBekR3al84cWVMSzh4eDF0S3NzUVZsYUhzTnN3OUJXczYzamM4cXlXZzQ3S2YxLXFWcHfSAc4BQVVfeXFMTnBiQzdKSlRXQTB1UzhRX1RsZUtBRGtnaGNrSGRZNGpvVGhEUVBmUjZDajNCV1hzdGIzUXMySjk3NDMxUm8wQnRKVjJUQkZoaTZWeGxoeDFSYW0zMHRfTDBKSnhtQkYxb2FfckxvekVQQllQUFVhUlgwdFhMTWlqZG9WMlZVRVo1UXc5dUNENVFqVW9Tcll4M25oalJHcWxZcTNLdTctaUtURmRxVGFNSmdxZHItd3BDY3hQT0dxUmVheEhqM1BYWVE0M2ZYRFE?oc=5",
+   "date": "2026-10-19 08:00",
+   "publishedAt": "2026-10-19T08:00:16+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Axera AX8860P 16-core Cortex-A55 SoC takes on NVIDIA DGX Spark at fraction of the cost - CNX Software",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "MSI Prestige N16 Flip AI+ 實測：125B 模型塞進1.9 公斤 RTX Spark 翻轉筆電，跑贏DGX Spark、燒機20 分鐘不降速 - Yahoo新聞",
+   "source": "Yahoo新聞",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBtS3BWQkU4UTFXOFVJbXBoTFQ4TW1jOVNxeEZlcVlTRUp4LVo0UkpXbnI2aU5Ia3cxd0JzbXRIT3hvWmZJQXVSZ3EyUXVXNTFKVHVMSUhUdzlrdWNkQnNoVmVFMzEyYUZBak1QRXJ6RFNvd0k?oc=5",
+   "date": "2026-10-19 06:38",
+   "publishedAt": "2026-10-19T06:38:37+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "開箱評測",
+   "camps": [
+    "msi"
+   ],
+   "press": false,
+   "heat": 22,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "MSI Prestige N16 Flip AI+ 實測：125B 模型塞進1.9 公斤 RTX Spark 翻轉筆電，跑贏DGX Spark、燒機20 分鐘不降速 - Yahoo新聞",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "實測 DeepSeek-V4.1-Flash-1017 雙機 DGX Spark（二）：看圖能力與 GSM8K 測試資料全集 - https://cyberq.tw/",
+   "source": "https://cyberq.tw/",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBCM3ZabXIycHNXSGFFeEpWQ3dzZE9GeEpiTEh6QnJKQ1MtZFM4Vm9lQmZIdTVZeGdQdUVhS0xPMFdVZEZMLWpUMEVUQ0xlSU9NT1JmOGJncWtDTHdLdlQydURTeTZ4alAwQVpkZ3lnVUV1QUlL?oc=5",
+   "date": "2026-10-18 21:05",
+   "publishedAt": "2026-10-18T21:05:00+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "開箱評測",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 21,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "實測 DeepSeek-V4.1-Flash-1017 雙機 DGX Spark（二）：看圖能力與 GSM8K 測試資料全集 - https://cyberq.tw/",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "實測 DeepSeek-V4.1-Flash-1017 雙機 DGX Spark（一）：TensorFold 比 vLLM 快 2.2 倍 - https://cyberq.tw/",
+   "source": "https://cyberq.tw/",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9IMUFaQlJYT3EzM0loaklNaXJkbFhBRW5QYWpWQjJsbFJJcER1MEduNzBGRUxUYlJTLWcxSlEtWjE5b05xdmYtMlZxT0dkM1F3R1Z0U2thRllTTjdBOXNYX1pDYnRNX2p3SGhMd2pzMi1NRDA3X2xHeWxR?oc=5",
+   "date": "2026-10-18 15:46",
+   "publishedAt": "2026-10-18T15:46:00+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "開箱評測",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 20,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "實測 DeepSeek-V4.1-Flash-1017 雙機 DGX Spark（一）：TensorFold 比 vLLM 快 2.2 倍 - https://cyberq.tw/",
+     "summary": ""
+    }
+   }
+  }
+ ]
+}
