@@ -1,9 +1,9 @@
 {
  "channel": "dgx",
  "version": "v26",
- "fetchedAt": "2026-10-19T11:24:37.551451+08:00",
- "edition": "2026-10-19",
- "count": 5,
+ "fetchedAt": "2026-10-20T11:30:11.188490+08:00",
+ "edition": "2026-10-20",
+ "count": 6,
  "languages": [
   "zh-TW",
   "zh-CN",
@@ -24,45 +24,78 @@
   "lenovo": 0,
   "gigabyte": 0,
   "microsoft": 0,
-  "nvidia": 4
+  "nvidia": 5
  },
  "byLine": {},
  "items": [
   {
-   "title": "Nvidia DGX Spark vs M5 Ultra vs M4 max and 5090 EGPU",
-   "source": "YouTube · Antonio Torres",
-   "url": "https://www.youtube.com/watch?v=LvmFJRi-F34",
-   "date": "2026-10-19 08:47",
-   "publishedAt": "2026-10-19T08:47:35+08:00",
-   "summary": "I compare the popular benchmark measuring the DGX Spark and M5 ultra with a new copetitor the M4 ultra 128gb and 5090 EGPU",
+   "title": "This 6-Inch Box Runs 200-Billion-Parameter AI. How? #Shorts",
+   "source": "YouTube · Everyday Technology",
+   "url": "https://www.youtube.com/watch?v=PqsdCivKcqM",
+   "date": "2026-10-20 04:39",
+   "publishedAt": "2026-10-20T04:39:11+08:00",
+   "summary": "NVIDIA's DGX Spark is about 150 × 150 × 50.5 mm (roughly 6 inches square) and weighs 1.2 kg. Inside is one GB10 Grace Blackwell chip: a 20-core Arm CPU and a Blackwell GPU in one package, sharing 128 ",
    "models": [
-    "DGX Spark"
+    "DGX Spark",
+    "GB10",
+    "Grace Blackwell"
    ],
    "tag": "影片",
    "camps": [
     "nvidia"
    ],
    "press": false,
-   "heat": 100,
-   "image": "https://i.ytimg.com/vi/LvmFJRi-F34/mqdefault.jpg",
-   "views": 4469,
-   "comments": 18,
+   "heat": 92,
+   "image": "https://i.ytimg.com/vi/PqsdCivKcqM/mqdefault.jpg",
+   "views": 3931,
+   "comments": 4,
    "dupes": 19,
    "also": [
-    "YouTube · Eric Stemen",
-    "YouTube · Everyday Marvels",
-    "YouTube · Ctrl Alt Dev",
-    "YouTube · Computers4Canada",
-    "YouTube · AI-Muninn",
-    "YouTube · Tech2WiLD"
+    "YouTube · NVNexus | GPU Center",
+    "YouTube · Mr Tech Guy",
+    "YouTube · Talento con Tarifa",
+    "YouTube · Sebastian Maniak",
+    "YouTube · M Machine build",
+    "YouTube · Openmind Tech"
    ],
    "lines": [],
-   "score": 79,
+   "score": 22,
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "Nvidia DGX Spark vs M5 Ultra vs M4 max and 5090 EGPU",
-     "summary": "I compare the popular benchmark measuring the DGX Spark and M5 ultra with a new copetitor the M4 ultra 128gb and 5090 EGPU"
+     "title": "This 6-Inch Box Runs 200-Billion-Parameter AI. How? #Shorts",
+     "summary": "NVIDIA's DGX Spark is about 150 × 150 × 50.5 mm (roughly 6 inches square) and weighs 1.2 kg. Inside is one GB10 Grace Blackwell chip: a 20-core Arm CPU and a Blackwell GPU in one package, sharing 128 "
+    }
+   }
+  },
+  {
+   "title": "Sipeed MaixStation Undercuts DGX Spark by 42.5% [2026] - shattered.io",
+   "source": "shattered.io",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5LVF9vc2paOWRNTDk5YU1Kd2FoZjNFUEM4ZlVJYWRPTzFWdlJvSzBSM3k0bU5pTGF1UmVPZ21JVnp4M2ptNXQwOHMzcUd5X2lhbU5vX1hKcVhvZWs1eFM2aDl1TThtZ3dLREoxR1F3?oc=5",
+   "date": "2026-10-20 03:01",
+   "publishedAt": "2026-10-20T03:01:06+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Sipeed MaixStation Undercuts DGX Spark by 42.5% [2026] - shattered.io",
+     "summary": ""
     }
    }
   },
@@ -81,7 +114,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 14,
+   "heat": 11,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -112,7 +145,7 @@
     "msi"
    ],
    "press": false,
-   "heat": 22,
+   "heat": 18,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -143,7 +176,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 21,
+   "heat": 17,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -174,7 +207,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 20,
+   "heat": 16,
    "image": "",
    "views": 0,
    "comments": 0,

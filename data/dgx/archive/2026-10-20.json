@@ -1,0 +1,227 @@
+{
+ "channel": "dgx",
+ "version": "v26",
+ "fetchedAt": "2026-10-20T11:30:11.188490+08:00",
+ "edition": "2026-10-20",
+ "count": 6,
+ "languages": [
+  "zh-TW",
+  "zh-CN",
+  "en",
+  "ja",
+  "ko",
+  "de",
+  "es",
+  "fr",
+  "it"
+ ],
+ "byGroup": {
+  "asus": 0,
+  "acer": 0,
+  "hp": 0,
+  "msi": 1,
+  "dell": 0,
+  "lenovo": 0,
+  "gigabyte": 0,
+  "microsoft": 0,
+  "nvidia": 5
+ },
+ "byLine": {},
+ "items": [
+  {
+   "title": "This 6-Inch Box Runs 200-Billion-Parameter AI. How? #Shorts",
+   "source": "YouTube · Everyday Technology",
+   "url": "https://www.youtube.com/watch?v=PqsdCivKcqM",
+   "date": "2026-10-20 04:39",
+   "publishedAt": "2026-10-20T04:39:11+08:00",
+   "summary": "NVIDIA's DGX Spark is about 150 × 150 × 50.5 mm (roughly 6 inches square) and weighs 1.2 kg. Inside is one GB10 Grace Blackwell chip: a 20-core Arm CPU and a Blackwell GPU in one package, sharing 128 ",
+   "models": [
+    "DGX Spark",
+    "GB10",
+    "Grace Blackwell"
+   ],
+   "tag": "影片",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 92,
+   "image": "https://i.ytimg.com/vi/PqsdCivKcqM/mqdefault.jpg",
+   "views": 3931,
+   "comments": 4,
+   "dupes": 19,
+   "also": [
+    "YouTube · NVNexus | GPU Center",
+    "YouTube · Mr Tech Guy",
+    "YouTube · Talento con Tarifa",
+    "YouTube · Sebastian Maniak",
+    "YouTube · M Machine build",
+    "YouTube · Openmind Tech"
+   ],
+   "lines": [],
+   "score": 22,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "This 6-Inch Box Runs 200-Billion-Parameter AI. How? #Shorts",
+     "summary": "NVIDIA's DGX Spark is about 150 × 150 × 50.5 mm (roughly 6 inches square) and weighs 1.2 kg. Inside is one GB10 Grace Blackwell chip: a 20-core Arm CPU and a Blackwell GPU in one package, sharing 128 "
+    }
+   }
+  },
+  {
+   "title": "Sipeed MaixStation Undercuts DGX Spark by 42.5% [2026] - shattered.io",
+   "source": "shattered.io",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5LVF9vc2paOWRNTDk5YU1Kd2FoZjNFUEM4ZlVJYWRPTzFWdlJvSzBSM3k0bU5pTGF1UmVPZ21JVnp4M2ptNXQwOHMzcUd5X2lhbU5vX1hKcVhvZWs1eFM2aDl1TThtZ3dLREoxR1F3?oc=5",
+   "date": "2026-10-20 03:01",
+   "publishedAt": "2026-10-20T03:01:06+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Sipeed MaixStation Undercuts DGX Spark by 42.5% [2026] - shattered.io",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Axera AX8860P 16-core Cortex-A55 SoC takes on NVIDIA DGX Spark at fraction of the cost - CNX Software",
+   "source": "CNX Software",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPd184dEZoZ2Y5cTRNUjRITWRSeWFkMGZ1aGhKZXJESWVGYVQ4Qi1BeE9PLUxrMlUwUWVhN1p3OGgyaDEwMTVtMldjdGNYMDJ0WWd4emIxaTFVazh5VHFaTl9nYXB0b0dVY21RLXVyOFY4NXkxcG1pdUcyWXJpZjZrVmFnZTZuNkE3VFVuZnhRTkRudERBekR3al84cWVMSzh4eDF0S3NzUVZsYUhzTnN3OUJXczYzamM4cXlXZzQ3S2YxLXFWcHfSAc4BQVVfeXFMTnBiQzdKSlRXQTB1UzhRX1RsZUtBRGtnaGNrSGRZNGpvVGhEUVBmUjZDajNCV1hzdGIzUXMySjk3NDMxUm8wQnRKVjJUQkZoaTZWeGxoeDFSYW0zMHRfTDBKSnhtQkYxb2FfckxvekVQQllQUFVhUlgwdFhMTWlqZG9WMlZVRVo1UXc5dUNENVFqVW9Tcll4M25oalJHcWxZcTNLdTctaUtURmRxVGFNSmdxZHItd3BDY3hQT0dxUmVheEhqM1BYWVE0M2ZYRFE?oc=5",
+   "date": "2026-10-19 08:00",
+   "publishedAt": "2026-10-19T08:00:16+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 11,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Axera AX8860P 16-core Cortex-A55 SoC takes on NVIDIA DGX Spark at fraction of the cost - CNX Software",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "MSI Prestige N16 Flip AI+ 實測：125B 模型塞進1.9 公斤 RTX Spark 翻轉筆電，跑贏DGX Spark、燒機20 分鐘不降速 - Yahoo新聞",
+   "source": "Yahoo新聞",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBtS3BWQkU4UTFXOFVJbXBoTFQ4TW1jOVNxeEZlcVlTRUp4LVo0UkpXbnI2aU5Ia3cxd0JzbXRIT3hvWmZJQXVSZ3EyUXVXNTFKVHVMSUhUdzlrdWNkQnNoVmVFMzEyYUZBak1QRXJ6RFNvd0k?oc=5",
+   "date": "2026-10-19 06:38",
+   "publishedAt": "2026-10-19T06:38:37+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "開箱評測",
+   "camps": [
+    "msi"
+   ],
+   "press": false,
+   "heat": 18,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "MSI Prestige N16 Flip AI+ 實測：125B 模型塞進1.9 公斤 RTX Spark 翻轉筆電，跑贏DGX Spark、燒機20 分鐘不降速 - Yahoo新聞",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "實測 DeepSeek-V4.1-Flash-1017 雙機 DGX Spark（二）：看圖能力與 GSM8K 測試資料全集 - https://cyberq.tw/",
+   "source": "https://cyberq.tw/",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBCM3ZabXIycHNXSGFFeEpWQ3dzZE9GeEpiTEh6QnJKQ1MtZFM4Vm9lQmZIdTVZeGdQdUVhS0xPMFdVZEZMLWpUMEVUQ0xlSU9NT1JmOGJncWtDTHdLdlQydURTeTZ4alAwQVpkZ3lnVUV1QUlL?oc=5",
+   "date": "2026-10-18 21:05",
+   "publishedAt": "2026-10-18T21:05:00+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "開箱評測",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 17,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "實測 DeepSeek-V4.1-Flash-1017 雙機 DGX Spark（二）：看圖能力與 GSM8K 測試資料全集 - https://cyberq.tw/",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "實測 DeepSeek-V4.1-Flash-1017 雙機 DGX Spark（一）：TensorFold 比 vLLM 快 2.2 倍 - https://cyberq.tw/",
+   "source": "https://cyberq.tw/",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9IMUFaQlJYT3EzM0loaklNaXJkbFhBRW5QYWpWQjJsbFJJcER1MEduNzBGRUxUYlJTLWcxSlEtWjE5b05xdmYtMlZxT0dkM1F3R1Z0U2thRllTTjdBOXNYX1pDYnRNX2p3SGhMd2pzMi1NRDA3X2xHeWxR?oc=5",
+   "date": "2026-10-18 15:46",
+   "publishedAt": "2026-10-18T15:46:00+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "開箱評測",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 16,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "實測 DeepSeek-V4.1-Flash-1017 雙機 DGX Spark（一）：TensorFold 比 vLLM 快 2.2 倍 - https://cyberq.tw/",
+     "summary": ""
+    }
+   }
+  }
+ ]
+}
