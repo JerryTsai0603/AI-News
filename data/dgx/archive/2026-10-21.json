@@ -1,0 +1,132 @@
+{
+ "channel": "dgx",
+ "version": "v26",
+ "fetchedAt": "2026-10-21T11:35:26.317209+08:00",
+ "edition": "2026-10-21",
+ "count": 3,
+ "languages": [
+  "zh-TW",
+  "zh-CN",
+  "en",
+  "ja",
+  "ko",
+  "de",
+  "es",
+  "fr",
+  "it"
+ ],
+ "byGroup": {
+  "asus": 0,
+  "acer": 0,
+  "hp": 0,
+  "msi": 0,
+  "dell": 0,
+  "lenovo": 0,
+  "gigabyte": 0,
+  "microsoft": 0,
+  "nvidia": 3
+ },
+ "byLine": {},
+ "items": [
+  {
+   "title": "Multi-agent บน DGX Spark ใช้งานได้จริง: สถาปัตยกรรม โค้ด ผลทดสอบ | อธิบายด้วยแอนิเมชัน 28 นาที",
+   "source": "YouTube · Suntiwong Sahairak",
+   "url": "https://www.youtube.com/watch?v=g9IbJ_a5WPg",
+   "date": "2026-10-21 07:41",
+   "publishedAt": "2026-10-21T07:41:14+08:00",
+   "summary": "สร้างทีม AI agent บน NVIDIA DGX Spark เครื่องเดียว หัวหน้าทีม (supervisor) แบ่งงานให้ลูกทีม SQL, RAG และ OCR ทำงานขนาน แล้วรวมเป็นคำตอบเดียว มีตัวตรวจตัวเลขที่เป็นโค้ด และต้องให้คนอนุมัติก่อนเปิด tick",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "影片",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 100,
+   "image": "https://i.ytimg.com/vi/g9IbJ_a5WPg/mqdefault.jpg",
+   "views": 55203,
+   "comments": 453,
+   "dupes": 22,
+   "also": [
+    "YouTube · Mini PC Guru",
+    "YouTube · PAD : PC Watch & AKIBA PC Hotline! plus DVPR",
+    "YouTube · Mario Alka",
+    "YouTube · Everyday Technology",
+    "YouTube · Andrew Grapsas",
+    "YouTube · 엥지유니버스 | 로봇 엔지니어"
+   ],
+   "lines": [],
+   "score": 1655,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Multi-agent บน DGX Spark ใช้งานได้จริง: สถาปัตยกรรม โค้ด ผลทดสอบ | อธิบายด้วยแอนิเมชัน 28 นาที",
+     "summary": "สร้างทีม AI agent บน NVIDIA DGX Spark เครื่องเดียว หัวหน้าทีม (supervisor) แบ่งงานให้ลูกทีม SQL, RAG และ OCR ทำงานขนาน แล้วรวมเป็นคำตอบเดียว มีตัวตรวจตัวเลขที่เป็นโค้ด และต้องให้คนอนุมัติก่อนเปิด tick"
+    }
+   }
+  },
+  {
+   "title": "NVIDIA DGX Spark 64GB’s Low Price-Point Aims To Accelerate Local AI Inference - The Futurum Group",
+   "source": "The Futurum Group",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQUtYeXJCekFXcHR5UzlJMWpCcmMxaUYyVGl1Q05WbE5KVTNuN211aHR3QVBqQ1JMN2hxUlRzemE1cjhIX21aMXR0c21Gb1JMdlJ3MlFGTWVpeUt5NVBlVUJRMHlrUFVyVVZMNmdqZm9MNXFzdmpXWldjLUtOWW12TEMwbGxJRlhIdmxOME5vTFdCMEZGNmcwNHJUTExiTGdqT3pWajZjN0lhSXFNWlRKMA?oc=5",
+   "date": "2026-10-20 23:07",
+   "publishedAt": "2026-10-20T23:07:30+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "價格上市",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 21,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "NVIDIA DGX Spark 64GB’s Low Price-Point Aims To Accelerate Local AI Inference - The Futurum Group",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Sipeed MaixStation Undercuts DGX Spark by 42.5% [2026] - shattered.io",
+   "source": "shattered.io",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5LVF9vc2paOWRNTDk5YU1Kd2FoZjNFUEM4ZlVJYWRPTzFWdlJvSzBSM3k0bU5pTGF1UmVPZ21JVnp4M2ptNXQwOHMzcUd5X2lhbU5vX1hKcVhvZWs1eFM2aDl1TThtZ3dLREoxR1F3?oc=5",
+   "date": "2026-10-20 03:01",
+   "publishedAt": "2026-10-20T03:01:06+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 10,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Sipeed MaixStation Undercuts DGX Spark by 42.5% [2026] - shattered.io",
+     "summary": ""
+    }
+   }
+  }
+ ]
+}
