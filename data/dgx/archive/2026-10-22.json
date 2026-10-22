@@ -1,0 +1,388 @@
+{
+ "channel": "dgx",
+ "version": "v26",
+ "fetchedAt": "2026-10-22T11:41:10.024020+08:00",
+ "edition": "2026-10-22",
+ "count": 11,
+ "languages": [
+  "zh-TW",
+  "zh-CN",
+  "en",
+  "ja",
+  "ko",
+  "de",
+  "es",
+  "fr",
+  "it"
+ ],
+ "byGroup": {
+  "asus": 0,
+  "acer": 0,
+  "hp": 0,
+  "msi": 0,
+  "dell": 3,
+  "lenovo": 0,
+  "gigabyte": 1,
+  "microsoft": 0,
+  "nvidia": 7
+ },
+ "byLine": {},
+ "items": [
+  {
+   "title": "View GB10 White Paper",
+   "source": "NVIDIA DGX Spark",
+   "url": "https://www.nvidia.com/content/dam/en-zz/Solutions/dgx-spark/nvidia-gb10-superchip-whitepaper.pdf",
+   "date": "2026-10-22 11:41",
+   "publishedAt": "2026-10-22T11:41:10.100144+08:00",
+   "summary": "",
+   "models": [
+    "GB10"
+   ],
+   "tag": "官方發布",
+   "camps": [
+    "nvidia"
+   ],
+   "press": true,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "View GB10 White Paper",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "長庚大學打造「人人有AI - AI Tutor 篇」：攜手麗臺以NVIDIA DGX Spark 建構最懂課堂脈絡的專屬數位助教 - 聚財網",
+   "source": "聚財網",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5KOW9lZHV4LVhlMjltRVI4aUVWQXUxWnhjazZkUUJtU2RuaTMxbmVNMUtqUGx5MDZvazZwZE1yUVVyWVJXUFNVbE11V1M?oc=5",
+   "date": "2026-10-22 11:33",
+   "publishedAt": "2026-10-22T11:33:41+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 39,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 3,
+   "also": [
+    "INSIDE"
+   ],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "長庚大學打造「人人有AI - AI Tutor 篇」：攜手麗臺以NVIDIA DGX Spark 建構最懂課堂脈絡的專屬數位助教 - 聚財網",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Nvidia's DGX Spark can now join forces with seven others to deliver 1 TB of memory - Notebookcheck",
+   "source": "Notebookcheck",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNLWVZNXppbFYzWVRjcy1SOU9YTWVqVGc3Qnk3c2Q0ckc4MkcwcEZRNnNfWjQwSnBVdHhzVVZUdlZQMG4zRURQOGI5NUN1X1lkakpTLW9qSXZvWTUtVElob2pNU3Z1Zl94SnRZWjZYbXlfdC12TmMycjl4bVZ2NC1NNl9fNC05MU5YdzZCSk1kRzgwbnRPRF8tWUZCR3dROVp0cEw1TFZtQmlFeDRCN2E1MWhOTExxdWlCejBKRFRFcHpMV1Jhd1E?oc=5",
+   "date": "2026-10-22 09:51",
+   "publishedAt": "2026-10-22T09:51:00+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Nvidia's DGX Spark can now join forces with seven others to deliver 1 TB of memory - Notebookcheck",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Dell AI Factory with NVIDIA Adds a 256-CPU Vera Rack, a Groq 3 LPU Inference Rack, and a 64GB GB10 Desktop - StorageReview.com",
+   "source": "StorageReview.com",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOa014bGk1bXdyc2hCU2huX3FVRUZBLW51bXREY3JyaXhRSTNvRnJWd25rRXhmXzZLZ2ZneHhaVERUQVNFWmhUNDJPdmJXckxQUFpZWVljVXpIb2hUOVhGRHd6cU00SmtKRC1KVTQwMWVDa3d3djZUbGNITVM2ZWMyV3lOaTE2SjN2YTZ3V2NkLVR6bE43YXNFZC1XZG8tSG9yWXYzT01fakpYUFNLOXVUMzRB0gG3AUFVX3lxTE5UTzNRQUo0Z2FNR1JMT0NQYUJMQW9CU21haFRObTR0NFVHUV95Y0lGUXRuSFN0NmVackwzdjVMUC05SU5NZi1LSXpPYTVpSlpfamVJYnVrNUV4dHhqN2d3MFhuZVZ5enoxYktyNDFQQmo1ajRncWc2bmY0dks5MGU2SnhqNmUxaWtnQ3UtQ1NPTmVFTVdNM1pScWdwdXFNU1ZnTWU1cThycjBEVktSOU82Y0ZrdFo1Zw?oc=5",
+   "date": "2026-10-22 05:51",
+   "publishedAt": "2026-10-22T05:51:15+08:00",
+   "summary": "",
+   "models": [
+    "GB10"
+   ],
+   "tag": "開箱評測",
+   "camps": [
+    "dell"
+   ],
+   "press": false,
+   "heat": 30,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 2,
+   "also": [
+    "StorageReview"
+   ],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Dell AI Factory with NVIDIA Adds a 256-CPU Vera Rack, a Groq 3 LPU Inference Rack, and a 64GB GB10 Desktop - StorageReview.com",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "M5 Ultra vs DGX Spark: Which Runs Local AI Better?",
+   "source": "YouTube · Sanchit Gogna",
+   "url": "https://www.youtube.com/watch?v=XuFpFDQqP4w",
+   "date": "2026-10-22 03:30",
+   "publishedAt": "2026-10-22T03:30:01+08:00",
+   "summary": "On the same model, the Mac Studio M5 Ultra writes almost 4x faster than Nvidia's DGX Spark. But hand two Sparks a 32,000-token codebase and they start answering in 17 seconds, while the Mac needs abou",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "影片",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 95,
+   "image": "https://i.ytimg.com/vi/XuFpFDQqP4w/mqdefault.jpg",
+   "views": 6312,
+   "comments": 8,
+   "dupes": 29,
+   "also": [
+    "YouTube · シンオン株式会社 (Synon,Inc) 公式",
+    "YouTube · Neoram",
+    "YouTube · BMTradingOfficial",
+    "YouTube · Suntiwong Sahairak",
+    "YouTube · Techy Sbn",
+    "YouTube · Best Luxury Deals"
+   ],
+   "lines": [],
+   "score": 36,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "M5 Ultra vs DGX Spark: Which Runs Local AI Better?",
+     "summary": "On the same model, the Mac Studio M5 Ultra writes almost 4x faster than Nvidia's DGX Spark. But hand two Sparks a 32,000-token codebase and they start answering in 17 seconds, while the Mac needs abou"
+    }
+   }
+  },
+  {
+   "title": "Nvidia’s DGX Spark has a match from Dell, minus the markup - TechRadar",
+   "source": "TechRadar",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWkZhV1BHVDNCa19LUHNtRWotcjFKeEw0MjNoRjJVSDY2N3BmMzJQUHctcW1OQ1AyRHZ6ZFBrSDBZVXB5YUN3OG9uNDJlRWhsVjlhVHQwMzcxVEJlaGxFZEY0V0JmcUlaeFZLX2R5UXN0NDk5RVVyU042UFV3MWN3TzduWF9YYWVLeG9LYldmZXk1WDdyY0RvdVVNNlMyQ2ROM3hyUndQbzZiLUd5SVRwY0NPZGZ4V2dFeGNmczF6RHhfTDg3?oc=5",
+   "date": "2026-10-22 00:23",
+   "publishedAt": "2026-10-22T00:23:31+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "dell"
+   ],
+   "press": false,
+   "heat": 21,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Nvidia’s DGX Spark has a match from Dell, minus the markup - TechRadar",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "ACE Malaysia 2026 put local AI to work, with 18 GIGABYTE AI TOP ATOM units sold on the day - Tech Critter",
+   "source": "Tech Critter",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRU5kZFBESF9qSjNDaG95aHFDb1kxb1VMNUx2MWdKc3dHT29kaUV5RV9XbFhETWVKZG5MSGdSZFFCelJ2Z2tIOHNiYnIwWTZGeGhvVUxLaWx3cFloU2pRUUY0dllrUGtKTmlHa3FMRmd3cWpFV1RfYzRnTTVRUUVtdTFLSkVPUQ?oc=5",
+   "date": "2026-10-21 20:58",
+   "publishedAt": "2026-10-21T20:58:28+08:00",
+   "summary": "",
+   "models": [
+    "AI TOP ATOM"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "gigabyte"
+   ],
+   "press": false,
+   "heat": 21,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "ACE Malaysia 2026 put local AI to work, with 18 GIGABYTE AI TOP ATOM units sold on the day - Tech Critter",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Nvidia's DGX Spark is sold out, but Dell’s GB10 workstation delivers the same Grace Blackwell power for less — skip the waitlist with the 2TB config at $5,903 - Tom's Hardware",
+   "source": "Tom's Hardware",
+   "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxPNDJCWHhEX1NRT0V0RTVfcFJMcUZ6QnNZcXpKTlJBNms2bmxOdmY2YzJxM0NOSkhZbGtjd3FiYUxuOWhlVWtJN2N2bmRzUEZTaWpkNWc5NGR2OWtWV0Zub29ZSzRSVVFwWV9pS0hzX3RtRzVSRFhpTW5oWi14dFkzUlBwcDBOaE02LW15RW9qY2VxTGppZFVYVHF4dWdTakItRjlYYTE0QVJJalFXeG8zekdaNkp2ajU3ZGhMRDN5aldqaWNrNWw4SVAwazYyeVIwbU1GNzhNbTctejNTcThnMWZyMEg3U3VlOWtGWTdQajVHdFRJVnNxUGxHWjFQZnRsVDVXRGtTV0F3ekR0NU1lblNOeTE3VVZ6Q2ZRSjlR?oc=5",
+   "date": "2026-10-21 20:41",
+   "publishedAt": "2026-10-21T20:41:30+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark",
+    "GB10",
+    "Grace Blackwell"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "dell"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Nvidia's DGX Spark is sold out, but Dell’s GB10 workstation delivers the same Grace Blackwell power for less — skip the waitlist with the 2TB config at $5,903 - Tom's Hardware",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "英偉達推出DGX Spark 64GB版本 兩台集羣可支持最高2000億參數模型 - TradingView",
+   "source": "TradingView",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBjcEcwdF9oWmdHX3YzN1V4V3pvM1EzS1cyUWJRYTNEWlFsaXNDMENWRFJUc0d0V2lBUjdjVTFmYW43ay1LTEhmVnJDZ1RWN29qVEh4TnlOQ1FUUGFrUFMwMFlBeFZyWFBicUE?oc=5",
+   "date": "2026-10-21 19:02",
+   "publishedAt": "2026-10-21T19:02:32+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 20,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "英偉達推出DGX Spark 64GB版本 兩台集羣可支持最高2000億參數模型 - TradingView",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
+   "source": "NVIDIA Blog",
+   "url": "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/",
+   "date": "2026-10-21 18:50",
+   "publishedAt": "2026-10-21T18:50:37+08:00",
+   "summary": "At GTC Berlin, NVIDIA is showcasing its full lineup of local AI hardware. RTX Spark, which launched last week, powers personal agents on Windows PCs; DGX Spark supports developers building and scaling applications on Lin",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "應用案例",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 20,
+   "image": "https://blogs.nvidia.com/wp-content/uploads/2026/10/nv-blog-1280x680-2.jpg",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [
+    "NVIDIA Newsroom"
+   ],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
+     "summary": "At GTC Berlin, NVIDIA is showcasing its full lineup of local AI hardware. RTX Spark, which launched last week, powers personal agents on Windows PCs; DGX Spark supports developers building and scaling applications on Lin"
+    }
+   }
+  },
+  {
+   "title": "NVIDIA DGX Spark 64GB’s Low Price-Point Aims To Accelerate Local AI Inference - The Futurum Group",
+   "source": "The Futurum Group",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQUtYeXJCekFXcHR5UzlJMWpCcmMxaUYyVGl1Q05WbE5KVTNuN211aHR3QVBqQ1JMN2hxUlRzemE1cjhIX21aMXR0c21Gb1JMdlJ3MlFGTWVpeUt5NVBlVUJRMHlrUFVyVVZMNmdqZm9MNXFzdmpXWldjLUtOWW12TEMwbGxJRlhIdmxOME5vTFdCMEZGNmcwNHJUTExiTGdqT3pWajZjN0lhSXFNWlRKMA?oc=5",
+   "date": "2026-10-20 23:07",
+   "publishedAt": "2026-10-20T23:07:30+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "價格上市",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 17,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "NVIDIA DGX Spark 64GB’s Low Price-Point Aims To Accelerate Local AI Inference - The Futurum Group",
+     "summary": ""
+    }
+   }
+  }
+ ]
+}
