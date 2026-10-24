@@ -1,0 +1,508 @@
+{
+ "channel": "dgx",
+ "version": "v26",
+ "fetchedAt": "2026-10-24T11:51:27.148825+08:00",
+ "edition": "2026-10-24",
+ "count": 15,
+ "languages": [
+  "zh-TW",
+  "zh-CN",
+  "en",
+  "ja",
+  "ko",
+  "de",
+  "es",
+  "fr",
+  "it"
+ ],
+ "byGroup": {
+  "asus": 0,
+  "acer": 0,
+  "hp": 0,
+  "msi": 1,
+  "dell": 1,
+  "lenovo": 0,
+  "gigabyte": 0,
+  "microsoft": 0,
+  "nvidia": 12
+ },
+ "byLine": {},
+ "items": [
+  {
+   "title": "DGX Spark ต่อสองเครื่อง: รัน AI เร็วขึ้นเท่าไร คุ้มไหม",
+   "source": "YouTube · Data-Espresso",
+   "url": "https://www.youtube.com/watch?v=d0TmtD3TnbQ",
+   "date": "2026-10-24 10:05",
+   "publishedAt": "2026-10-24T10:05:55+08:00",
+   "summary": "ต่อ DGX Spark สองเครื่องด้วยสายเส้นเดียว โมเดลเดิมเร็วขึ้นราว 1.4 ถึง 1.5 เท่า ไม่ถึงสองเท่า ตัวเลขวัดจริงบนเครื่องสองเครื่อง ข้อมูล ณ 22 ต.ค. 2569 ต่อจากคลิปที่ติดตั้ง Qwen 3.8 Flash Next บน DGX Spar",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "影片",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 100,
+   "image": "https://i.ytimg.com/vi/d0TmtD3TnbQ/mqdefault.jpg",
+   "views": 14069,
+   "comments": 33,
+   "dupes": 41,
+   "also": [
+    "YouTube · AI Researcher & Robotics Developer Frank Fu",
+    "YouTube · SlopTV News",
+    "YouTube · CyberGlitchs",
+    "YouTube · The Big AI Story",
+    "YouTube · Autodidact's Cove",
+    "YouTube · ZekaYapar"
+   ],
+   "lines": [],
+   "score": 386,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "DGX Spark ต่อสองเครื่อง: รัน AI เร็วขึ้นเท่าไร คุ้มไหม",
+     "summary": "ต่อ DGX Spark สองเครื่องด้วยสายเส้นเดียว โมเดลเดิมเร็วขึ้นราว 1.4 ถึง 1.5 เท่า ไม่ถึงสองเท่า ตัวเลขวัดจริงบนเครื่องสองเครื่อง ข้อมูล ณ 22 ต.ค. 2569 ต่อจากคลิปที่ติดตั้ง Qwen 3.8 Flash Next บน DGX Spar"
+    }
+   }
+  },
+  {
+   "title": "Chinese startup claims its $2,000 mini PC can outperform Nvidia's DGX Spark - TechRadar",
+   "source": "TechRadar",
+   "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQNDFZQV9uak12T2p6WHhjX1ppTFBGM18wR0Nqc3FEQUVVbTdQQjZpVjdJM1FNMTNLWTFjOF9mSDlmd2d6bEpmQ3ZIdFQxX0FzY21rYkVzUUVXcWs3UHZtR2l1V2x1OUQzSGpmYnlKM2lSRTltX3UtWlZPQ2JhaTZPeDhydkhVUHRBSEt0QWo0TmlhSElRaXM4TVlRN2Y0YVp5RDBidHI0TXJ2RGwteVBCVkhSV09sOHlvUThkNXdQTzZrNGVWbF9UWUNDSlBSbDBIdTVubVllZ2piVVZfX0VhX05ZREtjaGV4QmJOZHlvcVhYb21IR05mMDBfcko0dVhHTW1WSUd0RlNSX1pmbXdRY1hB?oc=5",
+   "date": "2026-10-24 06:25",
+   "publishedAt": "2026-10-24T06:25:00+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Chinese startup claims its $2,000 mini PC can outperform Nvidia's DGX Spark - TechRadar",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "MSI XpertStation WS300 Review NVIDIA DGX Station GB300 - ServeTheHome",
+   "source": "ServeTheHome",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNzE3V19CSms2cmlJZGR1aFBMYVMxYWp1OGxzbnZDa0NobjE2bHg3NTVBOGUyWENVYU1GeGRQaXFPcFliYnhYSGRnaVZvYlc0RUo2WVhRX05ncW1JTG9yTUs4ZWlUWTBhdUZfU0RLZHh4cG90WkNZY1pnZlJiWTQtbVBWbzhLT1hCc251bQ?oc=5",
+   "date": "2026-10-24 01:00",
+   "publishedAt": "2026-10-24T01:00:33+08:00",
+   "summary": "",
+   "models": [
+    "DGX Station",
+    "GB300"
+   ],
+   "tag": "開箱評測",
+   "camps": [
+    "msi"
+   ],
+   "press": false,
+   "heat": 29,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 2,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "MSI XpertStation WS300 Review NVIDIA DGX Station GB300 - ServeTheHome",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Nvidia DGX Spark 64GB Launches at $4,999: Is It Worth It? - TechRepublic",
+   "source": "TechRepublic",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVWFkT1pMNUVFdG13ODFXeGV4Mk5YQ012ZzUtdVgydzNhOWNCNk9BUzZ5VkRmaE0yREFXYmpJeEhlQjJKcHhQUW1kY2wwZUhic1NmZWF4aVp5LW5FUXBPWjBSbnRnTzNFLVQzcWlpNTVNVi1nUHg1Uk5lbThpUlF1V3RB?oc=5",
+   "date": "2026-10-23 17:32",
+   "publishedAt": "2026-10-23T17:32:47+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Nvidia DGX Spark 64GB Launches at $4,999: Is It Worth It? - TechRepublic",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "搭載GB300的DGX Station for Windows將在12月推出 #SOCAMM2 (253313) - Cool3c",
+   "source": "Cool3c",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9tc2w0Uk1vM1YycUVOSnlTLV9OUGk2OWZscmF1TkN0Vl9ZVEVtMzdxLVlEY0F3NXYtbFRpalNYeWROUUNiaEVkRWZ1c2F0dw?oc=5",
+   "date": "2026-10-23 11:37",
+   "publishedAt": "2026-10-23T11:37:00+08:00",
+   "summary": "",
+   "models": [
+    "DGX Station",
+    "GB300"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 19,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "搭載GB300的DGX Station for Windows將在12月推出 #SOCAMM2 (253313) - Cool3c",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Qblox Achieves Sub-4 Microsecond Latency Integrating NVIDIA DGX Spark and RTX PRO 6000 Blackwell via NVQLink - Quantum Computing Report",
+   "source": "Quantum Computing Report",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQX0dLc3F5QTRWaU9SRzE0c1g0a0VEYVVlU3MxSjZSTVBGVHRYSUo1VVZvb1FCYXlwNVRqWWJRSVRRWnhNTDlvZ0pXSmxSczQ4R2hRRDY4ZFp4OXpmX2t5ZjNibncxYWpzTUpvdnk2R3BwYmdKWVJ3Q0hTQWNJVk52M1pNZF80aHZVYTdyekRPUnFtTDN2NWg2Y2k5ZHpHMUFrWHdqWXlEeTdkR3k0d3JzT1dBUWU2ZTgyOTJsZE85ZDlYS19jWmZfRU9paWpxTDk4dU1sOWhISG5yY0FC0gHiAUFVX3lxTFBvNkotb3ZlV1pqVzVEX0kzblNmM3oxUGpnVloyMHJPZ1hqUmRNeUdIMmJ5eld1UThWYnFWdW5UR1dPQjE4WXhzWXFUTGJUM0R3YzRVcDZ4V2xmWC1qNlVHaXpXX2E4QUp3MkhYaVZiTkdBODZzQzFCVHowOUlwUmV5czB5U0tlUVJMeDBMX0FvNGpzQXQyMlMwVDE0UUdtTWREYS1Kc0l6NEhsa0FMTlN5ei1pNGI1R3ZuWjlSV0hPazZQNndMZGRzVzBMTHlXWS1nUlZheEhmc3U4RWllZVhEX3c?oc=5",
+   "date": "2026-10-23 10:24",
+   "publishedAt": "2026-10-23T10:24:52+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 11,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Qblox Achieves Sub-4 Microsecond Latency Integrating NVIDIA DGX Spark and RTX PRO 6000 Blackwell via NVQLink - Quantum Computing Report",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "DGX Spark 64GB on Sale at $4,999, 128GB at $6,950 [2026] - https://tech-insider.org/",
+   "source": "https://tech-insider.org/",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9UWjQ5ODJualNPRXYtVFFRMHZBY3lKV2VSWUs4Q0VGQU9YOVVZdW52YVNST1pkdEtWd0VfTEFrUEh1a0c5YV9ldTYxei04Y1Q2Y3BUMVpVTWUyTncxQXdVR2JDcGxUbkF3RHZyeG56SVItdDlybmNhSjFOY0M?oc=5",
+   "date": "2026-10-23 09:23",
+   "publishedAt": "2026-10-23T09:23:29+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 19,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "DGX Spark 64GB on Sale at $4,999, 128GB at $6,950 [2026] - https://tech-insider.org/",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Nvidia DGX Spark Clusters Now Reach 8 Units and 1 TB of Memory - eTeknix",
+   "source": "eTeknix",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRWJNaldCNXMxQ2pCalJ2VDVYajlSOEhDeU5mM2p4X1lnZHo4WXR1bWFreTZiQmtxOWhYbFpPTURucjZGdkhFVjNKOEl6eWlrbmxPVG9EdnZvZ1o0ejlNUFhMQ1NHWHFBNGxteVV0ZWItRHpZNVh1UWxuOWhVaHJZU1B3VkpvMlJnQzZEYW5GMVE?oc=5",
+   "date": "2026-10-23 03:01",
+   "publishedAt": "2026-10-23T03:01:35+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "應用案例",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 10,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Nvidia DGX Spark Clusters Now Reach 8 Units and 1 TB of Memory - eTeknix",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Running Frontier-Class AI Models Across 8 NVIDIA DGX Spark Nodes | NVIDIA Technical Blog - NVIDIA Developer",
+   "source": "NVIDIA Developer",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQXgyZ1REM3ZhNTRDMkNTVnNFckUxeU81c3doMVNiU0JfMXM4TllyR05Cc25PWThJWUVRQll5SjdhT2Y0NVBPOXIwYnI1aEdsdWFFeTZTMWo4eEoxa0ZIb2hVTGRma2xTYlBWS0oyNDJXVlpuXzlfT0E2Rnhkay1Hdi1RUm9Cc3dFeUpMUXhSV1BBYm5TZjg4RHM1WGhYME8z?oc=5",
+   "date": "2026-10-23 00:02",
+   "publishedAt": "2026-10-23T00:02:58+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "應用案例",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 9,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Running Frontier-Class AI Models Across 8 NVIDIA DGX Spark Nodes | NVIDIA Technical Blog - NVIDIA Developer",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Aegiq Runs 100-qubit Tests On NVIDIA’s DGX Spark Server - Quantum Zeitgeist",
+   "source": "Quantum Zeitgeist",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE90YXJ5NkUzMURUUmpaU1N3MXBFcUxCQXpYZnEtNFgwTFVfeTNYOW1td2x0akxSMjZMRTU5a05lckc2Mkp5dmhxOHhMekVYOWR5cVRDS0w4M1pUUDlrRng4ZGY2N1IzV2FmWG9xNU1Pcw?oc=5",
+   "date": "2026-10-22 21:28",
+   "publishedAt": "2026-10-22T21:28:14+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 9,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Aegiq Runs 100-qubit Tests On NVIDIA’s DGX Spark Server - Quantum Zeitgeist",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "NVIDIA DGX Spark擴展至8機叢集、實現1TB記憶體與支援GLM 5.3等大型模型#AI模型 (253286) - Cool3c",
+   "source": "Cool3c",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBsbW14dlBvZjZyX1FuajE4NFZuSmFIQ2JaNDMzQlZLZW1laWpIbHA0WjBadVNWRU5hNkZHTlJQVloyODFFQld2Q3NRZmIwQQ?oc=5",
+   "date": "2026-10-22 15:22",
+   "publishedAt": "2026-10-22T15:22:00+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 16,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "NVIDIA DGX Spark擴展至8機叢集、實現1TB記憶體與支援GLM 5.3等大型模型#AI模型 (253286) - Cool3c",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "NVIDIA Local AI Push at GTC Berlin Adds DGX Station and Cluster Tools - Gadget Pilipinas",
+   "source": "Gadget Pilipinas",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdVVRcWNtaUFELVhFbndqVUV2WmQzTXZQRnZNd2hnbkxPS2pIRC1IcVdXUUVPaEpyazJaNGNUM1d5QjM1OEIzMzlrbVNYQnZEMDNySUxRMGxBMWtNbDJsckRDbzFJcUlEZHhZMmVIYlpTWjI0QjdxMnZhOGp4RzVIbmJlT0hrdw?oc=5",
+   "date": "2026-10-22 14:35",
+   "publishedAt": "2026-10-22T14:35:59+08:00",
+   "summary": "",
+   "models": [
+    "DGX Station"
+   ],
+   "tag": "應用案例",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 8,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "NVIDIA Local AI Push at GTC Berlin Adds DGX Station and Cluster Tools - Gadget Pilipinas",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "View GB10 White Paper",
+   "source": "NVIDIA DGX Spark",
+   "url": "https://www.nvidia.com/content/dam/en-zz/Solutions/dgx-spark/nvidia-gb10-superchip-whitepaper.pdf",
+   "date": "2026-10-22 11:41",
+   "publishedAt": "2026-10-22T11:41:10.100144+08:00",
+   "summary": "",
+   "models": [
+    "GB10"
+   ],
+   "tag": "官方發布",
+   "camps": [
+    "nvidia"
+   ],
+   "press": true,
+   "heat": 7,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "View GB10 White Paper",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Dell AI Factory with NVIDIA Adds a 256-CPU Vera Rack, a Groq 3 LPU Inference Rack, and a 64GB GB10 Desktop",
+   "source": "StorageReview",
+   "url": "https://www.storagereview.com/news/dell-ai-factory-nvidia-poweredge-m9882-vera-cpu-rack-xe9810-groq-3-gtc-berlin",
+   "date": "2026-10-22 00:16",
+   "publishedAt": "2026-10-22T00:16:56+08:00",
+   "summary": "",
+   "models": [
+    "GB10"
+   ],
+   "tag": "應用案例",
+   "camps": [
+    "dell"
+   ],
+   "press": false,
+   "heat": 6,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Dell AI Factory with NVIDIA Adds a 256-CPU Vera Rack, a Groq 3 LPU Inference Rack, and a 64GB GB10 Desktop",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
+   "source": "NVIDIA Blog",
+   "url": "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/",
+   "date": "2026-10-21 18:50",
+   "publishedAt": "2026-10-21T18:50:37+08:00",
+   "summary": "At GTC Berlin, NVIDIA is showcasing its full lineup of local AI hardware. RTX Spark, which launched last week, powers personal agents on Windows PCs; DGX Spark supports developers building and scaling applications on Lin",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "應用案例",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "https://blogs.nvidia.com/wp-content/uploads/2026/10/nv-blog-1280x680-2.jpg",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [
+    "NVIDIA Newsroom"
+   ],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
+     "summary": "At GTC Berlin, NVIDIA is showcasing its full lineup of local AI hardware. RTX Spark, which launched last week, powers personal agents on Windows PCs; DGX Spark supports developers building and scaling applications on Lin"
+    }
+   }
+  }
+ ]
+}
