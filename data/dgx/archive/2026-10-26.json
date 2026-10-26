@@ -1,0 +1,133 @@
+{
+ "channel": "dgx",
+ "version": "v26",
+ "fetchedAt": "2026-10-26T12:01:52.043763+08:00",
+ "edition": "2026-10-26",
+ "count": 3,
+ "languages": [
+  "zh-TW",
+  "zh-CN",
+  "en",
+  "ja",
+  "ko",
+  "de",
+  "es",
+  "fr",
+  "it"
+ ],
+ "byGroup": {
+  "asus": 0,
+  "acer": 0,
+  "hp": 0,
+  "msi": 1,
+  "dell": 0,
+  "lenovo": 0,
+  "gigabyte": 0,
+  "microsoft": 0,
+  "nvidia": 2
+ },
+ "byLine": {},
+ "items": [
+  {
+   "title": "NVIDIA DGX Spark Runs AI Agents LOCALLY 🖥️ #Shorts",
+   "source": "YouTube · FinAI Nexus",
+   "url": "https://www.youtube.com/watch?v=mpkGnb2rr9E",
+   "date": "2026-10-26 09:00",
+   "publishedAt": "2026-10-26T09:00:25+08:00",
+   "summary": "Run powerful AI agents on your own device with NVIDIA DGX Spark. No cloud needed. #Shorts #NVIDIA #FinAINexus",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "影片",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 100,
+   "image": "https://i.ytimg.com/vi/mpkGnb2rr9E/mqdefault.jpg",
+   "views": 34558,
+   "comments": 48,
+   "dupes": 32,
+   "also": [
+    "YouTube · Denver Bytes",
+    "YouTube · Generative",
+    "YouTube · シンオン株式会社 (Synon,Inc) 公式",
+    "YouTube · Сервер Центр",
+    "YouTube · learnwithaitools",
+    "YouTube · Frank Data AI"
+   ],
+   "lines": [],
+   "score": 681,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "NVIDIA DGX Spark Runs AI Agents LOCALLY 🖥️ #Shorts",
+     "summary": "Run powerful AI agents on your own device with NVIDIA DGX Spark. No cloud needed. #Shorts #NVIDIA #FinAINexus"
+    }
+   }
+  },
+  {
+   "title": "‘Dense beats sparse’: Sipeed and Axera challenge Nvidia DGX Spark with 128GB MaixStation AI computer - TechRadar",
+   "source": "TechRadar",
+   "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQcEF1RFlDVVRGRHdqUGlXdHVYNnJXQzBJY3NUS1VvVldLR25YVTVxYkNEMFM4Y3ZJbkw0c0hsOXZabkJYOVVQNUNLV25CYkpHckxsMngzemk5a1J4OXAweVk3ZXZiRTZmcmxGX2NMWFRVQmhuRXBXTi01WTEwUUxlRWdiZEwyb3ZZeG5IVkhfQVFYWDRpRzMzdDBUZVp5ak9wWGNPczVUaHA0QkhKRFVBUkJ4YnFKemZ2UzFoczhkRkQ4TUdJdnA4V2ZxbXFfNnFMMjQ4RU5DanI1dTZ6VWh3VkcwTDlzQnhwNzNFZklWcjRXZXVMdVRjZXRYS2FlNUVGU3laeElvTnRvOXVBc3VTX244RmdMd2JCMEpmMXNtZ3JaY2Zn?oc=5",
+   "date": "2026-10-25 04:05",
+   "publishedAt": "2026-10-25T04:05:00+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 10,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "‘Dense beats sparse’: Sipeed and Axera challenge Nvidia DGX Spark with 128GB MaixStation AI computer - TechRadar",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "MSI XpertStation WS300 Review NVIDIA DGX Station GB300",
+   "source": "ServeTheHome",
+   "url": "https://www.servethehome.com/msi-xpertstation-ws300-review-nvidia-dgx-station-gb300/",
+   "date": "2026-10-24 01:00",
+   "publishedAt": "2026-10-24T01:00:33+08:00",
+   "summary": "",
+   "models": [
+    "DGX Station",
+    "GB300"
+   ],
+   "tag": "開箱評測",
+   "camps": [
+    "msi"
+   ],
+   "press": false,
+   "heat": 6,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "MSI XpertStation WS300 Review NVIDIA DGX Station GB300",
+     "summary": ""
+    }
+   }
+  }
+ ]
+}

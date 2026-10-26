@@ -1,9 +1,9 @@
 {
  "channel": "dgx",
  "version": "v26",
- "fetchedAt": "2026-10-25T11:56:40.318474+08:00",
- "edition": "2026-10-25",
- "count": 8,
+ "fetchedAt": "2026-10-26T12:01:52.043763+08:00",
+ "edition": "2026-10-26",
+ "count": 3,
  "languages": [
   "zh-TW",
   "zh-CN",
@@ -20,47 +20,49 @@
   "acer": 0,
   "hp": 0,
   "msi": 1,
-  "dell": 1,
+  "dell": 0,
   "lenovo": 0,
   "gigabyte": 0,
   "microsoft": 0,
-  "nvidia": 6
+  "nvidia": 2
  },
  "byLine": {},
  "items": [
   {
-   "title": "🧑🏻‍💻 รันผู้ช่วย AI ทำงานทั้งวันทั้งคืน ไม่ติด Limit ไม่มีค่า Request",
-   "source": "YouTube · BorntoDev",
-   "url": "https://www.youtube.com/watch?v=BzLZRVvNIE4",
-   "date": "2026-10-25 11:00",
-   "publishedAt": "2026-10-25T11:00:05+08:00",
-   "summary": "#NVIDIA #DGXSpark #AI #LocalAI #Developer #Coding . 🦖 #borntoDev - พร้อมเปลี่ยนคนทำงาน ให้ก้าวสู่การเป็น Dev / Tech Expert",
-   "models": [],
+   "title": "NVIDIA DGX Spark Runs AI Agents LOCALLY 🖥️ #Shorts",
+   "source": "YouTube · FinAI Nexus",
+   "url": "https://www.youtube.com/watch?v=mpkGnb2rr9E",
+   "date": "2026-10-26 09:00",
+   "publishedAt": "2026-10-26T09:00:25+08:00",
+   "summary": "Run powerful AI agents on your own device with NVIDIA DGX Spark. No cloud needed. #Shorts #NVIDIA #FinAINexus",
+   "models": [
+    "DGX Spark"
+   ],
    "tag": "影片",
    "camps": [
     "nvidia"
    ],
    "press": false,
    "heat": 100,
-   "image": "https://i.ytimg.com/vi/BzLZRVvNIE4/mqdefault.jpg",
-   "views": 25181,
-   "comments": 44,
-   "dupes": 42,
+   "image": "https://i.ytimg.com/vi/mpkGnb2rr9E/mqdefault.jpg",
+   "views": 34558,
+   "comments": 48,
+   "dupes": 32,
    "also": [
-    "YouTube · Treighdove3",
-    "YouTube · AI幫手",
-    "YouTube · WebsiteRadar",
-    "YouTube · Toro Tocho Reviews",
-    "YouTube · duotech hammer",
-    "YouTube · Atlas Academy"
+    "YouTube · Denver Bytes",
+    "YouTube · Generative",
+    "YouTube · シンオン株式会社 (Synon,Inc) 公式",
+    "YouTube · Сервер Центр",
+    "YouTube · learnwithaitools",
+    "YouTube · Frank Data AI"
    ],
    "lines": [],
-   "score": 586,
+   "score": 681,
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "🧑🏻‍💻 รันผู้ช่วย AI ทำงานทั้งวันทั้งคืน ไม่ติด Limit ไม่มีค่า Request",
-     "summary": "#NVIDIA #DGXSpark #AI #LocalAI #Developer #Coding . 🦖 #borntoDev - พร้อมเปลี่ยนคนทำงาน ให้ก้าวสู่การเป็น Dev / Tech Expert"
+     "title": "NVIDIA DGX Spark Runs AI Agents LOCALLY 🖥️ #Shorts",
+     "summary": "Run powerful AI agents on your own device with NVIDIA DGX Spark. No cloud needed. #Shorts #NVIDIA #FinAINexus"
     }
    }
   },
@@ -70,37 +72,6 @@
    "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQcEF1RFlDVVRGRHdqUGlXdHVYNnJXQzBJY3NUS1VvVldLR25YVTVxYkNEMFM4Y3ZJbkw0c0hsOXZabkJYOVVQNUNLV25CYkpHckxsMngzemk5a1J4OXAweVk3ZXZiRTZmcmxGX2NMWFRVQmhuRXBXTi01WTEwUUxlRWdiZEwyb3ZZeG5IVkhfQVFYWDRpRzMzdDBUZVp5ak9wWGNPczVUaHA0QkhKRFVBUkJ4YnFKemZ2UzFoczhkRkQ4TUdJdnA4V2ZxbXFfNnFMMjQ4RU5DanI1dTZ6VWh3VkcwTDlzQnhwNzNFZklWcjRXZXVMdVRjZXRYS2FlNUVGU3laeElvTnRvOXVBc3VTX244RmdMd2JCMEpmMXNtZ3JaY2Zn?oc=5",
    "date": "2026-10-25 04:05",
    "publishedAt": "2026-10-25T04:05:00+08:00",
-   "summary": "",
-   "models": [
-    "DGX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "nvidia"
-   ],
-   "press": false,
-   "heat": 14,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "‘Dense beats sparse’: Sipeed and Axera challenge Nvidia DGX Spark with 128GB MaixStation AI computer - TechRadar",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Chinese startup claims its $2,000 mini PC can outperform Nvidia's DGX Spark - TechRadar",
-   "source": "TechRadar",
-   "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQNDFZQV9uak12T2p6WHhjX1ppTFBGM18wR0Nqc3FEQUVVbTdQQjZpVjdJM1FNMTNLWTFjOF9mSDlmd2d6bEpmQ3ZIdFQxX0FzY21rYkVzUUVXcWs3UHZtR2l1V2x1OUQzSGpmYnlKM2lSRTltX3UtWlZPQ2JhaTZPeDhydkhVUHRBSEt0QWo0TmlhSElRaXM4TVlRN2Y0YVp5RDBidHI0TXJ2RGwteVBCVkhSV09sOHlvUThkNXdQTzZrNGVWbF9UWUNDSlBSbDBIdTVubVllZ2piVVZfX0VhX05ZREtjaGV4QmJOZHlvcVhYb21IR05mMDBfcko0dVhHTW1WSUd0RlNSX1pmbXdRY1hB?oc=5",
-   "date": "2026-10-24 06:25",
-   "publishedAt": "2026-10-24T06:25:00+08:00",
    "summary": "",
    "models": [
     "DGX Spark"
@@ -121,15 +92,15 @@
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "Chinese startup claims its $2,000 mini PC can outperform Nvidia's DGX Spark - TechRadar",
+     "title": "‘Dense beats sparse’: Sipeed and Axera challenge Nvidia DGX Spark with 128GB MaixStation AI computer - TechRadar",
      "summary": ""
     }
    }
   },
   {
-   "title": "MSI XpertStation WS300 Review NVIDIA DGX Station GB300 - ServeTheHome",
+   "title": "MSI XpertStation WS300 Review NVIDIA DGX Station GB300",
    "source": "ServeTheHome",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZFpUZjFRVmVLbmFxb1FtV3J1OEIwc3duYUozMHdHbmZsWEJTSkpsUzB6UUJOUUlwdGxlYUkwZE9SeEF3NXEwcTFUWGp4MXRwSDZZQjFlNTBjSEVuR1hMU2lOb1hxeEFOMHNSMVNrVFVuNUItVmVNMWppTkRXZUhkczB4VUFvSUJZWHphU3A3QQ?oc=5",
+   "url": "https://www.servethehome.com/msi-xpertstation-ws300-review-nvidia-dgx-station-gb300/",
    "date": "2026-10-24 01:00",
    "publishedAt": "2026-10-24T01:00:33+08:00",
    "summary": "",
@@ -142,38 +113,7 @@
     "msi"
    ],
    "press": false,
-   "heat": 26,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 2,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "MSI XpertStation WS300 Review NVIDIA DGX Station GB300 - ServeTheHome",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Nvidia DGX Spark 64GB Launches at $4,999: Is It Worth It? - TechRepublic",
-   "source": "TechRepublic",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVWFkT1pMNUVFdG13ODFXeGV4Mk5YQ012ZzUtdVgydzNhOWNCNk9BUzZ5VkRmaE0yREFXYmpJeEhlQjJKcHhQUW1kY2wwZUhic1NmZWF4aVp5LW5FUXBPWjBSbnRnTzNFLVQzcWlpNTVNVi1nUHg1Uk5lbThpUlF1V3RB?oc=5",
-   "date": "2026-10-23 17:32",
-   "publishedAt": "2026-10-23T17:32:47+08:00",
-   "summary": "",
-   "models": [
-    "DGX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "nvidia"
-   ],
-   "press": false,
-   "heat": 8,
+   "heat": 6,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -184,103 +124,8 @@
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "Nvidia DGX Spark 64GB Launches at $4,999: Is It Worth It? - TechRepublic",
+     "title": "MSI XpertStation WS300 Review NVIDIA DGX Station GB300",
      "summary": ""
-    }
-   }
-  },
-  {
-   "title": "View GB10 White Paper",
-   "source": "NVIDIA DGX Spark",
-   "url": "https://www.nvidia.com/content/dam/en-zz/Solutions/dgx-spark/nvidia-gb10-superchip-whitepaper.pdf",
-   "date": "2026-10-22 11:41",
-   "publishedAt": "2026-10-22T11:41:10.100144+08:00",
-   "summary": "",
-   "models": [
-    "GB10"
-   ],
-   "tag": "官方發布",
-   "camps": [
-    "nvidia"
-   ],
-   "press": true,
-   "heat": 4,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "View GB10 White Paper",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Dell AI Factory with NVIDIA Adds a 256-CPU Vera Rack, a Groq 3 LPU Inference Rack, and a 64GB GB10 Desktop",
-   "source": "StorageReview",
-   "url": "https://www.storagereview.com/news/dell-ai-factory-nvidia-poweredge-m9882-vera-cpu-rack-xe9810-groq-3-gtc-berlin",
-   "date": "2026-10-22 00:16",
-   "publishedAt": "2026-10-22T00:16:56+08:00",
-   "summary": "",
-   "models": [
-    "GB10"
-   ],
-   "tag": "應用案例",
-   "camps": [
-    "dell"
-   ],
-   "press": false,
-   "heat": 2,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Dell AI Factory with NVIDIA Adds a 256-CPU Vera Rack, a Groq 3 LPU Inference Rack, and a 64GB GB10 Desktop",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
-   "source": "NVIDIA Blog",
-   "url": "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/",
-   "date": "2026-10-21 18:50",
-   "publishedAt": "2026-10-21T18:50:37+08:00",
-   "summary": "At GTC Berlin, NVIDIA is showcasing its full lineup of local AI hardware. RTX Spark, which launched last week, powers personal agents on Windows PCs; DGX Spark supports developers building and scaling applications on Lin",
-   "models": [
-    "DGX Spark"
-   ],
-   "tag": "應用案例",
-   "camps": [
-    "nvidia"
-   ],
-   "press": false,
-   "heat": 9,
-   "image": "https://blogs.nvidia.com/wp-content/uploads/2026/10/nv-blog-1280x680-2.jpg",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [
-    "NVIDIA Newsroom"
-   ],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
-     "summary": "At GTC Berlin, NVIDIA is showcasing its full lineup of local AI hardware. RTX Spark, which launched last week, powers personal agents on Windows PCs; DGX Spark supports developers building and scaling applications on Lin"
     }
    }
   }
