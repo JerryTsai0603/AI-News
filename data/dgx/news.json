@@ -1,8 +1,8 @@
 {
  "channel": "dgx",
  "version": "v26",
- "fetchedAt": "2026-10-26T12:01:52.043763+08:00",
- "edition": "2026-10-26",
+ "fetchedAt": "2026-10-27T12:06:59.952062+08:00",
+ "edition": "2026-10-27",
  "count": 3,
  "languages": [
   "zh-TW",
@@ -18,23 +18,23 @@
  "byGroup": {
   "asus": 0,
   "acer": 0,
-  "hp": 0,
+  "hp": 1,
   "msi": 1,
   "dell": 0,
   "lenovo": 0,
   "gigabyte": 0,
   "microsoft": 0,
-  "nvidia": 2
+  "nvidia": 1
  },
  "byLine": {},
  "items": [
   {
-   "title": "NVIDIA DGX Spark Runs AI Agents LOCALLY 🖥️ #Shorts",
-   "source": "YouTube · FinAI Nexus",
-   "url": "https://www.youtube.com/watch?v=mpkGnb2rr9E",
-   "date": "2026-10-26 09:00",
-   "publishedAt": "2026-10-26T09:00:25+08:00",
-   "summary": "Run powerful AI agents on your own device with NVIDIA DGX Spark. No cloud needed. #Shorts #NVIDIA #FinAINexus",
+   "title": "Beat DGX Spark for $3,999? 128GB AI box explained #shorts",
+   "source": "YouTube · MiniPCdeals",
+   "url": "https://www.youtube.com/watch?v=QDMbr8o5ma4",
+   "date": "2026-10-27 12:00",
+   "publishedAt": "2026-10-27T12:00:18+08:00",
+   "summary": "Sipeed's MaixStation packs 128GB of memory at 273 GB/s into a palm-sized local AI box, with an expected price around $3,999 on Kickstarter at the end of 2026. Sipeed claims it beats NVIDIA's DGX Spark",
    "models": [
     "DGX Spark"
    ],
@@ -43,45 +43,45 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 100,
-   "image": "https://i.ytimg.com/vi/mpkGnb2rr9E/mqdefault.jpg",
-   "views": 34558,
-   "comments": 48,
-   "dupes": 32,
+   "heat": 88,
+   "image": "https://i.ytimg.com/vi/QDMbr8o5ma4/mqdefault.jpg",
+   "views": 783,
+   "comments": 6,
+   "dupes": 35,
    "also": [
-    "YouTube · Denver Bytes",
-    "YouTube · Generative",
-    "YouTube · シンオン株式会社 (Synon,Inc) 公式",
-    "YouTube · Сервер Центр",
-    "YouTube · learnwithaitools",
-    "YouTube · Frank Data AI"
+    "YouTube · Nerd Zero",
+    "YouTube · Kemptly Sheets",
+    "YouTube · Compute Node",
+    "YouTube · No Short Answers",
+    "YouTube · Umělá inteligence pro každého",
+    "YouTube · ずんだもんのテックニュース3分"
    ],
    "lines": [],
-   "score": 681,
+   "score": 8,
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "NVIDIA DGX Spark Runs AI Agents LOCALLY 🖥️ #Shorts",
-     "summary": "Run powerful AI agents on your own device with NVIDIA DGX Spark. No cloud needed. #Shorts #NVIDIA #FinAINexus"
+     "title": "Beat DGX Spark for $3,999? 128GB AI box explained #shorts",
+     "summary": "Sipeed's MaixStation packs 128GB of memory at 273 GB/s into a palm-sized local AI box, with an expected price around $3,999 on Kickstarter at the end of 2026. Sipeed claims it beats NVIDIA's DGX Spark"
     }
    }
   },
   {
-   "title": "‘Dense beats sparse’: Sipeed and Axera challenge Nvidia DGX Spark with 128GB MaixStation AI computer - TechRadar",
-   "source": "TechRadar",
-   "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQcEF1RFlDVVRGRHdqUGlXdHVYNnJXQzBJY3NUS1VvVldLR25YVTVxYkNEMFM4Y3ZJbkw0c0hsOXZabkJYOVVQNUNLV25CYkpHckxsMngzemk5a1J4OXAweVk3ZXZiRTZmcmxGX2NMWFRVQmhuRXBXTi01WTEwUUxlRWdiZEwyb3ZZeG5IVkhfQVFYWDRpRzMzdDBUZVp5ak9wWGNPczVUaHA0QkhKRFVBUkJ4YnFKemZ2UzFoczhkRkQ4TUdJdnA4V2ZxbXFfNnFMMjQ4RU5DanI1dTZ6VWh3VkcwTDlzQnhwNzNFZklWcjRXZXVMdVRjZXRYS2FlNUVGU3laeElvTnRvOXVBc3VTX244RmdMd2JCMEpmMXNtZ3JaY2Zn?oc=5",
-   "date": "2026-10-25 04:05",
-   "publishedAt": "2026-10-25T04:05:00+08:00",
+   "title": "HP Japan Announces \"HP ZGX Fury G1n AI Station\" Featuring NVIDIA GB300: A High-Performance Workstation for AI Development - ASCII.jp",
+   "source": "ASCII.jp",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE84Ty14NmFlNDlQdFViWlVjUXRiT2lubnpOanJoQ0xfMkxoRjZTQUpId1h5VjV6ajJBRDZsUUM4S2RwUkVrbTV1LWc5WlN4QnY4UWdKZWx5TGs?oc=5",
+   "date": "2026-10-26 11:00",
+   "publishedAt": "2026-10-26T11:00:00+08:00",
    "summary": "",
    "models": [
-    "DGX Spark"
+    "GB300"
    ],
    "tag": "產品發表",
    "camps": [
-    "nvidia"
+    "hp"
    ],
    "press": false,
-   "heat": 10,
+   "heat": 11,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -92,7 +92,7 @@
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "‘Dense beats sparse’: Sipeed and Axera challenge Nvidia DGX Spark with 128GB MaixStation AI computer - TechRadar",
+     "title": "HP Japan Announces \"HP ZGX Fury G1n AI Station\" Featuring NVIDIA GB300: A High-Performance Workstation for AI Development - ASCII.jp",
      "summary": ""
     }
    }
@@ -113,7 +113,7 @@
     "msi"
    ],
    "press": false,
-   "heat": 6,
+   "heat": 2,
    "image": "",
    "views": 0,
    "comments": 0,

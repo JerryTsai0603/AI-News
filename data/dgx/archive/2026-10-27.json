@@ -1,0 +1,133 @@
+{
+ "channel": "dgx",
+ "version": "v26",
+ "fetchedAt": "2026-10-27T12:06:59.952062+08:00",
+ "edition": "2026-10-27",
+ "count": 3,
+ "languages": [
+  "zh-TW",
+  "zh-CN",
+  "en",
+  "ja",
+  "ko",
+  "de",
+  "es",
+  "fr",
+  "it"
+ ],
+ "byGroup": {
+  "asus": 0,
+  "acer": 0,
+  "hp": 1,
+  "msi": 1,
+  "dell": 0,
+  "lenovo": 0,
+  "gigabyte": 0,
+  "microsoft": 0,
+  "nvidia": 1
+ },
+ "byLine": {},
+ "items": [
+  {
+   "title": "Beat DGX Spark for $3,999? 128GB AI box explained #shorts",
+   "source": "YouTube · MiniPCdeals",
+   "url": "https://www.youtube.com/watch?v=QDMbr8o5ma4",
+   "date": "2026-10-27 12:00",
+   "publishedAt": "2026-10-27T12:00:18+08:00",
+   "summary": "Sipeed's MaixStation packs 128GB of memory at 273 GB/s into a palm-sized local AI box, with an expected price around $3,999 on Kickstarter at the end of 2026. Sipeed claims it beats NVIDIA's DGX Spark",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "影片",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 88,
+   "image": "https://i.ytimg.com/vi/QDMbr8o5ma4/mqdefault.jpg",
+   "views": 783,
+   "comments": 6,
+   "dupes": 35,
+   "also": [
+    "YouTube · Nerd Zero",
+    "YouTube · Kemptly Sheets",
+    "YouTube · Compute Node",
+    "YouTube · No Short Answers",
+    "YouTube · Umělá inteligence pro každého",
+    "YouTube · ずんだもんのテックニュース3分"
+   ],
+   "lines": [],
+   "score": 8,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Beat DGX Spark for $3,999? 128GB AI box explained #shorts",
+     "summary": "Sipeed's MaixStation packs 128GB of memory at 273 GB/s into a palm-sized local AI box, with an expected price around $3,999 on Kickstarter at the end of 2026. Sipeed claims it beats NVIDIA's DGX Spark"
+    }
+   }
+  },
+  {
+   "title": "HP Japan Announces \"HP ZGX Fury G1n AI Station\" Featuring NVIDIA GB300: A High-Performance Workstation for AI Development - ASCII.jp",
+   "source": "ASCII.jp",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE84Ty14NmFlNDlQdFViWlVjUXRiT2lubnpOanJoQ0xfMkxoRjZTQUpId1h5VjV6ajJBRDZsUUM4S2RwUkVrbTV1LWc5WlN4QnY4UWdKZWx5TGs?oc=5",
+   "date": "2026-10-26 11:00",
+   "publishedAt": "2026-10-26T11:00:00+08:00",
+   "summary": "",
+   "models": [
+    "GB300"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "hp"
+   ],
+   "press": false,
+   "heat": 11,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "HP Japan Announces \"HP ZGX Fury G1n AI Station\" Featuring NVIDIA GB300: A High-Performance Workstation for AI Development - ASCII.jp",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "MSI XpertStation WS300 Review NVIDIA DGX Station GB300",
+   "source": "ServeTheHome",
+   "url": "https://www.servethehome.com/msi-xpertstation-ws300-review-nvidia-dgx-station-gb300/",
+   "date": "2026-10-24 01:00",
+   "publishedAt": "2026-10-24T01:00:33+08:00",
+   "summary": "",
+   "models": [
+    "DGX Station",
+    "GB300"
+   ],
+   "tag": "開箱評測",
+   "camps": [
+    "msi"
+   ],
+   "press": false,
+   "heat": 2,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "MSI XpertStation WS300 Review NVIDIA DGX Station GB300",
+     "summary": ""
+    }
+   }
+  }
+ ]
+}

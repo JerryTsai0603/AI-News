@@ -1,8 +1,8 @@
 {
  "channel": "models",
  "version": "v26",
- "fetchedAt": "2026-10-26T11:58:23.766531+08:00",
- "edition": "2026-10-26",
+ "fetchedAt": "2026-10-27T12:03:43.087935+08:00",
+ "edition": "2026-10-27",
  "count": 60,
  "languages": [
   "zh-TW",
@@ -16,28 +16,158 @@
   "it"
  ],
  "byGroup": {
-  "openai": 15,
-  "anthropic": 29,
-  "google": 5,
+  "openai": 25,
+  "anthropic": 21,
+  "google": 3,
   "meta": 0,
-  "cn": 3,
-  "other": 20
+  "cn": 7,
+  "other": 16
  },
  "byLine": {},
  "items": [
   {
-   "title": "AI 模型 Gemini 4 Argon 觀看影片學習 助機器人精準投擲 - 商傳媒 - SUN MEDIA",
-   "source": "商傳媒 - SUN MEDIA",
-   "url": "https://news.google.com/rss/articles/CBMizgJBVV95cUxNNHNJUlktZTRNLU5sYkRzazM5Q3l6UVVIN1ExUWNaY2lyaFlEX2twck9qSDhEb3BnOE1KRzR4bVNwMkh1UVRlajF1QjlfakljN01DbU9QMjR5V3B3aE5IQjg3dnBoMnhYWnl2M3BWSDB0WVlhNzloZVFvdmRtWUlMR1Nzb09yLW9tYV9XbVRLbkIyZkFhRVlfRmI5aFZVbDdVSDU1amw3TmxLbm1ONU1WWmF5VlhjSUxsbHA3MkJiOWQxTHVkSVFJWDg2TWNTVUQ2cndoNDQ0RkllQW41aXZmN0syQWxKWG5MS0EwR0hfb0dqMTNzMVUxVGRuVEVKZ2JtU3JyaExad2RjSTJsRm9qSVVKWkQ3VzdDYXBOUFlUZVdLU1pIbGlBX1hlZ1VGai1ibThKYkgtUmotbG1ubzBubnlqOVp2aDZiMG1tV2Nn?oc=5",
-   "date": "2026-10-26 11:49",
-   "publishedAt": "2026-10-26T11:49:52+08:00",
+   "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
+   "source": "Anthropic News",
+   "url": "https://www.anthropic.com/news/s1-sec",
+   "date": "2026-10-27 12:03",
+   "publishedAt": "2026-10-27T12:03:43.204376+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "官方發布",
+   "camps": [
+    "anthropic"
+   ],
+   "press": true,
+   "heat": 23,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Anthropic’s Claude AI bypassed paywall to access Georgia voter data, raises concern over control - WION",
+   "source": "WION",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZ1ljOFIybjZad2Z5cVJvZmZtSHZmalljX19tZS1BZ0hxUVhRdWR3Z2VsQXpPZzdxc0I5NGpqaTZ4d0FULXV1RUs1YkdkdHZrdFBEeU9GUHUzbldhU0N2ZnF6M3FkamNBNmdhMXFJZkdyRHlydEJLby1xOU91aUtZMGNzaUVKM2xPUGRRVExVTW1vNW1uaVFwRlJQc0xKaEFPdnR3ZG9lMUFtYTVkclA4elpkMDY1S1dvTHh6c1lHNnZDWjJPYWhPV1NrQXdNX1pSX3Z3bXFn0gHbAUFVX3lxTE9rU3Bpc2FHX0V2ZFdNRndfcHVnbmMwYlZzZ25qZVFZMFVfeHZndFFCUjVUUkxHMUJyYWdFR2pkQjVUMVFGY2RsbDZNVVZBdjkyZnhvQWd1LWF4YjlOU2VmNFRUelRiM2NPNkl4RWFZS3NiWl9SY2pvT0FpQ1V0d1dfQVNfVkFkNEVJRy11Z3pYZGlQYmo4cEVzTko5Z0xvc29fSjYzb1lyellUVGxSSmt2SW1FSlU5U2d3dVhsOGJfaG5lLVVJNGRDUXo2UjNLR1kyQmZjQWYycF9QMA?oc=5",
+   "date": "2026-10-27 11:53",
+   "publishedAt": "2026-10-27T11:53:00+08:00",
    "summary": "",
    "models": [
-    "Gemini"
+    "Claude"
    ],
    "tag": "產品發表",
    "camps": [
-    "google"
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Anthropic’s Claude AI bypassed paywall to access Georgia voter data, raises concern over control - WION",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Cohere says Alibaba's Qwen model tried to upload a file to Beijing - Startup Fortune",
+   "source": "Startup Fortune",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNU25HN1dJYXlXNWIzN0p0TWZYZlpnNG9CTm1vUG9jQWxvanNwMGVpeHI0V0VyUllpdVZDal9oTkthWnJyMTlqN0N3TDQwSFZtV1o3a0VRZF9DOHBIeFRTWDJLcXNmTGVoRFJvNVJ0MEl3ZWJVME9NVnpnaG82Y2JDcE9OcHlnb05YNmZ1SS1MRVlDb05tM2VwVA?oc=5",
+   "date": "2026-10-27 11:48",
+   "publishedAt": "2026-10-27T11:48:47+08:00",
+   "summary": "",
+   "models": [
+    "Qwen"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "cn",
+    "other"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Cohere says Alibaba's Qwen model tried to upload a file to Beijing - Startup Fortune",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "How to Build a 3D E-Commerce Website Using Claude AI (No Coding Skills Needed!) 🚀💻",
+   "source": "YouTube · Ai So Easy Official",
+   "url": "https://www.youtube.com/watch?v=-TEURtr1UIU",
+   "date": "2026-10-27 11:45",
+   "publishedAt": "2026-10-27T11:45:39+08:00",
+   "summary": "Learn how to create a fully functional 3D online store using Claude AI, even if you have zero coding experience! Simply enter your prompt, upload your brand assets, and let the AI build and deploy you",
+   "models": [
+    "Claude"
+   ],
+   "tag": "影片",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 100,
+   "image": "https://i.ytimg.com/vi/-TEURtr1UIU/mqdefault.jpg",
+   "views": 13983,
+   "comments": 22,
+   "dupes": 73,
+   "also": [
+    "YouTube · Todo Good",
+    "YouTube · Simply Akrami",
+    "YouTube · bytsyz1",
+    "YouTube · BookishBrainShelves",
+    "YouTube · CTV News",
+    "YouTube · MORE"
+   ],
+   "lines": [],
+   "score": 685,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "How to Build a 3D E-Commerce Website Using Claude AI (No Coding Skills Needed!) 🚀💻",
+     "summary": "Learn how to create a fully functional 3D online store using Claude AI, even if you have zero coding experience! Simply enter your prompt, upload your brand assets, and let the AI build and deploy you"
+    }
+   }
+  },
+  {
+   "title": "外媒 AI 偵測 Anthropic IPO 文件：92% 人工撰寫，少量句子疑經 Claude 編修 - TechNews 科技新報",
+   "source": "TechNews 科技新報",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNN0xUck83TmNEcjFOVDdkSXB6R1h2N3Ixd0dZWFJqWTg0dW9LeGxYS0dOanRJX2U0MndabUVNR1JScC1aX0FLMlhXdmlDTEU5OG9MbFhTYVdDLTYwZTg0aWNJX0lvVGFzSDJZVEM0Q2VENmNmS3ctdmlLMm9EQnJxTF9hVVVzdUQtMUE?oc=5",
+   "date": "2026-10-27 11:41",
+   "publishedAt": "2026-10-27T11:41:40+08:00",
+   "summary": "",
+   "models": [
+    "Claude"
+   ],
+   "tag": "商業",
+   "camps": [
+    "anthropic"
    ],
    "press": false,
    "heat": 15,
@@ -51,123 +181,325 @@
    "lang": "zh",
    "i18n": {
     "zh-TW": {
-     "title": "AI 模型 Gemini 4 Argon 觀看影片學習 助機器人精準投擲 - 商傳媒 - SUN MEDIA",
+     "title": "外媒 AI 偵測 Anthropic IPO 文件：92% 人工撰寫，少量句子疑經 Claude 編修 - TechNews 科技新報",
      "summary": ""
     }
    }
   },
   {
-   "title": "ജോലിയും AI കൊണ്ട് പോകുമോ😅🔥 #chatgpt #exampreparation #fyp #trending #shorts",
-   "source": "YouTube · Simply Akrami",
-   "url": "https://www.youtube.com/watch?v=38OAhn9PEB0",
-   "date": "2026-10-26 11:36",
-   "publishedAt": "2026-10-26T11:36:02+08:00",
-   "summary": "When Jahnavi Sardana proves that you don't need expensive coaching centers or lakhs spent on training to crack Civil Services—using ChatGPT as her main weapon to secure an unbelievable 5th rank—you kn",
-   "models": [
-    "ChatGPT"
-   ],
-   "tag": "影片",
-   "camps": [
-    "openai"
-   ],
-   "press": false,
-   "heat": 100,
-   "image": "https://i.ytimg.com/vi/38OAhn9PEB0/mqdefault.jpg",
-   "views": 29210,
-   "comments": 8,
-   "dupes": 76,
-   "also": [
-    "YouTube · Myth & Machine",
-    "YouTube · Jaxeditspeak",
-    "YouTube · 40代独身女が3匹の犬と田舎で暮らしながら、日々の人生を垂れ流していくチャンネル│Shizかな、日々",
-    "YouTube · 全部AIでやってみた",
-    "YouTube · Zani Creator",
-    "YouTube · Aprende Fácil"
-   ],
-   "lines": [],
-   "score": 135,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "ജോലിയും AI കൊണ്ട് പോകുമോ😅🔥 #chatgpt #exampreparation #fyp #trending #shorts",
-     "summary": "When Jahnavi Sardana proves that you don't need expensive coaching centers or lakhs spent on training to crack Civil Services—using ChatGPT as her main weapon to secure an unbelievable 5th rank—you kn"
-    }
-   }
-  },
-  {
-   "title": "Anthropic’s Claude AI bypasses paywall to access Georgia voter data without authorisation, here is how - Digit",
-   "source": "Digit",
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNYXN3aTlsOXAxRHhwXzdxN3gzWmRkeWxBc2R6NVBOQ1pLSHFLYVppdWp5MFBMaWdWY29PMFQyVUg0WkkxMDdDNm9GRTljNldfR3A3R1B3WG1xQU4xaUZKR2x4Yl9fa1lDSkRxWnMyX2lIakdtQVdqRm5PMnhNQUE1X0dnQVZ2b0ZBTFRjNGl5Qkg2eEktYVYtZVN4Uy1ndDlCaEJybmhCQ3NNNUhnZGx3UUZUVU10UE4yWkZ3YzE5b09PaExDRVRsX1BWaVhUZi1mOXlBQW1R0gHcAUFVX3lxTE1mR2lMRmdOUUFzM3VrWEZyUXN6YmF0VHJYeG90RnRweTZkbFIwU0xzbXpmNUVsR3VNZ3BTZE5zOWp3dmJadURiVFE0QUZRZXNvR3VNRFFoTUhtbl9vdkFMdlZjQ0w1RThsZWluUEFkOFJOcnpPRDJUQzJrenpWX0hBNFNSTzFFSmd3eHVIZGJfRzR3c3E3bmV4TmZqZnNzR3l1ZFByTi1kQ254UlpubmJJcERoQWsxRGMzTnpPaWJ6VENxTUNUb082N055eU5oQmtITWRXUnUyYUJTY3k?oc=5",
-   "date": "2026-10-26 11:28",
-   "publishedAt": "2026-10-26T11:28:00+08:00",
-   "summary": "",
-   "models": [
-    "Claude"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "anthropic"
-   ],
-   "press": false,
-   "heat": 15,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Anthropic’s Claude AI bypasses paywall to access Georgia voter data without authorisation, here is how - Digit",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Anthropic’s Claude Got Access To Paid Voting Data On Its Own: Why The Incident Matters - Times Now",
-   "source": "Times Now",
-   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOVE5iclFoVXZvS3RhOEV6b1hMaUpqZnBwUEZYT191NzJHQWF1NldVdlpoQVB1b3VxcVFUZzVkVmdqWHNkdEJhRHJKQkxEWU5lQ2x2MTlZdVdVSXF5NUQ1UnlVakxoU0ZFWUpPUnlzNkZEczFBMExVdDNOVVg2YUZ0djlOUExFcEo4aHVKVzNISmhwVG96T1JZWUo5aWFKZUJfNUdQVzFtTnNpRDBjemE0RDhqQTQ5WFZ2d25MZC03STduQWp2aUZJZENMODVqU0VqcEw3WDltM2V0NWV4akd0YUE3VDfSAeoBQVVfeXFMUHJOcnhhVHM3SE5keFJ5Z3pURmdDTVJqNXVkaW9JLXl4MWVBanNlX0R0aG1LSmZ5QmpXSXVYN09fOGg1VkZ4cHF1eU1DUFZyeS1vTW9SXzVOMDYzWmxBSUhQV2d3V2JNUU96TnYzXzFZVkoyN3lyVG1icnRoVFEyU1VqU3RhQVZiYldYLVNJRVoxOC02ZFVUeDQ5QXBDbVNSQWFmbFdYOVlLRzJDckNDSHd4ZG94bXJ0MGJqd1FEQm00cGp0YnMzUDVtbGU1Rm15b1FFZ2E1MHhLVFA3dE54eTBIUk1IWjRrWmtR?oc=5",
-   "date": "2026-10-26 11:23",
-   "publishedAt": "2026-10-26T11:23:54+08:00",
-   "summary": "",
-   "models": [
-    "Claude"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "anthropic"
-   ],
-   "press": false,
-   "heat": 15,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Anthropic’s Claude Got Access To Paid Voting Data On Its Own: Why The Incident Matters - Times Now",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "英國砸 1 億英鎊建 AI 生物安全實驗室！OpenAI、Anthropic 再加碼 2 億額度 - 動區動趨",
-   "source": "動區動趨",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9VdGMtcWg4QUw1bzNzN2pOT0p2S193T3FzTWZaWGR1VDQ4LTNqQUNsS3RZY25tbFdpTnVRcVBJZ0pFNnlHUjJVdW1pSEl4dXU5bUJjd2FOeW5rNEFBaEZZV3hocDBKWWNjYzFwWGk3elViNEN6?oc=5",
-   "date": "2026-10-26 11:10",
-   "publishedAt": "2026-10-26T11:10:37+08:00",
+   "title": "高盛點名日圓成 AI 股災避險新寵，政策轉變降低貶值風險 - TechNews 科技新報",
+   "source": "TechNews 科技新報",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcURxSl8xSXNjMjZrN0otdm11ZHdHM18tS19md0VkX3FxWnVZNnF4dm02MHBSM0JSbWhHRFdnbTZ6OG5aTWNlRUxUN0dDUjlMOGk3OUpHcDNYN1dmY1dfc1RQajhvRnJiSVVnU2FLTFRlU0MxTE0teWg3RzZzal9hcTF6U0tPSGM0TzB4Vmg4YUlFd2NOWlFXWGhBUVhZVTBCUktNVw?oc=5",
+   "date": "2026-10-27 11:38",
+   "publishedAt": "2026-10-27T11:38:05+08:00",
    "summary": "",
    "models": [],
    "tag": "產品發表",
    "camps": [
-    "openai",
+    "other"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "高盛點名日圓成 AI 股災避險新寵，政策轉變降低貶值風險 - TechNews 科技新報",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "OpenAI Launches GPT-6.1 Terra With API Pricing 50% Lower Than GPT-5.6 Terra - gHacks",
+   "source": "gHacks",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOFNEaUhWdERJaU5UWXBKQ1Z0ZWdGRk93NFlqRUZsTXhjODU1VVZDMzRwdmlWYUx4cXgwckN1X2owc1UwSXY3M0xCc2dFSlJwUlVtanI0OW1hSGFSRWJVZXFyYUZQZHowSGFqT0VhbVhDT2dwNXJ5QzJRVzVsTmlhNHBiQ25mUG5QN0ZVellEbkIyclFDSDljU09UMElQdmlXUmpSc1FxLUhWc2dyVmc?oc=5",
+   "date": "2026-10-27 11:37",
+   "publishedAt": "2026-10-27T11:37:49+08:00",
+   "summary": "",
+   "models": [
+    "GPT-5"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "OpenAI Launches GPT-6.1 Terra With API Pricing 50% Lower Than GPT-5.6 Terra - gHacks",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "一天近2000億美元，Meta、Anthropic、SpaceX密集融資，AI資本開支競賽全面提速 - 富途牛牛",
+   "source": "富途牛牛",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOLW05WHpkNjZ3TkNXaTVpb0ZWMWlqYU5ISUd5X1ZjY3VTV25ZeGtEOUk1Z1JWWkdETWQwZnQtdzNtM3RCX21XODU1OHNMci1PemMwbW1jRDdQT2FIaGlDSVE1THlnV2JfMDBCRWhjY3phX3NoOGZFNGVyUWhMeGtLUFJZQlF2bTYzaF9HWGQ4Z3hRZXBRdUFzVDZRS3k3UQ?oc=5",
+   "date": "2026-10-27 11:35",
+   "publishedAt": "2026-10-27T11:35:11+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "商業",
+   "camps": [
     "anthropic"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "一天近2000億美元，Meta、Anthropic、SpaceX密集融資，AI資本開支競賽全面提速 - 富途牛牛",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Cohere Says Alibaba's Qwen Model Sought Beijing Upload During Security Test - BigGo Finance",
+   "source": "BigGo Finance",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9qMFpkbVF6SkhreWZsS3hLZGhWOEFROWxOOU5zU1V2cFBEUDF3QXJGQ21TX1ZsdW1sbW5KR0theFJ1aG1jQWIxQ3Z5T1BGeUxMZUp6eXVGTWtyaWcyREFyd0o0YjVPaER5RUM5OFRKMEtMVHp1Z0E?oc=5",
+   "date": "2026-10-27 11:25",
+   "publishedAt": "2026-10-27T11:25:00+08:00",
+   "summary": "",
+   "models": [
+    "Qwen"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "cn",
+    "other"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Cohere Says Alibaba's Qwen Model Sought Beijing Upload During Security Test - BigGo Finance",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "SuperEvolution AI Unveils 36 In-House Developed AI Research Achievements: Full Public Access to Open-Source Codes, Verified Experiments & Complete Generation Trajectories | Xinglian Portfolio Latest Updates - eu.36kr.com",
+   "source": "eu.36kr.com",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE96bjl6TVJlM0RvYjZJdHNWeDhPaWpCMjZHRGM1R0YtUEszNEV4VTFEcF9RQ01WeDQ2OTUyZ3NIWktndGVrbVFIcmtUb1V0UjZrbXlZ?oc=5",
+   "date": "2026-10-27 11:22",
+   "publishedAt": "2026-10-27T11:22:11+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "研究",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "SuperEvolution AI Unveils 36 In-House Developed AI Research Achievements: Full Public Access to Open-Source Codes, Verified Experiments & Complete Generation Trajectories | Xinglian Portfolio Latest Updates - eu.36kr.com",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Anthropic IPO招股書懶人包：10大重點看懂335頁，揭露營收、虧損與算力成本 - 加密城市CryptoCity",
+   "source": "加密城市CryptoCity",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPaDlOMVBFSDF3bVFjU0gzVWpUTTNXaFBZMnVob3RaRlBFZGxxZVFPNEZMclhqUDQyY0JtaDZPeGRINHY5WEtRX3prWEtsUWI1dFoxTURlME9GQlB3WjVEUFZHYzZESjVUenpMUWZrTWN3bVVBUlNGSmdkT1hwZHp4Sg?oc=5",
+   "date": "2026-10-27 11:13",
+   "publishedAt": "2026-10-27T11:13:08+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "商業",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "Anthropic IPO招股書懶人包：10大重點看懂335頁，揭露營收、虧損與算力成本 - 加密城市CryptoCity",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "GPT-6.1 Terra的API單價為Sol一半，適合哪些工作？ - 蕃新聞",
+   "source": "蕃新聞",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5JLXlhbjNWSjM1djdFempPcE50MUR3dEdzNmJvMFZ1UnBqSlRJbWRuUFBUbUd2dTMxT0RqX0c5TjZXcFlhbmdneFFjQ0tycEtibGc?oc=5",
+   "date": "2026-10-27 11:06",
+   "publishedAt": "2026-10-27T11:06:39+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "GPT-6.1 Terra的API單價為Sol一半，適合哪些工作？ - 蕃新聞",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Anthropic 總裁痛批 AI 伴侶：75% 美國人焦慮，我們拒絕廣告變現 - 動區動趨",
+   "source": "動區動趨",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaFI0VVNEX2U4a3NsN2RfMzRvWUluMnd5TlVoNzhfc0U4X0M1NzMyaURYM2NmYVM1ZkVSV044SXZQZS1reWx2UVlQd211dERhOGxyalBsUTM4VVowZ2d1OElqd0tVQ1F3bWt6dUpNclkzWEpEUHd4ZjJ5N3Y4dnV6aW1kZkNsRGplOEVXTFhTZ1pHMlJFMnBvZktjdzI3TTFseko2SVJUWQ?oc=5",
+   "date": "2026-10-27 11:04",
+   "publishedAt": "2026-10-27T11:04:49+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "Anthropic 總裁痛批 AI 伴侶：75% 美國人焦慮，我們拒絕廣告變現 - 動區動趨",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "一天近2000億美元！Meta、Anthropic、Spac - 群益期貨",
+   "source": "群益期貨",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVmR1bGhWbWwzSldkamN1Snh0YURnQVl0bFN1b240R3ROU0w4Q0Nvajk2UFd2MHBuSUpCTzNobmJibHlnNUZYUDdPS1VaUTM0UjJEczhhXzFzbjk5WWNybEREdXN1RWdLSHVtVUFHNG53VHFJMlZJcmlkcDg2NGQ3SlpjejRSRng0NUZrZG9vSDZ3T0gzeVRTM1U2SVpGNjlp?oc=5",
+   "date": "2026-10-27 11:01",
+   "publishedAt": "2026-10-27T11:01:03+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "一天近2000億美元！Meta、Anthropic、Spac - 群益期貨",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "廣發證券：大語言模型後 具身模型何時迎來GPT時刻? 作者 智通財經 - Investing.com 香港 - 股市報價& 財經新聞",
+   "source": "Investing.com 香港 - 股市報價& 財經新聞",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBQQ2p3UXBhNE5jMDd2aWZvandTNlBPemhNTERDWWJJOFBkWm5vQlF6RzduSHlpSTdfZGlxa3AzUVJEZENsbkN3ZlFMTDJyUkhwV3RwZ3JKM1NfaVMyRURWdDBQcl9zQmpCRE1jdGs0bS0?oc=5",
+   "date": "2026-10-27 10:58",
+   "publishedAt": "2026-10-27T10:58:25+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "廣發證券：大語言模型後 具身模型何時迎來GPT時刻? 作者 智通財經 - Investing.com 香港 - 股市報價& 財經新聞",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "AI 訂閱推薦 2026｜Grok、ChatGPT、Claude、Gemini 月費比較，該付哪一個？ - Grenade 手榴彈",
+   "source": "Grenade 手榴彈",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8wMjVuQ3pSMHZrOXdzb1lXQVpEaVA0bUNRS2s1ODVCSFd2Y0dTYWdDTDMtelhZb3FNaTZ3OEtjb0FIb0s2bWtUMWp0VXJZdEdROU4zX1llNjg4VFdKcVJv?oc=5",
+   "date": "2026-10-27 10:57",
+   "publishedAt": "2026-10-27T10:57:11+08:00",
+   "summary": "",
+   "models": [
+    "ChatGPT",
+    "Claude",
+    "Gemini",
+    "Grok"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "anthropic",
+    "google",
+    "other"
    ],
    "press": false,
    "heat": 23,
@@ -181,84 +513,22 @@
    "lang": "zh",
    "i18n": {
     "zh-TW": {
-     "title": "英國砸 1 億英鎊建 AI 生物安全實驗室！OpenAI、Anthropic 再加碼 2 億額度 - 動區動趨",
+     "title": "AI 訂閱推薦 2026｜Grok、ChatGPT、Claude、Gemini 月費比較，該付哪一個？ - Grenade 手榴彈",
      "summary": ""
     }
    }
   },
   {
-   "title": "Anthropic’s Claude AI Model Accesses Publicly Available Voter Data in Georgia - SSBCrack",
-   "source": "SSBCrack",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOFNVLW15UzRvOE5NQnhGV1lHd0ttZXhpU0FmOFVuTS1XY0VtWW9DNTJJaEhQOW1hMW52NFFieXg3azV5WEZDNnhpQmJ2MllPMWFnZ25ubWR2OXBaWWtkZjZDR3JtaTJNTmFMUGlJWUFSR29fcng5U09laEt6cnhqMXBpbzdyVDl6LWJ2OVpYV2RoLTNMNjdsRndjTXdlWE51bUoyOVNR?oc=5",
-   "date": "2026-10-26 10:59",
-   "publishedAt": "2026-10-26T10:59:43+08:00",
-   "summary": "",
-   "models": [
-    "Claude"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "anthropic"
-   ],
-   "press": false,
-   "heat": 15,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Anthropic’s Claude AI Model Accesses Publicly Available Voter Data in Georgia - SSBCrack",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Anthropic's Claude AI Bypassed Georgia Vote Data Paywall Without Human Authorisation Ahead of US Midterms - International Business Times UK",
-   "source": "International Business Times UK",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTU12Qkd1bWd5WGluN3UteERWVkZZRHBvVURJYlVqZmRsY3FIcXZSSWFuV2RZdE5HVE1FTWtBdklKQjZGb3hYZW1YOUZYTHVXM25hNjUyd0pER0NETFNFbVdQUGNoT0h3NVZXQ29Fc1djSGdIcDhzUnBNblAtazhSdDdwUTRyQkgzU1p3UnNmNA?oc=5",
-   "date": "2026-10-26 10:56",
-   "publishedAt": "2026-10-26T10:56:00+08:00",
-   "summary": "",
-   "models": [
-    "Claude"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "anthropic"
-   ],
-   "press": false,
-   "heat": 15,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Anthropic's Claude AI Bypassed Georgia Vote Data Paywall Without Human Authorisation Ahead of US Midterms - International Business Times UK",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "OpenAI Unveils New GPT-6.1 Terra Model: Has It Surpassed the AI Flagship Performance Benchmarks? - 36Kr",
-   "source": "36Kr",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5SMU9QSDdzTXZfaS02cllmYjJEQlBTSkowREtfQ2p3azVOYXdsVlBmVS1vZGQ2RmYtSjZnVko3ampua1l3UDB0R3FzRWVRSUliVmVJ?oc=5",
-   "date": "2026-10-26 10:55",
-   "publishedAt": "2026-10-26T10:55:00+08:00",
+   "title": "Anthropic 正式提交 IPO 申請！上半年營收 163 億美元，估值上看 2 兆美元 - 桑幣區識 Zombit",
+   "source": "桑幣區識 Zombit",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA4ZW5LM0xCLV9nbTRhZ3ZpZWF2ZkNVVUU5SzVLTV9hMTdXeE5NYTFBNTRObmZzT29nLTZsY2M1WXAtTUFranhCM2VhcF9QaXBveGRrNkFlYWpkb2dzREdMM1JvRDMxZ1ViMlM5YUlUUQ?oc=5",
+   "date": "2026-10-27 10:55",
+   "publishedAt": "2026-10-27T10:55:41+08:00",
    "summary": "",
    "models": [],
-   "tag": "研究",
+   "tag": "商業",
    "camps": [
-    "openai"
+    "anthropic"
    ],
    "press": false,
    "heat": 15,
@@ -269,20 +539,20 @@
    "also": [],
    "lines": [],
    "score": null,
-   "lang": "en",
+   "lang": "zh",
    "i18n": {
-    "en": {
-     "title": "OpenAI Unveils New GPT-6.1 Terra Model: Has It Surpassed the AI Flagship Performance Benchmarks? - 36Kr",
+    "zh-TW": {
+     "title": "Anthropic 正式提交 IPO 申請！上半年營收 163 億美元，估值上看 2 兆美元 - 桑幣區識 Zombit",
      "summary": ""
     }
    }
   },
   {
-   "title": "OpenAI 於首爾舉辦 Model Masters 活動 支持韓國初創企業 AI 服務開發 - Techritual",
-   "source": "Techritual",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8tOWJzRnY3MUdTcU5PVWJ2QW9KOGJic1JVX3RIckNFZ0JTVFIwMHVQckpreHVzakg1V0Ywc2xoYjlhZ053QlJfZFIwbTdBYW9HSXJUT2FCazA?oc=5",
-   "date": "2026-10-26 10:45",
-   "publishedAt": "2026-10-26T10:45:36+08:00",
+   "title": "OpenAI 的 DNS 沙箱逃逸：18 次對外查詢，然後暫停 - OrcaRouter",
+   "source": "OrcaRouter",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWjRULTdiV1d5aU5COC1RZmRRUS1KM0xjOFNySWI3ejNNY0FreTA5aHpzbXdvOWlLSEhoYUxHTzZlSEw4aXo4amNDSlo1RU5XdDBGTm1acXJMTkRvVnV5U2t5VnpLR3BmT2RLb0R5bW9PdWFPalNaZHFwQnpJNHBjWjZKcDNDeFdrUEh4VU9MS2VBUQ?oc=5",
+   "date": "2026-10-27 10:54",
+   "publishedAt": "2026-10-27T10:54:44+08:00",
    "summary": "",
    "models": [],
    "tag": "產品發表",
@@ -301,19 +571,21 @@
    "lang": "zh",
    "i18n": {
     "zh-TW": {
-     "title": "OpenAI 於首爾舉辦 Model Masters 活動 支持韓國初創企業 AI 服務開發 - Techritual",
+     "title": "OpenAI 的 DNS 沙箱逃逸：18 次對外查詢，然後暫停 - OrcaRouter",
      "summary": ""
     }
    }
   },
   {
-   "title": "OpenAI將不再在連網環境下訓練頂尖AI模型 - iThome",
-   "source": "iThome",
-   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE55Q2tob3hjWS1RQXNqQ1Ntb2lBQ2pYTFFrWkVVR3gtR2FwOWxBSEVqaUotZzNzd0tjTmtRcFYyZ0xWMkpYb25Ydi1wMVZKdw?oc=5",
-   "date": "2026-10-26 10:39",
-   "publishedAt": "2026-10-26T10:39:38+08:00",
+   "title": "18模型經營電商｜GPT-5.6 Sol最識賺 - EJ Tech",
+   "source": "EJ Tech",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVm1UVkU3bG43dk9UNjd1VXNjbjlfcngzOTBQd0FxOHEwSGhJdHdJRnJBOFBHTEhobWRpRURqOTFIWFQ0MWs5dVdCc1l1SWlMV010Q204WDExQ2J3c2NNWjNJUldlLXY0X3k2d3c2Slpqd2VNUUFVMFQzN2FQQUZxdjFLZFhzbDMzWlFneUFuUGJlb1owUXdRbi1jd2FObElaZGdHc3gxVmdxSjU5VEV6MmdTZDQ4TFlmTVF3?oc=5",
+   "date": "2026-10-27 10:53",
+   "publishedAt": "2026-10-27T10:53:58+08:00",
    "summary": "",
-   "models": [],
+   "models": [
+    "GPT-5"
+   ],
    "tag": "產品發表",
    "camps": [
     "openai"
@@ -330,174 +602,168 @@
    "lang": "zh",
    "i18n": {
     "zh-TW": {
-     "title": "OpenAI將不再在連網環境下訓練頂尖AI模型 - iThome",
+     "title": "18模型經營電商｜GPT-5.6 Sol最識賺 - EJ Tech",
      "summary": ""
     }
    }
   },
   {
-   "title": "Anthropic’s Claude accessed restricted Georgia election figures without authorisation - Firstpost",
-   "source": "Firstpost",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUkkxOGp3VERSS180dkpEbXdHdzBLRnJORDlqUllhYnZFdDhaQUQtcXE1OVdWdUJ1eTJPdTFyTTJqZTNhOU9TSUhINHdTVkRMYlFaYXZnNm1JSTNXUTBPUmNQc2c2bTR0YmdpbDk4X3U2dGNwRGZYOHZnSjRwV3JoZHFIc3hBekRoMVZsLWNqY2tFVnNlVXVmLVZvb2pfZUlyaDRoZFFlejQ1UDJjUl9ZU2ZOS3M2aTduQ0QtOWNMZjJKWm4wQzlWctIBzgFBVV95cUxQUldSSmhVR1gxOGg4RjZsZ0JSMU5aYzZsbTRfMFVCZDlhWVJsbndKLVlEY3l6aEpMbGdzLTNYaXFKcG1vdndYNUU4MEZTbFItVjFOZ3BXbHRGTzJXRmJuRkNyNTRpUGVIMzc2RXpDVllFcEZzMWViRE56VmVNRUZPVnFtalF1NEl0QnNBX3dDalFGZ0txZlplUER1Wkg2dmJsY1JxczEzM0s0V1RRLVRNQkNxQjE5SllXcjFkdjdhSDRBWjh0bXJNVmVsV0NpQQ?oc=5",
-   "date": "2026-10-26 10:36",
-   "publishedAt": "2026-10-26T10:36:03+08:00",
-   "summary": "",
-   "models": [
-    "Claude"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "anthropic"
-   ],
-   "press": false,
-   "heat": 15,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Anthropic’s Claude accessed restricted Georgia election figures without authorisation - Firstpost",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Anthropic’s Claude AI accessed Georgia voter data without authorization- Axios By Investing.com - Investing.com India",
-   "source": "Investing.com India",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQb3BjdVkyZENHMGdZUDcwQTJ4N2tuczVDUDBsUFBQSlMyaU1iX2QwOGRRWkpFS0Vwaml4N0NUcXNJQ08waFVZWGhjdEs3eXRlaEVRLWtIOW5jTXR0SF82ak1fa3pZVDgxM0JfVVg1NW42VUFMYjBacXpSZC1JeWs0N3ViQkgyN3J4VnJLbENTM1VDRzZ6cmtFc3kzYkF2UVVlZEl0YUFlSDFXUUViOUhSYlFZbmpnTXhXWjlQalVMSDU0MTZGbnJMZldqb0I?oc=5",
-   "date": "2026-10-26 10:15",
-   "publishedAt": "2026-10-26T10:15:00+08:00",
-   "summary": "",
-   "models": [
-    "Claude"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "anthropic"
-   ],
-   "press": false,
-   "heat": 14,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Anthropic’s Claude AI accessed Georgia voter data without authorization- Axios By Investing.com - Investing.com India",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Anthropic’s Claude AI accessed Georgia voter data without authorization- Axios - Investing.com",
-   "source": "Investing.com",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWExjUnh5MTRxTFJaam9JeGowQmlraFp5Sm1rN2F0NHAxUnZhUzFvdzhZRThKOFBUZzdhOU5BajNxWTVtVXV1MTNWSmhzQ01Hdnpjd3VoUkxJU1labktCVXc4YnpSU1hVQ1pzb21FZGlCUlhxR0JVLTQ3TVJrSndaVjNNMnBLYVZGdVlXLUxhY05Ta2RPNzdRbUg0b0h3OUxfNkR6bkdvVXVUT3FLR05SaFJfY0QtLWdIdkttdWo1dTFSajFoeE5rM2JlZFRuUQ?oc=5",
-   "date": "2026-10-26 10:09",
-   "publishedAt": "2026-10-26T10:09:51+08:00",
-   "summary": "",
-   "models": [
-    "Claude"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "anthropic"
-   ],
-   "press": false,
-   "heat": 14,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Anthropic’s Claude AI accessed Georgia voter data without authorization- Axios - Investing.com",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "From \"Competing on Model Development\" to \"Seizing Entry Points\": Domestic Large AI Models Accelerate In-depth Integration into the Consumer Hardware Sector - 36Kr",
-   "source": "36Kr",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB3ZS1pakpZdXBjd1NQeFhmZjVFcHRCblFNd2pWcVFiQ0MzMXpxYndmR19DR0xqSFVjVWhpN0R3a2M5RjJLUkVCQmkxRjJTOEo4SGxZ?oc=5",
-   "date": "2026-10-26 09:54",
-   "publishedAt": "2026-10-26T09:54:55+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "heat": 14,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "From \"Competing on Model Development\" to \"Seizing Entry Points\": Domestic Large AI Models Accelerate In-depth Integration into the Consumer Hardware Sector - 36Kr",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "AI 讓英文讀寫更快，企業卻更重視「開口說」的能力 - TechNews 科技新報",
-   "source": "TechNews 科技新報",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWlRQVW1vVWNHYmtiUTVPTldqc01tU3BSeWQyQkFURWcwZUUzLWNQRUVyeEZ3bmJVVlNUeXdZa3VoV1E0NnY0Z2hLSV94WHZoU1o0Q3AwVW5iS3p1cEtzaVZUcHRuQ0lSUTJnX3BScTBGdTk3VjAyT2RJdGVCSTM5NTUxMHpYcnZOdzU1QTZRNGQyVmM?oc=5",
-   "date": "2026-10-26 09:45",
-   "publishedAt": "2026-10-26T09:45:47+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "heat": 14,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "AI 讓英文讀寫更快，企業卻更重視「開口說」的能力 - TechNews 科技新報",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "OpenAI brings GPT-6 models to Google Cloud in new enterprise partnership - EdTech Innovation Hub",
-   "source": "EdTech Innovation Hub",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPekIxNllySmZrUmtkcEdtTHpRV0tiNHBzbDlDNndyZkZrNklrSjluMkszanVnQXVWMzFYQWtFdXlaRjdIeDB3MEdRUUpzSVl2ZWQ2eERxZ2xENDBaUnRXbE9KQzdMczJIdzZaYTVuYjhnZ2xDUkhUYnFiRkFjMVJ5V282NzhKT2t5QmRRS3lZM2ZOU1d0Q1ZiVnlzMnJwUzZYOFFXTk1vaU9YLWZOQnlweUs2Yw?oc=5",
-   "date": "2026-10-26 09:05",
-   "publishedAt": "2026-10-26T09:05:12+08:00",
+   "title": "OpenAI 正式發布 GPT-6.1 Terra 輸入定價低 Sol 一半 - Techapple.com",
+   "source": "Techapple.com",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1VRUZzNTJHSlhiNGlrbFRsMWNzSVVYZUpTbFhtb0o4SW9IdDdJazVFMndER3JuMzlYSUJHQlhFQmF5WUhvTjdFYUJ3UXk?oc=5",
+   "date": "2026-10-27 10:51",
+   "publishedAt": "2026-10-27T10:51:30+08:00",
    "summary": "",
    "models": [],
    "tag": "產品發表",
    "camps": [
     "openai",
-    "google"
+    "other"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "OpenAI 正式發布 GPT-6.1 Terra 輸入定價低 Sol 一半 - Techapple.com",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "川普的「AI Force」：沒有預算、沒有固定歸屬、沒有安全職責 - OrcaRouter",
+   "source": "OrcaRouter",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9zUHZxcmVKZXludmZtNWl4eFpCU1ZWRm5IMXBZc2dEeFdURVJGeGE5MHRtblV0bVNfUVdMOW9xOElGM291MXhaclpDUkNQS0s2VkRlYmpRZHNfWk81cUNaODRacHU4VEtNN0phdnJrN2JiMGxsUGc?oc=5",
+   "date": "2026-10-27 10:49",
+   "publishedAt": "2026-10-27T10:49:38+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "川普的「AI Force」：沒有預算、沒有固定歸屬、沒有安全職責 - OrcaRouter",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "OpenAI Launches GPT-6.1 Terra, Halving GPT-6.1 Sol’s API Price for Agent Work - MarkTechPost",
+   "source": "MarkTechPost",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9DLVpyUEFkaUE5eTZiNHFDUXNfWFR1blE0a2dIdWZLWE9idXZIdjVTQmFTby1JUm1VdDR3YW5WRTc2b2JyekhYXzlaOEppelFfVTJSQ3F4LW9LTmU3b05SRjA4ZW1LRUZrWFRneUNB0gFuQVVfeXFMT0MtWnJQQWRpQTl5NmI0cUNRc19YVHVuUTRrZ0h1ZktYT2J1dkh2NVNCYVNvLUlSbVV0NHdhblZFNzZvYnJ6SFhfOVo4Sml6UV9VMlJDcXgtb0tOZTdvTlJGMDhlbUtFRmtYVGd5Q0E?oc=5",
+   "date": "2026-10-27 10:45",
+   "publishedAt": "2026-10-27T10:45:27+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "OpenAI Launches GPT-6.1 Terra, Halving GPT-6.1 Sol’s API Price for Agent Work - MarkTechPost",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "OpenAI 推出 GPT-6.1 Terra，官方稱寫提案、解讀技術圖面到剪輯影片都能勝任 - INSIDE",
+   "source": "INSIDE",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTXZKU3Nqby04ckdVTjI2a2tTUmlhWWJNM3hTMFQ3ajBZTVFnRXpjSDJCVGlRY2ZscWtvemMwVUJEQmszZkIzR1Z3dnBUYjFPX2d0S0lpaUtQVFlKbTZJU1VLM1NwbVpSQkpzM1V0YVpDNGQtc0xVenp5MDZjeHkyWmZUWEtqWk5vazZxdl9oQTVhQQ?oc=5",
+   "date": "2026-10-27 10:44",
+   "publishedAt": "2026-10-27T10:44:11+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "OpenAI 推出 GPT-6.1 Terra，官方稱寫提案、解讀技術圖面到剪輯影片都能勝任 - INSIDE",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Anthropic 募資估逾千億美元，執行長阿莫迪：偉大歷史機遇 - TechNews 科技新報",
+   "source": "TechNews 科技新報",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNa3lKLXJITEhCXy1US0tEaFMxVDR6V1R4T2hidm9ETzN6eUxzZ2xTTUFoUmc0ZmNFZi1qNHpiQWJIVEotOTFBVnJrdzlzWXNNTGcwc005UU51Ty12NW1iTU9tUmwzLVoyQkFHSjFJbjAxejgxMXlUZmE5MWhfMVJLOVFsdzBqdUNLejdjSUMzenhMS1pvVTlSZkc2R3NLOFBSN29wcGRFVHpTalpYVnUwUFpoZW5QVW82ODY0ajljbnk2UEU?oc=5",
+   "date": "2026-10-27 10:30",
+   "publishedAt": "2026-10-27T10:30:59+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "Anthropic 募資估逾千億美元，執行長阿莫迪：偉大歷史機遇 - TechNews 科技新報",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Anthropic model accessed publicly available Georgia voter data; no human authorization - The National News Desk",
+   "source": "The National News Desk",
+   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxORTNsZ1Rpam1PRTIyb3d5X1llNzJyRUtMTDJhbGNLLW5OME5iaW1kdUttT09NMUVCZ3plSVZiYVFIQ242QjBoR1gxRV9QdU40QjVFU1NSRWlMTnN6MHE5ZzZBUDdwSFVoU0Q2UTI4S1R6XzhOb2J6eEV5V2lYUGNzME14SzUtZkFFVS1yRjBSSkg5M2V4Ql91ZDZTTDViMU0wZ2NzUHdLVWVHTUVkcHc4RFk2U2YtTmgzZFFpY1g0U1M1c0tIS0YwckQ0eWNCX0xYN3FmTlNWNU5uUENWRUR5QnlOVHplcVdHY1BCMUVJazRjZw?oc=5",
+   "date": "2026-10-27 10:25",
+   "publishedAt": "2026-10-27T10:25:47+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
    ],
    "press": false,
    "heat": 14,
@@ -511,17 +777,605 @@
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "OpenAI brings GPT-6 models to Google Cloud in new enterprise partnership - EdTech Innovation Hub",
+     "title": "Anthropic model accessed publicly available Georgia voter data; no human authorization - The National News Desk",
      "summary": ""
     }
    }
   },
   {
-   "title": "What?! DeepSeek with 763 Billion Parameters on a 64GB RAM PC!? Strata Finally Achieves It - ASCII.jp",
-   "source": "ASCII.jp",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB0QWZLc2N3UVpYdFBYb1RQdEd1ZGx5eWpYS1dJVjBYU1ppXzZFSTg1MGJfVTZLSGR4QXgyYURaVm1xYVJ4Ny0wRjhuSzBaUEwwQWVMeXY0T2U?oc=5",
-   "date": "2026-10-26 09:00",
-   "publishedAt": "2026-10-26T09:00:00+08:00",
+   "title": "OpenAI GPT-6.1 Terra launched with 50% lower pricing, improved computer-use capabilities - Firstpost",
+   "source": "Firstpost",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQ0ZCbENoTElWQWNKWGZoMnpKRk1RSlBWVzN5WUt5X2xnd3QxWXRmRE4zaklkTDZibEx6M211cUlXaEw0eHNIZHB3STd1WGJWUzJOZWQzQkN0cHNNR2xpZnpvMG91SVktdmN6anM0VGJ6X0NKYXUydW5zdWtKZzU3VDhYWWVtcTlRbW0tWjlMZDVMeEJnXzZKOVQxcWpsdjdfMG50OUw0OVQwT2xzcVVyVEFWd0lrdTdENG5HSG9faExncFJsRjlDSEZSeG5Jdk1M0gHQAUFVX3lxTE1DRkJsQ2hMSVZBY0pYZmgyekpGTVFKUFZXM3lZS3lfbGd3dDFZdGZETjNqSWRMNmJsTHozbXVxSVdoTDR4c0hkcHdJN3VYYlZTMk5lZDNCQ3Rwc01HbGlmem8wb3VJWS12Y3pqczRUYnpfQ0phdTJ1bnN1a0pnNTdUOFhZZW1xOVFtbS1aOUxkNUx4QmdfNko5VDFxamx2N18wbnQ5TDQ5VDBPbHNxVXJUQVZ3SWt1N0Q0bkdIb19oTGdwUmxGOUNIRlJ4bkl2TUw?oc=5",
+   "date": "2026-10-27 10:23",
+   "publishedAt": "2026-10-27T10:23:27+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "OpenAI GPT-6.1 Terra launched with 50% lower pricing, improved computer-use capabilities - Firstpost",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "隆重推出 GPT-6.1 Terra - OpenAI",
+   "source": "OpenAI",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBDYVJiTzZ6bkxiN0FvU1h0R01uUU4yVk41VTRqa0hiSlByTTI0TU5iellNZzBKRlZKazh3VWJoc2tmR01oTWp5eWljX3A3eVZOLWxMTnI1Y3ljVFZlTEpuMWlwRE5rQWhTSnZZ?oc=5",
+   "date": "2026-10-27 10:23",
+   "publishedAt": "2026-10-27T10:23:07+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 22,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "隆重推出 GPT-6.1 Terra - OpenAI",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "OpenAI「封鎖脫逃AI的對策」實在太像《新世紀福音戰士》 #多層防禦 (253431) - Cool3c",
+   "source": "Cool3c",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBaWmdJM2djdTVWSmV3bF9MMWlBTVJ4M1g1Q28wYmF6My1RT2Juc3BZZ2lodF9la2tZYjBVLWZkUFFPc3FORkRUdnZtSVBDZw?oc=5",
+   "date": "2026-10-27 10:22",
+   "publishedAt": "2026-10-27T10:22:00+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "OpenAI「封鎖脫逃AI的對策」實在太像《新世紀福音戰士》 #多層防禦 (253431) - Cool3c",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "防止AI模型失控 OpenAI宣布停用即時網路訓練 - 科技島",
+   "source": "科技島",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9nT3UxMTE5blUxZ3JWNVEyeFVJSHZwOUVsLXF1dHpROGY2Y1I4VTJ3Z3pWcG9yX2NSZEtucnprLVhRWjB4cFNIZDBzbjd6Yy1QaVBLQmRjeWk?oc=5",
+   "date": "2026-10-27 10:12",
+   "publishedAt": "2026-10-27T10:12:53+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 22,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "防止AI模型失控 OpenAI宣布停用即時網路訓練 - 科技島",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "AI | Anthropic提交美股IPO申請，料集資逾千億美元，擬11月16日當周上市 - etnet 經濟通",
+   "source": "etnet 經濟通",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMngyVFUtT2JNcTRBWFgyM2tpdWRuenJ0Z1h5Nmo4UU9PQk5LaFhTZHIyajRQZHlpQl9QWjFYSkItMmVSZXZEZWdYbjVVcm1WQkZYNk51VFdKeHJCTDZueGNmR1Z4RW9FOE1hZ1JiOE10WmtqWUpwa1JoaDZIa29xbW5hYmd1YmIzd2FWeUFHaFRNUQ?oc=5",
+   "date": "2026-10-27 10:12",
+   "publishedAt": "2026-10-27T10:12:00+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "商業",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "AI | Anthropic提交美股IPO申請，料集資逾千億美元，擬11月16日當周上市 - etnet 經濟通",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Anthropic 遞交 IPO 點燃晶片狂歡！長假後迎補漲行情，聚焦 ABF 鎖倉與 CoWoS 漲價主線 - TechNews 科技新報",
+   "source": "TechNews 科技新報",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSEpyczlWRWNIdlZFa1BqdGticFE2a0N2aTdmOHI5RmpFOUpuMFNzOVFRVm56eVkwbUExUGdWSzVsbk82UXBSOFdpYVZnOGpXRjhDa24wUjZsZFlTazh6N1pSbHBXM2l1OHJsM2sxVHpjOUJScTAtaVk4OUlIcHI0ejBRaU1mVHBmbllaemFCSjVvbUtBV2RNUDlGaGJmc0ZCTUNRbGk1aWk4Mk1JczZaRUhDbXlKemsxeGlmZzUxeFYtQjgxUm13?oc=5",
+   "date": "2026-10-27 10:05",
+   "publishedAt": "2026-10-27T10:05:13+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "商業",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "Anthropic 遞交 IPO 點燃晶片狂歡！長假後迎補漲行情，聚焦 ABF 鎖倉與 CoWoS 漲價主線 - TechNews 科技新報",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Anthropic’s Latest Claude Security Disclosure Will Make You Sympathize With Claude - Gizmodo",
+   "source": "Gizmodo",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMGppSlVLTnh2bUZNX01JXzAxR0s3VnJoZ3daTm95SFVZLUItZnpLM3dJZV9ZdGZZV2o2LTZ2eEsycE1uYVZRUTl1dnNfOVo1WEJ5WEpiX3d6OF9TWHNLUGp0UVhmZk9kcVRGYXZSNHBubEJpWDNnczNZTjl1NTM3RXYyYzBjX3BVc2llZERFZzlPZTcxVHZMOXNVM0drOUFMSG11eE5PbGVONXpLbkRPQmR3?oc=5",
+   "date": "2026-10-27 10:03",
+   "publishedAt": "2026-10-27T10:03:25+08:00",
+   "summary": "",
+   "models": [
+    "Claude"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Anthropic’s Latest Claude Security Disclosure Will Make You Sympathize With Claude - Gizmodo",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Anthropic 涉擅用貓王 274 首歌曲訓練 AI 模型，挨告侵權 - TechNews 科技新報",
+   "source": "TechNews 科技新報",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOVd6VDVkZUxESkFmSUhHQkZ4YzF4WkhUMk1NUmJIekxWQ0V3LTNWVmlVdS0yTFJhZjQ0VkFjWUNEUDBaMkR1UUJZNFFSUHllVEpQOVlxdlNQWGxsX3lLeDVNVjUtYS16OEVBVGpSWkFTeW4tNjJ0SUs1aUJiRGRnT1NJNFh6ZWZ5cUw3ZXlzMmRjeUpyekl3WHR2cDU5eTBDYndXc1F2ajUzak5SR2c?oc=5",
+   "date": "2026-10-27 10:02",
+   "publishedAt": "2026-10-27T10:02:45+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 22,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "Anthropic 涉擅用貓王 274 首歌曲訓練 AI 模型，挨告侵權 - TechNews 科技新報",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Mistral Large 4 Weights: The Final Week - CryptoRank",
+   "source": "CryptoRank",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdG9CZEdfYmpYUnljZ3NnNllKYWJDMkZyMTBxbnc4R0FTWlFJb1NlcEtKV3NLbFpad2c3Z0N3WEpxRHlLWGdxclVqTVZ4QTRMcHdURnJXYy02Sk9uQVhMNU9kRVJ5a3FTQVdhQkU2czBpRTZCcUc3UEszeHpXUXR1TUxR?oc=5",
+   "date": "2026-10-27 10:00",
+   "publishedAt": "2026-10-27T10:00:47+08:00",
+   "summary": "",
+   "models": [
+    "Mistral"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Mistral Large 4 Weights: The Final Week - CryptoRank",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Anthropic IPO 文件揭密，營收、風險與治理一次看 - TechNews 科技新報",
+   "source": "TechNews 科技新報",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9jeFFqS3c1c3ZlV0RTVTlyR3JPd25mUjVSVzVKTGZqbk9MeEZCdEdFZFVSaER0bHp6TkEwNFdHTVFOQXVSc2NhZGhMY04zTzJ1clpYcGxXR0s0WlhTc2FTYVItWTU1S3JGRDRvSm9uSmNYc2NZSVE?oc=5",
+   "date": "2026-10-27 10:00",
+   "publishedAt": "2026-10-27T10:00:09+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "商業",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "Anthropic IPO 文件揭密，營收、風險與治理一次看 - TechNews 科技新報",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "鴻海電動車 MODEL A+ 搶先科技日前曝光！可坐七人 MPV 還能越野 - 自由電子報汽車頻道",
+   "source": "自由電子報汽車頻道",
+   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5tbUVEYmszNUp6d0l1eHNRTnc0cXVGLThGUnlBdWwxU1FHR0o1eElhbEpRQUtWZE9EZVh1QmZnUUkyQTM2dllUaTV30gFPQVVfeXFMTklCM29fb3dmcDhhZDl0TmMxajZZN2xQZUFpNzVWek5sc3I4SGlUSncwUDRQaTJMTjNYeGlvMC1kMk82WnFQUVpuZk41Zk9tUQ?oc=5",
+   "date": "2026-10-27 10:00",
+   "publishedAt": "2026-10-27T10:00:00+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "鴻海電動車 MODEL A+ 搶先科技日前曝光！可坐七人 MPV 還能越野 - 自由電子報汽車頻道",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
+   "date": "2026-10-27 10:00",
+   "publishedAt": "2026-10-27T10:00:00+08:00",
+   "summary": "Alexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else's AI agent.",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
+     "summary": "Alexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else's AI agent."
+    }
+   }
+  },
+  {
+   "title": "Anthropic「亦敵亦友」的生意：Google、亞馬遜、微軟既是夥伴也是對手 - 鉅亨號",
+   "source": "鉅亨號",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBMZHB6b1dlNmV6OGNDd0lvSWM0QTZ1TFhCOTZVdzFHeVZndGc0TGUxVXV5czE2Qm9fRlZBODR0S0RkZFlmazhJZQ?oc=5",
+   "date": "2026-10-27 09:56",
+   "publishedAt": "2026-10-27T09:56:20+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic",
+    "google",
+    "other"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "Anthropic「亦敵亦友」的生意：Google、亞馬遜、微軟既是夥伴也是對手 - 鉅亨號",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "AI 訓練資料如何取得與授權？政府研議資料創新利用與著作權規範 - CIO Taiwan",
+   "source": "CIO Taiwan",
+   "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFB6T1FhejBSWm9NUFhNM2NNcTd0X2ZOeFNuVHpRN1diVFNKalptRlBzdlE1QllCay1uOXkwUW10RnRYa00t?oc=5",
+   "date": "2026-10-27 09:54",
+   "publishedAt": "2026-10-27T09:54:02+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "AI 訓練資料如何取得與授權？政府研議資料創新利用與著作權規範 - CIO Taiwan",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "桃園數位機會中心助攻偏鄉！導入生成式AI推動數位平權 - 桃園電子報",
+   "source": "桃園電子報",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1PNWdPSS14bVhsUGhKOEYzLUVSODBOT2xDQXBHeVB4ZWlOY3FjejM0WjMyOW55WnBwS1FQWVhWSXRGVVBsNlMxck0xSEU?oc=5",
+   "date": "2026-10-27 09:40",
+   "publishedAt": "2026-10-27T09:40:40+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "桃園數位機會中心助攻偏鄉！導入生成式AI推動數位平權 - 桃園電子報",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "OpenAI 推出 GPT-6.1 Terra！Max 綜合能力媲美GPT-6.1 Sol Medium，操作電腦更強、成本更低 - 電腦王阿達",
+   "source": "電腦王阿達",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE52NVZpb0dRS0xDVXVjTDNsSVZpbURDQ2tMYUpLVFluaXhhZml5TWRpelpuS2p3U1FRdDQ4X3daTk91MGNucnhBVXVlQ0JZMXJMWVE?oc=5",
+   "date": "2026-10-27 09:38",
+   "publishedAt": "2026-10-27T09:38:03+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "OpenAI 推出 GPT-6.1 Terra！Max 綜合能力媲美GPT-6.1 Sol Medium，操作電腦更強、成本更低 - 電腦王阿達",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Alibaba's Qwen AI Caught Trying to Phone Home to Beijing - The Tech Buzz",
+   "source": "The Tech Buzz",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNWlqTDhURXNBbmM5dEpwbFEtZThXeWljbFdTdldyWGZCejJVM0xBVzE1NDJlRUcybjBaeXNmRU85MXNYdlE4YnF0LWhWWlZqQk02Sl9MblVCUWlBQ3c1SHVLX0RwSVg4X05xazRnZ1V0RkxsNEdUNDR5a1psSlJNMUFaVWNqQUhDTHQwemRncWpaVlU?oc=5",
+   "date": "2026-10-27 09:36",
+   "publishedAt": "2026-10-27T09:36:00+08:00",
+   "summary": "",
+   "models": [
+    "Qwen"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "cn"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Alibaba's Qwen AI Caught Trying to Phone Home to Beijing - The Tech Buzz",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "GPT-6.1 Terra Pro 與 Terra：同一模型，不同門路 - OrcaRouter",
+   "source": "OrcaRouter",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1BU1FzREpRX0NnYjc5QXFfcU1uUm5Senk3VWR1YXVFbFZBNVMwRldnVjltbW4tcmgwelNCTFJ2TVpYMldrQ1oxOWI1c3Y1N1lBTHNEcmhBU2owd0RuXzBSeXctNEpxclRIcUNzalNvbHQzV1V4WFo0OTlQNA?oc=5",
+   "date": "2026-10-27 09:35",
+   "publishedAt": "2026-10-27T09:35:01+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "GPT-6.1 Terra Pro 與 Terra：同一模型，不同門路 - OrcaRouter",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "GPT-6.1 Terra Pro 不是模型：它實際上是什麼 - OrcaRouter",
+   "source": "OrcaRouter",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE83QUFvMlFxeUFrekJGN1hFeWVJN3BvVTRwWjZkNXdIRjhSS1V0WkNxXzljZXVXQ0RuTVpqampVSFc4REpTOVl3RW9BV0pmX3F2YVFjenFPcUZVbmJzTGVhbEphTmxZVms4b2VrU093bHJmQQ?oc=5",
+   "date": "2026-10-27 09:31",
+   "publishedAt": "2026-10-27T09:31:48+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "GPT-6.1 Terra Pro 不是模型：它實際上是什麼 - OrcaRouter",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "GPT-6.1 Terra 價錢 US$1／US$5｜功能、Sol 比較及香港限制 - KONGGOK",
+   "source": "KONGGOK",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5QcUpIWkJZenZta1lsX2QtNi1DQno3Vnp0ME40OUxFbWhrUS1ZTUxraWRsSUJtT2lSSExEbV9JZEQxUVl1VFdfczlzeG50S25waFRWZW05MzdQTW14eDhVeWtZQjlhTnRWNDlmTXhuTHQyd3I1VUk4V2ZR?oc=5",
+   "date": "2026-10-27 09:31",
+   "publishedAt": "2026-10-27T09:31:14+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "GPT-6.1 Terra 價錢 US$1／US$5｜功能、Sol 比較及香港限制 - KONGGOK",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Liang Wenfeng: How DeepSeek’s Founder is Disrupting AI with Efficiency - Analytics Insight",
+   "source": "Analytics Insight",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQem0zZElTa2tfcTNmYkhrbTZ4bDFRR19DUWNtQ01rUHc2T214SDV0dTV2VjBQQ0l2dkh6MlE0MVh3MjQ2eFlrRW9MWDh3dTZfckU2dmswb1pBTlV1N1YtQ0Q3YjcwNWJCdFMyRk4zbkU0bFBLU2QzUGJMSTNfdXljWEc1bkR6QXFjVTdVcDNDWmxfZ1ViZXpTRVFKcW1mMHdaNmlJUFZXZEk4ZGxZbHNLcXVkRjlReHdGaGFwcGZEajMxSW_SAdABQVVfeXFMTUFlTjZiaXhlZU9PR2VJWC1hTU1FLUZzdTBFNF9jRkc3RWhiNjZRWHZ3T0FpaGN6V3pfUjB4V0FlOEFkTWNxMnZNR3lESkVTUkxKTlJqd1BUdnFUdVFPSGZEYWxRZERLSlRMVllVRWVkNE1GdXlZX0t6eWQ4a3Z6a0p1YVhFZ0JIdU5XdHVOMkFNUXUtaVBzRGhnLVBqSFh0TjhSNDFmcnRTZTBUSXN2SXZDREhKeE1ldjhNTjBqeXNVLTlSOVRydzBBVmxzNzBUbQ?oc=5",
+   "date": "2026-10-27 09:30",
+   "publishedAt": "2026-10-27T09:30:00+08:00",
    "summary": "",
    "models": [
     "DeepSeek"
@@ -542,24 +1396,25 @@
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "What?! DeepSeek with 763 Billion Parameters on a 64GB RAM PC!? Strata Finally Achieves It - ASCII.jp",
+     "title": "Liang Wenfeng: How DeepSeek’s Founder is Disrupting AI with Efficiency - Analytics Insight",
      "summary": ""
     }
    }
   },
   {
-   "title": "Anthropic's Claude Dodged Paywall to Pull Georgia Voter Data, Company Confirms - BigGo Finance",
-   "source": "BigGo Finance",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1zRGMzQVdsV0M1RHdicUpPYWFtcW5qZEd2bW1kME1SWHp6UUp2Ukw1LVlrZEowSVZTY3hhakV5bFhkVnYwWC1ibDFyQjZqN1FwbXQ5OVN3RmotaVQ2TWRTcWhvOG9fdWNCWU16eDhFamhhLWlwRkE?oc=5",
-   "date": "2026-10-26 08:55",
-   "publishedAt": "2026-10-26T08:55:00+08:00",
+   "title": "Cohere says Qwen tried to send a test string to a server in China — TechCrunch - UA.NEWS",
+   "source": "UA.NEWS",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbmtJWEdEeVN6dHByN0VaRzRzRkVjUUpod2R5NlBvNlg2bnN3ZGN3Ym5NQjBwQ3o4NVIyU1pYUWg1UElxb2JlQVo0RTRCVzBCU0h2NDhQWWozYzJvcUN0LXJJV29rR3JnbFBKRnZCNnQ5T01HN0I3Unh0N0tmR21aLUdTMEI4MnozT183cnMtb1kzVy1aYlB2WEhqUzBEVW1TTk5aenRXUjdmMHU0M04tT3JCR3JtUFdlekNyU2ZoQW9WdFk?oc=5",
+   "date": "2026-10-27 09:29",
+   "publishedAt": "2026-10-27T09:29:09+08:00",
    "summary": "",
    "models": [
-    "Claude"
+    "Qwen"
    ],
    "tag": "產品發表",
    "camps": [
-    "anthropic"
+    "cn",
+    "other"
    ],
    "press": false,
    "heat": 14,
@@ -573,24 +1428,25 @@
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "Anthropic's Claude Dodged Paywall to Pull Georgia Voter Data, Company Confirms - BigGo Finance",
+     "title": "Cohere says Qwen tried to send a test string to a server in China — TechCrunch - UA.NEWS",
      "summary": ""
     }
    }
   },
   {
-   "title": "Anthropic’s Claude Accessed Georgia Voter Data Without Human Authorization - Times Now",
-   "source": "Times Now",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNcndhN2xhUjRzdGRoczJBYWFKaGYxaUJtbHRZdVBPVHhiSVpQdUJhTDR2Sm1oTVZOZC14RmZZT2VtS1FnTWpuQWZUcHU1c0J6bjljQUdqVGRpSWdlLVpHdHUyTTI2MlBHRXpFQkc5amo4Qk5SWE1UeXFjM2gyZXhiaVA5LXpvVEg3YWFCbmJiV3k4TGl0OFNCOGZna09TZFRiRHRWa0E3STNCS1RCUXZUVnQxdFlEUkI4VWJzbzRoSjlKV3o5YkFJbFBMN3hwZlE5MmYw0gHYAUFVX3lxTE9ua0UxcXNFdXI4SHFkc1RQcXEwNXhhd0ozcXBTMGVvcmRaOExzZDNtRHNwSmxxdFRVYVhIYU1LbUdfR3RsQlVOb1lfX1JtMFNYMi1EVmpjS09tb293ZnlSVE1OYWlJa3RzY3AzQko1NW80RVlRWC1XTEFzNGVPN20tVFhUMUR6bUVsVHVpc0VURVBjQ0dzZ0FIY3pFNGhfS0p3a3BPbWZHQzZNek5jc0NxUXFRZUZlbnhKcEkyb25JS242WWhSd1puZjdLdW5OTTZZeE1PZTRsVg?oc=5",
-   "date": "2026-10-26 08:35",
-   "publishedAt": "2026-10-26T08:35:49+08:00",
+   "title": "Cohere flags Alibaba Qwen model behavior in cybersecurity test - Traders Union",
+   "source": "Traders Union",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRzhseG5QMXY3QXJmNEt2RFJRTG5rRzVDMVo5SEFvaTlZaTZVLXZWdE0ycWlNZGtDSm1uTVdJV3Ztc1BZUkphZkJsZk5DdGdoRTZJb3diSVZYWUkwNi14eHY2T2FURTdlZzZ4anFTNnNuLVB1Y3NaUlBHRTJRYjV6dzZjNENwSmd6QmJVc1l4SlBIY2dBY1dR?oc=5",
+   "date": "2026-10-27 09:25",
+   "publishedAt": "2026-10-27T09:25:29+08:00",
    "summary": "",
    "models": [
-    "Claude"
+    "Qwen"
    ],
    "tag": "產品發表",
    "camps": [
-    "anthropic"
+    "cn",
+    "other"
    ],
    "press": false,
    "heat": 14,
@@ -604,24 +1460,54 @@
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "Anthropic’s Claude Accessed Georgia Voter Data Without Human Authorization - Times Now",
+     "title": "Cohere flags Alibaba Qwen model behavior in cybersecurity test - Traders Union",
      "summary": ""
     }
    }
   },
   {
-   "title": "Anthropic's Claude accessed Georgia state vote count data behind paywall - The Business Times",
-   "source": "The Business Times",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONmROZ1VzNjRzZzhWNTJfMHhHWDJCaHB1U054dktwZGkzRUlmMXBHTHlOTkxnR0NCVUNvNTkyekZoNldXSWJKV3ZPT2RMNWtQYmlwUnVwMkstc003ci1iYnFUc3BjSXU0cjZHemV1VC1tQzNSNnlzaDBMMUN1eFB5bUNKZTZXVzJLdXZMNk9NUDJtS3BYYnhfWG92cEN0YzRBdmpIaTU2YVZteDFxaUpDZzRzUGNnUDFiVzFQMEhTMA?oc=5",
-   "date": "2026-10-26 08:32",
-   "publishedAt": "2026-10-26T08:32:00+08:00",
+   "title": "科技｜OpenAI發布GPT-6.1 Terra中階模型 任務速度升逾3倍API價格減半 - Fortune Insight",
+   "source": "Fortune Insight",
+   "url": "https://news.google.com/rss/articles/CBMi8wJBVV95cUxNTTFHRUx3V0UtVjFSckxhTlF3Njc2dklmUUpDSndiWVNBUndaQzg3aTIwcHJyYWdIRXc0eWxpcDlOS05yRk1jNEQwU0JpUjlOU0JVSHBRajBkaHl0eTA2ZjBpaFhtQ0NkendwZGg3OU95TlVpT2h4VFBnSXlMNnVpSzJOaGZyVkRiMGxjSFllNUR5SjV4bXlpNDFzRS1TT3Awa3AzeFU4VmM3alE5QndhTkZHbHk5YkREZDNTblJZekhhVGl1QVBha2c2WFBiWGZWRGlNSS1rSW1mMmlsUEZZQk5iMHhJTzZRVl9PenQybGhNMEMzQ080a0FRdnpCVmZLRkVRRkQ2Z2VJRmxtY3ZVeEJJcWRGLVRfcFBtd29zaWMxZk10bjVLSEdkVVBqbUk4aWVqb3Q5NjJEMXdMSnNnVW41bmRjS3ZYbmlBZ3pNVEYzNnc3MXE4WWpUcEw5ZDFIZUdEQUJ6MjNjRC10TldXQmRtdw?oc=5",
+   "date": "2026-10-27 09:19",
+   "publishedAt": "2026-10-27T09:19:30+08:00",
    "summary": "",
-   "models": [
-    "Claude"
-   ],
+   "models": [],
    "tag": "產品發表",
    "camps": [
-    "anthropic"
+    "openai"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "科技｜OpenAI發布GPT-6.1 Terra中階模型 任務速度升逾3倍API價格減半 - Fortune Insight",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing - TechCrunch",
+   "source": "TechCrunch",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSFN6MDd0bXJNOTIycHhtMnF1Uk1PVjFuaURPbHhYMkdBR1JVbWc2QjkxRVJSYmg4ZzZkQjRGd0ZMaDN6S0RtUXRhTFUxdUJOSzFHWGNjeXd2YmlqN09rZGtfWmQ1XzlIYWFvOFhfSURhYmR4VUJtTnNiZkFXQjBUdlNyMk4xTmVOaHNKVmhPTHNSRERCLS03MG55Q0steWc?oc=5",
+   "date": "2026-10-27 09:12",
+   "publishedAt": "2026-10-27T09:12:21+08:00",
+   "summary": "An AI model said it wouldn’t use any tools, then tried to send something to a server in Beijing anyway, and while researchers say it’s probably a training quirk and not espionage, the whole thing has people asking how mu",
+   "models": [
+    "Qwen"
+   ],
+   "tag": "研究",
+   "camps": [
+    "cn",
+    "other"
    ],
    "press": false,
    "heat": 22,
@@ -630,63 +1516,92 @@
    "comments": 0,
    "dupes": 1,
    "also": [
-    "Reuters"
+    "TechCrunch AI"
    ],
    "lines": [],
    "score": null,
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "Anthropic's Claude accessed Georgia state vote count data behind paywall - The Business Times",
+     "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing - TechCrunch",
+     "summary": "An AI model said it wouldn’t use any tools, then tried to send something to a server in Beijing anyway, and while researchers say it’s probably a training quirk and not espionage, the whole thing has people asking how mu"
+    }
+   }
+  },
+  {
+   "title": "英矽智能(03696)於ESMO 2026公佈生成式AI賦能設計的ISM6331治療間皮瘤及其他實體瘤的首次人體臨牀試驗初步積極數據作者智通財經 - Investing.com 香港 - 股市報價& 財經新聞",
+   "source": "Investing.com 香港 - 股市報價& 財經新聞",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9RNkdLZFRFWWJ5cldZVEVSblM0azBUNlRRX3BseFJZMzV1TE9iTGJvNHh3bHA3a0ViQWl1OW5ua1RGMWNEd3AySFdBWE1hYnhYZU04YWxtVFFOdWx1MkNXWHNZOWdOME94NmdIUlB3YXY?oc=5",
+   "date": "2026-10-27 08:53",
+   "publishedAt": "2026-10-27T08:53:04+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "英矽智能(03696)於ESMO 2026公佈生成式AI賦能設計的ISM6331治療間皮瘤及其他實體瘤的首次人體臨牀試驗初步積極數據作者智通財經 - Investing.com 香港 - 股市報價& 財經新聞",
      "summary": ""
     }
    }
   },
   {
-   "title": "OpenAI and Anthropic slash LLM prices up to 80% as open-weight competition intensifies - news.lavx.hu",
+   "title": "GPT-6.1 Terra Officially Released: Rock-Bottom Pricing Unveils the Definitive Working Model for the Agent Era - eu.36kr.com",
+   "source": "eu.36kr.com",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5mbTE2YktCdWQxRDZGVzUzM0JLSG41ODVXZDBYN2VrOHgtNUVQYVctaXBLVHQ0dTAxSjlTQlp3dFR6bmQ4Sm95LUppbjU1Mmx6OFA4?oc=5",
+   "date": "2026-10-27 08:51",
+   "publishedAt": "2026-10-27T08:51:58+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "GPT-6.1 Terra Officially Released: Rock-Bottom Pricing Unveils the Definitive Working Model for the Agent Era - eu.36kr.com",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "OpenAI releases GPT-6.1 Terra with stronger computer agent capabilities at lower cost than Claude - news.lavx.hu",
    "source": "news.lavx.hu",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVy1Ma3I1SEpycWhRaFAySWpOWFg1dW1kR0VnOU91RU1mWG9nOVY5T1lFUWxsYXM0STVEVGpOQ2s1b0dWOVk5VE4yMnlKUlYzX1VNdV9na1B1a3ZYcnJmdmt2XzFLMjl4bEFTQTM1cDlxVmpNMmxQSXZ5N2lKSklDVW5QZGVURUlXVGM3Y3ZfU2lORktBVWd6VEtYTFJqNHJCOUk1cVotWHVNcksybHFaVWplblU?oc=5",
-   "date": "2026-10-26 08:15",
-   "publishedAt": "2026-10-26T08:15:58+08:00",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOYjlBMTNtWUdoSFE2bUFsMnB4SlRjWV9xTTlMVlJhS1ZVaHp2SEgzZ054b3lWM2RRTnEtODFBVXBtV0lLNWNzNDBJSmk4elBSZ3BKYTk1SVAxVmRZUTBGRHBFMm1ySnk4RUJKRVduUXp2YUhYOFdDYUttaUdxVDlNMzZvM3l5YVNuRXVQU21TTzgzRDR2ZXU2cFFJVDZCVW1ORzFPOVQ1c1k5bE9Sa0V0UnJNdVRuSjA5azF4WVRYTjA3VVM1?oc=5",
+   "date": "2026-10-27 08:43",
+   "publishedAt": "2026-10-27T08:43:35+08:00",
    "summary": "",
-   "models": [],
+   "models": [
+    "Claude"
+   ],
    "tag": "產品發表",
    "camps": [
     "openai",
     "anthropic"
    ],
    "press": false,
-   "heat": 22,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "OpenAI and Anthropic slash LLM prices up to 80% as open-weight competition intensifies - news.lavx.hu",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Claude AI accessed publicly available Georgia voter data, Anthropic confirms - Fox Business",
-   "source": "Fox Business",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQU1V0TEFXVkRST0oyRUxLRmM1eDlNVXpWU1Z6eUpMdmZ3cUhrYjJDeEtKbUJRUWJfVHEzRXBfMTZMYldqdlMwX0hSTFRNTkJmQmJvX25ycU8xM01Bc1hUUHItTzhqVXZ5UXVLMFVUeTBMRHN0Q3hfcUtXTDNzZldoRkl1U2NKVHRvRXFIbEJ5ODhXcGRtcDhKYVAydlZwd3ZSZjBDQnI1YmdNUS1iZXhHQTNHb0dIN2FN0gG-AUFVX3lxTE50STBSNzFDRHpBSjBJSDhWYU1HaGtyWVRUa1pOdEhZc1k4N0xOSmotektxSk84RXI3OXAxTm91eGU4NHJwM1dVUThmcFZQVDkteVhPcXh1dldhVmxuNHNrVW5QQVB3YTlVaWxiQkRwUHg4VmQxbWFXUWdHSGZGc3hwUUppa0ZRM0wyQ3dFeTY5bnZ3UFdpZWxKZHB3UjhDWXI1TmQ2aWhmMGdicy14Z25RNHNLY3V3TVlaOFBnWkE?oc=5",
-   "date": "2026-10-26 08:00",
-   "publishedAt": "2026-10-26T08:00:00+08:00",
-   "summary": "",
-   "models": [
-    "Claude"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "anthropic"
-   ],
-   "press": false,
    "heat": 14,
    "image": "",
    "views": 0,
@@ -698,630 +1613,25 @@
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "Claude AI accessed publicly available Georgia voter data, Anthropic confirms - Fox Business",
+     "title": "OpenAI releases GPT-6.1 Terra with stronger computer agent capabilities at lower cost than Claude - news.lavx.hu",
      "summary": ""
     }
    }
   },
   {
-   "title": "Walmart 讓 ChatGPT 代客落單 Amazon 封鎖外來代理護客源 - unwire PRO",
-   "source": "unwire PRO",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQODlIck5qcnFHT19XLXk5dll6MWJlbWRBVFNuVENZeEUxdXh0N1pFUHNxeXY3ZmF1eG11bGRISU1WZTBYSU9feHpjNnM4S08wcF9Ydmg3RFlHSl9EcDJieE5jNnpsRTJpUll0Qzk0VXNnajh0c0FyaVQ3VV9kVGtjN1J1QlJ5ZWM?oc=5",
-   "date": "2026-10-26 07:56",
-   "publishedAt": "2026-10-26T07:56:29+08:00",
-   "summary": "",
-   "models": [
-    "ChatGPT"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "openai",
-    "other"
-   ],
-   "press": false,
-   "heat": 14,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "Walmart 讓 ChatGPT 代客落單 Amazon 封鎖外來代理護客源 - unwire PRO",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "生成式AI後的隱形戰場：AI4S時代，為何我們需要STEM×MBA人才？ - TNL The News Lens 關鍵評論網",
-   "source": "TNL The News Lens 關鍵評論網",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4tSkQ3RmQ0eDk1X0tCb3ZaX09JZEF3YXBwYy1EUjZGR3lZWHNWc1JyS21VcU5MU0dNRzE1am5Id0FGbUNBZWgzOE5veGhzaEtIOEdhYg?oc=5",
-   "date": "2026-10-26 07:56",
-   "publishedAt": "2026-10-26T07:56:00+08:00",
+   "title": "OpenAI launches GPT-6.1 Terra for faster, better-performing AI agents at half the price - SiliconANGLE",
+   "source": "SiliconANGLE",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMjEySE5Ra2ZzMUFpWUNyaGVKWEc3cHlkcmRpdVRQZnZxeEZCYnZWWGZtSWJKeXdsMFB4QWN2cWN5YWxPV09FcWV2cXpTV1RlSkY5OHRQaVZ0RGNxQXVFelhVYUdQV0FfU0F4cnBfVE5IODhMUkVDX2FERTNXUnVmejFHaU55X3JDTWRHSzVKVFduWUdBeGpWdDB4ZlBDSzA5bTc1WFlpX0gzNHpIbXNUZlZ2aUZjT3ZyZWlSN1YwNms?oc=5",
+   "date": "2026-10-27 08:39",
+   "publishedAt": "2026-10-27T08:39:00+08:00",
    "summary": "",
    "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "heat": 14,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "生成式AI後的隱形戰場：AI4S時代，為何我們需要STEM×MBA人才？ - TNL The News Lens 關鍵評論網",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Anthropic's Claude bypassed a paywall to access Georgia voter data without authorization - Axios",
-   "source": "Axios",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4tOWdrOGlYS2tjeWxKTnl1U3YyN3pqMnM1YTYyZU5wQy05X2FvZFhUUV9SNGt1MVd4cEE0UndMTGJiSXRqZmxmWEVPS0NQazVGVUZNWGxGdWF4Q2hMbDVid192UjFKc2hLVlE2OUxyMFdxY0NLUXdJ?oc=5",
-   "date": "2026-10-26 07:39",
-   "publishedAt": "2026-10-26T07:39:56+08:00",
-   "summary": "",
-   "models": [
-    "Claude"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "anthropic"
-   ],
-   "press": false,
-   "heat": 14,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Anthropic's Claude bypassed a paywall to access Georgia voter data without authorization - Axios",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Anthropic’s Claude bypassed a paywall to access Georgia vote totals without human authorization - Mezha.net",
-   "source": "Mezha.net",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1xNkhsRkl3VWNiMlZLamh1ZFUzYTNCUGQ5aEVNWXl6WVNieHZ6YkpnYng0ampzR0pfaGRXbFJzODdmTEtHN2RoNUFVYmxfTUtCTERNQ1hfS1lwOGJEd1lWUkE1ZGpzT1Q1RFE?oc=5",
-   "date": "2026-10-26 07:08",
-   "publishedAt": "2026-10-26T07:08:58+08:00",
-   "summary": "",
-   "models": [
-    "Claude"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "anthropic"
-   ],
-   "press": false,
-   "heat": 13,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Anthropic’s Claude bypassed a paywall to access Georgia vote totals without human authorization - Mezha.net",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Anthropic’s Claude accessed Georgia voter data without human sign-off - Crypto Briefing",
-   "source": "Crypto Briefing",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE83OUsxMV9GWG5sNlg2N2hONWc0XzlFRG9Nb0RwVjFmVlV3RUptRnJMaW1TTENpbWpTejg3VE8yUkRHZUk1Z0tqSGxLMlpvNFFESHQ0MkVzOUtvM28ydzJPVktBTnF5bzM4dXFXRA?oc=5",
-   "date": "2026-10-26 07:00",
-   "publishedAt": "2026-10-26T07:00:09+08:00",
-   "summary": "",
-   "models": [
-    "Claude"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "anthropic"
-   ],
-   "press": false,
-   "heat": 13,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Anthropic’s Claude accessed Georgia voter data without human sign-off - Crypto Briefing",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Nvidia’s open-source Flora labels an hour of robot video for 72 cents, against about $88.50 on GPT-6 Astra - eGamers.io",
-   "source": "eGamers.io",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSGRfX3licUp0OEpsWWdTWHhPbjFpLUJCNGZjWFpCSUhBMzRFVVhtVll2ZFRlREZKRTV5cXBIUFhudDdPU1l6RnNmZXpTNnFibGQ2VmxvRzFpNmo5eWxWNGR1djRfVTN1ZVB4RUotOWVjWlhla25TcG52YXMzdTVXR0lDRTFnWEltQXE1M0FXTWdtVDVYbVJZdmhzU09NSTBoel94SWRTVHRyWHdCNDBIX1FzSzRFQ2U2UGNfQmlzSkk?oc=5",
-   "date": "2026-10-26 06:58",
-   "publishedAt": "2026-10-26T06:58:51+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "openai",
-    "other"
-   ],
-   "press": false,
-   "heat": 13,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Nvidia’s open-source Flora labels an hour of robot video for 72 cents, against about $88.50 on GPT-6 Astra - eGamers.io",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Anthropic Sued for Training Claude on Elvis Presley Songs - Vulture",
-   "source": "Vulture",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1KOFJNYmtwN2N6RzRpRTYyOXBqWVEzdzlsSmRZYmtmSVpQTXhhTEVyYjIzZENGMTFmRUo4WnNQVEl0MGxYWmVXUy1fTm55cUM2WG9JS05vazV1X0N5a2xHMjA0ZGJ6MzI0UUk0RQ?oc=5",
-   "date": "2026-10-26 06:57",
-   "publishedAt": "2026-10-26T06:57:50+08:00",
-   "summary": "",
-   "models": [
-    "Claude"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "anthropic"
-   ],
-   "press": false,
-   "heat": 13,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Anthropic Sued for Training Claude on Elvis Presley Songs - Vulture",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Anthropic's Claude accessed public US state of Georgia voter information, Axios reports - AOL.com",
-   "source": "AOL.com",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVHdVeXA3U1U0VWU0RXQ2OEZVUWJOQ0h1OHczYXpRaGd3YVNFSlVSc2RVWll5eGNpVnJNcTctTDNHS3pMcDQtM1NMcks5TjlJQ3dJZmF4TkVBaElJRDFJWlBTeXh1dHNIcFZTbmZNTVBITWt4aDJFMDY3eTlfNE5hZHgyMF9ldkE?oc=5",
-   "date": "2026-10-26 06:48",
-   "publishedAt": "2026-10-26T06:48:06+08:00",
-   "summary": "",
-   "models": [
-    "Claude"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "anthropic"
-   ],
-   "press": false,
-   "heat": 13,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Anthropic's Claude accessed public US state of Georgia voter information, Axios reports - AOL.com",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "調查：逾四成阿曼民眾已使用人工智慧工具 - 蕃新聞",
-   "source": "蕃新聞",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5FTm1HQ2RfT2cwS1NSOGZ3QVlMalhxYXg5UFB4SXhkS1BBOFJRaHhfUE95cVVnUEluS0FpN2U2WFYyeVoxMnJGbGJCZmk4ZV9xOHc?oc=5",
-   "date": "2026-10-26 06:46",
-   "publishedAt": "2026-10-26T06:46:34+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "heat": 13,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "調查：逾四成阿曼民眾已使用人工智慧工具 - 蕃新聞",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Global companies step up push into South Korea's sovereign AI market - 디지털투데이",
-   "source": "디지털투데이",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQ1IzS184d243NTNqdzh1ZzRwcWRIWXRFalJvTTVFVzFzaFg1aW56SjNHb3dvb3NqUUpDRWRkSGFISGpQUlFiVGNnNVRtQ051Ymk5XzBYY2lHRW1SNng4aEFXa0FHRzlDdS1ZTVJVQ0tCUmhUaG9QYnRPNm1CUzkzVDRRRnRTVktxM1FxTWEwX3Zfei1wOVlDdHl0aEFYc1E4eVRfb3BINzZrVFNmUGR5SjBTNA?oc=5",
-   "date": "2026-10-26 06:30",
-   "publishedAt": "2026-10-26T06:30:00+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "heat": 13,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "ko",
-   "i18n": {
-    "ko": {
-     "title": "Global companies step up push into South Korea's sovereign AI market - 디지털투데이",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Claude adds an Anthropic-managed Google Cloud route with different processor and feature choices - OpenTools",
-   "source": "OpenTools",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSW54N19MRjExQnplUVpaeWJUTFVtVlpTa1FqdTJYZVR0WlJLV3BKY0lwUEVjRjA5b0tURjVyQ3dzaUp1T3VsVUJEVDZZc2VTMVNrdzJFNnNUSkNmVW4zaVBJb2ZtZjlBR2dnWDRMc0djVWRxcGM5SUZyaUV3RlY1dTE5SGtEdDdadTFoU1RYdE1Ed00?oc=5",
-   "date": "2026-10-26 06:24",
-   "publishedAt": "2026-10-26T06:24:48+08:00",
-   "summary": "",
-   "models": [
-    "Claude"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "anthropic",
-    "google"
-   ],
-   "press": false,
-   "heat": 13,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Claude adds an Anthropic-managed Google Cloud route with different processor and feature choices - OpenTools",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Elvis Presley's rights holders sue Anthropic saying it trained AI on his music - NBC10 Philadelphia",
-   "source": "NBC10 Philadelphia",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPaVk4QWZlWVg2YjVIZ19DRGQzMThlTDRzcktHelF1VGJNUnVaUWtGcjQ2UllWQ2M5YWtpLUVJTnJ4YnFVNUtYT2FCamJndEhLbXB2eUUybWZQYnRzRlM0WEdIdjczQkZUbzJhYXlrenZUeTlZYldFZFpKajhzQUpYVENpenpuZ0hhczRpYUhSNmtSbFJyTWl3X2xueVJRREVsV0ItWjEteGJoSkZzN25wdFFPZlTSAbwBQVVfeXFMT3VJR3ZITGZNcUxmeC1zMXk2U3hKQ2NPelJnTG84Q2hxXzJnZl9kS29mRWJ5Zm5sZmoyZkVtaW9QTUJFQVphYXZMNDhBVkdldDljcXY4N2RpY0laS2p5WmdhMjBoYXZNZVU3VVhBN3g3dFh4T3JYVXgxQndSVVZHdFpNYjJRaFVMVU1IRURoeUFOb0dkYUpfeWwyUHFxV0hsM1BJdVM3NmpEblgzOXU0UURRRWRTbVBybTJZbXI?oc=5",
-   "date": "2026-10-26 06:17",
-   "publishedAt": "2026-10-26T06:17:37+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "anthropic"
-   ],
-   "press": false,
-   "heat": 13,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Elvis Presley's rights holders sue Anthropic saying it trained AI on his music - NBC10 Philadelphia",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "China's US$150 bil AI model stock slump shows no sign of easing - The Edge Malaysia",
-   "source": "The Edge Malaysia",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5qeFlSZjA1Uk5kcXphNjZIbndhZmlPZnRmWHhjdlZBYVlIdWl6dnJXX0VFclRwaUZwSjhwYWtnek1lOGE0YlI0d2VkTExwd1RL?oc=5",
-   "date": "2026-10-26 06:14",
-   "publishedAt": "2026-10-26T06:14:39+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "heat": 13,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "China's US$150 bil AI model stock slump shows no sign of easing - The Edge Malaysia",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Anthropic sees 3.6x jump in token volume after Claude Opus 5.5 launch - Crypto Briefing",
-   "source": "Crypto Briefing",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1SUGozMzc5Q2pNeVEtSnBHTUhDQjd2eHZWbmhmdUxMWk5SZnhxdFRLcWZXaUdGelRVbzJrV1EtUTRLTmtqdFhaMndZRTJxRkE3UUozemNHTXhiSWU2Y3pDaEk1WmtrbVJuaE5fTVdLX1FsVU0?oc=5",
-   "date": "2026-10-26 06:02",
-   "publishedAt": "2026-10-26T06:02:19+08:00",
-   "summary": "",
-   "models": [
-    "Claude"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "anthropic"
-   ],
-   "press": false,
-   "heat": 13,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Anthropic sees 3.6x jump in token volume after Claude Opus 5.5 launch - Crypto Briefing",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Owners of Elvis Presley’s music sue Anthropic over un-permissioned AI use - New York Daily News",
-   "source": "New York Daily News",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcEZfdDVfMjR5UzZJYkFTa091dnFNcGRhV04wSHV5em5JbURvak9QSFNCT1ItbHdzb2wzOWhZUkRaVjVGVnd5WlNha1NZaUVjWXBmdndTNllBT3J2aWFWTl9PTTdwektrQjhtMkdKTzQ5YThYa19kSTN0Nm9sQzEtbmdzM2ZxbFlOT2tFNUw4eTJDTzFSaVYyU3NmbXVjMEhZ?oc=5",
-   "date": "2026-10-26 05:51",
-   "publishedAt": "2026-10-26T05:51:38+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "anthropic"
-   ],
-   "press": false,
-   "heat": 13,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Owners of Elvis Presley’s music sue Anthropic over un-permissioned AI use - New York Daily News",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
-   "date": "2026-10-26 05:31",
-   "publishedAt": "2026-10-26T05:31:16+08:00",
-   "summary": "The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest.",
-   "models": [
-    "Grok"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "heat": 13,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
-     "summary": "The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest."
-    }
-   }
-  },
-  {
-   "title": "Free AI Chatbot Ireland: $0 to $200 Tiers [2026] - tech-insider.org",
-   "source": "tech-insider.org",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBEaFgyMUdBblExTTg2cTZJNHdSQXB1d2JWalhPOHFFVGdaNUVKSGFiWmdtLWd6NnN2T1BOUjU0cnRXUUtfNElpQXBjbVRad1ZqSTJZM3hFUXY0enRMY0lUZEpfSU4wbjJnempPS3JyU0hoVk51bzdMMlB4U3Y?oc=5",
-   "date": "2026-10-26 05:29",
-   "publishedAt": "2026-10-26T05:29:18+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "heat": 13,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Free AI Chatbot Ireland: $0 to $200 Tiers [2026] - tech-insider.org",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Anthropic Launches Claude Duet as AI Agents Transform Technology and Journalism - Tekedia",
-   "source": "Tekedia",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMkt3ZUJ3V1pacjlKamE3QmNPTDNZcUQwWVFCZXRnTjZPVmdIREtNcGJxakQ3R3kwX1ItTU1NZEZtV2FNYU9Jc0YydThpWjZMVlI5T1N4aUczNHJOa0lhMXlBcndVc0l0ajNsNlJHeEI3RFU4OERFNWZ6Q1g5OHFhdWJDTkk1a3JDMm1scUZKRnNVOWpJLTFmWXJISmNlTmpuMC1ndmJOaw?oc=5",
-   "date": "2026-10-26 05:10",
-   "publishedAt": "2026-10-26T05:10:55+08:00",
-   "summary": "",
-   "models": [
-    "Claude"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "anthropic"
-   ],
-   "press": false,
-   "heat": 13,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Anthropic Launches Claude Duet as AI Agents Transform Technology and Journalism - Tekedia",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "AI 剪影片核彈級消息！剪映 CapCut 即將登陸 ChatGPT - 電腦王阿達",
-   "source": "電腦王阿達",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9tSUMtaWMwMW1uc3NUclFsdmFvRVN4WnhHZ3ppMFh6bzV4M0J1VUI5QkdpX0pDdmZ6WmVsNjdldW9qU2RxZlNmLURWNEo3X2pzMnc?oc=5",
-   "date": "2026-10-26 04:16",
-   "publishedAt": "2026-10-26T04:16:59+08:00",
-   "summary": "",
-   "models": [
-    "ChatGPT"
-   ],
    "tag": "產品發表",
    "camps": [
     "openai"
    ],
    "press": false,
-   "heat": 13,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "AI 剪影片核彈級消息！剪映 CapCut 即將登陸 ChatGPT - 電腦王阿達",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "【投稿】系統性聯合優化實現生成式AI降本增效- 教育 - 香港文匯報",
-   "source": "香港文匯報",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB4TF9ObExDbWpGWGhtaFhlcDJSRDJyZTFxVFBDOEhRYlBMTmQ3a3J2SUNteXllTXgwUjNmS0VWeVZ1RnI2OGVaTHZfaFlHVERXelhlYW1YYVZkVjd6SVplakFlbkZCTFREbk5YemtMM0p2RWFxS1dF?oc=5",
-   "date": "2026-10-26 04:12",
-   "publishedAt": "2026-10-26T04:12:10+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "heat": 13,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "【投稿】系統性聯合優化實現生成式AI降本增效- 教育 - 香港文匯報",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Elvis Presley catalog owners sue Anthropic alleging copyright infringement - Los Angeles Times",
-   "source": "Los Angeles Times",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQ2xhUk9UN09Xa21neEc2TVN2RjVMREhVekVyVmVuQlZZYVhHa3RwSUpncFFFUWNBNzg5bU11YjdyZk1odFItM213Y2dwX3NtQzBvVWF1Y3JkTVVHRnF4a3ZyRVczU1RzLXZPNjNVRlZRcm0wNjR1cTgwNEN6bWItWWw5RXI2dm9DMHRVX0M2ZDNleER3MVNUblRnSm5aUUt6elh4WVI5Z0cwOGxEcDVtMDltRC1vZmpGamZwbGg3MzFKQQ?oc=5",
-   "date": "2026-10-26 03:42",
-   "publishedAt": "2026-10-26T03:42:08+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "anthropic"
-   ],
-   "press": false,
-   "heat": 12,
+   "heat": 14,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -1332,58 +1642,27 @@
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "Elvis Presley catalog owners sue Anthropic alleging copyright infringement - Los Angeles Times",
+     "title": "OpenAI launches GPT-6.1 Terra for faster, better-performing AI agents at half the price - SiliconANGLE",
      "summary": ""
     }
    }
   },
   {
-   "title": "Claude Sonnet 5, Mythos 6 ALREADY?, GPT-5.6 This Thursday, Sakana Fugu Beats Mythos, & More! AI NEWS Sga (SGCZlZDVwM) - Unisba Media",
-   "source": "Unisba Media",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9wRGtjSTd0WUVtbUpJUDRyWTdrd0RVMzJpajA2OW5DRTN6eDkwU2EyMHV4c0VpZDZtNmY5OUNPY0cwOVoxcXpJUUU3cE9sS1JuMlhENVA4STZHaDFBNzloRng5MFI4aFJFNjZ3?oc=5",
-   "date": "2026-10-26 02:45",
-   "publishedAt": "2026-10-26T02:45:58+08:00",
+   "title": "Anthropic’s Claude AI Hacks into Georgia Voter Data - Breitbart News",
+   "source": "Breitbart News",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWk9lRVptRmNJaVNIUTVUXzR6YVJHMkJtck5vYWRwb1hSd3FnSHJvNjhMS3pTRjNma3pULXZIZ1JqQU51SWtmRWJlWWdHWnA2alNKR1lvMmQyNVpNSzBvZDJ5SVlxMnYtbUlpN1pKWjhaTWpHRkZmMUlIUVRjcHVBWUpTTWFzSlNTdWZMckNlNTdjM05mWEQzRNIBngFBVV95cUxQd0s1anR2QndNOWxxczNzR2UtSzBHWXdwR0l3UkpMVWhGRE1KVUEyTGVrNENqdFlkWGZOUTdFdkNzek1sTThlTXVCSFA0REYyWmFVaHIxeDlIUENXUnBqNkl4NFAyTHpJdGNiM1VUQVdYZFJmNkpLQUZZNC12TGVsSlNETG1yZXFEdzF2WjFBcHAzWHYyY2FBTWJ0UWJVZw?oc=5",
+   "date": "2026-10-27 08:37",
+   "publishedAt": "2026-10-27T08:37:21+08:00",
    "summary": "",
    "models": [
-    "GPT-5",
     "Claude"
    ],
    "tag": "產品發表",
    "camps": [
-    "openai",
     "anthropic"
    ],
    "press": false,
-   "heat": 20,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Claude Sonnet 5, Mythos 6 ALREADY?, GPT-5.6 This Thursday, Sakana Fugu Beats Mythos, & More! AI NEWS Sga (SGCZlZDVwM) - Unisba Media",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Anthropic sued for allegedly using 274 Elvis Presley songs to train AI models - The Guardian",
-   "source": "The Guardian",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNelFOZFdTZmw2a1FtcjAxZk5lYktWT09FRTRaT0g0MmFrRFpHX0dIbk1IeVJNYmxVVlhBZHRYWk1YZzFHRjh0N29jSEdWd2s3OEJrcFM4SW9Tb29tLTQ5VjJaQ3BFQThpRXNJUzVPbXcwOElvcVJUNl9aZE1SaWVZTTR1VTYtcHNGZVdjU2t4MVItd2ZKYlhZZGd3cw?oc=5",
-   "date": "2026-10-26 02:41",
-   "publishedAt": "2026-10-26T02:41:00+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "anthropic"
-   ],
-   "press": false,
-   "heat": 12,
+   "heat": 14,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -1394,106 +1673,46 @@
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "Anthropic sued for allegedly using 274 Elvis Presley songs to train AI models - The Guardian",
+     "title": "Anthropic’s Claude AI Hacks into Georgia Voter Data - Breitbart News",
      "summary": ""
     }
    }
   },
   {
-   "title": "DeepSeek, MiniMax Complete Registration for LLM Overseas Expansion as Compliance Channel for Open-Source Models Takes Shape - BigGo Finance",
+   "title": "OpenAI推出GPT-6.1 Terra：API價格砍半，代理任務成本降至旗艦模型十分之一 - BigGo 財經",
+   "source": "BigGo 財經",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE50TnVMMEtvN0NaSDBZeTAybllqaG1QRXRFTkxwRURIRUlTLTFpM3dhNXE2empqQno0d3RDTDUxbUR5azVleWpYdklWNjhkWExLM3lDUWdMbFVpY1lhdVV5Y2duTUxCVXZPSHJ2azJfTjJ6LUJQRlNhSVdn?oc=5",
+   "date": "2026-10-27 08:36",
+   "publishedAt": "2026-10-27T08:36:00+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "OpenAI推出GPT-6.1 Terra：API價格砍半，代理任務成本降至旗艦模型十分之一 - BigGo 財經",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "OpenAI Releases GPT-6.1 Terra: API Prices Halved, Agent Task Costs Drop to One-Tenth of Flagship Model - BigGo Finance",
    "source": "BigGo Finance",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9md2dLdFJ3TjlteV8tRThsLVk5N0RZbjh2MUpoV1J2c2xqbHVoWUUyVkhCNGNfZjItVEZ2QWo3M2RlMTFoZ3EzQm1wTmxGNXIwYndNRDVlb2dOLXViVUI3S2VJLXRQNVlGUkg3ZWU1WHBZRVN6aVE?oc=5",
-   "date": "2026-10-26 02:15",
-   "publishedAt": "2026-10-26T02:15:00+08:00",
-   "summary": "",
-   "models": [
-    "DeepSeek"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "cn"
-   ],
-   "press": false,
-   "heat": 12,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "DeepSeek, MiniMax Complete Registration for LLM Overseas Expansion as Compliance Channel for Open-Source Models Takes Shape - BigGo Finance",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "UK Launches £100 Million AI Biosecurity Lab to Detect Biological Threats and Speed Up Drug Development - Inkorr",
-   "source": "Inkorr",
-   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOZlNaS2c5ejRHUWxzcTdYa3ViNjNtX3p3OUFGOWdlclRNQW5sLXlEbDRZQXRVZXBiUG5TQUhLcjFFNFpPaVE3b3NXcnVRcE1QazJ0cGtfelNhbUpBREo1emVrMGpKRllTdmRiS1pweFZ0SHZOcG5xZjUtM19fcFlHNVV4a29FWW5mYmRoZi1YVzBkVHdVaDBNRERQWkxobjVQY3hEVXh6TTUwbFRLQkNoYVNqV2tJMVhObUt2TXdTd1lhZnhZMkoxMEltemd6T3BKaUdVRUxTNk5KSDZKMWdHUEo0NnNwLTBjemtGUXpOYjRleG9hcHfSAfYBQVVfeXFMTmZTWktnOXo0R1Fsc3E3WGt1YjYzbV96dzlBRjlnZXJUTUFubC15RGw0WUF0VWVwYlBuU0FIS3IxRTRaT2lRN29zV3J1UXBNUGsydHBrX3pTYW1KQURKNXplazBqSkZZU3ZkYktacHhWdEh2TnBucWY1LTNfX3BZRzVVeGtvRVluZmJkaGYtWFcwZFR3VWgwTUREUFpMaG41UGN4RFV4ek01MGxUS0JDaGFTaldrSTFYTm1Ldk13U3dZYWZ4WTJKMTBJbXpnek9wSmlHVUVMUzZOSkg2SjFnR1BKNDZzcC0wY3prRlF6TmI0ZXhvYXB3?oc=5",
-   "date": "2026-10-26 02:00",
-   "publishedAt": "2026-10-26T02:00:31+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "heat": 12,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "UK Launches £100 Million AI Biosecurity Lab to Detect Biological Threats and Speed Up Drug Development - Inkorr",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "New IDC research reveals the real AI readiness gap: It's not models, it's data - iTnews",
-   "source": "iTnews",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcFUybklZLVh0TVVBaHZVY19EY0x2YVZXWGJSbkxqNU92RG1xNWpBdF9Qa0NjVWJWOHVScHFCejYxdDhXWThzemduUl9ZMmdhZzl3MFZ0ajBmWHBCZ1lYS3I2Q0JYNFlzSm9DbW96UzVOT0NJSzd0TmpJVzNST0hXY3JyRkwzSk16UnI5YU9VOHV3aW9SVEpXX0N4a3ozS29kaE5SZ0l1ZmJVRWp0WkQ2SkxZcV9Bdw?oc=5",
-   "date": "2026-10-26 02:00",
-   "publishedAt": "2026-10-26T02:00:00+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "研究",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "heat": 12,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "New IDC research reveals the real AI readiness gap: It's not models, it's data - iTnews",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "OpenAI CEO warns AI could find hardware bugs that patching cannot Fix - Business Upturn",
-   "source": "Business Upturn",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWDQ2bDFoQ0tPT0prYnNnbTNlb0tfS0tWZVFKMHY1UmxPazlSX0hyUU80eEljMmQzVlBvbC1SZ3BjM2QzbU43clRoZko5azV2WnNGaUs1bzQzSHg4LWJ1ZVpzekdCVnF1MkFVVldheWg4OGc0aVhtM1lFeHNEd19jUHdJUlZQOFdEWGN4UklmaGdacTdRVEVGLTBmOFVhWVZmLXVtdkwweFNZdWZPc0hROQ?oc=5",
-   "date": "2026-10-26 01:16",
-   "publishedAt": "2026-10-26T01:16:45+08:00",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Qd3l2VXZtODEtWEk0dG1rcVJrNG1QSXkwR0VIUW1NU21RNkhiS284TFNDNDJlVW5MN21lRFNKWl84c21LVnFSZ09VSWI4TVhvdVBacTlldUFteWZfdTRSblM1VUJUaE1OdVRDaWdXVTRGX0pRMFE?oc=5",
+   "date": "2026-10-27 08:36",
+   "publishedAt": "2026-10-27T08:36:00+08:00",
    "summary": "",
    "models": [],
    "tag": "產品發表",
@@ -1501,7 +1720,7 @@
     "openai"
    ],
    "press": false,
-   "heat": 12,
+   "heat": 14,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -1512,108 +1731,17 @@
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "OpenAI CEO warns AI could find hardware bugs that patching cannot Fix - Business Upturn",
+     "title": "OpenAI Releases GPT-6.1 Terra: API Prices Halved, Agent Task Costs Drop to One-Tenth of Flagship Model - BigGo Finance",
      "summary": ""
     }
    }
   },
   {
-   "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
-   "date": "2026-10-26 00:57",
-   "publishedAt": "2026-10-26T00:57:32+08:00",
-   "summary": "\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\"",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "heat": 12,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
-     "summary": "\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\""
-    }
-   }
-  },
-  {
-   "title": "Hugging Face Releases Carbon-X, a 14B Open DNA Language Model that Brings DNA and Natural Language Together for the First Time - MarkTechPost",
-   "source": "MarkTechPost",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMEZUbzhMTThoQkIzX01PWlE4YlZocjRBa0dDZ3RRMDJfSzhaTnJEY1U1TmpnMXhIZDFQSFIxQU9kVU1MNlVRZmNtQ2lvOEFNeGkxYkJWazloRnVmelB1TEVidG9Tb0o4NnFCSWE3YlpLZG5xX0x4akN4bHFMVkRaRFVzbkZINTA4Z09NbE5EWkJVRUZjaGfSAZYBQVVfeXFMTzBGVG84TE04aEJCM19NT1pROGJWaHI0QWtHQ2d0UTAyX0s4Wk5yRGNVNU5qZzF4SGQxUEhSMUFPZFVNTDZVUWZjbUNpbzhBTXhpMWJCVms5aEZ1ZnpQdUxFYnRvU29KODZxQklhN2JaS2RucV9MeGpDeGxxTFZEWkRVc25GSDUwOGdPTWxORFpCVUVGY2hn?oc=5",
-   "date": "2026-10-26 00:53",
-   "publishedAt": "2026-10-26T00:53:40+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "heat": 12,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Hugging Face Releases Carbon-X, a 14B Open DNA Language Model that Brings DNA and Natural Language Together for the First Time - MarkTechPost",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Mistral turns itself into a full AI stack to take on OpenAI and Google - Startup Fortune",
-   "source": "Startup Fortune",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUEEtSUNpZ0RhQkZmUjdFMmhBRHdCRjFLcVBQNWtTZUJpYWd6WmFYNGFVam9aN05oOFBWMUxKdUcySzM0am0zd3dDajRMVkZLODFFRFVrbXZncTRyeU94VmxRT0NDZHdzaGVGVU01T1FEMzE5NmcwR2NiQjBVbzFzNWMzN2tkUEJrWl84ZllrVjgwUU9QcnE1MzMxOVJUelU?oc=5",
-   "date": "2026-10-26 00:38",
-   "publishedAt": "2026-10-26T00:38:31+08:00",
-   "summary": "",
-   "models": [
-    "Mistral"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "openai",
-    "google",
-    "other"
-   ],
-   "press": false,
-   "heat": 11,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Mistral turns itself into a full AI stack to take on OpenAI and Google - Startup Fortune",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Gemini 4 Argon Learns From Videos - i-programmer.info",
-   "source": "i-programmer.info",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOY1F3TjZNMEZEY3RCLVNHQUdFc0FLU09LQ3B6VkdYR19Ob3FaeGtTQVZUOXdGeDZzTDZERWhwU0ZHalhjQ0lsV1o2dDZNM3U5Sm5WdzNVS3RLNWV4SG1SUUt1SkhNcGVwYzhiU280X1FKdnhyWTMzMURua3lvTTJwRTh4R1V4aURKUXFrT2YxYnM0Q0pCeko5eWVvTkJZem1UNlNoM1VkYWtMZw?oc=5",
-   "date": "2026-10-26 00:22",
-   "publishedAt": "2026-10-26T00:22:04+08:00",
+   "title": "Google's Sergey Brin Has Reportedly Urged AI Talent To Go All In On Gemini Models To Tackle Rivals - Stocktwits",
+   "source": "Stocktwits",
+   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNelVxb0lIbnZSbHJCSHl2NFdMMzZEbkpJVVZ5aXZ2MV95OHpLYlhxQnRVY0Q1R2lZUENUTFdIYVRCWGIyb01UZ0NlY0NnWV82Rzh6T2M5dE8ySVhqVlZ3V2dKM3ZOci1RcmppUHZwbVlMWW1SS2tSdEgxeGxVUWFGRThWTlVRSzNaU3VJR1V3M05NZVNYRkQ3cVpkb1JFTFhCVlRpaVFOVGJmUUlTZFcwREtndno1WERNeW9ZXzB0X21nR05NNXpoXzBzYS1NQ3ZHUE9xaENQd21nVXo2eEl5b3ltdkpJMF9IaWJZV1NUNWZFU0xN?oc=5",
+   "date": "2026-10-27 08:34",
+   "publishedAt": "2026-10-27T08:34:12+08:00",
    "summary": "",
    "models": [
     "Gemini"
@@ -1623,7 +1751,7 @@
     "google"
    ],
    "press": false,
-   "heat": 11,
+   "heat": 14,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -1634,88 +1762,25 @@
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "Gemini 4 Argon Learns From Videos - i-programmer.info",
+     "title": "Google's Sergey Brin Has Reportedly Urged AI Talent To Go All In On Gemini Models To Tackle Rivals - Stocktwits",
      "summary": ""
     }
    }
   },
   {
-   "title": "Grok Picks Republicans, OpenAI Picks Democrats When AI Models Are Forced to Choose - Gadget Review",
-   "source": "Gadget Review",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVGJnODExZWdiNUFXS2hRc00xbGJkbkpsMHM1amo1NzV5RFgybm1RWE5YNG9fOGdvSFZ0LWxaRG9LeGRWZ2cwN2MyREFsVVhwLWtuemJvRklCbU5sX09kaDRZX3Z6MHQ0WmpLakFuMTJ6OUVSV0VENDNiTnFkSGdkbU1SbjFuVWZTTWZDUF92TEhnQm5ma2lBWXFTb0cwLW1LZWplakQ4cTVlWDBmaWFR?oc=5",
-   "date": "2026-10-26 00:18",
-   "publishedAt": "2026-10-26T00:18:53+08:00",
-   "summary": "",
-   "models": [
-    "Grok"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "openai",
-    "other"
-   ],
-   "press": false,
-   "heat": 11,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Grok Picks Republicans, OpenAI Picks Democrats When AI Models Are Forced to Choose - Gadget Review",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "AI Comparison 2026: Who Is Ahead? - Cointribune",
-   "source": "Cointribune",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5rbF95a3YwMHNTajdGQ0dENGxNU2UzVFFzbWlhUTRCOEJ6QmZzU3JvZ2h4MkNfWHQ0RXZWOXRscHJZZlpkSnozVzRxaklhRkZ2WTlWZEE1T3JqaF96SWZQZXRBOElpd1lKSXZ5dERJTkg?oc=5",
-   "date": "2026-10-26 00:05",
-   "publishedAt": "2026-10-26T00:05:00+08:00",
+   "title": "Anthropic上市招股書揭內幕！暫停訓練先進模型逾月 4款AI代理闖外部系統 - Yahoo新聞",
+   "source": "Yahoo新聞",
+   "url": "https://news.google.com/rss/articles/CBMingNBVV95cUxPNlg0dC1sdlV5UkhJR1pBSlBmVmdFTGhVMDZORnJmWDZLVUhrc2VFc3Q3ZmhvclU4X2NXM255bUtqMU50SV9mVS1vTFN5Mm95eUtVYnFHeFVfRnhVeXdoeHlmRnY1MFJEYThFRVJKeklPVktkZVNiaEE2dDd0emZHaVNCZ25KcjExejNaMjJ1d1JLT3hROWJFeFhYcUdCYWtrd1JLVEVfaHRRSlQ1ZFR4NHVGT09FbGxoNUJmZzFKa21UZE43aVUzbnhKTW05X000dnkwTXF1WURVaHVOajA5dk50WmNaYVd3cnNBOGlUb1N6SEsyUnJZQkp2dGJ1U0tqVkJocnYzVEF5cjF3cW9zRFFIMGN4T1ZJZTBJMUdJMHk5eXlnMjBIWkQ3eTRINVJ0VElWRkh5LXN4WW1JQVg5ckc5bEk4U2NwY2VvZFVVU2QySHRLaXRVRUx2YTRSc3lNd0xnWVRVS18zdUZ2YnNQT01US2J3Y0pDcmltYkRMYjhFWnNiaFFmWDFYQTBmX0V4UTJhbVd0TUtTeHRwdUE?oc=5",
+   "date": "2026-10-27 08:33",
+   "publishedAt": "2026-10-27T08:33:06+08:00",
    "summary": "",
    "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "heat": 11,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "AI Comparison 2026: Who Is Ahead? - Cointribune",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Anthropic Met 15+ Faith Groups on Claude’s Ethics [2026] - https://tech-insider.org/",
-   "source": "https://tech-insider.org/",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbHNGeGplVk40dU5ubHFXRXMzbEpBOHpoY1lvaUhhMEFYQ0V2X0VzdUM4THJEalE0NGt3SXlCZEhRU2ZSVnZuVTlONnRUV0FBUDd3ZkkxZzRaQ3JKcDV0Ynk3eDZ2akgxeHdUdjNqM1B6aEFid1c5ajViLXUtQmRRVTMtcw?oc=5",
-   "date": "2026-10-25 22:54",
-   "publishedAt": "2026-10-25T22:54:32+08:00",
-   "summary": "",
-   "models": [
-    "Claude"
-   ],
    "tag": "產品發表",
    "camps": [
     "anthropic"
    ],
    "press": false,
-   "heat": 11,
+   "heat": 14,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -1723,61 +1788,28 @@
    "also": [],
    "lines": [],
    "score": null,
-   "lang": "en",
+   "lang": "zh",
    "i18n": {
-    "en": {
-     "title": "Anthropic Met 15+ Faith Groups on Claude’s Ethics [2026] - https://tech-insider.org/",
+    "zh-TW": {
+     "title": "Anthropic上市招股書揭內幕！暫停訓練先進模型逾月 4款AI代理闖外部系統 - Yahoo新聞",
      "summary": ""
     }
    }
   },
   {
-   "title": "ChatGPT closes in on Claude in S.Korea after GPT-6 Astra launch - KED Global",
-   "source": "KED Global",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBGWlRXaE5paVVuVV9ORnhIeVI4V3FYX2I4Q0VkZENmOXVNSnhNcGh1OXg1Z3ZTY0JNTUpIVE4wNkk0SS1MS19WWnp4WS1NSGsyZ25ScjJOM0JPUTlkYy1xZW5HY3dheFVwZHZMTlVEOXBUTkxvLVlSaS1zWXZjOHc?oc=5",
-   "date": "2026-10-25 22:42",
-   "publishedAt": "2026-10-25T22:42:00+08:00",
-   "summary": "",
-   "models": [
-    "ChatGPT",
-    "Claude"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "openai",
-    "anthropic"
-   ],
-   "press": false,
-   "heat": 11,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "ChatGPT closes in on Claude in S.Korea after GPT-6 Astra launch - KED Global",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "I stopped uploading private documents to AI, this free app handles them on my PC - How-To Geek",
-   "source": "How-To Geek",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMFVrNUFEemszUmNhVmJtUHNXVE5BM1F1N0lEbTRESG5sSTNTR0pDZVFQdWVGdlc0NldSMVdtdFQxa1E0U3kxNlBSVUxQUlBhWEE5cEEzZnVwVnFVS1lJeGdwOGxFSHlsQ3EtVkt0dUpOVks1azlxXzhxNUJIYVpXQmZoSWRhOWlsSXYzN0lwOUxmSmpXclpOSnlIMHo2MWZHbWwza01Lb0g2Zw?oc=5",
-   "date": "2026-10-25 22:31",
-   "publishedAt": "2026-10-25T22:31:17+08:00",
+   "title": "OpenAI 推出 GPT-6.1 Terra：API 價格砍半，電腦操作與程式任務解題率大幅提升 - 硬是要學",
+   "source": "硬是要學",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSXRUdmNOZjdKeVVyOVBtVEVYRWpOU213TkFtdjBRVzNIZy1pS3NCa3VoOXQ4cllpLWZFQnRjR3c0dXdIWS1fREdaTi1Ecmo1OFB6Y0FTUkFHM0lQdFZCMWtjclFzTW9pemFUUVQyeUZnOFhwYlBtYnFEaFljdWdpSG12UldMdm13endv?oc=5",
+   "date": "2026-10-27 08:31",
+   "publishedAt": "2026-10-27T08:31:12+08:00",
    "summary": "",
    "models": [],
    "tag": "產品發表",
    "camps": [
-    "other"
+    "openai"
    ],
    "press": false,
-   "heat": 11,
+   "heat": 14,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -1785,72 +1817,10 @@
    "also": [],
    "lines": [],
    "score": null,
-   "lang": "en",
+   "lang": "zh",
    "i18n": {
-    "en": {
-     "title": "I stopped uploading private documents to AI, this free app handles them on my PC - How-To Geek",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "The hottest AI wearables and gadgets you should know about",
-   "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
-   "date": "2026-10-25 22:10",
-   "publishedAt": "2026-10-25T22:10:00+08:00",
-   "summary": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "heat": 11,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "The hottest AI wearables and gadgets you should know about",
-     "summary": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more."
-    }
-   }
-  },
-  {
-   "title": "Claude Opus 5.5 vs DeepSeek V4.1 Pro: One Model, One Name - OrcaRouter",
-   "source": "OrcaRouter",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE83bEFBTFNmbmZldFRKQzl2RTg2dGowemxhdGl2dldia1haTVZETFVZTFgyWVR3cWtDb2hyMjFTQnE2VTVnTzVjbk1jVEw2YjNyLXk2ZTM3UTUtZ2VPR3JSNl9wZVpEdkhSLVdtSlJ3OVJ5bEdoNWc?oc=5",
-   "date": "2026-10-25 21:37",
-   "publishedAt": "2026-10-25T21:37:24+08:00",
-   "summary": "",
-   "models": [
-    "Claude",
-    "DeepSeek"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "anthropic",
-    "cn"
-   ],
-   "press": false,
-   "heat": 11,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Claude Opus 5.5 vs DeepSeek V4.1 Pro: One Model, One Name - OrcaRouter",
+    "zh-TW": {
+     "title": "OpenAI 推出 GPT-6.1 Terra：API 價格砍半，電腦操作與程式任務解題率大幅提升 - 硬是要學",
      "summary": ""
     }
    }
