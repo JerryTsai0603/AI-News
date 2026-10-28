@@ -1,0 +1,101 @@
+{
+ "channel": "dgx",
+ "version": "v26",
+ "fetchedAt": "2026-10-28T12:12:22.531895+08:00",
+ "edition": "2026-10-28",
+ "count": 2,
+ "languages": [
+  "zh-TW",
+  "zh-CN",
+  "en",
+  "ja",
+  "ko",
+  "de",
+  "es",
+  "fr",
+  "it"
+ ],
+ "byGroup": {
+  "asus": 0,
+  "acer": 0,
+  "hp": 0,
+  "msi": 0,
+  "dell": 0,
+  "lenovo": 0,
+  "gigabyte": 0,
+  "microsoft": 0,
+  "nvidia": 2
+ },
+ "byLine": {},
+ "items": [
+  {
+   "title": "DGX Spark vs Mac Studio M5 Ultra for Local AI: Which Should You Buy?",
+   "source": "YouTube · IamVikramjit",
+   "url": "https://www.youtube.com/watch?v=tWgC0OA2RbQ",
+   "date": "2026-10-28 10:30",
+   "publishedAt": "2026-10-28T10:30:13+08:00",
+   "summary": "DGX Spark vs Mac Studio M5 Ultra for local AI: which should you buy? The DGX Spark 128GB is $6,950 and the Mac Studio M5 Ultra starts at $5,499. One writes faster, the other reads your prompt faster, ",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "影片",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 100,
+   "image": "https://i.ytimg.com/vi/tWgC0OA2RbQ/mqdefault.jpg",
+   "views": 47691,
+   "comments": 137,
+   "dupes": 28,
+   "also": [
+    "YouTube · RandayumFacts",
+    "YouTube · Mario's Data Stream",
+    "YouTube · AI Eco",
+    "YouTube · Alex Finn",
+    "YouTube · AI Frontier Daily",
+    "YouTube · Petronella Technology Group, Inc."
+   ],
+   "lines": [],
+   "score": 534,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "DGX Spark vs Mac Studio M5 Ultra for Local AI: Which Should You Buy?",
+     "summary": "DGX Spark vs Mac Studio M5 Ultra for local AI: which should you buy? The DGX Spark 128GB is $6,950 and the Mac Studio M5 Ultra starts at $5,499. One writes faster, the other reads your prompt faster, "
+    }
+   }
+  },
+  {
+   "title": "DGX Spark vs Mac Studio: $4,999 vs $2,499 [2026] - shattered.io",
+   "source": "shattered.io",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE00bThaLUF4ZklXWjlLOGVrQjBwem8yc2ppTVV4dkRpdUFVdlIwclJKM1EtaGhSNnhTV2xLX1J1WEpfR2tjZmtiOE85a3duV3pTOG94Z05JU0hLclpCWDh4SnYwTU0zRTRGemEtYW5DY3ZBT3BjS1ltYmRwN0pOUQ?oc=5",
+   "date": "2026-10-27 12:40",
+   "publishedAt": "2026-10-27T12:40:33+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 19,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "DGX Spark vs Mac Studio: $4,999 vs $2,499 [2026] - shattered.io",
+     "summary": ""
+    }
+   }
+  }
+ ]
+}

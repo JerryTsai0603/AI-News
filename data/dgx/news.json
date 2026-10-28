@@ -1,9 +1,9 @@
 {
  "channel": "dgx",
  "version": "v26",
- "fetchedAt": "2026-10-27T12:06:59.952062+08:00",
- "edition": "2026-10-27",
- "count": 3,
+ "fetchedAt": "2026-10-28T12:12:22.531895+08:00",
+ "edition": "2026-10-28",
+ "count": 2,
  "languages": [
   "zh-TW",
   "zh-CN",
@@ -18,23 +18,23 @@
  "byGroup": {
   "asus": 0,
   "acer": 0,
-  "hp": 1,
-  "msi": 1,
+  "hp": 0,
+  "msi": 0,
   "dell": 0,
   "lenovo": 0,
   "gigabyte": 0,
   "microsoft": 0,
-  "nvidia": 1
+  "nvidia": 2
  },
  "byLine": {},
  "items": [
   {
-   "title": "Beat DGX Spark for $3,999? 128GB AI box explained #shorts",
-   "source": "YouTube · MiniPCdeals",
-   "url": "https://www.youtube.com/watch?v=QDMbr8o5ma4",
-   "date": "2026-10-27 12:00",
-   "publishedAt": "2026-10-27T12:00:18+08:00",
-   "summary": "Sipeed's MaixStation packs 128GB of memory at 273 GB/s into a palm-sized local AI box, with an expected price around $3,999 on Kickstarter at the end of 2026. Sipeed claims it beats NVIDIA's DGX Spark",
+   "title": "DGX Spark vs Mac Studio M5 Ultra for Local AI: Which Should You Buy?",
+   "source": "YouTube · IamVikramjit",
+   "url": "https://www.youtube.com/watch?v=tWgC0OA2RbQ",
+   "date": "2026-10-28 10:30",
+   "publishedAt": "2026-10-28T10:30:13+08:00",
+   "summary": "DGX Spark vs Mac Studio M5 Ultra for local AI: which should you buy? The DGX Spark 128GB is $6,950 and the Mac Studio M5 Ultra starts at $5,499. One writes faster, the other reads your prompt faster, ",
    "models": [
     "DGX Spark"
    ],
@@ -43,88 +43,56 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 88,
-   "image": "https://i.ytimg.com/vi/QDMbr8o5ma4/mqdefault.jpg",
-   "views": 783,
-   "comments": 6,
-   "dupes": 35,
+   "heat": 100,
+   "image": "https://i.ytimg.com/vi/tWgC0OA2RbQ/mqdefault.jpg",
+   "views": 47691,
+   "comments": 137,
+   "dupes": 28,
    "also": [
-    "YouTube · Nerd Zero",
-    "YouTube · Kemptly Sheets",
-    "YouTube · Compute Node",
-    "YouTube · No Short Answers",
-    "YouTube · Umělá inteligence pro každého",
-    "YouTube · ずんだもんのテックニュース3分"
+    "YouTube · RandayumFacts",
+    "YouTube · Mario's Data Stream",
+    "YouTube · AI Eco",
+    "YouTube · Alex Finn",
+    "YouTube · AI Frontier Daily",
+    "YouTube · Petronella Technology Group, Inc."
    ],
    "lines": [],
-   "score": 8,
+   "score": 534,
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "Beat DGX Spark for $3,999? 128GB AI box explained #shorts",
-     "summary": "Sipeed's MaixStation packs 128GB of memory at 273 GB/s into a palm-sized local AI box, with an expected price around $3,999 on Kickstarter at the end of 2026. Sipeed claims it beats NVIDIA's DGX Spark"
+     "title": "DGX Spark vs Mac Studio M5 Ultra for Local AI: Which Should You Buy?",
+     "summary": "DGX Spark vs Mac Studio M5 Ultra for local AI: which should you buy? The DGX Spark 128GB is $6,950 and the Mac Studio M5 Ultra starts at $5,499. One writes faster, the other reads your prompt faster, "
     }
    }
   },
   {
-   "title": "HP Japan Announces \"HP ZGX Fury G1n AI Station\" Featuring NVIDIA GB300: A High-Performance Workstation for AI Development - ASCII.jp",
-   "source": "ASCII.jp",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE84Ty14NmFlNDlQdFViWlVjUXRiT2lubnpOanJoQ0xfMkxoRjZTQUpId1h5VjV6ajJBRDZsUUM4S2RwUkVrbTV1LWc5WlN4QnY4UWdKZWx5TGs?oc=5",
-   "date": "2026-10-26 11:00",
-   "publishedAt": "2026-10-26T11:00:00+08:00",
+   "title": "DGX Spark vs Mac Studio: $4,999 vs $2,499 [2026] - shattered.io",
+   "source": "shattered.io",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE00bThaLUF4ZklXWjlLOGVrQjBwem8yc2ppTVV4dkRpdUFVdlIwclJKM1EtaGhSNnhTV2xLX1J1WEpfR2tjZmtiOE85a3duV3pTOG94Z05JU0hLclpCWDh4SnYwTU0zRTRGemEtYW5DY3ZBT3BjS1ltYmRwN0pOUQ?oc=5",
+   "date": "2026-10-27 12:40",
+   "publishedAt": "2026-10-27T12:40:33+08:00",
    "summary": "",
    "models": [
-    "GB300"
+    "DGX Spark"
    ],
    "tag": "產品發表",
    "camps": [
-    "hp"
+    "nvidia"
    ],
    "press": false,
-   "heat": 11,
+   "heat": 19,
    "image": "",
    "views": 0,
    "comments": 0,
-   "dupes": 0,
+   "dupes": 1,
    "also": [],
    "lines": [],
    "score": null,
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "HP Japan Announces \"HP ZGX Fury G1n AI Station\" Featuring NVIDIA GB300: A High-Performance Workstation for AI Development - ASCII.jp",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "MSI XpertStation WS300 Review NVIDIA DGX Station GB300",
-   "source": "ServeTheHome",
-   "url": "https://www.servethehome.com/msi-xpertstation-ws300-review-nvidia-dgx-station-gb300/",
-   "date": "2026-10-24 01:00",
-   "publishedAt": "2026-10-24T01:00:33+08:00",
-   "summary": "",
-   "models": [
-    "DGX Station",
-    "GB300"
-   ],
-   "tag": "開箱評測",
-   "camps": [
-    "msi"
-   ],
-   "press": false,
-   "heat": 2,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "MSI XpertStation WS300 Review NVIDIA DGX Station GB300",
+     "title": "DGX Spark vs Mac Studio: $4,999 vs $2,499 [2026] - shattered.io",
      "summary": ""
     }
    }
