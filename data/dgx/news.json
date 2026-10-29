@@ -1,9 +1,9 @@
 {
  "channel": "dgx",
  "version": "v26",
- "fetchedAt": "2026-10-28T12:12:22.531895+08:00",
- "edition": "2026-10-28",
- "count": 2,
+ "fetchedAt": "2026-10-29T12:17:31.042427+08:00",
+ "edition": "2026-10-29",
+ "count": 3,
  "languages": [
   "zh-TW",
   "zh-CN",
@@ -16,7 +16,7 @@
   "it"
  ],
  "byGroup": {
-  "asus": 0,
+  "asus": 2,
   "acer": 0,
   "hp": 0,
   "msi": 0,
@@ -24,45 +24,76 @@
   "lenovo": 0,
   "gigabyte": 0,
   "microsoft": 0,
-  "nvidia": 2
+  "nvidia": 1
  },
  "byLine": {},
  "items": [
   {
-   "title": "DGX Spark vs Mac Studio M5 Ultra for Local AI: Which Should You Buy?",
-   "source": "YouTube · IamVikramjit",
-   "url": "https://www.youtube.com/watch?v=tWgC0OA2RbQ",
-   "date": "2026-10-28 10:30",
-   "publishedAt": "2026-10-28T10:30:13+08:00",
-   "summary": "DGX Spark vs Mac Studio M5 Ultra for local AI: which should you buy? The DGX Spark 128GB is $6,950 and the Mac Studio M5 Ultra starts at $5,499. One writes faster, the other reads your prompt faster, ",
+   "title": "ASUS Ascent GX10 64 GB: An Affordable Way to Get Started in On-Premises AI Development—Now Available for Pre-Order - Basic Tutorials",
+   "source": "Basic Tutorials",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPODZkM24ySzNFby1fbHptMGt3UUt2RHVKUlUtdTc5Z3dXMUlqYTgtNHRJbU5laXFWWG4yc0hYX2FJOEc2T1RCaGhTeUJnbDcyMlNoc1hlUDdxWkFqU2hEekFOY1J4NHNBWERfT0VIZWtneTlZTXl2ZWQ0aVZ2T184SE51MVRNWjdvcjdEenY2QUdGVUpfeGxLaDlDMGU1dDJEOW5mTm10dUJWNTdnNHlnejhjVnFZQ2hmWG9fLTJsUkE5Qk5PR1hzVWVHTFlBUjJFU2N4YmV6VmFOdEtkajlCbA?oc=5",
+   "date": "2026-10-29 11:49",
+   "publishedAt": "2026-10-29T11:49:02+08:00",
+   "summary": "",
    "models": [
-    "DGX Spark"
+    "Ascent GX10"
    ],
-   "tag": "影片",
+   "tag": "價格上市",
    "camps": [
-    "nvidia"
+    "asus"
    ],
    "press": false,
-   "heat": 100,
-   "image": "https://i.ytimg.com/vi/tWgC0OA2RbQ/mqdefault.jpg",
-   "views": 47691,
-   "comments": 137,
-   "dupes": 28,
-   "also": [
-    "YouTube · RandayumFacts",
-    "YouTube · Mario's Data Stream",
-    "YouTube · AI Eco",
-    "YouTube · Alex Finn",
-    "YouTube · AI Frontier Daily",
-    "YouTube · Petronella Technology Group, Inc."
-   ],
+   "heat": 31,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 2,
+   "also": [],
    "lines": [],
-   "score": 534,
+   "score": null,
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "DGX Spark vs Mac Studio M5 Ultra for Local AI: Which Should You Buy?",
-     "summary": "DGX Spark vs Mac Studio M5 Ultra for local AI: which should you buy? The DGX Spark 128GB is $6,950 and the Mac Studio M5 Ultra starts at $5,499. One writes faster, the other reads your prompt faster, "
+     "title": "ASUS Ascent GX10 64 GB: An Affordable Way to Get Started in On-Premises AI Development—Now Available for Pre-Order - Basic Tutorials",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "ComfyUI × Telegram 文字生圖：GX10 本機 Z-Image-Turbo，手機傳一句話就出圖",
+   "source": "YouTube · winson-DIY",
+   "url": "https://www.youtube.com/watch?v=USvokuFVFSA",
+   "date": "2026-10-29 11:10",
+   "publishedAt": "2026-10-29T11:10:33+08:00",
+   "summary": "在 ASUS Ascent GX10 本機跑 ComfyUI（Z-Image-Turbo），再寫一支 Telegram 機器人：手機傳一句話，約 8 秒收到圖，全程不用雲端服務。除了安裝步驟，也補上實測速度與實際踩過的坑。 📄 完整文章（軟硬體的天空，含完整程式碼與排查清單） https://www-winson.blogspot.com/2026/07/comfyui-telegram.html",
+   "models": [
+    "Ascent GX10"
+   ],
+   "tag": "影片",
+   "camps": [
+    "asus"
+   ],
+   "press": false,
+   "heat": 100,
+   "image": "https://i.ytimg.com/vi/USvokuFVFSA/mqdefault.jpg",
+   "views": 85377,
+   "comments": 89,
+   "dupes": 34,
+   "also": [
+    "YouTube · Cognix",
+    "YouTube · AbdyRod TEC",
+    "YouTube · RichNass Forex",
+    "YouTube · VitoMind",
+    "YouTube · Gepetto | Local AI Engineering",
+    "YouTube · CIQ"
+   ],
+   "lines": [],
+   "score": 919,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "ComfyUI × Telegram 文字生圖：GX10 本機 Z-Image-Turbo，手機傳一句話就出圖",
+     "summary": "在 ASUS Ascent GX10 本機跑 ComfyUI（Z-Image-Turbo），再寫一支 Telegram 機器人：手機傳一句話，約 8 秒收到圖，全程不用雲端服務。除了安裝步驟，也補上實測速度與實際踩過的坑。 📄 完整文章（軟硬體的天空，含完整程式碼與排查清單） https://www-winson.blogspot.com/2026/07/comfyui-telegram.html"
     }
    }
   },
@@ -81,7 +112,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 19,
+   "heat": 16,
    "image": "",
    "views": 0,
    "comments": 0,
