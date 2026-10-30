@@ -1,9 +1,9 @@
 {
  "channel": "dgx",
  "version": "v26",
- "fetchedAt": "2026-10-29T12:17:31.042427+08:00",
- "edition": "2026-10-29",
- "count": 3,
+ "fetchedAt": "2026-10-30T12:22:41.167173+08:00",
+ "edition": "2026-10-30",
+ "count": 4,
  "languages": [
   "zh-TW",
   "zh-CN",
@@ -20,7 +20,7 @@
   "acer": 0,
   "hp": 0,
   "msi": 0,
-  "dell": 0,
+  "dell": 1,
   "lenovo": 0,
   "gigabyte": 0,
   "microsoft": 0,
@@ -28,6 +28,75 @@
  },
  "byLine": {},
  "items": [
+  {
+   "title": "Kaggle GrandmasterとNVIDIA DGX Sparkを開けてみた！#アクロクエスト #IT企業 #生成AI #社内文化 #エンジニア #youtubeshorts #shorts",
+   "source": "YouTube · Acroquest",
+   "url": "https://www.youtube.com/watch?v=kmAUgDc6-ds",
+   "date": "2026-10-30 11:00",
+   "publishedAt": "2026-10-30T11:00:18+08:00",
+   "summary": "NVIDIA Nemotron 3.5 Transcribe は、2026年10月28日に NVIDIA が公開した、音声を文字にするオープン重みのモデルです（40言語、総34B・動くのは約4.3B の MoE）。モデルカードと公式の発表、第三者のベンチマークから、できること・しくみ・日本語の実力・手元のマシン（DGX Spark／Mac Studio／RTX）で動くかを整理し、公式デモに日本語の",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "影片",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 100,
+   "image": "https://i.ytimg.com/vi/kmAUgDc6-ds/mqdefault.jpg",
+   "views": 4518,
+   "comments": 20,
+   "dupes": 20,
+   "also": [
+    "YouTube · DenDen | AI雑学",
+    "YouTube · Cognix",
+    "YouTube · 雷影",
+    "YouTube · tech marlos",
+    "YouTube · OfflineStack AI",
+    "YouTube · RIG VeDA Tamil"
+   ],
+   "lines": [],
+   "score": 210,
+   "lang": "ja",
+   "i18n": {
+    "ja": {
+     "title": "Kaggle GrandmasterとNVIDIA DGX Sparkを開けてみた！#アクロクエスト #IT企業 #生成AI #社内文化 #エンジニア #youtubeshorts #shorts",
+     "summary": "NVIDIA Nemotron 3.5 Transcribe は、2026年10月28日に NVIDIA が公開した、音声を文字にするオープン重みのモデルです（40言語、総34B・動くのは約4.3B の MoE）。モデルカードと公式の発表、第三者のベンチマークから、できること・しくみ・日本語の実力・手元のマシン（DGX Spark／Mac Studio／RTX）で動くかを整理し、公式デモに日本語の"
+    }
+   }
+  },
+  {
+   "title": "8 reasons the NVIDIA-powered Dell Pro Precision with GB10 could become every AI developer’s favorite tool - IT Pro",
+   "source": "IT Pro",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOLThxajA5NUlKUTd3XzZuUU5sd1g1aU5jUmtuOHhXSHQ5ZTVHWnlyWFBSUGhqbkVMVlZsVmxFYXk0cXViQTNpNWp5a3ZPNWIzVjJEZmo2LS1GVnl0MG95RUU4Z3pPWlR4aXpjeFpFb0JSWjdjbGZCelk3dThGRUF1N3E2SFZxYWF0T1EtdWNQRERiRFdJTE5WQ3NsQWVIcXRrZWJJUXI4cE5FT0EyRUFpQTNnM3c1ZkdKWDFtbTlCUEllcUJldUdpbHB6WXZJZFlF?oc=5",
+   "date": "2026-10-30 07:30",
+   "publishedAt": "2026-10-30T07:30:53+08:00",
+   "summary": "",
+   "models": [
+    "GB10"
+   ],
+   "tag": "應用案例",
+   "camps": [
+    "dell"
+   ],
+   "press": false,
+   "heat": 22,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "8 reasons the NVIDIA-powered Dell Pro Precision with GB10 could become every AI developer’s favorite tool - IT Pro",
+     "summary": ""
+    }
+   }
+  },
   {
    "title": "ASUS Ascent GX10 64 GB: An Affordable Way to Get Started in On-Premises AI Development—Now Available for Pre-Order - Basic Tutorials",
    "source": "Basic Tutorials",
@@ -43,7 +112,7 @@
     "asus"
    ],
    "press": false,
-   "heat": 31,
+   "heat": 27,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -60,56 +129,18 @@
    }
   },
   {
-   "title": "ComfyUI × Telegram 文字生圖：GX10 本機 Z-Image-Turbo，手機傳一句話就出圖",
-   "source": "YouTube · winson-DIY",
-   "url": "https://www.youtube.com/watch?v=USvokuFVFSA",
-   "date": "2026-10-29 11:10",
-   "publishedAt": "2026-10-29T11:10:33+08:00",
-   "summary": "在 ASUS Ascent GX10 本機跑 ComfyUI（Z-Image-Turbo），再寫一支 Telegram 機器人：手機傳一句話，約 8 秒收到圖，全程不用雲端服務。除了安裝步驟，也補上實測速度與實際踩過的坑。 📄 完整文章（軟硬體的天空，含完整程式碼與排查清單） https://www-winson.blogspot.com/2026/07/comfyui-telegram.html",
+   "title": "[ENG] ASUS Announces New 64GB Configuration of ASUS Ascent GX10 - Mynewsdesk",
+   "source": "Mynewsdesk",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdHFFT2dKREpSR2RSOXFXT3FaTmladW80ZUYtOS1aNWxEc3V6SGZQci0tcU5QS29kdnN6S1I0R0t5ZkFpLXR0MS02a01DNU1MSmJ5RzBueU5VSE1rcGNFSW9IVnd5RzFBRW56SmNfZ05WODh4Unc5V0xhQXkwRUtpa3ItTHZiREJseG50WjBfQldoSTRGY1ByZ2hHTG5qZlRaTUF3NlVjVnkxc0p0bWczTkZkTjBMTjdWQ3VfX0xHVjM?oc=5",
+   "date": "2026-10-28 15:30",
+   "publishedAt": "2026-10-28T15:30:00+08:00",
+   "summary": "",
    "models": [
     "Ascent GX10"
    ],
-   "tag": "影片",
-   "camps": [
-    "asus"
-   ],
-   "press": false,
-   "heat": 100,
-   "image": "https://i.ytimg.com/vi/USvokuFVFSA/mqdefault.jpg",
-   "views": 85377,
-   "comments": 89,
-   "dupes": 34,
-   "also": [
-    "YouTube · Cognix",
-    "YouTube · AbdyRod TEC",
-    "YouTube · RichNass Forex",
-    "YouTube · VitoMind",
-    "YouTube · Gepetto | Local AI Engineering",
-    "YouTube · CIQ"
-   ],
-   "lines": [],
-   "score": 919,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "ComfyUI × Telegram 文字生圖：GX10 本機 Z-Image-Turbo，手機傳一句話就出圖",
-     "summary": "在 ASUS Ascent GX10 本機跑 ComfyUI（Z-Image-Turbo），再寫一支 Telegram 機器人：手機傳一句話，約 8 秒收到圖，全程不用雲端服務。除了安裝步驟，也補上實測速度與實際踩過的坑。 📄 完整文章（軟硬體的天空，含完整程式碼與排查清單） https://www-winson.blogspot.com/2026/07/comfyui-telegram.html"
-    }
-   }
-  },
-  {
-   "title": "DGX Spark vs Mac Studio: $4,999 vs $2,499 [2026] - shattered.io",
-   "source": "shattered.io",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE00bThaLUF4ZklXWjlLOGVrQjBwem8yc2ppTVV4dkRpdUFVdlIwclJKM1EtaGhSNnhTV2xLX1J1WEpfR2tjZmtiOE85a3duV3pTOG94Z05JU0hLclpCWDh4SnYwTU0zRTRGemEtYW5DY3ZBT3BjS1ltYmRwN0pOUQ?oc=5",
-   "date": "2026-10-27 12:40",
-   "publishedAt": "2026-10-27T12:40:33+08:00",
-   "summary": "",
-   "models": [
-    "DGX Spark"
-   ],
    "tag": "產品發表",
    "camps": [
-    "nvidia"
+    "asus"
    ],
    "press": false,
    "heat": 16,
@@ -123,7 +154,7 @@
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "DGX Spark vs Mac Studio: $4,999 vs $2,499 [2026] - shattered.io",
+     "title": "[ENG] ASUS Announces New 64GB Configuration of ASUS Ascent GX10 - Mynewsdesk",
      "summary": ""
     }
    }
