@@ -1,8 +1,8 @@
 {
  "channel": "dgx",
  "version": "v26",
- "fetchedAt": "2026-10-30T12:22:41.167173+08:00",
- "edition": "2026-10-30",
+ "fetchedAt": "2026-10-31T12:27:52.522179+08:00",
+ "edition": "2026-10-31",
  "count": 4,
  "languages": [
   "zh-TW",
@@ -16,10 +16,10 @@
   "it"
  ],
  "byGroup": {
-  "asus": 2,
+  "asus": 0,
   "acer": 0,
-  "hp": 0,
-  "msi": 0,
+  "hp": 1,
+  "msi": 1,
   "dell": 1,
   "lenovo": 0,
   "gigabyte": 0,
@@ -29,40 +29,103 @@
  "byLine": {},
  "items": [
   {
-   "title": "Kaggle GrandmasterとNVIDIA DGX Sparkを開けてみた！#アクロクエスト #IT企業 #生成AI #社内文化 #エンジニア #youtubeshorts #shorts",
-   "source": "YouTube · Acroquest",
-   "url": "https://www.youtube.com/watch?v=kmAUgDc6-ds",
-   "date": "2026-10-30 11:00",
-   "publishedAt": "2026-10-30T11:00:18+08:00",
-   "summary": "NVIDIA Nemotron 3.5 Transcribe は、2026年10月28日に NVIDIA が公開した、音声を文字にするオープン重みのモデルです（40言語、総34B・動くのは約4.3B の MoE）。モデルカードと公式の発表、第三者のベンチマークから、できること・しくみ・日本語の実力・手元のマシン（DGX Spark／Mac Studio／RTX）で動くかを整理し、公式デモに日本語の",
+   "title": "NVIDIA DGX Spark vs MSI EdgeXpert: Same GB10 Chip, SGD 450 Apart. Which One to Buy?",
+   "source": "YouTube · SHYUXINPC | AI Hardware Singapore",
+   "url": "https://www.youtube.com/watch?v=zd44vIx-IeQ",
+   "date": "2026-10-31 12:25",
+   "publishedAt": "2026-10-31T12:25:06+08:00",
+   "summary": "NVIDIA DGX Spark vs MSI EdgeXpert: both use the NVIDIA GB10 Grace Blackwell Superchip with 128GB of unified memory (273 GB/s), 4TB storage, ConnectX-7 and DGX OS. So what actually differs? Cooling, so",
+   "models": [
+    "DGX Spark",
+    "GB10",
+    "EdgeXpert",
+    "Grace Blackwell"
+   ],
+   "tag": "影片",
+   "camps": [
+    "msi"
+   ],
+   "press": false,
+   "heat": 100,
+   "image": "https://i.ytimg.com/vi/zd44vIx-IeQ/mqdefault.jpg",
+   "views": 4599,
+   "comments": 15,
+   "dupes": 28,
+   "also": [
+    "YouTube · AI Frontier Daily",
+    "YouTube · BorntoDev",
+    "YouTube · Tech2WiLD",
+    "YouTube · Suntiwong Sahairak",
+    "YouTube · Smart Solution Computer",
+    "YouTube · The Curious Engineer Lab"
+   ],
+   "lines": [],
+   "score": 107,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "NVIDIA DGX Spark vs MSI EdgeXpert: Same GB10 Chip, SGD 450 Apart. Which One to Buy?",
+     "summary": "NVIDIA DGX Spark vs MSI EdgeXpert: both use the NVIDIA GB10 Grace Blackwell Superchip with 128GB of unified memory (273 GB/s), 4TB storage, ConnectX-7 and DGX OS. So what actually differs? Cooling, so"
+    }
+   }
+  },
+  {
+   "title": "HP ZGX Fury AI Station: Specs, Benchmarks, Pricing and Mac Studio Comparisons - Kingy AI",
+   "source": "Kingy AI",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1vV3g5akMyX2p0VGpDTl9VYzdPeWdRODdReEU0V1VTQWJyNXpabmlHeWFTZ1dhY1ViMVQzaERLdWhJSy1GUUQ0emdPZ21OMWhva1p6M2RXTElRcTdHMkhFaWhIMjNsd3ladURyOGd2eGVZb3FqZmIwUW15YzFiZw?oc=5",
+   "date": "2026-10-31 05:47",
+   "publishedAt": "2026-10-31T05:47:11+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "開箱評測",
+   "camps": [
+    "hp"
+   ],
+   "press": false,
+   "heat": 22,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "HP ZGX Fury AI Station: Specs, Benchmarks, Pricing and Mac Studio Comparisons - Kingy AI",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Nvidia's RTX Spark laptops use the same chip as the DGX Spark, but they get faster memory and features the DGX Spark doesn't - XDA",
+   "source": "XDA",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWi1QcUhhYzBUQlNpMFJycHg4TjJKTE1FZ2h0N3VMN3I5RjZyT28wRXdMdkxhVWQ2NlZINWR4ZVE0N0czcnhnR0owU3FkeElMTmFUalpSdHUyaFlIZ0JtMW84WGlFQWVFWUJfd2ZmRTlTbks0a1NHeFVLSTQtSW1YV3lNX0tnTEdKZGRVRVR4YmV0RDFCdGhsaHk0TzRpVnJK?oc=5",
+   "date": "2026-10-30 19:00",
+   "publishedAt": "2026-10-30T19:00:22+08:00",
+   "summary": "",
    "models": [
     "DGX Spark"
    ],
-   "tag": "影片",
+   "tag": "產品發表",
    "camps": [
     "nvidia"
    ],
    "press": false,
-   "heat": 100,
-   "image": "https://i.ytimg.com/vi/kmAUgDc6-ds/mqdefault.jpg",
-   "views": 4518,
-   "comments": 20,
-   "dupes": 20,
-   "also": [
-    "YouTube · DenDen | AI雑学",
-    "YouTube · Cognix",
-    "YouTube · 雷影",
-    "YouTube · tech marlos",
-    "YouTube · OfflineStack AI",
-    "YouTube · RIG VeDA Tamil"
-   ],
+   "heat": 20,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
    "lines": [],
-   "score": 210,
-   "lang": "ja",
+   "score": null,
+   "lang": "en",
    "i18n": {
-    "ja": {
-     "title": "Kaggle GrandmasterとNVIDIA DGX Sparkを開けてみた！#アクロクエスト #IT企業 #生成AI #社内文化 #エンジニア #youtubeshorts #shorts",
-     "summary": "NVIDIA Nemotron 3.5 Transcribe は、2026年10月28日に NVIDIA が公開した、音声を文字にするオープン重みのモデルです（40言語、総34B・動くのは約4.3B の MoE）。モデルカードと公式の発表、第三者のベンチマークから、できること・しくみ・日本語の実力・手元のマシン（DGX Spark／Mac Studio／RTX）で動くかを整理し、公式デモに日本語の"
+    "en": {
+     "title": "Nvidia's RTX Spark laptops use the same chip as the DGX Spark, but they get faster memory and features the DGX Spark doesn't - XDA",
+     "summary": ""
     }
    }
   },
@@ -81,7 +144,7 @@
     "dell"
    ],
    "press": false,
-   "heat": 22,
+   "heat": 18,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -93,68 +156,6 @@
    "i18n": {
     "en": {
      "title": "8 reasons the NVIDIA-powered Dell Pro Precision with GB10 could become every AI developer’s favorite tool - IT Pro",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "ASUS Ascent GX10 64 GB: An Affordable Way to Get Started in On-Premises AI Development—Now Available for Pre-Order - Basic Tutorials",
-   "source": "Basic Tutorials",
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPODZkM24ySzNFby1fbHptMGt3UUt2RHVKUlUtdTc5Z3dXMUlqYTgtNHRJbU5laXFWWG4yc0hYX2FJOEc2T1RCaGhTeUJnbDcyMlNoc1hlUDdxWkFqU2hEekFOY1J4NHNBWERfT0VIZWtneTlZTXl2ZWQ0aVZ2T184SE51MVRNWjdvcjdEenY2QUdGVUpfeGxLaDlDMGU1dDJEOW5mTm10dUJWNTdnNHlnejhjVnFZQ2hmWG9fLTJsUkE5Qk5PR1hzVWVHTFlBUjJFU2N4YmV6VmFOdEtkajlCbA?oc=5",
-   "date": "2026-10-29 11:49",
-   "publishedAt": "2026-10-29T11:49:02+08:00",
-   "summary": "",
-   "models": [
-    "Ascent GX10"
-   ],
-   "tag": "價格上市",
-   "camps": [
-    "asus"
-   ],
-   "press": false,
-   "heat": 27,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 2,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "ASUS Ascent GX10 64 GB: An Affordable Way to Get Started in On-Premises AI Development—Now Available for Pre-Order - Basic Tutorials",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "[ENG] ASUS Announces New 64GB Configuration of ASUS Ascent GX10 - Mynewsdesk",
-   "source": "Mynewsdesk",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdHFFT2dKREpSR2RSOXFXT3FaTmladW80ZUYtOS1aNWxEc3V6SGZQci0tcU5QS29kdnN6S1I0R0t5ZkFpLXR0MS02a01DNU1MSmJ5RzBueU5VSE1rcGNFSW9IVnd5RzFBRW56SmNfZ05WODh4Unc5V0xhQXkwRUtpa3ItTHZiREJseG50WjBfQldoSTRGY1ByZ2hHTG5qZlRaTUF3NlVjVnkxc0p0bWczTkZkTjBMTjdWQ3VfX0xHVjM?oc=5",
-   "date": "2026-10-28 15:30",
-   "publishedAt": "2026-10-28T15:30:00+08:00",
-   "summary": "",
-   "models": [
-    "Ascent GX10"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "asus"
-   ],
-   "press": false,
-   "heat": 16,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "[ENG] ASUS Announces New 64GB Configuration of ASUS Ascent GX10 - Mynewsdesk",
      "summary": ""
     }
    }
