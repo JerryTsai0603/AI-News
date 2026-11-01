@@ -1,9 +1,9 @@
 {
  "channel": "dgx",
  "version": "v26",
- "fetchedAt": "2026-10-31T12:27:52.522179+08:00",
- "edition": "2026-10-31",
- "count": 4,
+ "fetchedAt": "2026-11-01T12:32:58.208190+08:00",
+ "edition": "2026-11-01",
+ "count": 3,
  "languages": [
   "zh-TW",
   "zh-CN",
@@ -19,53 +19,50 @@
   "asus": 0,
   "acer": 0,
   "hp": 1,
-  "msi": 1,
-  "dell": 1,
+  "msi": 0,
+  "dell": 0,
   "lenovo": 0,
   "gigabyte": 0,
   "microsoft": 0,
-  "nvidia": 1
+  "nvidia": 2
  },
  "byLine": {},
  "items": [
   {
-   "title": "NVIDIA DGX Spark vs MSI EdgeXpert: Same GB10 Chip, SGD 450 Apart. Which One to Buy?",
-   "source": "YouTube · SHYUXINPC | AI Hardware Singapore",
-   "url": "https://www.youtube.com/watch?v=zd44vIx-IeQ",
-   "date": "2026-10-31 12:25",
-   "publishedAt": "2026-10-31T12:25:06+08:00",
-   "summary": "NVIDIA DGX Spark vs MSI EdgeXpert: both use the NVIDIA GB10 Grace Blackwell Superchip with 128GB of unified memory (273 GB/s), 4TB storage, ConnectX-7 and DGX OS. So what actually differs? Cooling, so",
+   "title": "‘NVIDIA DGX Spark’ คอม AI ตัวจิ๋ว ตัวจบทุกงาน AI | Dev รีวิววว ! SS3",
+   "source": "YouTube · BorntoDev",
+   "url": "https://www.youtube.com/watch?v=N4AfnrPLtws",
+   "date": "2026-11-01 11:00",
+   "publishedAt": "2026-11-01T11:00:21+08:00",
+   "summary": "🤖 จะดีแค่ไหน ถ้ามีผู้ช่วย AI ที่ทำงานให้ได้ทั้งวันทั้งคืน โดยไม่ต้องกังวลค่า Token หรือค่าเช่า Cloud ที่ยิ่งใช้ก็ยิ่งเพิ่ม แถมข้อมูลสำคัญก็ไม่หลุดออกไปนอกองค์กรอีกด้วย ! Dev รีวิว EP. นี้ เราจะมารีวิว",
    "models": [
-    "DGX Spark",
-    "GB10",
-    "EdgeXpert",
-    "Grace Blackwell"
+    "DGX Spark"
    ],
    "tag": "影片",
    "camps": [
-    "msi"
+    "nvidia"
    ],
    "press": false,
    "heat": 100,
-   "image": "https://i.ytimg.com/vi/zd44vIx-IeQ/mqdefault.jpg",
-   "views": 4599,
-   "comments": 15,
-   "dupes": 28,
+   "image": "https://i.ytimg.com/vi/N4AfnrPLtws/mqdefault.jpg",
+   "views": 99586,
+   "comments": 180,
+   "dupes": 29,
    "also": [
-    "YouTube · AI Frontier Daily",
-    "YouTube · BorntoDev",
-    "YouTube · Tech2WiLD",
+    "YouTube · CloudYeti | Practical AI Engineering",
     "YouTube · Suntiwong Sahairak",
-    "YouTube · Smart Solution Computer",
-    "YouTube · The Curious Engineer Lab"
+    "YouTube · RuntimeWire",
+    "YouTube · NULL SIGNAL",
+    "YouTube · ai_study_ever",
+    "YouTube · Alexandre DS | Dev & IA"
    ],
    "lines": [],
-   "score": 107,
+   "score": 1457,
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "NVIDIA DGX Spark vs MSI EdgeXpert: Same GB10 Chip, SGD 450 Apart. Which One to Buy?",
-     "summary": "NVIDIA DGX Spark vs MSI EdgeXpert: both use the NVIDIA GB10 Grace Blackwell Superchip with 128GB of unified memory (273 GB/s), 4TB storage, ConnectX-7 and DGX OS. So what actually differs? Cooling, so"
+     "title": "‘NVIDIA DGX Spark’ คอม AI ตัวจิ๋ว ตัวจบทุกงาน AI | Dev รีวิววว ! SS3",
+     "summary": "🤖 จะดีแค่ไหน ถ้ามีผู้ช่วย AI ที่ทำงานให้ได้ทั้งวันทั้งคืน โดยไม่ต้องกังวลค่า Token หรือค่าเช่า Cloud ที่ยิ่งใช้ก็ยิ่งเพิ่ม แถมข้อมูลสำคัญก็ไม่หลุดออกไปนอกองค์กรอีกด้วย ! Dev รีวิว EP. นี้ เราจะมารีวิว"
     }
    }
   },
@@ -82,7 +79,7 @@
     "hp"
    ],
    "press": false,
-   "heat": 22,
+   "heat": 18,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -113,7 +110,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 20,
+   "heat": 17,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -125,37 +122,6 @@
    "i18n": {
     "en": {
      "title": "Nvidia's RTX Spark laptops use the same chip as the DGX Spark, but they get faster memory and features the DGX Spark doesn't - XDA",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "8 reasons the NVIDIA-powered Dell Pro Precision with GB10 could become every AI developer’s favorite tool - IT Pro",
-   "source": "IT Pro",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOLThxajA5NUlKUTd3XzZuUU5sd1g1aU5jUmtuOHhXSHQ5ZTVHWnlyWFBSUGhqbkVMVlZsVmxFYXk0cXViQTNpNWp5a3ZPNWIzVjJEZmo2LS1GVnl0MG95RUU4Z3pPWlR4aXpjeFpFb0JSWjdjbGZCelk3dThGRUF1N3E2SFZxYWF0T1EtdWNQRERiRFdJTE5WQ3NsQWVIcXRrZWJJUXI4cE5FT0EyRUFpQTNnM3c1ZkdKWDFtbTlCUEllcUJldUdpbHB6WXZJZFlF?oc=5",
-   "date": "2026-10-30 07:30",
-   "publishedAt": "2026-10-30T07:30:53+08:00",
-   "summary": "",
-   "models": [
-    "GB10"
-   ],
-   "tag": "應用案例",
-   "camps": [
-    "dell"
-   ],
-   "press": false,
-   "heat": 18,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "8 reasons the NVIDIA-powered Dell Pro Precision with GB10 could become every AI developer’s favorite tool - IT Pro",
      "summary": ""
     }
    }

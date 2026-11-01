@@ -1,0 +1,130 @@
+{
+ "channel": "dgx",
+ "version": "v26",
+ "fetchedAt": "2026-11-01T12:32:58.208190+08:00",
+ "edition": "2026-11-01",
+ "count": 3,
+ "languages": [
+  "zh-TW",
+  "zh-CN",
+  "en",
+  "ja",
+  "ko",
+  "de",
+  "es",
+  "fr",
+  "it"
+ ],
+ "byGroup": {
+  "asus": 0,
+  "acer": 0,
+  "hp": 1,
+  "msi": 0,
+  "dell": 0,
+  "lenovo": 0,
+  "gigabyte": 0,
+  "microsoft": 0,
+  "nvidia": 2
+ },
+ "byLine": {},
+ "items": [
+  {
+   "title": "‘NVIDIA DGX Spark’ คอม AI ตัวจิ๋ว ตัวจบทุกงาน AI | Dev รีวิววว ! SS3",
+   "source": "YouTube · BorntoDev",
+   "url": "https://www.youtube.com/watch?v=N4AfnrPLtws",
+   "date": "2026-11-01 11:00",
+   "publishedAt": "2026-11-01T11:00:21+08:00",
+   "summary": "🤖 จะดีแค่ไหน ถ้ามีผู้ช่วย AI ที่ทำงานให้ได้ทั้งวันทั้งคืน โดยไม่ต้องกังวลค่า Token หรือค่าเช่า Cloud ที่ยิ่งใช้ก็ยิ่งเพิ่ม แถมข้อมูลสำคัญก็ไม่หลุดออกไปนอกองค์กรอีกด้วย ! Dev รีวิว EP. นี้ เราจะมารีวิว",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "影片",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 100,
+   "image": "https://i.ytimg.com/vi/N4AfnrPLtws/mqdefault.jpg",
+   "views": 99586,
+   "comments": 180,
+   "dupes": 29,
+   "also": [
+    "YouTube · CloudYeti | Practical AI Engineering",
+    "YouTube · Suntiwong Sahairak",
+    "YouTube · RuntimeWire",
+    "YouTube · NULL SIGNAL",
+    "YouTube · ai_study_ever",
+    "YouTube · Alexandre DS | Dev & IA"
+   ],
+   "lines": [],
+   "score": 1457,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "‘NVIDIA DGX Spark’ คอม AI ตัวจิ๋ว ตัวจบทุกงาน AI | Dev รีวิววว ! SS3",
+     "summary": "🤖 จะดีแค่ไหน ถ้ามีผู้ช่วย AI ที่ทำงานให้ได้ทั้งวันทั้งคืน โดยไม่ต้องกังวลค่า Token หรือค่าเช่า Cloud ที่ยิ่งใช้ก็ยิ่งเพิ่ม แถมข้อมูลสำคัญก็ไม่หลุดออกไปนอกองค์กรอีกด้วย ! Dev รีวิว EP. นี้ เราจะมารีวิว"
+    }
+   }
+  },
+  {
+   "title": "HP ZGX Fury AI Station: Specs, Benchmarks, Pricing and Mac Studio Comparisons - Kingy AI",
+   "source": "Kingy AI",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1vV3g5akMyX2p0VGpDTl9VYzdPeWdRODdReEU0V1VTQWJyNXpabmlHeWFTZ1dhY1ViMVQzaERLdWhJSy1GUUQ0emdPZ21OMWhva1p6M2RXTElRcTdHMkhFaWhIMjNsd3ladURyOGd2eGVZb3FqZmIwUW15YzFiZw?oc=5",
+   "date": "2026-10-31 05:47",
+   "publishedAt": "2026-10-31T05:47:11+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "開箱評測",
+   "camps": [
+    "hp"
+   ],
+   "press": false,
+   "heat": 18,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "HP ZGX Fury AI Station: Specs, Benchmarks, Pricing and Mac Studio Comparisons - Kingy AI",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Nvidia's RTX Spark laptops use the same chip as the DGX Spark, but they get faster memory and features the DGX Spark doesn't - XDA",
+   "source": "XDA",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWi1QcUhhYzBUQlNpMFJycHg4TjJKTE1FZ2h0N3VMN3I5RjZyT28wRXdMdkxhVWQ2NlZINWR4ZVE0N0czcnhnR0owU3FkeElMTmFUalpSdHUyaFlIZ0JtMW84WGlFQWVFWUJfd2ZmRTlTbks0a1NHeFVLSTQtSW1YV3lNX0tnTEdKZGRVRVR4YmV0RDFCdGhsaHk0TzRpVnJK?oc=5",
+   "date": "2026-10-30 19:00",
+   "publishedAt": "2026-10-30T19:00:22+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 17,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Nvidia's RTX Spark laptops use the same chip as the DGX Spark, but they get faster memory and features the DGX Spark doesn't - XDA",
+     "summary": ""
+    }
+   }
+  }
+ ]
+}
