@@ -1,9 +1,9 @@
 {
  "channel": "dgx",
  "version": "v26",
- "fetchedAt": "2026-11-01T12:32:58.208190+08:00",
- "edition": "2026-11-01",
- "count": 3,
+ "fetchedAt": "2026-11-02T12:38:03.728348+08:00",
+ "edition": "2026-11-02",
+ "count": 4,
  "languages": [
   "zh-TW",
   "zh-CN",
@@ -16,25 +16,25 @@
   "it"
  ],
  "byGroup": {
-  "asus": 0,
+  "asus": 1,
   "acer": 0,
-  "hp": 1,
+  "hp": 0,
   "msi": 0,
   "dell": 0,
   "lenovo": 0,
   "gigabyte": 0,
   "microsoft": 0,
-  "nvidia": 2
+  "nvidia": 3
  },
  "byLine": {},
  "items": [
   {
-   "title": "‘NVIDIA DGX Spark’ คอม AI ตัวจิ๋ว ตัวจบทุกงาน AI | Dev รีวิววว ! SS3",
-   "source": "YouTube · BorntoDev",
-   "url": "https://www.youtube.com/watch?v=N4AfnrPLtws",
-   "date": "2026-11-01 11:00",
-   "publishedAt": "2026-11-01T11:00:21+08:00",
-   "summary": "🤖 จะดีแค่ไหน ถ้ามีผู้ช่วย AI ที่ทำงานให้ได้ทั้งวันทั้งคืน โดยไม่ต้องกังวลค่า Token หรือค่าเช่า Cloud ที่ยิ่งใช้ก็ยิ่งเพิ่ม แถมข้อมูลสำคัญก็ไม่หลุดออกไปนอกองค์กรอีกด้วย ! Dev รีวิว EP. นี้ เราจะมารีวิว",
+   "title": "How Many Machines Does Kimi K3.1 Pro Need",
+   "source": "YouTube · Auxten Wang",
+   "url": "https://www.youtube.com/watch?v=z4TN6xMu0Uc",
+   "date": "2026-11-02 12:00",
+   "publishedAt": "2026-11-02T12:00:18+08:00",
+   "summary": "How Many Machines Does Kimi K3.1 Pro Need Reported 2.8T parameters make memory only the first hurdle. Weight estimates, 3 DGX Sparks, bandwidth and 4 acceptance levels explain the hardware decision. C",
    "models": [
     "DGX Spark"
    ],
@@ -44,42 +44,75 @@
    ],
    "press": false,
    "heat": 100,
-   "image": "https://i.ytimg.com/vi/N4AfnrPLtws/mqdefault.jpg",
-   "views": 99586,
-   "comments": 180,
-   "dupes": 29,
+   "image": "https://i.ytimg.com/vi/z4TN6xMu0Uc/mqdefault.jpg",
+   "views": 144164,
+   "comments": 224,
+   "dupes": 28,
    "also": [
-    "YouTube · CloudYeti | Practical AI Engineering",
-    "YouTube · Suntiwong Sahairak",
-    "YouTube · RuntimeWire",
-    "YouTube · NULL SIGNAL",
-    "YouTube · ai_study_ever",
-    "YouTube · Alexandre DS | Dev & IA"
+    "YouTube · Сервер Центр",
+    "YouTube · Digital Hashiras",
+    "YouTube · CurioBolt",
+    "YouTube · The AI Race",
+    "YouTube · TechCureIndia -  #1 Custom Pc Setup Brand",
+    "YouTube · RuntimeWire"
    ],
    "lines": [],
-   "score": 1457,
+   "score": 1928,
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "‘NVIDIA DGX Spark’ คอม AI ตัวจิ๋ว ตัวจบทุกงาน AI | Dev รีวิววว ! SS3",
-     "summary": "🤖 จะดีแค่ไหน ถ้ามีผู้ช่วย AI ที่ทำงานให้ได้ทั้งวันทั้งคืน โดยไม่ต้องกังวลค่า Token หรือค่าเช่า Cloud ที่ยิ่งใช้ก็ยิ่งเพิ่ม แถมข้อมูลสำคัญก็ไม่หลุดออกไปนอกองค์กรอีกด้วย ! Dev รีวิว EP. นี้ เราจะมารีวิว"
+     "title": "How Many Machines Does Kimi K3.1 Pro Need",
+     "summary": "How Many Machines Does Kimi K3.1 Pro Need Reported 2.8T parameters make memory only the first hurdle. Weight estimates, 3 DGX Sparks, bandwidth and 4 acceptance levels explain the hardware decision. C"
     }
    }
   },
   {
-   "title": "HP ZGX Fury AI Station: Specs, Benchmarks, Pricing and Mac Studio Comparisons - Kingy AI",
-   "source": "Kingy AI",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1vV3g5akMyX2p0VGpDTl9VYzdPeWdRODdReEU0V1VTQWJyNXpabmlHeWFTZ1dhY1ViMVQzaERLdWhJSy1GUUQ0emdPZ21OMWhva1p6M2RXTElRcTdHMkhFaWhIMjNsd3ladURyOGd2eGVZb3FqZmIwUW15YzFiZw?oc=5",
-   "date": "2026-10-31 05:47",
-   "publishedAt": "2026-10-31T05:47:11+08:00",
+   "title": "Nvidia DGX Spark Clusters Now Reach 8 Units and 1 TB of Memory - eTeknix",
+   "source": "eTeknix",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRWJNaldCNXMxQ2pCalJ2VDVYajlSOEhDeU5mM2p4X1lnZHo4WXR1bWFreTZiQmtxOWhYbFpPTURucjZGdkhFVjNKOEl6eWlrbmxPVG9EdnZvZ1o0ejlNUFhMQ1NHWHFBNGxteVV0ZWItRHpZNVh1UWxuOWhVaHJZU1B3VkpvMlJnQzZEYW5GMVE?oc=5",
+   "date": "2026-11-01 18:19",
+   "publishedAt": "2026-11-01T18:19:22+08:00",
    "summary": "",
-   "models": [],
-   "tag": "開箱評測",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "應用案例",
    "camps": [
-    "hp"
+    "nvidia"
    ],
    "press": false,
-   "heat": 18,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Nvidia DGX Spark Clusters Now Reach 8 Units and 1 TB of Memory - eTeknix",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "ASUS Ascent GX10: a Desk AI Computer in 64GB and 128GB - ProductNation Malaysia",
+   "source": "ProductNation Malaysia",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ZMmVPRlluNVlKZWxjZFRVTkgxeXRlaE5lUkwwNGtFLTNLWFdfS29BRVZ3YkxET3Y1S2l1OFotdkdBLXRzVTg3WEwzamZCNmQ3NVVnLTNsTVdSQ1hWMEY2OFhYZVQ1dkZyY3JaVldET3Bsb1lvbnc?oc=5",
+   "date": "2026-11-01 15:09",
+   "publishedAt": "2026-11-01T15:09:13+08:00",
+   "summary": "",
+   "models": [
+    "Ascent GX10"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "asus"
+   ],
+   "press": false,
+   "heat": 20,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -90,17 +123,17 @@
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "HP ZGX Fury AI Station: Specs, Benchmarks, Pricing and Mac Studio Comparisons - Kingy AI",
+     "title": "ASUS Ascent GX10: a Desk AI Computer in 64GB and 128GB - ProductNation Malaysia",
      "summary": ""
     }
    }
   },
   {
-   "title": "Nvidia's RTX Spark laptops use the same chip as the DGX Spark, but they get faster memory and features the DGX Spark doesn't - XDA",
-   "source": "XDA",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWi1QcUhhYzBUQlNpMFJycHg4TjJKTE1FZ2h0N3VMN3I5RjZyT28wRXdMdkxhVWQ2NlZINWR4ZVE0N0czcnhnR0owU3FkeElMTmFUalpSdHUyaFlIZ0JtMW84WGlFQWVFWUJfd2ZmRTlTbks0a1NHeFVLSTQtSW1YV3lNX0tnTEdKZGRVRVR4YmV0RDFCdGhsaHk0TzRpVnJK?oc=5",
-   "date": "2026-10-30 19:00",
-   "publishedAt": "2026-10-30T19:00:22+08:00",
+   "title": "Sipeed MaixStation Undercuts DGX Spark by 42.5% [2026] - shattered.io",
+   "source": "shattered.io",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5LVF9vc2paOWRNTDk5YU1Kd2FoZjNFUEM4ZlVJYWRPTzFWdlJvSzBSM3k0bU5pTGF1UmVPZ21JVnp4M2ptNXQwOHMzcUd5X2lhbU5vX1hKcVhvZWs1eFM2aDl1TThtZ3dLREoxR1F3?oc=5",
+   "date": "2026-11-01 07:04",
+   "publishedAt": "2026-11-01T07:04:51+08:00",
    "summary": "",
    "models": [
     "DGX Spark"
@@ -110,18 +143,18 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 17,
+   "heat": 10,
    "image": "",
    "views": 0,
    "comments": 0,
-   "dupes": 1,
+   "dupes": 0,
    "also": [],
    "lines": [],
    "score": null,
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "Nvidia's RTX Spark laptops use the same chip as the DGX Spark, but they get faster memory and features the DGX Spark doesn't - XDA",
+     "title": "Sipeed MaixStation Undercuts DGX Spark by 42.5% [2026] - shattered.io",
      "summary": ""
     }
    }
