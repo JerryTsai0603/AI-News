@@ -1,8 +1,8 @@
 {
  "channel": "dgx",
  "version": "v26",
- "fetchedAt": "2026-11-02T12:38:03.728348+08:00",
- "edition": "2026-11-02",
+ "fetchedAt": "2026-11-03T12:42:55.965195+08:00",
+ "edition": "2026-11-03",
  "count": 4,
  "languages": [
   "zh-TW",
@@ -16,7 +16,7 @@
   "it"
  ],
  "byGroup": {
-  "asus": 1,
+  "asus": 0,
   "acer": 0,
   "hp": 0,
   "msi": 0,
@@ -24,17 +24,17 @@
   "lenovo": 0,
   "gigabyte": 0,
   "microsoft": 0,
-  "nvidia": 3
+  "nvidia": 4
  },
  "byLine": {},
  "items": [
   {
-   "title": "How Many Machines Does Kimi K3.1 Pro Need",
-   "source": "YouTube · Auxten Wang",
-   "url": "https://www.youtube.com/watch?v=z4TN6xMu0Uc",
-   "date": "2026-11-02 12:00",
-   "publishedAt": "2026-11-02T12:00:18+08:00",
-   "summary": "How Many Machines Does Kimi K3.1 Pro Need Reported 2.8T parameters make memory only the first hurdle. Weight estimates, 3 DGX Sparks, bandwidth and 4 acceptance levels explain the hardware decision. C",
+   "title": "Amazon cancels Nvidia DGX Spark orders: the sole discretion clause",
+   "source": "YouTube · Auto Reels 5000",
+   "url": "https://www.youtube.com/watch?v=g-OjHJnkaJA",
+   "date": "2026-11-03 11:42",
+   "publishedAt": "2026-11-03T11:42:33+08:00",
+   "summary": "Why Amazon can cancel your paid Nvidia GPU order and close your account AI educator Nick Saraev says Amazon cancelled all 4 of his Nvidia DGX Spark orders from October 31, then emailed that it closed ",
    "models": [
     "DGX Spark"
    ],
@@ -44,25 +44,87 @@
    ],
    "press": false,
    "heat": 100,
-   "image": "https://i.ytimg.com/vi/z4TN6xMu0Uc/mqdefault.jpg",
-   "views": 144164,
-   "comments": 224,
-   "dupes": 28,
+   "image": "https://i.ytimg.com/vi/g-OjHJnkaJA/mqdefault.jpg",
+   "views": 163616,
+   "comments": 239,
+   "dupes": 29,
    "also": [
-    "YouTube · Сервер Центр",
-    "YouTube · Digital Hashiras",
-    "YouTube · CurioBolt",
-    "YouTube · The AI Race",
-    "YouTube · TechCureIndia -  #1 Custom Pc Setup Brand",
-    "YouTube · RuntimeWire"
+    "YouTube · tech marlos",
+    "YouTube · JR Secure Design",
+    "YouTube · Suntiwong Sahairak",
+    "YouTube · Data-Espresso",
+    "YouTube · Taratic",
+    "YouTube · Mark Timberlake"
    ],
    "lines": [],
-   "score": 1928,
+   "score": 2078,
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "How Many Machines Does Kimi K3.1 Pro Need",
-     "summary": "How Many Machines Does Kimi K3.1 Pro Need Reported 2.8T parameters make memory only the first hurdle. Weight estimates, 3 DGX Sparks, bandwidth and 4 acceptance levels explain the hardware decision. C"
+     "title": "Amazon cancels Nvidia DGX Spark orders: the sole discretion clause",
+     "summary": "Why Amazon can cancel your paid Nvidia GPU order and close your account AI educator Nick Saraev says Amazon cancelled all 4 of his Nvidia DGX Spark orders from October 31, then emailed that it closed "
+    }
+   }
+  },
+  {
+   "title": "Amazon reportedly cancels four NVIDIA DGX Spark orders and closes buyer's account - TweakTown",
+   "source": "TweakTown",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZEd1bjhWU1ZfeUJRRjlFTmE2N3hsQVM5ZVBJVHZGRjYwaldUM1Ytd3N4R1JNemVYbE5ibGRwN0I3SEhfSUlNbEdvZlZ6MFlHLXhRTTgwSk1WNWtqbC1ZbnQ2aHhCclFYTmwwNlh6SWRBRl9fS2NlQlF2RDZsdFVubGJadE9YQjdhRHlUV2E5NHVueVFmVFl5YzFrdUZMcGhQRTVSX3FWOVBQOUx6T3haeTctZWdieVBpVjIyN05iX0ZnbjJWajY2WA?oc=5",
+   "date": "2026-11-03 06:05",
+   "publishedAt": "2026-11-03T06:05:11+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "價格上市",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Amazon reportedly cancels four NVIDIA DGX Spark orders and closes buyer's account - TweakTown",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "輝達AI筆電與個人超級電腦體驗兩極：DGX Spark獲肯定，RTX Spark功能待加強 - 商傳媒",
+   "source": "商傳媒",
+   "url": "https://news.google.com/rss/articles/CBMipwNBVV95cUxPaksxcWVtTGlVdkl1SlJZZXJwc3RBVXlHaGdGckhvaEk5YzBQMThlZ01ReDdPS0VYZ0pscE1ZbGhsa1pXNnFObUd4WjhaeWM3S0NHNGdTLW1pZzlsMnRDNnJUZ3lDbnIwX1p5NW9mUkFYOGJNWVRRZjR0SGhCWDhWZFBQZl9SQ1RaMU1seHF5dE14TXllMHVaWWMtbU5DZ1VBcGZ4X1cxeTlCaHA3QzNnVWt5T04yRmFLbnlLRWhWVUNQM2RWeWVyRW84RXZEek9PeGtsSm1vVXJFckE3bDRFNEFJdVNJT013aS1RNk1BR3RVVkVyVjg5b0RSallGSUR5RXN6c0FGZ3FVS3MxMGxWbDFjLThXb3FMdE5zakpEVmM2TGt2N2dwVkF6ZzlpakRsMUV3YTV2U0RzTG9zbWdLaGZSUTlZUVkwY3FKN1Z3R1UzTXpCcXRLbWZuT1h6Q3psaTlHTi10TFJ4TXlEb3poVTY5S2dLblc2NUhyMEE2ZDFLSHo1MEtaSGNoekd2Y0VSb2J4dmY5ZTJsNm5jT2J4UTlPTDNhbWM?oc=5",
+   "date": "2026-11-02 14:46",
+   "publishedAt": "2026-11-02T14:46:41+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "開箱評測",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 20,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "輝達AI筆電與個人超級電腦體驗兩極：DGX Spark獲肯定，RTX Spark功能待加強 - 商傳媒",
+     "summary": ""
     }
    }
   },
@@ -81,7 +143,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 12,
+   "heat": 8,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -93,68 +155,6 @@
    "i18n": {
     "en": {
      "title": "Nvidia DGX Spark Clusters Now Reach 8 Units and 1 TB of Memory - eTeknix",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "ASUS Ascent GX10: a Desk AI Computer in 64GB and 128GB - ProductNation Malaysia",
-   "source": "ProductNation Malaysia",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ZMmVPRlluNVlKZWxjZFRVTkgxeXRlaE5lUkwwNGtFLTNLWFdfS29BRVZ3YkxET3Y1S2l1OFotdkdBLXRzVTg3WEwzamZCNmQ3NVVnLTNsTVdSQ1hWMEY2OFhYZVQ1dkZyY3JaVldET3Bsb1lvbnc?oc=5",
-   "date": "2026-11-01 15:09",
-   "publishedAt": "2026-11-01T15:09:13+08:00",
-   "summary": "",
-   "models": [
-    "Ascent GX10"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "asus"
-   ],
-   "press": false,
-   "heat": 20,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "ASUS Ascent GX10: a Desk AI Computer in 64GB and 128GB - ProductNation Malaysia",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Sipeed MaixStation Undercuts DGX Spark by 42.5% [2026] - shattered.io",
-   "source": "shattered.io",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5LVF9vc2paOWRNTDk5YU1Kd2FoZjNFUEM4ZlVJYWRPTzFWdlJvSzBSM3k0bU5pTGF1UmVPZ21JVnp4M2ptNXQwOHMzcUd5X2lhbU5vX1hKcVhvZWs1eFM2aDl1TThtZ3dLREoxR1F3?oc=5",
-   "date": "2026-11-01 07:04",
-   "publishedAt": "2026-11-01T07:04:51+08:00",
-   "summary": "",
-   "models": [
-    "DGX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "nvidia"
-   ],
-   "press": false,
-   "heat": 10,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Sipeed MaixStation Undercuts DGX Spark by 42.5% [2026] - shattered.io",
      "summary": ""
     }
    }
