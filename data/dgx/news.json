@@ -1,9 +1,9 @@
 {
  "channel": "dgx",
  "version": "v26",
- "fetchedAt": "2026-11-03T12:42:55.965195+08:00",
- "edition": "2026-11-03",
- "count": 4,
+ "fetchedAt": "2026-11-04T12:48:04.383503+08:00",
+ "edition": "2026-11-04",
+ "count": 9,
  "languages": [
   "zh-TW",
   "zh-CN",
@@ -24,17 +24,17 @@
   "lenovo": 0,
   "gigabyte": 0,
   "microsoft": 0,
-  "nvidia": 4
+  "nvidia": 9
  },
  "byLine": {},
  "items": [
   {
-   "title": "Amazon cancels Nvidia DGX Spark orders: the sole discretion clause",
-   "source": "YouTube · Auto Reels 5000",
-   "url": "https://www.youtube.com/watch?v=g-OjHJnkaJA",
-   "date": "2026-11-03 11:42",
-   "publishedAt": "2026-11-03T11:42:33+08:00",
-   "summary": "Why Amazon can cancel your paid Nvidia GPU order and close your account AI educator Nick Saraev says Amazon cancelled all 4 of his Nvidia DGX Spark orders from October 31, then emailed that it closed ",
+   "title": "748B DeepSeek on One DGX Spark — InferSSD Tested",
+   "source": "YouTube · RUNTIME. ",
+   "url": "https://www.youtube.com/watch?v=8lR5cAw-MGc",
+   "date": "2026-11-04 12:04",
+   "publishedAt": "2026-11-04T12:04:22+08:00",
+   "summary": "What can a 748B DeepSeek model build on one DGX Spark? We use InferSSD to build an editable Blender marble factory, then show the actual output, repairs and total wait. The model's roughly half-teraby",
    "models": [
     "DGX Spark"
    ],
@@ -44,25 +44,213 @@
    ],
    "press": false,
    "heat": 100,
-   "image": "https://i.ytimg.com/vi/g-OjHJnkaJA/mqdefault.jpg",
-   "views": 163616,
-   "comments": 239,
-   "dupes": 29,
+   "image": "https://i.ytimg.com/vi/8lR5cAw-MGc/mqdefault.jpg",
+   "views": 172360,
+   "comments": 252,
+   "dupes": 28,
    "also": [
-    "YouTube · tech marlos",
-    "YouTube · JR Secure Design",
-    "YouTube · Suntiwong Sahairak",
-    "YouTube · Data-Espresso",
-    "YouTube · Taratic",
-    "YouTube · Mark Timberlake"
+    "YouTube · 小淵聊3C",
+    "YouTube · RuntimeWire",
+    "YouTube · 50PASSIVE",
+    "YouTube · SiliScope",
+    "YouTube · AI Fusion",
+    "YouTube · SniperBloxxDD"
    ],
    "lines": [],
-   "score": 2078,
+   "score": 7454,
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "Amazon cancels Nvidia DGX Spark orders: the sole discretion clause",
-     "summary": "Why Amazon can cancel your paid Nvidia GPU order and close your account AI educator Nick Saraev says Amazon cancelled all 4 of his Nvidia DGX Spark orders from October 31, then emailed that it closed "
+     "title": "748B DeepSeek on One DGX Spark — InferSSD Tested",
+     "summary": "What can a 748B DeepSeek model build on one DGX Spark? We use InferSSD to build an editable Blender marble factory, then show the actual output, repairs and total wait. The model's roughly half-teraby"
+    }
+   }
+  },
+  {
+   "title": "NVIDIA Shows 3 Ways to Speed Up MoE Inference on DGX Spark, Lifting Ling-3.0-flash Throughput 42.5% - MarkTechPost",
+   "source": "MarkTechPost",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdXdaMF90Q2cwTVRDUEdtYndTUGZ6cTlnekY3UDQ5T19KRy1Za0xiVDI4RGt0Vm83OHZHRDhCRFFsa0pqOU0yMFVXQmxTaDROaWpUcG95Y09DYkw2dUwyNXNmOGc5ekhFOWxfYjlQaGgxa1RGSl9UYlRUYnoyNXRIODdSQVRJcTZoeXhnbGp5TdIBjwFBVV95cUxPdXdaMF90Q2cwTVRDUEdtYndTUGZ6cTlnekY3UDQ5T19KRy1Za0xiVDI4RGt0Vm83OHZHRDhCRFFsa0pqOU0yMFVXQmxTaDROaWpUcG95Y09DYkw2dUwyNXNmOGc5ekhFOWxfYjlQaGgxa1RGSl9UYlRUYnoyNXRIODdSQVRJcTZoeXhnbGp5TQ?oc=5",
+   "date": "2026-11-04 04:28",
+   "publishedAt": "2026-11-04T04:28:22+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "應用案例",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "NVIDIA Shows 3 Ways to Speed Up MoE Inference on DGX Spark, Lifting Ling-3.0-flash Throughput 42.5% - MarkTechPost",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Amazon cancels multiple Nvidia DGX Spark AI PC orders - Cybernews",
+   "source": "Cybernews",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBrMDg5MW4xdTlVRmlMSGg3MXhuWFJaaEdEQlRPYTBFRmhSMmR4RXFJSkp1NUhrTFJKOVU5ZTVNR1BkR2VZM3J4ODVIZmZ1eHl2RDM5bXZBQnBRN0NVSFN1aVZzdS10UlJQWXZCVEZSY0toNGN2UERZWWNQMEc?oc=5",
+   "date": "2026-11-03 22:19",
+   "publishedAt": "2026-11-03T22:19:11+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "價格上市",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Amazon cancels multiple Nvidia DGX Spark AI PC orders - Cybernews",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Creator says Amazon closed his account after he tried to buy seven Nvidia DGX Sparks - Mezha.net",
+   "source": "Mezha.net",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONWloWGZwUm54RFJLZzctaE5zSmNhTXhKdnZiVzFubUQ0Tno5TGN2UWZUbm9PZ2x5Vm11bnA1VWlkQWpuMVJMc3FZSkJxZ0E4cHZ4amlLVEZtaExERU1UVG1JdlNUT3VtVnNXT3dYQVdpNWpCaVgtdHVkSmZ1YjRSWjF2UlU?oc=5",
+   "date": "2026-11-03 19:32",
+   "publishedAt": "2026-11-03T19:32:35+08:00",
+   "summary": "Nick Saraev says Amazon closed his account after canceling Nvidia DGX Spark orders; Tim Sweeney reports canceled orders after a GPU buy.",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "價格上市",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 20,
+   "image": "https://cdn.mos.cms.futurecdn.net/WHqyTeMfjdUFsrqyDKZ56Q-1920-80.jpg",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [
+    "Tom's Hardware"
+   ],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Creator says Amazon closed his account after he tried to buy seven Nvidia DGX Sparks - Mezha.net",
+     "summary": "Nick Saraev says Amazon closed his account after canceling Nvidia DGX Spark orders; Tim Sweeney reports canceled orders after a GPU buy."
+    }
+   }
+  },
+  {
+   "title": "亞馬遜關閉AI創作者帳號，先前下單7台DGX Spark全遭取消；Epic執行長Sweeney稱自己的訂單也屢遭取消 - BigGo 財經",
+   "source": "BigGo 財經",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAybUEtMm03SFVwUE1SUFNDMU11bzc5emttcS1HQzlWLVhsak9KUkpOV01sTUVDY1pkRXI0VzRsR0NlaHJyXzRXaW5YcTg3c2ZRVy1UTHF5OTVsTFRRMlRFOHFPS1FNSi1GMmw0dVAzaEJYNFYxdnc3VUVn?oc=5",
+   "date": "2026-11-03 19:25",
+   "publishedAt": "2026-11-03T19:25:00+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 20,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "亞馬遜關閉AI創作者帳號，先前下單7台DGX Spark全遭取消；Epic執行長Sweeney稱自己的訂單也屢遭取消 - BigGo 財經",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Amazon closes AI creator's account after he attempts to buy seven Nvidia DGX Spark mini-PCs — Epic CEO Tim Sweeney says his regular orders were canceled before arrival after he tried to buy two GPUs - Tom's Hardware",
+   "source": "Tom's Hardware",
+   "url": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxPTFJyTldmbzhyNjVYY1ZyRTlHNVM0Qlc2ZlRweklSZXdnVzJDR0ppb0d5YVo4a21uTWdDNldmVEtYRnNwNXE5OExFWjhVWFJ4VGk0VEFpLXNOYzZGdUlBSFppbFI2U19STGI1Q1VNVEFOOTk3Z1FSdjU0bXgxTTY2dlktRGtJNDdyMVYyNVlNVGhyZmJ0MmtCZFhXbDkxWGJhQ05zR3dkb1ZaR2Y2YlhGSHlHWGc1SkFad3B0c1ZablZDR1pqR3V4d3l3UmZrWFpjMWJmZ3dLV1hiODRMTUY0RzhFeW9VeW5PSVZqUkgzSVlWR2dnMVJUSVlDOE5GcEc4WXVWVVQ0NzBDSXUzYVhzSWRBd2VZV3BqX2tueFdraHlDMm4zS1lqV2QyaHRjMGl4Ry1YWTNpUGNJX0REa1pfZExGQ1NIdnZMS2JPUTJMQTRUeGRrc0tLUmh5SWVEcUk?oc=5",
+   "date": "2026-11-03 19:00",
+   "publishedAt": "2026-11-03T19:00:00+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "價格上市",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Amazon closes AI creator's account after he attempts to buy seven Nvidia DGX Spark mini-PCs — Epic CEO Tim Sweeney says his regular orders were canceled before arrival after he tried to buy two GPUs - Tom's Hardware",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "買家訂 4 台 NVIDIA DGX Spark 卻突然被 Amazon 取消訂單、Ban 帳戶 - 電腦領域HKEPC Hardware",
+   "source": "電腦領域HKEPC Hardware",
+   "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNdkFON3VjNGxPZmVwNlNmRHhybVhGUGZxMEhMdlZjTzJJQm9HRFMtMjZSalQtc2Nzeko3QXcyS1lZaUpoLWRDVS1iUGpJZUtNcEVicDhSWmdkdi1Fdjl3VnllXzh5NWV4OGJkZGg1aVgtZnhhc1RDWk0zaG1fSlgwajRwSjhTa0JYV25ETzRubDdhTXpZNms1OFJLZnZmX0REOG1YSkpITDB5X2xacGNjMk5HQmZwTUtwYnUyN0ZrMHZjR0hIb3lMazZGUWdJUHg5Wmo5dmFwN05YUGlRSVZDbzcyWGw1eEtKVDdDUkk4SlJhWUstUVdWZHJXd2cwOVVkWm9ZT1dCZTV1R1YzRkV4cWNZUHBKZw?oc=5",
+   "date": "2026-11-03 18:30",
+   "publishedAt": "2026-11-03T18:30:04+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "買家訂 4 台 NVIDIA DGX Spark 卻突然被 Amazon 取消訂單、Ban 帳戶 - 電腦領域HKEPC Hardware",
+     "summary": ""
     }
    }
   },
@@ -81,7 +269,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 14,
+   "heat": 10,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -112,7 +300,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 20,
+   "heat": 16,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -124,37 +312,6 @@
    "i18n": {
     "zh-TW": {
      "title": "輝達AI筆電與個人超級電腦體驗兩極：DGX Spark獲肯定，RTX Spark功能待加強 - 商傳媒",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Nvidia DGX Spark Clusters Now Reach 8 Units and 1 TB of Memory - eTeknix",
-   "source": "eTeknix",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRWJNaldCNXMxQ2pCalJ2VDVYajlSOEhDeU5mM2p4X1lnZHo4WXR1bWFreTZiQmtxOWhYbFpPTURucjZGdkhFVjNKOEl6eWlrbmxPVG9EdnZvZ1o0ejlNUFhMQ1NHWHFBNGxteVV0ZWItRHpZNVh1UWxuOWhVaHJZU1B3VkpvMlJnQzZEYW5GMVE?oc=5",
-   "date": "2026-11-01 18:19",
-   "publishedAt": "2026-11-01T18:19:22+08:00",
-   "summary": "",
-   "models": [
-    "DGX Spark"
-   ],
-   "tag": "應用案例",
-   "camps": [
-    "nvidia"
-   ],
-   "press": false,
-   "heat": 8,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Nvidia DGX Spark Clusters Now Reach 8 Units and 1 TB of Memory - eTeknix",
      "summary": ""
     }
    }
