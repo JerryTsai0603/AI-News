@@ -1,0 +1,320 @@
+{
+ "channel": "dgx",
+ "version": "v26",
+ "fetchedAt": "2026-11-05T12:53:03.579486+08:00",
+ "edition": "2026-11-05",
+ "count": 9,
+ "languages": [
+  "zh-TW",
+  "zh-CN",
+  "en",
+  "ja",
+  "ko",
+  "de",
+  "es",
+  "fr",
+  "it"
+ ],
+ "byGroup": {
+  "asus": 0,
+  "acer": 0,
+  "hp": 0,
+  "msi": 0,
+  "dell": 0,
+  "lenovo": 0,
+  "gigabyte": 0,
+  "microsoft": 0,
+  "nvidia": 9
+ },
+ "byLine": {},
+ "items": [
+  {
+   "title": "Konto gesperrt wegen KI-Hardware: Warum Händler bei Bestellungen genauer hinsehen",
+   "source": "YouTube · Klartext-KI",
+   "url": "https://www.youtube.com/watch?v=HXFA4Sj8bxE",
+   "date": "2026-11-05 08:28",
+   "publishedAt": "2026-11-05T08:28:38+08:00",
+   "summary": "Konto gesperrt wegen KI-Hardware: Warum Händler bei Bestellungen genauer hinsehen Kurzer Überblick: Nick Saraev wollte sieben Nvidia DGX Spark KI-Mini-PCs bei Amazon bestellen; Amazon sperrte sein Kon",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "影片",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 100,
+   "image": "https://i.ytimg.com/vi/HXFA4Sj8bxE/mqdefault.jpg",
+   "views": 19848,
+   "comments": 19,
+   "dupes": 24,
+   "also": [
+    "YouTube · StoriesCon",
+    "YouTube · Shoestring Studios",
+    "YouTube · Ines O'Donovan. Leadership & Longevity Futurist",
+    "YouTube · Dominique Silvestre - Noxcod",
+    "YouTube · JR Secure Design",
+    "YouTube · Mini Garage 3D"
+   ],
+   "lines": [],
+   "score": 469,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Konto gesperrt wegen KI-Hardware: Warum Händler bei Bestellungen genauer hinsehen",
+     "summary": "Konto gesperrt wegen KI-Hardware: Warum Händler bei Bestellungen genauer hinsehen Kurzer Überblick: Nick Saraev wollte sieben Nvidia DGX Spark KI-Mini-PCs bei Amazon bestellen; Amazon sperrte sein Kon"
+    }
+   }
+  },
+  {
+   "title": "我猜 5090 快 2 倍，結果……｜RTX 5090 vs DGX Spark 實測 - YouTube",
+   "source": "YouTube",
+   "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1aN3BXZUVpenBTLWJNQlNUNGdlaXNlVkFGRGRxc2lWeVQ1ZDdxd3A2QUV1TkhFSFMweUU3by1RNEEyZw?oc=5",
+   "date": "2026-11-04 23:00",
+   "publishedAt": "2026-11-04T23:00:31+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "開箱評測",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "我猜 5090 快 2 倍，結果……｜RTX 5090 vs DGX Spark 實測 - YouTube",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "NVIDIA Boosts Ling-3.0-flash Throughput 42.5% On DGX Spark - Dataconomy",
+   "source": "Dataconomy",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxON1Z1RWxZY2IybGJMODlsV3dHc3RabEpYRnoteU9nS2pWZFNLbmlTZHNacXhMX1FLWFdJeHgxRXJtVlF6d2VVMGxzSk1GWlNmQjR6SDVrZU4tUUJjTEVoV1pRUU1WTFJabW9yc2VfVS1INlRfVUE5ZDVkblBXenNlcFdsUzNnTlJvZHU0ZlphTHlWVGFE?oc=5",
+   "date": "2026-11-04 18:26",
+   "publishedAt": "2026-11-04T18:26:04+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "NVIDIA Boosts Ling-3.0-flash Throughput 42.5% On DGX Spark - Dataconomy",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "NVIDIA Shows 3 Ways to Speed Up MoE Inference on DGX Spark, Lifting Ling-3.0-flash Throughput 42.5% - MarkTechPost",
+   "source": "MarkTechPost",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdXdaMF90Q2cwTVRDUEdtYndTUGZ6cTlnekY3UDQ5T19KRy1Za0xiVDI4RGt0Vm83OHZHRDhCRFFsa0pqOU0yMFVXQmxTaDROaWpUcG95Y09DYkw2dUwyNXNmOGc5ekhFOWxfYjlQaGgxa1RGSl9UYlRUYnoyNXRIODdSQVRJcTZoeXhnbGp5TdIBjwFBVV95cUxPdXdaMF90Q2cwTVRDUEdtYndTUGZ6cTlnekY3UDQ5T19KRy1Za0xiVDI4RGt0Vm83OHZHRDhCRFFsa0pqOU0yMFVXQmxTaDROaWpUcG95Y09DYkw2dUwyNXNmOGc5ekhFOWxfYjlQaGgxa1RGSl9UYlRUYnoyNXRIODdSQVRJcTZoeXhnbGp5TQ?oc=5",
+   "date": "2026-11-04 04:28",
+   "publishedAt": "2026-11-04T04:28:22+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "應用案例",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 10,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "NVIDIA Shows 3 Ways to Speed Up MoE Inference on DGX Spark, Lifting Ling-3.0-flash Throughput 42.5% - MarkTechPost",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Amazon cancels multiple Nvidia DGX Spark AI PC orders - Cybernews",
+   "source": "Cybernews",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBrMDg5MW4xdTlVRmlMSGg3MXhuWFJaaEdEQlRPYTBFRmhSMmR4RXFJSkp1NUhrTFJKOVU5ZTVNR1BkR2VZM3J4ODVIZmZ1eHl2RDM5bXZBQnBRN0NVSFN1aVZzdS10UlJQWXZCVEZSY0toNGN2UERZWWNQMEc?oc=5",
+   "date": "2026-11-03 22:19",
+   "publishedAt": "2026-11-03T22:19:11+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "價格上市",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 9,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Amazon cancels multiple Nvidia DGX Spark AI PC orders - Cybernews",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Creator says Amazon closed his account after he tried to buy seven Nvidia DGX Sparks - Mezha.net",
+   "source": "Mezha.net",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONWloWGZwUm54RFJLZzctaE5zSmNhTXhKdnZiVzFubUQ0Tno5TGN2UWZUbm9PZ2x5Vm11bnA1VWlkQWpuMVJMc3FZSkJxZ0E4cHZ4amlLVEZtaExERU1UVG1JdlNUT3VtVnNXT3dYQVdpNWpCaVgtdHVkSmZ1YjRSWjF2UlU?oc=5",
+   "date": "2026-11-03 19:32",
+   "publishedAt": "2026-11-03T19:32:35+08:00",
+   "summary": "Nick Saraev says Amazon closed his account after canceling Nvidia DGX Spark orders; Tim Sweeney reports canceled orders after a GPU buy.",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "價格上市",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 17,
+   "image": "https://cdn.mos.cms.futurecdn.net/WHqyTeMfjdUFsrqyDKZ56Q-1920-80.jpg",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [
+    "Tom's Hardware"
+   ],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Creator says Amazon closed his account after he tried to buy seven Nvidia DGX Sparks - Mezha.net",
+     "summary": "Nick Saraev says Amazon closed his account after canceling Nvidia DGX Spark orders; Tim Sweeney reports canceled orders after a GPU buy."
+    }
+   }
+  },
+  {
+   "title": "亞馬遜關閉AI創作者帳號，先前下單7台DGX Spark全遭取消；Epic執行長Sweeney稱自己的訂單也屢遭取消 - BigGo 財經",
+   "source": "BigGo 財經",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAybUEtMm03SFVwUE1SUFNDMU11bzc5emttcS1HQzlWLVhsak9KUkpOV01sTUVDY1pkRXI0VzRsR0NlaHJyXzRXaW5YcTg3c2ZRVy1UTHF5OTVsTFRRMlRFOHFPS1FNSi1GMmw0dVAzaEJYNFYxdnc3VUVn?oc=5",
+   "date": "2026-11-03 19:25",
+   "publishedAt": "2026-11-03T19:25:00+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 17,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "亞馬遜關閉AI創作者帳號，先前下單7台DGX Spark全遭取消；Epic執行長Sweeney稱自己的訂單也屢遭取消 - BigGo 財經",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Amazon closes AI creator's account after he attempts to buy seven Nvidia DGX Spark mini-PCs — Epic CEO Tim Sweeney says his regular orders were canceled before arrival after he tried to buy two GPUs - Tom's Hardware",
+   "source": "Tom's Hardware",
+   "url": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxPTFJyTldmbzhyNjVYY1ZyRTlHNVM0Qlc2ZlRweklSZXdnVzJDR0ppb0d5YVo4a21uTWdDNldmVEtYRnNwNXE5OExFWjhVWFJ4VGk0VEFpLXNOYzZGdUlBSFppbFI2U19STGI1Q1VNVEFOOTk3Z1FSdjU0bXgxTTY2dlktRGtJNDdyMVYyNVlNVGhyZmJ0MmtCZFhXbDkxWGJhQ05zR3dkb1ZaR2Y2YlhGSHlHWGc1SkFad3B0c1ZablZDR1pqR3V4d3l3UmZrWFpjMWJmZ3dLV1hiODRMTUY0RzhFeW9VeW5PSVZqUkgzSVlWR2dnMVJUSVlDOE5GcEc4WXVWVVQ0NzBDSXUzYVhzSWRBd2VZV3BqX2tueFdraHlDMm4zS1lqV2QyaHRjMGl4Ry1YWTNpUGNJX0REa1pfZExGQ1NIdnZMS2JPUTJMQTRUeGRrc0tLUmh5SWVEcUk?oc=5",
+   "date": "2026-11-03 19:00",
+   "publishedAt": "2026-11-03T19:00:00+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "價格上市",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 8,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Amazon closes AI creator's account after he attempts to buy seven Nvidia DGX Spark mini-PCs — Epic CEO Tim Sweeney says his regular orders were canceled before arrival after he tried to buy two GPUs - Tom's Hardware",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "買家訂 4 台 NVIDIA DGX Spark 卻突然被 Amazon 取消訂單、Ban 帳戶 - 電腦領域HKEPC Hardware",
+   "source": "電腦領域HKEPC Hardware",
+   "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNdkFON3VjNGxPZmVwNlNmRHhybVhGUGZxMEhMdlZjTzJJQm9HRFMtMjZSalQtc2Nzeko3QXcyS1lZaUpoLWRDVS1iUGpJZUtNcEVicDhSWmdkdi1Fdjl3VnllXzh5NWV4OGJkZGg1aVgtZnhhc1RDWk0zaG1fSlgwajRwSjhTa0JYV25ETzRubDdhTXpZNms1OFJLZnZmX0REOG1YSkpITDB5X2xacGNjMk5HQmZwTUtwYnUyN0ZrMHZjR0hIb3lMazZGUWdJUHg5Wmo5dmFwN05YUGlRSVZDbzcyWGw1eEtKVDdDUkk4SlJhWUstUVdWZHJXd2cwOVVkWm9ZT1dCZTV1R1YzRkV4cWNZUHBKZw?oc=5",
+   "date": "2026-11-03 18:30",
+   "publishedAt": "2026-11-03T18:30:04+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 16,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "買家訂 4 台 NVIDIA DGX Spark 卻突然被 Amazon 取消訂單、Ban 帳戶 - 電腦領域HKEPC Hardware",
+     "summary": ""
+    }
+   }
+  }
+ ]
+}

@@ -1,8 +1,8 @@
 {
  "channel": "dgx",
  "version": "v26",
- "fetchedAt": "2026-11-04T12:48:04.383503+08:00",
- "edition": "2026-11-04",
+ "fetchedAt": "2026-11-05T12:53:03.579486+08:00",
+ "edition": "2026-11-05",
  "count": 9,
  "languages": [
   "zh-TW",
@@ -29,12 +29,12 @@
  "byLine": {},
  "items": [
   {
-   "title": "748B DeepSeek on One DGX Spark — InferSSD Tested",
-   "source": "YouTube · RUNTIME. ",
-   "url": "https://www.youtube.com/watch?v=8lR5cAw-MGc",
-   "date": "2026-11-04 12:04",
-   "publishedAt": "2026-11-04T12:04:22+08:00",
-   "summary": "What can a 748B DeepSeek model build on one DGX Spark? We use InferSSD to build an editable Blender marble factory, then show the actual output, repairs and total wait. The model's roughly half-teraby",
+   "title": "Konto gesperrt wegen KI-Hardware: Warum Händler bei Bestellungen genauer hinsehen",
+   "source": "YouTube · Klartext-KI",
+   "url": "https://www.youtube.com/watch?v=HXFA4Sj8bxE",
+   "date": "2026-11-05 08:28",
+   "publishedAt": "2026-11-05T08:28:38+08:00",
+   "summary": "Konto gesperrt wegen KI-Hardware: Warum Händler bei Bestellungen genauer hinsehen Kurzer Überblick: Nick Saraev wollte sieben Nvidia DGX Spark KI-Mini-PCs bei Amazon bestellen; Amazon sperrte sein Kon",
    "models": [
     "DGX Spark"
    ],
@@ -44,25 +44,87 @@
    ],
    "press": false,
    "heat": 100,
-   "image": "https://i.ytimg.com/vi/8lR5cAw-MGc/mqdefault.jpg",
-   "views": 172360,
-   "comments": 252,
-   "dupes": 28,
+   "image": "https://i.ytimg.com/vi/HXFA4Sj8bxE/mqdefault.jpg",
+   "views": 19848,
+   "comments": 19,
+   "dupes": 24,
    "also": [
-    "YouTube · 小淵聊3C",
-    "YouTube · RuntimeWire",
-    "YouTube · 50PASSIVE",
-    "YouTube · SiliScope",
-    "YouTube · AI Fusion",
-    "YouTube · SniperBloxxDD"
+    "YouTube · StoriesCon",
+    "YouTube · Shoestring Studios",
+    "YouTube · Ines O'Donovan. Leadership & Longevity Futurist",
+    "YouTube · Dominique Silvestre - Noxcod",
+    "YouTube · JR Secure Design",
+    "YouTube · Mini Garage 3D"
    ],
    "lines": [],
-   "score": 7454,
+   "score": 469,
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "748B DeepSeek on One DGX Spark — InferSSD Tested",
-     "summary": "What can a 748B DeepSeek model build on one DGX Spark? We use InferSSD to build an editable Blender marble factory, then show the actual output, repairs and total wait. The model's roughly half-teraby"
+     "title": "Konto gesperrt wegen KI-Hardware: Warum Händler bei Bestellungen genauer hinsehen",
+     "summary": "Konto gesperrt wegen KI-Hardware: Warum Händler bei Bestellungen genauer hinsehen Kurzer Überblick: Nick Saraev wollte sieben Nvidia DGX Spark KI-Mini-PCs bei Amazon bestellen; Amazon sperrte sein Kon"
+    }
+   }
+  },
+  {
+   "title": "我猜 5090 快 2 倍，結果……｜RTX 5090 vs DGX Spark 實測 - YouTube",
+   "source": "YouTube",
+   "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1aN3BXZUVpenBTLWJNQlNUNGdlaXNlVkFGRGRxc2lWeVQ1ZDdxd3A2QUV1TkhFSFMweUU3by1RNEEyZw?oc=5",
+   "date": "2026-11-04 23:00",
+   "publishedAt": "2026-11-04T23:00:31+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "開箱評測",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "我猜 5090 快 2 倍，結果……｜RTX 5090 vs DGX Spark 實測 - YouTube",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "NVIDIA Boosts Ling-3.0-flash Throughput 42.5% On DGX Spark - Dataconomy",
+   "source": "Dataconomy",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxON1Z1RWxZY2IybGJMODlsV3dHc3RabEpYRnoteU9nS2pWZFNLbmlTZHNacXhMX1FLWFdJeHgxRXJtVlF6d2VVMGxzSk1GWlNmQjR6SDVrZU4tUUJjTEVoV1pRUU1WTFJabW9yc2VfVS1INlRfVUE5ZDVkblBXenNlcFdsUzNnTlJvZHU0ZlphTHlWVGFE?oc=5",
+   "date": "2026-11-04 18:26",
+   "publishedAt": "2026-11-04T18:26:04+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "NVIDIA Boosts Ling-3.0-flash Throughput 42.5% On DGX Spark - Dataconomy",
+     "summary": ""
     }
    }
   },
@@ -81,7 +143,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 14,
+   "heat": 10,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -112,7 +174,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 13,
+   "heat": 9,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -143,7 +205,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 20,
+   "heat": 17,
    "image": "https://cdn.mos.cms.futurecdn.net/WHqyTeMfjdUFsrqyDKZ56Q-1920-80.jpg",
    "views": 0,
    "comments": 0,
@@ -176,7 +238,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 20,
+   "heat": 17,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -207,7 +269,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 12,
+   "heat": 8,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -238,68 +300,6 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 12,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "買家訂 4 台 NVIDIA DGX Spark 卻突然被 Amazon 取消訂單、Ban 帳戶 - 電腦領域HKEPC Hardware",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Amazon reportedly cancels four NVIDIA DGX Spark orders and closes buyer's account - TweakTown",
-   "source": "TweakTown",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZEd1bjhWU1ZfeUJRRjlFTmE2N3hsQVM5ZVBJVHZGRjYwaldUM1Ytd3N4R1JNemVYbE5ibGRwN0I3SEhfSUlNbEdvZlZ6MFlHLXhRTTgwSk1WNWtqbC1ZbnQ2aHhCclFYTmwwNlh6SWRBRl9fS2NlQlF2RDZsdFVubGJadE9YQjdhRHlUV2E5NHVueVFmVFl5YzFrdUZMcGhQRTVSX3FWOVBQOUx6T3haeTctZWdieVBpVjIyN05iX0ZnbjJWajY2WA?oc=5",
-   "date": "2026-11-03 06:05",
-   "publishedAt": "2026-11-03T06:05:11+08:00",
-   "summary": "",
-   "models": [
-    "DGX Spark"
-   ],
-   "tag": "價格上市",
-   "camps": [
-    "nvidia"
-   ],
-   "press": false,
-   "heat": 10,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Amazon reportedly cancels four NVIDIA DGX Spark orders and closes buyer's account - TweakTown",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "輝達AI筆電與個人超級電腦體驗兩極：DGX Spark獲肯定，RTX Spark功能待加強 - 商傳媒",
-   "source": "商傳媒",
-   "url": "https://news.google.com/rss/articles/CBMipwNBVV95cUxPaksxcWVtTGlVdkl1SlJZZXJwc3RBVXlHaGdGckhvaEk5YzBQMThlZ01ReDdPS0VYZ0pscE1ZbGhsa1pXNnFObUd4WjhaeWM3S0NHNGdTLW1pZzlsMnRDNnJUZ3lDbnIwX1p5NW9mUkFYOGJNWVRRZjR0SGhCWDhWZFBQZl9SQ1RaMU1seHF5dE14TXllMHVaWWMtbU5DZ1VBcGZ4X1cxeTlCaHA3QzNnVWt5T04yRmFLbnlLRWhWVUNQM2RWeWVyRW84RXZEek9PeGtsSm1vVXJFckE3bDRFNEFJdVNJT013aS1RNk1BR3RVVkVyVjg5b0RSallGSUR5RXN6c0FGZ3FVS3MxMGxWbDFjLThXb3FMdE5zakpEVmM2TGt2N2dwVkF6ZzlpakRsMUV3YTV2U0RzTG9zbWdLaGZSUTlZUVkwY3FKN1Z3R1UzTXpCcXRLbWZuT1h6Q3psaTlHTi10TFJ4TXlEb3poVTY5S2dLblc2NUhyMEE2ZDFLSHo1MEtaSGNoekd2Y0VSb2J4dmY5ZTJsNm5jT2J4UTlPTDNhbWM?oc=5",
-   "date": "2026-11-02 14:46",
-   "publishedAt": "2026-11-02T14:46:41+08:00",
-   "summary": "",
-   "models": [
-    "DGX Spark"
-   ],
-   "tag": "開箱評測",
-   "camps": [
-    "nvidia"
-   ],
-   "press": false,
    "heat": 16,
    "image": "",
    "views": 0,
@@ -311,7 +311,7 @@
    "lang": "zh",
    "i18n": {
     "zh-TW": {
-     "title": "輝達AI筆電與個人超級電腦體驗兩極：DGX Spark獲肯定，RTX Spark功能待加強 - 商傳媒",
+     "title": "買家訂 4 台 NVIDIA DGX Spark 卻突然被 Amazon 取消訂單、Ban 帳戶 - 電腦領域HKEPC Hardware",
      "summary": ""
     }
    }
