@@ -1,9 +1,9 @@
 {
  "channel": "dgx",
  "version": "v26",
- "fetchedAt": "2026-11-06T12:58:11.749690+08:00",
- "edition": "2026-11-06",
- "count": 3,
+ "fetchedAt": "2026-11-07T13:03:31.518020+08:00",
+ "edition": "2026-11-07",
+ "count": 6,
  "languages": [
   "zh-TW",
   "zh-CN",
@@ -16,53 +16,180 @@
   "it"
  ],
  "byGroup": {
-  "asus": 0,
+  "asus": 1,
   "acer": 0,
   "hp": 0,
   "msi": 0,
   "dell": 0,
   "lenovo": 0,
-  "gigabyte": 0,
+  "gigabyte": 1,
   "microsoft": 0,
   "nvidia": 3
  },
  "byLine": {},
  "items": [
   {
-   "title": "NVIDIA DGX Spark GPU Unboxing, Specs & Local AI Test #shorts #nvidia",
-   "source": "YouTube · _Raja_singh",
-   "url": "https://www.youtube.com/watch?v=NXhfImLwrOs",
-   "date": "2026-11-06 11:30",
-   "publishedAt": "2026-11-06T11:30:01+08:00",
-   "summary": "NVIDIA DGX Spark GPU review: specs, price, AI performance, and local AI development explained. Is NVIDIA’s DGX Spark the best compact AI supercomputer for creators, developers, and AI workloads? Is vi",
+   "title": "DGX Spark A Grace Blackwell AI Supercomputer on your desk",
+   "source": "NVIDIA DGX Spark",
+   "url": "https://www.nvidia.com/en-us/products/workstations/dgx-spark/",
+   "date": "2026-11-07 13:03",
+   "publishedAt": "2026-11-07T13:03:31.627226+08:00",
+   "summary": "",
    "models": [
-    "DGX Spark"
+    "DGX Spark",
+    "Grace Blackwell"
    ],
-   "tag": "影片",
+   "tag": "官方發布",
    "camps": [
     "nvidia"
    ],
-   "press": false,
-   "heat": 96,
-   "image": "https://i.ytimg.com/vi/NXhfImLwrOs/mqdefault.jpg",
-   "views": 1759,
-   "comments": 7,
-   "dupes": 31,
-   "also": [
-    "YouTube · AI 策略室",
-    "YouTube · Panutat Tejasen",
-    "YouTube · Suntiwong Sahairak",
-    "YouTube · SILICONCASH",
-    "YouTube · NextOdd",
-    "YouTube · JR Secure Design"
-   ],
+   "press": true,
+   "heat": 23,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
    "lines": [],
-   "score": 33,
+   "score": null,
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "NVIDIA DGX Spark GPU Unboxing, Specs & Local AI Test #shorts #nvidia",
-     "summary": "NVIDIA DGX Spark GPU review: specs, price, AI performance, and local AI development explained. Is NVIDIA’s DGX Spark the best compact AI supercomputer for creators, developers, and AI workloads? Is vi"
+     "title": "DGX Spark A Grace Blackwell AI Supercomputer on your desk",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "DGX Station Desktop AI supercomputer for scalable model training and development",
+   "source": "NVIDIA DGX Spark",
+   "url": "https://www.nvidia.com/en-us/products/workstations/dgx-station/",
+   "date": "2026-11-07 13:03",
+   "publishedAt": "2026-11-07T13:03:31.627226+08:00",
+   "summary": "",
+   "models": [
+    "DGX Station"
+   ],
+   "tag": "官方發布",
+   "camps": [
+    "other"
+   ],
+   "press": true,
+   "heat": 23,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "DGX Station Desktop AI supercomputer for scalable model training and development",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Browse DGX Spark Playbooks",
+   "source": "NVIDIA DGX Spark",
+   "url": "http://build.nvidia.com/spark",
+   "date": "2026-11-07 13:03",
+   "publishedAt": "2026-11-07T13:03:31.627226+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "官方發布",
+   "camps": [
+    "nvidia"
+   ],
+   "press": true,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Browse DGX Spark Playbooks",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "【2026年版】動画生成AIのためのAI PC選び #Shorts #aipc #dgxspark #rtxspark #comfyui #動画生成ai",
+   "source": "YouTube · マッドサイエンティスト - mad:scientist -",
+   "url": "https://www.youtube.com/watch?v=nvFsXDzbbok",
+   "date": "2026-11-07 11:55",
+   "publishedAt": "2026-11-07T11:55:36+08:00",
+   "summary": "■説明 動画生成AIを手元で動かすなら、RTX Spark と DGX Spark のどっち？ 本格派は DGX Spark、手軽に始めるなら Windows の RTX Spark。 ※価格は2026年10月末〜11月初めの調査時点・税込み相当の目安です ▼クレジット VOICEVOX:ずんだもん 製品写真：NVIDIA（DGX Spark）、ASUS（Ascent GX10）、Microsof",
+   "models": [
+    "DGX Spark",
+    "Ascent GX10"
+   ],
+   "tag": "影片",
+   "camps": [
+    "asus"
+   ],
+   "press": false,
+   "heat": 97,
+   "image": "https://i.ytimg.com/vi/nvFsXDzbbok/mqdefault.jpg",
+   "views": 2314,
+   "comments": 12,
+   "dupes": 25,
+   "also": [
+    "YouTube · Local AI Wizard",
+    "YouTube · 小淵聊3C",
+    "YouTube · Techin30",
+    "YouTube · The Dark Factory",
+    "YouTube · JR Secure Design",
+    "YouTube · RuntimeWire"
+   ],
+   "lines": [],
+   "score": 32,
+   "lang": "ja",
+   "i18n": {
+    "ja": {
+     "title": "【2026年版】動画生成AIのためのAI PC選び #Shorts #aipc #dgxspark #rtxspark #comfyui #動画生成ai",
+     "summary": "■説明 動画生成AIを手元で動かすなら、RTX Spark と DGX Spark のどっち？ 本格派は DGX Spark、手軽に始めるなら Windows の RTX Spark。 ※価格は2026年10月末〜11月初めの調査時点・税込み相当の目安です ▼クレジット VOICEVOX:ずんだもん 製品写真：NVIDIA（DGX Spark）、ASUS（Ascent GX10）、Microsof"
+    }
+   }
+  },
+  {
+   "title": "GIGABYTE AI TOP ATOM DGX Spark Review - Gadget Pilipinas",
+   "source": "Gadget Pilipinas",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZXdaSE9SdWxySWpMZ0I4YU1POFBMbmlrUl9pbldBRXVKWC1GVktjeTlMY3g5a0YxdjZYcnRpamJvNm9nTEQxWlpvUjVDX3EyMmtXXzgtOUc1bW9BdGVSTHAxaXlNcFlmVW0tNTlfc2ctTGlsRUdvVlpzbjBaelRlY0V3NU0?oc=5",
+   "date": "2026-11-06 17:34",
+   "publishedAt": "2026-11-06T17:34:50+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark",
+    "AI TOP ATOM"
+   ],
+   "tag": "開箱評測",
+   "camps": [
+    "gigabyte"
+   ],
+   "press": false,
+   "heat": 28,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 2,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "GIGABYTE AI TOP ATOM DGX Spark Review - Gadget Pilipinas",
+     "summary": ""
     }
    }
   },
@@ -81,7 +208,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 21,
+   "heat": 17,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -93,37 +220,6 @@
    "i18n": {
     "en": {
      "title": "Amazon Closes Accounts After Nvidia DGX Spark Orders As Tim Sweeney Says His GPU Orders Were Canceled Too - GameFragger.com",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "我猜 5090 快 2 倍，結果……｜RTX 5090 vs DGX Spark 實測 - YouTube",
-   "source": "YouTube",
-   "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1aN3BXZUVpenBTLWJNQlNUNGdlaXNlVkFGRGRxc2lWeVQ1ZDdxd3A2QUV1TkhFSFMweUU3by1RNEEyZw?oc=5",
-   "date": "2026-11-04 23:00",
-   "publishedAt": "2026-11-04T23:00:31+08:00",
-   "summary": "",
-   "models": [
-    "DGX Spark"
-   ],
-   "tag": "開箱評測",
-   "camps": [
-    "nvidia"
-   ],
-   "press": false,
-   "heat": 9,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "我猜 5090 快 2 倍，結果……｜RTX 5090 vs DGX Spark 實測 - YouTube",
      "summary": ""
     }
    }
