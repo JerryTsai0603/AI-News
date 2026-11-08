@@ -1,9 +1,9 @@
 {
  "channel": "dgx",
  "version": "v26",
- "fetchedAt": "2026-11-07T13:03:31.518020+08:00",
- "edition": "2026-11-07",
- "count": 6,
+ "fetchedAt": "2026-11-08T13:08:42.554322+08:00",
+ "edition": "2026-11-08",
+ "count": 5,
  "languages": [
   "zh-TW",
   "zh-CN",
@@ -16,7 +16,7 @@
   "it"
  ],
  "byGroup": {
-  "asus": 1,
+  "asus": 0,
   "acer": 0,
   "hp": 0,
   "msi": 0,
@@ -28,6 +28,44 @@
  },
  "byLine": {},
  "items": [
+  {
+   "title": "Ripple-65B: 130 GB Shrinks to 57 GB #Shorts",
+   "source": "YouTube · Brix AI",
+   "url": "https://www.youtube.com/watch?v=R1jyZcB8n0s",
+   "date": "2026-11-08 12:43",
+   "publishedAt": "2026-11-08T12:43:33+08:00",
+   "summary": "Ripple-65B Preview has 65 billion parameters. In BF16 that's a checkpoint of about 130 GB, which won't fit in a DGX Spark's 128 GB. The experimental NVFP4 build is about 57 GB and fits. For most peopl",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "影片",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 98,
+   "image": "https://i.ytimg.com/vi/R1jyZcB8n0s/mqdefault.jpg",
+   "views": 4766,
+   "comments": 14,
+   "dupes": 26,
+   "also": [
+    "YouTube · Readheights AI",
+    "YouTube · Isotomy",
+    "YouTube · CodeMotion",
+    "YouTube · Insoltec Lab",
+    "YouTube · Panutat Tejasen",
+    "YouTube · RuntimeWire"
+   ],
+   "lines": [],
+   "score": 40,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Ripple-65B: 130 GB Shrinks to 57 GB #Shorts",
+     "summary": "Ripple-65B Preview has 65 billion parameters. In BF16 that's a checkpoint of about 130 GB, which won't fit in a DGX Spark's 128 GB. The experimental NVFP4 build is about 57 GB and fits. For most peopl"
+    }
+   }
+  },
   {
    "title": "DGX Spark A Grace Blackwell AI Supercomputer on your desk",
    "source": "NVIDIA DGX Spark",
@@ -44,7 +82,7 @@
     "nvidia"
    ],
    "press": true,
-   "heat": 23,
+   "heat": 19,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -75,7 +113,7 @@
     "other"
    ],
    "press": true,
-   "heat": 23,
+   "heat": 19,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -106,7 +144,7 @@
     "nvidia"
    ],
    "press": true,
-   "heat": 15,
+   "heat": 11,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -119,45 +157,6 @@
     "en": {
      "title": "Browse DGX Spark Playbooks",
      "summary": ""
-    }
-   }
-  },
-  {
-   "title": "【2026年版】動画生成AIのためのAI PC選び #Shorts #aipc #dgxspark #rtxspark #comfyui #動画生成ai",
-   "source": "YouTube · マッドサイエンティスト - mad:scientist -",
-   "url": "https://www.youtube.com/watch?v=nvFsXDzbbok",
-   "date": "2026-11-07 11:55",
-   "publishedAt": "2026-11-07T11:55:36+08:00",
-   "summary": "■説明 動画生成AIを手元で動かすなら、RTX Spark と DGX Spark のどっち？ 本格派は DGX Spark、手軽に始めるなら Windows の RTX Spark。 ※価格は2026年10月末〜11月初めの調査時点・税込み相当の目安です ▼クレジット VOICEVOX:ずんだもん 製品写真：NVIDIA（DGX Spark）、ASUS（Ascent GX10）、Microsof",
-   "models": [
-    "DGX Spark",
-    "Ascent GX10"
-   ],
-   "tag": "影片",
-   "camps": [
-    "asus"
-   ],
-   "press": false,
-   "heat": 97,
-   "image": "https://i.ytimg.com/vi/nvFsXDzbbok/mqdefault.jpg",
-   "views": 2314,
-   "comments": 12,
-   "dupes": 25,
-   "also": [
-    "YouTube · Local AI Wizard",
-    "YouTube · 小淵聊3C",
-    "YouTube · Techin30",
-    "YouTube · The Dark Factory",
-    "YouTube · JR Secure Design",
-    "YouTube · RuntimeWire"
-   ],
-   "lines": [],
-   "score": 32,
-   "lang": "ja",
-   "i18n": {
-    "ja": {
-     "title": "【2026年版】動画生成AIのためのAI PC選び #Shorts #aipc #dgxspark #rtxspark #comfyui #動画生成ai",
-     "summary": "■説明 動画生成AIを手元で動かすなら、RTX Spark と DGX Spark のどっち？ 本格派は DGX Spark、手軽に始めるなら Windows の RTX Spark。 ※価格は2026年10月末〜11月初めの調査時点・税込み相当の目安です ▼クレジット VOICEVOX:ずんだもん 製品写真：NVIDIA（DGX Spark）、ASUS（Ascent GX10）、Microsof"
     }
    }
   },
@@ -177,7 +176,7 @@
     "gigabyte"
    ],
    "press": false,
-   "heat": 28,
+   "heat": 24,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -189,37 +188,6 @@
    "i18n": {
     "en": {
      "title": "GIGABYTE AI TOP ATOM DGX Spark Review - Gadget Pilipinas",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Amazon Closes Accounts After Nvidia DGX Spark Orders As Tim Sweeney Says His GPU Orders Were Canceled Too - GameFragger.com",
-   "source": "GameFragger.com",
-   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQTkFiNDVpZTlnakpNRzZEaEtZOTRaVDViZk5vbnRIVWZLQUVmejlTS19GVm1rNk10aUZXYTRDZzQ4cVFaWldmWHB6SFhWQl9zTlk3ZzhWcW55UXdwVDllY0dpem5FVG5CQlFGZHVqRVZpcFdJS0VQSHpNSjlydklRcGJ5U2t0NkVBZE9xNTZseDFNTEdNSFNYSHZNNnhGMmdWU0p6ZENKV0YyTDN6cTBrMUEtYUJaZnlGTnlUTjRWWEFHN3pYeUJPN0NhRnFkalhFcDVxMjk0c1hKZw?oc=5",
-   "date": "2026-11-05 21:11",
-   "publishedAt": "2026-11-05T21:11:00+08:00",
-   "summary": "",
-   "models": [
-    "DGX Spark"
-   ],
-   "tag": "價格上市",
-   "camps": [
-    "nvidia"
-   ],
-   "press": false,
-   "heat": 17,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Amazon Closes Accounts After Nvidia DGX Spark Orders As Tim Sweeney Says His GPU Orders Were Canceled Too - GameFragger.com",
      "summary": ""
     }
    }
