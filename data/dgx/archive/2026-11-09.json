@@ -1,0 +1,257 @@
+{
+ "channel": "dgx",
+ "version": "v26",
+ "fetchedAt": "2026-11-09T13:13:48.479993+08:00",
+ "edition": "2026-11-09",
+ "count": 7,
+ "languages": [
+  "zh-TW",
+  "zh-CN",
+  "en",
+  "ja",
+  "ko",
+  "de",
+  "es",
+  "fr",
+  "it"
+ ],
+ "byGroup": {
+  "asus": 0,
+  "acer": 0,
+  "hp": 0,
+  "msi": 0,
+  "dell": 0,
+  "lenovo": 0,
+  "gigabyte": 0,
+  "microsoft": 0,
+  "nvidia": 6
+ },
+ "byLine": {},
+ "items": [
+  {
+   "title": "120B 的模型，5090 跟 DGX Spark 打平了 #RTX5090",
+   "source": "YouTube · 湯包實驗室",
+   "url": "https://www.youtube.com/watch?v=at2fDeogfnQ",
+   "date": "2026-11-09 12:00",
+   "publishedAt": "2026-11-09T12:00:11+08:00",
+   "summary": "模型放不進 32 GB 顯存，速度就卡在記憶體頻寬。完整版：RTX 5090 vs DGX Spark 實測 https://youtu.be/qxA2ImDEyCU #DGXSpark #大模型 #Shorts",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "影片",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 100,
+   "image": "https://i.ytimg.com/vi/at2fDeogfnQ/mqdefault.jpg",
+   "views": 23506,
+   "comments": 190,
+   "dupes": 33,
+   "also": [
+    "YouTube · winson-DIY",
+    "YouTube · The Power Engineer",
+    "YouTube · SILICONCASH",
+    "YouTube · Umar Yasin",
+    "YouTube · RuntimeWire",
+    "YouTube · Aira Shop"
+   ],
+   "lines": [],
+   "score": 223,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "120B 的模型，5090 跟 DGX Spark 打平了 #RTX5090",
+     "summary": "模型放不進 32 GB 顯存，速度就卡在記憶體頻寬。完整版：RTX 5090 vs DGX Spark 實測 https://youtu.be/qxA2ImDEyCU #DGXSpark #大模型 #Shorts"
+    }
+   }
+  },
+  {
+   "title": "Amazon closed an AI educator's account after he ordered seven Nvidia DGX Spark mini-PCs, and Tim Sweeney says his GPU orders were canceled too - MLQ.ai",
+   "source": "MLQ.ai",
+   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQemNHeFoxWWMwdzlPbXBzUjh3ano0VmtOSkl5RFVKa19odXJJXzdfNFZqNzhZYlNJRVNMR0g4YkdlNjY3Sm9uUjZTeWhmNl9DUS1Lb2pCZmJFYzV3X2U5SjBsM2JjYnZ6QUgwSzVzdUVVQjd5Q0NEcGRkbEJsVzJnb0VOQUxIcXNGZ3JvMW1mSVYxOVVHc1owV1VGNEFqQ3ZSZEJtZUxiTjUza2RHaE9CNXNBdmw0Y3VqYk9YcmU3SlYwYUM4TVRBa1c1Q3BXRk5laUk0dFRVME5taExnbUZsb2U5a00tOWJ0b2ZUQTBycG5fSFU?oc=5",
+   "date": "2026-11-08 20:56",
+   "publishedAt": "2026-11-08T20:56:01+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "價格上市",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Amazon closed an AI educator's account after he ordered seven Nvidia DGX Spark mini-PCs, and Tim Sweeney says his GPU orders were canceled too - MLQ.ai",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "RTX Spark vs DGX Spark: AI Tests and Platform Specs - NeoTeo",
+   "source": "NeoTeo",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1fLW5KcEEycV9rUDVVTVRiQzhUZGRjdHNpTHRaNEl1UTQ3U0p6UGpmaDVneUtfTWVsS3VlUkJlNTVDZlYwbEZOZUtYUWdwOTdZRkNFMmwtLXhaWXYtT0d1cmh4OU5uN0xQNnpoMnlVdTRnODdFa1dR?oc=5",
+   "date": "2026-11-08 20:52",
+   "publishedAt": "2026-11-08T20:52:15+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "規格效能",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "RTX Spark vs DGX Spark: AI Tests and Platform Specs - NeoTeo",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "實測 NVIDIA Sync 叢集精靈與 Models：一鍵部署 Qwen3.8 27B 與 DGX Spark 叢集 - https://cyberq.tw/",
+   "source": "https://cyberq.tw/",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1TNW1xWTc1YWFvQ2drb1YyVkRYUkhaOXpBQmFhdVBhWUo4LXNmMklqOU1PVWFQbHlqR3VLenhXelg0cVpRWE1BNXUxYld2TW5RQ2FXZmM3OUVXQ01rcnhHeGl2X09VUTI1MHpKTkdIRHM?oc=5",
+   "date": "2026-11-08 13:16",
+   "publishedAt": "2026-11-08T13:16:00+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "開箱評測",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 19,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "實測 NVIDIA Sync 叢集精靈與 Models：一鍵部署 Qwen3.8 27B 與 DGX Spark 叢集 - https://cyberq.tw/",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "DGX Spark A Grace Blackwell AI Supercomputer on your desk",
+   "source": "NVIDIA DGX Spark",
+   "url": "https://www.nvidia.com/en-us/products/workstations/dgx-spark/",
+   "date": "2026-11-07 13:03",
+   "publishedAt": "2026-11-07T13:03:31.627226+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark",
+    "Grace Blackwell"
+   ],
+   "tag": "官方發布",
+   "camps": [
+    "nvidia"
+   ],
+   "press": true,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "DGX Spark A Grace Blackwell AI Supercomputer on your desk",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "DGX Station Desktop AI supercomputer for scalable model training and development",
+   "source": "NVIDIA DGX Spark",
+   "url": "https://www.nvidia.com/en-us/products/workstations/dgx-station/",
+   "date": "2026-11-07 13:03",
+   "publishedAt": "2026-11-07T13:03:31.627226+08:00",
+   "summary": "",
+   "models": [
+    "DGX Station"
+   ],
+   "tag": "官方發布",
+   "camps": [
+    "other"
+   ],
+   "press": true,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "DGX Station Desktop AI supercomputer for scalable model training and development",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Browse DGX Spark Playbooks",
+   "source": "NVIDIA DGX Spark",
+   "url": "http://build.nvidia.com/spark",
+   "date": "2026-11-07 13:03",
+   "publishedAt": "2026-11-07T13:03:31.627226+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "官方發布",
+   "camps": [
+    "nvidia"
+   ],
+   "press": true,
+   "heat": 7,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Browse DGX Spark Playbooks",
+     "summary": ""
+    }
+   }
+  }
+ ]
+}

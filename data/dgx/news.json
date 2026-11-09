@@ -1,9 +1,9 @@
 {
  "channel": "dgx",
  "version": "v26",
- "fetchedAt": "2026-11-08T13:08:42.554322+08:00",
- "edition": "2026-11-08",
- "count": 5,
+ "fetchedAt": "2026-11-09T13:13:48.479993+08:00",
+ "edition": "2026-11-09",
+ "count": 7,
  "languages": [
   "zh-TW",
   "zh-CN",
@@ -22,19 +22,19 @@
   "msi": 0,
   "dell": 0,
   "lenovo": 0,
-  "gigabyte": 1,
+  "gigabyte": 0,
   "microsoft": 0,
-  "nvidia": 3
+  "nvidia": 6
  },
  "byLine": {},
  "items": [
   {
-   "title": "Ripple-65B: 130 GB Shrinks to 57 GB #Shorts",
-   "source": "YouTube · Brix AI",
-   "url": "https://www.youtube.com/watch?v=R1jyZcB8n0s",
-   "date": "2026-11-08 12:43",
-   "publishedAt": "2026-11-08T12:43:33+08:00",
-   "summary": "Ripple-65B Preview has 65 billion parameters. In BF16 that's a checkpoint of about 130 GB, which won't fit in a DGX Spark's 128 GB. The experimental NVFP4 build is about 57 GB and fits. For most peopl",
+   "title": "120B 的模型，5090 跟 DGX Spark 打平了 #RTX5090",
+   "source": "YouTube · 湯包實驗室",
+   "url": "https://www.youtube.com/watch?v=at2fDeogfnQ",
+   "date": "2026-11-09 12:00",
+   "publishedAt": "2026-11-09T12:00:11+08:00",
+   "summary": "模型放不進 32 GB 顯存，速度就卡在記憶體頻寬。完整版：RTX 5090 vs DGX Spark 實測 https://youtu.be/qxA2ImDEyCU #DGXSpark #大模型 #Shorts",
    "models": [
     "DGX Spark"
    ],
@@ -43,26 +43,119 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 98,
-   "image": "https://i.ytimg.com/vi/R1jyZcB8n0s/mqdefault.jpg",
-   "views": 4766,
-   "comments": 14,
-   "dupes": 26,
+   "heat": 100,
+   "image": "https://i.ytimg.com/vi/at2fDeogfnQ/mqdefault.jpg",
+   "views": 23506,
+   "comments": 190,
+   "dupes": 33,
    "also": [
-    "YouTube · Readheights AI",
-    "YouTube · Isotomy",
-    "YouTube · CodeMotion",
-    "YouTube · Insoltec Lab",
-    "YouTube · Panutat Tejasen",
-    "YouTube · RuntimeWire"
+    "YouTube · winson-DIY",
+    "YouTube · The Power Engineer",
+    "YouTube · SILICONCASH",
+    "YouTube · Umar Yasin",
+    "YouTube · RuntimeWire",
+    "YouTube · Aira Shop"
    ],
    "lines": [],
-   "score": 40,
+   "score": 223,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "120B 的模型，5090 跟 DGX Spark 打平了 #RTX5090",
+     "summary": "模型放不進 32 GB 顯存，速度就卡在記憶體頻寬。完整版：RTX 5090 vs DGX Spark 實測 https://youtu.be/qxA2ImDEyCU #DGXSpark #大模型 #Shorts"
+    }
+   }
+  },
+  {
+   "title": "Amazon closed an AI educator's account after he ordered seven Nvidia DGX Spark mini-PCs, and Tim Sweeney says his GPU orders were canceled too - MLQ.ai",
+   "source": "MLQ.ai",
+   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQemNHeFoxWWMwdzlPbXBzUjh3ano0VmtOSkl5RFVKa19odXJJXzdfNFZqNzhZYlNJRVNMR0g4YkdlNjY3Sm9uUjZTeWhmNl9DUS1Lb2pCZmJFYzV3X2U5SjBsM2JjYnZ6QUgwSzVzdUVVQjd5Q0NEcGRkbEJsVzJnb0VOQUxIcXNGZ3JvMW1mSVYxOVVHc1owV1VGNEFqQ3ZSZEJtZUxiTjUza2RHaE9CNXNBdmw0Y3VqYk9YcmU3SlYwYUM4TVRBa1c1Q3BXRk5laUk0dFRVME5taExnbUZsb2U5a00tOWJ0b2ZUQTBycG5fSFU?oc=5",
+   "date": "2026-11-08 20:56",
+   "publishedAt": "2026-11-08T20:56:01+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "價格上市",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "Ripple-65B: 130 GB Shrinks to 57 GB #Shorts",
-     "summary": "Ripple-65B Preview has 65 billion parameters. In BF16 that's a checkpoint of about 130 GB, which won't fit in a DGX Spark's 128 GB. The experimental NVFP4 build is about 57 GB and fits. For most peopl"
+     "title": "Amazon closed an AI educator's account after he ordered seven Nvidia DGX Spark mini-PCs, and Tim Sweeney says his GPU orders were canceled too - MLQ.ai",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "RTX Spark vs DGX Spark: AI Tests and Platform Specs - NeoTeo",
+   "source": "NeoTeo",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1fLW5KcEEycV9rUDVVTVRiQzhUZGRjdHNpTHRaNEl1UTQ3U0p6UGpmaDVneUtfTWVsS3VlUkJlNTVDZlYwbEZOZUtYUWdwOTdZRkNFMmwtLXhaWXYtT0d1cmh4OU5uN0xQNnpoMnlVdTRnODdFa1dR?oc=5",
+   "date": "2026-11-08 20:52",
+   "publishedAt": "2026-11-08T20:52:15+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "規格效能",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "RTX Spark vs DGX Spark: AI Tests and Platform Specs - NeoTeo",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "實測 NVIDIA Sync 叢集精靈與 Models：一鍵部署 Qwen3.8 27B 與 DGX Spark 叢集 - https://cyberq.tw/",
+   "source": "https://cyberq.tw/",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1TNW1xWTc1YWFvQ2drb1YyVkRYUkhaOXpBQmFhdVBhWUo4LXNmMklqOU1PVWFQbHlqR3VLenhXelg0cVpRWE1BNXUxYld2TW5RQ2FXZmM3OUVXQ01rcnhHeGl2X09VUTI1MHpKTkdIRHM?oc=5",
+   "date": "2026-11-08 13:16",
+   "publishedAt": "2026-11-08T13:16:00+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "開箱評測",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 19,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "實測 NVIDIA Sync 叢集精靈與 Models：一鍵部署 Qwen3.8 27B 與 DGX Spark 叢集 - https://cyberq.tw/",
+     "summary": ""
     }
    }
   },
@@ -82,7 +175,7 @@
     "nvidia"
    ],
    "press": true,
-   "heat": 19,
+   "heat": 15,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -113,7 +206,7 @@
     "other"
    ],
    "press": true,
-   "heat": 19,
+   "heat": 15,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -144,7 +237,7 @@
     "nvidia"
    ],
    "press": true,
-   "heat": 11,
+   "heat": 7,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -156,38 +249,6 @@
    "i18n": {
     "en": {
      "title": "Browse DGX Spark Playbooks",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "GIGABYTE AI TOP ATOM DGX Spark Review - Gadget Pilipinas",
-   "source": "Gadget Pilipinas",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZXdaSE9SdWxySWpMZ0I4YU1POFBMbmlrUl9pbldBRXVKWC1GVktjeTlMY3g5a0YxdjZYcnRpamJvNm9nTEQxWlpvUjVDX3EyMmtXXzgtOUc1bW9BdGVSTHAxaXlNcFlmVW0tNTlfc2ctTGlsRUdvVlpzbjBaelRlY0V3NU0?oc=5",
-   "date": "2026-11-06 17:34",
-   "publishedAt": "2026-11-06T17:34:50+08:00",
-   "summary": "",
-   "models": [
-    "DGX Spark",
-    "AI TOP ATOM"
-   ],
-   "tag": "開箱評測",
-   "camps": [
-    "gigabyte"
-   ],
-   "press": false,
-   "heat": 24,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 2,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "GIGABYTE AI TOP ATOM DGX Spark Review - Gadget Pilipinas",
      "summary": ""
     }
    }
