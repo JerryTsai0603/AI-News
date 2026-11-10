@@ -1,9 +1,9 @@
 {
  "channel": "dgx",
  "version": "v26",
- "fetchedAt": "2026-11-09T13:13:48.479993+08:00",
- "edition": "2026-11-09",
- "count": 7,
+ "fetchedAt": "2026-11-10T13:18:58.008946+08:00",
+ "edition": "2026-11-10",
+ "count": 6,
  "languages": [
   "zh-TW",
   "zh-CN",
@@ -22,19 +22,19 @@
   "msi": 0,
   "dell": 0,
   "lenovo": 0,
-  "gigabyte": 0,
+  "gigabyte": 1,
   "microsoft": 0,
-  "nvidia": 6
+  "nvidia": 4
  },
  "byLine": {},
  "items": [
   {
-   "title": "120B 的模型，5090 跟 DGX Spark 打平了 #RTX5090",
-   "source": "YouTube · 湯包實驗室",
-   "url": "https://www.youtube.com/watch?v=at2fDeogfnQ",
-   "date": "2026-11-09 12:00",
-   "publishedAt": "2026-11-09T12:00:11+08:00",
-   "summary": "模型放不進 32 GB 顯存，速度就卡在記憶體頻寬。完整版：RTX 5090 vs DGX Spark 實測 https://youtu.be/qxA2ImDEyCU #DGXSpark #大模型 #Shorts",
+   "title": "A $175 GPU From 2016 Ties NVIDIA's $6,950 DGX Spark (But One Card Is a Trap)",
+   "source": "YouTube · Ro Segura",
+   "url": "https://www.youtube.com/watch?v=6G9jKxMvuAE",
+   "date": "2026-11-10 11:25",
+   "publishedAt": "2026-11-10T11:25:12+08:00",
+   "summary": "A ten-year-old datacenter card ties NVIDIA's DGX Spark. On llama.cpp's public benchmark (Llama 2 7B, 4-bit), a 2016 Tesla P100 writes 58 tokens a second. The Spark writes 57. One sells for about $175 ",
    "models": [
     "DGX Spark"
    ],
@@ -44,25 +44,56 @@
    ],
    "press": false,
    "heat": 100,
-   "image": "https://i.ytimg.com/vi/at2fDeogfnQ/mqdefault.jpg",
-   "views": 23506,
-   "comments": 190,
-   "dupes": 33,
+   "image": "https://i.ytimg.com/vi/6G9jKxMvuAE/mqdefault.jpg",
+   "views": 9064,
+   "comments": 11,
+   "dupes": 21,
    "also": [
-    "YouTube · winson-DIY",
-    "YouTube · The Power Engineer",
-    "YouTube · SILICONCASH",
-    "YouTube · Umar Yasin",
-    "YouTube · RuntimeWire",
-    "YouTube · Aira Shop"
+    "YouTube · Panutat Tejasen",
+    "YouTube · AI Buddy Chat, Counsel, Create",
+    "YouTube · Samaranga",
+    "YouTube · Stacked Podcast",
+    "YouTube · Satoshiya gafa",
+    "YouTube · RuntimeWire"
    ],
    "lines": [],
-   "score": 223,
-   "lang": "zh",
+   "score": 69,
+   "lang": "en",
    "i18n": {
-    "zh-TW": {
-     "title": "120B 的模型，5090 跟 DGX Spark 打平了 #RTX5090",
-     "summary": "模型放不進 32 GB 顯存，速度就卡在記憶體頻寬。完整版：RTX 5090 vs DGX Spark 實測 https://youtu.be/qxA2ImDEyCU #DGXSpark #大模型 #Shorts"
+    "en": {
+     "title": "A $175 GPU From 2016 Ties NVIDIA's $6,950 DGX Spark (But One Card Is a Trap)",
+     "summary": "A ten-year-old datacenter card ties NVIDIA's DGX Spark. On llama.cpp's public benchmark (Llama 2 7B, 4-bit), a 2016 Tesla P100 writes 58 tokens a second. The Spark writes 57. One sells for about $175 "
+    }
+   }
+  },
+  {
+   "title": "GIGABYTE AI TOP ATOM review: fit for local AI work - NeoTeo",
+   "source": "NeoTeo",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNdXRSMnhoZkMxc3B4UmRleTY3X0ZzNjJEeXV2NlBPNkhTX0p0MUszemFMbksyb1dWdUdZeTRyR1U2bFB6LVNNZHJsai1qNzZXZE9LYnJBZE9hU2Z1aDFkOEN1UURadHNvdzBVWlJFSjJYaGJnVFNkSFQybHl0ckdxVg?oc=5",
+   "date": "2026-11-09 20:37",
+   "publishedAt": "2026-11-09T20:37:02+08:00",
+   "summary": "",
+   "models": [
+    "AI TOP ATOM"
+   ],
+   "tag": "開箱評測",
+   "camps": [
+    "gigabyte"
+   ],
+   "press": false,
+   "heat": 28,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 2,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "GIGABYTE AI TOP ATOM review: fit for local AI work - NeoTeo",
+     "summary": ""
     }
    }
   },
@@ -81,7 +112,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 12,
+   "heat": 9,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -93,68 +124,6 @@
    "i18n": {
     "en": {
      "title": "Amazon closed an AI educator's account after he ordered seven Nvidia DGX Spark mini-PCs, and Tim Sweeney says his GPU orders were canceled too - MLQ.ai",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "RTX Spark vs DGX Spark: AI Tests and Platform Specs - NeoTeo",
-   "source": "NeoTeo",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1fLW5KcEEycV9rUDVVTVRiQzhUZGRjdHNpTHRaNEl1UTQ3U0p6UGpmaDVneUtfTWVsS3VlUkJlNTVDZlYwbEZOZUtYUWdwOTdZRkNFMmwtLXhaWXYtT0d1cmh4OU5uN0xQNnpoMnlVdTRnODdFa1dR?oc=5",
-   "date": "2026-11-08 20:52",
-   "publishedAt": "2026-11-08T20:52:15+08:00",
-   "summary": "",
-   "models": [
-    "DGX Spark"
-   ],
-   "tag": "規格效能",
-   "camps": [
-    "nvidia"
-   ],
-   "press": false,
-   "heat": 12,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "RTX Spark vs DGX Spark: AI Tests and Platform Specs - NeoTeo",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "實測 NVIDIA Sync 叢集精靈與 Models：一鍵部署 Qwen3.8 27B 與 DGX Spark 叢集 - https://cyberq.tw/",
-   "source": "https://cyberq.tw/",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1TNW1xWTc1YWFvQ2drb1YyVkRYUkhaOXpBQmFhdVBhWUo4LXNmMklqOU1PVWFQbHlqR3VLenhXelg0cVpRWE1BNXUxYld2TW5RQ2FXZmM3OUVXQ01rcnhHeGl2X09VUTI1MHpKTkdIRHM?oc=5",
-   "date": "2026-11-08 13:16",
-   "publishedAt": "2026-11-08T13:16:00+08:00",
-   "summary": "",
-   "models": [
-    "DGX Spark"
-   ],
-   "tag": "開箱評測",
-   "camps": [
-    "nvidia"
-   ],
-   "press": false,
-   "heat": 19,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "實測 NVIDIA Sync 叢集精靈與 Models：一鍵部署 Qwen3.8 27B 與 DGX Spark 叢集 - https://cyberq.tw/",
      "summary": ""
     }
    }
@@ -175,7 +144,7 @@
     "nvidia"
    ],
    "press": true,
-   "heat": 15,
+   "heat": 12,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -206,7 +175,7 @@
     "other"
    ],
    "press": true,
-   "heat": 15,
+   "heat": 12,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -237,7 +206,7 @@
     "nvidia"
    ],
    "press": true,
-   "heat": 7,
+   "heat": 4,
    "image": "",
    "views": 0,
    "comments": 0,
