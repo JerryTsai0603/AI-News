@@ -1,9 +1,9 @@
 {
  "channel": "dgx",
  "version": "v26",
- "fetchedAt": "2026-11-10T13:18:58.008946+08:00",
- "edition": "2026-11-10",
- "count": 6,
+ "fetchedAt": "2026-11-11T13:24:05.214199+08:00",
+ "edition": "2026-11-11",
+ "count": 4,
  "languages": [
   "zh-TW",
   "zh-CN",
@@ -24,17 +24,17 @@
   "lenovo": 0,
   "gigabyte": 1,
   "microsoft": 0,
-  "nvidia": 4
+  "nvidia": 3
  },
  "byLine": {},
  "items": [
   {
-   "title": "A $175 GPU From 2016 Ties NVIDIA's $6,950 DGX Spark (But One Card Is a Trap)",
-   "source": "YouTube · Ro Segura",
-   "url": "https://www.youtube.com/watch?v=6G9jKxMvuAE",
-   "date": "2026-11-10 11:25",
-   "publishedAt": "2026-11-10T11:25:12+08:00",
-   "summary": "A ten-year-old datacenter card ties NVIDIA's DGX Spark. On llama.cpp's public benchmark (Llama 2 7B, 4-bit), a 2016 Tesla P100 writes 58 tokens a second. The Spark writes 57. One sells for about $175 ",
+   "title": "Just One More DGX Spark, Bro 🐋 | Local AI in 25 Seconds",
+   "source": "YouTube · Studio Seki",
+   "url": "https://www.youtube.com/watch?v=U_rLSg1CMS4",
+   "date": "2026-11-11 12:55",
+   "publishedAt": "2026-11-11T12:55:02+08:00",
+   "summary": "it starts with one DGX Spark. the model doesn't fit, so you get one more. then one for video. then \"ok, last one\". then a new model drops. no video model here. the whole thing is one three.js scene wr",
    "models": [
     "DGX Spark"
    ],
@@ -43,35 +43,97 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 100,
-   "image": "https://i.ytimg.com/vi/6G9jKxMvuAE/mqdefault.jpg",
-   "views": 9064,
-   "comments": 11,
-   "dupes": 21,
+   "heat": 90,
+   "image": "https://i.ytimg.com/vi/U_rLSg1CMS4/mqdefault.jpg",
+   "views": 1168,
+   "comments": 2,
+   "dupes": 23,
    "also": [
     "YouTube · Panutat Tejasen",
-    "YouTube · AI Buddy Chat, Counsel, Create",
-    "YouTube · Samaranga",
-    "YouTube · Stacked Podcast",
-    "YouTube · Satoshiya gafa",
+    "YouTube · Epower Ai數位員工",
+    "YouTube · シンオン株式会社 (Synon,Inc) 公式",
+    "YouTube · בינה מלאכותית | AI | סייבר - הקהילה של אור",
+    "YouTube · 究極完全体ガジェモン@ガジェットニュース速報",
     "YouTube · RuntimeWire"
    ],
    "lines": [],
-   "score": 69,
+   "score": 18,
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "A $175 GPU From 2016 Ties NVIDIA's $6,950 DGX Spark (But One Card Is a Trap)",
-     "summary": "A ten-year-old datacenter card ties NVIDIA's DGX Spark. On llama.cpp's public benchmark (Llama 2 7B, 4-bit), a 2016 Tesla P100 writes 58 tokens a second. The Spark writes 57. One sells for about $175 "
+     "title": "Just One More DGX Spark, Bro 🐋 | Local AI in 25 Seconds",
+     "summary": "it starts with one DGX Spark. the model doesn't fit, so you get one more. then one for video. then \"ok, last one\". then a new model drops. no video model here. the whole thing is one three.js scene wr"
     }
    }
   },
   {
-   "title": "GIGABYTE AI TOP ATOM review: fit for local AI work - NeoTeo",
+   "title": "Going deep on local AI performance benchmarking with Apple’s Mac Studio with M5 Ultra taking on Nvidia DGX Spark — inference engine recipes mandatory for bigger models as MLX stack matures - Tom's Hardware",
+   "source": "Tom's Hardware",
+   "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxOUWxEcFlxTHlIUVY2UjlCSUlwaTNqdVhhTVJfeXNlRy16c1ZQTlc1YlZkS2djbzVMSEkxZVBxWVYwUkJzNC1XYjMwYWhYZ25CUzlkVkJiMUgtS2Nnc1QzbV95cnptaWVENDlzU1paeHZQdVdJUTk2M0txTmFlYmQyX0Z3dl9sMmlQNkdkZkk5ZV9aWjl0UW9aYmpsUU5SanRfVGVkVk52cmFtN2w4Mkx1aUtqMFdZUWFxdHpGTkFqNmpsbXFEUEVGM3FLY1hJMUZJMENTNTEwa01seFpFWUJyVTZ3ejBJaGhhcm56VUVsSVJSTTA3Tno0dHVZeGdiMXYwb0VzUmE5LTRzdWFpR21MOUxaVVZWclc2N2wxSkxVTmsyekE4UHgzUDdxRW93dW05MkdNUl9LMA?oc=5",
+   "date": "2026-11-10 21:20",
+   "publishedAt": "2026-11-10T21:20:00+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "開箱評測",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Going deep on local AI performance benchmarking with Apple’s Mac Studio with M5 Ultra taking on Nvidia DGX Spark — inference engine recipes mandatory for bigger models as MLX stack matures - Tom's Hardware",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Going deep on local AI performance benchmarking with Apple’s Mac Studio with M5 Ultra taking on Nvidia DGX Spark",
+   "source": "Tom's Hardware",
+   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/going-deep-on-local-ai-performance-with-apples-mac-studio-with-m5-ultra-inference-engine-recipes-mandatory-for-bigger-models-as-mlx-stack-matures",
+   "date": "2026-11-10 21:20",
+   "publishedAt": "2026-11-10T21:20:00+08:00",
+   "summary": "But if you're thinking about dropping over $10K for the purpose of building a local AI inference setup, is a Mac Studio right for you?",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "開箱評測",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "https://cdn.mos.cms.futurecdn.net/cQvGBkLhPr3bqUgHqWty7E-1920-80.jpg",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Going deep on local AI performance benchmarking with Apple’s Mac Studio with M5 Ultra taking on Nvidia DGX Spark",
+     "summary": "But if you're thinking about dropping over $10K for the purpose of building a local AI inference setup, is a Mac Studio right for you?"
+    }
+   }
+  },
+  {
+   "title": "GIGABYTE AI TOP ATOM review: local AI workload fit - NeoTeo",
    "source": "NeoTeo",
    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNdXRSMnhoZkMxc3B4UmRleTY3X0ZzNjJEeXV2NlBPNkhTX0p0MUszemFMbksyb1dWdUdZeTRyR1U2bFB6LVNNZHJsai1qNzZXZE9LYnJBZE9hU2Z1aDFkOEN1UURadHNvdzBVWlJFSjJYaGJnVFNkSFQybHl0ckdxVg?oc=5",
-   "date": "2026-11-09 20:37",
-   "publishedAt": "2026-11-09T20:37:02+08:00",
+   "date": "2026-11-09 20:01",
+   "publishedAt": "2026-11-09T20:01:05+08:00",
    "summary": "",
    "models": [
     "AI TOP ATOM"
@@ -81,7 +143,7 @@
     "gigabyte"
    ],
    "press": false,
-   "heat": 28,
+   "heat": 25,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -92,132 +154,7 @@
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "GIGABYTE AI TOP ATOM review: fit for local AI work - NeoTeo",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Amazon closed an AI educator's account after he ordered seven Nvidia DGX Spark mini-PCs, and Tim Sweeney says his GPU orders were canceled too - MLQ.ai",
-   "source": "MLQ.ai",
-   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQemNHeFoxWWMwdzlPbXBzUjh3ano0VmtOSkl5RFVKa19odXJJXzdfNFZqNzhZYlNJRVNMR0g4YkdlNjY3Sm9uUjZTeWhmNl9DUS1Lb2pCZmJFYzV3X2U5SjBsM2JjYnZ6QUgwSzVzdUVVQjd5Q0NEcGRkbEJsVzJnb0VOQUxIcXNGZ3JvMW1mSVYxOVVHc1owV1VGNEFqQ3ZSZEJtZUxiTjUza2RHaE9CNXNBdmw0Y3VqYk9YcmU3SlYwYUM4TVRBa1c1Q3BXRk5laUk0dFRVME5taExnbUZsb2U5a00tOWJ0b2ZUQTBycG5fSFU?oc=5",
-   "date": "2026-11-08 20:56",
-   "publishedAt": "2026-11-08T20:56:01+08:00",
-   "summary": "",
-   "models": [
-    "DGX Spark"
-   ],
-   "tag": "價格上市",
-   "camps": [
-    "nvidia"
-   ],
-   "press": false,
-   "heat": 9,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Amazon closed an AI educator's account after he ordered seven Nvidia DGX Spark mini-PCs, and Tim Sweeney says his GPU orders were canceled too - MLQ.ai",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "DGX Spark A Grace Blackwell AI Supercomputer on your desk",
-   "source": "NVIDIA DGX Spark",
-   "url": "https://www.nvidia.com/en-us/products/workstations/dgx-spark/",
-   "date": "2026-11-07 13:03",
-   "publishedAt": "2026-11-07T13:03:31.627226+08:00",
-   "summary": "",
-   "models": [
-    "DGX Spark",
-    "Grace Blackwell"
-   ],
-   "tag": "官方發布",
-   "camps": [
-    "nvidia"
-   ],
-   "press": true,
-   "heat": 12,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "DGX Spark A Grace Blackwell AI Supercomputer on your desk",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "DGX Station Desktop AI supercomputer for scalable model training and development",
-   "source": "NVIDIA DGX Spark",
-   "url": "https://www.nvidia.com/en-us/products/workstations/dgx-station/",
-   "date": "2026-11-07 13:03",
-   "publishedAt": "2026-11-07T13:03:31.627226+08:00",
-   "summary": "",
-   "models": [
-    "DGX Station"
-   ],
-   "tag": "官方發布",
-   "camps": [
-    "other"
-   ],
-   "press": true,
-   "heat": 12,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "DGX Station Desktop AI supercomputer for scalable model training and development",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Browse DGX Spark Playbooks",
-   "source": "NVIDIA DGX Spark",
-   "url": "http://build.nvidia.com/spark",
-   "date": "2026-11-07 13:03",
-   "publishedAt": "2026-11-07T13:03:31.627226+08:00",
-   "summary": "",
-   "models": [
-    "DGX Spark"
-   ],
-   "tag": "官方發布",
-   "camps": [
-    "nvidia"
-   ],
-   "press": true,
-   "heat": 4,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Browse DGX Spark Playbooks",
+     "title": "GIGABYTE AI TOP ATOM review: local AI workload fit - NeoTeo",
      "summary": ""
     }
    }

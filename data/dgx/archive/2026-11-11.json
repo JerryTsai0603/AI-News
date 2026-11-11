@@ -1,0 +1,163 @@
+{
+ "channel": "dgx",
+ "version": "v26",
+ "fetchedAt": "2026-11-11T13:24:05.214199+08:00",
+ "edition": "2026-11-11",
+ "count": 4,
+ "languages": [
+  "zh-TW",
+  "zh-CN",
+  "en",
+  "ja",
+  "ko",
+  "de",
+  "es",
+  "fr",
+  "it"
+ ],
+ "byGroup": {
+  "asus": 0,
+  "acer": 0,
+  "hp": 0,
+  "msi": 0,
+  "dell": 0,
+  "lenovo": 0,
+  "gigabyte": 1,
+  "microsoft": 0,
+  "nvidia": 3
+ },
+ "byLine": {},
+ "items": [
+  {
+   "title": "Just One More DGX Spark, Bro 🐋 | Local AI in 25 Seconds",
+   "source": "YouTube · Studio Seki",
+   "url": "https://www.youtube.com/watch?v=U_rLSg1CMS4",
+   "date": "2026-11-11 12:55",
+   "publishedAt": "2026-11-11T12:55:02+08:00",
+   "summary": "it starts with one DGX Spark. the model doesn't fit, so you get one more. then one for video. then \"ok, last one\". then a new model drops. no video model here. the whole thing is one three.js scene wr",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "影片",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 90,
+   "image": "https://i.ytimg.com/vi/U_rLSg1CMS4/mqdefault.jpg",
+   "views": 1168,
+   "comments": 2,
+   "dupes": 23,
+   "also": [
+    "YouTube · Panutat Tejasen",
+    "YouTube · Epower Ai數位員工",
+    "YouTube · シンオン株式会社 (Synon,Inc) 公式",
+    "YouTube · בינה מלאכותית | AI | סייבר - הקהילה של אור",
+    "YouTube · 究極完全体ガジェモン@ガジェットニュース速報",
+    "YouTube · RuntimeWire"
+   ],
+   "lines": [],
+   "score": 18,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Just One More DGX Spark, Bro 🐋 | Local AI in 25 Seconds",
+     "summary": "it starts with one DGX Spark. the model doesn't fit, so you get one more. then one for video. then \"ok, last one\". then a new model drops. no video model here. the whole thing is one three.js scene wr"
+    }
+   }
+  },
+  {
+   "title": "Going deep on local AI performance benchmarking with Apple’s Mac Studio with M5 Ultra taking on Nvidia DGX Spark — inference engine recipes mandatory for bigger models as MLX stack matures - Tom's Hardware",
+   "source": "Tom's Hardware",
+   "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxOUWxEcFlxTHlIUVY2UjlCSUlwaTNqdVhhTVJfeXNlRy16c1ZQTlc1YlZkS2djbzVMSEkxZVBxWVYwUkJzNC1XYjMwYWhYZ25CUzlkVkJiMUgtS2Nnc1QzbV95cnptaWVENDlzU1paeHZQdVdJUTk2M0txTmFlYmQyX0Z3dl9sMmlQNkdkZkk5ZV9aWjl0UW9aYmpsUU5SanRfVGVkVk52cmFtN2w4Mkx1aUtqMFdZUWFxdHpGTkFqNmpsbXFEUEVGM3FLY1hJMUZJMENTNTEwa01seFpFWUJyVTZ3ejBJaGhhcm56VUVsSVJSTTA3Tno0dHVZeGdiMXYwb0VzUmE5LTRzdWFpR21MOUxaVVZWclc2N2wxSkxVTmsyekE4UHgzUDdxRW93dW05MkdNUl9LMA?oc=5",
+   "date": "2026-11-10 21:20",
+   "publishedAt": "2026-11-10T21:20:00+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "開箱評測",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Going deep on local AI performance benchmarking with Apple’s Mac Studio with M5 Ultra taking on Nvidia DGX Spark — inference engine recipes mandatory for bigger models as MLX stack matures - Tom's Hardware",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Going deep on local AI performance benchmarking with Apple’s Mac Studio with M5 Ultra taking on Nvidia DGX Spark",
+   "source": "Tom's Hardware",
+   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/going-deep-on-local-ai-performance-with-apples-mac-studio-with-m5-ultra-inference-engine-recipes-mandatory-for-bigger-models-as-mlx-stack-matures",
+   "date": "2026-11-10 21:20",
+   "publishedAt": "2026-11-10T21:20:00+08:00",
+   "summary": "But if you're thinking about dropping over $10K for the purpose of building a local AI inference setup, is a Mac Studio right for you?",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "開箱評測",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "https://cdn.mos.cms.futurecdn.net/cQvGBkLhPr3bqUgHqWty7E-1920-80.jpg",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Going deep on local AI performance benchmarking with Apple’s Mac Studio with M5 Ultra taking on Nvidia DGX Spark",
+     "summary": "But if you're thinking about dropping over $10K for the purpose of building a local AI inference setup, is a Mac Studio right for you?"
+    }
+   }
+  },
+  {
+   "title": "GIGABYTE AI TOP ATOM review: local AI workload fit - NeoTeo",
+   "source": "NeoTeo",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNdXRSMnhoZkMxc3B4UmRleTY3X0ZzNjJEeXV2NlBPNkhTX0p0MUszemFMbksyb1dWdUdZeTRyR1U2bFB6LVNNZHJsai1qNzZXZE9LYnJBZE9hU2Z1aDFkOEN1UURadHNvdzBVWlJFSjJYaGJnVFNkSFQybHl0ckdxVg?oc=5",
+   "date": "2026-11-09 20:01",
+   "publishedAt": "2026-11-09T20:01:05+08:00",
+   "summary": "",
+   "models": [
+    "AI TOP ATOM"
+   ],
+   "tag": "開箱評測",
+   "camps": [
+    "gigabyte"
+   ],
+   "press": false,
+   "heat": 25,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 2,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "GIGABYTE AI TOP ATOM review: local AI workload fit - NeoTeo",
+     "summary": ""
+    }
+   }
+  }
+ ]
+}
