@@ -1,9 +1,9 @@
 {
  "channel": "dgx",
  "version": "v26",
- "fetchedAt": "2026-11-11T13:24:05.214199+08:00",
- "edition": "2026-11-11",
- "count": 4,
+ "fetchedAt": "2026-11-12T13:28:54.545595+08:00",
+ "edition": "2026-11-12",
+ "count": 5,
  "languages": [
   "zh-TW",
   "zh-CN",
@@ -24,17 +24,17 @@
   "lenovo": 0,
   "gigabyte": 1,
   "microsoft": 0,
-  "nvidia": 3
+  "nvidia": 4
  },
  "byLine": {},
  "items": [
   {
-   "title": "Just One More DGX Spark, Bro 🐋 | Local AI in 25 Seconds",
-   "source": "YouTube · Studio Seki",
-   "url": "https://www.youtube.com/watch?v=U_rLSg1CMS4",
-   "date": "2026-11-11 12:55",
-   "publishedAt": "2026-11-11T12:55:02+08:00",
-   "summary": "it starts with one DGX Spark. the model doesn't fit, so you get one more. then one for video. then \"ok, last one\". then a new model drops. no video model here. the whole thing is one three.js scene wr",
+   "title": "Qwen3.8-27B-NVFP4: Four different Builds, one model (NVIDIA, UNSLOTH, INFERACT, Passing by Pixels)",
+   "source": "YouTube · Gepetto | Local AI Engineering",
+   "url": "https://www.youtube.com/watch?v=zmFTC2rExWE",
+   "date": "2026-11-12 13:15",
+   "publishedAt": "2026-11-12T13:15:38+08:00",
+   "summary": "This Video is a PART of EP10, Project Gepetto Full Video on my Channel FULL Video: EP10: Qwen3.8-27B on NVIDIA DGX Spark: 4 Builds Tested — Why Benchmarks Aren't Enough Project Gepetto How different a",
    "models": [
     "DGX Spark"
    ],
@@ -43,26 +43,88 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 90,
-   "image": "https://i.ytimg.com/vi/U_rLSg1CMS4/mqdefault.jpg",
-   "views": 1168,
-   "comments": 2,
-   "dupes": 23,
+   "heat": 100,
+   "image": "https://i.ytimg.com/vi/zmFTC2rExWE/mqdefault.jpg",
+   "views": 36717,
+   "comments": 54,
+   "dupes": 24,
    "also": [
-    "YouTube · Panutat Tejasen",
-    "YouTube · Epower Ai數位員工",
-    "YouTube · シンオン株式会社 (Synon,Inc) 公式",
-    "YouTube · בינה מלאכותית | AI | סייבר - הקהילה של אור",
-    "YouTube · 究極完全体ガジェモン@ガジェットニュース速報",
-    "YouTube · RuntimeWire"
+    "YouTube · Token Talk",
+    "YouTube · VisionX Lab",
+    "YouTube · ASUS México",
+    "YouTube · Alex Hitt",
+    "YouTube · Suntiwong Sahairak",
+    "YouTube · Alex Ziskind"
    ],
    "lines": [],
-   "score": 18,
+   "score": 1196,
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "Just One More DGX Spark, Bro 🐋 | Local AI in 25 Seconds",
-     "summary": "it starts with one DGX Spark. the model doesn't fit, so you get one more. then one for video. then \"ok, last one\". then a new model drops. no video model here. the whole thing is one three.js scene wr"
+     "title": "Qwen3.8-27B-NVFP4: Four different Builds, one model (NVIDIA, UNSLOTH, INFERACT, Passing by Pixels)",
+     "summary": "This Video is a PART of EP10, Project Gepetto Full Video on my Channel FULL Video: EP10: Qwen3.8-27B on NVIDIA DGX Spark: 4 Builds Tested — Why Benchmarks Aren't Enough Project Gepetto How different a"
+    }
+   }
+  },
+  {
+   "title": "Apple’s Mac Studio with M5 Ultra challenges Nvidia DGX Spark clusters in local AI tests - news.lavx.hu",
+   "source": "news.lavx.hu",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPU3Z6UUlWUy1JRGkwSkotLTQ2N01ZNkFsWWlkNF85WkNUeEVtdGJwdVdaZXVwd2w2TzdiWDFWU0FfZWZ5VWNYTV9KT0JiVFFRRFJJYkFvVU5QYUg5RDY5bkhIcVRRRUViNmdIYWpZaEdSa3FVMDd5VExtLXNsTFR3T2c1ZTV4SXdvbkowMTJTUGZnM0FxTS1WSlBQdjY1VGxWWTBZUGVQYktSbFF5OEZ6ekE3Wkhsb0U?oc=5",
+   "date": "2026-11-11 16:09",
+   "publishedAt": "2026-11-11T16:09:19+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "應用案例",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 20,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Apple’s Mac Studio with M5 Ultra challenges Nvidia DGX Spark clusters in local AI tests - news.lavx.hu",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Vocare Trains Care Worker Speech AI In-House on GIGABYTE AI TOP ATOM From XENON - EIN News",
+   "source": "EIN News",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQb0FwYVh5R3hNWTdMZVRxeHpRLWtZYUNsVEpjckVUOTZBeDZfc1N6dzJndmhlWDhoejFMbHFXS3ZGRWJIUHFKVWYxcGlKM3hpVWoxaTV0RnhHUUVPakJZS0xsbHBqaDktMzJaOEJlblJ6SHZPMTNvT2JIUXJ1Uk5WallaRXRSQWV0NG9Nb1pSQTZONXRIT2lrSEU1dUhEZW9tQWFKd2RqLTY1dXM5YzFiR0h3WXhxOHZwdXBlZXpB?oc=5",
+   "date": "2026-11-11 13:50",
+   "publishedAt": "2026-11-11T13:50:00+08:00",
+   "summary": "",
+   "models": [
+    "AI TOP ATOM"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "gigabyte"
+   ],
+   "press": false,
+   "heat": 11,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Vocare Trains Care Worker Speech AI In-House on GIGABYTE AI TOP ATOM From XENON - EIN News",
+     "summary": ""
     }
    }
   },
@@ -81,7 +143,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 12,
+   "heat": 9,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -112,7 +174,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 12,
+   "heat": 9,
    "image": "https://cdn.mos.cms.futurecdn.net/cQvGBkLhPr3bqUgHqWty7E-1920-80.jpg",
    "views": 0,
    "comments": 0,
@@ -125,37 +187,6 @@
     "en": {
      "title": "Going deep on local AI performance benchmarking with Apple’s Mac Studio with M5 Ultra taking on Nvidia DGX Spark",
      "summary": "But if you're thinking about dropping over $10K for the purpose of building a local AI inference setup, is a Mac Studio right for you?"
-    }
-   }
-  },
-  {
-   "title": "GIGABYTE AI TOP ATOM review: local AI workload fit - NeoTeo",
-   "source": "NeoTeo",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNdXRSMnhoZkMxc3B4UmRleTY3X0ZzNjJEeXV2NlBPNkhTX0p0MUszemFMbksyb1dWdUdZeTRyR1U2bFB6LVNNZHJsai1qNzZXZE9LYnJBZE9hU2Z1aDFkOEN1UURadHNvdzBVWlJFSjJYaGJnVFNkSFQybHl0ckdxVg?oc=5",
-   "date": "2026-11-09 20:01",
-   "publishedAt": "2026-11-09T20:01:05+08:00",
-   "summary": "",
-   "models": [
-    "AI TOP ATOM"
-   ],
-   "tag": "開箱評測",
-   "camps": [
-    "gigabyte"
-   ],
-   "press": false,
-   "heat": 25,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 2,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "GIGABYTE AI TOP ATOM review: local AI workload fit - NeoTeo",
-     "summary": ""
     }
    }
   }

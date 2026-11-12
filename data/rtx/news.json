@@ -1,9 +1,9 @@
 {
  "channel": "rtx",
  "version": "v26",
- "fetchedAt": "2026-11-11T13:22:27.957267+08:00",
- "edition": "2026-11-11",
- "count": 18,
+ "fetchedAt": "2026-11-12T13:27:29.085188+08:00",
+ "edition": "2026-11-12",
+ "count": 25,
  "languages": [
   "zh-TW",
   "zh-CN",
@@ -19,15 +19,364 @@
   "asus": 2,
   "acer": 0,
   "hp": 2,
-  "msi": 0,
+  "msi": 1,
   "dell": 0,
-  "lenovo": 4,
-  "gigabyte": 6,
-  "microsoft": 0,
-  "nvidia": 2
+  "lenovo": 3,
+  "gigabyte": 12,
+  "microsoft": 1,
+  "nvidia": 3
  },
  "byLine": {},
  "items": [
+  {
+   "title": "My NVIDIA RTX Spark Experience at Adobe MAX 2026",
+   "source": "YouTube · Jake In Motion",
+   "url": "https://www.youtube.com/watch?v=Dcbja2gPFhI",
+   "date": "2026-11-12 12:35",
+   "publishedAt": "2026-11-12T12:35:45+08:00",
+   "summary": "The NVIDIA RTX Spark experience at Adobe MAX was so much fun! I got to sketch a character in Photoshop and bring him to life using 100% local AI models on NVIDIA's new line of RTX Spark laptops, with ",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "影片",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 100,
+   "image": "https://i.ytimg.com/vi/Dcbja2gPFhI/mqdefault.jpg",
+   "views": 218010,
+   "comments": 309,
+   "dupes": 63,
+   "also": [
+    "YouTube · 深智數位 IT Inside Out",
+    "YouTube · The Bulldog Tech",
+    "YouTube · TelloTech",
+    "YouTube · Max Herrera",
+    "YouTube · PC-GamerNews",
+    "YouTube · Bartolo Illiano"
+   ],
+   "lines": [],
+   "score": 4372,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "My NVIDIA RTX Spark Experience at Adobe MAX 2026",
+     "summary": "The NVIDIA RTX Spark experience at Adobe MAX was so much fun! I got to sketch a character in Photoshop and bring him to life using 100% local AI models on NVIDIA's new line of RTX Spark laptops, with "
+    }
+   }
+  },
+  {
+   "title": "Gigabyte AI TOP AERO: RTX Spark Mini PC with 128 GB for local AI on Windows 11 - Basic Tutorials",
+   "source": "Basic Tutorials",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbElobzBCWVU1cWFXMHU4UGhTU1d6RW01NUp2OGtfZEc4WmFSRlZnTmgtcVVPWVpQMkQzd1ZRWUNPY2JmR0R0bjBKM21tdG1iM2FFbndDZlBra3RxNzdBOUxSRllsR2h5cS1ISEhUc1NoX2VIVUhQUEJvdDlKZW9zeXp1a0hucWFvVXdjMUdpeThmR2JNQ1NCNERNMmJoNm9Ibm5LM3VCRFAteExIT3ZCTA?oc=5",
+   "date": "2026-11-12 11:52",
+   "publishedAt": "2026-11-12T11:52:05+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "gigabyte"
+   ],
+   "press": false,
+   "heat": 31,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 2,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Gigabyte AI TOP AERO: RTX Spark Mini PC with 128 GB for local AI on Windows 11 - Basic Tutorials",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Gigabyte launches 1-liter AI mini PC with Nvidia RTX Spark chip and up to 4TB SSD - Gizmochina",
+   "source": "Gizmochina",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMl9hWW81TU05Z1NnZ3lBcWVGY1B3dWJ4RWpxOXhLTkQyTUlGaVFlbkpfWVhaT2xPekhnejJvYlFLclFPdVhUOWJHTTNaeEstSWNpVjh2RzNLbm41MU9HU1lFZkFrWFNZaFhISHpwLVRoN2xLbzUtNjl1TmdqQkNCWW5PaFRoaGUzcjBibGFWTmN4dw?oc=5",
+   "date": "2026-11-12 07:23",
+   "publishedAt": "2026-11-12T07:23:06+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "gigabyte"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Gigabyte launches 1-liter AI mini PC with Nvidia RTX Spark chip and up to 4TB SSD - Gizmochina",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "技嘉推出1公升AI迷你桌機AI Top Aero，搭載輝達RTX Spark、最高128 GB統一記憶體 - BigGo 財經",
+   "source": "BigGo 財經",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBlODF0Wk5Mb25kRmpFZHByTUl3SUNiS2NEVUNyRHVlZXdwemxpZDIzblVSamZKU2ZwVkVlSk5nOEVwV01PX1c2NU1XSmRHVEZwbWxsa083UXQxdllJVUF0WHlGdUNyV1JPS25GdGFyMkNhWHNuSnlxQTJn?oc=5",
+   "date": "2026-11-12 01:55",
+   "publishedAt": "2026-11-12T01:55:00+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "gigabyte"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "技嘉推出1公升AI迷你桌機AI Top Aero，搭載輝達RTX Spark、最高128 GB統一記憶體 - BigGo 財經",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "NVIDIA Does It: Launching RTX Spark—Is This the Moment to Threaten Apple Silicon on Windows PCs? - آي-فون إسلام",
+   "source": "آي-فون إسلام",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQN2pVaW9vbEM1dEkzYVNncFBJM0RzMkROYzIyYUJlSmp6NXM5Z1B0NTNpcGFueS1XUWE0LVJMRHU5ZURMZ2xKVzhEaFlGMDY3Q2RTb21xN3N1VkNCbDR1Z3RfWC11SkptdF9jMjdEb2ZpcFQ4VThmQzJhSVRWRExYaWxHbEJISjQ4Vnd3aDRVMGt3N2pZdHZRLXVLRWhVVlM4RGxQZnpkSGZia0c4US1pM0F1MVhoc29DbmxVYjJQTVJMMjVGNnRXbjIwQ1BjUjNROFVHMEo2S0VIZEpGQXc?oc=5",
+   "date": "2026-11-12 01:43",
+   "publishedAt": "2026-11-12T01:43:34+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 29,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 2,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "NVIDIA Does It: Launching RTX Spark—Is This the Moment to Threaten Apple Silicon on Windows PCs? - آي-فون إسلام",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "技嘉AI TOP AERO正式亮相！NVIDIA RTX Spark搭載20核心CPU、128GB統一記憶體，1公升迷你主機支援DLSS 5 - XFastest News",
+   "source": "XFastest News",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOUU8zcGJjVzhGQVFMZzFZRWxyU1ZIMzU5VDllR1JQeVlKYUloeFNKUk1aRUY4QnZBS2dJbHJ1RXQ4WmZWN0hmdTlSN0luMmx4RjN3Qk5mR3llSlNRM3V1bXhzZ1hsa3Q1TTEya3M0SjRMWkZKRERVRHJYeGJyQlpjUmcyRU1KaGxVXzA4?oc=5",
+   "date": "2026-11-12 00:49",
+   "publishedAt": "2026-11-12T00:49:58+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "gigabyte"
+   ],
+   "press": false,
+   "heat": 21,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "技嘉AI TOP AERO正式亮相！NVIDIA RTX Spark搭載20核心CPU、128GB統一記憶體，1公升迷你主機支援DLSS 5 - XFastest News",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Gigabyte just launched an Nvidia RTX Spark mini PC, packing 128GB of RAM - Club386",
+   "source": "Club386",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBvVnZaUW5FWDMtZ3FuS1VqR1FQb0p4b1VlNVh1RlhkMWdYNmpCSVZncjJWU1NXYTRXUVpUdTNNM2IxLWI5ZHFmMEZPUmZxSlgzeVRrVWZvSjlqaGJLTXZfQl9FRHR5UmFYM0E?oc=5",
+   "date": "2026-11-12 00:31",
+   "publishedAt": "2026-11-12T00:31:32+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "gigabyte"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Gigabyte just launched an Nvidia RTX Spark mini PC, packing 128GB of RAM - Club386",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "GIGABYTE launches 1-liter NVIDIA RTX Spark desktop with DLSS 5 - VideoCardz.com",
+   "source": "VideoCardz.com",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNM21vcG9kMXlTdGRVcDhrRXJHaXVVMHowWkk4a2d2Y01TRkF4aEk5WEdIdkpocWhSM29XbWttbHdWVFZDNDh3bmZjTzYzVEpERjcydzhhMlBuRVF2d2lsdm1qX3UtdjRCQzRKZTRTaGN3Wmh1U09UdDJGRFVEUjdCTm53RmZnbTN4OU1Ra1Q0LUNIOG8t?oc=5",
+   "date": "2026-11-11 22:30",
+   "publishedAt": "2026-11-11T22:30:53+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "gigabyte"
+   ],
+   "press": false,
+   "heat": 21,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "GIGABYTE launches 1-liter NVIDIA RTX Spark desktop with DLSS 5 - VideoCardz.com",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Adobe expands Windows on Arm support with InCopy, InDesign, and NVIDIA RTX Spark - Neowin",
+   "source": "Neowin",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYXJkSnlkQmtGU2J4Q1ZubUlrVFBPSGhIdloyUVZDeGR2RVF5LW8zUnlzRmhFelFuczRYLUJqbFdoT0RXWlZJR2NPTnhob3JBTnVndkFDZ1g5Z3JHOXVKMjR0SG9DVTF5WmtyMEpta1NHYjFMQTdVUXVkOWcydjhXR1BHT2RuMG5jbGVQNUd6a05XZ05WdlotOXlMelh2bkJhdGMtcEczNzREdVk?oc=5",
+   "date": "2026-11-11 22:30",
+   "publishedAt": "2026-11-11T22:30:00+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark",
+    "Windows on Arm"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 21,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Adobe expands Windows on Arm support with InCopy, InDesign, and NVIDIA RTX Spark - Neowin",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "MSI releases new compact desktop PC with Nvidia RTX Spark and 6,144 CUDA cores - Notebookcheck",
+   "source": "Notebookcheck",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPR2hwcW9odERDcklLRDZzRHZpekUzNVpOVU9xQ2FOa3o2NFZ4bGtDaHJ3MTdTRW9Ic3FmR2Z5V0hLbWpiQW5oaW0yc1hzUFQ3MW1xRkxRRnZpcTBUNk5vTTNnRWxsaFdhaGlPbUQtQXRsd0s4eTRjQWtUbjF1ZDJnc25kZXV4MEFEbTl6YlRqVGljS2hQTlhGNHBsbi1IZE5rSS01OTVyWnpiMDhyRnBEZ3AyZ05jYVFnUUhIRnpFcDM?oc=5",
+   "date": "2026-11-11 19:23",
+   "publishedAt": "2026-11-11T19:23:00+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "msi"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "MSI releases new compact desktop PC with Nvidia RTX Spark and 6,144 CUDA cores - Notebookcheck",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "We Saw an AI Agent Run Photoshop on the NVIDIA RTX Spark Surface | Adobe MAX - The Economic Times",
+   "source": "The Economic Times",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPSFVKVV9RWFBvZ2N2dkExUmxvc3EzLVcwcnN1bV9mZWJFMGNvV2ROOXBCVWFmTUE5M0h5OGpQMTVRWUVyMmRUR19XZFI5VWdEWE90UEM2ZnY5eENwcUNGMThnaWFRX05KQ3c4Yk9tNFlwNmQ4d2RZOHc1a0ZhWnU3NFlBMm1YZHZQMW5lelRlQ3hyZmxZaUtnNTgtdTdwMzVwcTNCbzlldk1yNjBfYUIyZUdTM3E5amhfUUsyT0dZOTdMdW5BcEktb254UXZPZG9jTlpJaDJQei1Dbk5h0gHiAUFVX3lxTE1JLVRzUTJJeUQxMXRUaTM5a080emtmTWtvUmRTNVlURklCVWFpX1Q4ZGwybXlKN0gyVWJ4SjE3REt4VTBndTZqRVJ1d0N0UjMwbnBaNDNvbEdlSUVPSkx1SFNCeTRjbEFKa0pYcFlDSEJTMFoyY0R1OUhvY0c4dG5zUzNQNlVsUzZpNmdXZjY0blNtaC0zU2taX0JZYjBwX3pLcVpHcEkyR2JEOUZpN3FORDJQMlBJSjUweURBVjd6dTNtclhwbHpxbGJoYWtZRnJLSmVIQ213MkZNaDU5QzZvLXc?oc=5",
+   "date": "2026-11-11 18:41",
+   "publishedAt": "2026-11-11T18:41:15+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "microsoft"
+   ],
+   "press": false,
+   "heat": 20,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "We Saw an AI Agent Run Photoshop on the NVIDIA RTX Spark Surface | Adobe MAX - The Economic Times",
+     "summary": ""
+    }
+   }
+  },
   {
    "title": "技嘉 AI TOP AERO 上市！搭載 NVIDIA RTX Spark、最高 128GB 記憶體，支援地端 AI 運算 - 三嘻行動哇 Yipee!",
    "source": "三嘻行動哇 Yipee!",
@@ -43,7 +392,7 @@
     "gigabyte"
    ],
    "press": false,
-   "heat": 23,
+   "heat": 19,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -56,44 +405,6 @@
     "zh-TW": {
      "title": "技嘉 AI TOP AERO 上市！搭載 NVIDIA RTX Spark、最高 128GB 記憶體，支援地端 AI 運算 - 三嘻行動哇 Yipee!",
      "summary": ""
-    }
-   }
-  },
-  {
-   "title": "RTX Spark laptop for gaming?",
-   "source": "YouTube · Frazdigital.",
-   "url": "https://www.youtube.com/watch?v=rSdEbJ86FcQ",
-   "date": "2026-11-11 12:18",
-   "publishedAt": "2026-11-11T12:18:19+08:00",
-   "summary": "RTX spark laptops are good",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "影片",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "heat": 100,
-   "image": "https://i.ytimg.com/vi/rSdEbJ86FcQ/mqdefault.jpg",
-   "views": 138367,
-   "comments": 242,
-   "dupes": 50,
-   "also": [
-    "YouTube · Laptop Hưng Phát",
-    "YouTube · PC PRO KH ",
-    "YouTube · ASUS USA",
-    "YouTube · The Bulldog Tech",
-    "YouTube · Max Herrera",
-    "YouTube · NextGen Scoop"
-   ],
-   "lines": [],
-   "score": 3101,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "RTX Spark laptop for gaming?",
-     "summary": "RTX spark laptops are good"
     }
    }
   },
@@ -112,7 +423,7 @@
     "other"
    ],
    "press": false,
-   "heat": 15,
+   "heat": 11,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -144,7 +455,7 @@
     "lenovo"
    ],
    "press": false,
-   "heat": 22,
+   "heat": 18,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -156,6 +467,37 @@
    "i18n": {
     "en": {
      "title": "Lenovo Unveils \"IdeaPad Vibe Gen 12\" with 7 Color Options and \"Yoga 9n 2-in-1 Gen 11\" Featuring RTX Spark - ASCII.jp",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "MSI發表首款搭載NVIDIA RTX Spark筆電 性能特色一次看 - 三立新聞網SETN.com",
+   "source": "三立新聞網SETN.com",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9iZmJLaEpmMWpJQzJ1Rmg4My1VVGdHTWo1Y0JYZ1hPVFotM2ctamVYaGo1YndieXRYUG9vSHJXQlJnWEtZY0FucdIBTEFVX3lxTFBkMlEyU2RIMU9HUFUyMGptU2JkS202c2xEa1IzZGZYSFhYRElmNl9ndE5INWNzTVM3d0tFSTd1Y3JteWdkcER1MV9ReVY?oc=5",
+   "date": "2026-11-11 08:27",
+   "publishedAt": "2026-11-11T08:27:46+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 18,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "MSI發表首款搭載NVIDIA RTX Spark筆電 性能特色一次看 - 三立新聞網SETN.com",
      "summary": ""
     }
    }
@@ -175,7 +517,7 @@
     "gigabyte"
    ],
    "press": false,
-   "heat": 29,
+   "heat": 26,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -206,7 +548,7 @@
     "gigabyte"
    ],
    "press": false,
-   "heat": 13,
+   "heat": 9,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -237,7 +579,7 @@
     "gigabyte"
    ],
    "press": false,
-   "heat": 13,
+   "heat": 9,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -268,7 +610,7 @@
     "gigabyte"
    ],
    "press": false,
-   "heat": 13,
+   "heat": 9,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -299,7 +641,7 @@
     "other"
    ],
    "press": false,
-   "heat": 13,
+   "heat": 9,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -330,7 +672,7 @@
     "gigabyte"
    ],
    "press": false,
-   "heat": 13,
+   "heat": 9,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -362,7 +704,7 @@
     "hp"
    ],
    "press": false,
-   "heat": 20,
+   "heat": 17,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -394,7 +736,7 @@
     "hp"
    ],
    "press": false,
-   "heat": 12,
+   "heat": 9,
    "image": "https://cdn.mos.cms.futurecdn.net/EtVZsD9qwvPhK4dswBjqgE-1920-80.jpg",
    "views": 0,
    "comments": 0,
@@ -425,7 +767,7 @@
     "lenovo"
    ],
    "press": false,
-   "heat": 20,
+   "heat": 16,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -456,7 +798,7 @@
     "lenovo"
    ],
    "press": false,
-   "heat": 28,
+   "heat": 24,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -468,131 +810,6 @@
    "i18n": {
     "en": {
      "title": "Lenovo launches ¥910,000 RTX Spark machine and ¥230,000 seven-color laptop in Japan - BigGo Finance",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "ProArt P16 RTX Spark review: AI and battery results - NeoTeo",
-   "source": "NeoTeo",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZ0Jvb0xNUXJObEd1TEpvbmwxM0V0TzI3REdsb1c4OUI4R2VIS3MwemtucmJxd1JBLWRqMzNwSUpaS3p6aWJmNnJQcjFLS0pKakh2QzBrMEgzLUl4Zy1GQlY1OG9TMFlRTGJ5ZUtISWxWQWpEd2V6UTF0TXRlQlN1ZWx3Ry1Dd28?oc=5",
-   "date": "2026-11-10 12:01",
-   "publishedAt": "2026-11-10T12:01:03+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "開箱評測",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "heat": 19,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "ProArt P16 RTX Spark review: AI and battery results - NeoTeo",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "First deal on NVIDIA RTX Spark Copilot+ PC: Save a whopping $1,300 on Lenovo's Yoga 9n 3K OLED touchscreen 2-in-1 - 9to5Toys",
-   "source": "9to5Toys",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNa3Rkc1VuZUsyUlV2dFQ1dW9ablhPYXRxSlRXR0pvbmxlb1F4MlpZTTc3R3p5eldUUE1CSjUyUDVJaTh3dmJFaklNSXB0cjNxWk5hVHdzU0xIZDBBYklJdExDdVM1YVB2X3NEZUdXNTFrTlFkTlhvQ1JFYWRRQXpyMDN2cUZFLUNZZGg2N2FFUW5WMmVtTVlZY3N6QXNzNlRPM2ZQb3pB?oc=5",
-   "date": "2026-11-09 23:35",
-   "publishedAt": "2026-11-09T23:35:00+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark",
-    "Yoga 9n"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "lenovo"
-   ],
-   "press": false,
-   "heat": 17,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "First deal on NVIDIA RTX Spark Copilot+ PC: Save a whopping $1,300 on Lenovo's Yoga 9n 3K OLED touchscreen 2-in-1 - 9to5Toys",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "NVIDIA Does It: Launching RTX Spark—Is This the Moment to Threaten Apple Silicon on Windows PCs? - آي-فون إسلام",
-   "source": "آي-فون إسلام",
-   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQN2pVaW9vbEM1dEkzYVNncFBJM0RzMkROYzIyYUJlSmp6NXM5Z1B0NTNpcGFueS1XUWE0LVJMRHU5ZURMZ2xKVzhEaFlGMDY3Q2RTb21xN3N1VkNCbDR1Z3RfWC11SkptdF9jMjdEb2ZpcFQ4VThmQzJhSVRWRExYaWxHbEJISjQ4Vnd3aDRVMGt3N2pZdHZRLXVLRWhVVlM4RGxQZnpkSGZia0c4US1pM0F1MVhoc29DbmxVYjJQTVJMMjVGNnRXbjIwQ1BjUjNROFVHMEo2S0VIZEpGQXc?oc=5",
-   "date": "2026-11-09 22:42",
-   "publishedAt": "2026-11-09T22:42:38+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "nvidia"
-   ],
-   "press": false,
-   "heat": 25,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 2,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "NVIDIA Does It: Launching RTX Spark—Is This the Moment to Threaten Apple Silicon on Windows PCs? - آي-فون إسلام",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Apple’s $2,899 MacBook PROLED hides a massive unified memory bottleneck — why I think power users should abandon macOS for Nvidia RTX Spark and AMD Strix Halo - Tom's Guide",
-   "source": "Tom's Guide",
-   "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxPUVFnVjhtSEQwZ1VRaEtpcG0ybTRZOExLazhMN0Rvb1VuR1gzYTFPeDZtcjY2MTZKc0M4V3QtWlpFQmVnWkNTTkRVTHN1S2V5czJhaE04Wl9XR0pBRGhGd0g1XzJ2Nk9yTEVicFNaZTJ3Ti1rZDdPOVR1VWJwM2N3dHVYck1CTzJBRTdhMlZka2pHZlVUa3FCOFhRX3dFV0FJa1VpSjZNdGExUlR2cXJTS29ndVpIWWRZTlJ5Yi1kaGd6ZGxYeDI5bEpMaUEteGgtalhSenpreE55R2wwblVOYTl5ZVlRelUyY2Z5OUZsU0t0UlVPSG56UG4xT1pfbldKWDhxMmNUMEV6UGVVejI2RmFTcDZDeXZQWGtjeHExTGFxdzRlV0xyag?oc=5",
-   "date": "2026-11-09 15:30",
-   "publishedAt": "2026-11-09T15:30:00+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "nvidia"
-   ],
-   "press": false,
-   "heat": 16,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Apple’s $2,899 MacBook PROLED hides a massive unified memory bottleneck — why I think power users should abandon macOS for Nvidia RTX Spark and AMD Strix Halo - Tom's Guide",
      "summary": ""
     }
    }
