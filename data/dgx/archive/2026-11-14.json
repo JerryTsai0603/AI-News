@@ -1,0 +1,101 @@
+{
+ "channel": "dgx",
+ "version": "v26",
+ "fetchedAt": "2026-11-14T13:38:31.359364+08:00",
+ "edition": "2026-11-14",
+ "count": 2,
+ "languages": [
+  "zh-TW",
+  "zh-CN",
+  "en",
+  "ja",
+  "ko",
+  "de",
+  "es",
+  "fr",
+  "it"
+ ],
+ "byGroup": {
+  "asus": 0,
+  "acer": 0,
+  "hp": 0,
+  "msi": 0,
+  "dell": 0,
+  "lenovo": 0,
+  "gigabyte": 0,
+  "microsoft": 0,
+  "nvidia": 2
+ },
+ "byLine": {},
+ "items": [
+  {
+   "title": "Nvidia Tesla P100 Vs Dgx Spark: Memory Bandwidth For Local AI",
+   "source": "YouTube · Kevin Unk Ai",
+   "url": "https://www.youtube.com/watch?v=lwjoymdnqYk",
+   "date": "2026-11-14 13:01",
+   "publishedAt": "2026-11-14T13:01:09+08:00",
+   "summary": "Comment \"Ai\" to learn more, join group or book a Zoom call. Six Tesla P100 16GB cards with HBM2 memory. About $5,700 each when they launched in 2016, about $100 each today when sourced correctly. Here",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "影片",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 100,
+   "image": "https://i.ytimg.com/vi/lwjoymdnqYk/mqdefault.jpg",
+   "views": 64226,
+   "comments": 33,
+   "dupes": 32,
+   "also": [
+    "YouTube · Mrdoolux Cmoi",
+    "YouTube · Tech Wars Daily",
+    "YouTube · Next Token",
+    "YouTube · US Feed Now",
+    "YouTube · KoshariCode",
+    "YouTube · Gepetto | Local AI Engineering"
+   ],
+   "lines": [],
+   "score": 1093,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Nvidia Tesla P100 Vs Dgx Spark: Memory Bandwidth For Local AI",
+     "summary": "Comment \"Ai\" to learn more, join group or book a Zoom call. Six Tesla P100 16GB cards with HBM2 memory. About $5,700 each when they launched in 2016, about $100 each today when sourced correctly. Here"
+    }
+   }
+  },
+  {
+   "title": "NVIDIA DGX Spark Review - Comics Gaming Magazine",
+   "source": "Comics Gaming Magazine",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5BSzY3Y21uNG11QWRLdnI5b2NncFY5QzVCa3Z4YUJZeVIwbHJJdHZKTXRsaDFFX2UxcjA5ejVzdzIwbUJTaHhfbTZRZVpyVnR2X1pfT0lWeFo1OHpFejRyWk1WWGhoRlQtVDVDbnVn?oc=5",
+   "date": "2026-11-13 05:00",
+   "publishedAt": "2026-11-13T05:00:00+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "開箱評測",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 10,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "NVIDIA DGX Spark Review - Comics Gaming Magazine",
+     "summary": ""
+    }
+   }
+  }
+ ]
+}
