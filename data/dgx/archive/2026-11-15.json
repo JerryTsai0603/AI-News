@@ -1,0 +1,132 @@
+{
+ "channel": "dgx",
+ "version": "v26",
+ "fetchedAt": "2026-11-15T13:43:41.608868+08:00",
+ "edition": "2026-11-15",
+ "count": 3,
+ "languages": [
+  "zh-TW",
+  "zh-CN",
+  "en",
+  "ja",
+  "ko",
+  "de",
+  "es",
+  "fr",
+  "it"
+ ],
+ "byGroup": {
+  "asus": 0,
+  "acer": 0,
+  "hp": 0,
+  "msi": 0,
+  "dell": 0,
+  "lenovo": 0,
+  "gigabyte": 0,
+  "microsoft": 0,
+  "nvidia": 3
+ },
+ "byLine": {},
+ "items": [
+  {
+   "title": "【2026年11月】小〜中規模部署のローカルLLM最適解！DGX Spark vs サーバGPU・Qwen・vLLM・OpenWebUI・保守体制まで徹底考察",
+   "source": "YouTube · ゆっくりAI実践ラボ",
+   "url": "https://www.youtube.com/watch?v=NXWbBK2u5tM",
+   "date": "2026-11-15 13:35",
+   "publishedAt": "2026-11-15T13:35:27+08:00",
+   "summary": "2026年11月現在、小〜中規模の部署や会社で「10人同時に使えるローカルLLM環境」を導入するなら何がベストか？ハード（DGX Spark vs サーバ向けGPU）、モデル（Qwen3.5/3.8と他陣営比較）、推論エンジン（vLLM/SGLang）、OpenWebUI＆LiteLLMによるAPI公開、そして保守担当者のリアルまで徹底考察します。 ぜひコメント欄で皆さんの感想や注目しているポイン",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "影片",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 100,
+   "image": "https://i.ytimg.com/vi/NXWbBK2u5tM/mqdefault.jpg",
+   "views": 76731,
+   "comments": 39,
+   "dupes": 33,
+   "also": [
+    "YouTube · Marc Christensen",
+    "YouTube · Neural Stack",
+    "YouTube · Measured Locally",
+    "YouTube · Tech Tips Lab",
+    "YouTube · easyaihowtos",
+    "YouTube · All AI Benchmark"
+   ],
+   "lines": [],
+   "score": 1296,
+   "lang": "ja",
+   "i18n": {
+    "ja": {
+     "title": "【2026年11月】小〜中規模部署のローカルLLM最適解！DGX Spark vs サーバGPU・Qwen・vLLM・OpenWebUI・保守体制まで徹底考察",
+     "summary": "2026年11月現在、小〜中規模の部署や会社で「10人同時に使えるローカルLLM環境」を導入するなら何がベストか？ハード（DGX Spark vs サーバ向けGPU）、モデル（Qwen3.5/3.8と他陣営比較）、推論エンジン（vLLM/SGLang）、OpenWebUI＆LiteLLMによるAPI公開、そして保守担当者のリアルまで徹底考察します。 ぜひコメント欄で皆さんの感想や注目しているポイン"
+    }
+   }
+  },
+  {
+   "title": "This week in Tom's Hardware Premium: November 14, 2026 - Mac Studio vs. DGX Spark, AMD's MEXT and allegations involving Jensen Huang - Mezha.net",
+   "source": "Mezha.net",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAtWGxlaWV0aU5ZaVN5aU41Z20zUGIxYUtwdTZ2YVJwdWs1S2FNd2k4VTZRMjhIM0ttQzBzM1RmZEx5UC02aFVQQjJnNHA1cjd1TmVWMURzOERSVlBBRWFOVTlWTEFNQW1tRXBLNElVMERCbkNBYTlwdW1aNA?oc=5",
+   "date": "2026-11-15 00:05",
+   "publishedAt": "2026-11-15T00:05:54+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "This week in Tom's Hardware Premium: November 14, 2026 - Mac Studio vs. DGX Spark, AMD's MEXT and allegations involving Jensen Huang - Mezha.net",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "This week in Tom's Hardware Premium: November 14, 2026 — Mac Studio versus DGX Spark, AMD's MEXT cuts DRAM requirements in half, and the Huang saga reaches critical mass",
+   "source": "Tom's Hardware",
+   "url": "https://www.tomshardware.com/tech-industry/this-week-in-toms-hardware-premium-november-14-2026-mac-studio-versus-dgx-spark-amds-mext-cuts-dram-requirements-in-half-and-the-huang-saga-reaches-critical-mass",
+   "date": "2026-11-15 00:00",
+   "publishedAt": "2026-11-15T00:00:00+08:00",
+   "summary": "Catch up with everything we've published this week on our subscription service, Tom's Hardware Premium, including exclusive interviews, local AI deep dives, and much more.",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "https://cdn.mos.cms.futurecdn.net/pf5brSWLeHYxEan3spiqvT-1920-80.jpg",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "This week in Tom's Hardware Premium: November 14, 2026 — Mac Studio versus DGX Spark, AMD's MEXT cuts DRAM requirements in half, and the Huang saga reaches critical mass",
+     "summary": "Catch up with everything we've published this week on our subscription service, Tom's Hardware Premium, including exclusive interviews, local AI deep dives, and much more."
+    }
+   }
+  }
+ ]
+}

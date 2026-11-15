@@ -1,9 +1,9 @@
 {
  "channel": "rtx",
  "version": "v26",
- "fetchedAt": "2026-11-14T13:36:53.862294+08:00",
- "edition": "2026-11-14",
- "count": 18,
+ "fetchedAt": "2026-11-15T13:42:02.597449+08:00",
+ "edition": "2026-11-15",
+ "count": 10,
  "languages": [
   "zh-TW",
   "zh-CN",
@@ -16,25 +16,25 @@
   "it"
  ],
  "byGroup": {
-  "asus": 4,
+  "asus": 1,
   "acer": 0,
-  "hp": 1,
-  "msi": 2,
+  "hp": 0,
+  "msi": 0,
   "dell": 1,
   "lenovo": 0,
   "gigabyte": 3,
-  "microsoft": 4,
-  "nvidia": 3
+  "microsoft": 3,
+  "nvidia": 2
  },
  "byLine": {},
  "items": [
   {
-   "title": "Nvidia RTX Spark: AI прямо на ноутбуке",
-   "source": "YouTube · rotachan",
-   "url": "https://www.youtube.com/watch?v=2RZvcQY-GKE",
-   "date": "2026-11-14 10:59",
-   "publishedAt": "2026-11-14T10:59:34+08:00",
-   "summary": "☝️ Бесплатный разбор по ССЫЛКЕ В ШАПКЕ ПРОФИЛЯ — как использовать AI-агента в небольшой команде. Забирай и смотри пошагово!",
+   "title": "RTX Spark Laptop",
+   "source": "YouTube · muhammad hasseb",
+   "url": "https://www.youtube.com/watch?v=S4LTWvwN_wI",
+   "date": "2026-11-15 13:24",
+   "publishedAt": "2026-11-15T13:24:27+08:00",
+   "summary": "NVIDIA's new RTX Spark laptops pack a Blackwell RTX GPU + Grace CPU superchip with 128GB unified memory and 1 petaflop of AI power - so big AI models and agents run right on your desk, no cloud needed",
    "models": [
     "RTX Spark"
    ],
@@ -44,30 +44,123 @@
    ],
    "press": false,
    "heat": 100,
-   "image": "https://i.ytimg.com/vi/2RZvcQY-GKE/mqdefault.jpg",
-   "views": 291225,
-   "comments": 357,
-   "dupes": 65,
+   "image": "https://i.ytimg.com/vi/S4LTWvwN_wI/mqdefault.jpg",
+   "views": 56777,
+   "comments": 27,
+   "dupes": 53,
    "also": [
-    "YouTube · Futurebyte",
-    "YouTube · The Bulldog Tech",
-    "YouTube · ClipperPrime News",
-    "YouTube · The Truth About",
-    "YouTube · InfoPulse Dharan",
-    "YouTube · Brian Mads"
+    "YouTube · Private VIP IT",
+    "YouTube · Rajesh Tech Zone",
+    "YouTube · JALANDHER PRESENTS",
+    "YouTube · Rob Kerr",
+    "YouTube · Measured Locally",
+    "YouTube · The Bulldog Tech"
    ],
    "lines": [],
-   "score": 5235,
+   "score": 760,
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "Nvidia RTX Spark: AI прямо на ноутбуке",
-     "summary": "☝️ Бесплатный разбор по ССЫЛКЕ В ШАПКЕ ПРОФИЛЯ — как использовать AI-агента в небольшой команде. Забирай и смотри пошагово!"
+     "title": "RTX Spark Laptop",
+     "summary": "NVIDIA's new RTX Spark laptops pack a Blackwell RTX GPU + Grace CPU superchip with 128GB unified memory and 1 petaflop of AI power - so big AI models and agents run right on your desk, no cloud needed"
     }
    }
   },
   {
-   "title": "Dell XPS 16 Creator Edition Review: An RTX Spark Powered Beast - Techaeris",
+   "title": "NVIDIA Does It: Launching RTX Spark—Is This the Moment to Threaten Apple Silicon on Windows PCs? - آي-فون إسلام",
+   "source": "آي-فون إسلام",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQN2pVaW9vbEM1dEkzYVNncFBJM0RzMkROYzIyYUJlSmp6NXM5Z1B0NTNpcGFueS1XUWE0LVJMRHU5ZURMZ2xKVzhEaFlGMDY3Q2RTb21xN3N1VkNCbDR1Z3RfWC11SkptdF9jMjdEb2ZpcFQ4VThmQzJhSVRWRExYaWxHbEJISjQ4Vnd3aDRVMGt3N2pZdHZRLXVLRWhVVlM4RGxQZnpkSGZia0c4US1pM0F1MVhoc29DbmxVYjJQTVJMMjVGNnRXbjIwQ1BjUjNROFVHMEo2S0VIZEpGQXc?oc=5",
+   "date": "2026-11-14 16:35",
+   "publishedAt": "2026-11-14T16:35:40+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 28,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 2,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "NVIDIA Does It: Launching RTX Spark—Is This the Moment to Threaten Apple Silicon on Windows PCs? - آي-فون إسلام",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "ASUS ProArt P16 (NVIDIA RTX Spark) Review: Powerful But Expensive - Gizbot",
+   "source": "Gizbot",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQenRCeEpHRl9ENS1fb3Zwa2VkenprR0x0QUtzTFZfVmw2Nzk4RkU5Z1YxS0dEM2lLWEU2SGdhZFdGbWpPNE83dDlXTzk0VXpnanc2Y25CQmNWWTh3ZUNILUUtdVlTcW5HQlplb1RKZlh4WHY1cVhmY3lMUC1IdnZZTFc5Y2RqT3hwQ3pGNXpiM2RNUUpFT3hMaFdYMzJYRm5kVl82eUpqWWJwTkQwWGhpRkNB?oc=5",
+   "date": "2026-11-14 14:30",
+   "publishedAt": "2026-11-14T14:30:25+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "開箱評測",
+   "camps": [
+    "asus"
+   ],
+   "press": false,
+   "heat": 19,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "ASUS ProArt P16 (NVIDIA RTX Spark) Review: Powerful But Expensive - Gizbot",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Gigabyte AI TOP AERO: RTX Spark Station on Windows with No Price Announced - Brief IA",
+   "source": "Brief IA",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNalJtMzdhOWw4eUFfcVdvTDRJSGo5UTUtLU9XZnFBY1pObXNCWXdfZGFNenIyU1pyMGVjVUF6N0dST0ZBNjRxbVMxVnNEY1JYUVN0ZW9RUUp5LW5JSE9KSkdmWVk3eHNTVG8xZERIXzBBZ2d6ODBvb2hfZ2lsVk5ucHlIUWJJX3hLbXR4MFBXMzhkNVd6UkRkbERWbzdObW1lN1d0c1JKUDA1WlE?oc=5",
+   "date": "2026-11-14 11:06",
+   "publishedAt": "2026-11-14T11:06:47+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "價格上市",
+   "camps": [
+    "gigabyte"
+   ],
+   "press": false,
+   "heat": 19,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Gigabyte AI TOP AERO: RTX Spark Station on Windows with No Price Announced - Brief IA",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Dell XPS 16 Creator Edition Review: XPS Gets Beefier With NVIDIA RTX Spark and Its Physical Footprint - Techaeris",
    "source": "Techaeris",
    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9iNi1OZjdVbF9xNks3eG9DWnFRbmVPSVc5b0ZoWWxzdUxTNmhHY2JtTkdVcmdjdUdqRXh0bmFnd2tHamtVU3hybkRxR1pGRTNPcFdEcjMxakd1alJFd0duSTAxVWlDejJWcHNVX2FxbnVoamlWVW9Pc0tvdVA?oc=5",
    "date": "2026-11-14 05:22",
@@ -81,7 +174,7 @@
     "dell"
    ],
    "press": false,
-   "heat": 30,
+   "heat": 26,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -92,7 +185,7 @@
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "Dell XPS 16 Creator Edition Review: An RTX Spark Powered Beast - Techaeris",
+     "title": "Dell XPS 16 Creator Edition Review: XPS Gets Beefier With NVIDIA RTX Spark and Its Physical Footprint - Techaeris",
      "summary": ""
     }
    }
@@ -113,7 +206,7 @@
     "microsoft"
    ],
    "press": false,
-   "heat": 21,
+   "heat": 17,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -145,7 +238,7 @@
     "microsoft"
    ],
    "press": false,
-   "heat": 20,
+   "heat": 17,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -177,11 +270,11 @@
     "microsoft"
    ],
    "press": false,
-   "heat": 28,
+   "heat": 33,
    "image": "",
    "views": 0,
    "comments": 0,
-   "dupes": 2,
+   "dupes": 3,
    "also": [],
    "lines": [],
    "score": null,
@@ -190,38 +283,6 @@
     "en": {
      "title": "Microsoft's $2,599 Surface Laptop Ultra Packs Nvidia's RTX Spark but Still Trails Apple's M5 - BigGo Finance",
      "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Surface Laptop Ultra review: The most powerful Surface yet, but it still lags behind Apple",
-   "source": "Engadget",
-   "url": "https://www.engadget.com/2314873/surface-laptop-ultra-review/",
-   "date": "2026-11-13 21:00",
-   "publishedAt": "2026-11-13T21:00:00+08:00",
-   "summary": "Microsoft's latest Surface is a beautiful flagship device for NVIDIA's RTX Spark.",
-   "models": [
-    "RTX Spark",
-    "Surface Laptop Ultra"
-   ],
-   "tag": "開箱評測",
-   "camps": [
-    "microsoft"
-   ],
-   "press": false,
-   "heat": 12,
-   "image": "https://www.engadget.com/img/gallery/surface-laptop-ultra-review-the-most-powerful-surface-yet-but-it-still-lags-behind-apple/l-intro-1794499551.jpg",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Surface Laptop Ultra review: The most powerful Surface yet, but it still lags behind Apple",
-     "summary": "Microsoft's latest Surface is a beautiful flagship device for NVIDIA's RTX Spark."
     }
    }
   },
@@ -240,14 +301,12 @@
     "gigabyte"
    ],
    "press": false,
-   "heat": 44,
+   "heat": 24,
    "image": "",
    "views": 0,
    "comments": 0,
-   "dupes": 4,
-   "also": [
-    "TweakTown"
-   ],
+   "dupes": 2,
+   "also": [],
    "lines": [],
    "score": null,
    "lang": "en",
@@ -273,7 +332,7 @@
     "gigabyte"
    ],
    "press": false,
-   "heat": 20,
+   "heat": 16,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -286,318 +345,6 @@
     "zh-TW": {
      "title": "技嘉深化地端 AI 布局，搭載輝達 RTX SPARK 的 AI TOP AERO 上市 - TechNews 科技新報",
      "summary": ""
-    }
-   }
-  },
-  {
-   "title": "NVIDIA Does It: Launching RTX Spark—Is This the Moment to Threaten Apple Silicon on Windows PCs? - آي-فون إسلام",
-   "source": "آي-فون إسلام",
-   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQN2pVaW9vbEM1dEkzYVNncFBJM0RzMkROYzIyYUJlSmp6NXM5Z1B0NTNpcGFueS1XUWE0LVJMRHU5ZURMZ2xKVzhEaFlGMDY3Q2RTb21xN3N1VkNCbDR1Z3RfWC11SkptdF9jMjdEb2ZpcFQ4VThmQzJhSVRWRExYaWxHbEJISjQ4Vnd3aDRVMGt3N2pZdHZRLXVLRWhVVlM4RGxQZnpkSGZia0c4US1pM0F1MVhoc29DbmxVYjJQTVJMMjVGNnRXbjIwQ1BjUjNROFVHMEo2S0VIZEpGQXc?oc=5",
-   "date": "2026-11-13 16:10",
-   "publishedAt": "2026-11-13T16:10:17+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "nvidia"
-   ],
-   "press": false,
-   "heat": 28,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 2,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "NVIDIA Does It: Launching RTX Spark—Is This the Moment to Threaten Apple Silicon on Windows PCs? - آي-فون إسلام",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Gigabyte packs Nvidia RTX Spark and up to 128GB of memory into a one-litre desktop - MIXED News",
-   "source": "MIXED News",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZWphNThKUk9IMFFHSHVvbm1VQXZZZ244UzdwNDhtTTFKeV81STM1TGRER0dvLUVIVjNoZmhnUURCRzVSSk5SMkVZRGozb19zR2ZBaFhrNGFsTUZYT1lmcEhFZXJqZTYtY3k1LVplNUVJM1JJSlhGYm14V2pNZ3VSSUNMdk9YQ2RD?oc=5",
-   "date": "2026-11-13 02:25",
-   "publishedAt": "2026-11-13T02:25:46+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "gigabyte"
-   ],
-   "press": false,
-   "heat": 10,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Gigabyte packs Nvidia RTX Spark and up to 128GB of memory into a one-litre desktop - MIXED News",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Asus ProArt P14 (2026, RTX Spark) vs Asus ProArt P16 (2026, RTX Spark): Which should you go for? - Trusted Reviews",
-   "source": "Trusted Reviews",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdmpLQnNQTzhXUE41amFrSTM5VjNCd0ZkY0txemtzY0Ezd0V4TGp5TVFqZ1ZCZ0M2bGxScFZHUXl0M0lEcnBKV1VfeTRNUHZNa0ZwS3NvZDRkcDMwaGlXRk1LT0c4UzN1NDdhQmxZMWtsS1RmNGx5VU9CQWFISUQ2WkNzNGhLNDctZXRDeHA0T2hjSFBWQlFXSldaQWdWZw?oc=5",
-   "date": "2026-11-13 01:03",
-   "publishedAt": "2026-11-13T01:03:22+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "開箱評測",
-   "camps": [
-    "asus"
-   ],
-   "press": false,
-   "heat": 17,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Asus ProArt P14 (2026, RTX Spark) vs Asus ProArt P16 (2026, RTX Spark): Which should you go for? - Trusted Reviews",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "MSI EdgeMesa N AI+ Mini PC Launches with NVIDIA RTX Spark N1X Silicon - Technetbook",
-   "source": "Technetbook",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQXZkRHdYVU1Bc1ZvSGhWM084NFE5Tm5sYmstaFcyYnR3d1lGUE9pNF96NU14VkY0OWJfeFBIUTc0S2tUV004Yi1BQzBDOVZCLXhydllQZlVZWGRocEkwakNNa3Z6MVFDX0tQWjFRalJhRnJYWUtvQktxMTRHdGRVVG1mTENZbHp0?oc=5",
-   "date": "2026-11-13 00:48",
-   "publishedAt": "2026-11-13T00:48:00+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark",
-    "N1X"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "msi"
-   ],
-   "press": false,
-   "heat": 9,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "MSI EdgeMesa N AI+ Mini PC Launches with NVIDIA RTX Spark N1X Silicon - Technetbook",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Nvidia starts selling RTX Spark laptops from USD $2,599 - IT Brief New Zealand",
-   "source": "IT Brief New Zealand",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdlltUkJGNWFLTm5SdmJnUDhhZWpod1BROUJwOTk4Tlg4ZTFqNkFuOG1fX3ltR1k0d3FGd2JiZ1M2U1pTbWYtUEEtYURjXzgzQmV4cS1JYU92SWZPbU9HMTRONWJLZFl4dlYyczEwNFNxaGg4YWNINHpSaWRYcmhqSm0tTW5EZkpXeVE?oc=5",
-   "date": "2026-11-13 00:30",
-   "publishedAt": "2026-11-13T00:30:00+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "nvidia"
-   ],
-   "press": false,
-   "heat": 17,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Nvidia starts selling RTX Spark laptops from USD $2,599 - IT Brief New Zealand",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "MSI發表首款搭載NVIDIA RTX Spark筆電 性能特色一次看 - 三立新聞網SETN.com",
-   "source": "三立新聞網SETN.com",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9iZmJLaEpmMWpJQzJ1Rmg4My1VVGdHTWo1Y0JYZ1hPVFotM2ctamVYaGo1YndieXRYUG9vSHJXQlJnWEtZY0FucdIBTEFVX3lxTFBkMlEyU2RIMU9HUFUyMGptU2JkS202c2xEa1IzZGZYSFhYRElmNl9ndE5INWNzTVM3d0tFSTd1Y3JteWdkcER1MV9ReVY?oc=5",
-   "date": "2026-11-13 00:27",
-   "publishedAt": "2026-11-13T00:27:33+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "heat": 17,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "MSI發表首款搭載NVIDIA RTX Spark筆電 性能特色一次看 - 三立新聞網SETN.com",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "討論牆 | 微星AI旗艦RTX Spark Q4首發上市 售價不到3000美元 首批貨已銷售一空 - LINE TODAY",
-   "source": "LINE TODAY",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAtX2FxZkpPYlp6ZE1KdDVwdC1GSzdOamh4TmFNQXBLbFc5aHdiVHVzSkgzSlhBTmJDZ2NreURWakFnY1NVSW9CUHFfYnZnejhSeEpqQU5ycFYycFlwNmljcDlPMEk?oc=5",
-   "date": "2026-11-12 23:34",
-   "publishedAt": "2026-11-12T23:34:37+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "價格上市",
-   "camps": [
-    "msi"
-   ],
-   "press": false,
-   "heat": 9,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "討論牆 | 微星AI旗艦RTX Spark Q4首發上市 售價不到3000美元 首批貨已銷售一空 - LINE TODAY",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "〈華碩法說〉記憶體大漲難100%轉嫁 靠高階RTX Spark搶攻3成市占 - 鉅亨網",
-   "source": "鉅亨網",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5nbnAxdXRpbnFfRURsNEhtaFNIdzhMNzU1N0ZDb3JOVHhlZURLenIwWThiNE8zelZGYlczYVZOblJjcGpTWDJZWmx6dzNyS0E?oc=5",
-   "date": "2026-11-12 17:40",
-   "publishedAt": "2026-11-12T17:40:05+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "asus"
-   ],
-   "press": false,
-   "heat": 16,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "〈華碩法說〉記憶體大漲難100%轉嫁 靠高階RTX Spark搶攻3成市占 - 鉅亨網",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Asus ProArt P14 review: Nvidia RTX Spark shines, but comes at a price - Business Standard",
-   "source": "Business Standard",
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdWJJc2ZURS1acUh5TkZOUHprQTNpdUVRSVlERlRnZnVXV2tJRlNHekNUUUFQbEF5dzR5bWg5NmRnSWhLekdKMVdTOEZ6VEJzR1U1NDFLbkx1SW9CU0RNMGxESy13cXlxVExoLTVEaXk5bW9rb1RLUF9sSi15el94a0FWeF85N3pqM3JITFJpYk9iS3N2U1YtZmMzUHNwWHFYeWFybmhQaHZWWTRLeVRaOTV1WDZvbzFOd2pvTTJXN0JITWo5Z2d5YWhaT0JlaS0zaEdsLUFn0gHbAUFVX3lxTE81Q3RYM2JOSnFzck54dFRYT0Vya0lyam9HdUJ1dnpKVkVuTGFFX3EydENDNGxWTjM3cTlObkZ0aFN2TGd4a20tS2R2OHczYkpTQmVXQmtOQ3FhSWpnMHFYbHI2REpPUXk4QU40S3lMN1RETlpvOEhmamtONEZnS2N2ck12WUlQcDBBR0FFVWRkV3liNC1hczlmeFRxUEZvUkMya1R2X3N4UWVHQmZ2elExdzRPLTYtVzcyNExMeU15Vjd0ZVpLSkdjVXlIZzg3X3pncmxoWFJuYUdBSQ?oc=5",
-   "date": "2026-11-12 15:01",
-   "publishedAt": "2026-11-12T15:01:58+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "開箱評測",
-   "camps": [
-    "asus"
-   ],
-   "press": false,
-   "heat": 24,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 2,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Asus ProArt P14 review: Nvidia RTX Spark shines, but comes at a price - Business Standard",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "This is when I'd buy the HP OmniBook Ultra 16 over the ASUS ProArt 16",
-   "source": "Windows Central",
-   "url": "https://www.windowscentral.com/hardware/laptops/asus-proart-p16-vs-hp-omnibook-ultra-16",
-   "date": "2026-11-10 21:15",
-   "publishedAt": "2026-11-10T21:15:00+08:00",
-   "summary": "ASUS and HP each have some enticing RTX Spark laptops, but you only want to buy one. Now that we've tested and reviewed both, I can offer some in-depth advice to help you pick the right PC.",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "開箱評測",
-   "camps": [
-    "asus",
-    "hp"
-   ],
-   "press": false,
-   "heat": 1,
-   "image": "https://cdn.mos.cms.futurecdn.net/EtVZsD9qwvPhK4dswBjqgE-1920-80.jpg",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "This is when I'd buy the HP OmniBook Ultra 16 over the ASUS ProArt 16",
-     "summary": "ASUS and HP each have some enticing RTX Spark laptops, but you only want to buy one. Now that we've tested and reviewed both, I can offer some in-depth advice to help you pick the right PC."
     }
    }
   }
