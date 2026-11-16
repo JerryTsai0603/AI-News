@@ -1,0 +1,102 @@
+{
+ "channel": "dgx",
+ "version": "v26",
+ "fetchedAt": "2026-11-16T13:48:56.753310+08:00",
+ "edition": "2026-11-16",
+ "count": 2,
+ "languages": [
+  "zh-TW",
+  "zh-CN",
+  "en",
+  "ja",
+  "ko",
+  "de",
+  "es",
+  "fr",
+  "it"
+ ],
+ "byGroup": {
+  "asus": 0,
+  "acer": 0,
+  "hp": 0,
+  "msi": 0,
+  "dell": 0,
+  "lenovo": 0,
+  "gigabyte": 0,
+  "microsoft": 0,
+  "nvidia": 2
+ },
+ "byLine": {},
+ "items": [
+  {
+   "title": "DGX Spark (GB10) 완전 해부 — 900만 원짜리 상자, 지금 사도 되나",
+   "source": "YouTube · 로컬리",
+   "url": "https://www.youtube.com/watch?v=8pCi4dfBxNw",
+   "date": "2026-11-16 13:00",
+   "publishedAt": "2026-11-16T13:00:04+08:00",
+   "summary": "손바닥보다 조금 큰 1리터급 상자, DGX Spark(GB10)입니다. 출시 1년 만에 달러 정가가 74퍼센트 뛰었고 지금은 품절입니다. 이 영상은 ① 가격이 왜 이렇게 뛰었는지, ② 128GB 통합 메모리와 273GB/s 대역폭이 실제로 어떤 성능을 내는지, ③ 윈도우·쿠다 호환성과 멀티 확장의 벽, ④ 제조사 8종의 발열·보증 차이를 공개 자료와 실측 ",
+   "models": [
+    "DGX Spark",
+    "GB10"
+   ],
+   "tag": "影片",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 100,
+   "image": "https://i.ytimg.com/vi/8pCi4dfBxNw/mqdefault.jpg",
+   "views": 189150,
+   "comments": 83,
+   "dupes": 31,
+   "also": [
+    "YouTube · AK Tech Insider",
+    "YouTube · TrendPulseDaily",
+    "YouTube · NodeRunner",
+    "YouTube · AiVerdict",
+    "YouTube · 아리리_리빙 리뷰",
+    "YouTube · Self-Host Hub"
+   ],
+   "lines": [],
+   "score": 1838,
+   "lang": "ko",
+   "i18n": {
+    "ko": {
+     "title": "DGX Spark (GB10) 완전 해부 — 900만 원짜리 상자, 지금 사도 되나",
+     "summary": "손바닥보다 조금 큰 1리터급 상자, DGX Spark(GB10)입니다. 출시 1년 만에 달러 정가가 74퍼센트 뛰었고 지금은 품절입니다. 이 영상은 ① 가격이 왜 이렇게 뛰었는지, ② 128GB 통합 메모리와 273GB/s 대역폭이 실제로 어떤 성능을 내는지, ③ 윈도우·쿠다 호환성과 멀티 확장의 벽, ④ 제조사 8종의 발열·보증 차이를 공개 자료와 실측 "
+    }
+   }
+  },
+  {
+   "title": "This week in Tom's Hardware Premium: November 14, 2026 - Mac Studio vs. DGX Spark, AMD's MEXT and allegations involving Jensen Huang - Mezha.net",
+   "source": "Mezha.net",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAtWGxlaWV0aU5ZaVN5aU41Z20zUGIxYUtwdTZ2YVJwdWs1S2FNd2k4VTZRMjhIM0ttQzBzM1RmZEx5UC02aFVQQjJnNHA1cjd1TmVWMURzOERSVlBBRWFOVTlWTEFNQW1tRXBLNElVMERCbkNBYTlwdW1aNA?oc=5",
+   "date": "2026-11-15 00:05",
+   "publishedAt": "2026-11-15T00:05:54+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 9,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "This week in Tom's Hardware Premium: November 14, 2026 - Mac Studio vs. DGX Spark, AMD's MEXT and allegations involving Jensen Huang - Mezha.net",
+     "summary": ""
+    }
+   }
+  }
+ ]
+}

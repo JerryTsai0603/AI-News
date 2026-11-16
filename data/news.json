@@ -1,8 +1,8 @@
 {
  "channel": "models",
  "version": "v26",
- "fetchedAt": "2026-11-15T13:40:19.488599+08:00",
- "edition": "2026-11-15",
+ "fetchedAt": "2026-11-16T13:45:35.589868+08:00",
+ "edition": "2026-11-16",
  "count": 60,
  "languages": [
   "zh-TW",
@@ -16,59 +16,59 @@
   "it"
  ],
  "byGroup": {
-  "openai": 20,
-  "anthropic": 14,
-  "google": 4,
-  "meta": 1,
-  "cn": 8,
-  "other": 24
+  "openai": 19,
+  "anthropic": 19,
+  "google": 7,
+  "meta": 0,
+  "cn": 7,
+  "other": 21
  },
  "byLine": {},
  "items": [
   {
-   "title": "Introducing ChatGPT Wallet Product Nov 13, 2026",
-   "source": "OpenAI News",
-   "url": "https://openai.com/index/introducing-chatgpt-wallet/",
-   "date": "2026-11-15 13:40",
-   "publishedAt": "2026-11-15T13:40:19.634357+08:00",
+   "title": "OpenAI 推出「ChatGPT Wallet」：用戶可透過 AI 網購，首發支援美國 Pro 用戶與三大發卡組織 - T客邦",
+   "source": "T客邦",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB5ZEZ2ckJYekY3eXVyWmFETWxUNWxHbzJSc1hTMXNicFVYbHc2Q1lOOE5DVUwwQzlyaWZyamxkRGctck45a3p6Y3RHcWhHSlhOdWVEZzFONlF5VWEtZzlUeWUzNHg4X09DNE55ZGtETTlzekhMcEZDZGJobw?oc=5",
+   "date": "2026-11-16 13:30",
+   "publishedAt": "2026-11-16T13:30:00+08:00",
    "summary": "",
    "models": [
     "ChatGPT"
    ],
-   "tag": "官方發布",
+   "tag": "產品發表",
    "camps": [
     "openai"
    ],
-   "press": true,
-   "heat": 23,
+   "press": false,
+   "heat": 15,
    "image": "",
    "views": 0,
    "comments": 0,
-   "dupes": 1,
-   "also": [
-    "OpenAI Blog"
-   ],
+   "dupes": 0,
+   "also": [],
    "lines": [],
    "score": null,
-   "lang": "en",
+   "lang": "zh",
    "i18n": {
-    "en": {
-     "title": "Introducing ChatGPT Wallet Product Nov 13, 2026",
+    "zh-TW": {
+     "title": "OpenAI 推出「ChatGPT Wallet」：用戶可透過 AI 網購，首發支援美國 Pro 用戶與三大發卡組織 - T客邦",
      "summary": ""
     }
    }
   },
   {
-   "title": "Auditing AI Peer Reviewers: 2026 Error Benchmark - CASRAI",
-   "source": "CASRAI",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNM2tCdWRkcUVHRTREZTR1QWh6N19CXzBuYlp6RkZibTRwZ2g2UUN1OHBoNzhOSXl4NmZfOXZzSGFERU5fY2NwdVg4TzdDb3FTSjFMMzFKN2xYZFhvQ2puNUhMRElsZWE4b0pCb0ZTX09EWC10U1RTRTd5TjgxbkZGOGhNeTktcmlq?oc=5",
-   "date": "2026-11-15 13:33",
-   "publishedAt": "2026-11-15T13:33:13+08:00",
+   "title": "DeepSeek Rations Free Chat, Caps Input at 40,000 Characters - FourWeekMBA",
+   "source": "FourWeekMBA",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUmZSUUNfRHhYQjRCbkp3NWRtMlpMaGhDVjlReTllUUc2a2c5dDZicFF0LWpaOXVoRDNsLU1rNDRzUWZZNmd0ZmJqSHBFN2IxMkdVUHZCeDlseW1ueldpeUV5T2o0NkpldnB4R0Noc2l4SFdZRk9jYnZjcGhreUFMRUZmZ053X01xTy1PaHBn?oc=5",
+   "date": "2026-11-16 13:23",
+   "publishedAt": "2026-11-16T13:23:34+08:00",
    "summary": "",
-   "models": [],
-   "tag": "研究",
+   "models": [
+    "DeepSeek"
+   ],
+   "tag": "產品發表",
    "camps": [
-    "other"
+    "cn"
    ],
    "press": false,
    "heat": 15,
@@ -82,59 +82,93 @@
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "Auditing AI Peer Reviewers: 2026 Error Benchmark - CASRAI",
+     "title": "DeepSeek Rations Free Chat, Caps Input at 40,000 Characters - FourWeekMBA",
      "summary": ""
     }
    }
   },
   {
-   "title": "Hỏi ChatGPT vợ sốt 48 độ... 😭 #threads #threadsvietnam #chatgpt",
-   "source": "YouTube · Thớt Mặn",
-   "url": "https://www.youtube.com/watch?v=Hv0iNqtA7R0",
-   "date": "2026-11-15 13:15",
-   "publishedAt": "2026-11-15T13:15:12+08:00",
-   "summary": "Trêu ChatGPT hài hước: vợ sốt 48 độ, anh chồng cho vợ vào tủ lạnh 🥶 ChatGPT sốt ruột hơn cả vợ 😂 Nhạc: Kevin MacLeod (incompetech.com), giấy phép CC BY 4.0 Nền: Subway Surfers gameplay (SYBO, free to ",
+   "title": "網購防騙靠 AI 得唔得？外媒實測 Gemini、ChatGPT 同 Claude 辨別真假郵件 僅 1 款零誤判 - ezone.hk",
+   "source": "ezone.hk",
+   "url": "https://news.google.com/rss/articles/CBMikwNBVV95cUxPUWUwN05SRDM1NWhZdk1HamhGaDZ4anhPS3BTb0Y0VjlEbmN0aWpiVE9pU1UzYVRRLXQ0QkNJZDdfYmVxZzBEcjFSaTh5RzB5aW9ia2hxbVltX0JETzhVeEVnQWJRcXhoeU9ELUJDRzdVYldXZjUyTUl1aTNuRTBGbEdKRkwyUXBmd2ZRTzdBSzdQaDlfSE4tb2l4Z09iZ2NLanprdDQ0QXpualpMaGF1MFRENExacWp3M3QxZ3ZHWVU1SEU5YktBTDhDV1NYRzRlaE1VZVUwSlpYak5EelVrX01jNDZBNjI5Y2VQcUdiNnp1TmtWTzhMajVubm9fX3NLUGc3VVJxcDBpZ0FCLXF5YzlIeEtrcGI0Q2RXWWlPNldTRzVYZ0x3RXNWMzVZeE1FTlJBVlVZcDZvYWV3MEJ1VmRPNFRNM1dvbVhHMVZKSExUSW1BS21ZZ2lVaUtDRW51MFRtNGQ3WHhyMGRZOHoyZTladjU3MUNKdW83R0haTGs5SEUwVEROZGMzd1lPYlViMElv?oc=5",
+   "date": "2026-11-16 13:12",
+   "publishedAt": "2026-11-16T13:12:00+08:00",
+   "summary": "",
    "models": [
-    "ChatGPT"
+    "ChatGPT",
+    "Claude",
+    "Gemini"
    ],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "anthropic",
+    "google"
+   ],
+   "press": false,
+   "heat": 23,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "網購防騙靠 AI 得唔得？外媒實測 Gemini、ChatGPT 同 Claude 辨別真假郵件 僅 1 款零誤判 - ezone.hk",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "#chat#gpt power",
+   "source": "YouTube · Hari krishan meena ",
+   "url": "https://www.youtube.com/watch?v=lV6f3yhE-sk",
+   "date": "2026-11-16 13:08",
+   "publishedAt": "2026-11-16T13:08:12+08:00",
+   "summary": "傳統市場改建，你覺得該由中央主導，還是交給地方慢慢來？ 民眾黨創黨主席柯文哲 11/11 到竹北陪同邱臣遠拜票，中午在沙發上聊到市場時表示，如果他是總統，一定把市場改建列為國家重點政策：國家常常講一大堆 AI，但政治要落實在人民生活中，「市場是最重要的」。他也主張攤位不要太小，要從勞力密集轉成資本密集，讓攤位變大、營業額提高。 民眾黨竹北市長參選人邱臣遠當天下午在宣傳車上直播回應，表示柯文哲對傳統",
+   "models": [],
    "tag": "影片",
    "camps": [
     "openai"
    ],
    "press": false,
    "heat": 100,
-   "image": "https://i.ytimg.com/vi/Hv0iNqtA7R0/mqdefault.jpg",
-   "views": 6112,
-   "comments": 12,
-   "dupes": 79,
+   "image": "https://i.ytimg.com/vi/lV6f3yhE-sk/mqdefault.jpg",
+   "views": 45534,
+   "comments": 28,
+   "dupes": 84,
    "also": [
-    "YouTube · Anwar Ki Duniya",
-    "YouTube · Marco Franz",
-    "YouTube · Ritik Tech X",
-    "YouTube · Golu Gopro ",
-    "YouTube · Rohit raj motivation",
-    "YouTube · AI 每日新知"
+    "YouTube · 心中有一把尺",
+    "YouTube · MKLP☄️ *PEMULA*",
+    "YouTube · Arcwright",
+    "YouTube · 씨지봉 | 3D 그래픽 멘토",
+    "YouTube · 𝐁𝐎𝐁 𝐧 𝐊𝐎𝐌𝐀𝐋",
+    "YouTube · Thế Giới Kinh Tế 24h"
    ],
    "lines": [],
-   "score": 128,
+   "score": 4174,
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "Hỏi ChatGPT vợ sốt 48 độ... 😭 #threads #threadsvietnam #chatgpt",
-     "summary": "Trêu ChatGPT hài hước: vợ sốt 48 độ, anh chồng cho vợ vào tủ lạnh 🥶 ChatGPT sốt ruột hơn cả vợ 😂 Nhạc: Kevin MacLeod (incompetech.com), giấy phép CC BY 4.0 Nền: Subway Surfers gameplay (SYBO, free to "
+     "title": "#chat#gpt power",
+     "summary": "傳統市場改建，你覺得該由中央主導，還是交給地方慢慢來？ 民眾黨創黨主席柯文哲 11/11 到竹北陪同邱臣遠拜票，中午在沙發上聊到市場時表示，如果他是總統，一定把市場改建列為國家重點政策：國家常常講一大堆 AI，但政治要落實在人民生活中，「市場是最重要的」。他也主張攤位不要太小，要從勞力密集轉成資本密集，讓攤位變大、營業額提高。 民眾黨竹北市長參選人邱臣遠當天下午在宣傳車上直播回應，表示柯文哲對傳統"
     }
    }
   },
   {
-   "title": "南韓稅務士國考榜首坦承作弊！利用微型相機搭配生成式AI奪高分 - 民視新聞網",
-   "source": "民視新聞網",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE51ZERMYkU4Z3dRNElnNzVhNWhiOF9kWGVhSUhqRDBOMGwwXzRYVXJMMmhyQ2hJd256dnRiY2h0MTd5LU51eTdYblJhU1RaU2VUYjBGNFRkVHhQM0ZVd1FLNQ?oc=5",
-   "date": "2026-11-15 12:32",
-   "publishedAt": "2026-11-15T12:32:10+08:00",
+   "title": "Anthropic IPO超額認購7倍 輝達、台積電等7巨頭砸重金力挺 - Yahoo新聞",
+   "source": "Yahoo新聞",
+   "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxPdVl6NFBVUklvWVF1T3ZHRm41UWg2X25QUHoxVzU0bFNUSUJJWFNSYzczVU1zT2ZTZlh4SzhLT3hTZXJ1Qi1LSXByekxpRjd6TVZXZGJnTzA5ZHBPdHpORWtKTjFKZDFFaWY0TEJYdmlXQnQ1TjVTcWI3enN0Uzc3aU5mV1BvX2tYUDNiNTVxbXE2TnZvTlZtUVJ4ME9mdTlGVHZGNmcwRTRDQ2RPVzFzTHpTdFpub0cwajE4b1RFandDU0s2MzVGaTdrUGZWdFdabGkxSThkMmxOellkWWpuWXVqbXgzUHBGS3otczZxM2Z0Uno1QVpDbzBoUkh3dVl6b3ZsU2t1aUplbmRLQ2ZRcENxSDVTVHVPeU9iRUhUYUJXZ2hDVldaT0MydHlXNldHaFJxNmxzU2RHYVktVkh3Sjln?oc=5",
+   "date": "2026-11-16 13:03",
+   "publishedAt": "2026-11-16T13:03:06+08:00",
    "summary": "",
    "models": [],
-   "tag": "產品發表",
+   "tag": "商業",
    "camps": [
+    "anthropic",
     "other"
    ],
    "press": false,
@@ -149,17 +183,326 @@
    "lang": "zh",
    "i18n": {
     "zh-TW": {
-     "title": "南韓稅務士國考榜首坦承作弊！利用微型相機搭配生成式AI奪高分 - 民視新聞網",
+     "title": "Anthropic IPO超額認購7倍 輝達、台積電等7巨頭砸重金力挺 - Yahoo新聞",
      "summary": ""
     }
    }
   },
   {
-   "title": "Anthropic Wants You to Build on Claude — Then It Competes With You - OpenTools",
+   "title": "Will Anthropic's IPO lead to better AI regulation? - The Korea Times",
+   "source": "The Korea Times",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTWhsTF9TYnpkVE5sbk11ZTZ6YXlVS3czeE1uUEZVdWw1NzE0ZmhBS0NHWDY0RGt2MmppRTA4dzdkNE5kN0RjczdOVkQyOXNhNHhEcHhtb2dDbFpUVERhVFJnZUVrbW5LR2pxcVZuTmxDLWhHelIxVThuVzVZbW02dTRDSDJSUTduYW9OSUJDYTBVY1pwSXRlTGl30gGfAUFVX3lxTE01MlZ0bnpwQkpOLVBYdkdHcVg2YnQ2YjE2dGRabXRBa3ZfSENiWDR1RHhsWUxEN0FOZHdIc3RHNWk2RDFnNXpaQ19RMW1VLTVHcV9POUlGY21nOXBLZ2Q5MjBROU5VV3ZjUkRMWk54LWJPUmFmNWFqQm9nRzZpM1gyRWRmZFVXUXQ4ZEJKcF9mT3BWWkhaako0YWM5bnZkVQ?oc=5",
+   "date": "2026-11-16 13:00",
+   "publishedAt": "2026-11-16T13:00:03+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "政策",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Will Anthropic's IPO lead to better AI regulation? - The Korea Times",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "DeepSeek usage limits over computing shortages raise doubts about sustainability of free service - 联合早报",
+   "source": "联合早报",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPems4amVOeUdsMDNYMm5vZm5KbzdHZmhUSWw0eWc0Tl80ZXdpb1d1Q3k4SmtqSG00YzlGSHdsM1E0VEZRU0s5RnYwTkFpXzhEWVNadlBqcm9SZkJmRWxIcllveVA1aTJRcjBiT1pPMl9Gdld2ZTlaS3lLU01NRnA0OTZOTkhyV1NRRDdaX0F4OW45bEItTThUa1hLZXlvdkJfdUVlc2lOSnl3SG55QU1UZ2c5SXZIZDZpeEhiZklQcVpzSkJUN1lZZTNQRzBBdw?oc=5",
+   "date": "2026-11-16 12:50",
+   "publishedAt": "2026-11-16T12:50:01+08:00",
+   "summary": "",
+   "models": [
+    "DeepSeek"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "cn"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "DeepSeek usage limits over computing shortages raise doubts about sustainability of free service - 联合早报",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Qwen4-Max vs Kimi K3.1 Pro vs DeepSeek V4.1 Flash: Which should you use? - Kingy AI",
+   "source": "Kingy AI",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1CM05GdnQ2VTQ4RFdnTEx5MnNEVTdxdUJGRnUzWlppc1dVU3NHLXBYVEQ1UzczWUN6UWEtVXZKMVAzUFBiRTR4RWFhOFYzcFRWMTYtRHQ2cEFILUxoeF82VkgtZV9jd1lTaTZ5YWV1azdrNG1VX2U3ZnFYUEY?oc=5",
+   "date": "2026-11-16 12:45",
+   "publishedAt": "2026-11-16T12:45:39+08:00",
+   "summary": "",
+   "models": [
+    "Qwen",
+    "DeepSeek",
+    "Kimi"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "cn"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Qwen4-Max vs Kimi K3.1 Pro vs DeepSeek V4.1 Flash: Which should you use? - Kingy AI",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Qwen4-Max vs Claude Opus 5.5: Benchmarks, costs and tests - Kingy AI",
+   "source": "Kingy AI",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBoUGtCUlVrSGh5N3M3RW9PV3QwaUlFYS1UejMtOEJiTVpoMHNmNkdDdC1JN1NGMVR2Y2RETzFNcjVRRmlYRWhJTXJELVZEa09JWXV0WkhTZWNNLVljNU1yQw?oc=5",
+   "date": "2026-11-16 12:45",
+   "publishedAt": "2026-11-16T12:45:39+08:00",
+   "summary": "",
+   "models": [
+    "Claude",
+    "Qwen"
+   ],
+   "tag": "研究",
+   "camps": [
+    "anthropic",
+    "cn"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Qwen4-Max vs Claude Opus 5.5: Benchmarks, costs and tests - Kingy AI",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "郭明錤：OpenAI 與 Anthropic 大單到手，Google TPU 出貨能見度延伸至2029 年，聯發科成最大贏家 - 電腦王阿達",
+   "source": "電腦王阿達",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE80Zkl2SE1MQzVkQVhTWElZVG50bGtnb0llWWhJVzRJSXFoZTlzOXV0ZFZUc0RyY1NPMVNuakVXUEE3LWZxSDliX1Z0UllleDJkZmc?oc=5",
+   "date": "2026-11-16 12:39",
+   "publishedAt": "2026-11-16T12:39:31+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "anthropic",
+    "google"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "郭明錤：OpenAI 與 Anthropic 大單到手，Google TPU 出貨能見度延伸至2029 年，聯發科成最大贏家 - 電腦王阿達",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "China's Wenzhun raises $45M Series A extension for data model - Dealroom",
+   "source": "Dealroom",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPR092em56dExmNmNMUnlRWGlBT19LREhJTDFzTmJzc0NNcldGOEFTeHd5VFU4OEllSTJWRlI5dW12MWhENDVIUjJVN1ZyYVp6LTFXYzZQMURFMUtQVnlfUi1PQlVxYzFBZ29CYUhGejcxSm1MZTZVdVhLS1RmVWo4MzlwY2JsVnFKa1RXSkZ3UldROThISUs2SFh3?oc=5",
+   "date": "2026-11-16 12:35",
+   "publishedAt": "2026-11-16T12:35:43+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "商業",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "China's Wenzhun raises $45M Series A extension for data model - Dealroom",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Claude 指令怎麼寫？同一題實測 2 種問法，這樣問回答更符合需求 - 蘋果仁",
+   "source": "蘋果仁",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5lUHBIRHJfWUxsRndfZmE3NGV5YUdveWYtSFZFYm9IVWctMUI1S1lNeS1kZWc0czQxcThKWk5teFJhU1BfR2VONHNTWmQ?oc=5",
+   "date": "2026-11-16 12:35",
+   "publishedAt": "2026-11-16T12:35:17+08:00",
+   "summary": "",
+   "models": [
+    "Claude"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic",
+    "other"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "Claude 指令怎麼寫？同一題實測 2 種問法，這樣問回答更符合需求 - 蘋果仁",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "AI 巨頭爭相招募反情報專家，年薪上看 50 萬美元 - TechNews 科技新報",
+   "source": "TechNews 科技新報",
+   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPRTVLRFpnbzdoeWpSX2VPckk0ZGNJQlpWdzRIUHdnU25aTVVxV21LYldtTmRvODZIb2NiMDBZXzBqbE0tV1J2c3p5R0sxV3Bxa1pOLVhaMzBZOVktVTlJOXRsWmRxSTh4T0ZKeW1fb2FiTEhTeDBwbkh4UExsRUN6dVJ6UmlxVWNaSkpDejlSMXJvTmV4VkxjTlZqUllwSmxEZHBDOC0yVjR1RmFDcW0xcTFEOVA2aElMTnZQMHp4cnFCdjNzbzdaWTN5SjVUOVJPSHRoZnJ6UkhIZEdLNEVidW5NRzMzNkFoSW5qQXZDRFViQzh5?oc=5",
+   "date": "2026-11-16 12:32",
+   "publishedAt": "2026-11-16T12:32:32+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 23,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "AI 巨頭爭相招募反情報專家，年薪上看 50 萬美元 - TechNews 科技新報",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Qwen4-Max vs GPT-6.1 Sol: Five tasks and their costs - Kingy AI",
+   "source": "Kingy AI",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1EeTJuMnJsVkhtdTZKTHZvTjRjaDRmVnQ0d1VVWXI3b0V4OGVRRGtnaDhxM21HVlV1N2Y0YWJyQ0FMQTFqXzVMRmdtUUdCWktDTjlnamZTaUFzVVk?oc=5",
+   "date": "2026-11-16 12:25",
+   "publishedAt": "2026-11-16T12:25:39+08:00",
+   "summary": "",
+   "models": [
+    "Qwen"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "cn"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Qwen4-Max vs GPT-6.1 Sol: Five tasks and their costs - Kingy AI",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "比黃仁勳下台更糟！日經論壇：Anthropic、OpenAI商模恐淪「航空業化陷阱」 - 遠見雜誌",
+   "source": "遠見雜誌",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5Ua2k0eEhyVFYtVGJHRk1SVl9MV0ZaNjZ1U3R0Zm1BaW8zakVTM2JTSDVSX3gwOXAyQk9hdDlWWHhjZHhRVTlRUHlna2d1QQ?oc=5",
+   "date": "2026-11-16 12:13",
+   "publishedAt": "2026-11-16T12:13:00+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 23,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "比黃仁勳下台更糟！日經論壇：Anthropic、OpenAI商模恐淪「航空業化陷阱」 - 遠見雜誌",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Anthropic's Claude Fable 5.2 Paints Images With 700K Python Brushstrokes - OpenTools",
    "source": "OpenTools",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeDVfV2VDN0l0VDVnSEZVd3JtUHJLSVpVNlJNSGtZZTdHMTZwRUl4cFRzNXE2YlAxU3FTTVU2WWdIWklpVm02aHkwUTNYbERXblM0QktkNDZwTkpYcy1PNjBIdllFbjRCeXU2YUtLQlVYMVBvWFZ3UW90MnJWZGpYeGZCdEVMUTdWenNRRA?oc=5",
-   "date": "2026-11-15 12:07",
-   "publishedAt": "2026-11-15T12:07:22+08:00",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE56YkNPUWpHTGVoRWo4MUNkRzZrbWZoSGpIM25saS1sV3dVZmY3eEVNa2V2Zl9ETGo5Y2loRlhNZGV0RXgyemROV2s0Q0Q5WXltbUxoZjN1NmlrYUw5bk9sSjFwNEJNeHBaUmtCTm14R05wS1hBaU1BWG9ZYw?oc=5",
+   "date": "2026-11-16 12:07",
+   "publishedAt": "2026-11-16T12:07:13+08:00",
    "summary": "",
    "models": [
     "Claude"
@@ -169,35 +512,6 @@
     "anthropic"
    ],
    "press": false,
-   "heat": 15,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Anthropic Wants You to Build on Claude — Then It Competes With You - OpenTools",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "OpenAI Dissolves Robotics Team, Moves Staff to 2 Orgs - shattered.io",
-   "source": "shattered.io",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeTBYWDI0Y3F4NzlkNmpmMnFiNmhJYUZNQkZVUmlfQ3N2dXM2Q0NieE5ocTZ6bHhHU2Q1Z1NpUEEzR3FOUUg2VkMtY2twLTgyTjBndUpuVkFDeHByMzNlZTlPekgtOFBBcmR5c3BXbkNRS0pNa20zT1F3MmFlSXU4Umt4UDZzdVZU?oc=5",
-   "date": "2026-11-15 12:00",
-   "publishedAt": "2026-11-15T12:00:37+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "openai"
-   ],
-   "press": false,
    "heat": 14,
    "image": "",
    "views": 0,
@@ -209,194 +523,51 @@
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "OpenAI Dissolves Robotics Team, Moves Staff to 2 Orgs - shattered.io",
+     "title": "Anthropic's Claude Fable 5.2 Paints Images With 700K Python Brushstrokes - OpenTools",
      "summary": ""
     }
    }
   },
   {
-   "title": "歐盟領袖將舉行首次 AI 會談，輝達案未列正式議程 - TechNews 科技新報",
-   "source": "TechNews 科技新報",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQOFM2bUZtZi1pMEFkeVRmU2pmLURHTXNpSlJ1NUJ3cDgzbWhJa09EODh4X2ZaTzhWZTFVbUxzcjNiTlJBTS1JZ2FwWm9nemFFY0pFRDFHUGVyMG5ocDZsSzl6b24zLW56dDRZX1h4MTRtNHNuUVRzQTJ5SnduYzRMU2pLNlN3ei1vX3hwblV6Vk53Q28?oc=5",
-   "date": "2026-11-15 11:52",
-   "publishedAt": "2026-11-15T11:52:58+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "政策",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "heat": 14,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "歐盟領袖將舉行首次 AI 會談，輝達案未列正式議程 - TechNews 科技新報",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "美國教師聯盟與 Anthropic 簽約 為校園 AI 設資安與透明標準 - ENN台灣電報",
-   "source": "ENN台灣電報",
-   "url": "https://news.google.com/rss/articles/CBMiOkFVX3lxTE04NUpBZkQ2SFMwcDZiSnNKVUJjTVFsQ3ZyTGdMMWFodUJ0UDIxTzBkYzlNcEJieGRQQ1E?oc=5",
-   "date": "2026-11-15 11:35",
-   "publishedAt": "2026-11-15T11:35:05+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "安全",
-   "camps": [
-    "anthropic"
-   ],
-   "press": false,
-   "heat": 14,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "美國教師聯盟與 Anthropic 簽約 為校園 AI 設資安與透明標準 - ENN台灣電報",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Explainable Cognitive Swarm Architecture Improves Multi-Agent Software Engineering Benchmark Accuracy - Bioengineer.org",
-   "source": "Bioengineer.org",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZVdDaUN1U2FFWWQzQThMM29hVkxLbFNPeXlzM2ZsU0psd2lmVTE0a0thYnR4NllDSFllQllIWmJ4UzdlQ1UwdHVSaHViTllQU0hyLVRDWGZEcXJ1NHlycXA5aHI3SFl5blN6NlNkUWhaaEN1NlF5T0E0TjlMb3N1dlFtU3cxQmpONDNPeGNkeXJsZTBwZVgtMjlTZHJOTWJjQUtsRlJCTUxMYmJxMGs3SC1rTnMtclhwQXhhYS12RTk0eVZx?oc=5",
-   "date": "2026-11-15 10:35",
-   "publishedAt": "2026-11-15T10:35:26+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "研究",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "heat": 14,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Explainable Cognitive Swarm Architecture Improves Multi-Agent Software Engineering Benchmark Accuracy - Bioengineer.org",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "MatEvoBench-20 Benchmarks AI in Materials Labs - CASRAI",
-   "source": "CASRAI",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPN0Z1TE9ybTEtemptNjJDNGhGNkdiUXIxdnNQV1NiYmNQc1ZWVGFxUzVUdDlQSmJyYXJNZGt2WTdTOVpscUJkN3JobTRHZVRtZW1pdTM4SEE1ZVh2VV9FRVQ5djJKUDhsUGJpbFphM3Vfc19jWjVSS0tadXJhbW9oWHNPLWtpVGdfYW54bQ?oc=5",
-   "date": "2026-11-15 10:13",
-   "publishedAt": "2026-11-15T10:13:20+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "研究",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "heat": 14,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "MatEvoBench-20 Benchmarks AI in Materials Labs - CASRAI",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "LiveGeo Benchmark Tests Geographic AI Agents in Evolving Environments - CASRAI",
-   "source": "CASRAI",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOd2tpaE5zYjhoNVBVM2RfbnNFWG8zT3ZhSlBxZDNpTjJZNFk5Y3dTVjViTDR5Z3lkX0NTQjM4dURHTEd5U2ZyMDNRNVc5R2JycHdmaFVDLVA1TUJsWU5SaXFNNVF0R3VmdFZxdks5a3Jfd2V6MzVDTjBxNDRtQWxKdldB?oc=5",
-   "date": "2026-11-15 10:08",
-   "publishedAt": "2026-11-15T10:08:19+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "研究",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "heat": 14,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "LiveGeo Benchmark Tests Geographic AI Agents in Evolving Environments - CASRAI",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "OpenAI 解散機械人團隊 GPT-6 Astra 模擬成功率 74.8% 勝專用模型 51% - unwire",
-   "source": "unwire",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBlOFVtRXVWendSTF9PUHVnQWF6aVF3Vi0zZjBkbktkalZqblBpcmhEV3VXOVE4MlVaTl9BdXd2Z2wzdW5FOGcwc2lqZEpRTVlFbnNTcHlPY0dySE9BYXJLQW5yUXZFWkhFM3BPZzMxaVE5cVREdk9HZFdn?oc=5",
-   "date": "2026-11-15 10:00",
-   "publishedAt": "2026-11-15T10:00:00+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "openai"
-   ],
-   "press": false,
-   "heat": 14,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "OpenAI 解散機械人團隊 GPT-6 Astra 模擬成功率 74.8% 勝專用模型 51% - unwire",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "DeepSeek's Web Code Shows Quota Management Pointing to a 'Coding Plan', but No Plan Is Announced - Pandaily",
-   "source": "Pandaily",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPT2xOdzlPODhYalRiNUxsSUdUVlZvVWlILWZ4QTlCQXhqMDl2Z3RBVE1ydHNWcjhEUklIcG1kbF8tRXhXVDNjRnJzUXp2SFY0RWVaSWJKVUFWYmxqWFZ3R2pocnItX3JFWGNrZFNRTTlHaExMYVZjSE9oaE94dS03dGYzbFB1ZEY2YmljZURIekw4dw?oc=5",
-   "date": "2026-11-15 09:50",
-   "publishedAt": "2026-11-15T09:50:40+08:00",
+   "title": "OpenAI 與 Aleph 簽署獨家經銷商協議 擴展 ChatGPT 廣告業務至 44 個國家及地區 - Techritual",
+   "source": "Techritual",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9iMzktU2tLMnByOHo0enJtaFE5dElhQVVwb3NHZTUxZS1fTjNiWlc4NG83TmRockZtSmxMR2s5ckctdk05VzFOX0ZxMEF1bklzZ0llcTBqdFg?oc=5",
+   "date": "2026-11-16 12:06",
+   "publishedAt": "2026-11-16T12:06:27+08:00",
    "summary": "",
    "models": [
-    "DeepSeek"
+    "ChatGPT"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "OpenAI 與 Aleph 簽署獨家經銷商協議 擴展 ChatGPT 廣告業務至 44 個國家及地區 - Techritual",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Alibaba launches Qwen4-Max model with strict cybersecurity guardrails - South China Morning Post",
+   "source": "South China Morning Post",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQaHl0ZVByMTFnMVVaU2h5UFBhMzFaVmFKQi1pcGhPb3lLeTdjdGh4TkpnU0FPUVAyMU9rYjV2UkhFdjhOUHRDVUFMRm9seUVzWDRzeno1YllqLVpmY3R6WmI5bnJSS1lkeFAzSm1lM1pkWnAtclpOQmxRWFVwMmZaVjE2cy1KYzRJcEw5RUVIbVExdlhveFJYLU1HRTFSVERTV2VzdHFtS1J2SE1PMjBFbVNYMFNRSmZmT3FtV2kxYUd0QmdBSkJMb3pGUWJTUGFzcC1wYtIB1AFBVV95cUxPWS1MdnU4cWMyN3ktNnVyR2Vtcnhqa1hUVHUxeUxTRDhIUVRjRkJsNmlIM1RDWUFGSkgxeHIxR0h2NUU4WUJ5d3h2eFhKVXU2ekdLRkhSbmpVdHVRaDJrOXhOTkpyOW4ya2dpdDVQb0JVd3Y3UXFfU19fLXNHelFNUnhncDMwTS1yQWFkc1F3SFZoM0ZMZGFIRGhwNS1CRzd4UXRXOUtnS21UMHRZLUNUNlp0cmZtMWVvRUhSaE53UFFrbmQ3SHRQaTRxUVRFVmE4VmZZdw?oc=5",
+   "date": "2026-11-16 11:56",
+   "publishedAt": "2026-11-16T11:56:53+08:00",
+   "summary": "",
+   "models": [
+    "Qwen"
    ],
    "tag": "產品發表",
    "camps": [
@@ -414,22 +585,177 @@
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "DeepSeek's Web Code Shows Quota Management Pointing to a 'Coding Plan', but No Plan Is Announced - Pandaily",
+     "title": "Alibaba launches Qwen4-Max model with strict cybersecurity guardrails - South China Morning Post",
      "summary": ""
     }
    }
   },
   {
-   "title": "Anthropic 內部報告揭露AI 代理總工時竟達人類6 倍！工程師變「AI 保母」，初階職缺驚現雪崩式下滑 - T客邦",
-   "source": "T客邦",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPb3Z6UzNWOEQySFpkd0lxblJPMkY2SEpMYnJTZURuclBHWG90OWNYTTZuVVhIQlplQ3dmUTdIN1ZJT3E4RzBwNlNhWkNsaFpLdThiR3g2YV8zOURaVFhNdFNNUTVZbGRqTVB5MUdmZHQ5ejhrT2k3ZjFZaTBCMDFFNUp6RTZmamc3X2pfaENjTDAwZGdB?oc=5",
-   "date": "2026-11-15 09:30",
-   "publishedAt": "2026-11-15T09:30:00+08:00",
+   "title": "Anthropic 衝史上最大IPO：Amodei 稱算力是「最深層的商業兩難」，黃仁勳請辭後接棒當AI 產業門面 - 聚財網",
+   "source": "聚財網",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1BR1BfeWVWTGhNT1pPUXlpWUVXZEVoMkwtUEhvTWNZbmR4Z2U4dTE2R2hoNFlNNk9HWmY5THprLUJQaVpqQlJTYkt4YkU?oc=5",
+   "date": "2026-11-16 11:51",
+   "publishedAt": "2026-11-16T11:51:46+08:00",
    "summary": "",
    "models": [],
+   "tag": "商業",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 22,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [
+    "INSIDE"
+   ],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "Anthropic 衝史上最大IPO：Amodei 稱算力是「最深層的商業兩難」，黃仁勳請辭後接棒當AI 產業門面 - 聚財網",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Shinhan Bank Presents Two Research Papers on Trustworthy Financial AI at Global Conference in Milan - Korea IT Times",
+   "source": "Korea IT Times",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9lVUFtcTlJVDE1cGVGT3F4T08wamIybkQwaTI2cEhJc3NYU2Q3YUIwcUZ5dXZ5M0QycTVxMFVNa2xpSl9sZGxqYmxGczVpbW53Sm02d3dBdXQ2UVN5Z0U1Q3Nwc3ZZTGUxRkZ5Q0xSbDM?oc=5",
+   "date": "2026-11-16 11:40",
+   "publishedAt": "2026-11-16T11:40:11+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "政策",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Shinhan Bank Presents Two Research Papers on Trustworthy Financial AI at Global Conference in Milan - Korea IT Times",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "打造全天候 AI 代理 資深編輯以雙 Mac 與 Claude Code 築起安全防線 - 商傳媒",
+   "source": "商傳媒",
+   "url": "https://news.google.com/rss/articles/CBMihwNBVV95cUxQbVNxTGJmTFppMGJQS082S3ZYRHRFNElua0dVbGZMb1YxeVpoUjl3VTB3Wkh0bUJyQkFFbXlrWlRYREc4LVdKSXpqZjZEMVZsa2w4VHEtMGo0VmRIXzAtVkttOVNDWklFekl1NGtoRlJEcUNxYktjTnREY2lmalQ2MjdUZF9FTlNQVTlNbGFaRzlvVVhKNzBFRXhOeU9hbWhrQmpHRHFGOVRWcTNucnkxWTdsZmRoS3htbkxJTU1KOTFGdU9YVTNjVnhjZlhnMlNmdkFWVVNNckFhVkJhYUJreXBQVmV2ZlZfV053aDJ0TllvMkVrazRHdUtmQTg4UU9WcjVORVpYcUpjaFhfZzlWTXN4d3BKcXloeVUxZTFzb2hBTGJDTVdwLW9OM0Y2dTR2WlJwTk1JUk9mWHA4b0dHbmRPSUhlZjNQbVNpdm1VcFpHY0wxYS1zOW4yRWZnT0gtUUE2Mk80UUIxVnlDQkFzZERSNklvekZBVmpEcjhKTHNpNUVYVng4?oc=5",
+   "date": "2026-11-16 11:15",
+   "publishedAt": "2026-11-16T11:15:57+08:00",
+   "summary": "",
+   "models": [
+    "Claude"
+   ],
    "tag": "產品發表",
    "camps": [
     "anthropic"
+   ],
+   "press": false,
+   "heat": 22,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [
+    "LIFE 生活網"
+   ],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "打造全天候 AI 代理 資深編輯以雙 Mac 與 Claude Code 築起安全防線 - 商傳媒",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Gemini 4 Hydrogen - iThome",
+   "source": "iThome",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5WRzB1LVZPZEtMWVdkaGhrRUNjQWR1b05OWFpoZUZBemZkS1pUTnNBMF9lNGU3WjhNSnlOT1E5OTg5ZnZ6LWh0TmI0WW5RTzBHSFNsU2gxT3ktUzk2?oc=5",
+   "date": "2026-11-16 11:15",
+   "publishedAt": "2026-11-16T11:15:51+08:00",
+   "summary": "",
+   "models": [
+    "Gemini"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "google"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Gemini 4 Hydrogen - iThome",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Alibaba unveils new flagship AI model in riposte to US rivals - The Straits Times",
+   "source": "The Straits Times",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNVJzSHdUYUl4Njh5UW9DOWRXYjMxdGlKSF81V0FtRW5DQWwweWNEMXhsRGlsd1htaG9kc2MxX0VYa1FxOEFtaFNtLTh4TTN0ZWFtcWRuRkk3QjRrMm83OVZ2R2JQc2RadEdLUEVGUjRDVHlBOVoxOHF4T1cyU2RLTGl6U1VxVkVpbVg1Sk82blNFRDgtYnAzWnM3WHdTSTVp?oc=5",
+   "date": "2026-11-16 11:12",
+   "publishedAt": "2026-11-16T11:12:00+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "商業",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 22,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Alibaba unveils new flagship AI model in riposte to US rivals - The Straits Times",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "OpenAI 推出 ChatGPT Wallet，AI 代理可代為下單付款 - TechNews 科技新報",
+   "source": "TechNews 科技新報",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQX041MGdXcGUtQWJSQ01kdGR4dklhN0paaVlrR05iY2U2TWVoWkFoX1Y2N05ycGdyYjBLeTBZWEpaYVpjNS1LYzBtbEdKakttLVhBeml3TjdTeU50dFo1VUlCSGsyMENldG1DcDJQcFFMdjJDV09faDdCV3FPa3J5MjFKdkN3aG9KVTBMQTRSTE9aZU4zcmxwLWVhRWUzRFI5?oc=5",
+   "date": "2026-11-16 10:55",
+   "publishedAt": "2026-11-16T10:55:08+08:00",
+   "summary": "",
+   "models": [
+    "ChatGPT"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
    ],
    "press": false,
    "heat": 14,
@@ -443,17 +769,259 @@
    "lang": "zh",
    "i18n": {
     "zh-TW": {
-     "title": "Anthropic 內部報告揭露AI 代理總工時竟達人類6 倍！工程師變「AI 保母」，初階職缺驚現雪崩式下滑 - T客邦",
+     "title": "OpenAI 推出 ChatGPT Wallet，AI 代理可代為下單付款 - TechNews 科技新報",
      "summary": ""
     }
    }
   },
   {
-   "title": "Tom Lee：科技股拋售、Anthropic IPO擠壓流動性以及Binance被盜63億美元后部分持有人套現等因素導致加密市場遭受持續拋售 - 富途牛牛",
-   "source": "富途牛牛",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcV9EWWw1TE5IbjNVNkthSVRlM3RxaU94ZnA1RGF1VE11anl3WVRoV0xiS19TczV0c0lmUF8zZml6dUlpeEdXSnQ0YlVBZ093YWFveVhUVUxlOW90TVpyaGRDN1lJcC14eE94cUoxbEVoNGdXUmJuaVdYLTdPYnhHLTd3RFFqYV8xbzhWOGNHMDBTS2VSM3VWMg?oc=5",
-   "date": "2026-11-15 09:23",
-   "publishedAt": "2026-11-15T09:23:00+08:00",
+   "title": "南韓爆高科技國考舞弊案 考生用生成式 AI 奪榜首遭查辦 - 商傳媒",
+   "source": "商傳媒",
+   "url": "https://news.google.com/rss/articles/CBMihgNBVV95cUxPNkR4c3B4TUxxUVdKb0hiMlktZlFIUWFEYk5ISVNCZl84OWQ4SzdTTzlPeTk5ZGtPVlJmSHY1a0NlMmhwcFlpV3BGNFNVaXdCLUtrSVRLSFlxMzFjT0RtZ09KYjRaLVRndU5lU3Q4eTVjNGgzcG9MdWdRc2Nuc2hjLXVRSlROa2N5NFZKc01ZcnF5eXBkZzlleFByYWdqREM0UFBkWDFnaU8yeVNGX3JUVmZBV1NYUjY0MUticUJUcVNvTGlVUDNLNWZUaGxMVlpGU2dzYW9ZcFBxOHJ1d1R0SFFNclJKM1JMYkpYd3lra0ZMZExodXpWbXl5U1VZdHJTd0JUMTFHc3ZKNHI2X3F2dXloUGhYZ0t5UjNQSnpxZkVzeXR6VEU3RkNxQUt3VXBXQzkzaWdwSTduMDQtT1cyb3NvTXJQU0x3WGJXem5oSXdxLXJEcTktVUtlN2JnU2lFVjZDT1JZXzhmUnFIN3dOc1pGRXZHY0Q1WlVxSF81SGR1dDJXZnc?oc=5",
+   "date": "2026-11-16 10:49",
+   "publishedAt": "2026-11-16T10:49:18+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 22,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [
+    "LIFE 生活網"
+   ],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "南韓爆高科技國考舞弊案 考生用生成式 AI 奪榜首遭查辦 - 商傳媒",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "OpenAI 解散獨立機器人團隊，轉向「通用模型」加速研發進程- 股市爆料同學會 - CMoney",
+   "source": "CMoney",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5nOWs2VDZrTWIxR2ZXZENaS2Q5djlCQUtrclFuZTNybU1mckVXN1pycHFvU3kzNVdFRXktTFlQVUJ0ZHNiWkNfN2k0dWdyY2d5b1lMY09tZTU?oc=5",
+   "date": "2026-11-16 10:42",
+   "publishedAt": "2026-11-16T10:42:54+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "OpenAI 解散獨立機器人團隊，轉向「通用模型」加速研發進程- 股市爆料同學會 - CMoney",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Alibaba unveils Qwen3.8-Max AI model, challenging US rivals Anthropic, OpenAI - Crypto Briefing",
+   "source": "Crypto Briefing",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZFdKOG5tbVJQbG43cVFoU24zS2JzMF9hVlh6MFBRZDJ1bzQ4QnAtdFVlQ0pZNHVIOVdPaXUxaUVQeDltTEU4QnNLcGpLdmNhdkR6R3A4a0xRaFBUYU05NTlMUjVtMnJqdU5qS2NzcUlQZGViSVZDZExyUE91YTJEVHB2b3dtWGhiWmN2VFBzV3ZEUm5QcjdqTFpkdDZfTXhQaWpoYg?oc=5",
+   "date": "2026-11-16 10:38",
+   "publishedAt": "2026-11-16T10:38:11+08:00",
+   "summary": "",
+   "models": [
+    "Qwen"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "anthropic",
+    "cn"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Alibaba unveils Qwen3.8-Max AI model, challenging US rivals Anthropic, OpenAI - Crypto Briefing",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "OpenAI 解散獨立機器人團隊，轉向「通用模型」加速研發進程 - TechNews 科技新報",
+   "source": "TechNews 科技新報",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPV1FDSFU5SXBVak5rMXlHYnFlSlpyR2lOV2k0bFlabDZ2d3hnTzZGSUlJTmdTUl9oSEVsNkEyMGxhN1RiUW5ncHRkcmUtSTQ1eUdta21tZVBuUDZXeW5ReGVXSUJrbkVjemhtWW9xeDJtMktNc21mNjFqazZkalVqb0J0dkpYZEhzQlFSMll3bDR1YkFCa3BwNmVtQVhTZ1VoX1Fmem02b1hSdzBTSmhVNmNDanBoN0J2Y2RMdA?oc=5",
+   "date": "2026-11-16 10:34",
+   "publishedAt": "2026-11-16T10:34:35+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "OpenAI 解散獨立機器人團隊，轉向「通用模型」加速研發進程 - TechNews 科技新報",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "GitHub Copilot 模型停用｜12 月 14 日 6 款名單及替代 - KONGGOK",
+   "source": "KONGGOK",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0zeTFxbmxXbjVGSlJiRjFMVGcyT0l4NFNTc0lwWEQ1Wlp3QVhod0t6SUc3MldyZURRUVpwQnlYT3FKTm5LZ3pXSlk2Mm9ja2NJeFMtM184NW1NcDhKdVQwQW1kT3pEU2Rob2piNVBfYmRueENBZ2VlQjlwWQ?oc=5",
+   "date": "2026-11-16 10:34",
+   "publishedAt": "2026-11-16T10:34:08+08:00",
+   "summary": "",
+   "models": [
+    "Copilot"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "GitHub Copilot 模型停用｜12 月 14 日 6 款名單及替代 - KONGGOK",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "OpenAI 推出 ChatGPT Wallet，智能體可代用戶進行交易探索 - Techritual",
+   "source": "Techritual",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1iVTFFZ1hrUlBWVXQxazlOTnY0ZkU3WTlnMEhja0hZZE0wbnJieGZsYkR2YmFZM2VWc21yLV9FNnNjd3Q3VVE2Q2kxbU1DN3JyVXpuUVEtRXY?oc=5",
+   "date": "2026-11-16 10:31",
+   "publishedAt": "2026-11-16T10:31:07+08:00",
+   "summary": "",
+   "models": [
+    "ChatGPT"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "OpenAI 推出 ChatGPT Wallet，智能體可代用戶進行交易探索 - Techritual",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "詐團用生成式AI偽造走失寵物照 勒索飼主交贖金手法曝光 - 商傳媒",
+   "source": "商傳媒",
+   "url": "https://news.google.com/rss/articles/CBMiigNBVV95cUxPUUlBUVNsc0o5aGxQbkhXdC05ODFibGNlRHZvNi0xdEFBbkg5djA0WVVvMm1iaVp2ZWM3ZnpzYjhPR0xlcnlKdUtEemhmWWx5RF83R0cwaF9Ja2pldkU0eHVOV19WS0V5Xy1WRmNYQy05Z2F6bU4yMS1IQjA0V2kwMG0ydEJDdjVGcG8wa0duMFVFYnA2enJsQUlFcUVOREhOb1EzcUpDN2k3TzNvQ2RUMHN6dDBOdjJsLTk4V254WDBna3ZrekhNQkF2M2k1cjFKVkxFemtpcWRTZkJRZHZ4S2w0X1hFQlAtZmg4eUJVOW9uR29fdjNGdVEyVDJ3VUQ2dU9LTjJoWkt1WnBaSk1WN05PWFo5a3JSeTIyMF9GNkxEb0ZzNzVUZ1Vid2NqZE5nY0NCUnVPRG1kRjZ6bmNRUFNpSE8tZkxRcWdiRy1OQl9rRmFjUU1IZTBlYXBGRHR2Mm1IckkyQ1JzdlhPcVk1MTkzYm5xaGVackRkY2JkXzRBck5RSHl3TlZ3?oc=5",
+   "date": "2026-11-16 10:24",
+   "publishedAt": "2026-11-16T10:24:47+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "詐團用生成式AI偽造走失寵物照 勒索飼主交贖金手法曝光 - 商傳媒",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Anthropic’s record IPO faces some big questions - Free Malaysia Today",
+   "source": "Free Malaysia Today",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOaHJ0dVlyZzdPa0N4S3YzbUVnaGNCV1dTSy1GcDM2NFFydUI1d19KVjhkb3F4TWMzTkNrOUkzWlVuNkdsX2pzQkJLMVFhWEJnMl8yS2d4eURIb3ZOa0V1NzJLMDdBZTRFVjh5dkVoRlVwMUk4UTI3QzZrWDEyU2dkNGJUS0pRNHFhY05kY1NNWERuNTJrYXpnMXFQcGNDSnJfREZ2UWQ1Mll3R2xYdEpiLWtR?oc=5",
+   "date": "2026-11-16 10:05",
+   "publishedAt": "2026-11-16T10:05:00+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "商業",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Anthropic’s record IPO faces some big questions - Free Malaysia Today",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "黃仁勳跌落神壇！Anthropic IPO超額認購近7倍 華爾街押注AI淘金新主角 - 自由財經",
+   "source": "自由財經",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0tWms1Yzc2OWlfOXBCdTM1UTFKTGloeHV1NVlHQVdlbmVucmJ0cDBlLVBTMjJReU82RGo0bUJhWGhsY2hYa2g0elMxc1BZQWR5US1NTEFaOHRRUFY0YkdV0gFkQVVfeXFMTkRmUFIzTTVFNTU2SExqZEFKRW9EQ0xTS3NlTXQ4NXJuNmpGZEk4UXk4U01CdjZBZ1pjVEVid0hiUUJrRlJmemdRZkpzZEp0d0ptWlRnZ0xqTldCc2cyYXhrMlhfZg?oc=5",
+   "date": "2026-11-16 09:52",
+   "publishedAt": "2026-11-16T09:52:37+08:00",
    "summary": "",
    "models": [],
    "tag": "商業",
@@ -472,22 +1040,140 @@
    "lang": "zh",
    "i18n": {
     "zh-TW": {
-     "title": "Tom Lee：科技股拋售、Anthropic IPO擠壓流動性以及Binance被盜63億美元后部分持有人套現等因素導致加密市場遭受持續拋售 - 富途牛牛",
+     "title": "黃仁勳跌落神壇！Anthropic IPO超額認購近7倍 華爾街押注AI淘金新主角 - 自由財經",
      "summary": ""
     }
    }
   },
   {
-   "title": "非營利團體告五大 AI 公司，要求法院禁止開發比現在更強的模型 - 鏈新聞 ABMedia",
-   "source": "鏈新聞 ABMedia",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4yN0F3clNlT2pjOUNnYUJtS3JfZExlcWF2TnM3Tm5GR3luT2tocjQ0eVVmem55NVBGcmFnSmI2WUZhN3ZVbkp4WWE1c0l0TnZyRkFOZTY2eWpHckFtU1dfZGVjUQ?oc=5",
-   "date": "2026-11-15 09:22",
-   "publishedAt": "2026-11-15T09:22:28+08:00",
+   "title": "Apple Intelligence 免費時代終結！官方文件證實雲端 AI 有使用限制， 想多用得看系統臉色 - T客邦",
+   "source": "T客邦",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOOENOUGVvaXhCdElFWC1zR1NLbEExYWFGZDVBVDNrUlB2bnNEOFdRUWo5cF9vSWtHWjN5MXRfNjRld1NqZ2l5el83cTNpZU9qS1lQazdvZGg4MFdNcWQtd2x2NG5tbW1HTWdBbWJSODdSbUVTeFZIOUh6YXVHV2RCdHVlWVQ?oc=5",
+   "date": "2026-11-16 09:30",
+   "publishedAt": "2026-11-16T09:30:00+08:00",
    "summary": "",
    "models": [],
-   "tag": "政策",
+   "tag": "產品發表",
    "camps": [
     "other"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "Apple Intelligence 免費時代終結！官方文件證實雲端 AI 有使用限制， 想多用得看系統臉色 - T客邦",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Apple launches new app to study how people use AI for health",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
+   "date": "2026-11-16 09:30",
+   "publishedAt": "2026-11-16T09:30:00+08:00",
+   "summary": "Apple's new app for a study will answer everyday medical questions",
+   "models": [],
+   "tag": "研究",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Apple launches new app to study how people use AI for health",
+     "summary": "Apple's new app for a study will answer everyday medical questions"
+    }
+   }
+  },
+  {
+   "title": "《獨家新聞》Anthropic IPO獲熱捧，AI領先優勢存疑 - TradingView",
+   "source": "TradingView",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1DSFRiZmM3d0ZGVmhWVTZibHE5N1NQQXlPREJVMXNudFg0d0cxZzFOSzZFN1drUkoxQTV2cE81aTl4X21xa2x6Wm9rREczMDFzYUdpRzN0ai1CVmY5WEdUWk9VNjlKU3laRkg0Wmtzd0t6NU9VanRF?oc=5",
+   "date": "2026-11-16 09:29",
+   "publishedAt": "2026-11-16T09:29:10+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "商業",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "《獨家新聞》Anthropic IPO獲熱捧，AI領先優勢存疑 - TradingView",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Apple’s new study looks to improve the effectiveness of AI health tools",
+   "source": "The Verge AI",
+   "url": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
+   "date": "2026-11-16 09:26",
+   "publishedAt": "2026-11-16T09:26:56+08:00",
+   "summary": "Apple announced a new study today with the goal of better understanding how people interact with conversational AI health tools and how useful their responses actually are. The company is conducting the Apple Health AI U",
+   "models": [],
+   "tag": "研究",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Apple’s new study looks to improve the effectiveness of AI health tools",
+     "summary": "Apple announced a new study today with the goal of better understanding how people interact with conversational AI health tools and how useful their responses actually are. The company is conducting the Apple Health AI U"
+    }
+   }
+  },
+  {
+   "title": "禁止霸凌AI！Anthropic Claude新規上路 嚴重恐被封帳號禁用 - 自由電子報3C科技",
+   "source": "自由電子報3C科技",
+   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE85NkItNDMxc01qUzlFam1VRGlnVms4cldzZ05jRXdqNjVyTk1JSHB1Y0pzakxoSHN3WVdiQTkxUnFBN3YySW0w0gFMQVVfeXFMUGctM1hLblhTQ1FxcjE4QW5qQllRdUEwcmJnbExacTFZS0RzV2pBemVVdExwTmRqQ2NaNUZFa0JpdFZFMXJpX2ZJRUs3WA?oc=5",
+   "date": "2026-11-16 09:00",
+   "publishedAt": "2026-11-16T09:00:00+08:00",
+   "summary": "",
+   "models": [
+    "Claude"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
    ],
    "press": false,
    "heat": 22,
@@ -501,51 +1187,25 @@
    "lang": "zh",
    "i18n": {
     "zh-TW": {
-     "title": "非營利團體告五大 AI 公司，要求法院禁止開發比現在更強的模型 - 鏈新聞 ABMedia",
+     "title": "禁止霸凌AI！Anthropic Claude新規上路 嚴重恐被封帳號禁用 - 自由電子報3C科技",
      "summary": ""
     }
    }
   },
   {
-   "title": "Local AI hardware, memory compression and export controls define a volatile week in chips - news.lavx.hu",
-   "source": "news.lavx.hu",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUi1DYURIVXFhWUdIVHZSU1hnYUcwWVJUN0NLNTREZ19GdnJLaW01blotdFJITVN6Z1dGemNPZ0NVLVFvVUg4cklCNTRWOVM0emR4RGJtQ0wzSzU2MVpZR3B0S0pXOHhZVlR4YWdmcDBRbHREQy1kOTlwRGNiUGlYTVN2QzMyZzdXSWpzYnJDZlRveUdOaUwyMS1jMVFEX1hzY2hNZkIzcE01UGJfWWEyR184bmVlYWlf?oc=5",
-   "date": "2026-11-15 08:35",
-   "publishedAt": "2026-11-15T08:35:41+08:00",
+   "title": "Gemini 正式登上 Apple CarPlay！車內啟動方式、功能與限制一次看 - 自由電子報3C科技",
+   "source": "自由電子報3C科技",
+   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1kQzU5MGRBYnFNTWk2UFlUTklaajI2YnpVbGpLaC1TX0k0ZWJXcHZNRS1ubXhkSTdQR0I0Ny0ySVpZcXhhS2Uw0gFMQVVfeXFMT1NoRlBkeTFxX3BZVGNIeWgxQnRpVGJpLXNaZE1RN1otOFB4cUktcmtWQXRDdE5teENYTXk2NEdlSWpreE5tVFl1V0RJRg?oc=5",
+   "date": "2026-11-16 08:45",
+   "publishedAt": "2026-11-16T08:45:00+08:00",
    "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "other"
+   "models": [
+    "Gemini"
    ],
-   "press": false,
-   "heat": 13,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Local AI hardware, memory compression and export controls define a volatile week in chips - news.lavx.hu",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "OpenAI 和 Meta 聯手，打通了 Agent 商業「最後一公里」 - 鉅亨號",
-   "source": "鉅亨號",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE4tdktOWXltZ0cteHJKdXlxMWF3ODhXM3gzTTFCUFE0Z3lYcXhwMDRhcHppZHQ0RUFyeU5yY0Jwbzdpdy1YdWJWRA?oc=5",
-   "date": "2026-11-15 08:26",
-   "publishedAt": "2026-11-15T08:26:54+08:00",
-   "summary": "",
-   "models": [],
    "tag": "產品發表",
    "camps": [
-    "openai"
+    "google",
+    "other"
    ],
    "press": false,
    "heat": 13,
@@ -559,24 +1219,22 @@
    "lang": "zh",
    "i18n": {
     "zh-TW": {
-     "title": "OpenAI 和 Meta 聯手，打通了 Agent 商業「最後一公里」 - 鉅亨號",
+     "title": "Gemini 正式登上 Apple CarPlay！車內啟動方式、功能與限制一次看 - 自由電子報3C科技",
      "summary": ""
     }
    }
   },
   {
-   "title": "What Developers Can Build With DeepSeek’s New Search, File, and Voice APIs - Kingy AI",
-   "source": "Kingy AI",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE03aXpEcEV6eHJHZm5OdFRLNHl0cnE4WHIwc0plaHJiTFlxalN4NGg1bXdpRFZyR20wQWtqUGdCdzdHLVFqSk1ackVITmEyQjJIX1J4cTdNZElUc0dKVEhGR0VFQk5MVDZZel9RWk5waGU5dVMzeDFwVVdnZDg?oc=5",
-   "date": "2026-11-15 08:20",
-   "publishedAt": "2026-11-15T08:20:19+08:00",
+   "title": "Anthropic IPO 1.4 兆美元估值與 8,954 億算力長約的財務真相｜TN科技筆記(TechNotes) - 方格子 - vocus",
+   "source": "vocus",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1UMkpHZUFsUFo1dWxsUmY5clhKc29qYnk1US1kUmdQRUtFcDRmdVhPTngtU2tHeVR2MHBpUEFxcUJyR3NmQjNubXU1V040U0FPZmRldHFTTDJWRDBEVlHSAWNBVV95cUxNWUVpQjlhMS1ieng5UV9xcGppYWdJWGRKMG5BaU1veTk1ek9jc0p2QUVIUTh3ajBoQ0NjWG42VHNRb1BXQXNHTEJLU2pkTzlyYUFaaFgtRmVNbjBMNi1UMVkzQ1E?oc=5",
+   "date": "2026-11-16 08:32",
+   "publishedAt": "2026-11-16T08:32:38+08:00",
    "summary": "",
-   "models": [
-    "DeepSeek"
-   ],
-   "tag": "產品發表",
+   "models": [],
+   "tag": "商業",
    "camps": [
-    "cn"
+    "anthropic"
    ],
    "press": false,
    "heat": 13,
@@ -587,20 +1245,20 @@
    "also": [],
    "lines": [],
    "score": null,
-   "lang": "en",
+   "lang": "zh",
    "i18n": {
-    "en": {
-     "title": "What Developers Can Build With DeepSeek’s New Search, File, and Voice APIs - Kingy AI",
+    "zh-TW": {
+     "title": "Anthropic IPO 1.4 兆美元估值與 8,954 億算力長約的財務真相｜TN科技筆記(TechNotes) - 方格子 - vocus",
      "summary": ""
     }
    }
   },
   {
-   "title": "Startups Strip Censorship from Chinese AI Models for Western Markets - 조선일보",
-   "source": "조선일보",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUklyRXlyWnVYYW1JWG9zVmIyUHA4Q2pUOWdCOTQwcUFjVG9ZYVc5Ukl6T2M5bll3X3dUWktjNml5Z3doUnlodkFUZmJwWm8ybWlld21TY1JlU3hhVTlDQzNQUHc4U1ExUjRQN1NEWFpZc2ZGT1lDN1BiNGFEX29NQWE3UTVRaGVq?oc=5",
-   "date": "2026-11-15 08:09",
-   "publishedAt": "2026-11-15T08:09:52+08:00",
+   "title": "地端 AI 能夠拯救 PC 市場嗎？ - TechNews 科技新報",
+   "source": "TechNews 科技新報",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5rd0k4NUJfWWQ4dmF4UnlMcnFvSzV3MXdvQ1BUZk5NQ0lIWVJNWDVZbHFEOTFNcjdORmtVdkhBWWJxRDdkcERlTTBlblZ4cDQ5U1Q0bVB3ZjVMNk9SMkJLaXhoUng?oc=5",
+   "date": "2026-11-16 08:04",
+   "publishedAt": "2026-11-16T08:04:20+08:00",
    "summary": "",
    "models": [],
    "tag": "產品發表",
@@ -616,20 +1274,20 @@
    "also": [],
    "lines": [],
    "score": null,
-   "lang": "ko",
+   "lang": "zh",
    "i18n": {
-    "ko": {
-     "title": "Startups Strip Censorship from Chinese AI Models for Western Markets - 조선일보",
+    "zh-TW": {
+     "title": "地端 AI 能夠拯救 PC 市場嗎？ - TechNews 科技新報",
      "summary": ""
     }
    }
   },
   {
-   "title": "Google unveils Gemini 4, new TPUs, smart glasses in five-day AI blitz - TechGig",
-   "source": "TechGig",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNR015Y0VmdlpILXBpeGRCWURYT0lKdEZqdV8wYV9qeFYtNkRxbWxwaDd6ejYxYnNQQ3NsN3BhckcxYnA2UWxZUExKOTUxV1hpNU1XcUo5WkNFdjhiSjJNNFE0SHg3NkFmUXExUWhmZmhCcnlpSkNFaWlxdzJrWHBUdTdjc0ZiUm9FNGhNdndCLUdnYm9oM0hub05jMkg0S0Ztc3NHYnJMQmtXcDhEOEE?oc=5",
-   "date": "2026-11-15 07:20",
-   "publishedAt": "2026-11-15T07:20:36+08:00",
+   "title": "Google adds Gemini 4 Carbon to free scientist access program | ETIH EdTech News - EdTech Innovation Hub",
+   "source": "EdTech Innovation Hub",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVTl0ZVliY3J3SWtTWkdPYk9WYnRjcy0wYWxUNFFXeWhtaVJPZDB1LTh4dTI2RTlEZjhwLV9QWXc0cUZJajVsOGQ5RFdMZHYtRDVlMTJOLUx4ekdCTWtoNjhhVUxyZzBEVV9wazlCdi1XdUU5YU14RFdUd1VhX2ZUbS1OTFdtRTBnV3pUZFNYclFmajdHX0lfQXgwQjJjTENKZUZQekNLVUVrUW1hRXc1b3ZsSWxtdw?oc=5",
+   "date": "2026-11-16 08:02",
+   "publishedAt": "2026-11-16T08:02:11+08:00",
    "summary": "",
    "models": [
     "Gemini"
@@ -650,24 +1308,22 @@
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "Google unveils Gemini 4, new TPUs, smart glasses in five-day AI blitz - TechGig",
+     "title": "Google adds Gemini 4 Carbon to free scientist access program | ETIH EdTech News - EdTech Innovation Hub",
      "summary": ""
     }
    }
   },
   {
-   "title": "Mistral AI IPO: Status, Valuation and What to Know - Admirals",
-   "source": "Admirals",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE94MmV2ak9KamtVTU5UZXIxRENvMTVhbDBtU0k0V2RyMV9DTDFEVFNEcWxWQWtsUVJzVktoV2J6cGlfNklKWlB5bi1jSXg3NVNDTkFOQWd1alFQcEswb1pmRjM0Mk5IeFdnVUo2eHNoNFllWC0zVmc?oc=5",
-   "date": "2026-11-15 07:15",
-   "publishedAt": "2026-11-15T07:15:51+08:00",
+   "title": "OpenAI Details Astra's Role in Standard Model Lattice Proof - The Defiant",
+   "source": "The Defiant",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOaGJqa2hsRG9HTGlicjhXZnppU0o2T0ZjVFU2c295dnFMdFZJa0ltTmpaNEJkMWdRZ21oUmVwQWtpNC1XZExKQ0tKN0FJN1NmUm9kb2x0VUYtV3ZkdEhCbF93Szc3cTRlMnZWa09RTERtSnJMd3dtcnpUd2ZiRDNac0pJUGJqWi1TcXJRTWFQOWhoSHlyUGU0Rw?oc=5",
+   "date": "2026-11-16 07:42",
+   "publishedAt": "2026-11-16T07:42:09+08:00",
    "summary": "",
-   "models": [
-    "Mistral"
-   ],
-   "tag": "商業",
+   "models": [],
+   "tag": "產品發表",
    "camps": [
-    "other"
+    "openai"
    ],
    "press": false,
    "heat": 13,
@@ -681,503 +1337,55 @@
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "Mistral AI IPO: Status, Valuation and What to Know - Admirals",
+     "title": "OpenAI Details Astra's Role in Standard Model Lattice Proof - The Defiant",
      "summary": ""
     }
    }
   },
   {
-   "title": "U.S. lab says Chinese AI models trained on Nvidia Blackwell chips despite sanctions - Chosunbiz",
-   "source": "Chosunbiz",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUFRFVnhDbnY0TUFmLTEtTFZXeXVTMUJ2U3k0MTBIT1dLaUZXY3RhZGdiVG55UHdlWlVpNk5uMWtqUWcxWTJLU0pTLVVZT04tVmhIZUFVYl83dWhMdlJrbDNPUkpvbGJEd05HdGpTM3NkVUtLOW01cmlKeDZUU284cW5WLTNpaGo20gGcAUFVX3lxTE9UanE0aUdjbldQTUQ3enNWMEdZaEp0cDZrUkNjLTlJU1NtMnRNYjd0dUJMUi1FMjVsMlFpTl9Ob044M2tMdGtjV3J3bjFIMXROZlctdWdPUl9FY2h5VVZzc2Iwd0MxaEJjcldwZWhPcmdaNEx1SFBMeUZUXzhFV1psSUhJX1c4bHE0X19Od0pXVUlzMkhkLUhmOXphWg?oc=5",
-   "date": "2026-11-15 07:07",
-   "publishedAt": "2026-11-15T07:07:00+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "heat": 13,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "U.S. lab says Chinese AI models trained on Nvidia Blackwell chips despite sanctions - Chosunbiz",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Unified Model Improves Text and Multimodal Dialogue Parsing Across Benchmarks - Bioengineer.org",
-   "source": "Bioengineer.org",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNeW02WHB0OGw2UUNzMkJlTDhwVGg2VHhhbkNpSHRNeUF3TkpSTmJpZjhvelM2b3RXTWx4NWU1dk1wQ0lfRUV0OGRVbDI5dDFiM1g3em9XTUJjQ1RNUFdHRXJfclAtRjVHRVMtd1VZMUU0eXlaX2xoTWV2aUM1SWdFTXUtX0V4VHF4NlFSZ3NZV3lJMWxWMEI3cFI0dEFENUZwcnIwTw?oc=5",
-   "date": "2026-11-15 05:45",
-   "publishedAt": "2026-11-15T05:45:20+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "研究",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "heat": 13,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Unified Model Improves Text and Multimodal Dialogue Parsing Across Benchmarks - Bioengineer.org",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "History of ChatGPT: How AI Changed the World - STL.News",
-   "source": "STL.News",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBvbjdERWhLejFZeDVmejlTUFk2OVBzUUFqN3c3NWkzZDA4UU5ETnY2bWdiTl9IOFpBeEtQS2tiLXdfT1N5Uk5MN2lBT01SMjBrTmlTTERUQlluUDhfM1pTRG9LSVV2c2JaZ2xISDNPcHpRMzA?oc=5",
-   "date": "2026-11-15 04:36",
-   "publishedAt": "2026-11-15T04:36:14+08:00",
-   "summary": "",
-   "models": [
-    "ChatGPT"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "openai"
-   ],
-   "press": false,
-   "heat": 12,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "History of ChatGPT: How AI Changed the World - STL.News",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "DeepSeek Opens Its App Tools to API Developers - Howl.Link",
-   "source": "Howl.Link",
-   "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE1WS1haYTZKRElsQlZrWjFwWUhacTBrMC15ekhabDlmQURxd3hQTFZseUdrcF9Wb3ozME5Z?oc=5",
-   "date": "2026-11-15 04:04",
-   "publishedAt": "2026-11-15T04:04:41+08:00",
-   "summary": "",
-   "models": [
-    "DeepSeek"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "cn"
-   ],
-   "press": false,
-   "heat": 12,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "DeepSeek Opens Its App Tools to API Developers - Howl.Link",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "OpenAI reassigns robotics researchers to other teams as general-purpose models might make specialized robotics AI unnecessary - The Decoder",
-   "source": "The Decoder",
-   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQc0RCaDFRSml1TkxBN09Ed3pkZDhDNDAzYThkdktlU3lVMy1IblZSb0dyRkw2TjNCTFF0c0dha25JdlZNNzh1OWlrTzI5T2dOUEtGSHdWNDVMTlMyZm5BS3lGQXNtTnN3Wm82OUtMOGVHX2FsOUhBZHRGQlVKQXJrMTZtM2xHTWQ2VmVnRlhhd0RTamJiWEZabWc1TVFZTk1ieDdDQ3ZxTmxJVy1kczNnUWM0UVpEVVFZWmgtM1RhVXpyMGdKN0ZpY3I4SzZIR0RJd2JMdmY5S1Q2VTFYTFVTUG1zcmE?oc=5",
-   "date": "2026-11-15 03:16",
-   "publishedAt": "2026-11-15T03:16:38+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "研究",
-   "camps": [
-    "openai"
-   ],
-   "press": false,
-   "heat": 12,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "OpenAI reassigns robotics researchers to other teams as general-purpose models might make specialized robotics AI unnecessary - The Decoder",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "【即時新聞】AI熱潮退燒？Anthropic(ANTH.PVT)啟動IPO，輝達(NVDA)人事巨震下估值下修至1.4兆，華爾街迎終極大考 - CMoney投資網誌",
-   "source": "CMoney投資網誌",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNeE5NVWdDb1E4aTBHcXIxM19XNlQtVE1nbVc0VTRMaWVkNG9xMXRrdnZlZi1tcXBzZF9uY2JDQ2lsN1k3VUt3TmVERDJkZGFNNGcxV3FTTU4zbjBKQWZFaktWV243TmM4MjAxcUFvWTFBM1F1YmtvUFdncUMyS3hqRnNNZ1lDYjRVZGJSZ2JndDg?oc=5",
-   "date": "2026-11-15 02:51",
-   "publishedAt": "2026-11-15T02:51:30+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "商業",
-   "camps": [
-    "anthropic",
-    "other"
-   ],
-   "press": false,
-   "heat": 12,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "【即時新聞】AI熱潮退燒？Anthropic(ANTH.PVT)啟動IPO，輝達(NVDA)人事巨震下估值下修至1.4兆，華爾街迎終極大考 - CMoney投資網誌",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "DeepSeek opens chatbot search, file and voice features to developers - Business Upturn",
-   "source": "Business Upturn",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPM1JoTkJ6dHJja3NqY0VObVlHQTJ5aVZscGxnNENydHkwemM0U3NxaTlaUm1QR016cl9sVHBXRmFibklHbXUwVUdjelNjY3JZR3RpZThhWkVRR2w5X19EbDZKR1IyRkluWm42YVlHZlhPZGx5TF8xQUtab3JmaFhhRlB2RnZ6ZE0zQ1ZYZGZpOXZoVDZXSkFyVFdaYndtdGY3WG9aOUZUY0I2dw?oc=5",
-   "date": "2026-11-15 02:48",
-   "publishedAt": "2026-11-15T02:48:09+08:00",
-   "summary": "",
-   "models": [
-    "DeepSeek"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "cn"
-   ],
-   "press": false,
-   "heat": 12,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "DeepSeek opens chatbot search, file and voice features to developers - Business Upturn",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "NVDA 輝達- Anthropic IPO衝擊測試AI熱潮：估值下修、華爾街行銷低調、能否恢復信心？ - 股市爆料同學會 - CMoney",
-   "source": "CMoney",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9HTjNmd25FLUg4MTFFREVMa0lFcDF2V2diOVVhR1l0ak9STklzaS1IWTFTeHhGWVRRUlZ1amdRUUhMQnloZGhrN3ZjSWRvTVoxZWNRQVVoTTM?oc=5",
-   "date": "2026-11-15 02:37",
-   "publishedAt": "2026-11-15T02:37:18+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "商業",
-   "camps": [
-    "anthropic",
-    "other"
-   ],
-   "press": false,
-   "heat": 12,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "NVDA 輝達- Anthropic IPO衝擊測試AI熱潮：估值下修、華爾街行銷低調、能否恢復信心？ - 股市爆料同學會 - CMoney",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Anthropic IPO衝擊測試AI熱潮：估值下修、華爾街行銷低調、能否恢復信心？ - CMoney投資網誌",
-   "source": "CMoney投資網誌",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMl9HNVU2UUVCVnYxVzkxLUp4OEV5VjZJV0M4VDZ2a29VMk5sc29DVGZUb25VVmxoMmphbFJwaHpzZUJfU0s5c0dKd1FOZ2JvRzM5dURERWNCaHRYSy1CYkswbHRKLVc0cWNtMXFsOEtWMjEtSVNabTB5S0xTRFZSVnJPVkxpN3IzSTBXODJ3?oc=5",
-   "date": "2026-11-15 02:37",
-   "publishedAt": "2026-11-15T02:37:11+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "商業",
-   "camps": [
-    "anthropic"
-   ],
-   "press": false,
-   "heat": 12,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "Anthropic IPO衝擊測試AI熱潮：估值下修、華爾街行銷低調、能否恢復信心？ - CMoney投資網誌",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Figma AI Releases MotionGraphicsBench Benchmark - CASRAI",
-   "source": "CASRAI",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOQzJiU2wwaVJfNmtMbVZQRnZLbUpnanVyUUppM2J6MmtOQWNFQjd1TGwzVzBma2J3NGtfYm1SY0NMWXdhSkhxYy1Ybm1EMWJ4LWlDWmppQzZOVU5WY2tjNnlNcGtIUnFqTFFLd3hjVWhVS1RnT0RIWGQzRVRKZWo4ZHEwanBOX2V1U3Nz?oc=5",
-   "date": "2026-11-15 02:31",
-   "publishedAt": "2026-11-15T02:31:24+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "研究",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "heat": 12,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Figma AI Releases MotionGraphicsBench Benchmark - CASRAI",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "OpenAI撤銷獨立機器人團隊，通用大模型「接管」具身智慧路線之爭升溫 - BigGo 財經",
-   "source": "BigGo 財經",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1zUTdmX0dFSEV0dXA1TS1vOFR4THBnNUxOUWNZdGczVnpPZHlHTk1SYy1USk93cnJCT3RTY3JtaEZWQXJlZ01xZjMydFhieXF5YXZzNHJPUS1yc1lmZjZodnQ4WG9ic3dGM010a1M0eEhVWFd2cERaZENB?oc=5",
-   "date": "2026-11-15 02:15",
-   "publishedAt": "2026-11-15T02:15:00+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "openai"
-   ],
-   "press": false,
-   "heat": 11,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "OpenAI撤銷獨立機器人團隊，通用大模型「接管」具身智慧路線之爭升溫 - BigGo 財經",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "OpenAI Scraps Standalone Robotics Team as General-Purpose Models \"Take Over\" the Embodied AI Race - BigGo Finance",
-   "source": "BigGo Finance",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE45S2lZUnZVTDlENFlwekNGVkphUUsxN0drSlhjSl9mT1NBenN2NDZDQU4xZG8wT1lZWGEtdzRyN3l5YUxnNUZKTWpfczRQb29MdTNlMkZ5NGFpUDNIeEVfR3p1SmNfendXVi1HSXd3b05XOW5zMFE?oc=5",
-   "date": "2026-11-15 02:15",
-   "publishedAt": "2026-11-15T02:15:00+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "openai"
-   ],
-   "press": false,
-   "heat": 11,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "OpenAI Scraps Standalone Robotics Team as General-Purpose Models \"Take Over\" the Embodied AI Race - BigGo Finance",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "DeepSeek V3 Architecture Rebuilt in 190 Lines of Pure JAX - news.lavx.hu",
-   "source": "news.lavx.hu",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPY1NoZUNUeGl1UWtheFVUTl9XVDYxeWpUN0RtTVJPbFdJSE10NVBTVTFZNXFFdXdTaTRHbWVMYUY3UnNueER5emJzRVFOR0JQYVVYUUdaZFJBNWt1T1BaTkozYjktaklhSGFhLXVscmcycTF4dklXYm0tX3lJUGlRekpZaExfcmJRXzFoV1BYRQ?oc=5",
-   "date": "2026-11-15 02:02",
-   "publishedAt": "2026-11-15T02:02:57+08:00",
-   "summary": "",
-   "models": [
-    "DeepSeek"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "cn"
-   ],
-   "press": false,
-   "heat": 11,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "DeepSeek V3 Architecture Rebuilt in 190 Lines of Pure JAX - news.lavx.hu",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "專欄：Anthropic 的巨型 IPO 即將到來，勿讓炒作影響你的投資決策 - pathofdemocracy.hk",
-   "source": "pathofdemocracy.hk",
-   "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxPUnJ0SDFOUGZRYnZjRDZqeWlsblR2dlVIdXo5VGhIbkFxci1SUkJjRk9zcmVjRE5TMXNOVmhfNUswQTRGZmpEZWVPU3FsTk0wY0RQMmlWU2RiYk9YVUY3UFUzN2E0LXA5V1R4N3NFeHdrdG45ODRDb2ZncXlIRFFSUEJkdjFfNkxMa1RKTDl5NmdOSXVya2xUVDA2X1hlejFYeGZPdHlBdi1kVXVoY0taT0ZQQXdSMnlpQkNVNW1YUDhrVW9TajFGM3UzYy1tdU1jaFdVS3duMnNnUXlKbmRVdlJ5NXRVZmhLZ0tVWjBzaUt3OXBPeVRaMDkzeGlCb1hFWHdNOTRDU242MmpHSEZnSk1OUHc4cEJyTmRjVWVLUE9WUU1teWFtWFZubFhXRENiSnRKakd1MXo2VnVOaHNDdVlfSFlmdw?oc=5",
-   "date": "2026-11-15 01:50",
-   "publishedAt": "2026-11-15T01:50:51+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "商業",
-   "camps": [
-    "anthropic"
-   ],
-   "press": false,
-   "heat": 11,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "專欄：Anthropic 的巨型 IPO 即將到來，勿讓炒作影響你的投資決策 - pathofdemocracy.hk",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "ChatGPT 錢包 可幫忙購物 - 聚財網",
-   "source": "聚財網",
-   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1IOE1QbkhZakhMLU1vRDBheF9NZjVCWlV0Y1BrelpwLTJDaUViNUNMUkhCRWJHQ2tSQU90UEFMLUljS0lNaE9oazF6OUs?oc=5",
-   "date": "2026-11-15 01:35",
-   "publishedAt": "2026-11-15T01:35:01+08:00",
-   "summary": "",
-   "models": [
-    "ChatGPT"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "openai"
-   ],
-   "press": false,
-   "heat": 11,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "ChatGPT 錢包 可幫忙購物 - 聚財網",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "AI概念股挫勒等？輝達財報、Anthropic IPO下周登場 富國銀主管警告：投資人都太樂觀 - Yahoo新聞",
-   "source": "Yahoo新聞",
-   "url": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxPTlZ0VnNoNzdYZmFYV19JS09lSFRoLWN0MVBadW1aeGFaVVZ6Q2NJOEJPWVlXSDZabHhwLVlQYWFOOXRpdGFSUnRwWmotTkhmMC1aenY1SVlaZXJOTlVpVUtlS0FBUlM1Y3FtMjMwRklIbDZSeWxqRHBGeUxRNmRMY1MyanU0WTFTUmlWX2JRR3NtdHJ5TmZLcGZLZkZpS2FZVUpCOUdpT2o1Njhxb3hlWXpYWkoyOFVnckhGLWpqUkVKUXVqMFZfSjZ5NFVnaGJJYnZmSy02aXdySFdKb0JaYVd6NmxWdF9ZM3hEZzdYNHJrSUlJSG41LUxTdXNOeVcyeXRvNlhpLWVWYlZ0ZVdLOGxXWUZrZW5xaVNtVmZDdnZBZ05tUGdlbmhqQ1p3dEpQcm43OXVFeE1QaHpTS24yM1BVQmM0ZHpaVzFjWkFiYVB3N1Uyb1VMVG9kNW1DejJBNE45Tk9naw?oc=5",
-   "date": "2026-11-15 01:31",
-   "publishedAt": "2026-11-15T01:31:43+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "商業",
-   "camps": [
-    "anthropic",
-    "other"
-   ],
-   "press": false,
-   "heat": 11,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "AI概念股挫勒等？輝達財報、Anthropic IPO下周登場 富國銀主管警告：投資人都太樂觀 - Yahoo新聞",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+   "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
    "source": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-   "date": "2026-11-15 01:30",
-   "publishedAt": "2026-11-15T01:30:00+08:00",
-   "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+   "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+   "date": "2026-11-16 07:30",
+   "publishedAt": "2026-11-16T07:30:00+08:00",
+   "summary": "Bharat Semi says it has secured design wins for its AI-enabled sensor technology with companies including General Atomics.",
    "models": [],
    "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
+     "summary": "Bharat Semi says it has secured design wins for its AI-enabled sensor technology with companies including General Atomics."
+    }
+   }
+  },
+  {
+   "title": "Microsoft & OpenAI: Azure Partnership, Deals & Investment… - FourWeekMBA",
+   "source": "FourWeekMBA",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5sa1VNOUlpQk9WVjE0UV9pRnd5N0doN0hYb2dBQnZpbURpUWdaRW9ZaHQtbmJGTUZMb3JzUXZ1V3huajAxdG9rRWpXZnBjeTBrNy1V?oc=5",
+   "date": "2026-11-16 07:06",
+   "publishedAt": "2026-11-16T07:06:48+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "商業",
    "camps": [
     "openai",
     "other"
    ],
    "press": false,
-   "heat": 11,
+   "heat": 13,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -1188,57 +1396,116 @@
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
-     "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations."
-    }
-   }
-  },
-  {
-   "title": "H-ViT Enables Integer Vision Transformer Inference Using Power of Two Scaling Factors - Bioengineer.org",
-   "source": "Bioengineer.org",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTlNRdzdybnM5NWwyU1ZIcjFFazhraGFOLXo5LUpDc3prVWVNVWxXd1lSMnVtQk1Qb05UU3FlWElJZUUtZTNuaVI2R1cwSjhJVkRULWUzdDZzNHljSkJ6YUgzc2JzRVFaaHJiTGJOZTJhUTF0dGZuMklrX3Z0RHNXc3ctTXNrUzRZX1BBZTJfRzJmQ3NzMHF3R01LWEdiTWlMdUpPQkVpWl9BUmJfZGt3?oc=5",
-   "date": "2026-11-15 01:19",
-   "publishedAt": "2026-11-15T01:19:02+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "heat": 11,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "H-ViT Enables Integer Vision Transformer Inference Using Power of Two Scaling Factors - Bioengineer.org",
+     "title": "Microsoft & OpenAI: Azure Partnership, Deals & Investment… - FourWeekMBA",
      "summary": ""
     }
    }
   },
   {
-   "title": "Gemini 佈局個人化智慧生態，串聯 Google Wallet 走與 OpenAI 相反的唯讀路線 - Mashdigi",
-   "source": "Mashdigi",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBtaW9EczY3VVVQZjVFMWY1c3Q4eFAzVHlSbHFyd1hkbm5jQm9TYWo4bE5wcUhiTmNpbnlmcXYxMGVGamhPSVZPNmduOGVUQ3lSREhLVGJ0LXliVDdoRUpMRFZFdUNVSkVidzZZZzJuZy1WenFMMTgzVHBxWQ?oc=5",
-   "date": "2026-11-15 01:00",
-   "publishedAt": "2026-11-15T01:00:57+08:00",
+   "title": "Physicist and GPT-6 Astra Propose Lattice Definition for the Standard Model - Blockchain News",
+   "source": "Blockchain News",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBZZFoteHU5dVU2T0o3Wm95QTJINHBBRFI0UUpMVTFTNU5xa3c3cFk0QzRqZVp5U3BxUFNJMXpzVkVXYUE0X0IzWlFzdl9hN3VwYmdqbGpUQzhLVVNoZFlXOFloeWUwMXVOVk5IcGo5OTFYcWJUYm5pNlFHV3QzQQ?oc=5",
+   "date": "2026-11-16 06:47",
+   "publishedAt": "2026-11-16T06:47:34+08:00",
    "summary": "",
-   "models": [
-    "Gemini"
-   ],
+   "models": [],
    "tag": "產品發表",
    "camps": [
-    "openai",
-    "google"
+    "openai"
    ],
    "press": false,
-   "heat": 11,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Physicist and GPT-6 Astra Propose Lattice Definition for the Standard Model - Blockchain News",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "A step toward defining the Standard Model on a lattice - OpenAI",
+   "source": "OpenAI",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4xSGFfWmVQdlE5eUpDUzdzczVqWV9MSnhzQnhKXzlicXUtdmFfandZbE9fUTAtVnVUeElydnowdzQ0dkY0Q0VxeTlDQ2JpeU5iR0JGaW5uN3FibEZaVFFFOE5jVUVwS2dvWXRNTHpGUkNpUU0?oc=5",
+   "date": "2026-11-16 06:29",
+   "publishedAt": "2026-11-16T06:29:40+08:00",
+   "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 21,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [
+    "OpenAI Blog"
+   ],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "A step toward defining the Standard Model on a lattice - OpenAI",
+     "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof."
+    }
+   }
+  },
+  {
+   "title": "Our new blog for science - OpenAI",
+   "source": "OpenAI",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0xMG5vSllDdjVHa3N1MmhSV2VBMnJIZ0tMcXg3dzJmY2ZvS2V3Zk9zaXRZY1h5enlLRzJDMURCbUZjN3ZJNnJuR1g2TnMxZ1hOaXdZQ21paTRXLWJ4dDl3?oc=5",
+   "date": "2026-11-16 06:29",
+   "publishedAt": "2026-11-16T06:29:38+08:00",
+   "summary": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+   "models": [],
+   "tag": "研究",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 21,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [
+    "OpenAI Blog"
+   ],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Our new blog for science - OpenAI",
+     "summary": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery."
+    }
+   }
+  },
+  {
+   "title": "很榮幸能與懷抱遠大理想的人攜手合作 - OpenAI",
+   "source": "OpenAI",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5YVGNiSzdOS0pESU1uTGNnS3ZGc1NJSjVBOVRwckhucjBDU1pRMjk4NmdyWVRidElxUEp2RGlyazF6cWdIQmhqZThjWGtGdjA3Qm53?oc=5",
+   "date": "2026-11-16 06:15",
+   "publishedAt": "2026-11-16T06:15:50+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "商業",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 13,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -1249,28 +1516,25 @@
    "lang": "zh",
    "i18n": {
     "zh-TW": {
-     "title": "Gemini 佈局個人化智慧生態，串聯 Google Wallet 走與 OpenAI 相反的唯讀路線 - Mashdigi",
+     "title": "很榮幸能與懷抱遠大理想的人攜手合作 - OpenAI",
      "summary": ""
     }
    }
   },
   {
-   "title": "Gemini 4 Carbon takes the MathArena crown but costs 15 times more than GPT-6.1 Sol - The Decoder",
-   "source": "The Decoder",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNY0NuYzZvQnRuaWZOTGtNYWpDQlN3VFljSExRa3k3ZDEzTm5BdEQ1Y1gwbmdMZXU2bjIwU2xmN3htejZpR3I3Zmcxd2RJVnZHZWY1aWFNTm9BTHhRN2dlanB3MldDOUJnQ2VnZmtMNkktOVJOLUgwLWhKcnpkQU5WRnR5VDRrNUFxak1ZNHdOWFlSR3BUYjBsOXZzUFRzcUdhUDZCMDRpVmtjblk?oc=5",
-   "date": "2026-11-15 00:50",
-   "publishedAt": "2026-11-15T00:50:59+08:00",
-   "summary": "",
-   "models": [
-    "Gemini"
-   ],
+   "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
+   "source": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
+   "date": "2026-11-16 05:56",
+   "publishedAt": "2026-11-16T05:56:35+08:00",
+   "summary": "\"Jensen is Nvidia, right? And so much of this economy is riding on Nvidia.\"",
+   "models": [],
    "tag": "產品發表",
    "camps": [
-    "openai",
-    "google"
+    "other"
    ],
    "press": false,
-   "heat": 11,
+   "heat": 13,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -1281,17 +1545,104 @@
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "Gemini 4 Carbon takes the MathArena crown but costs 15 times more than GPT-6.1 Sol - The Decoder",
+     "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
+     "summary": "\"Jensen is Nvidia, right? And so much of this economy is riding on Nvidia.\""
+    }
+   }
+  },
+  {
+   "title": "AI Models Show Inconsistent Decision Support in Colorectal Cancer Peritoneal Metastases - Bioengineer.org",
+   "source": "Bioengineer.org",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZzJmYWxpcExuZ3dUZGR1dzdDQjFtcUh0Q1c3VlhxMWZJZWxaLV9hbzVpWkRkQktsN3dTM1JGS214WkhrZDFiNkNMWTlpM3dITlVhby1QTF9yaGtxT1g2VnZ4a3p5MGVNdGQta0F5OUtYbWMtSUFGWUYtNkNFbXRQWEhHS3p4empSd05md0Z5MHhWaTljZEdQcUFUZFl3TUI3eXY5YWxOOXRVZmJfNlVLVzN3?oc=5",
+   "date": "2026-11-16 05:42",
+   "publishedAt": "2026-11-16T05:42:47+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "AI Models Show Inconsistent Decision Support in Colorectal Cancer Peritoneal Metastases - Bioengineer.org",
      "summary": ""
     }
    }
   },
   {
-   "title": "Anthropic says outdated prompting habits are slowing down Claude Opus 5.5 - The Decoder",
-   "source": "The Decoder",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTFM5cnNsaGNIMzZfVDNWZ19qWUg3c0UtNVZLdUdMbzc4ZS1uTGJ0VnN2dFItbVV5Q0VCMno4RGxNV05nQWd3ZDhlaVFIT3JZS0JMVFpMaUR0VlR5TGFROXpZMGwxUXBYdE9YUmtpZlZ5RVVSX0VYN1EzR2RTWW1UX0FGWHFxZVB0OUNvcEpPdDdvRUJMazNjdVRkM1RIdzA?oc=5",
-   "date": "2026-11-15 00:50",
-   "publishedAt": "2026-11-15T00:50:52+08:00",
+   "title": "Researchers Get AI ‘Drunk’ to Expose New Cyber Security Risks in Chatbots - The Good Men Project",
+   "source": "The Good Men Project",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTGxsX0pEY2JkNWJjenplS3p5cnRTTWQtUEk2UTlHblMzTFQyLXVKa2hiSGs0YlJ1eXR3MGdZQV9DV2lvbjJBQTJzX1RKZFpabFV0VG4zYmxDREIwaW9OLTEzeHo3NUtGVDlNSTJSMFA1RW1rYlVxMzF4N2lxU0ljNE03cGFZRkgtbGlJRl9Lb2M2cjlTeFUzN1E0RllLTXlwLXpuclM4NmVpSlZobHBmSHNPNVZSMVk?oc=5",
+   "date": "2026-11-16 05:33",
+   "publishedAt": "2026-11-16T05:33:28+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "研究",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Researchers Get AI ‘Drunk’ to Expose New Cyber Security Risks in Chatbots - The Good Men Project",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "When Hybrid AI Should Reason: HDM Decision Model - CASRAI",
+   "source": "CASRAI",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcUU4Y3JKWkRSaExveUNuSHVmM2xsbm5yVTNlSkt6eGlUSGVPNU1kNTNTQWpRYlNuaVRIR0Yzem5fSFRNeFZGXzhXMTZKcm9rUldjbjJBajNCNmVGTVRoU1h5TF8xUVN1WjlSbEVyelRmaXdpRU10aUc2SUMyYWJJZ1Z4NmlwUUQ0WWw4U3lsVC0tQQ?oc=5",
+   "date": "2026-11-16 04:08",
+   "publishedAt": "2026-11-16T04:08:36+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "When Hybrid AI Should Reason: HDM Decision Model - CASRAI",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "How Claude Fable 5.2 paints pictures by writing code for a simulated brush instead of generating pixels - MLQ.ai",
+   "source": "MLQ.ai",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTlpiamVXeVpvMlo4S09wLW03VjN1T0ZoeUl2Y0pFQzVNNXJhTnBiOWpoVnFrZFNhRUlVRXBBamR3UFFaZG5jcTJ0b19iV2gyZDl2WWZvUC12RVBiRTRBMFBIN2hSUHV5YUJWWDJrME9KdTlWWlJ3dk02TUdDd3NtRzVhX290QmtOQXZtOGZzSmZlSmFtX21vVmc5X3hzeHJyVkRHdXVJNzhaYnBULTZDeGZ0dHBPWlBxa0sxQW0xU0w?oc=5",
+   "date": "2026-11-16 03:44",
+   "publishedAt": "2026-11-16T03:44:12+08:00",
    "summary": "",
    "models": [
     "Claude"
@@ -1301,96 +1652,7 @@
     "anthropic"
    ],
    "press": false,
-   "heat": 11,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Anthropic says outdated prompting habits are slowing down Claude Opus 5.5 - The Decoder",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "OpenAI announces ChatGPT Health chats can train its models from November 19 - Pasquale Pillitteri",
-   "source": "Pasquale Pillitteri",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSHBGZllranFLbDBrWVRiSVM3MTBYd0JXRE1GZUNlRWNrOVlNMnRjY1dOVU53WVFtYkVqdTBIdnp1QTlTUGZIc2RBVXRlWVRGbDlqX05HeUVNWWJoV1o2aE5CS1hUVHU3M2FyWEE4VFpncF9pRk5LNWNveU5Ta2N3ZlJObFdrUV9tUEZCaFNn?oc=5",
-   "date": "2026-11-15 00:45",
-   "publishedAt": "2026-11-15T00:45:32+08:00",
-   "summary": "",
-   "models": [
-    "ChatGPT"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "openai"
-   ],
-   "press": false,
-   "heat": 11,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "OpenAI announces ChatGPT Health chats can train its models from November 19 - Pasquale Pillitteri",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
-   "source": "The Verge AI",
-   "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
-   "date": "2026-11-14 23:00",
-   "publishedAt": "2026-11-14T23:00:00+08:00",
-   "summary": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life. Helen is a well-known fi",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "openai"
-   ],
-   "press": false,
-   "heat": 10,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
-     "summary": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life. Helen is a well-known fi"
-    }
-   }
-  },
-  {
-   "title": "OpenAI Disbands Robotics Team After General Purpose Models Begin Running Robots - OfficeChai",
-   "source": "OfficeChai",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeWlvWEZEUVA0d29YM04zSGFvSktkTFVtSl9OeDFydE5LQnM2eFJnSHlBUG1JZzFzOWd0dlpHRUdsMDZRV2JsNFl0QkctN2YzaGhxYklXbmpTN2haNXVWZmVtb0xWWDY3Uk1MNVJ1OUFOUXg3X2NoU1BTN3ZFaXJrZS1TNDEzNmM1LTgzX2xEVy1wYWpKdGphQUYzREo1dDRjUHR5QmFPWUhlQQ?oc=5",
-   "date": "2026-11-14 22:53",
-   "publishedAt": "2026-11-14T22:53:25+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "政策",
-   "camps": [
-    "openai"
-   ],
-   "press": false,
-   "heat": 18,
+   "heat": 20,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -1401,296 +1663,17 @@
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "OpenAI Disbands Robotics Team After General Purpose Models Begin Running Robots - OfficeChai",
+     "title": "How Claude Fable 5.2 paints pictures by writing code for a simulated brush instead of generating pixels - MLQ.ai",
      "summary": ""
     }
    }
   },
   {
-   "title": "Researchers allege DeepSeek, Kimi, and other Chinese AI models were trained using banned Nvidia Blackwell GPUs — Researchers use new GPU 'fingerprinting' technique to identify the GPUs used to train open models - Tom's Hardware",
-   "source": "Tom's Hardware",
-   "url": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxQR0JoRXdycDVWakNINktZeHpUS1pLN2xxS0p1dVhFODJ1bkpPMEExZG9yb0dGSlRTMkhzbkNVYTlkWXl4OWk4Ujc4dEtJU0stNG5fT2JpdjJHNTRfZUxjSmk3cXEwa0F0YmNsRGtFMml0NWdzSjB4NnBaNS1vMFp4MWhsdDFBUlM4OEd6dlh1MGZBOUloRFlsam11dUh3WHJVSWVUWElwajhZWk9kS1hQbU54U2dlQy1EWHhsa1oyN0pDNElRd0hBdmY5bG1KeFlzSkhKNXg1dkxYNmFBVTJld3M5UkZDbHRsLTU0Y0J5TjFNQlp3Tl9DVnU1d1VTTGV6VGVzaTA2YXlPUGNHNXZIMXlsQ0xLVGtycVBzQzB4RHNHRDkzY08wMDJUcmtKb29TU1NuaktQYkw4WEJJNndJQVdPbU1WVC1WT3RudVJXM3VDM3Mwd3N5THZEcnBvOVBvZXE5UV9IbzhSbGM1Z2djcGI0Ym9hS0xjUHZQZ09lQQ?oc=5",
-   "date": "2026-11-14 22:50",
-   "publishedAt": "2026-11-14T22:50:00+08:00",
-   "summary": "",
-   "models": [
-    "DeepSeek",
-    "Kimi"
-   ],
-   "tag": "政策",
-   "camps": [
-    "cn",
-    "other"
-   ],
-   "press": false,
-   "heat": 10,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Researchers allege DeepSeek, Kimi, and other Chinese AI models were trained using banned Nvidia Blackwell GPUs — Researchers use new GPU 'fingerprinting' technique to identify the GPUs used to train open models - Tom's Hardware",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Anthropic says its AI models hacked 3 organizations on their own during tests - ABC News - Breaking News, Latest News and Videos",
-   "source": "ABC News - Breaking News, Latest News and Videos",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQX3ZqRkZfWUw5X3dBbVVkUzh3NGVXTXdrOEIwOVRGUHdTeTRaaURSWS1DYVA3aXdUREVFeTM1ZnF0Mm91bzJTb0R6OWR3a0VwaFBPQmFqeVRuQjdrUFZSSFpmbjMzSGZEX2xCeE84c3A2Q3dpRnlEcVZ5MFhLVUE5b0lwUml2eWFacWZDVHJsaVh5VVJMZjZRdmlNSWlkQW1Wa2Rkb3Jn0gGrAUFVX3lxTE9RRnJFaXBvLVJUT0NMMXRtN0JscFBCQTIzRHlQUFdYMjJ2bnZkQ080WGZQYUtqTGNaZTZidWljbFhnNklKVGFaWXBLbXdtV0xkOTlYcnhFOUxMYU1vUnJMclpyR21nYTBLUDh5UURFTy1MbGRUQThiWXNLSVVMWkZJQlpwWTNJQUpGM3dyVGNHZmp6Y0E0R29FaWtkd25sczZ0RktJRTRXcGVkNA?oc=5",
-   "date": "2026-11-14 21:38",
-   "publishedAt": "2026-11-14T21:38:54+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "產品發表",
-   "camps": [
-    "anthropic"
-   ],
-   "press": false,
-   "heat": 10,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Anthropic says its AI models hacked 3 organizations on their own during tests - ABC News - Breaking News, Latest News and Videos",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Istanbul-based team matches frontier AI labs on knowledge-work benchmark at a fraction of the cost - FinancialContent",
-   "source": "FinancialContent",
-   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQT0RJbVRuUUJnZ0RhWHZwWHdIUU5fSUMzT0hMdldMVkcyZm1NUW9McExGbXd3SkllbllCOFFUZ28tejc0SXNKbzVZU3N0VTgzSXhHc0ZQUW5zREE1bEZHeUo4YlZCR2RIemdJdEk5OVNQejBIaWRvajl0eV92MERhWlpYM0dUOV9janl0c2FQd3A2R3ZNWk10ZVBRVmlTQjRyZ1FZdHFIV1dRd1hsZVBpRnR3dDJZYkVpVzQ3ckdfYXkyaTNCMzlWclh3aU5TMk1BVmZ5RExFOWhvb1RmdmpFamc2dkx2X2NVbGJRa1Judw?oc=5",
-   "date": "2026-11-14 21:32",
-   "publishedAt": "2026-11-14T21:32:00+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "研究",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "heat": 10,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Istanbul-based team matches frontier AI labs on knowledge-work benchmark at a fraction of the cost - FinancialContent",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Chinese AI Models From DeepSeek, Moonshot, MiniMax and Ant Group Show Signs of NVIDIA Blackwell Use - XenoSpectrum",
-   "source": "XenoSpectrum",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSjZXNUJiUnFESjI5VTRQUHJ2aFF5bllWai12bmR5ak1ZaUJ4bm0yMC0xZzJyQU91XzBGamY4cnpPUG56THlFMnZrLTdxalBtZlNQdlhUaFlpQlpiWlpOMWJGdnQ3X3pOWkd1amxQczFfRUx1MHptWjR6cGFHTFpodkFZTHI4WmVVNnc?oc=5",
-   "date": "2026-11-14 21:26",
-   "publishedAt": "2026-11-14T21:26:26+08:00",
-   "summary": "",
-   "models": [
-    "DeepSeek"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "cn",
-    "other"
-   ],
-   "press": false,
-   "heat": 10,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Chinese AI Models From DeepSeek, Moonshot, MiniMax and Ant Group Show Signs of NVIDIA Blackwell Use - XenoSpectrum",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Copilot vs ChatGPT: $20 Plus vs $500 Pro Tier [2026] - shattered.io",
-   "source": "shattered.io",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPQ09LbzVJbUV6Nm11V0VYbTEyLTdBYUNuREZ0WVFmQ2owYjhfM3NENmdRcjUtRGNkRWRwM1hYNnFRMVNobTc1SUZ3SDFhU3RwTjl5Z05INGllTm15YlFuc2N5a0c1RFFfOUkxT2dxSGRTbWpCenF6LU5FWjRhdjEtc1VoRzY0UDVjQ0E?oc=5",
-   "date": "2026-11-14 21:14",
-   "publishedAt": "2026-11-14T21:14:24+08:00",
-   "summary": "",
-   "models": [
-    "ChatGPT",
-    "Copilot"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "openai",
-    "other"
-   ],
-   "press": false,
-   "heat": 10,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Copilot vs ChatGPT: $20 Plus vs $500 Pro Tier [2026] - shattered.io",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "US Orders Anthropic To Pull Claude Fable 5 and Mythos 5 - CoinMarketCap",
-   "source": "CoinMarketCap",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLVJwNzU3MDhyQ0xneVR0LVYxbkxlcGdIVDZVU19COGtBdmRpREJhNXZzcjRQWEZuWVhBM2RXamdzSF9nZks4N2tzUEphalJaQWd6Njg3b0ZCZElTd2w3LU5uYWxJWjYtOHdzS3NvZ3hVdW1uV0kyZHpESHZkRHllUl83OVBybGlqR2M5NXc4VmpqV1RDMjh1TWdHc1l5UQ?oc=5",
-   "date": "2026-11-14 21:08",
-   "publishedAt": "2026-11-14T21:08:22+08:00",
-   "summary": "",
-   "models": [
-    "Claude"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "anthropic"
-   ],
-   "press": false,
-   "heat": 10,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "US Orders Anthropic To Pull Claude Fable 5 and Mythos 5 - CoinMarketCap",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "民主黨橫掃國會擬向AI巨頭開刀 OpenAI、Meta等恐迎監管風暴 - 香港01",
-   "source": "香港01",
-   "url": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxNX0k3WkdUOExlWGhPcVdzOEpVWjRUS3Z2NDVQamtER0h3QlJyVGRYX3JFZVgtbDN5RVRZYTlKRzNZUTNYVHRVT1FTdDYza3RHUjJZNVRDcnFqdERLeFdvSmpFbTFoNVVnbktYWGtBN3VVWnZaa0FtaE5NMzdFTzBtYzZtTHVpV1BqeEFVVG5KejMySUZKMmwyYWpucUJ4NUlNS3FTbDM2SlVNSHFZS2tRNXJxeHY3YXBOa0dCU3NTTWlZc25hUVJQTnBXS0dIZzd2cUdDRG00MktHOXdtNExVdnAwRWJtQWVxdmFSLUVEMzBUOEhpd0RxV2tpQm00bGQ0b1prTUlSSUFIR2ZyMHg5emVuZlpkb0ZuN25pRTRsTV9mU1RrZldJQmp1a2VXTFdqNHFyTW8tOXN4QWRGcVo1ZHM5QWhCZ3Y0M3RoLXVISXZENW52a2diYnFGU3JyemlLeWVyS2hkNnJ3OHBaMmJ5NTVLWjNzRDhC?oc=5",
-   "date": "2026-11-14 21:05",
-   "publishedAt": "2026-11-14T21:05:19+08:00",
-   "summary": "",
-   "models": [],
-   "tag": "政策",
-   "camps": [
-    "openai"
-   ],
-   "press": false,
-   "heat": 10,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "民主黨橫掃國會擬向AI巨頭開刀 OpenAI、Meta等恐迎監管風暴 - 香港01",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "llama.cpp vs Ollama: v1.0, $0 vs $20 Cloud Tier [2026] - shattered.io",
-   "source": "shattered.io",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1vTWZkMzQzWHpvTkxBdzRTb3Q5STNqYzFzM2pxeE9XRkpSWWRyNFhzbGV6WE1mRTNqX3NzZmxuLWdWdFdYX3lqUUlnaGlCd0poczhfckwzTnVxaWtZME94VUNSb01EY1p1QnBGYkJmZWIxUnZQRjVqY21xSFVGZw?oc=5",
-   "date": "2026-11-14 20:54",
-   "publishedAt": "2026-11-14T20:54:52+08:00",
-   "summary": "",
-   "models": [
-    "Llama"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "meta"
-   ],
-   "press": false,
-   "heat": 10,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "llama.cpp vs Ollama: v1.0, $0 vs $20 Cloud Tier [2026] - shattered.io",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Lawyer upgrades eight-V100 private AI server to run 80% of DeepSeek V4.1 Flash at 4-bit NVFP4 precision — adds 1TB of RAM, an Nvidia RTX 3090, and fixes crashes caused by a bad PSU - Tom's Hardware",
-   "source": "Tom's Hardware",
-   "url": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxORmVNQ0JsdXR6NHc5aF9tNENEV2RwRGJKZGNheDJNRkZYS05oOVV2VV9lRTA5cTFhckFpZmFnZUtDWFlRTEJLejlTVzlxTDRBVHRzbUJtYVBRcmlDMjJkVmtaTl9YMWlNdWZFdGt4eTgyUHpyMHFxVnVXUTlSVm9HYWxqVGNaWUVzbElpZUtsT3d5X21fODJmYmZDdnpZWFJESFNaZFNqTF83aEw2UVdHWU1BSUg4TDJucnNBYUppX242cnJQaWF4T3l2dDdhVm54MmRNV2NJVHo4NnhTLThqT2xQUVhRbjBTdUJKNTlkSF8zblhUUEd6SjFkRHlMOU53eHJTREI1VzdyVXlmMmdBdkc2ejFQODdsUTlpUjJHYkxoaUNHUkgwTnIyX29nZF9VNTFBc1gxd2puZm9kc1lGSTUyTU9aQ004ZmlUNk9DbE1Fa3lnUTR5SzVKaHdXbklXcmNMUGx4a2V4QQ?oc=5",
-   "date": "2026-11-14 20:50",
-   "publishedAt": "2026-11-14T20:50:00+08:00",
-   "summary": "",
-   "models": [
-    "DeepSeek"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "cn",
-    "other"
-   ],
-   "press": false,
-   "heat": 10,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Lawyer upgrades eight-V100 private AI server to run 80% of DeepSeek V4.1 Flash at 4-bit NVFP4 precision — adds 1TB of RAM, an Nvidia RTX 3090, and fixes crashes caused by a bad PSU - Tom's Hardware",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "OpenAI 推出 ChatGPT Wallet，dots 代理人能替 Pro 用戶刷卡購物，每筆都要 Face ID 確認 - 硬是要學",
-   "source": "硬是要學",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTUlmakotRmhtYXV4aHBkQnV1T2FnR1RRcVVOSmJGbHV0V2x2Y3ZtNXh4VVgzS0k2RS1hRmVsS0RVcW1fazBJVHVBVEMxNWktbFRkSzh2S3NPYk5ReWdPZ19Sa2JxaFNaS3NnU0R1bTBnTWNvTEdWUVlHck93S2hvT0RJcUhES2V2YmF4Unk5VjJPSEljbUttdmNEUjVuSkF5Mmpv?oc=5",
-   "date": "2026-11-14 20:47",
-   "publishedAt": "2026-11-14T20:47:41+08:00",
+   "title": "OpenAI 更新 ChatGPT 以支持 GIF 創建及編輯功能 - Techritual",
+   "source": "Techritual",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE10NS1rdjRibVp5bHBHc1pxSGFyWjRCT3RLc1l1OElRNHpKYTFyMi1jd2EyM0FVeGl6YkQ0bVRvaW9TZ2RlQlBKR3VSUlFuamljV08yNFpTX2E?oc=5",
+   "date": "2026-11-16 03:24",
+   "publishedAt": "2026-11-16T03:24:03+08:00",
    "summary": "",
    "models": [
     "ChatGPT"
@@ -1700,7 +1683,7 @@
     "openai"
    ],
    "press": false,
-   "heat": 10,
+   "heat": 12,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -1711,87 +1694,25 @@
    "lang": "zh",
    "i18n": {
     "zh-TW": {
-     "title": "OpenAI 推出 ChatGPT Wallet，dots 代理人能替 Pro 用戶刷卡購物，每筆都要 Face ID 確認 - 硬是要學",
+     "title": "OpenAI 更新 ChatGPT 以支持 GIF 創建及編輯功能 - Techritual",
      "summary": ""
     }
    }
   },
   {
-   "title": "OpenAI 解散獨立機器人團隊？ 轉攻通用智慧與成本控管| 國際 - Newtalk新聞",
-   "source": "Newtalk新聞",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBVOF9zSFdKbG1UQlVpOG53dE5TWTFVZjZ1dDBRQ3dnQVpSUGgyUk5ZMTBXcFdNZFdSRG9qSHVLMzB0VmNzT25XZXJMVmxXaExscER6T29Yc2drQ2s?oc=5",
-   "date": "2026-11-14 20:43",
-   "publishedAt": "2026-11-14T20:43:09+08:00",
-   "summary": "",
+   "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+   "source": "The Verge AI",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+   "date": "2026-11-16 03:15",
+   "publishedAt": "2026-11-16T03:15:43+08:00",
+   "summary": "Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips. Both Democrats and Republicans have voiced supp",
    "models": [],
    "tag": "產品發表",
    "camps": [
-    "openai"
+    "other"
    ],
    "press": false,
-   "heat": 10,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "OpenAI 解散獨立機器人團隊？ 轉攻通用智慧與成本控管| 國際 - Newtalk新聞",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Anthropic IPO ：關於 Claude 締造者，您需要了解的一些關鍵資訊 - TradingKey",
-   "source": "TradingKey",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQTctWjYxeDFuY1NmTDh0RW0xS0x5cFpPellYbGJPRm9tYVZhdGE4VHBNWHl3MmhnTEZZUUhMUDZnUmZqN296enZ3UXpkN1FqZEZ0eEtqMVhJeHFyOWdJS1ktSl9yQndqdGFsMll3VzBSbFV0cTI1UnFGVzRBdmpPeFFfbHBocjg2SGNJUlh2UGxLdG53MjlHUmhMVThvcmE2NGZSbmpiWQ?oc=5",
-   "date": "2026-11-14 20:37",
-   "publishedAt": "2026-11-14T20:37:43+08:00",
-   "summary": "",
-   "models": [
-    "Claude"
-   ],
-   "tag": "商業",
-   "camps": [
-    "anthropic"
-   ],
-   "press": false,
-   "heat": 10,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "Anthropic IPO ：關於 Claude 締造者，您需要了解的一些關鍵資訊 - TradingKey",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Google's Sergey Brin Has Reportedly Urged AI Talent To Go All In On Gemini Models To Tackle Rivals - Stocktwits",
-   "source": "Stocktwits",
-   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNelVxb0lIbnZSbHJCSHl2NFdMMzZEbkpJVVZ5aXZ2MV95OHpLYlhxQnRVY0Q1R2lZUENUTFdIYVRCWGIyb01UZ0NlY0NnWV82Rzh6T2M5dE8ySVhqVlZ3V2dKM3ZOci1RcmppUHZwbVlMWW1SS2tSdEgxeGxVUWFGRThWTlVRSzNaU3VJR1V3M05NZVNYRkQ3cVpkb1JFTFhCVlRpaVFOVGJmUUlTZFcwREtndno1WERNeW9ZXzB0X21nR05NNXpoXzBzYS1NQ3ZHUE9xaENQd21nVXo2eEl5b3ltdkpJMF9IaWJZV1NUNWZFU0xN?oc=5",
-   "date": "2026-11-14 20:22",
-   "publishedAt": "2026-11-14T20:22:13+08:00",
-   "summary": "",
-   "models": [
-    "Gemini"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "google"
-   ],
-   "press": false,
-   "heat": 10,
+   "heat": 12,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -1802,29 +1723,89 @@
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "Google's Sergey Brin Has Reportedly Urged AI Talent To Go All In On Gemini Models To Tackle Rivals - Stocktwits",
+     "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+     "summary": "Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips. Both Democrats and Republicans have voiced supp"
+    }
+   }
+  },
+  {
+   "title": "Anthropic News: Latest Updates on the AI Company Behind Claude - Bloomberg",
+   "source": "Bloomberg",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5RWXl0T0lpR1J0WE1VZ050anMwUlhTeUEzVGtGcDhYUTNKUnpsMDlkZHV2ZEpGanBNc0Vxb3VueVBYQ19pc2xlWTVvdw?oc=5",
+   "date": "2026-11-16 02:59",
+   "publishedAt": "2026-11-16T02:59:31+08:00",
+   "summary": "",
+   "models": [
+    "Claude"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Anthropic News: Latest Updates on the AI Company Behind Claude - Bloomberg",
      "summary": ""
     }
    }
   },
   {
-   "title": "Microsoft Copilot 重大改動 12 月 9 日預設啟用 Claude AI - GameApps.hk",
-   "source": "GameApps.hk",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZHRYSm5MZFh5UTB6QjFKWUt6NGgyRUtQZ1NXWWczMkg4eThteFdSUE5oUkpWQ3hwVmcwYXg4NW45MmNPWlVPeC1YeWRhWUI2V2RKWVVzX1VhX1p6X0xMcDNlNURITGxxaFhoRHNvYkdtS1JIOExjZlpBRFlMNlNsbm04aFB2Nk02dG1v?oc=5",
-   "date": "2026-11-14 19:13",
-   "publishedAt": "2026-11-14T19:13:59+08:00",
+   "title": "Google DeepMind launches Gemini Robotics 2.5 with improved dexterity and industrial capabilities - Robotics & Automation News",
+   "source": "Robotics & Automation News",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOcEFaUHVBNmxBYUNlSDZYOTlfTlhHN2xKSmdJT0ExNXNNVlo5YlRJNnpoWjF5LUJkZEhoS3lTcUktRkRPLXEtMGV1ZWt5N3VPbklPbEFqUzFibGVEYUp5enNBWS1rOXZkTGNVY2pHSEtSNVU0LV9Pc3VBSkl0Mk9XZzZpY3pIaUdYa0Z3cXdZVDZDMEdURloyMWVIbnEwLURqWDJvTTdhN3lTVHd0Y1Zjc0kwX21heldUQ2xBLTVPQmpEcGFZVExGaXlpVGt2cF9DOW9tblBZMVlhaFBLNW1GYkNLWlEyVjNr?oc=5",
+   "date": "2026-11-16 02:53",
+   "publishedAt": "2026-11-16T02:53:31+08:00",
    "summary": "",
    "models": [
-    "Claude",
-    "Copilot"
+    "Gemini"
    ],
    "tag": "產品發表",
    "camps": [
-    "anthropic",
-    "other"
+    "google"
    ],
    "press": false,
-   "heat": 9,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Google DeepMind launches Gemini Robotics 2.5 with improved dexterity and industrial capabilities - Robotics & Automation News",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "日本知名開發者和 Claude 用玩具火車軌道小台車打造環形繪圖機 - 電腦王阿達",
+   "source": "電腦王阿達",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4weWk4SEkyaFUzR3ZRelFUMGZGX3BHLTdGY3JkVFp5S1U2QWlTR0lYNE13Y2hVX0ZKa29aM0NXQkZ3eUFCN001cDVkV3Q4RnNGSFE?oc=5",
+   "date": "2026-11-16 02:51",
+   "publishedAt": "2026-11-16T02:51:17+08:00",
+   "summary": "",
+   "models": [
+    "Claude"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 12,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -1835,7 +1816,38 @@
    "lang": "zh",
    "i18n": {
     "zh-TW": {
-     "title": "Microsoft Copilot 重大改動 12 月 9 日預設啟用 Claude AI - GameApps.hk",
+     "title": "日本知名開發者和 Claude 用玩具火車軌道小台車打造環形繪圖機 - 電腦王阿達",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Gemini 4 Hydrogen速度快2.5倍 惟輸出冗長恐推升成本 - DIGITIMES",
+   "source": "DIGITIMES",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNc0VneUJicHc0bU1rQVAteDlWVmJhanhwVUJnQmZjdXFsNHBFdlAxWTUzbkV2M1QzV1pwcHYxWTJEOFNBVDJyeFRjSkZxcjFGWlBqcTlaMHVlQWpXSFozaVJyUEZwYnNKejRSQVpWZjEzTHBrc3ppN0xVVEg1YklqQ3kzMkVpa000NnVOWFdn?oc=5",
+   "date": "2026-11-16 02:41",
+   "publishedAt": "2026-11-16T02:41:00+08:00",
+   "summary": "",
+   "models": [
+    "Gemini"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "google"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "Gemini 4 Hydrogen速度快2.5倍 惟輸出冗長恐推升成本 - DIGITIMES",
      "summary": ""
     }
    }

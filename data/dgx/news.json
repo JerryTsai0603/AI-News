@@ -1,9 +1,9 @@
 {
  "channel": "dgx",
  "version": "v26",
- "fetchedAt": "2026-11-15T13:43:41.608868+08:00",
- "edition": "2026-11-15",
- "count": 3,
+ "fetchedAt": "2026-11-16T13:48:56.753310+08:00",
+ "edition": "2026-11-16",
+ "count": 2,
  "languages": [
   "zh-TW",
   "zh-CN",
@@ -24,19 +24,20 @@
   "lenovo": 0,
   "gigabyte": 0,
   "microsoft": 0,
-  "nvidia": 3
+  "nvidia": 2
  },
  "byLine": {},
  "items": [
   {
-   "title": "【2026年11月】小〜中規模部署のローカルLLM最適解！DGX Spark vs サーバGPU・Qwen・vLLM・OpenWebUI・保守体制まで徹底考察",
-   "source": "YouTube · ゆっくりAI実践ラボ",
-   "url": "https://www.youtube.com/watch?v=NXWbBK2u5tM",
-   "date": "2026-11-15 13:35",
-   "publishedAt": "2026-11-15T13:35:27+08:00",
-   "summary": "2026年11月現在、小〜中規模の部署や会社で「10人同時に使えるローカルLLM環境」を導入するなら何がベストか？ハード（DGX Spark vs サーバ向けGPU）、モデル（Qwen3.5/3.8と他陣営比較）、推論エンジン（vLLM/SGLang）、OpenWebUI＆LiteLLMによるAPI公開、そして保守担当者のリアルまで徹底考察します。 ぜひコメント欄で皆さんの感想や注目しているポイン",
+   "title": "DGX Spark (GB10) 완전 해부 — 900만 원짜리 상자, 지금 사도 되나",
+   "source": "YouTube · 로컬리",
+   "url": "https://www.youtube.com/watch?v=8pCi4dfBxNw",
+   "date": "2026-11-16 13:00",
+   "publishedAt": "2026-11-16T13:00:04+08:00",
+   "summary": "손바닥보다 조금 큰 1리터급 상자, DGX Spark(GB10)입니다. 출시 1년 만에 달러 정가가 74퍼센트 뛰었고 지금은 품절입니다. 이 영상은 ① 가격이 왜 이렇게 뛰었는지, ② 128GB 통합 메모리와 273GB/s 대역폭이 실제로 어떤 성능을 내는지, ③ 윈도우·쿠다 호환성과 멀티 확장의 벽, ④ 제조사 8종의 발열·보증 차이를 공개 자료와 실측 ",
    "models": [
-    "DGX Spark"
+    "DGX Spark",
+    "GB10"
    ],
    "tag": "影片",
    "camps": [
@@ -44,25 +45,25 @@
    ],
    "press": false,
    "heat": 100,
-   "image": "https://i.ytimg.com/vi/NXWbBK2u5tM/mqdefault.jpg",
-   "views": 76731,
-   "comments": 39,
-   "dupes": 33,
+   "image": "https://i.ytimg.com/vi/8pCi4dfBxNw/mqdefault.jpg",
+   "views": 189150,
+   "comments": 83,
+   "dupes": 31,
    "also": [
-    "YouTube · Marc Christensen",
-    "YouTube · Neural Stack",
-    "YouTube · Measured Locally",
-    "YouTube · Tech Tips Lab",
-    "YouTube · easyaihowtos",
-    "YouTube · All AI Benchmark"
+    "YouTube · AK Tech Insider",
+    "YouTube · TrendPulseDaily",
+    "YouTube · NodeRunner",
+    "YouTube · AiVerdict",
+    "YouTube · 아리리_리빙 리뷰",
+    "YouTube · Self-Host Hub"
    ],
    "lines": [],
-   "score": 1296,
-   "lang": "ja",
+   "score": 1838,
+   "lang": "ko",
    "i18n": {
-    "ja": {
-     "title": "【2026年11月】小〜中規模部署のローカルLLM最適解！DGX Spark vs サーバGPU・Qwen・vLLM・OpenWebUI・保守体制まで徹底考察",
-     "summary": "2026年11月現在、小〜中規模の部署や会社で「10人同時に使えるローカルLLM環境」を導入するなら何がベストか？ハード（DGX Spark vs サーバ向けGPU）、モデル（Qwen3.5/3.8と他陣営比較）、推論エンジン（vLLM/SGLang）、OpenWebUI＆LiteLLMによるAPI公開、そして保守担当者のリアルまで徹底考察します。 ぜひコメント欄で皆さんの感想や注目しているポイン"
+    "ko": {
+     "title": "DGX Spark (GB10) 완전 해부 — 900만 원짜리 상자, 지금 사도 되나",
+     "summary": "손바닥보다 조금 큰 1리터급 상자, DGX Spark(GB10)입니다. 출시 1년 만에 달러 정가가 74퍼센트 뛰었고 지금은 품절입니다. 이 영상은 ① 가격이 왜 이렇게 뛰었는지, ② 128GB 통합 메모리와 273GB/s 대역폭이 실제로 어떤 성능을 내는지, ③ 윈도우·쿠다 호환성과 멀티 확장의 벽, ④ 제조사 8종의 발열·보증 차이를 공개 자료와 실측 "
     }
    }
   },
@@ -81,7 +82,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 13,
+   "heat": 9,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -94,37 +95,6 @@
     "en": {
      "title": "This week in Tom's Hardware Premium: November 14, 2026 - Mac Studio vs. DGX Spark, AMD's MEXT and allegations involving Jensen Huang - Mezha.net",
      "summary": ""
-    }
-   }
-  },
-  {
-   "title": "This week in Tom's Hardware Premium: November 14, 2026 — Mac Studio versus DGX Spark, AMD's MEXT cuts DRAM requirements in half, and the Huang saga reaches critical mass",
-   "source": "Tom's Hardware",
-   "url": "https://www.tomshardware.com/tech-industry/this-week-in-toms-hardware-premium-november-14-2026-mac-studio-versus-dgx-spark-amds-mext-cuts-dram-requirements-in-half-and-the-huang-saga-reaches-critical-mass",
-   "date": "2026-11-15 00:00",
-   "publishedAt": "2026-11-15T00:00:00+08:00",
-   "summary": "Catch up with everything we've published this week on our subscription service, Tom's Hardware Premium, including exclusive interviews, local AI deep dives, and much more.",
-   "models": [
-    "DGX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "nvidia"
-   ],
-   "press": false,
-   "heat": 13,
-   "image": "https://cdn.mos.cms.futurecdn.net/pf5brSWLeHYxEan3spiqvT-1920-80.jpg",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "This week in Tom's Hardware Premium: November 14, 2026 — Mac Studio versus DGX Spark, AMD's MEXT cuts DRAM requirements in half, and the Huang saga reaches critical mass",
-     "summary": "Catch up with everything we've published this week on our subscription service, Tom's Hardware Premium, including exclusive interviews, local AI deep dives, and much more."
     }
    }
   }
