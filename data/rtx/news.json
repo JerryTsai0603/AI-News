@@ -1,9 +1,9 @@
 {
  "channel": "rtx",
  "version": "v26",
- "fetchedAt": "2026-11-17T13:52:53.081517+08:00",
- "edition": "2026-11-17",
- "count": 15,
+ "fetchedAt": "2026-11-18T13:58:00.496811+08:00",
+ "edition": "2026-11-18",
+ "count": 14,
  "languages": [
   "zh-TW",
   "zh-CN",
@@ -16,54 +16,212 @@
   "it"
  ],
  "byGroup": {
-  "asus": 3,
+  "asus": 2,
   "acer": 0,
   "hp": 1,
   "msi": 3,
   "dell": 1,
-  "lenovo": 1,
+  "lenovo": 2,
   "gigabyte": 0,
-  "microsoft": 1,
-  "nvidia": 4
+  "microsoft": 0,
+  "nvidia": 3
  },
  "byLine": {},
  "items": [
   {
-   "title": "1,000만 원 N1X 노트북 & RTX Spark — 리눅스·ARM 윈도우 함정과 용도별 최종 결론",
-   "source": "YouTube · 로컬리",
-   "url": "https://www.youtube.com/watch?v=mrnXaiVrqVo",
-   "date": "2026-11-17 13:36",
-   "publishedAt": "2026-11-17T13:36:11+08:00",
-   "summary": "1편 DGX Spark(GB10)에 이어 같은 칩을 넣은 N1X 노트북과 RTX Spark 데스크톱을 짚습니다. 1,000만 원 가까이 받는 ARM 윈도우 AI 노트북이 리눅스 호환성·드라이버 제약·배터리·소음·가격 비교에서 실제로 어떤 결과를 내는지 공개 자료와 실측 인용 수치로 정리했습니다. ■ 다루는 내용 · 가격과 정체: Surface Laptop ",
+   "title": "Mac Studio M5 Ultra vs RTX Spark: Save $2,900 [2026] - shattered.io",
+   "source": "shattered.io",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9YaU00bkszMEFUQ09oOUc4Y0I2N094TVFSTWNtakpPV1lMQV8tMXJGZFdqRzJ5MTc5am00cHpaX2ZLNktfeGVvdGR0aVIyb2c0UjBjcng4N1ByUmRTWHVHWTBMMW1TcE14TnhXanJOM05waVk2SmJYZ3RLVVc?oc=5",
+   "date": "2026-11-18 12:52",
+   "publishedAt": "2026-11-18T12:52:32+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 23,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Mac Studio M5 Ultra vs RTX Spark: Save $2,900 [2026] - shattered.io",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "英偉達三季度邊緣計算營收增長42%，財報確認聯想集團RTX Spark已出貨 - TradingView",
+   "source": "TradingView",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5DZUhNVnFKbWppbEd0NjFwZzFaQjVqenRUWlFMZXRyVmQ4cFJOVkVTSElzWURWbEdBS1JsMjluZHBOUjVGSjM0TVlNQXBNNGlJR2M4dWd3RGM0QW1naUxHYV81S2RxZURzMVE?oc=5",
+   "date": "2026-11-18 12:03",
+   "publishedAt": "2026-11-18T12:03:09+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "價格上市",
+   "camps": [
+    "lenovo"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "英偉達三季度邊緣計算營收增長42%，財報確認聯想集團RTX Spark已出貨 - TradingView",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Gaming test - RTX Spark N1X in the ASUS ProArt P16 H7607!",
+   "source": "YouTube · NL Tech",
+   "url": "https://www.youtube.com/watch?v=mNDPDChL6ZU",
+   "date": "2026-11-18 12:00",
+   "publishedAt": "2026-11-18T12:00:13+08:00",
+   "summary": "Honestly, I'm very impressed by how it performs in terms of compatibility and the FPS it can give us. The RTX Spark is no joke, especially since Windows on Arm has improved so much. Where to buy? (Aff",
    "models": [
     "RTX Spark",
-    "N1X"
+    "N1X",
+    "Windows on Arm"
    ],
    "tag": "影片",
    "camps": [
-    "microsoft"
+    "asus"
    ],
    "press": false,
    "heat": 100,
-   "image": "https://i.ytimg.com/vi/mrnXaiVrqVo/mqdefault.jpg",
-   "views": 83525,
-   "comments": 114,
-   "dupes": 64,
+   "image": "https://i.ytimg.com/vi/mNDPDChL6ZU/mqdefault.jpg",
+   "views": 23599,
+   "comments": 42,
+   "dupes": 65,
    "also": [
-    "YouTube · The Advent",
-    "YouTube · M&M Devs",
     "YouTube · ぴくらぼ ぽち子の目利き",
-    "YouTube · Dontae Catlett",
-    "YouTube · DeepRead",
-    "YouTube · Mister AI "
+    "YouTube · The Bulldog Tech",
+    "YouTube · Smart Tech Daily",
+    "YouTube · Respwn",
+    "YouTube · AINow",
+    "YouTube · Thomas Berton"
    ],
    "lines": [],
-   "score": 1918,
-   "lang": "ko",
+   "score": 169,
+   "lang": "en",
    "i18n": {
-    "ko": {
-     "title": "1,000만 원 N1X 노트북 & RTX Spark — 리눅스·ARM 윈도우 함정과 용도별 최종 결론",
-     "summary": "1편 DGX Spark(GB10)에 이어 같은 칩을 넣은 N1X 노트북과 RTX Spark 데스크톱을 짚습니다. 1,000만 원 가까이 받는 ARM 윈도우 AI 노트북이 리눅스 호환성·드라이버 제약·배터리·소음·가격 비교에서 실제로 어떤 결과를 내는지 공개 자료와 실측 인용 수치로 정리했습니다. ■ 다루는 내용 · 가격과 정체: Surface Laptop "
+    "en": {
+     "title": "Gaming test - RTX Spark N1X in the ASUS ProArt P16 H7607!",
+     "summary": "Honestly, I'm very impressed by how it performs in terms of compatibility and the FPS it can give us. The RTX Spark is no joke, especially since Windows on Arm has improved so much. Where to buy? (Aff"
+    }
+   }
+  },
+  {
+   "title": "NVIDIA's edge computing revenue grew by 42% in the third quarter, and its financial report confirmed that Lenovo Group's RTX Spark has been shipped. - 富途牛牛",
+   "source": "富途牛牛",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQM2VPVU40QXk3aWkxSzVJdEtWWDFuV2RzVUtMWDAyUUJzYnZxME5WVHptaE5DdHRGem9KWEFWcVVKemJCNk5sNTJNZnhyelE2dlIzVDNTUTdORzlPR3JDZHVEVFFmR3BtUU1vNk1pbDh5bFBGMVVOV2tLUXM2ZzEyeWptY0p1eHZHUjR6cy1SX0lGYm9Vc2ZN?oc=5",
+   "date": "2026-11-18 11:41",
+   "publishedAt": "2026-11-18T11:41:09+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "lenovo"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "NVIDIA's edge computing revenue grew by 42% in the third quarter, and its financial report confirmed that Lenovo Group's RTX Spark has been shipped. - 富途牛牛",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "MSI EdgeMesa N AI+ RTX Spark Mini PC Costs Up to $7,999 - Happy Gamer",
+   "source": "Happy Gamer",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNRGpRMGh3U3BJUFA1OFhnTnVjc3oxSlZCRVFMVHNlSC1tYWU3Q1V4R2ZpVWh2SGFWanhQU3IteUhVVS0wRzdJVmxZbW15QnNMeXpZV0RCSENPb2lwNW9KUmVTNmdzMUY3M1M0Qno5T3IxSXVkSjNxSnpfdjEySDJPMDl2cw?oc=5",
+   "date": "2026-11-17 21:10",
+   "publishedAt": "2026-11-17T21:10:55+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "msi"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "MSI EdgeMesa N AI+ RTX Spark Mini PC Costs Up to $7,999 - Happy Gamer",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "華碩迎AI伺服器與RTX Spark雙動能 產品組合優化與費用控管推升獲利 - 鉅亨網",
+   "source": "鉅亨網",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0tM1EyNnMtOS1UMkYxcUxqSFVoTkFSVGtYYkNFb2dVVkRCSC1pbWY0cjBWSEkwZHItTFlNc1BWQnZJTmNGaU5rWFk0Yw?oc=5",
+   "date": "2026-11-17 17:16",
+   "publishedAt": "2026-11-17T17:16:37+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "asus"
+   ],
+   "press": false,
+   "heat": 20,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [
+    "TradingView"
+   ],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "華碩迎AI伺服器與RTX Spark雙動能 產品組合優化與費用控管推升獲利 - 鉅亨網",
+     "summary": ""
     }
    }
   },
@@ -82,7 +240,7 @@
     "msi"
    ],
    "press": false,
-   "heat": 23,
+   "heat": 19,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -113,11 +271,11 @@
     "dell"
    ],
    "press": false,
-   "heat": 22,
+   "heat": 26,
    "image": "",
    "views": 0,
    "comments": 0,
-   "dupes": 1,
+   "dupes": 2,
    "also": [],
    "lines": [],
    "score": null,
@@ -144,7 +302,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 29,
+   "heat": 25,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -175,11 +333,11 @@
     "hp"
    ],
    "press": false,
-   "heat": 13,
+   "heat": 17,
    "image": "",
    "views": 0,
    "comments": 0,
-   "dupes": 0,
+   "dupes": 1,
    "also": [],
    "lines": [],
    "score": null,
@@ -207,7 +365,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 13,
+   "heat": 9,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -238,7 +396,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 28,
+   "heat": 24,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -250,37 +408,6 @@
    "i18n": {
     "en": {
      "title": "Windows laptops with NVIDIA RTX Spark outpaced MacBook Pro with M5 Pro in these benchmark tests - The National Law Review",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Lenovo takes the wraps off 2 new Nvidia RTX Spark laptops at IFA 2026 - Mashable",
-   "source": "Mashable",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9BQkFfbUd6TUtSSFR6WjFvbTdPVFYwM19SaWxsT0psZmU2dW1BUkpnbnpsUnhNbDhVUWdYRDZ4WEZqZ0w0MVFyUk15SE8xRWJla202bmRrY20ycWNpN0xxVlhldGZYX1d6MGNwOVpwdDlubWxGa3VBdVpnMA?oc=5",
-   "date": "2026-11-16 19:14",
-   "publishedAt": "2026-11-16T19:14:02+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "lenovo"
-   ],
-   "press": false,
-   "heat": 12,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Lenovo takes the wraps off 2 new Nvidia RTX Spark laptops at IFA 2026 - Mashable",
      "summary": ""
     }
    }
@@ -300,7 +427,7 @@
     "msi"
    ],
    "press": false,
-   "heat": 20,
+   "heat": 16,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -317,21 +444,21 @@
    }
   },
   {
-   "title": "ASUS ProArt P16 (NVIDIA RTX Spark) Review: Powerful But Expensive - Gizbot",
-   "source": "Gizbot",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQenRCeEpHRl9ENS1fb3Zwa2VkenprR0x0QUtzTFZfVmw2Nzk4RkU5Z1YxS0dEM2lLWEU2SGdhZFdGbWpPNE83dDlXTzk0VXpnanc2Y25CQmNWWTh3ZUNILUUtdVlTcW5HQlplb1RKZlh4WHY1cVhmY3lMUC1IdnZZTFc5Y2RqT3hwQ3pGNXpiM2RNUUpFT3hMaFdYMzJYRm5kVl82eUpqWWJwTkQwWGhpRkNB?oc=5",
-   "date": "2026-11-16 13:40",
-   "publishedAt": "2026-11-16T13:40:42+08:00",
+   "title": "MSI發表首款搭載NVIDIA RTX Spark筆電 性能特色一次看 - 三立新聞網SETN.com",
+   "source": "三立新聞網SETN.com",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9iZmJLaEpmMWpJQzJ1Rmg4My1VVGdHTWo1Y0JYZ1hPVFotM2ctamVYaGo1YndieXRYUG9vSHJXQlJnWEtZY0FucdIBTEFVX3lxTFBkMlEyU2RIMU9HUFUyMGptU2JkS202c2xEa1IzZGZYSFhYRElmNl9ndE5INWNzTVM3d0tFSTd1Y3JteWdkcER1MV9ReVY?oc=5",
+   "date": "2026-11-16 14:47",
+   "publishedAt": "2026-11-16T14:47:10+08:00",
    "summary": "",
    "models": [
     "RTX Spark"
    ],
-   "tag": "開箱評測",
+   "tag": "產品發表",
    "camps": [
-    "asus"
+    "other"
    ],
    "press": false,
-   "heat": 19,
+   "heat": 16,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -339,168 +466,10 @@
    "also": [],
    "lines": [],
    "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "ASUS ProArt P16 (NVIDIA RTX Spark) Review: Powerful But Expensive - Gizbot",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Nvidia RTX Spark N1X 20-Core Processor - Benchmarks and Specs - Notebookcheck",
-   "source": "Notebookcheck",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaWpIMlpHa3VXaWhkSktGRGlweUl5NGxEVlpoRlhNR3Y4cnFpYmpTMGtveDBYZE1JTk1fXzNQS3ZYYmQzU09LSzlsdzYzcFdHSE5mUlExV2NXMTdzR3hTV3NNM1haR2VhcDhfY01Fb21SRFpxeUF1Nko3TEJOU1FjSFZmRExGaEp1LTdsWENiSTgydTQ3eThGcWR4b2VNQkFXaTZrV2dzdw?oc=5",
-   "date": "2026-11-16 12:29",
-   "publishedAt": "2026-11-16T12:29:50+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark",
-    "N1X"
-   ],
-   "tag": "開箱評測",
-   "camps": [
-    "nvidia"
-   ],
-   "press": false,
-   "heat": 35,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 3,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Nvidia RTX Spark N1X 20-Core Processor - Benchmarks and Specs - Notebookcheck",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Asus ProArt P16 (H7607) Review: Nvidia RTX Spark Supercharges a Venerable Workstation Laptop - PCMag Middle East",
-   "source": "PCMag Middle East",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVEk5eG4zT214bFppZWNINkhCNXp0VmJTQm9JQzA0S2dUVzdpaXlkcTh0aWNFQkJnRnB1Vkluckc0S0dZc2g1ZjFzcGh0YVFKcGhjUVBjY0FGVlNYckVBQzRuUzFMR3RxVDhtWWt3VmdnbTBhekgzNm9jVnQ1WmVZak1SUXRZZWswQzk1a0VIb0VzUFJDdEs3Q2NwU1lGWkZCUldfdlNKRXFLQ0Y3Ry1TQnFBUUxhRWQ5TldRUTU1SHVOM05XVVE?oc=5",
-   "date": "2026-11-16 11:43",
-   "publishedAt": "2026-11-16T11:43:19+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "開箱評測",
-   "camps": [
-    "asus"
-   ],
-   "press": false,
-   "heat": 43,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 4,
-   "also": [
-    "PCMag"
-   ],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Asus ProArt P16 (H7607) Review: Nvidia RTX Spark Supercharges a Venerable Workstation Laptop - PCMag Middle East",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "【即時新聞】華碩(2357)搶攻AI代理商機，最新RTX Spark PC市占拚逾三成 - CMoney投資網誌",
-   "source": "CMoney投資網誌",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbGZNeFhtMjdzVXVDR1dBTVRzREhtcHNUWnFaTVZmak01QnpNMHN3S280RkdnYnE3OTBHNHV4QmR4ZEFGWUlZNGJseGwteWxMVnlGZU1lakF3Q255QlZSdFBWMmhsZDYtSTJJNnBUV3REYnVuaXJ5X2lNUzdJTzV0MUU3YjVEcFBBSm91M1NaMzc?oc=5",
-   "date": "2026-11-16 06:14",
-   "publishedAt": "2026-11-16T06:14:15+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "asus"
-   ],
-   "press": false,
-   "heat": 10,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
    "lang": "zh",
    "i18n": {
     "zh-TW": {
-     "title": "【即時新聞】華碩(2357)搶攻AI代理商機，最新RTX Spark PC市占拚逾三成 - CMoney投資網誌",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "DIY PC Talk 'Jisatora KTU' Live Stream: Benchmarking the RTX Spark Desktop PC! How Does It Stack Up Against the Laptop Version? - ASCII.jp",
-   "source": "ASCII.jp",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0xZlpmRl93QmJlOWlfekFtWjhtSTFMOFRtUnN5NDhQM0RBajlmMHd1VTNzSVhkWFByV0NjY2xvVDZrU29TNm9JWjNQa183WWJwVGNHVzlleXE?oc=5",
-   "date": "2026-11-16 06:00",
-   "publishedAt": "2026-11-16T06:00:00+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "開箱評測",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "heat": 10,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "DIY PC Talk 'Jisatora KTU' Live Stream: Benchmarking the RTX Spark Desktop PC! How Does It Stack Up Against the Laptop Version? - ASCII.jp",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "MSI confirms $7,999 price for RTX Spark mini PC with 128GB RAM - VideoCardz.com",
-   "source": "VideoCardz.com",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNEc4TzdxTTI3Z2o5VFRadWVCRE5lWkkwdUZrRU5JMHlTcGswbHppdG93OVNwczE1VWZaQk9ocUs1RWxZRVZaNDhiUVQ0ZGh4eTVBTEJkUjdUNDhmZ1ZFeEFEVVpySXRpZUtyQ1BkMmtyRXE3eXFIQ1c1Yy1DcDFIN1FoVmExQlhIME9Jci1Ib1NaQQ?oc=5",
-   "date": "2026-11-15 18:04",
-   "publishedAt": "2026-11-15T18:04:37+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "價格上市",
-   "camps": [
-    "msi"
-   ],
-   "press": false,
-   "heat": 8,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "MSI confirms $7,999 price for RTX Spark mini PC with 128GB RAM - VideoCardz.com",
+     "title": "MSI發表首款搭載NVIDIA RTX Spark筆電 性能特色一次看 - 三立新聞網SETN.com",
      "summary": ""
     }
    }

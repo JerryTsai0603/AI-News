@@ -1,0 +1,539 @@
+{
+ "channel": "dgx",
+ "version": "v26",
+ "fetchedAt": "2026-11-18T13:59:21.306543+08:00",
+ "edition": "2026-11-18",
+ "count": 16,
+ "languages": [
+  "zh-TW",
+  "zh-CN",
+  "en",
+  "ja",
+  "ko",
+  "de",
+  "es",
+  "fr",
+  "it"
+ ],
+ "byGroup": {
+  "asus": 0,
+  "acer": 0,
+  "hp": 0,
+  "msi": 1,
+  "dell": 0,
+  "lenovo": 0,
+  "gigabyte": 0,
+  "microsoft": 0,
+  "nvidia": 14
+ },
+ "byLine": {},
+ "items": [
+  {
+   "title": "DGX Station for Windows The world's most powerful deskside AI supercomputer for Windows",
+   "source": "NVIDIA DGX Spark",
+   "url": "https://www.nvidia.com/en-us/products/workstations/dgx-station-for-windows/",
+   "date": "2026-11-18 13:59",
+   "publishedAt": "2026-11-18T13:59:21.398670+08:00",
+   "summary": "",
+   "models": [
+    "DGX Station"
+   ],
+   "tag": "官方發布",
+   "camps": [
+    "other"
+   ],
+   "press": true,
+   "heat": 23,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "DGX Station for Windows The world's most powerful deskside AI supercomputer for Windows",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "🔴 LIVE | NVIDIA DGX Spark, Jetson Thor, Sensors & Raspberry Pi AI Hardware Lab",
+   "source": "YouTube · Barnacle Media",
+   "url": "https://www.youtube.com/watch?v=WpjV2J9xfvg",
+   "date": "2026-11-18 12:52",
+   "publishedAt": "2026-11-18T12:52:41+08:00",
+   "summary": "Welcome to the lab! 🔧🤖 Join me live as I experiment with AI, embedded electronics, sensors, and open-source hardware. I'm using NVIDIA DGX Spark, Jetson AGX Thor, Raspberry Pi, ESP32 microcontrollers,",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "影片",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 100,
+   "image": "https://i.ytimg.com/vi/WpjV2J9xfvg/mqdefault.jpg",
+   "views": 230777,
+   "comments": 195,
+   "dupes": 32,
+   "also": [
+    "YouTube · The NextGen Tech",
+    "YouTube · 抡锤者",
+    "YouTube · AI Unfiltered",
+    "YouTube · RuntimeWire",
+    "YouTube · 小淵聊3C",
+    "YouTube · Panutat Tejasen"
+   ],
+   "lines": [],
+   "score": 4637,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "🔴 LIVE | NVIDIA DGX Spark, Jetson Thor, Sensors & Raspberry Pi AI Hardware Lab",
+     "summary": "Welcome to the lab! 🔧🤖 Join me live as I experiment with AI, embedded electronics, sensors, and open-source hardware. I'm using NVIDIA DGX Spark, Jetson AGX Thor, Raspberry Pi, ESP32 microcontrollers,"
+    }
+   }
+  },
+  {
+   "title": "DGX Spark HPC Developer Kit: 4 Nodes, 512 GB - shattered.io",
+   "source": "shattered.io",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdmo0ODVzektiWTB6VDJDbmNZRklWNllpOVVLUmdRSDNSdXFJMXdpV0tqT0tnejFFbGFFN1JfSm5NOEVSSFQxVGw3SUxwWW51WEx0UWI0ZTI4NENTZmNrdFJndkplZmtzSDc0UDZZVEpxbGt6OWQ1eWMzdkFWNWRxb3l1cmtaODdP?oc=5",
+   "date": "2026-11-18 12:52",
+   "publishedAt": "2026-11-18T12:52:32+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "應用案例",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "DGX Spark HPC Developer Kit: 4 Nodes, 512 GB - shattered.io",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "NVIDIA公布DGX Spark HPC開發者套件組，在桌上設備實現超級電腦系統級的科學模擬與AI模型及代理#模型微調(254169) - Cool3c",
+   "source": "Cool3c",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1Va0FIdjhTVWJDTHhkRk1LTnZnYnQyaU1nekhSWmVJQ0dCMW9qVWF5RnVkb0hSUkpDdmZRZEs2RUtrZ1hDZ3VKQzZhWXA4Zw?oc=5",
+   "date": "2026-11-18 12:41",
+   "publishedAt": "2026-11-18T12:41:55+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "應用案例",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 23,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "NVIDIA公布DGX Spark HPC開發者套件組，在桌上設備實現超級電腦系統級的科學模擬與AI模型及代理#模型微調(254169) - Cool3c",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Ryzen AI Halo vs DGX Spark: 192 GB vs 128 GB [2026] - shattered.io",
+   "source": "shattered.io",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ncE5LMWtBczZJMEJqWWpKOG91ank3NVBZTVRZZXRCU0UxbHBjZ2VaRHB3d1llOG1VRWRyYUdtczFEYWN2cnB0SmJuYWZZQ1RCTWVSQVROYzhMUWJUeU5BNUNXZzRSU3FQYktha0liUzhEZ2ZTMXVr?oc=5",
+   "date": "2026-11-18 03:57",
+   "publishedAt": "2026-11-18T03:57:28+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Ryzen AI Halo vs DGX Spark: 192 GB vs 128 GB [2026] - shattered.io",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "NVIDIA DGX Spark HPC kit: four nodes for research - NeoTeo",
+   "source": "NeoTeo",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQc0hDa21KQ0pKQkdnM3dWd2I4OGtsTjJvS2t6dVhoU1VaU2FuaHE5YmlYSU1QX204RjByWkhqTUJJMzlqQVpYZ2NxUXZwZGppV2VMOVd0dks2SzRaMzQ2ZGVkY0xyTFU2UjI3eEhaY3NSU0QxVFRxWHliLVhNWTZGZ1d6Q0c3QUNiV2JR?oc=5",
+   "date": "2026-11-18 01:27",
+   "publishedAt": "2026-11-18T01:27:46+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "NVIDIA DGX Spark HPC kit: four nodes for research - NeoTeo",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "輝達桌上型512GB記憶體「小型超級電腦」問世，DGX Spark四台串聯套件亮相 - BigGo 財經",
+   "source": "BigGo 財經",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBMSU56R0p4SDNmSFFOY3ZoN0pUQmVoejRRX1VNMTM5NVIwMnVsR2hlSFMxcXVOam1KMkZVbUFvaEdIekhpY3hJWDVZWnhnX1dsbXNGdWp4anNxRGo2SFMzejduVTFxbmZPeXkwd1J0aElLSElVSDlDY253?oc=5",
+   "date": "2026-11-17 17:05",
+   "publishedAt": "2026-11-17T17:05:00+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 20,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "輝達桌上型512GB記憶體「小型超級電腦」問世，DGX Spark四台串聯套件亮相 - BigGo 財經",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "NVIDIA Unveils Desktop \"Mini Supercomputer\" Kit Linking Four DGX Spark Units With 512GB of Memory - BigGo Finance",
+   "source": "BigGo Finance",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE50c3AyNVBRQVo1TWJJX2dFcFRON0ZLU2pmd0syYl8wX3JubF8ya0JGWTVTQjNDUzlxaUQyakVMOUVIVHYzbTZQSU5ESjVQcDF3T2JwZ2FJWjZnV1BhU19QZHdKdW5hNnNqaWhqYUU4UmJud2Voa0E?oc=5",
+   "date": "2026-11-17 17:05",
+   "publishedAt": "2026-11-17T17:05:00+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "NVIDIA Unveils Desktop \"Mini Supercomputer\" Kit Linking Four DGX Spark Units With 512GB of Memory - BigGo Finance",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "A supercomputing lab on any desk: Nvidia unveils DGX Spark HPC Dev Kit with 512 GB of memory - Notebookcheck",
+   "source": "Notebookcheck",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPbWJ6OTVsV0E2SjRnNG5UMjdTT3hiVzhQMUNHNVpyVnZHX21SblVrTjZYbm9GN1FjaGp5QklFSkRkMThqRWNsaE13QV8yZDFOdTNDcEd6aDJuRzBpbFFzLXlCWnJTSWZJaDlGRVpkdVRDMGxCYUpnQkJtZ25sR0ZPVEthdWhhd2U5N05RYlZwR244ZmE4eFd2SXpEeGh3cGhVcFhNeHNTYzVWT0xpenVDcDN5TDA0UVJEbG9xMHI0dm00V1hZVFBOMUpYY1lvU25TWUE?oc=5",
+   "date": "2026-11-17 16:47",
+   "publishedAt": "2026-11-17T16:47:00+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "A supercomputing lab on any desk: Nvidia unveils DGX Spark HPC Dev Kit with 512 GB of memory - Notebookcheck",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "NVIDIA 4 部 DGX Spark 直連成 AI 叢集 512GB 記憶體可部署 700B 模型 - unwire",
+   "source": "unwire",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQLUh5YmlxUEpKME1ENmVLUG9KUW1qU1BjMVhXR2RZSTJ5NExxellJTG9fWk42TlZ2UjFMRFd0bDA0dFEtQUNOeEJOc1NxQkJUY3RGUkI5RUswdmkwdWlpbXNwSzVtTlFDd1Z5UXF4YXVSMVpsRGpybVJSZW9fQzNIcVJjWmZBQkZLMlE?oc=5",
+   "date": "2026-11-17 15:09",
+   "publishedAt": "2026-11-17T15:09:49+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "應用案例",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 19,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "NVIDIA 4 部 DGX Spark 直連成 AI 叢集 512GB 記憶體可部署 700B 模型 - unwire",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "NVIDIA Introduces Four-Node DGX Spark HPC Developer Kit at SC26 - A 90s Kid",
+   "source": "A 90s Kid",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOekctQ1BVOWdveTluT3I2TXVUUmtSd3dvbmg5cUJFUlBQTlZoMWJIMWRRblRzM1pVLXRNZjlpZS1yNldPc2VqbGN0Q19aem96VXJQd3ZSaFhZazBWSWtpeUQtS1lDLWpQUzdOd2ItWjM4eVJxR0tPYjFuVjVORE9KZzlac3lIUDYwMXpDTmdKMHFyZw?oc=5",
+   "date": "2026-11-17 13:54",
+   "publishedAt": "2026-11-17T13:54:30+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "應用案例",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 11,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "NVIDIA Introduces Four-Node DGX Spark HPC Developer Kit at SC26 - A 90s Kid",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
+   "source": "NVIDIA Newsroom Web",
+   "url": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/",
+   "date": "2026-11-17 13:54",
+   "publishedAt": "2026-11-17T13:54:23.910533+08:00",
+   "summary": "At SC26, an annual supercomputing conference taking place this week in Chicago, NVIDIA is introducing the DGX Spark HPC Developer Kit for researchers, academics and developers. The kit is a four-node cluster of NVIDIA DG",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "官方發布",
+   "camps": [
+    "nvidia"
+   ],
+   "press": true,
+   "heat": 35,
+   "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/nv-blog-1280x680-1.jpg",
+   "views": 0,
+   "comments": 0,
+   "dupes": 3,
+   "also": [
+    "NVIDIA Blog",
+    "NVIDIA Newsroom"
+   ],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
+     "summary": "At SC26, an annual supercomputing conference taking place this week in Chicago, NVIDIA is introducing the DGX Spark HPC Developer Kit for researchers, academics and developers. The kit is a four-node cluster of NVIDIA DG"
+    }
+   }
+  },
+  {
+   "title": "NVIDIA has announced the 'DGX Spark Developer Kit,' which connects four DGX Spark mini AI supercomputers to achieve a memory capacity of 512GB, enabling the execution of models up to 700B. - GIGAZINE",
+   "source": "GIGAZINE",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1rQnNINlBWc2pySnRMZUN2SVlneTBrNnJBWW5uMFNheEV1YmlMamZScl9FQUtTcGJqNVA0bzlJUmhPUk1aTFVFMEttWEpqeWNKc3gxdVF0OV9heTdBdmlFdXBxQ0Q4cllTWjZzNnJReW9EMmsw?oc=5",
+   "date": "2026-11-17 11:37",
+   "publishedAt": "2026-11-17T11:37:00+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "應用案例",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 19,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "NVIDIA has announced the 'DGX Spark Developer Kit,' which connects four DGX Spark mini AI supercomputers to achieve a memory capacity of 512GB, enabling the execution of models up to 700B. - GIGAZINE",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "MSI \"EdgeXpert\" 64GB Model Launched: Compact AI Machine with NVIDIA GB10, Ask Begins Distribution - ASCII.jp",
+   "source": "ASCII.jp",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5Bc1BxX3MyQk50dWVXN2tvSzQ5N0JHSjB2YUw4UVFBb3plVzVwejRMQXdJaFdhT2VMY0gybjJPMXNMT25ESWxWOWt3dmFrN3BGVmNxaHA2b1M?oc=5",
+   "date": "2026-11-17 09:00",
+   "publishedAt": "2026-11-17T09:00:00+08:00",
+   "summary": "",
+   "models": [
+    "GB10",
+    "EdgeXpert"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "msi"
+   ],
+   "press": false,
+   "heat": 34,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 3,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "MSI \"EdgeXpert\" 64GB Model Launched: Compact AI Machine with NVIDIA GB10, Ask Begins Distribution - ASCII.jp",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "NVIDIA Introduces DGX Spark HPC Developer Kit for Scientific Computing - Unite.AI",
+   "source": "Unite.AI",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRHNIRU5udUJ5SnVXZk1OT0prYVpoWkFNVTczM1JwZm42SHozbUoxdVhWNlJPdzZlMXplNVlBc3UzZjBLSmwtWWlQT0tsSU5MZzBjdWVjX3RXS2NZTy1kcjVGb2hCYlhKb3ZkTXpwbVVlMnVfTXk3dVRndEpIM1VOU2RUSFF1Z0VoRFV2emxaWU41UEtreU9z?oc=5",
+   "date": "2026-11-17 07:19",
+   "publishedAt": "2026-11-17T07:19:03+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "應用案例",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 10,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "NVIDIA Introduces DGX Spark HPC Developer Kit for Scientific Computing - Unite.AI",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "NVIDIA launches DGX Spark developer kit for desktop scientific computing - Traders Union",
+   "source": "Traders Union",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTVM2Nl9JaTlhOWtpcFFLRmo5T1lTRVVobVE1MXA2bEJyQ1pQeG9Cc2hjT05PdTF1djR1RFIxR1hKdXU2Z2FmMG1Ka29zSTV3SDJNb1dKYXFEelU2M0lVVjZkSWR4Q3d4OWladktYeXoyYlcxWlVQQnlZSl80LWlldDVKeWJ3ZlZ6VlE?oc=5",
+   "date": "2026-11-17 07:10",
+   "publishedAt": "2026-11-17T07:10:33+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "應用案例",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 10,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "NVIDIA launches DGX Spark developer kit for desktop scientific computing - Traders Union",
+     "summary": ""
+    }
+   }
+  }
+ ]
+}
