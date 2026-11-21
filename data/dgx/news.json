@@ -1,8 +1,8 @@
 {
  "channel": "dgx",
  "version": "v26",
- "fetchedAt": "2026-11-20T14:09:53.933320+08:00",
- "edition": "2026-11-20",
+ "fetchedAt": "2026-11-21T14:14:46.522336+08:00",
+ "edition": "2026-11-21",
  "count": 4,
  "languages": [
   "zh-TW",
@@ -16,25 +16,25 @@
   "it"
  ],
  "byGroup": {
-  "asus": 1,
+  "asus": 0,
   "acer": 0,
   "hp": 0,
-  "msi": 1,
-  "dell": 1,
+  "msi": 0,
+  "dell": 0,
   "lenovo": 0,
   "gigabyte": 0,
   "microsoft": 0,
-  "nvidia": 2
+  "nvidia": 3
  },
  "byLine": {},
  "items": [
   {
-   "title": "Supermicro adds a 256-CPU rack for the work AI GPUs leave behind #Shorts",
-   "source": "YouTube · RuntimeWire",
-   "url": "https://www.youtube.com/watch?v=V-m3hGyz2aQ",
-   "date": "2026-11-20 11:37",
-   "publishedAt": "2026-11-20T11:37:34+08:00",
-   "summary": "RUNTIMEWIRE GIVEAWAY Win a sealed NVIDIA DGX Spark: 128GB unified memory and 4TB storage. Free; no purchase necessary. Entry includes the RuntimeWire newsletter; unsubscribe anytime. 18+ and local maj",
+   "title": "NVIDIA का Tiny AI Supercomputer! 😱 अब घर पर चलेगा Super AI?",
+   "source": "YouTube · NextGen Science and Technology",
+   "url": "https://www.youtube.com/watch?v=-GidCyd5HYw",
+   "date": "2026-11-21 12:30",
+   "publishedAt": "2026-11-21T12:30:12+08:00",
+   "summary": "🤯 क्या होगा अगर एक छोटा-सा कंप्यूटर आपके डेस्क पर बैठकर बड़े AI मॉडल्स चला सके? NVIDIA ने DGX Spark के जरिए Personal AI Supercomputing की दुनिया में एक नया कदम उठाया है! इस छोटे AI Supercomputer में N",
    "models": [
     "DGX Spark"
    ],
@@ -44,46 +44,44 @@
    ],
    "press": false,
    "heat": 100,
-   "image": "https://i.ytimg.com/vi/V-m3hGyz2aQ/mqdefault.jpg",
-   "views": 95782,
-   "comments": 231,
+   "image": "https://i.ytimg.com/vi/-GidCyd5HYw/mqdefault.jpg",
+   "views": 104509,
+   "comments": 246,
    "dupes": 35,
    "also": [
-    "YouTube · Ideal Tech PC",
-    "YouTube · LCMD",
-    "YouTube · NoRegretPick",
-    "YouTube · Suntiwong Sahairak",
-    "YouTube · FlowForge AI",
-    "YouTube · Starter Stack"
+    "YouTube · DevDecodedWithSaurabh",
+    "YouTube · Daily Tech Briefs",
+    "YouTube · AI Without the Bill",
+    "YouTube · Eugene Vyborov",
+    "YouTube · 小淵聊3C",
+    "YouTube · Automátika"
    ],
    "lines": [],
-   "score": 1501,
+   "score": 1631,
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "Supermicro adds a 256-CPU rack for the work AI GPUs leave behind #Shorts",
-     "summary": "RUNTIMEWIRE GIVEAWAY Win a sealed NVIDIA DGX Spark: 128GB unified memory and 4TB storage. Free; no purchase necessary. Entry includes the RuntimeWire newsletter; unsubscribe anytime. 18+ and local maj"
+     "title": "NVIDIA का Tiny AI Supercomputer! 😱 अब घर पर चलेगा Super AI?",
+     "summary": "🤯 क्या होगा अगर एक छोटा-सा कंप्यूटर आपके डेस्क पर बैठकर बड़े AI मॉडल्स चला सके? NVIDIA ने DGX Spark के जरिए Personal AI Supercomputing की दुनिया में एक नया कदम उठाया है! इस छोटे AI Supercomputer में N"
     }
    }
   },
   {
-   "title": "RTX Spark: First mini-PCs from ASUS, Dell, and MSI Now Available, Plus a DGX Spark Cluster for Researchers - Basic Tutorials",
-   "source": "Basic Tutorials",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWEN4eFI1YTJNWTVXQ3dJR3hud2FyVm5oNHNSWGxPUUJ0dHVDVmtKOG03UVEyaFpXS3FXdkVNdC16MzRUcnNEdDRxMWNfX0pkWnlZTEw4WUFpc1V3c0VCMFJIWnpBanFQcUV5WnVpeWpXVmZ5TF83TDVvOWtqeWpZZVFWMFB3SDdQNHBVa29iak5Oak1RX21UUlAySXRNWHdCeXRIZWhNMXJWdTlGVGZXWUJFTWZyNF8xUzZzdXFmVjdyRnBXTHhRTFZyekJvVW5ySmc?oc=5",
-   "date": "2026-11-19 11:46",
-   "publishedAt": "2026-11-19T11:46:38+08:00",
+   "title": "Nvidia launches desk-side DGX Spark cluster for researchers - IT Brief Asia",
+   "source": "IT Brief Asia",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRkVoNFV4VUNLTTFRRkVlcTVnRkt5ZEY2OU4wSC0xakxSMDRVaEc2Ym83Rjc1RGRNclZWcWpXeXMxRk9kaTlmanRPUmt3Q3owZVA5d09zUDhVVHFOTFlQTFdzcTZrTDRBZ1pPN0pyRl9aN0VoMzdITGs3NmIyMmgyS1BqWGRNOTVrTkg0SVFDZw?oc=5",
+   "date": "2026-11-21 00:00",
+   "publishedAt": "2026-11-21T00:00:00+08:00",
    "summary": "",
    "models": [
     "DGX Spark"
    ],
    "tag": "應用案例",
    "camps": [
-    "asus",
-    "msi",
-    "dell"
+    "nvidia"
    ],
    "press": false,
-   "heat": 11,
+   "heat": 13,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -94,43 +92,39 @@
    "lang": "en",
    "i18n": {
     "en": {
-     "title": "RTX Spark: First mini-PCs from ASUS, Dell, and MSI Now Available, Plus a DGX Spark Cluster for Researchers - Basic Tutorials",
+     "title": "Nvidia launches desk-side DGX Spark cluster for researchers - IT Brief Asia",
      "summary": ""
     }
    }
   },
   {
-   "title": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab - HPCwire",
-   "source": "HPCwire",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRlk0cW5XMmRXcG1vaEtabFpuekZLWDF3N2pVSkRuZGxaSF9CUTlSZXp3QUVySHRENHYxdm1acklsZzZ5eENxdXM0cG5EMFpnU21JTjhpYkxtdm8tUndySU1BNmxNRC1OdE9mVTdKV0JoZ3M3dEVYMmNTVGxWUU9KSDcyRVE1Nk5BOTJDbVk5a21SV3k4a3I0bnN3TVVzNkRLdGpVRGtBZlNjSXM?oc=5",
-   "date": "2026-11-18 21:41",
-   "publishedAt": "2026-11-18T21:41:13+08:00",
-   "summary": "At SC26, an annual supercomputing conference taking place this week in Chicago, NVIDIA is introducing the DGX Spark HPC Developer Kit for researchers, academics and developers. The kit is a four-node cluster of NVIDIA DG",
+   "title": "桌面上的超級電腦實驗室NVIDIA推出DGX Spark HPC開發者套件 - Zeek玩家誌",
+   "source": "Zeek玩家誌",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE92WWJqUXFNZk1YY3JzQlBickFMeWgxbUluODgydEkyam9vT29LZGp3VC1Lbm9faDA1NVhNbHpXaWJwNDg2RmptZ2JSYXd1V3NZb2c?oc=5",
+   "date": "2026-11-20 23:26",
+   "publishedAt": "2026-11-20T23:26:45+08:00",
+   "summary": "",
    "models": [
     "DGX Spark"
    ],
-   "tag": "應用案例",
+   "tag": "產品發表",
    "camps": [
     "nvidia"
    ],
    "press": false,
-   "heat": 33,
-   "image": "https://blogs.nvidia.com/wp-content/uploads/2026/11/nv-blog-1280x680-1.jpg",
+   "heat": 21,
+   "image": "",
    "views": 0,
    "comments": 0,
-   "dupes": 3,
-   "also": [
-    "NVIDIA Newsroom Web",
-    "NVIDIA Blog",
-    "NVIDIA Newsroom"
-   ],
+   "dupes": 1,
+   "also": [],
    "lines": [],
    "score": null,
-   "lang": "en",
+   "lang": "zh",
    "i18n": {
-    "en": {
-     "title": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab - HPCwire",
-     "summary": "At SC26, an annual supercomputing conference taking place this week in Chicago, NVIDIA is introducing the DGX Spark HPC Developer Kit for researchers, academics and developers. The kit is a four-node cluster of NVIDIA DG"
+    "zh-TW": {
+     "title": "桌面上的超級電腦實驗室NVIDIA推出DGX Spark HPC開發者套件 - Zeek玩家誌",
+     "summary": ""
     }
    }
   },
@@ -149,7 +143,7 @@
     "other"
    ],
    "press": true,
-   "heat": 15,
+   "heat": 12,
    "image": "",
    "views": 0,
    "comments": 0,

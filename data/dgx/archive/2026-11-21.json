@@ -1,0 +1,163 @@
+{
+ "channel": "dgx",
+ "version": "v26",
+ "fetchedAt": "2026-11-21T14:14:46.522336+08:00",
+ "edition": "2026-11-21",
+ "count": 4,
+ "languages": [
+  "zh-TW",
+  "zh-CN",
+  "en",
+  "ja",
+  "ko",
+  "de",
+  "es",
+  "fr",
+  "it"
+ ],
+ "byGroup": {
+  "asus": 0,
+  "acer": 0,
+  "hp": 0,
+  "msi": 0,
+  "dell": 0,
+  "lenovo": 0,
+  "gigabyte": 0,
+  "microsoft": 0,
+  "nvidia": 3
+ },
+ "byLine": {},
+ "items": [
+  {
+   "title": "NVIDIA का Tiny AI Supercomputer! 😱 अब घर पर चलेगा Super AI?",
+   "source": "YouTube · NextGen Science and Technology",
+   "url": "https://www.youtube.com/watch?v=-GidCyd5HYw",
+   "date": "2026-11-21 12:30",
+   "publishedAt": "2026-11-21T12:30:12+08:00",
+   "summary": "🤯 क्या होगा अगर एक छोटा-सा कंप्यूटर आपके डेस्क पर बैठकर बड़े AI मॉडल्स चला सके? NVIDIA ने DGX Spark के जरिए Personal AI Supercomputing की दुनिया में एक नया कदम उठाया है! इस छोटे AI Supercomputer में N",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "影片",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 100,
+   "image": "https://i.ytimg.com/vi/-GidCyd5HYw/mqdefault.jpg",
+   "views": 104509,
+   "comments": 246,
+   "dupes": 35,
+   "also": [
+    "YouTube · DevDecodedWithSaurabh",
+    "YouTube · Daily Tech Briefs",
+    "YouTube · AI Without the Bill",
+    "YouTube · Eugene Vyborov",
+    "YouTube · 小淵聊3C",
+    "YouTube · Automátika"
+   ],
+   "lines": [],
+   "score": 1631,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "NVIDIA का Tiny AI Supercomputer! 😱 अब घर पर चलेगा Super AI?",
+     "summary": "🤯 क्या होगा अगर एक छोटा-सा कंप्यूटर आपके डेस्क पर बैठकर बड़े AI मॉडल्स चला सके? NVIDIA ने DGX Spark के जरिए Personal AI Supercomputing की दुनिया में एक नया कदम उठाया है! इस छोटे AI Supercomputer में N"
+    }
+   }
+  },
+  {
+   "title": "Nvidia launches desk-side DGX Spark cluster for researchers - IT Brief Asia",
+   "source": "IT Brief Asia",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRkVoNFV4VUNLTTFRRkVlcTVnRkt5ZEY2OU4wSC0xakxSMDRVaEc2Ym83Rjc1RGRNclZWcWpXeXMxRk9kaTlmanRPUmt3Q3owZVA5d09zUDhVVHFOTFlQTFdzcTZrTDRBZ1pPN0pyRl9aN0VoMzdITGs3NmIyMmgyS1BqWGRNOTVrTkg0SVFDZw?oc=5",
+   "date": "2026-11-21 00:00",
+   "publishedAt": "2026-11-21T00:00:00+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "應用案例",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Nvidia launches desk-side DGX Spark cluster for researchers - IT Brief Asia",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "桌面上的超級電腦實驗室NVIDIA推出DGX Spark HPC開發者套件 - Zeek玩家誌",
+   "source": "Zeek玩家誌",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE92WWJqUXFNZk1YY3JzQlBickFMeWgxbUluODgydEkyam9vT29LZGp3VC1Lbm9faDA1NVhNbHpXaWJwNDg2RmptZ2JSYXd1V3NZb2c?oc=5",
+   "date": "2026-11-20 23:26",
+   "publishedAt": "2026-11-20T23:26:45+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 21,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "桌面上的超級電腦實驗室NVIDIA推出DGX Spark HPC開發者套件 - Zeek玩家誌",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "DGX Station for Windows The world's most powerful deskside AI supercomputer for Windows",
+   "source": "NVIDIA DGX Spark",
+   "url": "https://www.nvidia.com/en-us/products/workstations/dgx-station-for-windows/",
+   "date": "2026-11-18 13:59",
+   "publishedAt": "2026-11-18T13:59:21.398670+08:00",
+   "summary": "",
+   "models": [
+    "DGX Station"
+   ],
+   "tag": "官方發布",
+   "camps": [
+    "other"
+   ],
+   "press": true,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "DGX Station for Windows The world's most powerful deskside AI supercomputer for Windows",
+     "summary": ""
+    }
+   }
+  }
+ ]
+}
