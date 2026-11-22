@@ -1,0 +1,132 @@
+{
+ "channel": "dgx",
+ "version": "v26",
+ "fetchedAt": "2026-11-22T14:19:39.314213+08:00",
+ "edition": "2026-11-22",
+ "count": 3,
+ "languages": [
+  "zh-TW",
+  "zh-CN",
+  "en",
+  "ja",
+  "ko",
+  "de",
+  "es",
+  "fr",
+  "it"
+ ],
+ "byGroup": {
+  "asus": 0,
+  "acer": 0,
+  "hp": 0,
+  "msi": 0,
+  "dell": 0,
+  "lenovo": 0,
+  "gigabyte": 0,
+  "microsoft": 0,
+  "nvidia": 3
+ },
+ "byLine": {},
+ "items": [
+  {
+   "title": "100万円超のPC誰が使う・・・",
+   "source": "YouTube · まーくんの日常",
+   "url": "https://www.youtube.com/watch?v=BhY7QBi98vQ",
+   "date": "2026-11-22 13:29",
+   "publishedAt": "2026-11-22T13:29:22+08:00",
+   "summary": "100万円を超えるAIパソコン「NVIDIA DGX Spark」が、売れ筋ランキングで一時1位に。 なぜ、こんなに高額なパソコンが注目されたのか？ 海外の実際の購入者の投稿を調査すると、意外な使い道が見えてきました。 ・社内データを外に出さずAIを動かす ・画像や動画生成の実験 ・ローカルAI開発 果たして100万円の元は取れるのか？ AIマネタイズ研究所では、海外の一次情報をもとにAIビジネス",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "影片",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 100,
+   "image": "https://i.ytimg.com/vi/BhY7QBi98vQ/mqdefault.jpg",
+   "views": 195068,
+   "comments": 248,
+   "dupes": 30,
+   "also": [
+    "YouTube · Worldof_aix",
+    "YouTube · YU LI",
+    "YouTube · 小淵聊3C",
+    "YouTube · Simply AI",
+    "YouTube · jbsx",
+    "YouTube · Silicon Stage"
+   ],
+   "lines": [],
+   "score": 4330,
+   "lang": "ja",
+   "i18n": {
+    "ja": {
+     "title": "100万円超のPC誰が使う・・・",
+     "summary": "100万円を超えるAIパソコン「NVIDIA DGX Spark」が、売れ筋ランキングで一時1位に。 なぜ、こんなに高額なパソコンが注目されたのか？ 海外の実際の購入者の投稿を調査すると、意外な使い道が見えてきました。 ・社内データを外に出さずAIを動かす ・画像や動画生成の実験 ・ローカルAI開発 果たして100万円の元は取れるのか？ AIマネタイズ研究所では、海外の一次情報をもとにAIビジネス"
+    }
+   }
+  },
+  {
+   "title": "Nvidia launches desk-side DGX Spark cluster for researchers - IT Brief Asia",
+   "source": "IT Brief Asia",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRkVoNFV4VUNLTTFRRkVlcTVnRkt5ZEY2OU4wSC0xakxSMDRVaEc2Ym83Rjc1RGRNclZWcWpXeXMxRk9kaTlmanRPUmt3Q3owZVA5d09zUDhVVHFOTFlQTFdzcTZrTDRBZ1pPN0pyRl9aN0VoMzdITGs3NmIyMmgyS1BqWGRNOTVrTkg0SVFDZw?oc=5",
+   "date": "2026-11-21 00:00",
+   "publishedAt": "2026-11-21T00:00:00+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "應用案例",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 9,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Nvidia launches desk-side DGX Spark cluster for researchers - IT Brief Asia",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "桌面上的超級電腦實驗室NVIDIA推出DGX Spark HPC開發者套件 - Zeek玩家誌",
+   "source": "Zeek玩家誌",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE92WWJqUXFNZk1YY3JzQlBickFMeWgxbUluODgydEkyam9vT29LZGp3VC1Lbm9faDA1NVhNbHpXaWJwNDg2RmptZ2JSYXd1V3NZb2c?oc=5",
+   "date": "2026-11-20 23:26",
+   "publishedAt": "2026-11-20T23:26:45+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 17,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "桌面上的超級電腦實驗室NVIDIA推出DGX Spark HPC開發者套件 - Zeek玩家誌",
+     "summary": ""
+    }
+   }
+  }
+ ]
+}

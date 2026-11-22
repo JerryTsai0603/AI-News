@@ -1,9 +1,9 @@
 {
  "channel": "dgx",
  "version": "v26",
- "fetchedAt": "2026-11-21T14:14:46.522336+08:00",
- "edition": "2026-11-21",
- "count": 4,
+ "fetchedAt": "2026-11-22T14:19:39.314213+08:00",
+ "edition": "2026-11-22",
+ "count": 3,
  "languages": [
   "zh-TW",
   "zh-CN",
@@ -29,12 +29,12 @@
  "byLine": {},
  "items": [
   {
-   "title": "NVIDIA का Tiny AI Supercomputer! 😱 अब घर पर चलेगा Super AI?",
-   "source": "YouTube · NextGen Science and Technology",
-   "url": "https://www.youtube.com/watch?v=-GidCyd5HYw",
-   "date": "2026-11-21 12:30",
-   "publishedAt": "2026-11-21T12:30:12+08:00",
-   "summary": "🤯 क्या होगा अगर एक छोटा-सा कंप्यूटर आपके डेस्क पर बैठकर बड़े AI मॉडल्स चला सके? NVIDIA ने DGX Spark के जरिए Personal AI Supercomputing की दुनिया में एक नया कदम उठाया है! इस छोटे AI Supercomputer में N",
+   "title": "100万円超のPC誰が使う・・・",
+   "source": "YouTube · まーくんの日常",
+   "url": "https://www.youtube.com/watch?v=BhY7QBi98vQ",
+   "date": "2026-11-22 13:29",
+   "publishedAt": "2026-11-22T13:29:22+08:00",
+   "summary": "100万円を超えるAIパソコン「NVIDIA DGX Spark」が、売れ筋ランキングで一時1位に。 なぜ、こんなに高額なパソコンが注目されたのか？ 海外の実際の購入者の投稿を調査すると、意外な使い道が見えてきました。 ・社内データを外に出さずAIを動かす ・画像や動画生成の実験 ・ローカルAI開発 果たして100万円の元は取れるのか？ AIマネタイズ研究所では、海外の一次情報をもとにAIビジネス",
    "models": [
     "DGX Spark"
    ],
@@ -44,25 +44,25 @@
    ],
    "press": false,
    "heat": 100,
-   "image": "https://i.ytimg.com/vi/-GidCyd5HYw/mqdefault.jpg",
-   "views": 104509,
-   "comments": 246,
-   "dupes": 35,
+   "image": "https://i.ytimg.com/vi/BhY7QBi98vQ/mqdefault.jpg",
+   "views": 195068,
+   "comments": 248,
+   "dupes": 30,
    "also": [
-    "YouTube · DevDecodedWithSaurabh",
-    "YouTube · Daily Tech Briefs",
-    "YouTube · AI Without the Bill",
-    "YouTube · Eugene Vyborov",
+    "YouTube · Worldof_aix",
+    "YouTube · YU LI",
     "YouTube · 小淵聊3C",
-    "YouTube · Automátika"
+    "YouTube · Simply AI",
+    "YouTube · jbsx",
+    "YouTube · Silicon Stage"
    ],
    "lines": [],
-   "score": 1631,
-   "lang": "en",
+   "score": 4330,
+   "lang": "ja",
    "i18n": {
-    "en": {
-     "title": "NVIDIA का Tiny AI Supercomputer! 😱 अब घर पर चलेगा Super AI?",
-     "summary": "🤯 क्या होगा अगर एक छोटा-सा कंप्यूटर आपके डेस्क पर बैठकर बड़े AI मॉडल्स चला सके? NVIDIA ने DGX Spark के जरिए Personal AI Supercomputing की दुनिया में एक नया कदम उठाया है! इस छोटे AI Supercomputer में N"
+    "ja": {
+     "title": "100万円超のPC誰が使う・・・",
+     "summary": "100万円を超えるAIパソコン「NVIDIA DGX Spark」が、売れ筋ランキングで一時1位に。 なぜ、こんなに高額なパソコンが注目されたのか？ 海外の実際の購入者の投稿を調査すると、意外な使い道が見えてきました。 ・社内データを外に出さずAIを動かす ・画像や動画生成の実験 ・ローカルAI開発 果たして100万円の元は取れるのか？ AIマネタイズ研究所では、海外の一次情報をもとにAIビジネス"
     }
    }
   },
@@ -81,7 +81,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 13,
+   "heat": 9,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -112,7 +112,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 21,
+   "heat": 17,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -124,37 +124,6 @@
    "i18n": {
     "zh-TW": {
      "title": "桌面上的超級電腦實驗室NVIDIA推出DGX Spark HPC開發者套件 - Zeek玩家誌",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "DGX Station for Windows The world's most powerful deskside AI supercomputer for Windows",
-   "source": "NVIDIA DGX Spark",
-   "url": "https://www.nvidia.com/en-us/products/workstations/dgx-station-for-windows/",
-   "date": "2026-11-18 13:59",
-   "publishedAt": "2026-11-18T13:59:21.398670+08:00",
-   "summary": "",
-   "models": [
-    "DGX Station"
-   ],
-   "tag": "官方發布",
-   "camps": [
-    "other"
-   ],
-   "press": true,
-   "heat": 12,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "DGX Station for Windows The world's most powerful deskside AI supercomputer for Windows",
      "summary": ""
     }
    }
