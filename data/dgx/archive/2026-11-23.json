@@ -1,0 +1,101 @@
+{
+ "channel": "dgx",
+ "version": "v26",
+ "fetchedAt": "2026-11-23T14:24:08.724857+08:00",
+ "edition": "2026-11-23",
+ "count": 2,
+ "languages": [
+  "zh-TW",
+  "zh-CN",
+  "en",
+  "ja",
+  "ko",
+  "de",
+  "es",
+  "fr",
+  "it"
+ ],
+ "byGroup": {
+  "asus": 0,
+  "acer": 0,
+  "hp": 0,
+  "msi": 0,
+  "dell": 0,
+  "lenovo": 0,
+  "gigabyte": 0,
+  "microsoft": 0,
+  "nvidia": 2
+ },
+ "byLine": {},
+ "items": [
+  {
+   "title": "Ahmad Osman: DGX Spark Crushed Apple M5 Ultra 1.2TB/s Bandwidth in",
+   "source": "YouTube · is a code Community",
+   "url": "https://www.youtube.com/watch?v=TuFeTXAT4mU",
+   "date": "2026-11-23 13:00",
+   "publishedAt": "2026-11-23T13:00:33+08:00",
+   "summary": "Despite the Apple M5 Ultra boasting 1.2 TB/s bandwidth, Nvidia hardware still beats it in LLM decoding due to CUDA software optimization. Subscribe for deep technical breakdowns on AI systems and hard",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "影片",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 94,
+   "image": "https://i.ytimg.com/vi/TuFeTXAT4mU/mqdefault.jpg",
+   "views": 1583,
+   "comments": 7,
+   "dupes": 21,
+   "also": [
+    "YouTube · Rogerio Trani - IA na prática!",
+    "YouTube · Ada Digital Alchemy",
+    "YouTube · Raymundo Ojeda",
+    "YouTube · RuntimeWire",
+    "YouTube · AI_Daily_build_Youtube",
+    "YouTube · Beeltra Trade | TraderTech"
+   ],
+   "lines": [],
+   "score": 23,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Ahmad Osman: DGX Spark Crushed Apple M5 Ultra 1.2TB/s Bandwidth in",
+     "summary": "Despite the Apple M5 Ultra boasting 1.2 TB/s bandwidth, Nvidia hardware still beats it in LLM decoding due to CUDA software optimization. Subscribe for deep technical breakdowns on AI systems and hard"
+    }
+   }
+  },
+  {
+   "title": "NVIDIA Unveils DGX Spark HPC Kit with Four AI Systems - eTeknix",
+   "source": "eTeknix",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQeUQwMEhsQmc1dC1SU3dDbUNyZkE0a3d6ZzhVVDA1alowc1lQS1NLYV9PVjRyWGhhcUhLNG5URHpRaXVTZWY3YUtDUk1Nc3ZvTnZ4VnVINHVON0xHSml6UnhNc19lWnlULVd5ZXk0b1lMOWF2ZTRXcEF3VGE0WGhyM0wtMGM?oc=5",
+   "date": "2026-11-22 20:19",
+   "publishedAt": "2026-11-22T20:19:10+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 20,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "NVIDIA Unveils DGX Spark HPC Kit with Four AI Systems - eTeknix",
+     "summary": ""
+    }
+   }
+  }
+ ]
+}
