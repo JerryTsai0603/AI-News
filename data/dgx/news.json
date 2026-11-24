@@ -1,9 +1,9 @@
 {
  "channel": "dgx",
  "version": "v26",
- "fetchedAt": "2026-11-23T14:24:08.724857+08:00",
- "edition": "2026-11-23",
- "count": 2,
+ "fetchedAt": "2026-11-24T14:28:31.505083+08:00",
+ "edition": "2026-11-24",
+ "count": 5,
  "languages": [
   "zh-TW",
   "zh-CN",
@@ -24,45 +24,139 @@
   "lenovo": 0,
   "gigabyte": 0,
   "microsoft": 0,
-  "nvidia": 2
+  "nvidia": 5
  },
  "byLine": {},
  "items": [
   {
-   "title": "Ahmad Osman: DGX Spark Crushed Apple M5 Ultra 1.2TB/s Bandwidth in",
-   "source": "YouTube · is a code Community",
-   "url": "https://www.youtube.com/watch?v=TuFeTXAT4mU",
-   "date": "2026-11-23 13:00",
-   "publishedAt": "2026-11-23T13:00:33+08:00",
-   "summary": "Despite the Apple M5 Ultra boasting 1.2 TB/s bandwidth, Nvidia hardware still beats it in LLM decoding due to CUDA software optimization. Subscribe for deep technical breakdowns on AI systems and hard",
+   "title": "NVIDIA 的 GB10 裡有聯發科？CPU、GPU 到底誰做什麼？ #shorts",
+   "source": "YouTube · AI Stock Pick - 台股每週精選 ",
+   "url": "https://www.youtube.com/watch?v=LfRZT_Cw2no",
+   "date": "2026-11-24 12:00",
+   "publishedAt": "2026-11-24T12:00:08+08:00",
+   "summary": "桌上的 AI 電腦 DGX Spark，裡面的 GB10 竟然也有聯發科參與？ @aistockpick NVIDIA 與聯發科共同設計 GB10：NVIDIA 提供 Blackwell GPU，聯發科參與 CPU、記憶體子系統和高速介面的設計整合。 CPU 執行系統、安排工作，GPU 承擔大量 AI 運算。兩邊的資料交換，也會影響效能與耗電。這支短片帶你看懂各自的角色。 💡 想了解更多台股半導體",
    "models": [
-    "DGX Spark"
+    "DGX Spark",
+    "GB10"
    ],
    "tag": "影片",
    "camps": [
     "nvidia"
    ],
    "press": false,
-   "heat": 94,
-   "image": "https://i.ytimg.com/vi/TuFeTXAT4mU/mqdefault.jpg",
-   "views": 1583,
-   "comments": 7,
-   "dupes": 21,
+   "heat": 100,
+   "image": "https://i.ytimg.com/vi/LfRZT_Cw2no/mqdefault.jpg",
+   "views": 3473,
+   "comments": 12,
+   "dupes": 34,
    "also": [
-    "YouTube · Rogerio Trani - IA na prática!",
-    "YouTube · Ada Digital Alchemy",
-    "YouTube · Raymundo Ojeda",
-    "YouTube · RuntimeWire",
-    "YouTube · AI_Daily_build_Youtube",
-    "YouTube · Beeltra Trade | TraderTech"
+    "YouTube · EDteam",
+    "YouTube · 陕西楞娃",
+    "YouTube · Thalyson",
+    "YouTube · 小淵聊3C",
+    "YouTube · Tarun Ravi",
+    "YouTube · AI Without the Bill"
    ],
    "lines": [],
-   "score": 23,
-   "lang": "en",
+   "score": 216,
+   "lang": "zh",
    "i18n": {
-    "en": {
-     "title": "Ahmad Osman: DGX Spark Crushed Apple M5 Ultra 1.2TB/s Bandwidth in",
-     "summary": "Despite the Apple M5 Ultra boasting 1.2 TB/s bandwidth, Nvidia hardware still beats it in LLM decoding due to CUDA software optimization. Subscribe for deep technical breakdowns on AI systems and hard"
+    "zh-TW": {
+     "title": "NVIDIA 的 GB10 裡有聯發科？CPU、GPU 到底誰做什麼？ #shorts",
+     "summary": "桌上的 AI 電腦 DGX Spark，裡面的 GB10 竟然也有聯發科參與？ @aistockpick NVIDIA 與聯發科共同設計 GB10：NVIDIA 提供 Blackwell GPU，聯發科參與 CPU、記憶體子系統和高速介面的設計整合。 CPU 執行系統、安排工作，GPU 承擔大量 AI 運算。兩邊的資料交換，也會影響效能與耗電。這支短片帶你看懂各自的角色。 💡 想了解更多台股半導體"
+    }
+   }
+  },
+  {
+   "title": "新股掛牌》登豐拚12月中上櫃！輝達DGX Spark單機採用4顆IC，看2027王源銘估與今年相當 - Yahoo新聞",
+   "source": "Yahoo新聞",
+   "url": "https://news.google.com/rss/articles/CBMivwNBVV95cUxQZl9EbzlpMFB1Yl9rZllYTnVUSG1JZlBnb2NWdk9BNTdGcTVpS1NtaTFyT3ZqWGVaNHBHUkoyTWlxT2dDOUpVcWlFX2NWaW5uWTBRMnpvQlJzd3UzWjBzV1lEUmtEUFF5bW5MT0FuSUtxMG1VbVl1UkhtaUtPV3hMdC1oc1l1b0p4RFg5RlZtd0xJbGc2QzZrN3ZxQjF4ZWRJVmQ2am5Mam1zWElCRE5FQ21aRUlfN0JwYzNVeHVpQjZOT0JzWkdKd29weDItVEx2bVNaRnNXdVMtU3hEcUh6Zmdqb3NHbk5ONjlTZV9rWTNRanc0Tk91cDFUSjRNQktfR0hmMnJwYzdCRHZGZGUzUUMyQmpXRUhva1kwV2ptZUVxYnJDVlVTdFJxTTd0ZzhUc1dVOG03N0JSRHItYUdfd2c1eV9zMWhMVUhOS3pXbjJhbEtVZldTeS04TWtDVDQ1alI5NV9KR1hmMk1YUFBSeGwtN2ZEc05Vbk9IMTZ2M2dIdTNnVlEyaUxReFF3M29tUHppT0dTdUxHYUpoUHFQZlhxZm5vakhDblBmcjRvemJuNGxkZXFqQnljMTZ4cUE?oc=5",
+   "date": "2026-11-23 19:53",
+   "publishedAt": "2026-11-23T19:53:27+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 20,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "新股掛牌》登豐拚12月中上櫃！輝達DGX Spark單機採用4顆IC，看2027王源銘估與今年相當 - Yahoo新聞",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "討論牆 | 登豐微電子切入NVIDIA DGX Spark與50系列顯卡 前三季EPS 1.92元毛利率創高 - LINE TODAY",
+   "source": "LINE TODAY",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA3b3I3SndjUDBOOVozdWpQajdZckRwRTY3ejJ5UjZsYmhMTU0yTkxMeldEcDgtSXN1R3FxLTJKc0RCSGM3V19QZjF3Wk1waUNOWkZVWFotcDFDd3Z3TUlkcjZTNW0?oc=5",
+   "date": "2026-11-23 15:36",
+   "publishedAt": "2026-11-23T15:36:33+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 11,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "討論牆 | 登豐微電子切入NVIDIA DGX Spark與50系列顯卡 前三季EPS 1.92元毛利率創高 - LINE TODAY",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "登豐微電子切入NVIDIA DGX Spark與50系列顯卡 前三季EPS 1.92元毛利率創高 - 鉅亨網",
+   "source": "鉅亨網",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFAxV1NmU2V2b0V5eFdDY1plRnZVT1dzTV9lNXNnZjVWNUpmSzhqYm5nNG9keHJJT3huZXViY3NleXNrRTdvaVRiTjh0cw?oc=5",
+   "date": "2026-11-23 14:50",
+   "publishedAt": "2026-11-23T14:50:04+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 19,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "登豐微電子切入NVIDIA DGX Spark與50系列顯卡 前三季EPS 1.92元毛利率創高 - 鉅亨網",
+     "summary": ""
     }
    }
   },
@@ -81,7 +175,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 20,
+   "heat": 16,
    "image": "",
    "views": 0,
    "comments": 0,
