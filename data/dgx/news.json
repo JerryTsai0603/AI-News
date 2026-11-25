@@ -1,8 +1,8 @@
 {
  "channel": "dgx",
  "version": "v26",
- "fetchedAt": "2026-11-24T14:28:31.505083+08:00",
- "edition": "2026-11-24",
+ "fetchedAt": "2026-11-25T14:33:08.748915+08:00",
+ "edition": "2026-11-25",
  "count": 5,
  "languages": [
   "zh-TW",
@@ -21,49 +21,80 @@
   "hp": 0,
   "msi": 0,
   "dell": 0,
-  "lenovo": 0,
+  "lenovo": 1,
   "gigabyte": 0,
   "microsoft": 0,
-  "nvidia": 5
+  "nvidia": 4
  },
  "byLine": {},
  "items": [
   {
-   "title": "NVIDIA 的 GB10 裡有聯發科？CPU、GPU 到底誰做什麼？ #shorts",
-   "source": "YouTube · AI Stock Pick - 台股每週精選 ",
-   "url": "https://www.youtube.com/watch?v=LfRZT_Cw2no",
-   "date": "2026-11-24 12:00",
-   "publishedAt": "2026-11-24T12:00:08+08:00",
-   "summary": "桌上的 AI 電腦 DGX Spark，裡面的 GB10 竟然也有聯發科參與？ @aistockpick NVIDIA 與聯發科共同設計 GB10：NVIDIA 提供 Blackwell GPU，聯發科參與 CPU、記憶體子系統和高速介面的設計整合。 CPU 執行系統、安排工作，GPU 承擔大量 AI 運算。兩邊的資料交換，也會影響效能與耗電。這支短片帶你看懂各自的角色。 💡 想了解更多台股半導體",
+   "title": "Server AI Powerful tapi Mungil dan Irit Daya: Review Lenovo ThinkStation PGX",
+   "source": "YouTube · Jagat Review",
+   "url": "https://www.youtube.com/watch?v=6nqV4zV2jWY",
+   "date": "2026-11-25 12:00",
+   "publishedAt": "2026-11-25T12:00:35+08:00",
+   "summary": "Kata siapa Server AI itu ukurannya besar dan boros listrik. Server AI dengan Chip NVIDIA GB10 ini ukurannya lebih kecil dari PC Desktop Mini-ITX. Konsumsi dayanya bahkan ga sampai 200 Watt. Tapi menar",
    "models": [
-    "DGX Spark",
-    "GB10"
+    "GB10",
+    "ThinkStation PGX"
    ],
    "tag": "影片",
+   "camps": [
+    "lenovo"
+   ],
+   "press": false,
+   "heat": 100,
+   "image": "https://i.ytimg.com/vi/6nqV4zV2jWY/mqdefault.jpg",
+   "views": 16721,
+   "comments": 37,
+   "dupes": 33,
+   "also": [
+    "YouTube · localhost",
+    "YouTube · LCMD",
+    "YouTube · AI 自白",
+    "YouTube · Panutat Tejasen",
+    "YouTube · 散財小説ドリキン",
+    "YouTube · easyaihowtos"
+   ],
+   "lines": [],
+   "score": 238,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Server AI Powerful tapi Mungil dan Irit Daya: Review Lenovo ThinkStation PGX",
+     "summary": "Kata siapa Server AI itu ukurannya besar dan boros listrik. Server AI dengan Chip NVIDIA GB10 ini ukurannya lebih kecil dari PC Desktop Mini-ITX. Konsumsi dayanya bahkan ga sampai 200 Watt. Tapi menar"
+    }
+   }
+  },
+  {
+   "title": "Experimental XNU Linux project boots macOS 27 on NVIDIA DGX Spark without a separate virtual machine - TweakTown",
+   "source": "TweakTown",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNbnJnTnBlbmwyVUE3S204Q1VJMTFWX0h5djF6NjFwZ29lTlBYcUdpdV9tal92ckhKUWRDMlZDSGE2VXI4cVNlRlBjLUpJcXZsb3A0eWdWdnF5dmh2MDM3QXE5Yy1WMG5vajNUdXFhMU85UlFFRkpGZG9VUndsc09MOUs2TGUzVTMtS3JUelR2Zml6NXN5WmlIX2dBVVFqdGJxaGo4VVpsY3hGc3BCTU1JT0V3MS1vc3pucE9wUnZLd1JqNUFwd19hQWFJTGZlX2tFaDlPYThYNHp3MVBlTGRBd2NFUQ?oc=5",
+   "date": "2026-11-25 03:45",
+   "publishedAt": "2026-11-25T03:45:10+08:00",
+   "summary": "",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "產品發表",
    "camps": [
     "nvidia"
    ],
    "press": false,
-   "heat": 100,
-   "image": "https://i.ytimg.com/vi/LfRZT_Cw2no/mqdefault.jpg",
-   "views": 3473,
-   "comments": 12,
-   "dupes": 34,
-   "also": [
-    "YouTube · EDteam",
-    "YouTube · 陕西楞娃",
-    "YouTube · Thalyson",
-    "YouTube · 小淵聊3C",
-    "YouTube · Tarun Ravi",
-    "YouTube · AI Without the Bill"
-   ],
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
    "lines": [],
-   "score": 216,
-   "lang": "zh",
+   "score": null,
+   "lang": "en",
    "i18n": {
-    "zh-TW": {
-     "title": "NVIDIA 的 GB10 裡有聯發科？CPU、GPU 到底誰做什麼？ #shorts",
-     "summary": "桌上的 AI 電腦 DGX Spark，裡面的 GB10 竟然也有聯發科參與？ @aistockpick NVIDIA 與聯發科共同設計 GB10：NVIDIA 提供 Blackwell GPU，聯發科參與 CPU、記憶體子系統和高速介面的設計整合。 CPU 執行系統、安排工作，GPU 承擔大量 AI 運算。兩邊的資料交換，也會影響效能與耗電。這支短片帶你看懂各自的角色。 💡 想了解更多台股半導體"
+    "en": {
+     "title": "Experimental XNU Linux project boots macOS 27 on NVIDIA DGX Spark without a separate virtual machine - TweakTown",
+     "summary": ""
     }
    }
   },
@@ -82,7 +113,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 20,
+   "heat": 16,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -113,7 +144,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 11,
+   "heat": 8,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -144,7 +175,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 19,
+   "heat": 16,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -156,37 +187,6 @@
    "i18n": {
     "zh-TW": {
      "title": "登豐微電子切入NVIDIA DGX Spark與50系列顯卡 前三季EPS 1.92元毛利率創高 - 鉅亨網",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "NVIDIA Unveils DGX Spark HPC Kit with Four AI Systems - eTeknix",
-   "source": "eTeknix",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQeUQwMEhsQmc1dC1SU3dDbUNyZkE0a3d6ZzhVVDA1alowc1lQS1NLYV9PVjRyWGhhcUhLNG5URHpRaXVTZWY3YUtDUk1Nc3ZvTnZ4VnVINHVON0xHSml6UnhNc19lWnlULVd5ZXk0b1lMOWF2ZTRXcEF3VGE0WGhyM0wtMGM?oc=5",
-   "date": "2026-11-22 20:19",
-   "publishedAt": "2026-11-22T20:19:10+08:00",
-   "summary": "",
-   "models": [
-    "DGX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "nvidia"
-   ],
-   "press": false,
-   "heat": 16,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "NVIDIA Unveils DGX Spark HPC Kit with Four AI Systems - eTeknix",
      "summary": ""
     }
    }

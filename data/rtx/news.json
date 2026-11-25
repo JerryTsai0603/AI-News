@@ -1,9 +1,9 @@
 {
  "channel": "rtx",
  "version": "v26",
- "fetchedAt": "2026-11-24T14:27:14.597764+08:00",
- "edition": "2026-11-24",
- "count": 25,
+ "fetchedAt": "2026-11-25T14:31:31.107762+08:00",
+ "edition": "2026-11-25",
+ "count": 26,
  "languages": [
   "zh-TW",
   "zh-CN",
@@ -16,54 +16,425 @@
   "it"
  ],
  "byGroup": {
-  "asus": 3,
+  "asus": 5,
   "acer": 0,
-  "hp": 1,
-  "msi": 1,
+  "hp": 0,
+  "msi": 0,
   "dell": 2,
-  "lenovo": 3,
+  "lenovo": 2,
   "gigabyte": 0,
-  "microsoft": 2,
-  "nvidia": 8
+  "microsoft": 3,
+  "nvidia": 9
  },
  "byLine": {},
  "items": [
   {
-   "title": "128GBメモリで120Bが動く。小型AIデスクトップ『RTX Spark』機が一斉発売",
-   "source": "YouTube · ナヴィエルのガジェット部屋",
-   "url": "https://www.youtube.com/watch?v=rtobPeQ1VPc",
-   "date": "2026-11-24 13:57",
-   "publishedAt": "2026-11-24T13:57:20+08:00",
-   "summary": "NVIDIAのWindows PC向けスーパーチップ「RTX Spark（N1X）」を搭載した小型デスクトップが、2026年11月18日にASUS・MSI・Dellから一斉発売されました。最大128GBのユニファイドメモリで、120BパラメータのLLMをローカル実行できると公式が謳う機種群です。 日本ではASUS ProArt GR1X（64GB/1TB）がドスパラで817,000円から販売中です",
+   "title": "RTX Spark Laptops vs OLED Gaming Laptops From $2,599 - shattered.io",
+   "source": "shattered.io",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTEpUV2cxUE5BWUFhNlUyaktkZ1NsZVFUY21icFNrMkVuU0doX0YyS1dfR2h4UExnLWk1bWN3TVNySHNpVmZjNUVhd0hBeTRhRkc4TndBYjcxWV9lQ1A4MjRpS3BmeVBiMFAtRFdkeW82dm5ENXVkVzRsMWlIUV9lMjBDMA?oc=5",
+   "date": "2026-11-25 14:01",
+   "publishedAt": "2026-11-25T14:01:26+08:00",
+   "summary": "",
    "models": [
-    "RTX Spark",
-    "N1X"
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 39,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 3,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "RTX Spark Laptops vs OLED Gaming Laptops From $2,599 - shattered.io",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "NVIDIA RTX Spark, What 128 GB Really Means",
+   "source": "YouTube · AI World Today",
+   "url": "https://www.youtube.com/watch?v=XipBU5F_I4A",
+   "date": "2026-11-25 14:00",
+   "publishedAt": "2026-11-25T14:00:30+08:00",
+   "summary": "What does the RTX Spark actually do? Nvidia is making strides. #nvidia #hardware #ai",
+   "models": [
+    "RTX Spark"
    ],
    "tag": "影片",
    "camps": [
-    "msi"
+    "nvidia"
    ],
    "press": false,
    "heat": 100,
-   "image": "https://i.ytimg.com/vi/rtobPeQ1VPc/mqdefault.jpg",
-   "views": 269657,
-   "comments": 121,
-   "dupes": 65,
+   "image": "https://i.ytimg.com/vi/XipBU5F_I4A/mqdefault.jpg",
+   "views": 3708,
+   "comments": 21,
+   "dupes": 60,
    "also": [
-    "YouTube · Doji Creates",
-    "YouTube · Tunas Melayu Digital",
-    "YouTube · Colab_GenAI",
-    "YouTube · 組合回憶錄",
-    "YouTube · DPN Creative",
-    "YouTube · CHIHIRO"
+    "YouTube · huazheserver",
+    "YouTube · Ankit Shukla",
+    "YouTube · Swaroop Talks",
+    "YouTube · Dell Technologies India",
+    "YouTube · GSMTN204 – Điểm Tin Công Nghệ",
+    "YouTube · NL Tech"
    ],
    "lines": [],
-   "score": 1168,
-   "lang": "ja",
+   "score": 53,
+   "lang": "en",
    "i18n": {
-    "ja": {
-     "title": "128GBメモリで120Bが動く。小型AIデスクトップ『RTX Spark』機が一斉発売",
-     "summary": "NVIDIAのWindows PC向けスーパーチップ「RTX Spark（N1X）」を搭載した小型デスクトップが、2026年11月18日にASUS・MSI・Dellから一斉発売されました。最大128GBのユニファイドメモリで、120BパラメータのLLMをローカル実行できると公式が謳う機種群です。 日本ではASUS ProArt GR1X（64GB/1TB）がドスパラで817,000円から販売中です"
+    "en": {
+     "title": "NVIDIA RTX Spark, What 128 GB Really Means",
+     "summary": "What does the RTX Spark actually do? Nvidia is making strides. #nvidia #hardware #ai"
+    }
+   }
+  },
+  {
+   "title": "NVIDIA RTX Spark Debuts in India - varindia",
+   "source": "varindia",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9kUG1WWlRBQzVpVTlGbXhzbVNUeGloM3M1NWMyNVFEQk44ME9ZSHJNNlN6aUtXQUVvdl9jcl9XcndVSWVwcUN5MXRtME4ydm56RXAzYzVwSnVwNUppalY3a1A4YmxjMDhYTkJZVFdOZw?oc=5",
+   "date": "2026-11-25 13:59",
+   "publishedAt": "2026-11-25T13:59:06+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "NVIDIA RTX Spark Debuts in India - varindia",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "ASUS ProArt P16 H7607 review – RTX Spark in all its glory - Nasi Lemak Tech",
+   "source": "Nasi Lemak Tech",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5uamowX0dpckFkaE5pQkNvcHZvQ1JkTGQ0SExGU0NxYXk2TDU1dnVPVFk0X2IxYTUwdVotdmo0VWNqN2ZYdkN0TjRaRnB0RWdxY3NIWFpYTWtxblRXdDJTZnJCZmNoNHlLNjI1QUhFQQ?oc=5",
+   "date": "2026-11-25 12:00",
+   "publishedAt": "2026-11-25T12:00:00+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "開箱評測",
+   "camps": [
+    "asus"
+   ],
+   "press": false,
+   "heat": 31,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 2,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "ASUS ProArt P16 H7607 review – RTX Spark in all its glory - Nasi Lemak Tech",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Nvidia RTX Spark laptop delivers 180fps in Marvel Rivals t… - TechTimes Vietnam",
+   "source": "TechTimes Vietnam",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZDNIZ2JaZzJnS2k0VTRkNkFwREQ4cDhuZkd1TzFjd1RlRHRNTVlkNDBEVi1pRFJkRnRWbWFvQU9ZZE9lRDlCMkx5Zk1TdjhrRHlsbFNmempnTEtkMUpFZ183NEcyNjdQSnk0VXBPaFN5MmV4akYtc0tWaTRQMzhTa3dVMzFOYmkyNGg0Uk50NzViZVRC?oc=5",
+   "date": "2026-11-25 11:06",
+   "publishedAt": "2026-11-25T11:06:05+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 22,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Nvidia RTX Spark laptop delivers 180fps in Marvel Rivals t… - TechTimes Vietnam",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Microsoft releases compact RTX Spark mini-PC with 128 GB RAM and 6,144 CUDA cores - Notebookcheck",
+   "source": "Notebookcheck",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUWxUSHE1WU05WUxMNVhXajFiNFBidG1Ec05oZ1ZPVkFlR3VTTTc1elFXYlg0QVExOVUwMDY4LWNYbzhPT1pOeDlrT3hBNWlackg4T3ZwemYxSVpyRmlUcW5mbVktblRGcXFDYUg0MVRtdjBXZWlTTTBiMFdYTHRsUlBMNE1WZUNoMkxfLXM1RVZ5MnJxdGN4bXlKbFFxcGt2Um9aekVqUFNrS25oTm9uSnhjUkdQUDVGT2ExMHcydlhJWk5n?oc=5",
+   "date": "2026-11-25 09:03",
+   "publishedAt": "2026-11-25T09:03:00+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "microsoft"
+   ],
+   "press": false,
+   "heat": 30,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 2,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Microsoft releases compact RTX Spark mini-PC with 128 GB RAM and 6,144 CUDA cores - Notebookcheck",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "NVIDIA Does It: Launching RTX Spark—Is This the Moment to Threaten Apple Silicon on Windows PCs? - آي-فون إسلام",
+   "source": "آي-فون إسلام",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQN2pVaW9vbEM1dEkzYVNncFBJM0RzMkROYzIyYUJlSmp6NXM5Z1B0NTNpcGFueS1XUWE0LVJMRHU5ZURMZ2xKVzhEaFlGMDY3Q2RTb21xN3N1VkNCbDR1Z3RfWC11SkptdF9jMjdEb2ZpcFQ4VThmQzJhSVRWRExYaWxHbEJISjQ4Vnd3aDRVMGt3N2pZdHZRLXVLRWhVVlM4RGxQZnpkSGZia0c4US1pM0F1MVhoc29DbmxVYjJQTVJMMjVGNnRXbjIwQ1BjUjNROFVHMEo2S0VIZEpGQXc?oc=5",
+   "date": "2026-11-25 01:38",
+   "publishedAt": "2026-11-25T01:38:27+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 21,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "NVIDIA Does It: Launching RTX Spark—Is This the Moment to Threaten Apple Silicon on Windows PCs? - آي-فون إسلام",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Nvidia Brings RTX Spark To India - BW Businessworld",
+   "source": "BW Businessworld",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxONkItMWU0c2Yzdi1BeGh1TWpHZTRCZ3diNlY1TFZMZGM1a3F3SUZlNDhsNmRNMk1nd2Q4Wng3aGh4Z0txNDNPWElOVHRRZmhud3pOTTVGTjRKTGI3ZWxRZnZ1Zno1bzFrRlhLUkhzN1JRc2d6akw1ajRjaG9jdHJnVnl3?oc=5",
+   "date": "2026-11-24 22:43",
+   "publishedAt": "2026-11-24T22:43:36+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 29,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 2,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Nvidia Brings RTX Spark To India - BW Businessworld",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Unboxing Asus ProArt GR1X Mini PC (Nvidia RTX Spark) - KitGuru",
+   "source": "KitGuru",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSGpUQTgxNm5mMEgzM19PVERjYWVSQzFoRW5heEw0S1NnTTNaaml3cGFpUDJtQW90dnJXcmpSZGdMREtwTWNUMjRZcWxoR0syQ3htU2xDS1AwS0NPTHh0TEtMRlk5TkptcVhwa05pWWE5WVRoRUt6d1FJV3JxQVhxMWJRdTFJdGMzX3Bjcjh4TzJnLVRPUXlsdFhwczlaUQ?oc=5",
+   "date": "2026-11-24 20:56",
+   "publishedAt": "2026-11-24T20:56:03+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "asus"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Unboxing Asus ProArt GR1X Mini PC (Nvidia RTX Spark) - KitGuru",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Dell XPS 16 Creator Edition with NVIDIA RTX Spark I Anurag Arora Reveals Dell’s AI PC Vision - digital terminal",
+   "source": "digital terminal",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNb19EWndaSzVtUFg2a240UmxUNUFYMlJHTEpZdFZRTVl2V3ZIbU1KUnpJRUVRelpDZDFFVHVHR2dfM1R5WGRvdTNhbHVndy1NWlMwdHlLaFE0cjhkbjltamtmei04cWh3aTRtdVJtRlBJQ3VIYUxVa2lnWWN4QVBqZXBzSVVZT25Vd2tPMmhwMU0xSjBVMkx5SWJJb2lvUUF0MUNKamJZN0dEODVYb2k1ZVFiS2tCVk5YT3FyM2l1c9IBzAFBVV95cUxPT2JuU3NpNXZSUC1Ed25LUFhBWTZPUW82dENLYXp5MkVOZmtyNzVfS3hzQlZDTUxoUENDR0FsZXpMdmdEVFJHVEFJaE9NMnpmTGFEM1B2RXA4UVhscHNKZFdlOXlFd3RGRWtNa1RLNzR4aVE2aXRtUUs4a1diZ2tXUENMWDVmYVExbmN3UHNYLUhPaGVmQjZSTzkyQVEyY0xPUVpudUF3dHNqalY5X2JGRkdjelBlS3pKZjh4NGF1TmtTbGJPMEhtNUM2NDE?oc=5",
+   "date": "2026-11-24 18:08",
+   "publishedAt": "2026-11-24T18:08:53+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "dell"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Dell XPS 16 Creator Edition with NVIDIA RTX Spark I Anurag Arora Reveals Dell’s AI PC Vision - digital terminal",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "MSI發表首款搭載NVIDIA RTX Spark筆電 性能特色一次看 - 三立新聞",
+   "source": "三立新聞",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9iZmJLaEpmMWpJQzJ1Rmg4My1VVGdHTWo1Y0JYZ1hPVFotM2ctamVYaGo1YndieXRYUG9vSHJXQlJnWEtZY0FucdIBTEFVX3lxTFBkMlEyU2RIMU9HUFUyMGptU2JkS202c2xEa1IzZGZYSFhYRElmNl9ndE5INWNzTVM3d0tFSTd1Y3JteWdkcER1MV9ReVY?oc=5",
+   "date": "2026-11-24 17:54",
+   "publishedAt": "2026-11-24T17:54:11+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 20,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "MSI發表首款搭載NVIDIA RTX Spark筆電 性能特色一次看 - 三立新聞",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "NVIDIA RTX Spark｜128GB 統一記憶體跑本地AI ASUS ProArt GR1X 約 1.1L 機身兼顧創作、Agent 及遊戲 - ezone.hk",
+   "source": "ezone.hk",
+   "url": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxORmRkbXpmMjVnWXZMMFRlS2Z0V2t4aHNwbmdtQ3loaDYxZlFHZ01FQV9naTFVNnVqQkQ4MWZtSnpwVFdGRVFXSl9sN1JQSzVVUHpUOW5UZkpLYkdSTThPU191MUtCZDF4TkRFSm5lQ2piMkRwZmF3TDZpazNRYUlMMFFlYVB4ckRjMVc2R0RiX2tyUGh1dHV5RE52blM3R2E3aXA5YzBjWUViUGcyb0xWbnpjSXdQVlFRZm1WTENmZHA3TmZHZTgtZS1PaEV3THAyTTJ2ODhtSm9QYzM4THpWd2I5MjhraVJoU000LTdTcEdab05rS21yNFl3YUJGcDBTTkhIQ2FsampfRDBxbFBtSVBlWU5RUzdnbUFJZldubFVLOFpZU0xNTEpqeTg2N19aQWY2TFd6NkhFLUJCLWM5WmdWdV9Odm1rdnpsb25VcTlLMnMxMW9OVEZzbmZVd3ZrcE9Ybm9n?oc=5",
+   "date": "2026-11-24 17:41",
+   "publishedAt": "2026-11-24T17:41:00+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "asus"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "NVIDIA RTX Spark｜128GB 統一記憶體跑本地AI ASUS ProArt GR1X 約 1.1L 機身兼顧創作、Agent 及遊戲 - ezone.hk",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "NVIDIA RTX Spark PCs launch in India from Rs 299399 with up to 128 GB of unified memory - Digit",
+   "source": "Digit",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQOV9rSjljenVvM3lWV3ZoZFBVYnpVcXduLXBnVGlTcUJfSHluSElWcnlNRl9yZmhLVThPank4dlVjel9NYXJNYjJjVUFwandONS1vWW1lRGJ3bklxZFFxTWxJZ2Y1NDJtdVlpUVZCWGw3LUwwNkYtd0d1UFItRkt5WngwdkFYV1BXeU91NHhBc1ZDWEptV3hlcXdaWmJtVVJDek5BRHFySTQyWVk4d1FaNjd3YzRrMEdaT1h3TTRaVzlrQmcya2RxbDhR0gHQAUFVX3lxTE01bzl3MlgwWVpZRmpSaEgyeXNIZkhjWGJ3bnRTWlR1R2xBRGZaUzFqU0pORzNlLUJzQXZYYkZmNUhrM3dPUkVWcVhUNWQ0STNfSjdya1Y5bDRlRVhCakJHOWNyRXR1alhhRVlsS2k2WHRfWmRVaHVwX0N5REFfZUxFS0RpbFp2bHlXWjVDZVp1RkhkSXFuaDVlNFR5alBYVkR3VV9aRGlEY2NCYWhyeWpNVjVobGFRR0FlUEwtbG04cXFubXpPUzBLZTgyX3BkcGs?oc=5",
+   "date": "2026-11-24 13:37",
+   "publishedAt": "2026-11-24T13:37:00+08:00",
+   "summary": "",
+   "models": [
+    "RTX Spark"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 19,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "NVIDIA RTX Spark PCs launch in India from Rs 299399 with up to 128 GB of unified memory - Digit",
+     "summary": ""
     }
    }
   },
@@ -82,7 +453,7 @@
     "asus"
    ],
    "press": false,
-   "heat": 23,
+   "heat": 19,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -113,7 +484,7 @@
     "other"
    ],
    "press": false,
-   "heat": 14,
+   "heat": 10,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -144,7 +515,7 @@
     "other"
    ],
    "press": false,
-   "heat": 22,
+   "heat": 18,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -175,7 +546,7 @@
     "other"
    ],
    "press": false,
-   "heat": 37,
+   "heat": 34,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -187,37 +558,6 @@
    "i18n": {
     "en": {
      "title": "RTX Spark Desktops From $4,399: Specs and Prices - shattered.io",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "NVIDIA Does It: Launching RTX Spark—Is This the Moment to Threaten Apple Silicon on Windows PCs? - آي-فون إسلام",
-   "source": "آي-فون إسلام",
-   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQN2pVaW9vbEM1dEkzYVNncFBJM0RzMkROYzIyYUJlSmp6NXM5Z1B0NTNpcGFueS1XUWE0LVJMRHU5ZURMZ2xKVzhEaFlGMDY3Q2RTb21xN3N1VkNCbDR1Z3RfWC11SkptdF9jMjdEb2ZpcFQ4VThmQzJhSVRWRExYaWxHbEJISjQ4Vnd3aDRVMGt3N2pZdHZRLXVLRWhVVlM4RGxQZnpkSGZia0c4US1pM0F1MVhoc29DbmxVYjJQTVJMMjVGNnRXbjIwQ1BjUjNROFVHMEo2S0VIZEpGQXc?oc=5",
-   "date": "2026-11-24 01:46",
-   "publishedAt": "2026-11-24T01:46:20+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "nvidia"
-   ],
-   "press": false,
-   "heat": 21,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "NVIDIA Does It: Launching RTX Spark—Is This the Moment to Threaten Apple Silicon on Windows PCs? - آي-فون إسلام",
      "summary": ""
     }
    }
@@ -237,7 +577,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 29,
+   "heat": 25,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -269,7 +609,7 @@
     "microsoft"
    ],
    "press": false,
-   "heat": 29,
+   "heat": 25,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -300,11 +640,11 @@
     "lenovo"
    ],
    "press": false,
-   "heat": 20,
+   "heat": 25,
    "image": "",
    "views": 0,
    "comments": 0,
-   "dupes": 1,
+   "dupes": 2,
    "also": [],
    "lines": [],
    "score": null,
@@ -331,7 +671,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 12,
+   "heat": 9,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -362,7 +702,7 @@
     "asus"
    ],
    "press": false,
-   "heat": 28,
+   "heat": 25,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -393,7 +733,7 @@
     "dell"
    ],
    "press": false,
-   "heat": 20,
+   "heat": 16,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -426,7 +766,7 @@
     "lenovo"
    ],
    "press": false,
-   "heat": 12,
+   "heat": 8,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -457,7 +797,7 @@
     "nvidia"
    ],
    "press": false,
-   "heat": 28,
+   "heat": 24,
    "image": "",
    "views": 0,
    "comments": 0,
@@ -474,330 +814,18 @@
    }
   },
   {
-   "title": "NVIDIA RTX Spark laptops gain early retail traction - ChannelLife UK",
-   "source": "ChannelLife UK",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOVExT0xieW5XU1RiYU1UUGtHZVp5SXRZOERfa3RhUTNnWDdWVGZPaGlGNl9jNXI1Wkxmek8xQ1RDdGh1aUZ2anZoY0JOS2Q1QmlUN09femo3QlViSDFzRlhad2wxdVFKLWtnNUpXcFU1LWdDNXk0NFliaXBjTW05TnhfZy1scU5feXlJ?oc=5",
-   "date": "2026-11-23 16:45",
-   "publishedAt": "2026-11-23T16:45:00+08:00",
+   "title": "Microsoft 正式推出 RTX Spark 迷你電腦 配備128GB記憶體及6144個CUDA核心 - GameApps.hk",
+   "source": "GameApps.hk",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNMVVIcTJISWc0WWVPVHl0WFo5STZ3ZW01bWx1T0pYVUJQSGp4ejVPZkhjVFdtYlNWWVoteUZoR2w5c1Q2bkpNeFYzMmRrWVZHYzNRSHJweTYxR0hsczhIaUZHSnFVNzVfNkt4MGdjZXgwUzNFYVlEZ1lzZkhmV09QUlNHRmU?oc=5",
+   "date": "2026-11-23 16:00",
+   "publishedAt": "2026-11-23T16:00:00+08:00",
    "summary": "",
    "models": [
     "RTX Spark"
    ],
    "tag": "產品發表",
    "camps": [
-    "nvidia"
-   ],
-   "press": false,
-   "heat": 12,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "NVIDIA RTX Spark laptops gain early retail traction - ChannelLife UK",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Nvidia Showcases New RTX Spark-Powered Laptops, Mini PCs, and More in India - IGN India",
-   "source": "IGN India",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQW1MNXZuOVNSYWZYV3RyLWY0UDFYSmdmdUVHR05NUE5VdlMybE9YOFhacDFuc0E2REFyZVdxS2taTjRuX1h0bEtSN251VkpLTGJhYWFFX3JyekRXUkItemdRZnpreWRWUHVMZ1hRUE1PVDgta1VVNWRlUS0yUkJpZUFYcHRySk1ucVY0MzkzcWJ6Z2hkTjBrV3FiUHlmbHlSbWg1UldCTQ?oc=5",
-   "date": "2026-11-23 14:26",
-   "publishedAt": "2026-11-23T14:26:07+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "nvidia"
-   ],
-   "press": false,
-   "heat": 19,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Nvidia Showcases New RTX Spark-Powered Laptops, Mini PCs, and More in India - IGN India",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "MSI發表首款搭載NVIDIA RTX Spark筆電 性能特色一次看 - 三立新聞",
-   "source": "三立新聞",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9iZmJLaEpmMWpJQzJ1Rmg4My1VVGdHTWo1Y0JYZ1hPVFotM2ctamVYaGo1YndieXRYUG9vSHJXQlJnWEtZY0FucdIBTEFVX3lxTFBkMlEyU2RIMU9HUFUyMGptU2JkS202c2xEa1IzZGZYSFhYRElmNl9ndE5INWNzTVM3d0tFSTd1Y3JteWdkcER1MV9ReVY?oc=5",
-   "date": "2026-11-23 06:31",
-   "publishedAt": "2026-11-23T06:31:15+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "heat": 18,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "zh",
-   "i18n": {
-    "zh-TW": {
-     "title": "MSI發表首款搭載NVIDIA RTX Spark筆電 性能特色一次看 - 三立新聞",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Asus ProArt GR1X RTX Spark mini PC arrives in Europe with 20-core CPU and up to 128GB RAM - news.lavx.hu",
-   "source": "news.lavx.hu",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQTJUbEJ6RTBsTktDSFZIR0hiTEw5Ympqcko3NVY4aExwdWdUa3RTVFU5OW5fc0N3RXFOaWtKTS1MTjZqd1NBNjYwSjBvTFh2RHZ1NTJkUTZhQXhya2ZZQ0pXQ0hlUjgtVU40SENFRDk1bm1oN0JpdmF0d29lVkFBZzVNdDRxOW9sTWpoMVVnSU9RWTFOV2VNQjVrVlhSbngyQnBGcmhleXppZHgzTHBMSkduWXc2N2UxMEE?oc=5",
-   "date": "2026-11-23 04:56",
-   "publishedAt": "2026-11-23T04:56:10+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "asus"
-   ],
-   "press": false,
-   "heat": 10,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Asus ProArt GR1X RTX Spark mini PC arrives in Europe with 20-core CPU and up to 128GB RAM - news.lavx.hu",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Compact RTX Spark mini PC with 20-core CPU, 128GB RAM, 4TB SSD and 6,144 CUDA cores arrives in Europe - Notebookcheck",
-   "source": "Notebookcheck",
-   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOZnJ4ZnVjZlpKRHJNS3U3Q0ZDb3FFdHFiZjI1VGZNaHNFbkcxVWFJYVhmRWNtNlJUVFhLSmN2LTdNNVpLTl9oXzdHeEcxZmdoX1hudkM1NmY5ZFl3ZXRmUm5PTTZTTEJIWnFLZHRRVXVpWThMOWhlSUJlQVhpbGYyRzBCUnFLRUV3Y1lGMkhhWE5qbFdIZ0gxenhoWVNNZnlDcGxwUTFHLXg1TW1KaUZCLW5NbWhvXzFPUzRrU19kb1dva3NLbmFHLVdWTXRGdHhVWjZOMWpEWG5XeFdG?oc=5",
-   "date": "2026-11-23 04:29",
-   "publishedAt": "2026-11-23T04:29:00+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "heat": 18,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Compact RTX Spark mini PC with 20-core CPU, 128GB RAM, 4TB SSD and 6,144 CUDA cores arrives in Europe - Notebookcheck",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Dell Brings Nvidia RTX Spark With The XPS 16 Creator Edition - BW Businessworld",
-   "source": "BW Businessworld",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRHE3Xy14aGgxTG1CREhOa0VFWmhYTzUyWmNyaDNOWlJmdUhya0FrSkowS1VKVl84RndtSTQ2MEZMeDF1WTl4c1RoMjVKZG5TaWRYMEtDN1EzanJ1SHBtRmtEckFuTGZDeFNxbE13WEc5djRNZkc0QkJNZWRlRGtjRFVvSjUwRlZRZHo2WGNPUlR4d0xTU2Nsc1VUY2VMa0l1WFhTdzlMSQ?oc=5",
-   "date": "2026-11-23 04:07",
-   "publishedAt": "2026-11-23T04:07:05+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "dell"
-   ],
-   "press": false,
-   "heat": 18,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Dell Brings Nvidia RTX Spark With The XPS 16 Creator Edition - BW Businessworld",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "Lenovo Pro 9n review: 18-core RTX Spark in a fancy chassis - Tom's Hardware",
-   "source": "Tom's Hardware",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9hUmxmRlFMQWpsWkZ3RkZyR2I3NXc4aURWUU14MEZkcFhwZVpDdHV6dl9fRGxKRUYtSDBPU2ExaV9seTFxaE9mZDhzMm9fODdFOGN0NVgxX1N3ajQ1SktGWUR1Q2NwQzFZ?oc=5",
-   "date": "2026-11-23 00:00",
-   "publishedAt": "2026-11-23T00:00:00+08:00",
-   "summary": "The Lenovo Pro 9n is a lighter alternative to the Surface Laptop Ultra, offering a vivid OLED panel and lots of ports, though it shares similar weaknesses, like battery life.",
-   "models": [
-    "RTX Spark",
-    "Surface Laptop Ultra"
-   ],
-   "tag": "開箱評測",
-   "camps": [
-    "lenovo",
     "microsoft"
-   ],
-   "press": false,
-   "heat": 41,
-   "image": "https://cdn.mos.cms.futurecdn.net/ZXSfLv5CgGWf6ginq5ZsFA-1920-80.jpg",
-   "views": 0,
-   "comments": 0,
-   "dupes": 4,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "Lenovo Pro 9n review: 18-core RTX Spark in a fancy chassis - Tom's Hardware",
-     "summary": "The Lenovo Pro 9n is a lighter alternative to the Surface Laptop Ultra, offering a vivid OLED panel and lots of ports, though it shares similar weaknesses, like battery life."
-    }
-   }
-  },
-  {
-   "title": "NVIDIA RTX Spark is the next chapter for Windows PCs - 91Mobiles",
-   "source": "91Mobiles",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQV3JrbGRtSFdqN0pvdWF2bV94cEhhVGdpNERaeGVfR1phNmp4eG4yQ3RhbS02Y2JrUkFtQW9SYmstLTBhQUY1U05nbVZCOWViVU5KOXJlOFlraHhqUGV5WWZTUGdlNVdpdnE2MXVfVEZfeUEyRVpNN1VZWHVqRWUzU0Ftb3o2ZUd2YXdr0gGQAUFVX3lxTE5Ua21VUEFyT3VsVEhoLXJxNlBwYzFJY0RCTTBxd1pnY01STW9qZXdKaXduQkktY1BQUW54VFJUM29rbTBRTTNCVVBZejJ2U0NkN1ZpRDY0NzRZbVhUXzAwb01xMXhWTVA5bFFKRFNnOTV6OWdDN1NoOUYwYmVUZHM5NXpvTHVCeXdwMWpuMFA3LQ?oc=5",
-   "date": "2026-11-22 23:29",
-   "publishedAt": "2026-11-22T23:29:25+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "nvidia"
-   ],
-   "press": false,
-   "heat": 17,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "NVIDIA RTX Spark is the next chapter for Windows PCs - 91Mobiles",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "The HP OmniBook Ultra 16 is a performance-first laptop powered by NVIDIA RTX Spark™ - Tom's Guide",
-   "source": "Tom's Guide",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeU51cnVNYi01aFVjUFloRUdPV21EZGU1VW4taU9mYVZ2VFA1U25UUkxVQ1NfUFY1S2RTNi1laTJCYXdlekxXN1Aya0VDSGU0ZVRVRG5YSmVTeFk4SXRQbDV1WWhoV2tWLWFZR2dTZTdzNTFOb1ZzVlpZZ1pVdmhyb0pISW9wVGNJd09MMjNRU05SeVVZcF82NQ?oc=5",
-   "date": "2026-11-22 22:08",
-   "publishedAt": "2026-11-22T22:08:36+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "hp"
-   ],
-   "press": false,
-   "heat": 17,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 1,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "The HP OmniBook Ultra 16 is a performance-first laptop powered by NVIDIA RTX Spark™ - Tom's Guide",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "MECHREVO launches 1.25-liter RTX Spark mini PC with 140W power limit, starting at $4,950 - VideoCardz.com",
-   "source": "VideoCardz.com",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTkNmQ3VJSTZZcnprZUJsdnVBV3ZpMElzS3BQWGJKalBmUnI5alhydkF0ZHROLVlvZ1YtUFVhdlFUNXNNVkt4NHNfNFRDV2VNdVFLWEhsQ0NNekwzUldTbDRuQzNoYUtWeEU4SGxsZzNBalAzbUR0NHR0ZjRDOElFOFRaTTdxdWZ3cER0emlPU2Q4UDhhcHpubm15OHl1aC1SZkVqc0NIcHJjdnVlQlRjV3ZkNA?oc=5",
-   "date": "2026-11-22 21:32",
-   "publishedAt": "2026-11-22T21:32:57+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "other"
-   ],
-   "press": false,
-   "heat": 9,
-   "image": "",
-   "views": 0,
-   "comments": 0,
-   "dupes": 0,
-   "also": [],
-   "lines": [],
-   "score": null,
-   "lang": "en",
-   "i18n": {
-    "en": {
-     "title": "MECHREVO launches 1.25-liter RTX Spark mini PC with 140W power limit, starting at $4,950 - VideoCardz.com",
-     "summary": ""
-    }
-   }
-  },
-  {
-   "title": "NVIDIA RTX Spark Laptops in India Start at ₹2,99,399 - Gogi Tech",
-   "source": "Gogi Tech",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9valhQYU1ab19YOVhWVFpwTVFIam85bVkwRHF2ODZ2MWFjNkluR3pzajZkNzlHdGY5VGh6eC1KN1NSVUxxRG13eEJYQUxJdXhINHJEWXZZRHQ1X0p3RUYydDNNQ0tweU5kNUI3Q2ln0gFzQVVfeXFMTWE5SEZBcW44QmR4a1o0SXhmUGVRZFRhTFg2bTVwcGgyM1NUcWFSSjRJWU85MEFEOVRpNENFM0hoeUZic3k5SUlaUGppdlJLLTlXQW9YNU96aE9UN2tyQ1kzU09NR3Y0ejFwNkVMenFJTk0wbw?oc=5",
-   "date": "2026-11-22 16:45",
-   "publishedAt": "2026-11-22T16:45:43+08:00",
-   "summary": "",
-   "models": [
-    "RTX Spark"
-   ],
-   "tag": "產品發表",
-   "camps": [
-    "nvidia"
    ],
    "press": false,
    "heat": 16,
@@ -808,10 +836,10 @@
    "also": [],
    "lines": [],
    "score": null,
-   "lang": "en",
+   "lang": "zh",
    "i18n": {
-    "en": {
-     "title": "NVIDIA RTX Spark Laptops in India Start at ₹2,99,399 - Gogi Tech",
+    "zh-TW": {
+     "title": "Microsoft 正式推出 RTX Spark 迷你電腦 配備128GB記憶體及6144個CUDA核心 - GameApps.hk",
      "summary": ""
     }
    }
