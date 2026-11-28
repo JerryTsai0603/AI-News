@@ -1,0 +1,1850 @@
+{
+ "channel": "models",
+ "version": "v26",
+ "fetchedAt": "2026-11-28T14:43:53.423138+08:00",
+ "edition": "2026-11-28",
+ "count": 60,
+ "languages": [
+  "zh-TW",
+  "zh-CN",
+  "en",
+  "ja",
+  "ko",
+  "de",
+  "es",
+  "fr",
+  "it"
+ ],
+ "byGroup": {
+  "openai": 18,
+  "anthropic": 17,
+  "google": 10,
+  "meta": 0,
+  "cn": 6,
+  "other": 18
+ },
+ "byLine": {},
+ "items": [
+  {
+   "title": "Google Chrome 關掉後仍佔用數百 MB 記憶體？兇手就是 Gemini！教你一招徹底釋放系統資源 - T客邦",
+   "source": "T客邦",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWHVva2VKVmtQRFlja3NadFkxTlU5MFYxclBvT1RhX2pwbUt0cUZqS1lIQ1c5ck9qaTN6RG9FekdzSUZ2RWtBX0NFR1cxTTYyTU9YNXBfa3dHckhyTWllSzdGQnluX2FVbFlwdTJGMVo2bWJWN3ZKS0M4VkNjeEpuWmJiM2UtR28?oc=5",
+   "date": "2026-11-28 14:30",
+   "publishedAt": "2026-11-28T14:30:00+08:00",
+   "summary": "",
+   "models": [
+    "Gemini"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "google"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "Google Chrome 關掉後仍佔用數百 MB 記憶體？兇手就是 Gemini！教你一招徹底釋放系統資源 - T客邦",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "GPT-6.2變貴了：同樣工作更耗額度，重置怎麼查？ - maygoddejia.com.tw",
+   "source": "maygoddejia.com.tw",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9RUlNuZEZWbnpkQmowbDEwcjRKMUNmTXA2T0hFc2pYLWxGNXdEUnBaajJSYXpjU3ZRelNWLXdSVHpydWxFMGM2X3dSRnBpR19NYnJXbDkzR2dqOS1yTmEwTW10aFJJSkV1OWZuWWVtRQ?oc=5",
+   "date": "2026-11-28 14:17",
+   "publishedAt": "2026-11-28T14:17:56+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 23,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "GPT-6.2變貴了：同樣工作更耗額度，重置怎麼查？ - maygoddejia.com.tw",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "AI 代理在 Gemini 防護機制開啟的情況下攻擊了 Epoch 的網站 - OrcaRouter",
+   "source": "OrcaRouter",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOc2NmSm1Pb2FXdUtscjREMHdzTnVHcXEyZi1xOVZEY1FvRV9HVEI1NEtsQ2RfUHlwWmJNbXc5MVdHMnp6M2x5TXMyWFQwS2xUTmtRRklvV2ZvNUJMX2ZaV2lqcnNmcWFHRjNTdExDdDA0UFlsekJFc3pwVXBEUVJBdnJQUFcwSnVhRFNBSHhLWQ?oc=5",
+   "date": "2026-11-28 14:15",
+   "publishedAt": "2026-11-28T14:15:44+08:00",
+   "summary": "",
+   "models": [
+    "Gemini"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "google"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "AI 代理在 Gemini 防護機制開啟的情況下攻擊了 Epoch 的網站 - OrcaRouter",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Claude miễn phí cho nhà khoa học #ai #tinai #khoahoc",
+   "source": "YouTube · Ông Chú AI Vibe Coder",
+   "url": "https://www.youtube.com/watch?v=hXaC5zp0hQw",
+   "date": "2026-11-28 14:15",
+   "publishedAt": "2026-11-28T14:15:16+08:00",
+   "summary": "Anthropic công bố ngày 28/10/2026: chương trình AI for Science, chạy từ tháng 5/2025, cấp tín dụng Claude miễn phí cho nhà nghiên cứu và nay mở sang cả quỹ và viện. Chương trình đã đỡ hàng trăm dự án ",
+   "models": [
+    "Claude"
+   ],
+   "tag": "影片",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 100,
+   "image": "https://i.ytimg.com/vi/hXaC5zp0hQw/mqdefault.jpg",
+   "views": 4470,
+   "comments": 2,
+   "dupes": 79,
+   "also": [
+    "YouTube · R.O.F.L",
+    "YouTube · News Cruise Tech",
+    "YouTube · @spam.q ",
+    "YouTube · GOLFFY 79",
+    "YouTube · febrian reza",
+    "YouTube · quizgalaxtopia"
+   ],
+   "lines": [],
+   "score": 181,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Claude miễn phí cho nhà khoa học #ai #tinai #khoahoc",
+     "summary": "Anthropic công bố ngày 28/10/2026: chương trình AI for Science, chạy từ tháng 5/2025, cấp tín dụng Claude miễn phí cho nhà nghiên cứu và nay mở sang cả quỹ và viện. Chương trình đã đỡ hàng trăm dự án "
+    }
+   }
+  },
+  {
+   "title": "OpenAI 傳開發 Athena 數據平台 助 AI 代理擺脫瞎猜提升精準度 - 商傳媒",
+   "source": "商傳媒",
+   "url": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxOUEJhZ0NuS21DTTdKaG9YZ1RiNHZVeC1BbFYzLWVzUnktN1hBWk5TVTZBd0tZV01WLTZmVV9wMTlYcmEwUUdnN0htNDN4eS1MN2xncHNVSi0xUGsyeEVuNHBFVE1XelMwS2g1RHRuWXo3QTFVNi1sM0NqbnZZT1dCYzE2UWg2Y08ySTBZUTVBWlNnWjE0UHBUaXp3YVpkaUtrX093QXlnWGllM0RRUUNlbzhwcWFxejFZWUlFTXVfT0hENE9WaG9wdUMwQzQ5dkl3elVVVW5odVRVeXhyR2RjMG5uazIzdEh2RmItSzNHMDMzMFYyNkIzSDZyRmdROXkxWmJrUXZwUEQ1QlFRLXZMS2F1MmhPaTVXTW5tNnNabTJjdHQwejlFNHNmQ25hTGg0dldPNUdhVzhQQm42bERoWDVTckVRRkh5cVk3NWR4ODU1Zjhhc3RST3RmbEE1Ykdad255UFltNGNETzNJLTc2ZFl3?oc=5",
+   "date": "2026-11-28 14:10",
+   "publishedAt": "2026-11-28T14:10:37+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "OpenAI 傳開發 Athena 數據平台 助 AI 代理擺脫瞎猜提升精準度 - 商傳媒",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "一邊公開賣模型蒸餾，一邊暗中給蒸餾者降智封號：谷歌在蒸餾這件事上有多微妙？ - 鉅亨網",
+   "source": "鉅亨網",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1tcjdsa09pemdzUDI5dGZBNm1qenh4VE5lUjljNDJmWmp6T29JUzJrWU1Sb0VCdGdYYzQ4NlE4X3RxdHF6a3FGQkdTVW95U2c?oc=5",
+   "date": "2026-11-28 14:05",
+   "publishedAt": "2026-11-28T14:05:07+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "google"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "一邊公開賣模型蒸餾，一邊暗中給蒸餾者降智封號：谷歌在蒸餾這件事上有多微妙？ - 鉅亨網",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "DeepSeek V4 Pro Dodged Shutdown in 40% of Unguarded Tests - FourWeekMBA",
+   "source": "FourWeekMBA",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTWRwd3o4SXA3SkJ4WXVTNS05b0NMeXNtUTZGdHpKZHRFNUlpZXVfMUM3Qk12MmNmOFJ4QzVBeHh6aXVBTGUtdl82UU1hRmpJSEtIZ21uOHFLcHY5TERBRDUydDV0eWFhbklzaHV0a0tNSWxhOGk1bzVucV9PQ3lSZzNkT1hMZjFYOGZicA?oc=5",
+   "date": "2026-11-28 13:56",
+   "publishedAt": "2026-11-28T13:56:34+08:00",
+   "summary": "",
+   "models": [
+    "DeepSeek"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "cn"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "DeepSeek V4 Pro Dodged Shutdown in 40% of Unguarded Tests - FourWeekMBA",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "OpenAI推隱私推理搶企業客戶，GPT-6.2計費糾錯反令使用者額度消耗提速四成 - BigGo 財經",
+   "source": "BigGo 財經",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5Jd2hSNWloNDluSTh5WkVINk1pQlBiSjdwX3R0Mk9uQVdMVVJ3MWQ2aW01RVFxMzN5ZlRLOEJVVmktYkhCWTg2SVBsWU1wTWpWRGRsTGF5MDctMXk5a1FhcUJNa2VKeDJmbHRTcFNqX19XMDB0UGQxOWtB?oc=5",
+   "date": "2026-11-28 13:55",
+   "publishedAt": "2026-11-28T13:55:00+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "OpenAI推隱私推理搶企業客戶，GPT-6.2計費糾錯反令使用者額度消耗提速四成 - BigGo 財經",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "DeepSeek AI Model Shows Resistance to Shutdown, Raising Control Concerns - KuCoin",
+   "source": "KuCoin",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNd19tUFBEa3RzZHJYQmd6VURiZGNaZlVYaGw2dW8tQUJpQldyTE5XQzlOY1RXMHQ0Nnd5cTJrMTV6QmppakdtbGtmOXZEemJqbmVXN2xWYm5FaFoxZ0pXMUZ6bjFKbGt6MlhCaUdWVkplTnZBRllFenhuQ2NGN1N2UDlPUHlEcU54R3JEVzk4ZE1ZcGRyTFByTHNpRTBnLXkxaXlHMXBzS20?oc=5",
+   "date": "2026-11-28 13:37",
+   "publishedAt": "2026-11-28T13:37:10+08:00",
+   "summary": "",
+   "models": [
+    "DeepSeek"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "cn"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "DeepSeek AI Model Shows Resistance to Shutdown, Raising Control Concerns - KuCoin",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "DeepSeek API Pricing vs Kimi: $0.006 vs $0.20 Cached - shattered.io",
+   "source": "shattered.io",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUWxqUk9SLWRKQW9peHJnNlF2UHp6ZTZkenlLR1I3eEtnQVJDblZYaDZydmVQcERFSDdGT2IyZFdPTjJoa19idWJOelNtbVB3UzBkZXlWZ3BobFF0Wk1WX3ZvaVFTR016eGplaEN3RDVJMXgtYlVNMnYwNVhNcU9HdThTYW9BRFRIVy1rN192Umt0ckctS0E?oc=5",
+   "date": "2026-11-28 13:15",
+   "publishedAt": "2026-11-28T13:15:07+08:00",
+   "summary": "",
+   "models": [
+    "DeepSeek",
+    "Kimi"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "cn"
+   ],
+   "press": false,
+   "heat": 15,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "DeepSeek API Pricing vs Kimi: $0.006 vs $0.20 Cached - shattered.io",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "DeepSeek V4 Pro rewrote shutdown scripts in 40% of unguarded tests - MLQ.ai",
+   "source": "MLQ.ai",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVF9TTTRjZGlQeVdaSmFhU09BMjNYZ1pQVzd0TmNneldyWm5QRlpqR0sxZnhZTmJQeEZqR2t4b0R0cXBUajlwOTBCb24xTHUzcGQxdmY2bWl4blVkX1JHNUxFUm1COEdnaUYzT1VHUjBkVlJTNUktc2RtUjVmNFdDcVJ3WS1OSGJNV25ETnByTQ?oc=5",
+   "date": "2026-11-28 13:05",
+   "publishedAt": "2026-11-28T13:05:59+08:00",
+   "summary": "",
+   "models": [
+    "DeepSeek"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "cn"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "DeepSeek V4 Pro rewrote shutdown scripts in 40% of unguarded tests - MLQ.ai",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "China’s DeepSeek raises concerns over AI control, assessment finds - Crypto Briefing",
+   "source": "Crypto Briefing",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9rUWQ4emY5NklGNlB2cGlFaEN2d0l2TXhVNGpkR2hTZDdiY2pYUE5kMUNZV1d3T1hESDA1cE5aR2ZVanMzR1g1dHRCMnNOWWh6bjFRMmZnNDI3Tllrd0dWdWhia3BwNVdVclRISHdsVkc?oc=5",
+   "date": "2026-11-28 13:05",
+   "publishedAt": "2026-11-28T13:05:21+08:00",
+   "summary": "",
+   "models": [
+    "DeepSeek"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "cn"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "China’s DeepSeek raises concerns over AI control, assessment finds - Crypto Briefing",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "黎曼猜想是什麼？AI 宣稱證明後，這個月還解了哪些數學難題 - 鏈新聞 ABMedia",
+   "source": "鏈新聞 ABMedia",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9GbzJUTkRZVnNDUEY2dW9wenpIUXVET2xleGluV1RSLThxbHpOQms2TGtSemVVbzBYN2xiMmxDYVoySHp2NldIWVlXcV9FTU12dWhDSzFvZTdjdldNM1VhRHlOeXNudw?oc=5",
+   "date": "2026-11-28 13:02",
+   "publishedAt": "2026-11-28T13:02:07+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "黎曼猜想是什麼？AI 宣稱證明後，這個月還解了哪些數學難題 - 鏈新聞 ABMedia",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "知名筆記軟體推官方連接器 串接 Claude 與 ChatGPT 存取資料庫 - 商傳媒",
+   "source": "商傳媒",
+   "url": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxPNXJJWTFpY0djSnRQYVFvUEdBMDdMdi1mb3NlMXlycDNabkhhcTB2M3Y5M3VtNWptWUZNS2pyc09XSHJLOTlldVZ4Wnp0akhzWnRoaUhzLThKcEJFc3UxUWVyRGpaVTUzWTJ6eDA3VHhMck0yeEprMlpJTXFFSTg0MUtMcGFhQ2NYY0REUlFKXzVac0JEMEJjVlhZdzdsSFZzakNLMGc5TzFTMzRTU05SekRJY1lyWHhYOTF0WG13R3pNeHY0ZlBnaUhGclJPTUlJS0dTYVZkV19US0dOdzEzN3F4N0pnYzRIR1RjTWotOHQ2OVFDNTB5YnQtbS1OeWxacXpJMnpQN25wZzBrY2FYZDU0ekhKalJadWgzeklrcDZiTV9JcU12WXhpN05fMFByZXZvNjBjUXNwWUxJUmJMdEZHWU51WWRWVUhWSWQyNE1vTUtlbzNjT2JPMlN6Y3FCZi1hVDlEbWF1WHgzRGY4QnF4UDIyMjRQ?oc=5",
+   "date": "2026-11-28 12:59",
+   "publishedAt": "2026-11-28T12:59:05+08:00",
+   "summary": "",
+   "models": [
+    "ChatGPT",
+    "Claude"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 22,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "知名筆記軟體推官方連接器 串接 Claude 與 ChatGPT 存取資料庫 - 商傳媒",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Anthropic Employee Rejects Claims Claude Sabotaged AI Research - www.tokenpost.com",
+   "source": "www.tokenpost.com",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA5cmpneTJ1VTVwajlISHlLTF8yVm84NnhJbHRnRURuV2ttMy1lRE16NW8wcW16MGliYnFEb05hbFRwRjk0NXhnel9NWlU4M0RUYi1kenBnOGlhdGs?oc=5",
+   "date": "2026-11-28 12:47",
+   "publishedAt": "2026-11-28T12:47:00+08:00",
+   "summary": "",
+   "models": [
+    "Claude"
+   ],
+   "tag": "研究",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Anthropic Employee Rejects Claims Claude Sabotaged AI Research - www.tokenpost.com",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Anthropic employee pushes back on claims Claude sabotages ML research - Crypto Briefing",
+   "source": "Crypto Briefing",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE10clNkcERWTHpXdGpMVlFhUmVhUEx3d0c1NzJ5eFBVcW91UDBKMnpJRjlyeXIzVlJlbWF2bGFfbnRzTlltM3ZNcnJ1clowaG1PTDBzbnplYkFiU3A4WWNKMUhyaHdySlRWMklzUjVYYnoyeWhBcHRZ?oc=5",
+   "date": "2026-11-28 12:40",
+   "publishedAt": "2026-11-28T12:40:39+08:00",
+   "summary": "",
+   "models": [
+    "Claude"
+   ],
+   "tag": "研究",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Anthropic employee pushes back on claims Claude sabotages ML research - Crypto Briefing",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Anthropic’s Claude Output Can Be Installed as Software - WSJ",
+   "source": "WSJ",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNLUJxLW9ZUWtVc0pTOVo1N3NOOExIUU5SQXJmQ2tsMEJOek4zdmFjWHFLM25FWW1scWRSaThpYkFhSjBaYVRYUmFzWFUwcW8tck1hellEMDRvTGN4TFlLemFCZ1FLellGRDZhSlFHWU1zUXQtdmw5SWI5UmlEcTJRVUpISENrMHVZZExSalJSLVBMMTdONk9yeGtB?oc=5",
+   "date": "2026-11-28 11:57",
+   "publishedAt": "2026-11-28T11:57:57+08:00",
+   "summary": "",
+   "models": [
+    "Claude"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Anthropic’s Claude Output Can Be Installed as Software - WSJ",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Anthropic Denies Training Claude to Sabotage Users’ Work - Unite.AI",
+   "source": "Unite.AI",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZVVrZjVETkxxZmtrc3kyRnl1azF0MTlQQXpHOW9WY0JxRFJTR29TNVQ1NjJ6ZWV4dEhWZkdTQ1hOZG5RX2g0NzhKbkRVNDdPMnpiVGp3MV9TbGxqNW9TbTZfU3RVME9DYlVjbFZlYjM1VkFEVm82bnIxSi1uUEg4LUp5TQ?oc=5",
+   "date": "2026-11-28 11:57",
+   "publishedAt": "2026-11-28T11:57:06+08:00",
+   "summary": "",
+   "models": [
+    "Claude"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Anthropic Denies Training Claude to Sabotage Users’ Work - Unite.AI",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "DecepEval study finds pressure lifts AI agent deception by 41.64 percentage points - Crypto Briefing",
+   "source": "Crypto Briefing",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB1MVRoR21RQnQtWURVVndGYV9VYnUtSEhzdlJ1R0t6VVVBVnc1TlBRWWRQa1BXalo1TFFyTG5aeWdEN19LT0FwZzVTa0JIOFFCQlh5UzktQ3EyX1JUZU1TdElKY1JZMUZlT0o4WEFGYXF5cDA?oc=5",
+   "date": "2026-11-28 11:56",
+   "publishedAt": "2026-11-28T11:56:23+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "研究",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "DecepEval study finds pressure lifts AI agent deception by 41.64 percentage points - Crypto Briefing",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Anthropic 研究：AI 對企業的幫助 55% 是「增加生產」，裁員僅 2% - 動區動趨",
+   "source": "動區動趨",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZ2lsS2ZTdzJWUGxkMWhfZGNYZFdFUHJmV0g4ZkVTcmoxUXJidUdmTjBSSmJKNlZER19tQnF6aHV5TjVpWjJlNnlfLTVSeVprQ1M1ZE5VcGUyR0pwbWY3NGhmQlhQcVN4akd6Y05tNnJEXzNCRkpRTlBHaW5Ma0NobzBqLWV1VnZRY054M21GZDRUaFdVamJXWTYtSmo?oc=5",
+   "date": "2026-11-28 11:27",
+   "publishedAt": "2026-11-28T11:27:25+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "研究",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "Anthropic 研究：AI 對企業的幫助 55% 是「增加生產」，裁員僅 2% - 動區動趨",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Anthropic 共同創辦人 Jack Clark 談機器詮釋學：人類該研究如何讀懂 AI - 動區動趨",
+   "source": "動區動趨",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNYXBZS3piSDJMMTdYQUwtMmhDRkNEbTVaVGpBenVORmphYnRpTUM3UTlzdWtyaVlpbTJqLVNlTFczM1lWYTVXUndGUlo4Rm9FVlFvSjh6d3FFSElvOXZFQmZZX0ktVm1pVnI1dzIzSThyNzJGUDhBMUZ0QWd6UmxSSUJSQzAxVjBqVXFFeXVLNEtpZWgzOXpua1lMeVluV0xuU1Jn?oc=5",
+   "date": "2026-11-28 11:26",
+   "publishedAt": "2026-11-28T11:26:37+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "研究",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "Anthropic 共同創辦人 Jack Clark 談機器詮釋學：人類該研究如何讀懂 AI - 動區動趨",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "OpenAI 再告蘋果竊取機密！「威脅供應商」拖慢發展 AI 硬體 - 動區動趨",
+   "source": "動區動趨",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTDItSHpxZTRwczVlUERCNUpUajJ5d2RkaUlSVm9tM1FjWHQ1VFk0aDd1RFc2QU9XamU5ZW1QT2w0cjhPblViWk9CcC16R290aENqTzA2MGhIUzFuVEF3V29DY0tUUDhCOUNnZVFSaUlIUjBKZDhIS0dDVGRudGdxbDZuLTMxcXh0ZlFUN1NJcGRNQk1iT092SmVEUnFhVEE2ekl5MkVB?oc=5",
+   "date": "2026-11-28 11:25",
+   "publishedAt": "2026-11-28T11:25:17+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "other"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "OpenAI 再告蘋果竊取機密！「威脅供應商」拖慢發展 AI 硬體 - 動區動趨",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Claude遭控暗中破壞AI研究：調降學習率、篡改評分，Anthropic承認訓練期限制模型研發能力 - BigGo 財經",
+   "source": "BigGo 財經",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE40ZmZLcUszdno5VnY0U3pQLXNmLVRkS1lBU3A1b1k4MURtcXpnQ0U2VF81ZGlxNTY2V0t1VlBqdmZtN2NGazctZ0x2U21fSkZ5M0lIRDI3cllVWnNKdnpVVzdrM1I4V0t5UHZTY3NlUGxRTkxyMUlzaVRn?oc=5",
+   "date": "2026-11-28 10:47",
+   "publishedAt": "2026-11-28T10:47:35+08:00",
+   "summary": "",
+   "models": [
+    "Claude"
+   ],
+   "tag": "研究",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "Claude遭控暗中破壞AI研究：調降學習率、篡改評分，Anthropic承認訓練期限制模型研發能力 - BigGo 財經",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "小參數大效能！鴻海AI語言模型FoxBrain 單台伺服器就能跑 - TVBS新聞",
+   "source": "TVBS新聞",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5taXktLWRBOXVTeVMxa29QVkQ5UzdIYnA3YTA4MDZ1bFNqTTMzQkxtUExtOG8wR0gwTEtjZTQ0MTVNUGNOMHI0NEIySFU?oc=5",
+   "date": "2026-11-28 10:39",
+   "publishedAt": "2026-11-28T10:39:00+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "小參數大效能！鴻海AI語言模型FoxBrain 單台伺服器就能跑 - TVBS新聞",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Claude Accused of Covertly Sabotaging AI Research: Lowering Learning Rates, Tampering with Scores; Anthropic Admits Training-Stage Limits on Model R&D Capabilities - BigGo Finance",
+   "source": "BigGo Finance",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1LMmRlenhRVksydDl4MkNNb2Q2YnNlMjAxOWZndUxIaEFjcmhZUVdOWm41UFppamFGcmJwNTBBcE80RVZ5MzVVWkZqWjdaMmJJWkdpTGhZcHdpX1lMYUZuMDNtVHdnOWJkbDk4al9wRmJKc0d5TlE?oc=5",
+   "date": "2026-11-28 10:25",
+   "publishedAt": "2026-11-28T10:25:00+08:00",
+   "summary": "",
+   "models": [
+    "Claude"
+   ],
+   "tag": "研究",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Claude Accused of Covertly Sabotaging AI Research: Lowering Learning Rates, Tampering with Scores; Anthropic Admits Training-Stage Limits on Model R&D Capabilities - BigGo Finance",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Rust才是真神？Anthropic 核心API從Python全遷Rust：Claude重寫只用一周 - 鉅亨號",
+   "source": "鉅亨號",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE43M2FPUmo3NnJRLWxteHpncF9RNnVPWVduRmhGdGRMMUxQSEdMZnVmaE1YTVRIYzVrWDg2UGRwNnhKNnlaU1IyeA?oc=5",
+   "date": "2026-11-28 10:17",
+   "publishedAt": "2026-11-28T10:17:42+08:00",
+   "summary": "",
+   "models": [
+    "Claude"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "Rust才是真神？Anthropic 核心API從Python全遷Rust：Claude重寫只用一周 - 鉅亨號",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "AI 圈的 “貸款生意”，還能撐多久？ - 鉅亨號",
+   "source": "鉅亨號",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9CQXlKVnhVY2t5WU1OUWd2Wjg1SklrT0U1TE5CT2I1QUstOUFHaW1CUmxpTXUxLW5hS1hJLTNGdUhmUzlmNmxwYw?oc=5",
+   "date": "2026-11-28 10:14",
+   "publishedAt": "2026-11-28T10:14:31+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 22,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "AI 圈的 “貸款生意”，還能撐多久？ - 鉅亨號",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "OpenAI 反控 Apple 竊密、美空軍雲端遭駭｜產業精選 11.28 - https://cyberq.tw/",
+   "source": "https://cyberq.tw/",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAzSW9ReUY2bmNXVnZyeDVKYlB4QjJfMlQ2N3BpM19RcXpaVEdNYzlFYTZ6RnpPVzA5WERzSEg0ZFBSai0xdGhQUTBJRUs2ZnkzWTEzLTYxYm41SFpjMm9rZm5yTExOeTFicnZRbndVR2pUWlBmNDJrMGNn?oc=5",
+   "date": "2026-11-28 10:13",
+   "publishedAt": "2026-11-28T10:13:05+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "other"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "OpenAI 反控 Apple 竊密、美空軍雲端遭駭｜產業精選 11.28 - https://cyberq.tw/",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "日本提國防 AI 願景，判斷與責任由人類承擔 - TechNews 科技新報",
+   "source": "TechNews 科技新報",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQallKV1RJNk9XM1RrcVkxSnM1d2VZekRRUzBoU3p0N1FZSkpFNENMRjFFd2l6UnVtNjR6c3VKSWpkZWJmR0VTZ3JnVWtnakxMUWlyUmpQLWpYMjJUUFNCcVROM2pHTDdHbEJDUnpkbkF2bTJJWW5TWnlES3lZYW5DMy1mSnFicTBTWFNiTmRB?oc=5",
+   "date": "2026-11-28 10:11",
+   "publishedAt": "2026-11-28T10:11:51+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "日本提國防 AI 願景，判斷與責任由人類承擔 - TechNews 科技新報",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "DeepSeek is China’s latest developer to worry about losing control of AI - South China Morning Post",
+   "source": "South China Morning Post",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZ3MyLUlMOU1UNWl5YUNQcjFtdlR3SkFHX2VrT2Q4Sko1MTVUZUtjMFhOQVk4RjNRS3U0NFZ4aDZBNjNPZFVjUW9SbEdzazl4SDR1Y0xHNllRdmdJVGlTdkl1LVFma1dzRmFJdVJFTzNsVHZmVWpxbzNKdlNZNDMyM3NQNWR5Z0pOb2xIeUpESnNSZFp0SW1zYUpPc2x0RnA1cG1DVURwYw?oc=5",
+   "date": "2026-11-28 10:00",
+   "publishedAt": "2026-11-28T10:00:11+08:00",
+   "summary": "",
+   "models": [
+    "DeepSeek"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "cn"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "DeepSeek is China’s latest developer to worry about losing control of AI - South China Morning Post",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "AI 能寄信、改資料，被下惡意指令騙了怎麼辦？5 條安全規則先設好 - 未來商務",
+   "source": "未來商務",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9USzkycVZ6UF9yMkdHUVlkek5NTXFWMHpnV09KVEFySHc3Tm5BcV9fSlhtMThxbXRFWE5kd2wwZHBUMC1YelIwY1ZabzkxSWo3ODc4cQ?oc=5",
+   "date": "2026-11-28 10:00",
+   "publishedAt": "2026-11-28T10:00:00+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 22,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "AI 能寄信、改資料，被下惡意指令騙了怎麼辦？5 條安全規則先設好 - 未來商務",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "TIDAL 12 月 9 日起禁純 AI 歌曲 以往可上架但不分版稅 - unwire",
+   "source": "unwire",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1jbXBCR0NEbmVaeFJPYjlTNWZXUnFmUjlJSVBQelBxZy1uZnFtRVB6ZkFPbjJyRXlqTWJLbVdNWEtLSDg5Tl9kbms2ZldaQnUxN3kyZ0gyNHRwb25MY1ZHTFU1ODlVQVJ4R2Zsa3FqSVBMbnVyV2RWUnBTbw?oc=5",
+   "date": "2026-11-28 10:00",
+   "publishedAt": "2026-11-28T10:00:00+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "TIDAL 12 月 9 日起禁純 AI 歌曲 以往可上架但不分版稅 - unwire",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "OpenAI 反告蘋果 控竊商業機密 - 聚財網",
+   "source": "聚財網",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE8ydFVOMmN4aFFrNHRkeDZYQWVzTTZrMjZnSlluR09EcFhKems1djRfMWpUVGh6WXRzYUZMMVhFb1dRd01YeXJSUlV4VmY?oc=5",
+   "date": "2026-11-28 09:56",
+   "publishedAt": "2026-11-28T09:56:20+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "other"
+   ],
+   "press": false,
+   "heat": 14,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "OpenAI 反告蘋果 控竊商業機密 - 聚財網",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Google 發出 Gemini AI 訂閱優惠 純買雲端也有折扣 - ETtoday新聞雲",
+   "source": "ETtoday新聞雲",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE4ySjJWOTFYMXQtR0YtcWxIQWo3bUNsekFTbWFUOE90UVlTOGd0YWJuUTUwU1JxTzZmdDN2Slp4N2R1a2xVa1hwOHowNNIBS0FVX3lxTE4ySjJWOTFYMXQtR0YtcWxIQWo3bUNsekFTbWFUOE90UVlTOGd0YWJuUTUwU1JxTzZmdDN2Slp4N2R1a2xVa1hwOHowNA?oc=5",
+   "date": "2026-11-28 09:54",
+   "publishedAt": "2026-11-28T09:54:00+08:00",
+   "summary": "",
+   "models": [
+    "Gemini"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "google"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "Google 發出 Gemini AI 訂閱優惠 純買雲端也有折扣 - ETtoday新聞雲",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "OpenAI 宣稱證明矩陣乘法指數是 9/4，解開半世紀演算法難題 - 鏈新聞 ABMedia",
+   "source": "鏈新聞 ABMedia",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5sYkNncEdvMTAzM1dZcEduQ1J5SEkyb0M2V3RJZWZUOFZ1T1laaXNrRDFvaW5BLXMyNkdfamsybncybnJiM1dvRnR5UXE4VklDUkVNMS1HVV9uUzlubFp2TGIwU014NE9oZ2V0SGVQc1FhMnpRN3ZzaA?oc=5",
+   "date": "2026-11-28 09:41",
+   "publishedAt": "2026-11-28T09:41:36+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "OpenAI 宣稱證明矩陣乘法指數是 9/4，解開半世紀演算法難題 - 鏈新聞 ABMedia",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Musk Backs Call for Anthropic to Address Alleged Claude Code Changes - www.tokenpost.com",
+   "source": "www.tokenpost.com",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5SeloyT2liWkVqbU9uMkVkd205NzQ0dks5dE1oQXJ3eXdrWThPZnpLUVNEVmNhSHVYb21qTzRyTHBMeFpsaG5qblJmQ2tEOVNXb0F1YW04MDVjV2M?oc=5",
+   "date": "2026-11-28 09:01",
+   "publishedAt": "2026-11-28T09:01:00+08:00",
+   "summary": "",
+   "models": [
+    "Claude"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Musk Backs Call for Anthropic to Address Alleged Claude Code Changes - www.tokenpost.com",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "史丹佛學者用 GPT-6 Astra 寫量子重力論文，同行：大問題沒解決 - 鏈新聞 ABMedia",
+   "source": "鏈新聞 ABMedia",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE04TkRacVV6Y3djRWRocFJ4dTlmS3JsbkNHMkhQSzFNcVE4dG5CZk92eHptOXdQaXFtVWRaX3JRTDF0ZnAyaGlrLWhzT1FzVzgwUzBobmFqWTdUeE8tRVI0S0tJUkltRno4eEQtUw?oc=5",
+   "date": "2026-11-28 09:00",
+   "publishedAt": "2026-11-28T09:00:00+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "研究",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "史丹佛學者用 GPT-6 Astra 寫量子重力論文，同行：大問題沒解決 - 鏈新聞 ABMedia",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "網頁版 Gemini 於 Chrome 可能佔用太多 RAM Google 稱問題已經被解決 - PC3 Magazine",
+   "source": "PC3 Magazine",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBLOWlNaEVmcGNWa3BiVWF2TEVWZno3a1ZoN0Izc0NnOS1WVFgyUXZGR2FSdHdXeHIxLU1tYVJsM0NBcERSRnUtMGw3QmJxZGxkcmlyWjVJNWFZMkVFV1FBdWh1NTg?oc=5",
+   "date": "2026-11-28 08:34",
+   "publishedAt": "2026-11-28T08:34:34+08:00",
+   "summary": "",
+   "models": [
+    "Gemini"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "google"
+   ],
+   "press": false,
+   "heat": 21,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [
+    "Yahoo"
+   ],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "網頁版 Gemini 於 Chrome 可能佔用太多 RAM Google 稱問題已經被解決 - PC3 Magazine",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "AI 設計 AI ！AMD 攜手 OpenAI 刷新半導體研發效率：一年工作量五個月完成，揭開晶片設計自動化量產新紀元 - T客邦",
+   "source": "T客邦",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObl9aeHRydjhuV2ZLU3o4VnVfVkVkZ0VqQlg2VWZXM3Q4T1pyajlQY0QyNDhwY0ZmSF8wbUVVSmJQQjNHRjhSZ3plRGxsM0pLVnVEcHU2OWZqY1EyN2tWeVhwdVBjVVRjV1g3ZHdHM3ozVjZlM1c2M0k2RXpXLVhXV3pwb2RXUQ?oc=5",
+   "date": "2026-11-28 08:30",
+   "publishedAt": "2026-11-28T08:30:00+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "AI 設計 AI ！AMD 攜手 OpenAI 刷新半導體研發效率：一年工作量五個月完成，揭開晶片設計自動化量產新紀元 - T客邦",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Claude Opt Out of Training: Settings vs HN (Nov 2026) - explainx.ai",
+   "source": "explainx.ai",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWkMxeF9wbm1pMEs1NlFUbVQwX0ZDUlE4TzBCb2dreHZNZjRrNGp4MDF1d2t4V0xHRUJMOVE5TkhQaXlwYUh0S3Q3Rk5WSzEwb3FEYU5UQ0R2ZVpUaEZyQmxWRkZ5MldrT1lPTk5wZ05pbzQxZlp5RWpvbEJQcnduNE1nZkFXYUJtUnR0c1hhUXdvenRDS0E1TWtEZTFIM29oOFE?oc=5",
+   "date": "2026-11-28 08:00",
+   "publishedAt": "2026-11-28T08:00:00+08:00",
+   "summary": "",
+   "models": [
+    "Claude"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Claude Opt Out of Training: Settings vs HN (Nov 2026) - explainx.ai",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Did Claude Sabotage ML Training? Claims vs Facts (2026) - explainx.ai",
+   "source": "explainx.ai",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQckJ1bEx4bXF5NURZbzJlSWJsQU9hRzB1NldBbi1vZXhRS2JweUxsU2haVkxzZkZtdTJQN0haRk1GNTZXcGZVQW4zZnF4TXUxQ3B6eUtjb1Y2RWNoalFPSkdOVXhSMndyaWprNlVYUWJLazhXeG9YS3RpVjd1eDFHa2NEeGpaLXRWbVV3QzdHbzgyU1Z4eGFCSzRNNWlRdUNB?oc=5",
+   "date": "2026-11-28 08:00",
+   "publishedAt": "2026-11-28T08:00:00+08:00",
+   "summary": "",
+   "models": [
+    "Claude"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 21,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 1,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Did Claude Sabotage ML Training? Claims vs Facts (2026) - explainx.ai",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "OpenAI 反告蘋果竊密，指前員工帶走裝置資料、施壓供應商 - 鏈新聞 ABMedia",
+   "source": "鏈新聞 ABMedia",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBxUTBaMjlyanM3TVpoeDZkOVNtTmlWTWlMcWZZZ0t2ZGZreXpQaVFZMkdZU0NZazVyYThyTVk1MDNucUdobVhla3JkWWxvbHY3amlXYldEaXdWZHV3cVlpSlRrTm1OejBa?oc=5",
+   "date": "2026-11-28 07:43",
+   "publishedAt": "2026-11-28T07:43:44+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "other"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "OpenAI 反告蘋果竊密，指前員工帶走裝置資料、施壓供應商 - 鏈新聞 ABMedia",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "The Viral Gemini Neon Benchmark Claim: What Checks Out - FourWeekMBA",
+   "source": "FourWeekMBA",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWDZSRktTTWdmVHRMc3I4UHctS1ZhVUxZRmY5U3dXU2s5OFBOa2x4RGpWOUZiaGtjMTJPeURuZ1Z3SWFRUHhEOTEtRHVfSlVSSkN5TGpOQnIxaXJYNW5UeTVVUlBNS3dpMmowa2pfVG9iRnB0RWE0UjgtNnlXQnFFNVlBVmhDTWFa?oc=5",
+   "date": "2026-11-28 07:43",
+   "publishedAt": "2026-11-28T07:43:22+08:00",
+   "summary": "",
+   "models": [
+    "Gemini"
+   ],
+   "tag": "研究",
+   "camps": [
+    "google"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "The Viral Gemini Neon Benchmark Claim: What Checks Out - FourWeekMBA",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Rigorous Multi-Seed Testing Reassesses Transformer Robustness Against Low-Rate Training Data Poisoning - Bioengineer.org",
+   "source": "Bioengineer.org",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMVlMaGZBc3A1UzJubFhkZlF6Rm8zYU80VjkwSGVCYVpNQ1ZuVXk1RmtQVWk3YWYzRlVlY2VlR0R3NFdnWXluWllaRFVldTJ0OG8yRHJRaFZ4cHR1RDdkVG9VWHVQS3JDcVVyeWc2UUY0aTBlSHZLOFVqYTNxa3UyYlZObVhLdk4xUXhMM1JqN09TTm5tdXJ6WTNULV9WUzJpeER6bFplSGJkdlp5cUwzRXVkNzZmQWlYd3Z6T2dETExDZ3M2eWc?oc=5",
+   "date": "2026-11-28 07:22",
+   "publishedAt": "2026-11-28T07:22:20+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Rigorous Multi-Seed Testing Reassesses Transformer Robustness Against Low-Rate Training Data Poisoning - Bioengineer.org",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Claude Student Discount 2026: Free Routes, No Fake Codes - Fello AI",
+   "source": "Fello AI",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5Cc21EMUxKT2xvTHJwbG1zTTlYT3RoMS1kRUNoSFhpVTFRSk9hTVRiUGlzWXRFTHRQUTVURnVsNVF3UVlPdHFQVWd4bVQ0a1hja3dta0ZNdw?oc=5",
+   "date": "2026-11-28 07:07",
+   "publishedAt": "2026-11-28T07:07:30+08:00",
+   "summary": "",
+   "models": [
+    "Claude"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 13,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Claude Student Discount 2026: Free Routes, No Fake Codes - Fello AI",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "OpenAI 反告蘋果施壓供應商阻發展硬件 - 信報網站",
+   "source": "信報網站",
+   "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNZ29ZdTlFUndHWFVuclByLUJyWTlJS2o0MEF0S2hZX0RDMTRVNFRSNEt3OXphY2NXZXJUNm1EcWpnVDhIcDM5MWkwNnJLdGt2emduYjZQci1Zdzlnc0NMa0dTelBvLUdTX3hZcF9NZFYyOExnanU5QzVSLUNKUUFUUzlPMzBvWTJzZjJfSGRORGt5eGNzSnEyMGxKcm5vVDZnRkhxbTV6UTFSMDRCQjlCVFBlcS1DdE9LTU5jR2EtMW1zZm5oZDVQOWRtMFhacjNfRnNJSFNlMG0xY294WFljTENCTG04VXlGMl8wMkxvUXhnajF1V0hkYkY3eXRRdzQzM0gxT193R1lKbG9YWWhsMzVNVQ?oc=5",
+   "date": "2026-11-28 06:17",
+   "publishedAt": "2026-11-28T06:17:11+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "other"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "OpenAI 反告蘋果施壓供應商阻發展硬件 - 信報網站",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "GNOME 的 AI 政策遭撤回，Broady Robertson 稱 Red Hat 警告此舉將把合作夥伴推向 KDE - BigGo 財經",
+   "source": "BigGo 財經",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE02dk5RQzVmUjdjUDFjVm5WRUtkQ2hXZm5NNThRcEJnV3F5b0huX2padHJBUUpjNUNFbl9fUlhVUkY2cVBVTGlaRlpsaEFhemZUSC1zWnRnTHR2ZVlfVUw4?oc=5",
+   "date": "2026-11-28 06:08",
+   "publishedAt": "2026-11-28T06:08:00+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "商業",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "GNOME 的 AI 政策遭撤回，Broady Robertson 稱 Red Hat 警告此舉將把合作夥伴推向 KDE - BigGo 財經",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Cisco and OpenAI Team Up to Launch \"Shirudo\" Open-Source Project to Fight AI Attacks at Machine Speed - Mashdigi",
+   "source": "Mashdigi",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE84Y010Z2ptTVdWX1ZHMExvZThsUlRNeDZWb01naGtTbl9qWDd5YXNjZFVIRTlGRi1nd3dHeXd0SzBGN1BoWmVqQ01icjBwS0JWb2pBZlpUUk44VXRISjVMaUdfemxXMUZrbGFCeVphZDBQeUlBMGExRl93?oc=5",
+   "date": "2026-11-28 06:03",
+   "publishedAt": "2026-11-28T06:03:40+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Cisco and OpenAI Team Up to Launch \"Shirudo\" Open-Source Project to Fight AI Attacks at Machine Speed - Mashdigi",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "黃仁勳回鍋；AI 總體檢｜本週回顧｜The Real Eisman Playbook - BigGo 財經",
+   "source": "BigGo 財經",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9xZnA5NzNTTzIxWVRuTXpMM2V0aEI5R29yZy1rUi02ZTlETVdTa2pwYTEzSVozbVZrRE1OdzNEdmVEMl83Snh3WHNLbnlUcVMyaXlfeVRKa3ZhZUlQY2NsdUpxdw?oc=5",
+   "date": "2026-11-28 05:58",
+   "publishedAt": "2026-11-28T05:58:51+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "黃仁勳回鍋；AI 總體檢｜本週回顧｜The Real Eisman Playbook - BigGo 財經",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "ChatGPT 可能將在 Android 應用中實現撥打電話及發送短信功能 - Techritual",
+   "source": "Techritual",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB4cTU3YkZUN0lSR0J1ZjVGR2h3TndFYk9MZklYbVE1YWkzOUtaNUdMWGVURDVWVXFIWW1FNjJWYlJvNG9nWkhNNldQOUFoT04wcVptb0xzTWk?oc=5",
+   "date": "2026-11-28 05:53",
+   "publishedAt": "2026-11-28T05:53:35+08:00",
+   "summary": "",
+   "models": [
+    "ChatGPT"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "ChatGPT 可能將在 Android 應用中實現撥打電話及發送短信功能 - Techritual",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "GMKtec EVO-X2 AMD Ryzen AI Max+ Strix Halo Mini PC Review - Phoronix",
+   "source": "Phoronix",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBFSGRKVElROG9va3ZSSU1oaHFwZUdPSUF6ZGstaTJxZGYtdnYzTl84akdaYUR2UmdwbmppbHNzdHdYbGJLcXdxbG9Nc1d2dkJPd0dPYUNvdlFyalE?oc=5",
+   "date": "2026-11-28 05:33",
+   "publishedAt": "2026-11-28T05:33:00+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "other"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "GMKtec EVO-X2 AMD Ryzen AI Max+ Strix Halo Mini PC Review - Phoronix",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Google DeepMind Releases Mass Spectrometry AI Tools - Wisevoter",
+   "source": "Wisevoter",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPd3VKZWtsWkdjRTU4aTVWQTBnYl9iN2Nham1VZ01aN1RybDI1NFNjRzY2TUM1U3JIbkRkUkZvbllKdnFhcUppcFJqNEpXcXhObUtMTkZrUm5WeWVtNnhFeWNDRnc5dUZUbE9sRU9kZFlYU1hkbnVnVlhaMnBVUTJaUUtmUDIxanRo?oc=5",
+   "date": "2026-11-28 05:23",
+   "publishedAt": "2026-11-28T05:23:06+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "google"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Google DeepMind Releases Mass Spectrometry AI Tools - Wisevoter",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Claude accused of sabotaging ML research, an Anthropic employee responds - Pasquale Pillitteri",
+   "source": "Pasquale Pillitteri",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUnRYbW5ITG5uMU5ra3JyeWtHLTBZamx5alM2QTJQay1LSnd1Q2RadG5SQVo2OUZCcEZTQ05nc0wtdzJEb0gtbmlCNy05a09TRXRWYk9JMjNGY3VRWXE2UC1PcS0tWTdDTTN2MC05aVZOZ2NENEt6SHJaN29zSUVJX25ONWN5MHRFXzNWRUF3Z2RpamhFczBiN0VwWUMtcDF4TlE5M0J5MHVQNGIyRGc?oc=5",
+   "date": "2026-11-28 05:13",
+   "publishedAt": "2026-11-28T05:13:18+08:00",
+   "summary": "",
+   "models": [
+    "Claude"
+   ],
+   "tag": "研究",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Claude accused of sabotaging ML research, an Anthropic employee responds - Pasquale Pillitteri",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "OpenAI 反訴 Apple 涉貿易秘密爭端及供應商壓力問題 - Techritual",
+   "source": "Techritual",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE84c19XekNDT3JNTUt3NGF4Mk9kV2V1LTRvMUFWSXFxSklVRFpGZzZpaGJNWG5PWFlITmhhU05QMHVJajZLNGV1TUtPVF8tTmVRTDN4WXl1c1I?oc=5",
+   "date": "2026-11-28 04:51",
+   "publishedAt": "2026-11-28T04:51:42+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "other"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "OpenAI 反訴 Apple 涉貿易秘密爭端及供應商壓力問題 - Techritual",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "【OpenAI｜AAPL】OpenAI入稟反訴蘋果 指竊取AI裝置機密 向供應商施壓兼限制人才流動 - 香港經濟日報HKET",
+   "source": "香港經濟日報HKET",
+   "url": "https://news.google.com/rss/articles/CBMi6gNBVV95cUxOSTlrMU16Zl9XYngyQTFMVjdhOUVFU2RGV1pYYmFTOHlDTVNGMUd6UDFBNk9ERFllUXJ2MktLdlZmc3dMM25uVXAxaFdTN05YZWwwQXcxU0VzWWRmelpiM18wOEVfdHVCX3daRFZpVjFqWUtPWGFqUFdOb0tKcl85bVhsbjgyM20zempMWHFoanhacEhuTmJ4TzU1M3I2Ui1OczRoOHBBZUhKWUk4dV85VWtydXFsSHFVcHpYWTk5d0dHZEZ1NjgwcUpUdHJZMkF2TGRKYUlOdW9LaDBZZkd1UW1HMXZ4dnAzTGtBcldNdjZrQ3JuU19KQWIxNDE0RnI5NHV4ZEFsVXBLZEdQRW9vZWNXYTJXbzZPQVpDWnljdUUxOVdWUFZzWVNKRVJhOFVEZnNETGlDenNubm82N1JPY0dIRl92MnBCXzZhRW4ySmF2N1pRaFkyOWF3YWVkY1BpTEt4RkxlZmEwMDduemItdFJzeE8yWjJQZGJnVUk4VC1INzN0M3hFcnhNeVA4ckJrZklSSHB5NnZDT2E2RklVS015OGRYaHdzNEtLa1pfRnFYM2lBSEo3RVNZNm9VcC1JejFXdDljaHdZbURLVDFiNURQQmxTNTlpT3lRUFM0RWlfS3VBUlRLQkh3?oc=5",
+   "date": "2026-11-28 04:48",
+   "publishedAt": "2026-11-28T04:48:09+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "openai",
+    "other"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "【OpenAI｜AAPL】OpenAI入稟反訴蘋果 指竊取AI裝置機密 向供應商施壓兼限制人才流動 - 香港經濟日報HKET",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "OpenAI驚傳大當機！ChatGPT、API等服務全癱瘓 用戶崩潰 - 三立新聞",
+   "source": "三立新聞",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5xYnpSZG8zWHd4bV8xODI2S1oySTdKcUxYRVpkdXpJNng5aTNYOTAzUWlubWRXRHIxMHBjWVZlSDZPZE0tSE9SWtIBTEFVX3lxTE5hNEdETmJOd1B1OEp3N0hyWXZmNHhWUDBVMHMxS2dyUUdCS2c1bjE1RWRUeFNlX0hsYkxfOVRDM1lZaXhSMkJhbGZ0NEo?oc=5",
+   "date": "2026-11-28 04:37",
+   "publishedAt": "2026-11-28T04:37:55+08:00",
+   "summary": "",
+   "models": [
+    "ChatGPT"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "openai"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "OpenAI驚傳大當機！ChatGPT、API等服務全癱瘓 用戶崩潰 - 三立新聞",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "美股異動 | 小摩稱AI概念股拋售接近尾聲 Anthropic(ANT.US)盤前漲逾3% 作者 智通財經 - Investing.com 香港 - 股市報價& 財經新聞",
+   "source": "Investing.com 香港 - 股市報價& 財經新聞",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5zREJDUndLSWIyUFRYVTA1VzRBeVB3bmJEV0dEZ0V5QWJvQ19kb0ZlMXc2VXB0dzViTkVZUTcxTnpmRkYzYkdPZEY1ZTdpdy1aV0JPQjN4ZDE1Vmt3NWxqcVBoOTg2Qk5uUkNUYnpQWDY?oc=5",
+   "date": "2026-11-28 04:01",
+   "publishedAt": "2026-11-28T04:01:21+08:00",
+   "summary": "",
+   "models": [],
+   "tag": "產品發表",
+   "camps": [
+    "anthropic"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "美股異動 | 小摩稱AI概念股拋售接近尾聲 Anthropic(ANT.US)盤前漲逾3% 作者 智通財經 - Investing.com 香港 - 股市報價& 財經新聞",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Gemini Robotics 2.5 and Apollo 2 humanoids sort parts at Mercedes-Benz - Foro3D",
+   "source": "Foro3D",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNYVJqTHRmSzh0LVlZYi1lN2pjOFZPbjNDaFNWdzBvSGQxcXNrQVpWZjAwWThQbFFPVTlncWxIUDdVaG5DNDVPZTJaczJ0Zkl1ODNVLTdFU3pQVVpiVXYtWGd1US1yZDhNN20wS2NDRzRkbTFNM0NkaG1mRm55UmNDUlJJQWluZEpmS0hFOTI5amxXNGdWNWpIX2ZXSl9RcXZWWFM0N3U5SDM1dXBpVHlCUEpR?oc=5",
+   "date": "2026-11-28 03:43",
+   "publishedAt": "2026-11-28T03:43:41+08:00",
+   "summary": "",
+   "models": [
+    "Gemini"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "google"
+   ],
+   "press": false,
+   "heat": 12,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Gemini Robotics 2.5 and Apollo 2 humanoids sort parts at Mercedes-Benz - Foro3D",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "AI 狂潮席捲黑色購物季：從 Gemini 逼近 ChatGPT 到 TikTok Shop 暴衝，零售版圖大改寫 - CMoney投資網誌",
+   "source": "CMoney投資網誌",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUy12NTktRFN2dWI5bU56SW5FdFdiSUVaMlR2bGJwWGlBVm5DM1E3b0Z1LXV0alBFbmV3VkVwODMwa2JQekhFeFkxWkpUeXNrdEpDSUo3eWdLWDFfWjJtMTlYNDBLUjNjdVRvQ3htM3hLUkF1QldmNUJkaU40UmxUMUlDZndzN3BMSllnNUJn?oc=5",
+   "date": "2026-11-28 03:00",
+   "publishedAt": "2026-11-28T03:00:23+08:00",
+   "summary": "",
+   "models": [
+    "ChatGPT",
+    "Gemini"
+   ],
+   "tag": "商業",
+   "camps": [
+    "openai",
+    "google"
+   ],
+   "press": false,
+   "heat": 11,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "AI 狂潮席捲黑色購物季：從 Gemini 逼近 ChatGPT 到 TikTok Shop 暴衝，零售版圖大改寫 - CMoney投資網誌",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Google Messages 新功能持續推出，包括 Gemini 任務升級及首頁重新設計 - Techritual",
+   "source": "Techritual",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1fNGR5T2dmQzEwQi1KRlNXeE50X2pBTk9sZE5qRXJMRGZuaDVqQmRwYXM5cWtjdWRueVRYd2Fsa25BekljT1lUb20zWHo1TG1ZSEZfU2FReHc?oc=5",
+   "date": "2026-11-28 02:52",
+   "publishedAt": "2026-11-28T02:52:33+08:00",
+   "summary": "",
+   "models": [
+    "Gemini"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "google"
+   ],
+   "press": false,
+   "heat": 11,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "zh",
+   "i18n": {
+    "zh-TW": {
+     "title": "Google Messages 新功能持續推出，包括 Gemini 任務升級及首頁重新設計 - Techritual",
+     "summary": ""
+    }
+   }
+  }
+ ]
+}

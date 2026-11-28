@@ -1,0 +1,133 @@
+{
+ "channel": "dgx",
+ "version": "v26",
+ "fetchedAt": "2026-11-28T14:47:18.006316+08:00",
+ "edition": "2026-11-28",
+ "count": 3,
+ "languages": [
+  "zh-TW",
+  "zh-CN",
+  "en",
+  "ja",
+  "ko",
+  "de",
+  "es",
+  "fr",
+  "it"
+ ],
+ "byGroup": {
+  "asus": 0,
+  "acer": 0,
+  "hp": 0,
+  "msi": 0,
+  "dell": 1,
+  "lenovo": 1,
+  "gigabyte": 0,
+  "microsoft": 0,
+  "nvidia": 1
+ },
+ "byLine": {},
+ "items": [
+  {
+   "title": "Strix Halo 128GB, 지금 사도 될까?",
+   "source": "YouTube · 로컬리 - locally",
+   "url": "https://www.youtube.com/watch?v=5t6PFgJx0cQ",
+   "date": "2026-11-28 11:29",
+   "publishedAt": "2026-11-28T11:29:53+08:00",
+   "summary": "128GB 통합 메모리를 넣은 AMD 라이젠 AI 맥스+ 395(Strix Halo) 미니PC와 노트북, ROCm 10 개편과 AI 에이전트 세팅 보급 이후 무엇이 달라졌는지 정리했습니다. Qwen 3.8·Gemma 4 추론과 이미지·영상 생성 속도, 맥 스튜디오 M1~M5 Max·Ultra 세대 비교와 128GB 가격 추이, DGX Spark와의 프리필·",
+   "models": [
+    "DGX Spark"
+   ],
+   "tag": "影片",
+   "camps": [
+    "nvidia"
+   ],
+   "press": false,
+   "heat": 100,
+   "image": "https://i.ytimg.com/vi/5t6PFgJx0cQ/mqdefault.jpg",
+   "views": 110122,
+   "comments": 124,
+   "dupes": 30,
+   "also": [
+    "YouTube · Alec's Hud",
+    "YouTube · Nerd Zero",
+    "YouTube · Code Hub",
+    "YouTube · Motivational_codes2.0",
+    "YouTube · frugle 1.7M",
+    "YouTube · WikiWayne"
+   ],
+   "lines": [],
+   "score": 530,
+   "lang": "ko",
+   "i18n": {
+    "ko": {
+     "title": "Strix Halo 128GB, 지금 사도 될까?",
+     "summary": "128GB 통합 메모리를 넣은 AMD 라이젠 AI 맥스+ 395(Strix Halo) 미니PC와 노트북, ROCm 10 개편과 AI 에이전트 세팅 보급 이후 무엇이 달라졌는지 정리했습니다. Qwen 3.8·Gemma 4 추론과 이미지·영상 생성 속도, 맥 스튜디오 M1~M5 Max·Ultra 세대 비교와 128GB 가격 추이, DGX Spark와의 프리필·"
+    }
+   }
+  },
+  {
+   "title": "Bawa NVIDIA GB10 Superchip ke Meja Kantor, Ini Spesifikasi Lenovo ThinkStation PGX - TradingView",
+   "source": "TradingView",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBlZmNiS1B2TWRuSzNmWUxyNE1sc1ljcnp2bUpqemRqUEc0R3Rja3RLdFA2Q2k4LUtGZUhNcml2T0luOExhbjJSZG9wMV95N1VDSlN0TVZjWTJmNnBDYngxMDRTLU55Sk0?oc=5",
+   "date": "2026-11-26 15:12",
+   "publishedAt": "2026-11-26T15:12:00+08:00",
+   "summary": "",
+   "models": [
+    "GB10",
+    "ThinkStation PGX"
+   ],
+   "tag": "產品發表",
+   "camps": [
+    "lenovo"
+   ],
+   "press": false,
+   "heat": 8,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Bawa NVIDIA GB10 Superchip ke Meja Kantor, Ini Spesifikasi Lenovo ThinkStation PGX - TradingView",
+     "summary": ""
+    }
+   }
+  },
+  {
+   "title": "Dell Pro Precision with GB10 Review: 64GB Matches 128GB on Every Test That Fits",
+   "source": "StorageReview",
+   "url": "https://www.storagereview.com/review/dell-pro-precision-with-gb10-review-64gb-vs-128gb",
+   "date": "2026-11-26 05:43",
+   "publishedAt": "2026-11-26T05:43:09+08:00",
+   "summary": "",
+   "models": [
+    "GB10"
+   ],
+   "tag": "開箱評測",
+   "camps": [
+    "dell"
+   ],
+   "press": false,
+   "heat": 6,
+   "image": "",
+   "views": 0,
+   "comments": 0,
+   "dupes": 0,
+   "also": [],
+   "lines": [],
+   "score": null,
+   "lang": "en",
+   "i18n": {
+    "en": {
+     "title": "Dell Pro Precision with GB10 Review: 64GB Matches 128GB on Every Test That Fits",
+     "summary": ""
+    }
+   }
+  }
+ ]
+}
